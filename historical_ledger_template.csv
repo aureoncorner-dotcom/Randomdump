@@ -1,0 +1,1 @@
+source_id,source_record_id,event_family,event_subtype,start_time_lower,start_time_upper,end_time_lower,end_time_upper,time_precision,location_scope,severity_primary,severity_secondary,source_version,source_record_hash,inclusion_rule_id,native_event_name_masked,notes

@@ -1,0 +1,2622 @@
+{
+  "protocol_sha256": "091a1faa6b523ec710babc19e97d44c5666fb7bde36874d9f38a76d76f8324f2",
+  "module_count": 61,
+  "family_count": 16,
+  "daily_states": 739855,
+  "directed": {
+    "witness": "W_DIR",
+    "n_controls": 500,
+    "seed": 437113,
+    "observed": {
+      "valid_days": 724920,
+      "max_tuple": [
+        2,
+        2,
+        2,
+        4.704870700836182
+      ],
+      "max_time": "1223-05-06T12:00:00Z",
+      "max_index": 446451,
+      "max_omega": 4.733113765716553,
+      "max_k01": 3,
+      "max_k001": 2,
+      "max_k0001": 2,
+      "days_k01_ge2": 16263,
+      "days_k01_ge3": 481,
+      "days_k001_ge2": 193,
+      "days_k0001_ge2": 2,
+      "episodes_k01_ge2": 2455,
+      "episodes_k01_ge3": 133,
+      "episodes_k001_ge2": 83,
+      "episodes_k0001_ge2": 2,
+      "days_k01_ge2_rate_per_100k": 2243.4199635821883,
+      "days_k01_ge3_rate_per_100k": 66.35214920267065,
+      "days_k001_ge2_rate_per_100k": 26.62362743475142,
+      "days_k0001_ge2_rate_per_100k": 0.2758925122772168,
+      "episodes_k01_ge2_rate_per_100k": 338.6580588202836,
+      "episodes_k01_ge3_rate_per_100k": 18.346852066434916,
+      "episodes_k001_ge2_rate_per_100k": 11.449539259504498,
+      "episodes_k0001_ge2_rate_per_100k": 0.2758925122772168
+    },
+    "comparisons": {
+      "max_omega": {
+        "observed": 4.733113765716553,
+        "control_median": 5.063805818557739,
+        "control_q90": 5.785065937042236,
+        "control_q95": 6.108855915069579,
+        "control_q99": 6.738963747024536,
+        "control_max": 8.084997177124023,
+        "controls_ge_observed": 403,
+        "empirical_p_ge_observed": 0.8063872255489022
+      },
+      "max_k01": {
+        "observed": 3.0,
+        "control_median": 4.0,
+        "control_q90": 4.0,
+        "control_q95": 5.0,
+        "control_q99": 5.0,
+        "control_max": 5.0,
+        "controls_ge_observed": 500,
+        "empirical_p_ge_observed": 1.0
+      },
+      "max_k001": {
+        "observed": 2.0,
+        "control_median": 2.0,
+        "control_q90": 3.0,
+        "control_q95": 3.0,
+        "control_q99": 3.0,
+        "control_max": 3.0,
+        "controls_ge_observed": 500,
+        "empirical_p_ge_observed": 1.0
+      },
+      "max_k0001": {
+        "observed": 2.0,
+        "control_median": 2.0,
+        "control_q90": 2.0,
+        "control_q95": 2.0,
+        "control_q99": 2.0,
+        "control_max": 3.0,
+        "controls_ge_observed": 336,
+        "empirical_p_ge_observed": 0.6726546906187625
+      },
+      "days_k01_ge2_rate_per_100k": {
+        "observed": 2243.4199635821883,
+        "control_median": 3218.315218138916,
+        "control_q90": 3386.870248625865,
+        "control_q95": 3430.355252413259,
+        "control_q99": 3505.5625226853344,
+        "control_max": 3654.260475764602,
+        "controls_ge_observed": 500,
+        "empirical_p_ge_observed": 1.0
+      },
+      "days_k01_ge3_rate_per_100k": {
+        "observed": 66.35214920267065,
+        "control_median": 136.4049836219792,
+        "control_q90": 160.70687538683413,
+        "control_q95": 168.99504517560501,
+        "control_q99": 191.9896054899484,
+        "control_max": 207.13899179373465,
+        "controls_ge_observed": 500,
+        "empirical_p_ge_observed": 1.0
+      },
+      "days_k001_ge2_rate_per_100k": {
+        "observed": 26.62362743475142,
+        "control_median": 28.2012627546086,
+        "control_q90": 35.171194524252044,
+        "control_q95": 37.28919190752892,
+        "control_q99": 42.71459196122647,
+        "control_max": 45.07255429225656,
+        "controls_ge_observed": 319,
+        "empirical_p_ge_observed": 0.6387225548902196
+      },
+      "days_k0001_ge2_rate_per_100k": {
+        "observed": 0.2758925122772168,
+        "control_median": 0.13911282188968074,
+        "control_q90": 0.5546270968162754,
+        "control_q95": 0.6955641094484037,
+        "control_q99": 1.1120322449039708,
+        "control_max": 1.3894871402965165,
+        "controls_ge_observed": 185,
+        "empirical_p_ge_observed": 0.3712574850299401
+      },
+      "episodes_k01_ge2_rate_per_100k": {
+        "observed": 338.6580588202836,
+        "control_median": 472.07936108263164,
+        "control_q90": 486.90504155423093,
+        "control_q95": 491.50208791885035,
+        "control_q99": 496.57152028738017,
+        "control_max": 507.90091271922444,
+        "controls_ge_observed": 500,
+        "empirical_p_ge_observed": 1.0
+      },
+      "episodes_k01_ge3_rate_per_100k": {
+        "observed": 18.346852066434916,
+        "control_median": 33.23809545316371,
+        "control_q90": 37.154681570481436,
+        "control_q95": 38.11383050069337,
+        "control_q99": 41.04245584211251,
+        "control_max": 45.76811840170497,
+        "controls_ge_observed": 500,
+        "empirical_p_ge_observed": 1.0
+      },
+      "episodes_k001_ge2_rate_per_100k": {
+        "observed": 11.449539259504498,
+        "control_median": 12.659266791960949,
+        "control_q90": 14.320458777469563,
+        "control_q95": 14.75140517999537,
+        "control_q99": 15.58202717986314,
+        "control_max": 16.396495040755017,
+        "controls_ge_observed": 397,
+        "empirical_p_ge_observed": 0.7944111776447106
+      },
+      "episodes_k0001_ge2_rate_per_100k": {
+        "observed": 0.2758925122772168,
+        "control_median": 0.13911282188968074,
+        "control_q90": 0.2782256437793615,
+        "control_q95": 0.41733846566904226,
+        "control_q99": 0.5578424157776185,
+        "control_max": 0.6955641094484037,
+        "controls_ge_observed": 153,
+        "empirical_p_ge_observed": 0.3073852295409182
+      },
+      "max_tuple_lexicographic": {
+        "observed": [
+          2,
+          2,
+          2,
+          4.704870700836182
+        ],
+        "controls_ge_observed": 235,
+        "empirical_p": 0.47105788423153694
+      }
+    },
+    "episode_definition": "maximal contiguous eligible daily run with edge-distinct K01>=2",
+    "phase_shift_rule": "one circular shift per source family; family exclusion windows shift with family"
+  },
+  "shell": {
+    "witness": "W_SHELL",
+    "n_controls": 500,
+    "seed": 437113,
+    "observed": {
+      "valid_days": 724920,
+      "max_tuple": [
+        2,
+        2,
+        2,
+        5.45499324798584
+      ],
+      "max_time": "0446-01-15T12:00:00Z",
+      "max_index": 162547,
+      "max_omega": 5.45499324798584,
+      "max_k01": 4,
+      "max_k001": 2,
+      "max_k0001": 2,
+      "days_k01_ge2": 16865,
+      "days_k01_ge3": 494,
+      "days_k001_ge2": 174,
+      "days_k0001_ge2": 1,
+      "episodes_k01_ge2": 3336,
+      "episodes_k01_ge3": 156,
+      "episodes_k001_ge2": 87,
+      "episodes_k0001_ge2": 1,
+      "days_k01_ge2_rate_per_100k": 2326.4636097776306,
+      "days_k01_ge3_rate_per_100k": 68.14545053247255,
+      "days_k001_ge2_rate_per_100k": 24.002648568117863,
+      "days_k0001_ge2_rate_per_100k": 0.1379462561386084,
+      "episodes_k01_ge2_rate_per_100k": 460.18871047839764,
+      "episodes_k01_ge3_rate_per_100k": 21.51961595762291,
+      "episodes_k001_ge2_rate_per_100k": 12.001324284058931,
+      "episodes_k0001_ge2_rate_per_100k": 0.1379462561386084
+    },
+    "comparisons": {
+      "max_omega": {
+        "observed": 5.45499324798584,
+        "control_median": 5.179592609405518,
+        "control_q90": 5.880961894989014,
+        "control_q95": 6.1945051670074465,
+        "control_q99": 6.594542245864868,
+        "control_max": 7.336111068725586,
+        "controls_ge_observed": 153,
+        "empirical_p_ge_observed": 0.3073852295409182
+      },
+      "max_k01": {
+        "observed": 4.0,
+        "control_median": 4.0,
+        "control_q90": 4.0,
+        "control_q95": 5.0,
+        "control_q99": 5.0,
+        "control_max": 5.0,
+        "controls_ge_observed": 500,
+        "empirical_p_ge_observed": 1.0
+      },
+      "max_k001": {
+        "observed": 2.0,
+        "control_median": 2.0,
+        "control_q90": 3.0,
+        "control_q95": 3.0,
+        "control_q99": 3.0,
+        "control_max": 4.0,
+        "controls_ge_observed": 500,
+        "empirical_p_ge_observed": 1.0
+      },
+      "max_k0001": {
+        "observed": 2.0,
+        "control_median": 2.0,
+        "control_q90": 2.0,
+        "control_q95": 2.0,
+        "control_q99": 2.0,
+        "control_max": 2.0,
+        "controls_ge_observed": 378,
+        "empirical_p_ge_observed": 0.7564870259481038
+      },
+      "days_k01_ge2_rate_per_100k": {
+        "observed": 2326.4636097776306,
+        "control_median": 3287.918321190067,
+        "control_q90": 3432.1072372259437,
+        "control_q95": 3463.5269924568,
+        "control_q99": 3564.006504915552,
+        "control_max": 3651.0160104946713,
+        "controls_ge_observed": 500,
+        "empirical_p_ge_observed": 1.0
+      },
+      "days_k01_ge3_rate_per_100k": {
+        "observed": 68.14545053247255,
+        "control_median": 140.62555638804523,
+        "control_q90": 161.80140631402696,
+        "control_q95": 169.43941706163116,
+        "control_q99": 178.88321923407955,
+        "control_max": 197.401094261457,
+        "controls_ge_observed": 500,
+        "empirical_p_ge_observed": 1.0
+      },
+      "days_k001_ge2_rate_per_100k": {
+        "observed": 24.002648568117863,
+        "control_median": 29.56147465155716,
+        "control_q90": 35.20521581181576,
+        "control_q95": 37.5604619102138,
+        "control_q99": 41.18267492628068,
+        "control_max": 48.828600483277945,
+        "controls_ge_observed": 465,
+        "empirical_p_ge_observed": 0.9301397205588823
+      },
+      "days_k0001_ge2_rate_per_100k": {
+        "observed": 0.1379462561386084,
+        "control_median": 0.13911282188968074,
+        "control_q90": 0.5564310844919581,
+        "control_q95": 0.6953357796100308,
+        "control_q99": 1.2506994328800287,
+        "control_max": 1.669353862676169,
+        "controls_ge_observed": 378,
+        "empirical_p_ge_observed": 0.7564870259481038
+      },
+      "episodes_k01_ge2_rate_per_100k": {
+        "observed": 460.18871047839764,
+        "control_median": 638.0292121321299,
+        "control_q90": 656.9607686177985,
+        "control_q95": 662.0957490201467,
+        "control_q99": 670.3860624417403,
+        "control_max": 677.72035980285,
+        "controls_ge_observed": 500,
+        "empirical_p_ge_observed": 1.0
+      },
+      "episodes_k01_ge3_rate_per_100k": {
+        "observed": 21.51961595762291,
+        "control_median": 44.794328648477205,
+        "control_q90": 49.37713883166405,
+        "control_q95": 50.282666967833244,
+        "control_q99": 52.777249940120896,
+        "control_max": 53.69754924941677,
+        "controls_ge_observed": 500,
+        "empirical_p_ge_observed": 1.0
+      },
+      "episodes_k001_ge2_rate_per_100k": {
+        "observed": 12.001324284058931,
+        "control_median": 15.213171142941466,
+        "control_q90": 17.249989914320413,
+        "control_q95": 17.945554023768818,
+        "control_q99": 18.78301321154469,
+        "control_max": 19.475795064555307,
+        "controls_ge_observed": 494,
+        "empirical_p_ge_observed": 0.9880239520958084
+      },
+      "episodes_k0001_ge2_rate_per_100k": {
+        "observed": 0.1379462561386084,
+        "control_median": 0.13911282188968074,
+        "control_q90": 0.41733846566904226,
+        "control_q95": 0.5560115236209662,
+        "control_q99": 0.6947268325433725,
+        "control_max": 0.8346769313380845,
+        "controls_ge_observed": 378,
+        "empirical_p_ge_observed": 0.7564870259481038
+      },
+      "max_tuple_lexicographic": {
+        "observed": [
+          2,
+          2,
+          2,
+          5.45499324798584
+        ],
+        "controls_ge_observed": 160,
+        "empirical_p": 0.3213572854291417
+      }
+    },
+    "episode_definition": "maximal contiguous eligible daily run with edge-distinct K01>=2",
+    "phase_shift_rule": "one circular shift per source family; family exclusion windows shift with family"
+  },
+  "directed_top_episodes": [
+    {
+      "witness": "W_DIR",
+      "start_index": 446443,
+      "end_index": 446461,
+      "duration_days": 19,
+      "peak_index": 446451,
+      "start_date": "1223-04-28T12:00:00Z",
+      "end_date": "1223-05-16T12:00:00Z",
+      "peak_date": "1223-05-06T12:00:00Z",
+      "peak_k0001": 2,
+      "peak_k001": 2,
+      "peak_k01": 2,
+      "peak_omega": 4.704870700836182,
+      "components": [
+        {
+          "component_p": 2.4329057850991376e-05,
+          "best_module_id": "m021",
+          "best_module_label": "Mercury\u2013Venus\u2013Mars triple node",
+          "families": [
+            "f07_2008_sep15",
+            "f12_1929_oct24"
+          ],
+          "module_ids": [
+            "m021",
+            "m043"
+          ],
+          "bodies": [
+            "Mercury",
+            "Venus",
+            "Mars"
+          ]
+        },
+        {
+          "component_p": 8.109686314128339e-05,
+          "best_module_id": "m040",
+          "best_module_label": "Mars/Neptune opposite Jupiter/Uranus bundle",
+          "families": [
+            "f11_1913_dec23"
+          ],
+          "module_ids": [
+            "m040"
+          ],
+          "bodies": [
+            "Mars",
+            "Neptune",
+            "Jupiter",
+            "Uranus"
+          ]
+        }
+      ],
+      "rank": 1
+    },
+    {
+      "witness": "W_DIR",
+      "start_index": 327703,
+      "end_index": 327738,
+      "duration_days": 36,
+      "peak_index": 327712,
+      "start_date": "0898-03-22T12:00:00Z",
+      "end_date": "0898-04-26T12:00:00Z",
+      "peak_date": "0898-03-31T12:00:00Z",
+      "peak_k0001": 2,
+      "peak_k001": 2,
+      "peak_k01": 2,
+      "peak_omega": 4.461832523345947,
+      "components": [
+        {
+          "component_p": 4.7306501073762774e-05,
+          "best_module_id": "m037",
+          "best_module_label": "Mercury\u2013Neptune\u2013Mars midpoint",
+          "families": [
+            "f10_1978_dec11"
+          ],
+          "module_ids": [
+            "m037"
+          ],
+          "bodies": [
+            "Mercury",
+            "Neptune",
+            "Mars"
+          ]
+        },
+        {
+          "component_p": 7.298717537196353e-05,
+          "best_module_id": "m062",
+          "best_module_label": "Apr 17 Mercury\u2013Jupiter\u2013Venus 30/60/90",
+          "families": [
+            "f15_1918_spring"
+          ],
+          "module_ids": [
+            "m062"
+          ],
+          "bodies": [
+            "Mercury",
+            "Jupiter",
+            "Venus"
+          ]
+        }
+      ],
+      "rank": 2
+    },
+    {
+      "witness": "W_DIR",
+      "start_index": 474362,
+      "end_index": 474384,
+      "duration_days": 23,
+      "peak_index": 474374,
+      "start_date": "1299-10-05T12:00:00Z",
+      "end_date": "1299-10-27T12:00:00Z",
+      "peak_date": "1299-10-17T12:00:00Z",
+      "peak_k0001": 1,
+      "peak_k001": 2,
+      "peak_k01": 3,
+      "peak_omega": 4.371789932250977,
+      "components": [
+        {
+          "component_p": 6.622910586884245e-05,
+          "best_module_id": "m032",
+          "best_module_label": "Jupiter\u2013Saturn 120 channel",
+          "families": [
+            "f09_1914_jun28"
+          ],
+          "module_ids": [
+            "m032"
+          ],
+          "bodies": [
+            "Jupiter",
+            "Saturn"
+          ]
+        },
+        {
+          "component_p": 0.00032438745256513357,
+          "best_module_id": "m010",
+          "best_module_label": "Venus\u2013Mars\u2013Pluto 60/90/150 triad",
+          "families": [
+            "f04_2023_oct07"
+          ],
+          "module_ids": [
+            "m010"
+          ],
+          "bodies": [
+            "Venus",
+            "Mars",
+            "Pluto"
+          ]
+        },
+        {
+          "component_p": 0.001977411797270179,
+          "best_module_id": "m037",
+          "best_module_label": "Mercury\u2013Neptune\u2013Mars midpoint",
+          "families": [
+            "f10_1978_dec11"
+          ],
+          "module_ids": [
+            "m037"
+          ],
+          "bodies": [
+            "Mercury",
+            "Neptune",
+            "Mars"
+          ]
+        }
+      ],
+      "rank": 3
+    },
+    {
+      "witness": "W_DIR",
+      "start_index": 333239,
+      "end_index": 333254,
+      "duration_days": 16,
+      "peak_index": 333246,
+      "start_date": "0913-05-19T12:00:00Z",
+      "end_date": "0913-06-03T12:00:00Z",
+      "peak_date": "0913-05-26T12:00:00Z",
+      "peak_k0001": 1,
+      "peak_k001": 2,
+      "peak_k01": 3,
+      "peak_omega": 3.3324737548828125,
+      "components": [
+        {
+          "component_p": 7.569040462840348e-05,
+          "best_module_id": "m048",
+          "best_module_label": "Pluto\u2013Saturn\u2013Mars midpoint",
+          "families": [
+            "f13_1947_nov29"
+          ],
+          "module_ids": [
+            "m048"
+          ],
+          "bodies": [
+            "Pluto",
+            "Saturn",
+            "Mars"
+          ]
+        },
+        {
+          "component_p": 0.0006366103771142662,
+          "best_module_id": "m037",
+          "best_module_label": "Mercury\u2013Neptune\u2013Mars midpoint",
+          "families": [
+            "f10_1978_dec11"
+          ],
+          "module_ids": [
+            "m037"
+          ],
+          "bodies": [
+            "Mercury",
+            "Neptune",
+            "Mars"
+          ]
+        },
+        {
+          "component_p": 0.009651877917349339,
+          "best_module_id": "m009",
+          "best_module_label": "Neptune\u2013Saturn double node",
+          "families": [
+            "f03_2026_feb28"
+          ],
+          "module_ids": [
+            "m009"
+          ],
+          "bodies": [
+            "Neptune",
+            "Saturn"
+          ]
+        }
+      ],
+      "rank": 4
+    },
+    {
+      "witness": "W_DIR",
+      "start_index": 71335,
+      "end_index": 71345,
+      "duration_days": 11,
+      "peak_index": 71340,
+      "start_date": "0196-04-23T12:00:00Z",
+      "end_date": "0196-05-03T12:00:00Z",
+      "peak_date": "0196-04-28T12:00:00Z",
+      "peak_k0001": 1,
+      "peak_k001": 2,
+      "peak_k01": 2,
+      "peak_omega": 4.733113765716553,
+      "components": [
+        {
+          "component_p": 5.406457603385206e-06,
+          "best_module_id": "m021",
+          "best_module_label": "Mercury\u2013Venus\u2013Mars triple node",
+          "families": [
+            "f07_2008_sep15"
+          ],
+          "module_ids": [
+            "m021"
+          ],
+          "bodies": [
+            "Mercury",
+            "Venus",
+            "Mars"
+          ]
+        },
+        {
+          "component_p": 0.00034195842454209924,
+          "best_module_id": "m061",
+          "best_module_label": "Apr 5 Saturn\u2013Neptune double node",
+          "families": [
+            "f15_1918_spring"
+          ],
+          "module_ids": [
+            "m061"
+          ],
+          "bodies": [
+            "Saturn",
+            "Neptune"
+          ]
+        }
+      ],
+      "rank": 5
+    },
+    {
+      "witness": "W_DIR",
+      "start_index": 234802,
+      "end_index": 234834,
+      "duration_days": 33,
+      "peak_index": 234821,
+      "start_date": "0643-11-14T12:00:00Z",
+      "end_date": "0643-12-16T12:00:00Z",
+      "peak_date": "0643-12-03T12:00:00Z",
+      "peak_k0001": 1,
+      "peak_k001": 2,
+      "peak_k01": 2,
+      "peak_omega": 4.679868221282959,
+      "components": [
+        {
+          "component_p": 1.0812915206770413e-05,
+          "best_module_id": "m070",
+          "best_module_label": "Neptune\u2013Uranus/Venus double-node bridge",
+          "families": [
+            "f15_1918_spring",
+            "f16_2020_mar11"
+          ],
+          "module_ids": [
+            "m060",
+            "m070"
+          ],
+          "bodies": [
+            "Neptune",
+            "Uranus",
+            "Venus"
+          ]
+        },
+        {
+          "component_p": 0.00019328085181768984,
+          "best_module_id": "m010",
+          "best_module_label": "Venus\u2013Mars\u2013Pluto 60/90/150 triad",
+          "families": [
+            "f04_2023_oct07"
+          ],
+          "module_ids": [
+            "m010"
+          ],
+          "bodies": [
+            "Venus",
+            "Mars",
+            "Pluto"
+          ]
+        }
+      ],
+      "rank": 6
+    },
+    {
+      "witness": "W_DIR",
+      "start_index": 47740,
+      "end_index": 47763,
+      "duration_days": 24,
+      "peak_index": 47752,
+      "start_date": "0131-09-17T12:00:00Z",
+      "end_date": "0131-10-10T12:00:00Z",
+      "peak_date": "0131-09-29T12:00:00Z",
+      "peak_k0001": 1,
+      "peak_k001": 2,
+      "peak_k01": 2,
+      "peak_omega": 3.9700264930725098,
+      "components": [
+        {
+          "component_p": 2.2977445041760802e-05,
+          "best_module_id": "m021",
+          "best_module_label": "Mercury\u2013Venus\u2013Mars triple node",
+          "families": [
+            "f07_2008_sep15"
+          ],
+          "module_ids": [
+            "m021"
+          ],
+          "bodies": [
+            "Mercury",
+            "Venus",
+            "Mars"
+          ]
+        },
+        {
+          "component_p": 0.0004663069557864219,
+          "best_module_id": "m070",
+          "best_module_label": "Neptune\u2013Uranus/Venus double-node bridge",
+          "families": [
+            "f16_2020_mar11"
+          ],
+          "module_ids": [
+            "m070"
+          ],
+          "bodies": [
+            "Neptune",
+            "Uranus",
+            "Venus"
+          ]
+        }
+      ],
+      "rank": 7
+    },
+    {
+      "witness": "W_DIR",
+      "start_index": 259123,
+      "end_index": 259142,
+      "duration_days": 20,
+      "peak_index": 259136,
+      "start_date": "0710-06-17T12:00:00Z",
+      "end_date": "0710-07-06T12:00:00Z",
+      "peak_date": "0710-06-30T12:00:00Z",
+      "peak_k0001": 1,
+      "peak_k001": 2,
+      "peak_k01": 2,
+      "peak_omega": 3.852029323577881,
+      "components": [
+        {
+          "component_p": 3.514197305776179e-05,
+          "best_module_id": "m021",
+          "best_module_label": "Mercury\u2013Venus\u2013Mars triple node",
+          "families": [
+            "f07_2008_sep15"
+          ],
+          "module_ids": [
+            "m021"
+          ],
+          "bodies": [
+            "Mercury",
+            "Venus",
+            "Mars"
+          ]
+        },
+        {
+          "component_p": 0.00040007784264162183,
+          "best_module_id": "m068",
+          "best_module_label": "Mars\u2013Jupiter\u2013Pluto\u2013Saturn symmetric compression",
+          "families": [
+            "f13_1947_nov29",
+            "f16_2020_mar11"
+          ],
+          "module_ids": [
+            "m048",
+            "m068"
+          ],
+          "bodies": [
+            "Mars",
+            "Jupiter",
+            "Pluto",
+            "Saturn"
+          ]
+        }
+      ],
+      "rank": 8
+    },
+    {
+      "witness": "W_DIR",
+      "start_index": 417809,
+      "end_index": 417840,
+      "duration_days": 32,
+      "peak_index": 417824,
+      "start_date": "1144-12-04T12:00:00Z",
+      "end_date": "1145-01-04T12:00:00Z",
+      "peak_date": "1144-12-19T12:00:00Z",
+      "peak_k0001": 1,
+      "peak_k001": 2,
+      "peak_k01": 2,
+      "peak_omega": 3.7515225410461426,
+      "components": [
+        {
+          "component_p": 6.758071685908362e-05,
+          "best_module_id": "m054",
+          "best_module_label": "Neptune\u2013Uranus\u2013Venus\u2013Mercury nested rail",
+          "families": [
+            "f14_2000_mar10"
+          ],
+          "module_ids": [
+            "m054"
+          ],
+          "bodies": [
+            "Neptune",
+            "Uranus",
+            "Venus",
+            "Mercury"
+          ]
+        },
+        {
+          "component_p": 0.00026221320149488747,
+          "best_module_id": "m035",
+          "best_module_label": "Jupiter\u2013Saturn\u2013Pluto midpoint",
+          "families": [
+            "f10_1978_dec11"
+          ],
+          "module_ids": [
+            "m035"
+          ],
+          "bodies": [
+            "Jupiter",
+            "Saturn",
+            "Pluto"
+          ]
+        }
+      ],
+      "rank": 9
+    },
+    {
+      "witness": "W_DIR",
+      "start_index": 168952,
+      "end_index": 168952,
+      "duration_days": 1,
+      "peak_index": 168952,
+      "start_date": "0463-07-30T12:00:00Z",
+      "end_date": "0463-07-30T12:00:00Z",
+      "peak_date": "0463-07-30T12:00:00Z",
+      "peak_k0001": 1,
+      "peak_k001": 2,
+      "peak_k01": 2,
+      "peak_omega": 3.7448582649230957,
+      "components": [
+        {
+          "component_p": 6.758071685908362e-05,
+          "best_module_id": "m005",
+          "best_module_label": "Mercury\u2013Saturn near-diameter",
+          "families": [
+            "f02_2026_sep17",
+            "f08_1775_apr19"
+          ],
+          "module_ids": [
+            "m005",
+            "m027"
+          ],
+          "bodies": [
+            "Mercury",
+            "Saturn"
+          ]
+        },
+        {
+          "component_p": 0.000266268034465611,
+          "best_module_id": "m062",
+          "best_module_label": "Apr 17 Mercury\u2013Jupiter\u2013Venus 30/60/90",
+          "families": [
+            "f15_1918_spring"
+          ],
+          "module_ids": [
+            "m062"
+          ],
+          "bodies": [
+            "Mercury",
+            "Jupiter",
+            "Venus"
+          ]
+        }
+      ],
+      "rank": 10
+    },
+    {
+      "witness": "W_DIR",
+      "start_index": 422614,
+      "end_index": 422616,
+      "duration_days": 3,
+      "peak_index": 422615,
+      "start_date": "1158-01-30T12:00:00Z",
+      "end_date": "1158-02-01T12:00:00Z",
+      "peak_date": "1158-01-31T12:00:00Z",
+      "peak_k0001": 1,
+      "peak_k001": 2,
+      "peak_k01": 2,
+      "peak_omega": 3.6765403747558594,
+      "components": [
+        {
+          "component_p": 5.947103272774257e-05,
+          "best_module_id": "m008",
+          "best_module_label": "Mercury\u2013Venus double node",
+          "families": [
+            "f03_2026_feb28"
+          ],
+          "module_ids": [
+            "m008"
+          ],
+          "bodies": [
+            "Mercury",
+            "Venus"
+          ]
+        },
+        {
+          "component_p": 0.0003541229525581002,
+          "best_module_id": "m064",
+          "best_module_label": "May 22 Venus\u2013Jupiter\u2013Mars triad",
+          "families": [
+            "f15_1918_spring"
+          ],
+          "module_ids": [
+            "m064",
+            "m067"
+          ],
+          "bodies": [
+            "Venus",
+            "Jupiter",
+            "Mars"
+          ]
+        }
+      ],
+      "rank": 11
+    },
+    {
+      "witness": "W_DIR",
+      "start_index": 443807,
+      "end_index": 443811,
+      "duration_days": 5,
+      "peak_index": 443809,
+      "start_date": "1216-02-08T12:00:00Z",
+      "end_date": "1216-02-12T12:00:00Z",
+      "peak_date": "1216-02-10T12:00:00Z",
+      "peak_k0001": 1,
+      "peak_k001": 2,
+      "peak_k01": 2,
+      "peak_omega": 3.6658973693847656,
+      "components": [
+        {
+          "component_p": 8.920655091060326e-05,
+          "best_module_id": "m050",
+          "best_module_label": "Mercury\u2013Jupiter\u2013Venus 20/20/40 planet rail",
+          "families": [
+            "f13_1947_nov29"
+          ],
+          "module_ids": [
+            "m050"
+          ],
+          "bodies": [
+            "Mercury",
+            "Jupiter",
+            "Venus"
+          ]
+        },
+        {
+          "component_p": 0.000241938978433609,
+          "best_module_id": "m031",
+          "best_module_label": "Venus\u2013Uranus opposition gate",
+          "families": [
+            "f09_1914_jun28"
+          ],
+          "module_ids": [
+            "m031"
+          ],
+          "bodies": [
+            "Venus",
+            "Uranus"
+          ]
+        }
+      ],
+      "rank": 12
+    },
+    {
+      "witness": "W_DIR",
+      "start_index": 129658,
+      "end_index": 129660,
+      "duration_days": 3,
+      "peak_index": 129659,
+      "start_date": "0355-12-30T12:00:00Z",
+      "end_date": "0356-01-01T12:00:00Z",
+      "peak_date": "0355-12-31T12:00:00Z",
+      "peak_k0001": 1,
+      "peak_k001": 2,
+      "peak_k01": 2,
+      "peak_omega": 3.6556527614593506,
+      "components": [
+        {
+          "component_p": 3.784520231420174e-05,
+          "best_module_id": "m005",
+          "best_module_label": "Mercury\u2013Saturn near-diameter",
+          "families": [
+            "f02_2026_sep17"
+          ],
+          "module_ids": [
+            "m005"
+          ],
+          "bodies": [
+            "Mercury",
+            "Saturn"
+          ]
+        },
+        {
+          "component_p": 0.0005838974029757082,
+          "best_module_id": "m037",
+          "best_module_label": "Mercury\u2013Neptune\u2013Mars midpoint",
+          "families": [
+            "f10_1978_dec11"
+          ],
+          "module_ids": [
+            "m037"
+          ],
+          "bodies": [
+            "Mercury",
+            "Neptune",
+            "Mars"
+          ]
+        }
+      ],
+      "rank": 13
+    },
+    {
+      "witness": "W_DIR",
+      "start_index": 84451,
+      "end_index": 84467,
+      "duration_days": 17,
+      "peak_index": 84459,
+      "start_date": "0232-03-22T12:00:00Z",
+      "end_date": "0232-04-07T12:00:00Z",
+      "peak_date": "0232-03-30T12:00:00Z",
+      "peak_k0001": 1,
+      "peak_k001": 2,
+      "peak_k01": 2,
+      "peak_omega": 3.5973780155181885,
+      "components": [
+        {
+          "component_p": 7.163556438172236e-05,
+          "best_module_id": "m009",
+          "best_module_label": "Neptune\u2013Saturn double node",
+          "families": [
+            "f03_2026_feb28"
+          ],
+          "module_ids": [
+            "m009"
+          ],
+          "bodies": [
+            "Neptune",
+            "Saturn"
+          ]
+        },
+        {
+          "component_p": 0.00035277134156785905,
+          "best_module_id": "m037",
+          "best_module_label": "Mercury\u2013Neptune\u2013Mars midpoint",
+          "families": [
+            "f10_1978_dec11"
+          ],
+          "module_ids": [
+            "m037"
+          ],
+          "bodies": [
+            "Mercury",
+            "Neptune",
+            "Mars"
+          ]
+        }
+      ],
+      "rank": 14
+    },
+    {
+      "witness": "W_DIR",
+      "start_index": 293712,
+      "end_index": 293764,
+      "duration_days": 53,
+      "peak_index": 293728,
+      "start_date": "0805-02-27T12:00:00Z",
+      "end_date": "0805-04-20T12:00:00Z",
+      "peak_date": "0805-03-15T12:00:00Z",
+      "peak_k0001": 1,
+      "peak_k001": 2,
+      "peak_k01": 2,
+      "peak_omega": 3.5853946208953857,
+      "components": [
+        {
+          "component_p": 2.703228710743133e-05,
+          "best_module_id": "m009",
+          "best_module_label": "Neptune\u2013Saturn double node",
+          "families": [
+            "f03_2026_feb28"
+          ],
+          "module_ids": [
+            "m009"
+          ],
+          "bodies": [
+            "Neptune",
+            "Saturn"
+          ]
+        },
+        {
+          "component_p": 0.0009609978296793997,
+          "best_module_id": "m049",
+          "best_module_label": "Mars\u2013Venus\u2013Uranus 60/120/180 gate",
+          "families": [
+            "f13_1947_nov29"
+          ],
+          "module_ids": [
+            "m049"
+          ],
+          "bodies": [
+            "Mars",
+            "Venus",
+            "Uranus"
+          ]
+        }
+      ],
+      "rank": 15
+    },
+    {
+      "witness": "W_DIR",
+      "start_index": 249192,
+      "end_index": 249208,
+      "duration_days": 17,
+      "peak_index": 249199,
+      "start_date": "0683-04-08T12:00:00Z",
+      "end_date": "0683-04-24T12:00:00Z",
+      "peak_date": "0683-04-15T12:00:00Z",
+      "peak_k0001": 1,
+      "peak_k001": 2,
+      "peak_k01": 2,
+      "peak_omega": 3.508049964904785,
+      "components": [
+        {
+          "component_p": 4.325166082708165e-05,
+          "best_module_id": "m032",
+          "best_module_label": "Jupiter\u2013Saturn 120 channel",
+          "families": [
+            "f09_1914_jun28"
+          ],
+          "module_ids": [
+            "m032"
+          ],
+          "bodies": [
+            "Jupiter",
+            "Saturn"
+          ]
+        },
+        {
+          "component_p": 0.0007177072111517191,
+          "best_module_id": "m050",
+          "best_module_label": "Mercury\u2013Jupiter\u2013Venus 20/20/40 planet rail",
+          "families": [
+            "f13_1947_nov29"
+          ],
+          "module_ids": [
+            "m050"
+          ],
+          "bodies": [
+            "Mercury",
+            "Jupiter",
+            "Venus"
+          ]
+        }
+      ],
+      "rank": 16
+    },
+    {
+      "witness": "W_DIR",
+      "start_index": 29337,
+      "end_index": 29359,
+      "duration_days": 23,
+      "peak_index": 29351,
+      "start_date": "0081-04-28T12:00:00Z",
+      "end_date": "0081-05-20T12:00:00Z",
+      "peak_date": "0081-05-12T12:00:00Z",
+      "peak_k0001": 1,
+      "peak_k001": 2,
+      "peak_k01": 2,
+      "peak_omega": 3.377852439880371,
+      "components": [
+        {
+          "component_p": 6.622910586884245e-05,
+          "best_module_id": "m062",
+          "best_module_label": "Apr 17 Mercury\u2013Jupiter\u2013Venus 30/60/90",
+          "families": [
+            "f15_1918_spring"
+          ],
+          "module_ids": [
+            "m062"
+          ],
+          "bodies": [
+            "Mercury",
+            "Jupiter",
+            "Venus"
+          ]
+        },
+        {
+          "component_p": 0.0006325555150397122,
+          "best_module_id": "m048",
+          "best_module_label": "Pluto\u2013Saturn\u2013Mars midpoint",
+          "families": [
+            "f13_1947_nov29"
+          ],
+          "module_ids": [
+            "m048"
+          ],
+          "bodies": [
+            "Pluto",
+            "Saturn",
+            "Mars"
+          ]
+        }
+      ],
+      "rank": 17
+    },
+    {
+      "witness": "W_DIR",
+      "start_index": 3584,
+      "end_index": 3592,
+      "duration_days": 9,
+      "peak_index": 3587,
+      "start_date": "0010-10-25T12:00:00Z",
+      "end_date": "0010-11-02T12:00:00Z",
+      "peak_date": "0010-10-28T12:00:00Z",
+      "peak_k0001": 1,
+      "peak_k001": 2,
+      "peak_k01": 2,
+      "peak_omega": 3.264573812484741,
+      "components": [
+        {
+          "component_p": 8.920655091060326e-05,
+          "best_module_id": "m043",
+          "best_module_label": "Uranus opposite Mercury/Venus gate",
+          "families": [
+            "f09_1914_jun28",
+            "f12_1929_oct24"
+          ],
+          "module_ids": [
+            "m031",
+            "m043"
+          ],
+          "bodies": [
+            "Uranus",
+            "Mercury",
+            "Venus"
+          ]
+        },
+        {
+          "component_p": 0.0006095780991017818,
+          "best_module_id": "m069",
+          "best_module_label": "Saturn\u2013Mercury\u2013Neptune 30/20/50 rail",
+          "families": [
+            "f16_2020_mar11"
+          ],
+          "module_ids": [
+            "m069"
+          ],
+          "bodies": [
+            "Saturn",
+            "Mercury",
+            "Neptune"
+          ]
+        }
+      ],
+      "rank": 18
+    },
+    {
+      "witness": "W_DIR",
+      "start_index": 41020,
+      "end_index": 41046,
+      "duration_days": 27,
+      "peak_index": 41030,
+      "start_date": "0113-04-24T12:00:00Z",
+      "end_date": "0113-05-20T12:00:00Z",
+      "peak_date": "0113-05-04T12:00:00Z",
+      "peak_k0001": 1,
+      "peak_k001": 2,
+      "peak_k01": 2,
+      "peak_omega": 3.2330901622772217,
+      "components": [
+        {
+          "component_p": 8.515170338796452e-05,
+          "best_module_id": "m068",
+          "best_module_label": "Mars\u2013Jupiter\u2013Pluto\u2013Saturn symmetric compression",
+          "families": [
+            "f16_2020_mar11"
+          ],
+          "module_ids": [
+            "m068"
+          ],
+          "bodies": [
+            "Mars",
+            "Jupiter",
+            "Pluto",
+            "Saturn"
+          ]
+        },
+        {
+          "component_p": 0.0006866200710646808,
+          "best_module_id": "m026",
+          "best_module_label": "Pluto\u2013Mercury\u2013Uranus 60+60=120",
+          "families": [
+            "f08_1775_apr19"
+          ],
+          "module_ids": [
+            "m026"
+          ],
+          "bodies": [
+            "Pluto",
+            "Mercury",
+            "Uranus"
+          ]
+        }
+      ],
+      "rank": 19
+    },
+    {
+      "witness": "W_DIR",
+      "start_index": 430656,
+      "end_index": 430668,
+      "duration_days": 13,
+      "peak_index": 430662,
+      "start_date": "1180-02-06T12:00:00Z",
+      "end_date": "1180-02-18T12:00:00Z",
+      "peak_date": "1180-02-12T12:00:00Z",
+      "peak_k0001": 1,
+      "peak_k001": 2,
+      "peak_k01": 2,
+      "peak_omega": 3.230600357055664,
+      "components": [
+        {
+          "component_p": 7.028394611552358e-05,
+          "best_module_id": "m032",
+          "best_module_label": "Jupiter\u2013Saturn 120 channel",
+          "families": [
+            "f09_1914_jun28"
+          ],
+          "module_ids": [
+            "m032"
+          ],
+          "bodies": [
+            "Jupiter",
+            "Saturn"
+          ]
+        },
+        {
+          "component_p": 0.0008366492693312466,
+          "best_module_id": "m010",
+          "best_module_label": "Venus\u2013Mars\u2013Pluto 60/90/150 triad",
+          "families": [
+            "f04_2023_oct07"
+          ],
+          "module_ids": [
+            "m010"
+          ],
+          "bodies": [
+            "Venus",
+            "Mars",
+            "Pluto"
+          ]
+        }
+      ],
+      "rank": 20
+    }
+  ],
+  "shell_top_episodes": [
+    {
+      "witness": "W_SHELL",
+      "start_index": 162543,
+      "end_index": 162550,
+      "duration_days": 8,
+      "peak_index": 162547,
+      "start_date": "0446-01-11T12:00:00Z",
+      "end_date": "0446-01-18T12:00:00Z",
+      "peak_date": "0446-01-15T12:00:00Z",
+      "peak_k0001": 2,
+      "peak_k001": 2,
+      "peak_k01": 2,
+      "peak_omega": 5.45499324798584,
+      "components": [
+        {
+          "component_p": 8.109685950330459e-06,
+          "best_module_id": "m061",
+          "best_module_label": "Apr 5 Saturn\u2013Neptune double node",
+          "families": [
+            "f15_1918_spring"
+          ],
+          "module_ids": [
+            "m061"
+          ],
+          "bodies": [
+            "Saturn",
+            "Neptune"
+          ]
+        },
+        {
+          "component_p": 4.325166082708165e-05,
+          "best_module_id": "m032",
+          "best_module_label": "Jupiter\u2013Saturn 120 channel",
+          "families": [
+            "f09_1914_jun28"
+          ],
+          "module_ids": [
+            "m032"
+          ],
+          "bodies": [
+            "Jupiter",
+            "Saturn"
+          ]
+        }
+      ],
+      "rank": 1
+    },
+    {
+      "witness": "W_SHELL",
+      "start_index": 535168,
+      "end_index": 535189,
+      "duration_days": 22,
+      "peak_index": 535179,
+      "start_date": "1466-03-30T12:00:00Z",
+      "end_date": "1466-04-20T12:00:00Z",
+      "peak_date": "1466-04-10T12:00:00Z",
+      "peak_k0001": 1,
+      "peak_k001": 2,
+      "peak_k01": 3,
+      "peak_omega": 4.971118927001953,
+      "components": [
+        {
+          "component_p": 9.461300578550436e-06,
+          "best_module_id": "m010",
+          "best_module_label": "Venus\u2013Mars\u2013Pluto 60/90/150 triad",
+          "families": [
+            "f04_2023_oct07"
+          ],
+          "module_ids": [
+            "m010"
+          ],
+          "bodies": [
+            "Venus",
+            "Mars",
+            "Pluto"
+          ]
+        },
+        {
+          "component_p": 0.0006109296809881926,
+          "best_module_id": "m043",
+          "best_module_label": "Uranus opposite Mercury/Venus gate",
+          "families": [
+            "f09_1914_jun28",
+            "f12_1929_oct24"
+          ],
+          "module_ids": [
+            "m031",
+            "m043"
+          ],
+          "bodies": [
+            "Uranus",
+            "Mercury",
+            "Venus"
+          ]
+        },
+        {
+          "component_p": 0.0018490084912627935,
+          "best_module_id": "m036",
+          "best_module_label": "Pluto\u2013Uranus\u2013Neptune midpoint",
+          "families": [
+            "f10_1978_dec11"
+          ],
+          "module_ids": [
+            "m036"
+          ],
+          "bodies": [
+            "Pluto",
+            "Uranus",
+            "Neptune"
+          ]
+        }
+      ],
+      "rank": 2
+    },
+    {
+      "witness": "W_SHELL",
+      "start_index": 735366,
+      "end_index": 735374,
+      "duration_days": 9,
+      "peak_index": 735369,
+      "start_date": "2014-05-14T12:00:00Z",
+      "end_date": "2014-05-22T12:00:00Z",
+      "peak_date": "2014-05-17T12:00:00Z",
+      "peak_k0001": 1,
+      "peak_k001": 2,
+      "peak_k01": 3,
+      "peak_omega": 3.5547893047332764,
+      "components": [
+        {
+          "component_p": 6.893233512528241e-05,
+          "best_module_id": "m062",
+          "best_module_label": "Apr 17 Mercury\u2013Jupiter\u2013Venus 30/60/90",
+          "families": [
+            "f15_1918_spring"
+          ],
+          "module_ids": [
+            "m062"
+          ],
+          "bodies": [
+            "Mercury",
+            "Jupiter",
+            "Venus"
+          ]
+        },
+        {
+          "component_p": 0.000725816935300827,
+          "best_module_id": "m032",
+          "best_module_label": "Jupiter\u2013Saturn 120 channel",
+          "families": [
+            "f09_1914_jun28"
+          ],
+          "module_ids": [
+            "m032"
+          ],
+          "bodies": [
+            "Jupiter",
+            "Saturn"
+          ]
+        },
+        {
+          "component_p": 0.005571354646235704,
+          "best_module_id": "m070",
+          "best_module_label": "Neptune\u2013Uranus/Venus double-node bridge",
+          "families": [
+            "f16_2020_mar11"
+          ],
+          "module_ids": [
+            "m070"
+          ],
+          "bodies": [
+            "Neptune",
+            "Uranus",
+            "Venus"
+          ]
+        }
+      ],
+      "rank": 3
+    },
+    {
+      "witness": "W_SHELL",
+      "start_index": 354220,
+      "end_index": 354237,
+      "duration_days": 18,
+      "peak_index": 354228,
+      "start_date": "0970-10-28T12:00:00Z",
+      "end_date": "0970-11-14T12:00:00Z",
+      "peak_date": "0970-11-05T12:00:00Z",
+      "peak_k0001": 1,
+      "peak_k001": 2,
+      "peak_k01": 2,
+      "peak_omega": 4.767947673797607,
+      "components": [
+        {
+          "component_p": 2.703228801692603e-06,
+          "best_module_id": "m054",
+          "best_module_label": "Neptune\u2013Uranus\u2013Venus\u2013Mercury nested rail",
+          "families": [
+            "f14_2000_mar10"
+          ],
+          "module_ids": [
+            "m054"
+          ],
+          "bodies": [
+            "Neptune",
+            "Uranus",
+            "Venus",
+            "Mercury"
+          ]
+        },
+        {
+          "component_p": 0.0006312039331533015,
+          "best_module_id": "m045",
+          "best_module_label": "Jupiter\u2013Pluto\u2013Mercury\u2013Mars ladder",
+          "families": [
+            "f12_1929_oct24"
+          ],
+          "module_ids": [
+            "m045"
+          ],
+          "bodies": [
+            "Jupiter",
+            "Pluto",
+            "Mercury",
+            "Mars"
+          ]
+        }
+      ],
+      "rank": 4
+    },
+    {
+      "witness": "W_SHELL",
+      "start_index": 234760,
+      "end_index": 234829,
+      "duration_days": 70,
+      "peak_index": 234821,
+      "start_date": "0643-10-03T12:00:00Z",
+      "end_date": "0643-12-11T12:00:00Z",
+      "peak_date": "0643-12-03T12:00:00Z",
+      "peak_k0001": 1,
+      "peak_k001": 2,
+      "peak_k01": 2,
+      "peak_omega": 4.369821548461914,
+      "components": [
+        {
+          "component_p": 1.0812915206770413e-05,
+          "best_module_id": "m070",
+          "best_module_label": "Neptune\u2013Uranus/Venus double-node bridge",
+          "families": [
+            "f15_1918_spring",
+            "f16_2020_mar11"
+          ],
+          "module_ids": [
+            "m060",
+            "m070"
+          ],
+          "bodies": [
+            "Neptune",
+            "Uranus",
+            "Venus"
+          ]
+        },
+        {
+          "component_p": 0.00039467139868065715,
+          "best_module_id": "m010",
+          "best_module_label": "Venus\u2013Mars\u2013Pluto 60/90/150 triad",
+          "families": [
+            "f04_2023_oct07"
+          ],
+          "module_ids": [
+            "m010"
+          ],
+          "bodies": [
+            "Venus",
+            "Mars",
+            "Pluto"
+          ]
+        }
+      ],
+      "rank": 5
+    },
+    {
+      "witness": "W_SHELL",
+      "start_index": 71335,
+      "end_index": 71345,
+      "duration_days": 11,
+      "peak_index": 71340,
+      "start_date": "0196-04-23T12:00:00Z",
+      "end_date": "0196-05-03T12:00:00Z",
+      "peak_date": "0196-04-28T12:00:00Z",
+      "peak_k0001": 1,
+      "peak_k001": 2,
+      "peak_k01": 2,
+      "peak_omega": 4.2424726486206055,
+      "components": [
+        {
+          "component_p": 8.109685950330459e-06,
+          "best_module_id": "m021",
+          "best_module_label": "Mercury\u2013Venus\u2013Mars triple node",
+          "families": [
+            "f07_2008_sep15"
+          ],
+          "module_ids": [
+            "m021"
+          ],
+          "bodies": [
+            "Mercury",
+            "Venus",
+            "Mars"
+          ]
+        },
+        {
+          "component_p": 0.0007055426831357181,
+          "best_module_id": "m061",
+          "best_module_label": "Apr 5 Saturn\u2013Neptune double node",
+          "families": [
+            "f15_1918_spring"
+          ],
+          "module_ids": [
+            "m061"
+          ],
+          "bodies": [
+            "Saturn",
+            "Neptune"
+          ]
+        }
+      ],
+      "rank": 6
+    },
+    {
+      "witness": "W_SHELL",
+      "start_index": 446441,
+      "end_index": 446454,
+      "duration_days": 14,
+      "peak_index": 446451,
+      "start_date": "1223-04-26T12:00:00Z",
+      "end_date": "1223-05-09T12:00:00Z",
+      "peak_date": "1223-05-06T12:00:00Z",
+      "peak_k0001": 1,
+      "peak_k001": 2,
+      "peak_k01": 2,
+      "peak_omega": 4.191751480102539,
+      "components": [
+        {
+          "component_p": 5.947103272774257e-05,
+          "best_module_id": "m021",
+          "best_module_label": "Mercury\u2013Venus\u2013Mars triple node",
+          "families": [
+            "f07_2008_sep15",
+            "f12_1929_oct24"
+          ],
+          "module_ids": [
+            "m021",
+            "m043"
+          ],
+          "bodies": [
+            "Mercury",
+            "Venus",
+            "Mars"
+          ]
+        },
+        {
+          "component_p": 0.00010812914842972532,
+          "best_module_id": "m040",
+          "best_module_label": "Mars/Neptune opposite Jupiter/Uranus bundle",
+          "families": [
+            "f11_1913_dec23"
+          ],
+          "module_ids": [
+            "m040"
+          ],
+          "bodies": [
+            "Mars",
+            "Neptune",
+            "Jupiter",
+            "Uranus"
+          ]
+        }
+      ],
+      "rank": 7
+    },
+    {
+      "witness": "W_SHELL",
+      "start_index": 41428,
+      "end_index": 41448,
+      "duration_days": 21,
+      "peak_index": 41442,
+      "start_date": "0114-06-06T12:00:00Z",
+      "end_date": "0114-06-26T12:00:00Z",
+      "peak_date": "0114-06-20T12:00:00Z",
+      "peak_k0001": 1,
+      "peak_k001": 2,
+      "peak_k01": 2,
+      "peak_omega": 3.527815341949463,
+      "components": [
+        {
+          "component_p": 2.9735516363871284e-05,
+          "best_module_id": "m026",
+          "best_module_label": "Pluto\u2013Mercury\u2013Uranus 60+60=120",
+          "families": [
+            "f08_1775_apr19"
+          ],
+          "module_ids": [
+            "m026"
+          ],
+          "bodies": [
+            "Pluto",
+            "Mercury",
+            "Uranus"
+          ]
+        },
+        {
+          "component_p": 0.0009974914137274027,
+          "best_module_id": "m062",
+          "best_module_label": "Apr 17 Mercury\u2013Jupiter\u2013Venus 30/60/90",
+          "families": [
+            "f15_1918_spring"
+          ],
+          "module_ids": [
+            "m062"
+          ],
+          "bodies": [
+            "Mercury",
+            "Jupiter",
+            "Venus"
+          ]
+        }
+      ],
+      "rank": 8
+    },
+    {
+      "witness": "W_SHELL",
+      "start_index": 293715,
+      "end_index": 293753,
+      "duration_days": 39,
+      "peak_index": 293728,
+      "start_date": "0805-03-02T12:00:00Z",
+      "end_date": "0805-04-09T12:00:00Z",
+      "peak_date": "0805-03-15T12:00:00Z",
+      "peak_k0001": 1,
+      "peak_k001": 2,
+      "peak_k01": 2,
+      "peak_omega": 3.515317916870117,
+      "components": [
+        {
+          "component_p": 4.0548431570641696e-05,
+          "best_module_id": "m009",
+          "best_module_label": "Neptune\u2013Saturn double node",
+          "families": [
+            "f03_2026_feb28"
+          ],
+          "module_ids": [
+            "m009"
+          ],
+          "bodies": [
+            "Neptune",
+            "Saturn"
+          ]
+        },
+        {
+          "component_p": 0.0007528492133133113,
+          "best_module_id": "m049",
+          "best_module_label": "Mars\u2013Venus\u2013Uranus 60/120/180 gate",
+          "families": [
+            "f13_1947_nov29"
+          ],
+          "module_ids": [
+            "m049"
+          ],
+          "bodies": [
+            "Mars",
+            "Venus",
+            "Uranus"
+          ]
+        }
+      ],
+      "rank": 9
+    },
+    {
+      "witness": "W_SHELL",
+      "start_index": 259121,
+      "end_index": 259142,
+      "duration_days": 22,
+      "peak_index": 259136,
+      "start_date": "0710-06-15T12:00:00Z",
+      "end_date": "0710-07-06T12:00:00Z",
+      "peak_date": "0710-06-30T12:00:00Z",
+      "peak_k0001": 1,
+      "peak_k001": 2,
+      "peak_k01": 2,
+      "peak_omega": 3.45999813079834,
+      "components": [
+        {
+          "component_p": 8.785493264440447e-05,
+          "best_module_id": "m021",
+          "best_module_label": "Mercury\u2013Venus\u2013Mars triple node",
+          "families": [
+            "f07_2008_sep15"
+          ],
+          "module_ids": [
+            "m021"
+          ],
+          "bodies": [
+            "Mercury",
+            "Venus",
+            "Mars"
+          ]
+        },
+        {
+          "component_p": 0.00039467139868065715,
+          "best_module_id": "m068",
+          "best_module_label": "Mars\u2013Jupiter\u2013Pluto\u2013Saturn symmetric compression",
+          "families": [
+            "f16_2020_mar11"
+          ],
+          "module_ids": [
+            "m068"
+          ],
+          "bodies": [
+            "Mars",
+            "Jupiter",
+            "Pluto",
+            "Saturn"
+          ]
+        }
+      ],
+      "rank": 10
+    },
+    {
+      "witness": "W_SHELL",
+      "start_index": 327707,
+      "end_index": 327723,
+      "duration_days": 17,
+      "peak_index": 327713,
+      "start_date": "0898-03-26T12:00:00Z",
+      "end_date": "0898-04-11T12:00:00Z",
+      "peak_date": "0898-04-01T12:00:00Z",
+      "peak_k0001": 1,
+      "peak_k001": 2,
+      "peak_k01": 2,
+      "peak_omega": 3.452287435531616,
+      "components": [
+        {
+          "component_p": 9.461300214752555e-05,
+          "best_module_id": "m037",
+          "best_module_label": "Mercury\u2013Neptune\u2013Mars midpoint",
+          "families": [
+            "f10_1978_dec11"
+          ],
+          "module_ids": [
+            "m037"
+          ],
+          "bodies": [
+            "Mercury",
+            "Neptune",
+            "Mars"
+          ]
+        },
+        {
+          "component_p": 0.0003730455646291375,
+          "best_module_id": "m062",
+          "best_module_label": "Apr 17 Mercury\u2013Jupiter\u2013Venus 30/60/90",
+          "families": [
+            "f15_1918_spring"
+          ],
+          "module_ids": [
+            "m062"
+          ],
+          "bodies": [
+            "Mercury",
+            "Jupiter",
+            "Venus"
+          ]
+        }
+      ],
+      "rank": 11
+    },
+    {
+      "witness": "W_SHELL",
+      "start_index": 454204,
+      "end_index": 454213,
+      "duration_days": 10,
+      "peak_index": 454208,
+      "start_date": "1244-07-27T12:00:00Z",
+      "end_date": "1244-08-05T12:00:00Z",
+      "peak_date": "1244-07-31T12:00:00Z",
+      "peak_k0001": 1,
+      "peak_k001": 2,
+      "peak_k01": 2,
+      "peak_omega": 3.4404900074005127,
+      "components": [
+        {
+          "component_p": 3.784520231420174e-05,
+          "best_module_id": "m050",
+          "best_module_label": "Mercury\u2013Jupiter\u2013Venus 20/20/40 planet rail",
+          "families": [
+            "f13_1947_nov29"
+          ],
+          "module_ids": [
+            "m050"
+          ],
+          "bodies": [
+            "Mercury",
+            "Jupiter",
+            "Venus"
+          ]
+        },
+        {
+          "component_p": 0.0009582946076989174,
+          "best_module_id": "m035",
+          "best_module_label": "Jupiter\u2013Saturn\u2013Pluto midpoint",
+          "families": [
+            "f10_1978_dec11"
+          ],
+          "module_ids": [
+            "m035"
+          ],
+          "bodies": [
+            "Jupiter",
+            "Saturn",
+            "Pluto"
+          ]
+        }
+      ],
+      "rank": 12
+    },
+    {
+      "witness": "W_SHELL",
+      "start_index": 47742,
+      "end_index": 47762,
+      "duration_days": 21,
+      "peak_index": 47751,
+      "start_date": "0131-09-19T12:00:00Z",
+      "end_date": "0131-10-09T12:00:00Z",
+      "peak_date": "0131-09-28T12:00:00Z",
+      "peak_k0001": 1,
+      "peak_k001": 2,
+      "peak_k01": 2,
+      "peak_omega": 3.4340624809265137,
+      "components": [
+        {
+          "component_p": 6.217425834620371e-05,
+          "best_module_id": "m021",
+          "best_module_label": "Mercury\u2013Venus\u2013Mars triple node",
+          "families": [
+            "f07_2008_sep15"
+          ],
+          "module_ids": [
+            "m021"
+          ],
+          "bodies": [
+            "Mercury",
+            "Venus",
+            "Mars"
+          ]
+        },
+        {
+          "component_p": 0.0005920070689171553,
+          "best_module_id": "m070",
+          "best_module_label": "Neptune\u2013Uranus/Venus double-node bridge",
+          "families": [
+            "f16_2020_mar11"
+          ],
+          "module_ids": [
+            "m070"
+          ],
+          "bodies": [
+            "Neptune",
+            "Uranus",
+            "Venus"
+          ]
+        }
+      ],
+      "rank": 13
+    },
+    {
+      "witness": "W_SHELL",
+      "start_index": 256400,
+      "end_index": 256417,
+      "duration_days": 18,
+      "peak_index": 256414,
+      "start_date": "0703-01-02T12:00:00Z",
+      "end_date": "0703-01-19T12:00:00Z",
+      "peak_date": "0703-01-16T12:00:00Z",
+      "peak_k0001": 1,
+      "peak_k001": 2,
+      "peak_k01": 2,
+      "peak_omega": 3.4327280521392822,
+      "components": [
+        {
+          "component_p": 6.35258766124025e-05,
+          "best_module_id": "m064",
+          "best_module_label": "May 22 Venus\u2013Jupiter\u2013Mars triad",
+          "families": [
+            "f15_1918_spring"
+          ],
+          "module_ids": [
+            "m064"
+          ],
+          "bodies": [
+            "Venus",
+            "Jupiter",
+            "Mars"
+          ]
+        },
+        {
+          "component_p": 0.0005811941809952259,
+          "best_module_id": "m031",
+          "best_module_label": "Venus\u2013Uranus opposition gate",
+          "families": [
+            "f09_1914_jun28"
+          ],
+          "module_ids": [
+            "m031"
+          ],
+          "bodies": [
+            "Venus",
+            "Uranus"
+          ]
+        }
+      ],
+      "rank": 14
+    },
+    {
+      "witness": "W_SHELL",
+      "start_index": 168952,
+      "end_index": 168953,
+      "duration_days": 2,
+      "peak_index": 168952,
+      "start_date": "0463-07-30T12:00:00Z",
+      "end_date": "0463-07-31T12:00:00Z",
+      "peak_date": "0463-07-30T12:00:00Z",
+      "peak_k0001": 1,
+      "peak_k001": 2,
+      "peak_k01": 2,
+      "peak_omega": 3.3276522159576416,
+      "components": [
+        {
+          "component_p": 8.244847413152456e-05,
+          "best_module_id": "m005",
+          "best_module_label": "Mercury\u2013Saturn near-diameter",
+          "families": [
+            "f02_2026_sep17"
+          ],
+          "module_ids": [
+            "m005"
+          ],
+          "bodies": [
+            "Mercury",
+            "Saturn"
+          ]
+        },
+        {
+          "component_p": 0.0005703812348656356,
+          "best_module_id": "m062",
+          "best_module_label": "Apr 17 Mercury\u2013Jupiter\u2013Venus 30/60/90",
+          "families": [
+            "f15_1918_spring"
+          ],
+          "module_ids": [
+            "m062"
+          ],
+          "bodies": [
+            "Mercury",
+            "Jupiter",
+            "Venus"
+          ]
+        }
+      ],
+      "rank": 15
+    },
+    {
+      "witness": "W_SHELL",
+      "start_index": 472179,
+      "end_index": 472179,
+      "duration_days": 1,
+      "peak_index": 472179,
+      "start_date": "1293-10-13T12:00:00Z",
+      "end_date": "1293-10-13T12:00:00Z",
+      "peak_date": "1293-10-13T12:00:00Z",
+      "peak_k0001": 1,
+      "peak_k001": 2,
+      "peak_k01": 2,
+      "peak_omega": 3.270819664001465,
+      "components": [
+        {
+          "component_p": 8.244847413152456e-05,
+          "best_module_id": "m008",
+          "best_module_label": "Mercury\u2013Venus double node",
+          "families": [
+            "f03_2026_feb28"
+          ],
+          "module_ids": [
+            "m008"
+          ],
+          "bodies": [
+            "Mercury",
+            "Venus"
+          ]
+        },
+        {
+          "component_p": 0.0006501264870166779,
+          "best_module_id": "m037",
+          "best_module_label": "Mercury\u2013Neptune\u2013Mars midpoint",
+          "families": [
+            "f10_1978_dec11"
+          ],
+          "module_ids": [
+            "m037"
+          ],
+          "bodies": [
+            "Mercury",
+            "Neptune",
+            "Mars"
+          ]
+        }
+      ],
+      "rank": 16
+    },
+    {
+      "witness": "W_SHELL",
+      "start_index": 430647,
+      "end_index": 430668,
+      "duration_days": 22,
+      "peak_index": 430657,
+      "start_date": "1180-01-28T12:00:00Z",
+      "end_date": "1180-02-18T12:00:00Z",
+      "peak_date": "1180-02-07T12:00:00Z",
+      "peak_k0001": 1,
+      "peak_k001": 2,
+      "peak_k01": 2,
+      "peak_omega": 3.1870274543762207,
+      "components": [
+        {
+          "component_p": 7.433879363816231e-05,
+          "best_module_id": "m010",
+          "best_module_label": "Venus\u2013Mars\u2013Pluto 60/90/150 triad",
+          "families": [
+            "f04_2023_oct07"
+          ],
+          "module_ids": [
+            "m010"
+          ],
+          "bodies": [
+            "Venus",
+            "Mars",
+            "Pluto"
+          ]
+        },
+        {
+          "component_p": 0.0008744944934733212,
+          "best_module_id": "m001",
+          "best_module_label": "Saturn\u2013Mars\u2013Jupiter\u2013Mercury lattice",
+          "families": [
+            "f01_2026_sep01"
+          ],
+          "module_ids": [
+            "m001"
+          ],
+          "bodies": [
+            "Saturn",
+            "Mars",
+            "Jupiter",
+            "Mercury"
+          ]
+        }
+      ],
+      "rank": 17
+    },
+    {
+      "witness": "W_SHELL",
+      "start_index": 29336,
+      "end_index": 29359,
+      "duration_days": 24,
+      "peak_index": 29345,
+      "start_date": "0081-04-27T12:00:00Z",
+      "end_date": "0081-05-20T12:00:00Z",
+      "peak_date": "0081-05-06T12:00:00Z",
+      "peak_k0001": 1,
+      "peak_k001": 1,
+      "peak_k01": 4,
+      "peak_omega": 3.784026861190796,
+      "components": [
+        {
+          "component_p": 1.7570986528880894e-05,
+          "best_module_id": "m048",
+          "best_module_label": "Pluto\u2013Saturn\u2013Mars midpoint",
+          "families": [
+            "f13_1947_nov29"
+          ],
+          "module_ids": [
+            "m048"
+          ],
+          "bodies": [
+            "Pluto",
+            "Saturn",
+            "Mars"
+          ]
+        },
+        {
+          "component_p": 0.003185755107551813,
+          "best_module_id": "m062",
+          "best_module_label": "Apr 17 Mercury\u2013Jupiter\u2013Venus 30/60/90",
+          "families": [
+            "f15_1918_spring"
+          ],
+          "module_ids": [
+            "m062"
+          ],
+          "bodies": [
+            "Mercury",
+            "Jupiter",
+            "Venus"
+          ]
+        },
+        {
+          "component_p": 0.00354933924973011,
+          "best_module_id": "m032",
+          "best_module_label": "Jupiter\u2013Saturn 120 channel",
+          "families": [
+            "f09_1914_jun28"
+          ],
+          "module_ids": [
+            "m032"
+          ],
+          "bodies": [
+            "Jupiter",
+            "Saturn"
+          ]
+        },
+        {
+          "component_p": 0.008275934495031834,
+          "best_module_id": "m070",
+          "best_module_label": "Neptune\u2013Uranus/Venus double-node bridge",
+          "families": [
+            "f16_2020_mar11"
+          ],
+          "module_ids": [
+            "m070"
+          ],
+          "bodies": [
+            "Neptune",
+            "Uranus",
+            "Venus"
+          ]
+        }
+      ],
+      "rank": 18
+    },
+    {
+      "witness": "W_SHELL",
+      "start_index": 569398,
+      "end_index": 569410,
+      "duration_days": 13,
+      "peak_index": 569410,
+      "start_date": "1559-12-18T12:00:00Z",
+      "end_date": "1559-12-30T12:00:00Z",
+      "peak_date": "1559-12-30T12:00:00Z",
+      "peak_k0001": 1,
+      "peak_k001": 1,
+      "peak_k01": 4,
+      "peak_omega": 3.415329694747925,
+      "components": [
+        {
+          "component_p": 6.7580717768578324e-06,
+          "best_module_id": "m008",
+          "best_module_label": "Mercury\u2013Venus double node",
+          "families": [
+            "f03_2026_feb28"
+          ],
+          "module_ids": [
+            "m008"
+          ],
+          "bodies": [
+            "Mercury",
+            "Venus"
+          ]
+        },
+        {
+          "component_p": 0.005874115973711014,
+          "best_module_id": "m066",
+          "best_module_label": "May 28 Venus equidistant Jupiter/Uranus",
+          "families": [
+            "f15_1918_spring"
+          ],
+          "module_ids": [
+            "m066"
+          ],
+          "bodies": [
+            "Venus",
+            "Jupiter",
+            "Uranus"
+          ]
+        },
+        {
+          "component_p": 0.009810017421841621,
+          "best_module_id": "m003",
+          "best_module_label": "Neptune bridge into Saturn and inner ladder",
+          "families": [
+            "f01_2026_sep01"
+          ],
+          "module_ids": [
+            "m003"
+          ],
+          "bodies": [
+            "Neptune",
+            "Saturn",
+            "Mars",
+            "Jupiter",
+            "Mercury"
+          ]
+        },
+        {
+          "component_p": 0.0098681366071105,
+          "best_module_id": "m026",
+          "best_module_label": "Pluto\u2013Mercury\u2013Uranus 60+60=120",
+          "families": [
+            "f08_1775_apr19"
+          ],
+          "module_ids": [
+            "m026"
+          ],
+          "bodies": [
+            "Pluto",
+            "Mercury",
+            "Uranus"
+          ]
+        }
+      ],
+      "rank": 19
+    },
+    {
+      "witness": "W_SHELL",
+      "start_index": 333239,
+      "end_index": 333267,
+      "duration_days": 29,
+      "peak_index": 333243,
+      "start_date": "0913-05-19T12:00:00Z",
+      "end_date": "0913-06-16T12:00:00Z",
+      "peak_date": "0913-05-23T12:00:00Z",
+      "peak_k0001": 1,
+      "peak_k001": 1,
+      "peak_k01": 3,
+      "peak_omega": 3.652298927307129,
+      "components": [
+        {
+          "component_p": 5.406457603385206e-06,
+          "best_module_id": "m048",
+          "best_module_label": "Pluto\u2013Saturn\u2013Mars midpoint",
+          "families": [
+            "f13_1947_nov29"
+          ],
+          "module_ids": [
+            "m048"
+          ],
+          "bodies": [
+            "Pluto",
+            "Saturn",
+            "Mars"
+          ]
+        },
+        {
+          "component_p": 0.005236153956502676,
+          "best_module_id": "m037",
+          "best_module_label": "Mercury\u2013Neptune\u2013Mars midpoint",
+          "families": [
+            "f10_1978_dec11"
+          ],
+          "module_ids": [
+            "m037"
+          ],
+          "bodies": [
+            "Mercury",
+            "Neptune",
+            "Mars"
+          ]
+        },
+        {
+          "component_p": 0.007866395637392998,
+          "best_module_id": "m009",
+          "best_module_label": "Neptune\u2013Saturn double node",
+          "families": [
+            "f03_2026_feb28"
+          ],
+          "module_ids": [
+            "m009"
+          ],
+          "bodies": [
+            "Neptune",
+            "Saturn"
+          ]
+        }
+      ],
+      "rank": 20
+    }
+  ],
+  "full_assembly": [
+    {
+      "witness": "W_DIR",
+      "module_id": "m019",
+      "family_id": "f06_2025_sep10",
+      "label": "Dual eight-planet ladder assembly",
+      "best_independent_date": "2023-09-10T12:00:00Z",
+      "empirical_p": 0.00010272268991684541
+    },
+    {
+      "witness": "W_DIR",
+      "module_id": "m023",
+      "family_id": "f07_2008_sep15",
+      "label": "Eight-planet assembly",
+      "best_independent_date": "2006-09-15T12:00:00Z",
+      "empirical_p": 0.00011218399595236406
+    },
+    {
+      "witness": "W_DIR",
+      "module_id": "m029",
+      "family_id": "f08_1775_apr19",
+      "label": "Eight-planet assembly",
+      "best_independent_date": "1777-04-21T12:00:00Z",
+      "empirical_p": 9.461300214752555e-05
+    },
+    {
+      "witness": "W_DIR",
+      "module_id": "m033",
+      "family_id": "f09_1914_jun28",
+      "label": "Eight-planet assembly",
+      "best_independent_date": "0009-11-17T12:00:00Z",
+      "empirical_p": 0.0001094807666959241
+    },
+    {
+      "witness": "W_DIR",
+      "module_id": "m038",
+      "family_id": "f10_1978_dec11",
+      "label": "Eight-planet chained midpoint assembly",
+      "best_independent_date": "1980-12-20T12:00:00Z",
+      "empirical_p": 0.00012975497520528734
+    },
+    {
+      "witness": "W_DIR",
+      "module_id": "m041",
+      "family_id": "f11_1913_dec23",
+      "label": "Eight-planet double-rail assembly",
+      "best_independent_date": "1915-12-24T12:00:00Z",
+      "empirical_p": 0.0001148872179328464
+    },
+    {
+      "witness": "W_DIR",
+      "module_id": "m046",
+      "family_id": "f12_1929_oct24",
+      "label": "Eight-planet assembly",
+      "best_independent_date": "1431-08-21T12:00:00Z",
+      "empirical_p": 8.380009239772335e-05
+    },
+    {
+      "witness": "W_DIR",
+      "module_id": "m051",
+      "family_id": "f13_1947_nov29",
+      "label": "Eight-planet chained assembly",
+      "best_independent_date": "1949-11-29T12:00:00Z",
+      "empirical_p": 0.00010001946066040546
+    },
+    {
+      "witness": "W_DIR",
+      "module_id": "m057",
+      "family_id": "f14_2000_mar10",
+      "label": "Eight-planet 7.5-degree lattice",
+      "best_independent_date": "0453-09-01T12:00:00Z",
+      "empirical_p": 9.326139115728438e-05
+    },
+    {
+      "witness": "W_DIR",
+      "module_id": "m071",
+      "family_id": "f16_2020_mar11",
+      "label": "Eight-planet chained assembly",
+      "best_independent_date": "1981-11-22T12:00:00Z",
+      "empirical_p": 0.00014191950322128832
+    },
+    {
+      "witness": "W_SHELL",
+      "module_id": "m019",
+      "family_id": "f06_2025_sep10",
+      "label": "Dual eight-planet ladder assembly",
+      "best_independent_date": "0407-11-16T12:00:00Z",
+      "empirical_p": 9.866784967016429e-05
+    },
+    {
+      "witness": "W_SHELL",
+      "module_id": "m023",
+      "family_id": "f07_2008_sep15",
+      "label": "Eight-planet assembly",
+      "best_independent_date": "0101-12-24T12:00:00Z",
+      "empirical_p": 8.920655091060326e-05
+    },
+    {
+      "witness": "W_SHELL",
+      "module_id": "m029",
+      "family_id": "f08_1775_apr19",
+      "label": "Eight-planet assembly",
+      "best_independent_date": "1777-04-21T12:00:00Z",
+      "empirical_p": 8.920655091060326e-05
+    },
+    {
+      "witness": "W_SHELL",
+      "module_id": "m033",
+      "family_id": "f09_1914_jun28",
+      "label": "Eight-planet assembly",
+      "best_independent_date": "0380-04-23T12:00:00Z",
+      "empirical_p": 6.758071685908362e-05
+    },
+    {
+      "witness": "W_SHELL",
+      "module_id": "m038",
+      "family_id": "f10_1978_dec11",
+      "label": "Eight-planet chained midpoint assembly",
+      "best_independent_date": "1480-10-21T12:00:00Z",
+      "empirical_p": 0.00014191950322128832
+    },
+    {
+      "witness": "W_SHELL",
+      "module_id": "m041",
+      "family_id": "f11_1913_dec23",
+      "label": "Eight-planet double-rail assembly",
+      "best_independent_date": "0380-11-16T12:00:00Z",
+      "empirical_p": 8.109686314128339e-05
+    },
+    {
+      "witness": "W_SHELL",
+      "module_id": "m046",
+      "family_id": "f12_1929_oct24",
+      "label": "Eight-planet assembly",
+      "best_independent_date": "0365-01-03T12:00:00Z",
+      "empirical_p": 7.028394611552358e-05
+    },
+    {
+      "witness": "W_SHELL",
+      "module_id": "m051",
+      "family_id": "f13_1947_nov29",
+      "label": "Eight-planet chained assembly",
+      "best_independent_date": "0346-12-02T12:00:00Z",
+      "empirical_p": 5.5416188843082637e-05
+    },
+    {
+      "witness": "W_SHELL",
+      "module_id": "m057",
+      "family_id": "f14_2000_mar10",
+      "label": "Eight-planet 7.5-degree lattice",
+      "best_independent_date": "0453-09-03T12:00:00Z",
+      "empirical_p": 8.244847413152456e-05
+    },
+    {
+      "witness": "W_SHELL",
+      "module_id": "m071",
+      "family_id": "f16_2020_mar11",
+      "label": "Eight-planet chained assembly",
+      "best_independent_date": "1981-11-22T12:00:00Z",
+      "empirical_p": 0.00014056789223104715
+    }
+  ]
+}

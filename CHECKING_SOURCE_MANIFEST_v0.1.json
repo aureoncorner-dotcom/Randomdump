@@ -1,0 +1,88 @@
+{
+  "schema": "checking-audit-source-manifest-0.1",
+  "sources": {
+    "01_OMNIBUS_GQG_MASTER_LEDGER.csv": {
+      "bytes": 13511980,
+      "sha256": "46e6c629eb13f74396db146e35bffbb44649ac2bacb12a6519ae406919b5b70c"
+    },
+    "02_PROPOSITION_LINEAGE_LEDGER.csv": {
+      "bytes": 699479,
+      "sha256": "b232f68ba6fd7e73a159bc1bebb80a2f5c5492953519691da977396b67e5fde4"
+    },
+    "03_ADJUDICATION_EPISODES_ACCESS_README.md": {
+      "bytes": 1012,
+      "sha256": "657e93931b751d5eeab5bd79edbc7a49f55bc95f5d9756cf8fc56a1e48d03ba9"
+    },
+    "03_ADJUDICATION_EPISODES_COMPACT.csv": {
+      "bytes": 5404037,
+      "sha256": "7456f3bf6bbae64066171b7ec3e5a7856da29244467a772ff10926d6b57c7322"
+    },
+    "04_BUSINESS_INSTITUTIONAL_LEDGER.csv": {
+      "bytes": 7864633,
+      "sha256": "84c99ca1db942090456be8b35a87a53948d721c7b2fad4d5faa7054db3a12983"
+    },
+    "05_CASE_REPORTS.md": {
+      "bytes": 36909,
+      "sha256": "566962842b93bf614a66f76e50dbeb22871b318869bb55349a76059200b7787e"
+    },
+    "06_CROSS_CASE_RESULTS.md": {
+      "bytes": 13276,
+      "sha256": "454f8c8bc65cacd2bab71dd67976ef1ddcf7055da7cbf0e3e017e5ccbe269b59"
+    },
+    "07_REPAIR_AND_DETOUR_REPORT.md": {
+      "bytes": 46739,
+      "sha256": "f776ea5ffc1c88ec6c23da5e48b24438fcb43fb6b028a2eab68c0ac02b9a5002"
+    },
+    "08_COUNTERWITNESS_AND_NULL_LEDGER.md": {
+      "bytes": 959251,
+      "sha256": "a406a60fb9f3f8bd0189117e390b684fb2dc07dca29fcd95ab996bb7561b3f6a"
+    },
+    "09_RELIABILITY_AND_METHOD_LIMITS.md": {
+      "bytes": 8955,
+      "sha256": "a853090abe9aeb3a2f21d84584f886d5e3243460dc890e27fee0a3d2c1a62b2a"
+    },
+    "QUANTITATIVE_STRUCTURAL_DISCREPANCY_AUDIT.md": {
+      "bytes": 8437,
+      "sha256": "5ae83bf0925447e2356ecfa03ddfa9b3bec0fed0d89c9653555696d94b02e5c0"
+    },
+    "quant_corrected_metrics.json": {
+      "bytes": 2899,
+      "sha256": "75ebd9b20292d8e810a2bc94b9f68940e9995ad0bf54f9fc4c07ee7e267f3cc1"
+    },
+    "refusal_raw_windows.md": {
+      "bytes": 188022,
+      "sha256": "2265b1fd96cf186016bc6348077b54583051d2299899e1d0bfab01299cb1feb3"
+    },
+    "refusal_chronology_results.json": {
+      "bytes": 7457,
+      "sha256": "3e3788b32e5abce953536d05322fb7873bef88fa0e1d759a4c37d9ec8f0eb83e"
+    },
+    "rtc_rule_seam_audit.csv": {
+      "bytes": 6456,
+      "sha256": "c246aaa289f3d0a9025aa0be5213bd9e5a3243c9c3f3f21c3126d2214ce05792"
+    },
+    "GQG_Core_Card_v0.3 (2).md": {
+      "bytes": 17364,
+      "sha256": "4ffe29b75d06423beb68f6881753a33ec3916c524b9828b73e0998132f85ed3d"
+    },
+    "THE_HIDDEN_QUOTIENT_CORE_WITNESS_STRIKE_v1.1 (2).md": {
+      "bytes": 62108,
+      "sha256": "fcbc378190a604b6577326ec1a1c24a17d57c45204bc8e475138a632ebdb8644"
+    }
+  },
+  "derived_checks": {
+    "canonical_episodes": 3088,
+    "cases": 24,
+    "checking_contains_episodes": 723,
+    "checking_contains_cases": 22,
+    "checking_prefix_episodes": 682,
+    "checking_prefix_cases": 22,
+    "checking_standalone_episodes": 494,
+    "checking_standalone_cases": 20,
+    "checking_inline_episodes": 172,
+    "checking_inline_cases": 12,
+    "refusal_window_checking_initial_nodes": 29,
+    "refusal_window_assistant_preamble_tagged": 28
+  },
+  "interpretation_boundary": "Canonical episode counts establish existence and spread within the frozen representation. They are not prevalence over all assistant turns."
+}

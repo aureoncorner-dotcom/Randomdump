@@ -1,0 +1,67 @@
+{
+  "schema_version": "HLR-0.1",
+  "geometry_input_policy": "PRP geometry ledger remains untouched; no event fields written into geometry rows.",
+  "primary_geometry_witnesses": [
+    "W_DIR",
+    "W_SHELL"
+  ],
+  "historical_witnesses": "source-specific W_HIST[source_id]",
+  "daily_primary_join": "interval intersection between PRP episode and historical onset interval; zero halo",
+  "sensitivity_halos_days": [
+    1,
+    3
+  ],
+  "coarse_precision_rule": {
+    "month": "aggregate geometry to calendar month",
+    "year": "aggregate geometry to calendar year",
+    "aggregate_statistic": "max frozen geometry episode score within interval",
+    "secondary_exposure": "number of geometry-episode days in interval"
+  },
+  "primary_test_by_lane": {
+    "sparse_onset": {
+      "sources": [
+        "EMDAT_PUBLIC",
+        "COW_INTERSTATE_V4",
+        "COW_EXTRASTATE_V4",
+        "COW_NONSTATE_V4",
+        "COW_INTRASTATE_V5_1",
+        "COW_MID_V5"
+      ],
+      "statistic": "onset overlap count",
+      "null": "circular shift historical series",
+      "min_shift_days": 366,
+      "replicates": 100000
+    },
+    "dense_daily": {
+      "sources": [
+        "UCDP_GED_26_1",
+        "GTD_1970_2020"
+      ],
+      "statistic": "mean daily event count on PRP episode days minus non-episode days",
+      "secondary": "rank correlation of daily count with frozen geometry score",
+      "null": "circular shift complete historical daily series",
+      "min_shift_days": 366,
+      "replicates": 100000
+    },
+    "coarse_native": {
+      "sources": [
+        "IMF_SBC_2026"
+      ],
+      "statistic": "native-resolution onset overlap with geometry aggregated to same resolution",
+      "null": "circular shift at native resolution",
+      "min_shift_years_if_yearly": 2,
+      "min_shift_months_if_monthly": 12,
+      "replicates": 100000
+    }
+  },
+  "coverage_rule": "outside source coverage = NOT_IN_UNIVERSE",
+  "missingness_rule": "structural missing periods excluded from numerator and denominator",
+  "multiple_testing": "Holm across all primary source_id \u00d7 {W_DIR,W_SHELL} tests",
+  "event_name_policy": "event-name strings masked in first join output; unmask only after statistical output hashed",
+  "prohibited": [
+    "free-form historical notability",
+    "adding/deleting events after geometry inspection",
+    "changing PRP ranking from historical information",
+    "daily exact-match claims for month/year-only events"
+  ]
+}

@@ -1,0 +1,271 @@
+module_id,family_id,motif_id,label,source_time_utc,bodies,recurrence_rank,recurrence_time_utc,score_deg,empirical_p
+m001,f01_2026_sep01,motif_001,Saturn–Mars–Jupiter–Mercury lattice,2026-09-01T11:40:00Z,"Saturn,Mars,Jupiter,Mercury",1,1590-11-01T12:00:00Z,1.7332895994186401,1.3516144008463016e-06
+m001,f01_2026_sep01,motif_001,Saturn–Mars–Jupiter–Mercury lattice,2026-09-01T11:40:00Z,"Saturn,Mars,Jupiter,Mercury",2,0061-11-29T12:00:00Z,2.1953859329223633,5.406457603385206e-06
+m001,f01_2026_sep01,motif_001,Saturn–Mars–Jupiter–Mercury lattice,2026-09-01T11:40:00Z,"Saturn,Mars,Jupiter,Mercury",3,0497-09-29T12:00:00Z,3.047258138656616,1.4867758181935642e-05
+m001,f01_2026_sep01,motif_001,Saturn–Mars–Jupiter–Mercury lattice,2026-09-01T11:40:00Z,"Saturn,Mars,Jupiter,Mercury",4,1351-09-07T12:00:00Z,3.267483711242676,2.0274215785320848e-05
+m001,f01_2026_sep01,motif_001,Saturn–Mars–Jupiter–Mercury lattice,2026-09-01T11:40:00Z,"Saturn,Mars,Jupiter,Mercury",5,1928-05-06T12:00:00Z,3.5728790760040283,3.108712917310186e-05
+m002,f01_2026_sep01,motif_002,Uranus–Neptune–Pluto slow scaffold,2026-09-01T11:40:00Z,"Uranus,Neptune,Pluto",1,0479-03-07T12:00:00Z,1.319459080696106,4.5954890083521605e-05
+m002,f01_2026_sep01,motif_002,Uranus–Neptune–Pluto slow scaffold,2026-09-01T11:40:00Z,"Uranus,Neptune,Pluto",2,0480-02-07T12:00:00Z,1.5744293928146362,0.0001148872179328464
+m002,f01_2026_sep01,motif_002,Uranus–Neptune–Pluto slow scaffold,2026-09-01T11:40:00Z,"Uranus,Neptune,Pluto",3,0478-03-31T12:00:00Z,1.7804973125457764,0.0002405873528914526
+m002,f01_2026_sep01,motif_002,Uranus–Neptune–Pluto slow scaffold,2026-09-01T11:40:00Z,"Uranus,Neptune,Pluto",4,0481-01-15T12:00:00Z,2.059762716293335,0.00042170367669314146
+m002,f01_2026_sep01,motif_002,Uranus–Neptune–Pluto slow scaffold,2026-09-01T11:40:00Z,"Uranus,Neptune,Pluto",5,0479-06-05T12:00:00Z,2.4622104167938232,0.0006501264870166779
+m003,f01_2026_sep01,motif_003,Neptune bridge into Saturn and inner ladder,2026-09-01T11:40:00Z,"Neptune,Saturn,Mars,Jupiter,Mercury",1,0160-04-01T12:00:00Z,4.9926886558532715,1.3516144008463016e-06
+m003,f01_2026_sep01,motif_003,Neptune bridge into Saturn and inner ladder,2026-09-01T11:40:00Z,"Neptune,Saturn,Mars,Jupiter,Mercury",2,1452-02-28T12:00:00Z,7.537448406219482,1.4867758181935642e-05
+m003,f01_2026_sep01,motif_003,Neptune bridge into Saturn and inner ladder,2026-09-01T11:40:00Z,"Neptune,Saturn,Mars,Jupiter,Mercury",3,0734-10-10T12:00:00Z,13.2576265335083,6.35258766124025e-05
+m003,f01_2026_sep01,motif_003,Neptune bridge into Saturn and inner ladder,2026-09-01T11:40:00Z,"Neptune,Saturn,Mars,Jupiter,Mercury",4,0736-11-07T12:00:00Z,14.027308464050293,7.974524487508461e-05
+m003,f01_2026_sep01,motif_003,Neptune bridge into Saturn and inner ladder,2026-09-01T11:40:00Z,"Neptune,Saturn,Mars,Jupiter,Mercury",5,0301-02-07T12:00:00Z,14.669621467590332,0.00010137107892660424
+m004,f02_2026_sep17,motif_004,Venus across Uranus–Neptune–Pluto scaffold,2026-09-17T18:19:39Z,"Venus,Uranus,Neptune,Pluto",1,0478-05-18T12:00:00Z,2.158169984817505,1.3516144008463016e-06
+m004,f02_2026_sep17,motif_004,Venus across Uranus–Neptune–Pluto scaffold,2026-09-17T18:19:39Z,"Venus,Uranus,Neptune,Pluto",2,0480-04-22T12:00:00Z,2.2165870666503906,2.703228801692603e-06
+m004,f02_2026_sep17,motif_004,Venus across Uranus–Neptune–Pluto scaffold,2026-09-17T18:19:39Z,"Venus,Uranus,Neptune,Pluto",3,0479-06-29T12:00:00Z,2.5110819339752197,1.3516143553715665e-05
+m004,f02_2026_sep17,motif_004,Venus across Uranus–Neptune–Pluto scaffold,2026-09-17T18:19:39Z,"Venus,Uranus,Neptune,Pluto",4,0477-04-02T12:00:00Z,2.7417118549346924,2.0274215785320848e-05
+m004,f02_2026_sep17,motif_004,Venus across Uranus–Neptune–Pluto scaffold,2026-09-17T18:19:39Z,"Venus,Uranus,Neptune,Pluto",5,0995-05-26T12:00:00Z,3.0363733768463135,3.2438743801321834e-05
+m007,f03_2026_feb28,motif_007,Six-body dual-double-node parade,2026-02-28T23:30:00Z,"Mercury,Venus,Neptune,Saturn,Uranus,Jupiter",1,0300-09-12T12:00:00Z,10.792820930480957,3.6493587685981765e-05
+m007,f03_2026_feb28,motif_007,Six-body dual-double-node parade,2026-02-28T23:30:00Z,"Mercury,Venus,Neptune,Saturn,Uranus,Jupiter",2,1847-02-04T12:00:00Z,11.666812896728516,5.1361344958422706e-05
+m007,f03_2026_feb28,motif_007,Six-body dual-double-node parade,2026-02-28T23:30:00Z,"Mercury,Venus,Neptune,Saturn,Uranus,Jupiter",3,1667-12-28T12:00:00Z,16.32555389404297,0.00011759044718928635
+m007,f03_2026_feb28,motif_007,Six-body dual-double-node parade,2026-02-28T23:30:00Z,"Mercury,Venus,Neptune,Saturn,Uranus,Jupiter",4,1848-03-26T12:00:00Z,19.5222110748291,0.0002365325199207291
+m007,f03_2026_feb28,motif_007,Six-body dual-double-node parade,2026-02-28T23:30:00Z,"Mercury,Venus,Neptune,Saturn,Uranus,Jupiter",5,0658-11-25T12:00:00Z,19.988567352294922,0.00026086156140081584
+m010,f04_2023_oct07,motif_010,Venus–Mars–Pluto 60/90/150 triad,2023-10-07T12:00:00Z,"Venus,Mars,Pluto",1,0861-11-29T12:00:00Z,0.16618449985980988,2.703228801692603e-06
+m010,f04_2023_oct07,motif_010,Venus–Mars–Pluto 60/90/150 triad,2023-10-07T12:00:00Z,"Venus,Mars,Pluto",2,1699-04-14T12:00:00Z,0.2724026143550873,4.054842975165229e-06
+m010,f04_2023_oct07,motif_010,Venus–Mars–Pluto 60/90/150 triad,2023-10-07T12:00:00Z,"Venus,Mars,Pluto",3,1432-02-22T12:00:00Z,0.3203637897968292,5.406457603385206e-06
+m010,f04_2023_oct07,motif_010,Venus–Mars–Pluto 60/90/150 triad,2023-10-07T12:00:00Z,"Venus,Mars,Pluto",4,1466-04-10T12:00:00Z,0.3360999524593353,6.7580717768578324e-06
+m010,f04_2023_oct07,motif_010,Venus–Mars–Pluto 60/90/150 triad,2023-10-07T12:00:00Z,"Venus,Mars,Pluto",5,1183-12-17T12:00:00Z,0.4543617367744446,8.109685950330459e-06
+m011,f04_2023_oct07,motif_011,Pluto–Neptune–Uranus 60/60/120 triad,2023-10-07T12:00:00Z,"Pluto,Neptune,Uranus",1,0476-02-23T12:00:00Z,0.01793847046792507,2.703228801692603e-06
+m011,f04_2023_oct07,motif_011,Pluto–Neptune–Uranus 60/60/120 triad,2023-10-07T12:00:00Z,"Pluto,Neptune,Uranus",2,2026-04-27T12:00:00Z,0.20124121010303497,4.460327545530163e-05
+m011,f04_2023_oct07,motif_011,Pluto–Neptune–Uranus 60/60/120 triad,2023-10-07T12:00:00Z,"Pluto,Neptune,Uranus",3,0477-01-17T12:00:00Z,0.33541691303253174,0.0001040743081830442
+m011,f04_2023_oct07,motif_011,Pluto–Neptune–Uranus 60/60/120 triad,2023-10-07T12:00:00Z,"Pluto,Neptune,Uranus",4,0477-12-21T12:00:00Z,0.8783034086227417,0.0004973940667696297
+m011,f04_2023_oct07,motif_011,Pluto–Neptune–Uranus 60/60/120 triad,2023-10-07T12:00:00Z,"Pluto,Neptune,Uranus",5,2026-01-23T12:00:00Z,1.0027862787246704,0.0005987651529721916
+m012,f04_2023_oct07,motif_012,Pluto–Saturn–Neptune–Uranus routed scaffold,2023-10-07T12:00:00Z,"Pluto,Saturn,Neptune,Uranus",1,0479-10-07T12:00:00Z,2.080687999725342,0.00016219372628256679
+m012,f04_2023_oct07,motif_012,Pluto–Saturn–Neptune–Uranus routed scaffold,2023-10-07T12:00:00Z,"Pluto,Saturn,Neptune,Uranus",2,0478-12-12T12:00:00Z,3.413078784942627,0.00035547459265217185
+m012,f04_2023_oct07,motif_012,Pluto–Saturn–Neptune–Uranus routed scaffold,2023-10-07T12:00:00Z,"Pluto,Saturn,Neptune,Uranus",3,0480-08-07T12:00:00Z,4.3998565673828125,0.0005838974029757082
+m012,f04_2023_oct07,motif_012,Pluto–Saturn–Neptune–Uranus routed scaffold,2023-10-07T12:00:00Z,"Pluto,Saturn,Neptune,Uranus",4,0480-01-05T12:00:00Z,4.734655857086182,0.000774475047364831
+m012,f04_2023_oct07,motif_012,Pluto–Saturn–Neptune–Uranus routed scaffold,2023-10-07T12:00:00Z,"Pluto,Saturn,Neptune,Uranus",5,0480-04-04T12:00:00Z,6.303173065185547,0.0015462468145415187
+m013,f04_2023_oct07,motif_013,Joined six-body circuit,2023-10-07T12:00:00Z,"Venus,Mars,Pluto,Saturn,Neptune,Uranus",1,0981-02-25T12:00:00Z,11.724353790283203,5.947103272774257e-05
+m013,f04_2023_oct07,motif_013,Joined six-body circuit,2023-10-07T12:00:00Z,"Venus,Mars,Pluto,Saturn,Neptune,Uranus",2,1521-08-21T12:00:00Z,12.990431785583496,0.0001540840312372893
+m013,f04_2023_oct07,motif_013,Joined six-body circuit,2023-10-07T12:00:00Z,"Venus,Mars,Pluto,Saturn,Neptune,Uranus",3,2025-10-07T12:00:00Z,13.572403907775879,0.00018787439330480993
+m013,f04_2023_oct07,motif_013,Joined six-body circuit,2023-10-07T12:00:00Z,"Venus,Mars,Pluto,Saturn,Neptune,Uranus",4,0979-02-26T12:00:00Z,18.756839752197266,0.00035952942562289536
+m013,f04_2023_oct07,motif_013,Joined six-body circuit,2023-10-07T12:00:00Z,"Venus,Mars,Pluto,Saturn,Neptune,Uranus",5,0477-02-06T12:00:00Z,19.26130485534668,0.000393319787690416
+m014,f05_2021_sep11,motif_014,Pluto-centered six-body directed hinge,2021-09-11T12:00:00Z,"Mars,Pluto,Saturn,Jupiter,Neptune,Uranus",1,0474-10-11T12:00:00Z,15.859712600708008,0.0001094807666959241
+m014,f05_2021_sep11,motif_014,Pluto-centered six-body directed hinge,2021-09-11T12:00:00Z,"Mars,Pluto,Saturn,Jupiter,Neptune,Uranus",2,0474-07-13T12:00:00Z,18.061199188232422,0.00030141000752337277
+m014,f05_2021_sep11,motif_014,Pluto-centered six-body directed hinge,2021-09-11T12:00:00Z,"Mars,Pluto,Saturn,Jupiter,Neptune,Uranus",3,1523-01-30T12:00:00Z,21.36886978149414,0.00042981337173841894
+m014,f05_2021_sep11,motif_014,Pluto-centered six-body directed hinge,2021-09-11T12:00:00Z,"Mars,Pluto,Saturn,Jupiter,Neptune,Uranus",4,0475-01-09T12:00:00Z,21.442495346069336,0.0004500875947996974
+m014,f05_2021_sep11,motif_014,Pluto-centered six-body directed hinge,2021-09-11T12:00:00Z,"Mars,Pluto,Saturn,Jupiter,Neptune,Uranus",5,1523-07-14T12:00:00Z,23.964996337890625,0.0006014683749526739
+m015,f05_2021_sep11,motif_015,Pluto–Saturn–Jupiter–Neptune–Uranus expansion rail,2021-09-11T12:00:00Z,"Pluto,Saturn,Jupiter,Neptune,Uranus",1,0474-09-17T12:00:00Z,17.23723793029785,0.0008163750753737986
+m015,f05_2021_sep11,motif_015,Pluto–Saturn–Jupiter–Neptune–Uranus expansion rail,2021-09-11T12:00:00Z,"Pluto,Saturn,Jupiter,Neptune,Uranus",2,0475-07-25T12:00:00Z,18.166669845581055,0.0009758655796758831
+m015,f05_2021_sep11,motif_015,Pluto–Saturn–Jupiter–Neptune–Uranus expansion rail,2021-09-11T12:00:00Z,"Pluto,Saturn,Jupiter,Neptune,Uranus",3,0474-12-16T12:00:00Z,21.553451538085938,0.0016868147067725658
+m015,f05_2021_sep11,motif_015,Pluto–Saturn–Jupiter–Neptune–Uranus expansion rail,2021-09-11T12:00:00Z,"Pluto,Saturn,Jupiter,Neptune,Uranus",4,0475-04-26T12:00:00Z,21.836952209472656,0.0017273632111027837
+m015,f05_2021_sep11,motif_015,Pluto–Saturn–Jupiter–Neptune–Uranus expansion rail,2021-09-11T12:00:00Z,"Pluto,Saturn,Jupiter,Neptune,Uranus",5,0474-06-19T12:00:00Z,22.067989349365234,0.001758450292982161
+m016,f05_2021_sep11,motif_016,Mars–Pluto–Neptune 120+60 partition,2021-09-11T12:00:00Z,"Mars,Pluto,Neptune",1,0984-07-03T12:00:00Z,0.07486685365438461,2.703228801692603e-06
+m016,f05_2021_sep11,motif_016,Mars–Pluto–Neptune 120+60 partition,2021-09-11T12:00:00Z,"Mars,Pluto,Neptune",2,0054-07-26T12:00:00Z,0.0828891471028328,4.054842975165229e-06
+m016,f05_2021_sep11,motif_016,Mars–Pluto–Neptune 120+60 partition,2021-09-11T12:00:00Z,"Mars,Pluto,Neptune",3,1041-10-11T12:00:00Z,0.1623063087463379,5.406457603385206e-06
+m016,f05_2021_sep11,motif_016,Mars–Pluto–Neptune 120+60 partition,2021-09-11T12:00:00Z,"Mars,Pluto,Neptune",4,0982-07-21T12:00:00Z,0.18145868182182312,6.7580717768578324e-06
+m016,f05_2021_sep11,motif_016,Mars–Pluto–Neptune 120+60 partition,2021-09-11T12:00:00Z,"Mars,Pluto,Neptune",5,1947-04-30T12:00:00Z,0.19091814756393433,8.109685950330459e-06
+m017,f06_2025_sep10,motif_017,Jupiter–Venus–Mercury–Mars 0/30/60/90 ladder,2025-09-10T18:23:00Z,"Jupiter,Venus,Mercury,Mars",1,0970-09-03T12:00:00Z,1.0161701440811157,4.054842975165229e-06
+m017,f06_2025_sep10,motif_017,Jupiter–Venus–Mercury–Mars 0/30/60/90 ladder,2025-09-10T18:23:00Z,"Jupiter,Venus,Mercury,Mars",2,1111-07-05T12:00:00Z,1.4590283632278442,8.109685950330459e-06
+m017,f06_2025_sep10,motif_017,Jupiter–Venus–Mercury–Mars 0/30/60/90 ladder,2025-09-10T18:23:00Z,"Jupiter,Venus,Mercury,Mars",3,1743-12-11T12:00:00Z,1.5277446508407593,9.461300578550436e-06
+m017,f06_2025_sep10,motif_017,Jupiter–Venus–Mercury–Mars 0/30/60/90 ladder,2025-09-10T18:23:00Z,"Jupiter,Venus,Mercury,Mars",4,1413-01-14T12:00:00Z,1.6040788888931274,1.0812915206770413e-05
+m017,f06_2025_sep10,motif_017,Jupiter–Venus–Mercury–Mars 0/30/60/90 ladder,2025-09-10T18:23:00Z,"Jupiter,Venus,Mercury,Mars",5,1739-07-18T12:00:00Z,1.7198748588562012,1.7570986528880894e-05
+m018,f06_2025_sep10,motif_018,Pluto–Saturn–Neptune–Uranus outer ladder,2025-09-10T18:23:00Z,"Pluto,Saturn,Neptune,Uranus",1,0481-12-16T12:00:00Z,2.7617857456207275,0.0002365325199207291
+m018,f06_2025_sep10,motif_018,Pluto–Saturn–Neptune–Uranus outer ladder,2025-09-10T18:23:00Z,"Pluto,Saturn,Neptune,Uranus",2,0482-10-06T12:00:00Z,3.4594669342041016,0.00042170367669314146
+m018,f06_2025_sep10,motif_018,Pluto–Saturn–Neptune–Uranus outer ladder,2025-09-10T18:23:00Z,"Pluto,Saturn,Neptune,Uranus",3,0482-03-16T12:00:00Z,5.504860877990723,0.0009001751895993948
+m018,f06_2025_sep10,motif_018,Pluto–Saturn–Neptune–Uranus outer ladder,2025-09-10T18:23:00Z,"Pluto,Saturn,Neptune,Uranus",4,0483-08-22T12:00:00Z,6.17610502243042,0.0010393914999440312
+m018,f06_2025_sep10,motif_018,Pluto–Saturn–Neptune–Uranus outer ladder,2025-09-10T18:23:00Z,"Pluto,Saturn,Neptune,Uranus",5,0482-07-08T12:00:00Z,6.207489967346191,0.001081291469745338
+m019,f06_2025_sep10,motif_019,Dual eight-planet ladder assembly,2025-09-10T18:23:00Z,"Mercury,Venus,Mars,Jupiter,Saturn,Uranus,Neptune,Pluto",1,2023-09-10T12:00:00Z,29.098583221435547,0.00010272268991684541
+m019,f06_2025_sep10,motif_019,Dual eight-planet ladder assembly,2025-09-10T18:23:00Z,"Mercury,Venus,Mars,Jupiter,Saturn,Uranus,Neptune,Pluto",2,1489-04-19T12:00:00Z,31.399953842163086,0.00015678726776968688
+m019,f06_2025_sep10,motif_019,Dual eight-planet ladder assembly,2025-09-10T18:23:00Z,"Mercury,Venus,Mars,Jupiter,Saturn,Uranus,Neptune,Pluto",3,1987-05-16T12:00:00Z,33.12256622314453,0.00022031314438208938
+m019,f06_2025_sep10,motif_019,Dual eight-planet ladder assembly,2025-09-10T18:23:00Z,"Mercury,Venus,Mars,Jupiter,Saturn,Uranus,Neptune,Pluto",4,1886-11-28T12:00:00Z,34.39097595214844,0.00027437772951088846
+m019,f06_2025_sep10,motif_019,Dual eight-planet ladder assembly,2025-09-10T18:23:00Z,"Mercury,Venus,Mars,Jupiter,Saturn,Uranus,Neptune,Pluto",5,0977-03-09T12:00:00Z,34.756160736083984,0.00029870678554289043
+m021,f07_2008_sep15,motif_021,Mercury–Venus–Mars triple node,2008-09-15T09:13:00Z,"Mercury,Venus,Mars",1,1725-03-18T12:00:00Z,0.08384284377098083,2.703228801692603e-06
+m021,f07_2008_sep15,motif_021,Mercury–Venus–Mars triple node,2008-09-15T09:13:00Z,"Mercury,Venus,Mars",2,0462-09-14T12:00:00Z,0.12192191183567047,4.054842975165229e-06
+m021,f07_2008_sep15,motif_021,Mercury–Venus–Mars triple node,2008-09-15T09:13:00Z,"Mercury,Venus,Mars",3,0196-04-28T12:00:00Z,0.15059955418109894,5.406457603385206e-06
+m021,f07_2008_sep15,motif_021,Mercury–Venus–Mars triple node,2008-09-15T09:13:00Z,"Mercury,Venus,Mars",4,0990-04-10T12:00:00Z,0.1750805377960205,6.7580717768578324e-06
+m021,f07_2008_sep15,motif_021,Mercury–Venus–Mars triple node,2008-09-15T09:13:00Z,"Mercury,Venus,Mars",5,1568-12-05T12:00:00Z,0.23253701627254486,9.461300578550436e-06
+m022,f07_2008_sep15,motif_022,Pluto–Jupiter–Neptune–Uranus outer shell,2008-09-15T09:13:00Z,"Pluto,Jupiter,Neptune,Uranus",1,1496-12-15T12:00:00Z,3.0807855129241943,0.00016084211529232562
+m022,f07_2008_sep15,motif_022,Pluto–Jupiter–Neptune–Uranus outer shell,2008-09-15T09:13:00Z,"Pluto,Jupiter,Neptune,Uranus",2,1497-08-23T12:00:00Z,6.313565731048584,0.0005663264309987426
+m022,f07_2008_sep15,motif_022,Pluto–Jupiter–Neptune–Uranus outer shell,2008-09-15T09:13:00Z,"Pluto,Jupiter,Neptune,Uranus",3,0460-11-29T12:00:00Z,7.365344047546387,0.0007555524352937937
+m022,f07_2008_sep15,motif_022,Pluto–Jupiter–Neptune–Uranus outer shell,2008-09-15T09:13:00Z,"Pluto,Jupiter,Neptune,Uranus",4,0461-06-20T12:00:00Z,7.607404708862305,0.0008352976874448359
+m022,f07_2008_sep15,motif_022,Pluto–Jupiter–Neptune–Uranus outer shell,2008-09-15T09:13:00Z,"Pluto,Jupiter,Neptune,Uranus",5,1497-05-25T12:00:00Z,8.104926109313965,0.000996139831840992
+m023,f07_2008_sep15,motif_023,Eight-planet assembly,2008-09-15T09:13:00Z,"Mercury,Venus,Mars,Jupiter,Saturn,Uranus,Neptune,Pluto",1,2006-09-15T12:00:00Z,26.17125129699707,0.00011218399595236406
+m023,f07_2008_sep15,motif_023,Eight-planet assembly,2008-09-15T09:13:00Z,"Mercury,Venus,Mars,Jupiter,Saturn,Uranus,Neptune,Pluto",2,0973-07-28T12:00:00Z,28.214954376220703,0.00014327112876344472
+m023,f07_2008_sep15,motif_023,Eight-planet assembly,2008-09-15T09:13:00Z,"Mercury,Venus,Mars,Jupiter,Saturn,Uranus,Neptune,Pluto",3,1470-04-20T12:00:00Z,28.280380249023438,0.0001500291982665658
+m023,f07_2008_sep15,motif_023,Eight-planet assembly,2008-09-15T09:13:00Z,"Mercury,Venus,Mars,Jupiter,Saturn,Uranus,Neptune,Pluto",4,0101-12-13T12:00:00Z,28.382139205932617,0.00016354533727280796
+m023,f07_2008_sep15,motif_023,Eight-planet assembly,2008-09-15T09:13:00Z,"Mercury,Venus,Mars,Jupiter,Saturn,Uranus,Neptune,Pluto",5,0463-06-08T12:00:00Z,31.699697494506836,0.000368990731658414
+m026,f08_1775_apr19,motif_026,Pluto–Mercury–Uranus 60+60=120,1775-04-19T12:00:00Z,"Pluto,Mercury,Uranus",1,1887-07-07T12:00:00Z,0.269374817609787,2.703228801692603e-06
+m026,f08_1775_apr19,motif_026,Pluto–Mercury–Uranus 60+60=120,1775-04-19T12:00:00Z,"Pluto,Mercury,Uranus",2,1005-01-26T12:00:00Z,0.32664498686790466,6.7580717768578324e-06
+m026,f08_1775_apr19,motif_026,Pluto–Mercury–Uranus 60+60=120,1775-04-19T12:00:00Z,"Pluto,Mercury,Uranus",3,0743-12-17T12:00:00Z,0.3317175507545471,8.109685950330459e-06
+m026,f08_1775_apr19,motif_026,Pluto–Mercury–Uranus 60+60=120,1775-04-19T12:00:00Z,"Pluto,Mercury,Uranus",4,0621-06-28T12:00:00Z,0.3690512776374817,9.461300578550436e-06
+m026,f08_1775_apr19,motif_026,Pluto–Mercury–Uranus 60+60=120,1775-04-19T12:00:00Z,"Pluto,Mercury,Uranus",5,0484-10-25T12:00:00Z,0.38830605149269104,1.0812915206770413e-05
+m027,f08_1775_apr19,motif_027,Mercury–Uranus–Saturn 60+120=180,1775-04-19T12:00:00Z,"Mercury,Uranus,Saturn",1,1594-01-29T12:00:00Z,0.18700706958770752,2.703228801692603e-06
+m027,f08_1775_apr19,motif_027,Mercury–Uranus–Saturn 60+120=180,1775-04-19T12:00:00Z,"Mercury,Uranus,Saturn",2,1504-01-25T12:00:00Z,0.2395680993795395,4.054842975165229e-06
+m027,f08_1775_apr19,motif_027,Mercury–Uranus–Saturn 60+120=180,1775-04-19T12:00:00Z,"Mercury,Uranus,Saturn",3,0777-04-23T12:00:00Z,0.318970650434494,5.406457603385206e-06
+m027,f08_1775_apr19,motif_027,Mercury–Uranus–Saturn 60+120=180,1775-04-19T12:00:00Z,"Mercury,Uranus,Saturn",4,1458-06-15T12:00:00Z,0.37475648522377014,6.7580717768578324e-06
+m027,f08_1775_apr19,motif_027,Mercury–Uranus–Saturn 60+120=180,1775-04-19T12:00:00Z,"Mercury,Uranus,Saturn",5,0505-01-31T12:00:00Z,0.4351091980934143,8.109685950330459e-06
+m028,f08_1775_apr19,motif_028,Venus/Jupiter to Neptune/Mars fork,1775-04-19T12:00:00Z,"Venus,Jupiter,Neptune,Mars",1,0816-05-22T12:00:00Z,5.881004810333252,2.1625830413540825e-05
+m028,f08_1775_apr19,motif_028,Venus/Jupiter to Neptune/Mars fork,1775-04-19T12:00:00Z,"Venus,Jupiter,Neptune,Mars",2,0062-11-20T12:00:00Z,6.2873616218566895,3.108712917310186e-05
+m028,f08_1775_apr19,motif_028,Venus/Jupiter to Neptune/Mars fork,1775-04-19T12:00:00Z,"Venus,Jupiter,Neptune,Mars",3,0688-11-15T12:00:00Z,6.6951518058776855,4.460327545530163e-05
+m028,f08_1775_apr19,motif_028,Venus/Jupiter to Neptune/Mars fork,1775-04-19T12:00:00Z,"Venus,Jupiter,Neptune,Mars",4,1442-05-11T12:00:00Z,6.700451374053955,4.5954890083521605e-05
+m028,f08_1775_apr19,motif_028,Venus/Jupiter to Neptune/Mars fork,1775-04-19T12:00:00Z,"Venus,Jupiter,Neptune,Mars",5,1301-07-14T12:00:00Z,6.766458034515381,5.271295958664268e-05
+m029,f08_1775_apr19,motif_029,Eight-planet assembly,1775-04-19T12:00:00Z,"Mercury,Venus,Mars,Jupiter,Saturn,Uranus,Neptune,Pluto",1,1777-04-21T12:00:00Z,25.267629623413086,9.461300214752555e-05
+m029,f08_1775_apr19,motif_029,Eight-planet assembly,1775-04-19T12:00:00Z,"Mercury,Venus,Mars,Jupiter,Saturn,Uranus,Neptune,Pluto",2,1736-12-22T12:00:00Z,32.174251556396484,0.0001716550177661702
+m029,f08_1775_apr19,motif_029,Eight-planet assembly,1775-04-19T12:00:00Z,"Mercury,Venus,Mars,Jupiter,Saturn,Uranus,Neptune,Pluto",3,1636-06-22T12:00:00Z,38.977237701416016,0.0003433100355323404
+m029,f08_1775_apr19,motif_029,Eight-planet assembly,1775-04-19T12:00:00Z,"Mercury,Venus,Mars,Jupiter,Saturn,Uranus,Neptune,Pluto",4,0740-02-08T12:00:00Z,39.1105842590332,0.0003541229525581002
+m029,f08_1775_apr19,motif_029,Eight-planet assembly,1775-04-19T12:00:00Z,"Mercury,Venus,Mars,Jupiter,Saturn,Uranus,Neptune,Pluto",5,1735-01-04T12:00:00Z,40.012489318847656,0.00041359401075169444
+m030,f09_1914_jun28,motif_030,Pluto–Neptune/Mercury–Mars 0/30/60 core,1914-06-28T09:45:00Z,"Pluto,Neptune,Mercury,Mars",1,1421-08-04T12:00:00Z,0.5593528747558594,5.406457603385206e-06
+m030,f09_1914_jun28,motif_030,Pluto–Neptune/Mercury–Mars 0/30/60 core,1914-06-28T09:45:00Z,"Pluto,Neptune,Mercury,Mars",2,1423-07-20T12:00:00Z,1.6236029863357544,1.6219371900660917e-05
+m030,f09_1914_jun28,motif_030,Pluto–Neptune/Mercury–Mars 0/30/60 core,1914-06-28T09:45:00Z,"Pluto,Neptune,Mercury,Mars",3,1425-07-05T12:00:00Z,2.4869372844696045,2.703228710743133e-05
+m030,f09_1914_jun28,motif_030,Pluto–Neptune/Mercury–Mars 0/30/60 core,1914-06-28T09:45:00Z,"Pluto,Neptune,Mercury,Mars",4,0428-06-27T12:00:00Z,4.157521724700928,5.406457421486266e-05
+m030,f09_1914_jun28,motif_030,Pluto–Neptune/Mercury–Mars 0/30/60 core,1914-06-28T09:45:00Z,"Pluto,Neptune,Mercury,Mars",5,1910-07-17T12:00:00Z,5.828151702880859,9.326139115728438e-05
+m033,f09_1914_jun28,motif_033,Eight-planet assembly,1914-06-28T09:45:00Z,"Mercury,Venus,Mars,Jupiter,Saturn,Uranus,Neptune,Pluto",1,0009-11-17T12:00:00Z,27.689878463745117,0.0001094807666959241
+m033,f09_1914_jun28,motif_033,Eight-planet assembly,1914-06-28T09:45:00Z,"Mercury,Venus,Mars,Jupiter,Saturn,Uranus,Neptune,Pluto",2,1556-04-24T12:00:00Z,29.928842544555664,0.0001500291982665658
+m033,f09_1914_jun28,motif_033,Eight-planet assembly,1914-06-28T09:45:00Z,"Mercury,Venus,Mars,Jupiter,Saturn,Uranus,Neptune,Pluto",3,0546-02-05T12:00:00Z,30.503570556640625,0.0001851711713243276
+m033,f09_1914_jun28,motif_033,Eight-planet assembly,1914-06-28T09:45:00Z,"Mercury,Venus,Mars,Jupiter,Saturn,Uranus,Neptune,Pluto",4,0007-11-17T12:00:00Z,32.16945266723633,0.00027302608941681683
+m033,f09_1914_jun28,motif_033,Eight-planet assembly,1914-06-28T09:45:00Z,"Mercury,Venus,Mars,Jupiter,Saturn,Uranus,Neptune,Pluto",5,1417-09-27T12:00:00Z,33.57270812988281,0.00034466167562641203
+m035,f10_1978_dec11,motif_035,Jupiter–Saturn–Pluto midpoint,1978-12-11T12:00:00Z,"Jupiter,Saturn,Pluto",1,1144-12-31T12:00:00Z,0.4004802405834198,2.0274215785320848e-05
+m035,f10_1978_dec11,motif_035,Jupiter–Saturn–Pluto midpoint,1978-12-11T12:00:00Z,"Jupiter,Saturn,Pluto",2,0707-06-23T12:00:00Z,0.49374228715896606,2.9735516363871284e-05
+m035,f10_1978_dec11,motif_035,Jupiter–Saturn–Pluto midpoint,1978-12-11T12:00:00Z,"Jupiter,Saturn,Pluto",3,1442-10-09T12:00:00Z,1.0151689052581787,9.326139115728438e-05
+m035,f10_1978_dec11,motif_035,Jupiter–Saturn–Pluto midpoint,1978-12-11T12:00:00Z,"Jupiter,Saturn,Pluto",4,1144-05-10T12:00:00Z,1.089432954788208,0.00011218399595236406
+m035,f10_1978_dec11,motif_035,Jupiter–Saturn–Pluto midpoint,1978-12-11T12:00:00Z,"Jupiter,Saturn,Pluto",5,0708-02-17T12:00:00Z,1.1517467498779297,0.00013651304470840842
+m036,f10_1978_dec11,motif_036,Pluto–Uranus–Neptune midpoint,1978-12-11T12:00:00Z,"Pluto,Uranus,Neptune",1,1467-07-10T12:00:00Z,0.45536288619041443,0.00010542591917328537
+m036,f10_1978_dec11,motif_036,Pluto–Uranus–Neptune midpoint,1978-12-11T12:00:00Z,"Pluto,Uranus,Neptune",2,1465-12-10T12:00:00Z,0.5600018501281738,0.00016084211529232562
+m036,f10_1978_dec11,motif_036,Pluto–Uranus–Neptune midpoint,1978-12-11T12:00:00Z,"Pluto,Uranus,Neptune",3,1466-09-30T12:00:00Z,0.7134026885032654,0.00026356481248512864
+m036,f10_1978_dec11,motif_036,Pluto–Uranus–Neptune midpoint,1978-12-11T12:00:00Z,"Pluto,Uranus,Neptune",4,1466-07-02T12:00:00Z,1.7876224517822266,0.0012191561982035637
+m036,f10_1978_dec11,motif_036,Pluto–Uranus–Neptune midpoint,1978-12-11T12:00:00Z,"Pluto,Uranus,Neptune",5,1466-12-29T12:00:00Z,1.8837372064590454,0.0013178240042179823
+m037,f10_1978_dec11,motif_037,Mercury–Neptune–Mars midpoint,1978-12-11T12:00:00Z,"Mercury,Neptune,Mars",1,0740-04-26T12:00:00Z,0.05848485603928566,2.703228801692603e-06
+m037,f10_1978_dec11,motif_037,Mercury–Neptune–Mars midpoint,1978-12-11T12:00:00Z,"Mercury,Neptune,Mars",2,1018-01-27T12:00:00Z,0.21643751859664917,4.054842975165229e-06
+m037,f10_1978_dec11,motif_037,Mercury–Neptune–Mars midpoint,1978-12-11T12:00:00Z,"Mercury,Neptune,Mars",3,1541-04-04T12:00:00Z,0.22030293941497803,5.406457603385206e-06
+m037,f10_1978_dec11,motif_037,Mercury–Neptune–Mars midpoint,1978-12-11T12:00:00Z,"Mercury,Neptune,Mars",4,1560-04-30T12:00:00Z,0.3490400016307831,6.7580717768578324e-06
+m037,f10_1978_dec11,motif_037,Mercury–Neptune–Mars midpoint,1978-12-11T12:00:00Z,"Mercury,Neptune,Mars",5,0810-10-13T12:00:00Z,0.3882119953632355,8.109685950330459e-06
+m038,f10_1978_dec11,motif_038,Eight-planet chained midpoint assembly,1978-12-11T12:00:00Z,"Mercury,Venus,Mars,Jupiter,Saturn,Uranus,Neptune,Pluto",1,1980-12-20T12:00:00Z,25.17302131652832,0.00012975497520528734
+m038,f10_1978_dec11,motif_038,Eight-planet chained midpoint assembly,1978-12-11T12:00:00Z,"Mercury,Venus,Mars,Jupiter,Saturn,Uranus,Neptune,Pluto",2,1480-10-21T12:00:00Z,25.928239822387695,0.00015138080925680697
+m038,f10_1978_dec11,motif_038,Eight-planet chained midpoint assembly,1978-12-11T12:00:00Z,"Mercury,Venus,Mars,Jupiter,Saturn,Uranus,Neptune,Pluto",3,0074-03-12T12:00:00Z,33.32074737548828,0.00028383900644257665
+m038,f10_1978_dec11,motif_038,Eight-planet chained midpoint assembly,1978-12-11T12:00:00Z,"Mercury,Venus,Mars,Jupiter,Saturn,Uranus,Neptune,Pluto",4,0112-05-26T12:00:00Z,34.14482116699219,0.0003230358415748924
+m038,f10_1978_dec11,motif_038,Eight-planet chained midpoint assembly,1978-12-11T12:00:00Z,"Mercury,Venus,Mars,Jupiter,Saturn,Uranus,Neptune,Pluto",5,0072-02-28T12:00:00Z,34.366336822509766,0.0003433100355323404
+m039,f11_1913_dec23,motif_039,Saturn opposite Mercury/Venus fork,1913-12-23T12:00:00Z,"Saturn,Mercury,Venus",1,1234-10-28T12:00:00Z,0.12163195759057999,2.703228801692603e-06
+m039,f11_1913_dec23,motif_039,Saturn opposite Mercury/Venus fork,1913-12-23T12:00:00Z,"Saturn,Mercury,Venus",2,0401-07-29T12:00:00Z,0.12362457066774368,4.054842975165229e-06
+m039,f11_1913_dec23,motif_039,Saturn opposite Mercury/Venus fork,1913-12-23T12:00:00Z,"Saturn,Mercury,Venus",3,1594-02-21T12:00:00Z,0.12724120914936066,5.406457603385206e-06
+m039,f11_1913_dec23,motif_039,Saturn opposite Mercury/Venus fork,1913-12-23T12:00:00Z,"Saturn,Mercury,Venus",4,0559-12-12T12:00:00Z,0.1777449995279312,6.7580717768578324e-06
+m039,f11_1913_dec23,motif_039,Saturn opposite Mercury/Venus fork,1913-12-23T12:00:00Z,"Saturn,Mercury,Venus",5,0785-07-21T12:00:00Z,0.18870678544044495,8.109685950330459e-06
+m040,f11_1913_dec23,motif_040,Mars/Neptune opposite Jupiter/Uranus bundle,1913-12-23T12:00:00Z,"Mars,Neptune,Jupiter,Uranus",1,1223-04-27T12:00:00Z,3.518583059310913,2.9735516363871284e-05
+m040,f11_1913_dec23,motif_040,Mars/Neptune opposite Jupiter/Uranus bundle,1913-12-23T12:00:00Z,"Mars,Neptune,Jupiter,Uranus",2,1402-05-02T12:00:00Z,8.31190013885498,0.00016354533727280796
+m040,f11_1913_dec23,motif_040,Mars/Neptune opposite Jupiter/Uranus bundle,1913-12-23T12:00:00Z,"Mars,Neptune,Jupiter,Uranus",3,1389-01-24T12:00:00Z,8.529378890991211,0.00017976471281144768
+m040,f11_1913_dec23,motif_040,Mars/Neptune opposite Jupiter/Uranus bundle,1913-12-23T12:00:00Z,"Mars,Neptune,Jupiter,Uranus",4,0367-02-26T12:00:00Z,8.755887031555176,0.00020274215785320848
+m040,f11_1913_dec23,motif_040,Mars/Neptune opposite Jupiter/Uranus bundle,1913-12-23T12:00:00Z,"Mars,Neptune,Jupiter,Uranus",5,0199-12-05T12:00:00Z,8.983829498291016,0.00022571960289496928
+m041,f11_1913_dec23,motif_041,Eight-planet double-rail assembly,1913-12-23T12:00:00Z,"Mercury,Venus,Mars,Jupiter,Saturn,Uranus,Neptune,Pluto",1,1915-12-24T12:00:00Z,28.00623893737793,0.0001148872179328464
+m041,f11_1913_dec23,motif_041,Eight-planet double-rail assembly,1913-12-23T12:00:00Z,"Mercury,Venus,Mars,Jupiter,Saturn,Uranus,Neptune,Pluto",2,0047-05-30T12:00:00Z,29.59759521484375,0.00013921628124080598
+m041,f11_1913_dec23,motif_041,Eight-planet double-rail assembly,1913-12-23T12:00:00Z,"Mercury,Venus,Mars,Jupiter,Saturn,Uranus,Neptune,Pluto",3,1911-12-23T12:00:00Z,37.5150032043457,0.00039467139868065715
+m041,f11_1913_dec23,motif_041,Eight-planet double-rail assembly,1913-12-23T12:00:00Z,"Mercury,Venus,Mars,Jupiter,Saturn,Uranus,Neptune,Pluto",4,1057-08-03T12:00:00Z,39.52708435058594,0.0004649553447961807
+m041,f11_1913_dec23,motif_041,Eight-planet double-rail assembly,1913-12-23T12:00:00Z,"Mercury,Venus,Mars,Jupiter,Saturn,Uranus,Neptune,Pluto",5,0045-05-31T12:00:00Z,41.15961456298828,0.0005541619029827416
+m043,f12_1929_oct24,motif_043,Uranus opposite Mercury/Venus gate,1929-10-24T12:00:00Z,"Uranus,Mercury,Venus",1,0916-08-15T12:00:00Z,0.19908197224140167,2.703228801692603e-06
+m043,f12_1929_oct24,motif_043,Uranus opposite Mercury/Venus gate,1929-10-24T12:00:00Z,"Uranus,Mercury,Venus",2,1237-07-25T12:00:00Z,0.24299606680870056,4.054842975165229e-06
+m043,f12_1929_oct24,motif_043,Uranus opposite Mercury/Venus gate,1929-10-24T12:00:00Z,"Uranus,Mercury,Venus",3,0001-10-13T12:00:00Z,0.2519199550151825,5.406457603385206e-06
+m043,f12_1929_oct24,motif_043,Uranus opposite Mercury/Venus gate,1929-10-24T12:00:00Z,"Uranus,Mercury,Venus",4,1355-12-07T12:00:00Z,0.27086198329925537,6.7580717768578324e-06
+m043,f12_1929_oct24,motif_043,Uranus opposite Mercury/Venus gate,1929-10-24T12:00:00Z,"Uranus,Mercury,Venus",5,1125-03-01T12:00:00Z,0.27821871638298035,8.109685950330459e-06
+m044,f12_1929_oct24,motif_044,Uranus–Mercury/Venus–Mars routing module,1929-10-24T12:00:00Z,"Uranus,Mercury,Venus,Mars",1,1487-06-07T12:00:00Z,0.5919707417488098,2.703228801692603e-06
+m044,f12_1929_oct24,motif_044,Uranus–Mercury/Venus–Mars routing module,1929-10-24T12:00:00Z,"Uranus,Mercury,Venus,Mars",2,0956-03-08T12:00:00Z,0.9652188420295715,8.109685950330459e-06
+m044,f12_1929_oct24,motif_044,Uranus–Mercury/Venus–Mars routing module,1929-10-24T12:00:00Z,"Uranus,Mercury,Venus,Mars",3,0417-09-08T12:00:00Z,1.818441390991211,1.892260115710087e-05
+m044,f12_1929_oct24,motif_044,Uranus–Mercury/Venus–Mars routing module,1929-10-24T12:00:00Z,"Uranus,Mercury,Venus,Mars",4,0492-08-24T12:00:00Z,1.899213433265686,2.1625830413540825e-05
+m044,f12_1929_oct24,motif_044,Uranus–Mercury/Venus–Mars routing module,1929-10-24T12:00:00Z,"Uranus,Mercury,Venus,Mars",5,0432-12-09T12:00:00Z,2.3557841777801514,2.9735516363871284e-05
+m045,f12_1929_oct24,motif_045,Jupiter–Pluto–Mercury–Mars ladder,1929-10-24T12:00:00Z,"Jupiter,Pluto,Mercury,Mars",1,0063-04-07T12:00:00Z,3.744297981262207,1.6219371900660917e-05
+m045,f12_1929_oct24,motif_045,Jupiter–Pluto–Mercury–Mars ladder,1929-10-24T12:00:00Z,"Jupiter,Pluto,Mercury,Mars",2,1643-09-02T12:00:00Z,4.021908760070801,2.703228710743133e-05
+m045,f12_1929_oct24,motif_045,Jupiter–Pluto–Mercury–Mars ladder,1929-10-24T12:00:00Z,"Jupiter,Pluto,Mercury,Mars",3,1880-08-27T12:00:00Z,5.241383075714111,5.406457421486266e-05
+m045,f12_1929_oct24,motif_045,Jupiter–Pluto–Mercury–Mars ladder,1929-10-24T12:00:00Z,"Jupiter,Pluto,Mercury,Mars",4,0586-05-14T12:00:00Z,5.560664653778076,6.622910586884245e-05
+m045,f12_1929_oct24,motif_045,Jupiter–Pluto–Mercury–Mars ladder,1929-10-24T12:00:00Z,"Jupiter,Pluto,Mercury,Mars",5,1692-10-30T12:00:00Z,5.595642566680908,6.893233512528241e-05
+m046,f12_1929_oct24,motif_046,Eight-planet assembly,1929-10-24T12:00:00Z,"Mercury,Venus,Mars,Jupiter,Saturn,Uranus,Neptune,Pluto",1,1431-08-21T12:00:00Z,24.146198272705078,8.380009239772335e-05
+m046,f12_1929_oct24,motif_046,Eight-planet assembly,1929-10-24T12:00:00Z,"Mercury,Venus,Mars,Jupiter,Saturn,Uranus,Neptune,Pluto",2,1931-10-25T12:00:00Z,29.034997940063477,0.00016489694826304913
+m046,f12_1929_oct24,motif_046,Eight-planet assembly,1929-10-24T12:00:00Z,"Mercury,Venus,Mars,Jupiter,Saturn,Uranus,Neptune,Pluto",3,1571-08-14T12:00:00Z,30.88409996032715,0.0002013905468629673
+m046,f12_1929_oct24,motif_046,Eight-planet assembly,1929-10-24T12:00:00Z,"Mercury,Venus,Mars,Jupiter,Saturn,Uranus,Neptune,Pluto",4,0561-06-05T12:00:00Z,31.815874099731445,0.0002351808943785727
+m046,f12_1929_oct24,motif_046,Eight-planet assembly,1929-10-24T12:00:00Z,"Mercury,Venus,Mars,Jupiter,Saturn,Uranus,Neptune,Pluto",5,1570-06-19T12:00:00Z,32.26839065551758,0.0002649164234753698
+m048,f13_1947_nov29,motif_048,Pluto–Saturn–Mars midpoint,1947-11-29T12:00:00Z,"Pluto,Saturn,Mars",1,1052-01-19T12:00:00Z,0.14892134070396423,2.703228801692603e-06
+m048,f13_1947_nov29,motif_048,Pluto–Saturn–Mars midpoint,1947-11-29T12:00:00Z,"Pluto,Saturn,Mars",2,0913-05-23T12:00:00Z,0.15837618708610535,4.054842975165229e-06
+m048,f13_1947_nov29,motif_048,Pluto–Saturn–Mars midpoint,1947-11-29T12:00:00Z,"Pluto,Saturn,Mars",3,0113-06-18T12:00:00Z,0.2715771198272705,5.406457603385206e-06
+m048,f13_1947_nov29,motif_048,Pluto–Saturn–Mars midpoint,1947-11-29T12:00:00Z,"Pluto,Saturn,Mars",4,0081-05-06T12:00:00Z,0.4796241819858551,1.2164528925495688e-05
+m048,f13_1947_nov29,motif_048,Pluto–Saturn–Mars midpoint,1947-11-29T12:00:00Z,"Pluto,Saturn,Mars",5,0477-07-26T12:00:00Z,0.5660003423690796,1.4867758181935642e-05
+m049,f13_1947_nov29,motif_049,Mars–Venus–Uranus 60/120/180 gate,1947-11-29T12:00:00Z,"Mars,Venus,Uranus",1,0143-04-30T12:00:00Z,0.14398010075092316,2.703228801692603e-06
+m049,f13_1947_nov29,motif_049,Mars–Venus–Uranus 60/120/180 gate,1947-11-29T12:00:00Z,"Mars,Venus,Uranus",2,1268-09-28T12:00:00Z,0.1998913288116455,4.054842975165229e-06
+m049,f13_1947_nov29,motif_049,Mars–Venus–Uranus 60/120/180 gate,1947-11-29T12:00:00Z,"Mars,Venus,Uranus",3,1134-03-16T12:00:00Z,0.29233741760253906,5.406457603385206e-06
+m049,f13_1947_nov29,motif_049,Mars–Venus–Uranus 60/120/180 gate,1947-11-29T12:00:00Z,"Mars,Venus,Uranus",4,1482-06-10T12:00:00Z,0.41377559304237366,6.7580717768578324e-06
+m049,f13_1947_nov29,motif_049,Mars–Venus–Uranus 60/120/180 gate,1947-11-29T12:00:00Z,"Mars,Venus,Uranus",5,0045-04-05T12:00:00Z,0.5684413313865662,8.109685950330459e-06
+m050,f13_1947_nov29,motif_050,Mercury–Jupiter–Venus 20/20/40 planet rail,1947-11-29T12:00:00Z,"Mercury,Jupiter,Venus",1,0713-10-19T12:00:00Z,0.22199618816375732,2.703228801692603e-06
+m050,f13_1947_nov29,motif_050,Mercury–Jupiter–Venus 20/20/40 planet rail,1947-11-29T12:00:00Z,"Mercury,Jupiter,Venus",2,0613-04-18T12:00:00Z,0.23008431494235992,4.054842975165229e-06
+m050,f13_1947_nov29,motif_050,Mercury–Jupiter–Venus 20/20/40 planet rail,1947-11-29T12:00:00Z,"Mercury,Jupiter,Venus",3,0728-01-15T12:00:00Z,0.268008828163147,5.406457603385206e-06
+m050,f13_1947_nov29,motif_050,Mercury–Jupiter–Venus 20/20/40 planet rail,1947-11-29T12:00:00Z,"Mercury,Jupiter,Venus",4,0368-08-27T12:00:00Z,0.2737272083759308,6.7580717768578324e-06
+m050,f13_1947_nov29,motif_050,Mercury–Jupiter–Venus 20/20/40 planet rail,1947-11-29T12:00:00Z,"Mercury,Jupiter,Venus",5,1933-09-07T12:00:00Z,0.28818759322166443,8.109685950330459e-06
+m051,f13_1947_nov29,motif_051,Eight-planet chained assembly,1947-11-29T12:00:00Z,"Mercury,Venus,Mars,Jupiter,Saturn,Uranus,Neptune,Pluto",1,1949-11-29T12:00:00Z,22.237096786499023,0.00010001946066040546
+m051,f13_1947_nov29,motif_051,Eight-planet chained assembly,1947-11-29T12:00:00Z,"Mercury,Venus,Mars,Jupiter,Saturn,Uranus,Neptune,Pluto",2,1588-07-21T12:00:00Z,32.577117919921875,0.00023788413091097027
+m051,f13_1947_nov29,motif_051,Eight-planet chained assembly,1947-11-29T12:00:00Z,"Mercury,Venus,Mars,Jupiter,Saturn,Uranus,Neptune,Pluto",3,1447-10-27T12:00:00Z,32.74799346923828,0.0002473454223945737
+m051,f13_1947_nov29,motif_051,Eight-planet chained assembly,1947-11-29T12:00:00Z,"Mercury,Venus,Mars,Jupiter,Saturn,Uranus,Neptune,Pluto",4,1945-11-28T12:00:00Z,36.66706466674805,0.00044603273272514343
+m051,f13_1947_nov29,motif_051,Eight-planet chained assembly,1947-11-29T12:00:00Z,"Mercury,Venus,Mars,Jupiter,Saturn,Uranus,Neptune,Pluto",5,0045-04-18T12:00:00Z,37.283790588378906,0.0004703617887571454
+m054,f14_2000_mar10,motif_054,Neptune–Uranus–Venus–Mercury nested rail,2000-03-10T12:00:00Z,"Neptune,Uranus,Venus,Mercury",1,0970-11-05T12:00:00Z,0.7749639749526978,2.703228801692603e-06
+m054,f14_2000_mar10,motif_054,Neptune–Uranus–Venus–Mercury nested rail,2000-03-10T12:00:00Z,"Neptune,Uranus,Venus,Mercury",2,0286-08-26T12:00:00Z,0.9974910616874695,4.054842975165229e-06
+m054,f14_2000_mar10,motif_054,Neptune–Uranus–Venus–Mercury nested rail,2000-03-10T12:00:00Z,"Neptune,Uranus,Venus,Mercury",3,1483-12-28T12:00:00Z,1.620186686515808,1.2164528925495688e-05
+m054,f14_2000_mar10,motif_054,Neptune–Uranus–Venus–Mercury nested rail,2000-03-10T12:00:00Z,"Neptune,Uranus,Venus,Mercury",4,0626-10-26T12:00:00Z,3.1453323364257812,2.8383901735651307e-05
+m054,f14_2000_mar10,motif_054,Neptune–Uranus–Venus–Mercury nested rail,2000-03-10T12:00:00Z,"Neptune,Uranus,Venus,Mercury",5,1660-01-09T12:00:00Z,3.2645339965820312,3.2438743801321834e-05
+m055,f14_2000_mar10,motif_055,Neptune–Mars–Jupiter–Saturn 75/90/97.5 rail,2000-03-10T12:00:00Z,"Neptune,Mars,Jupiter,Saturn",1,1821-03-27T12:00:00Z,3.099620819091797,1.892260115710087e-05
+m055,f14_2000_mar10,motif_055,Neptune–Mars–Jupiter–Saturn 75/90/97.5 rail,2000-03-10T12:00:00Z,"Neptune,Mars,Jupiter,Saturn",2,0133-10-17T12:00:00Z,6.99371862411499,7.569040462840348e-05
+m055,f14_2000_mar10,motif_055,Neptune–Mars–Jupiter–Saturn 75/90/97.5 rail,2000-03-10T12:00:00Z,"Neptune,Mars,Jupiter,Saturn",3,1425-09-18T12:00:00Z,7.356690883636475,9.461300214752555e-05
+m055,f14_2000_mar10,motif_055,Neptune–Mars–Jupiter–Saturn 75/90/97.5 rail,2000-03-10T12:00:00Z,"Neptune,Mars,Jupiter,Saturn",4,1463-11-06T12:00:00Z,8.633546829223633,0.0001554356567794457
+m055,f14_2000_mar10,motif_055,Neptune–Mars–Jupiter–Saturn 75/90/97.5 rail,2000-03-10T12:00:00Z,"Neptune,Mars,Jupiter,Saturn",5,1642-04-19T12:00:00Z,8.66926097869873,0.00015949048975016922
+m056,f14_2000_mar10,motif_056,Pluto–Neptune–Saturn 52.5+97.5=150 closure,2000-03-10T12:00:00Z,"Pluto,Neptune,Saturn",1,0493-11-22T12:00:00Z,0.34645742177963257,1.4867758181935642e-05
+m056,f14_2000_mar10,motif_056,Pluto–Neptune–Saturn 52.5+97.5=150 closure,2000-03-10T12:00:00Z,"Pluto,Neptune,Saturn",2,0996-01-29T12:00:00Z,0.3901551365852356,3.6493587685981765e-05
+m056,f14_2000_mar10,motif_056,Pluto–Neptune–Saturn 52.5+97.5=150 closure,2000-03-10T12:00:00Z,"Pluto,Neptune,Saturn",3,0959-08-02T12:00:00Z,0.4268566370010376,5.271295958664268e-05
+m056,f14_2000_mar10,motif_056,Pluto–Neptune–Saturn 52.5+97.5=150 closure,2000-03-10T12:00:00Z,"Pluto,Neptune,Saturn",4,1030-07-10T12:00:00Z,0.4749547243118286,7.298717537196353e-05
+m056,f14_2000_mar10,motif_056,Pluto–Neptune–Saturn 52.5+97.5=150 closure,2000-03-10T12:00:00Z,"Pluto,Neptune,Saturn",5,1498-02-24T12:00:00Z,0.6392439603805542,0.000127051753224805
+m057,f14_2000_mar10,motif_057,Eight-planet 7.5-degree lattice,2000-03-10T12:00:00Z,"Mercury,Venus,Mars,Jupiter,Saturn,Uranus,Neptune,Pluto",1,0453-09-01T12:00:00Z,21.598896026611328,9.326139115728438e-05
+m057,f14_2000_mar10,motif_057,Eight-planet 7.5-degree lattice,2000-03-10T12:00:00Z,"Mercury,Venus,Mars,Jupiter,Saturn,Uranus,Neptune,Pluto",2,1998-02-15T12:00:00Z,28.136337280273438,0.0002013905468629673
+m057,f14_2000_mar10,motif_057,Eight-planet 7.5-degree lattice,2000-03-10T12:00:00Z,"Mercury,Venus,Mars,Jupiter,Saturn,Uranus,Neptune,Pluto",3,1461-10-13T12:00:00Z,29.45702362060547,0.00025140028446912766
+m057,f14_2000_mar10,motif_057,Eight-planet 7.5-degree lattice,2000-03-10T12:00:00Z,"Mercury,Venus,Mars,Jupiter,Saturn,Uranus,Neptune,Pluto",4,2002-03-16T12:00:00Z,30.33944320678711,0.00030681645148433745
+m057,f14_2000_mar10,motif_057,Eight-planet 7.5-degree lattice,2000-03-10T12:00:00Z,"Mercury,Venus,Mars,Jupiter,Saturn,Uranus,Neptune,Pluto",5,1502-01-16T12:00:00Z,30.689651489257812,0.0003352003695908934
+m059,f15_1918_spring,motif_059,Apr 5 Pluto–Mercury–Neptune 30/60/90,1918-04-05T12:00:00Z,"Pluto,Mercury,Neptune",1,1425-04-01T12:00:00Z,0.1338779628276825,2.703228801692603e-06
+m059,f15_1918_spring,motif_059,Apr 5 Pluto–Mercury–Neptune 30/60/90,1918-04-05T12:00:00Z,"Pluto,Mercury,Neptune",2,0932-05-11T12:00:00Z,0.3109534680843353,8.109685950330459e-06
+m059,f15_1918_spring,motif_059,Apr 5 Pluto–Mercury–Neptune 30/60/90,1918-04-05T12:00:00Z,"Pluto,Mercury,Neptune",3,0439-05-06T12:00:00Z,0.43823468685150146,1.3516143553715665e-05
+m059,f15_1918_spring,motif_059,Apr 5 Pluto–Mercury–Neptune 30/60/90,1918-04-05T12:00:00Z,"Pluto,Mercury,Neptune",4,1426-05-13T12:00:00Z,0.5043084025382996,1.7570986528880894e-05
+m059,f15_1918_spring,motif_059,Apr 5 Pluto–Mercury–Neptune 30/60/90,1918-04-05T12:00:00Z,"Pluto,Mercury,Neptune",5,0933-05-06T12:00:00Z,0.6728447079658508,2.703228710743133e-05
+m062,f15_1918_spring,motif_062,Apr 17 Mercury–Jupiter–Venus 30/60/90,1918-04-17T12:00:00Z,"Mercury,Jupiter,Venus",1,0522-07-26T12:00:00Z,0.1462249755859375,2.703228801692603e-06
+m062,f15_1918_spring,motif_062,Apr 17 Mercury–Jupiter–Venus 30/60/90,1918-04-17T12:00:00Z,"Mercury,Jupiter,Venus",2,1972-11-04T12:00:00Z,0.15446874499320984,4.054842975165229e-06
+m062,f15_1918_spring,motif_062,Apr 17 Mercury–Jupiter–Venus 30/60/90,1918-04-17T12:00:00Z,"Mercury,Jupiter,Venus",3,0680-11-29T12:00:00Z,0.2095925360918045,5.406457603385206e-06
+m062,f15_1918_spring,motif_062,Apr 17 Mercury–Jupiter–Venus 30/60/90,1918-04-17T12:00:00Z,"Mercury,Jupiter,Venus",4,0281-03-21T12:00:00Z,0.28754109144210815,6.7580717768578324e-06
+m062,f15_1918_spring,motif_062,Apr 17 Mercury–Jupiter–Venus 30/60/90,1918-04-17T12:00:00Z,"Mercury,Jupiter,Venus",5,1318-09-12T12:00:00Z,0.2901246249675751,8.109685950330459e-06
+m063,f15_1918_spring,motif_063,May 22 Mercury–Pluto–Neptune triad,1918-05-22T10:10:35Z,"Mercury,Pluto,Neptune",1,0932-05-12T12:00:00Z,0.12276390194892883,2.703228801692603e-06
+m063,f15_1918_spring,motif_063,May 22 Mercury–Pluto–Neptune triad,1918-05-22T10:10:35Z,"Mercury,Pluto,Neptune",2,1425-04-08T12:00:00Z,0.12477093935012817,4.054842975165229e-06
+m063,f15_1918_spring,motif_063,May 22 Mercury–Pluto–Neptune triad,1918-05-22T10:10:35Z,"Mercury,Pluto,Neptune",3,0438-03-22T12:00:00Z,0.4080827534198761,1.6219371900660917e-05
+m063,f15_1918_spring,motif_063,May 22 Mercury–Pluto–Neptune triad,1918-05-22T10:10:35Z,"Mercury,Pluto,Neptune",4,0439-05-07T12:00:00Z,0.5736337900161743,2.2977445041760802e-05
+m063,f15_1918_spring,motif_063,May 22 Mercury–Pluto–Neptune triad,1918-05-22T10:10:35Z,"Mercury,Pluto,Neptune",5,0931-03-29T12:00:00Z,0.5807467103004456,2.4329057850991376e-05
+m064,f15_1918_spring,motif_064,May 22 Venus–Jupiter–Mars triad,1918-05-22T10:10:35Z,"Venus,Jupiter,Mars",1,0487-09-03T12:00:00Z,0.06696821004152298,2.703228801692603e-06
+m064,f15_1918_spring,motif_064,May 22 Venus–Jupiter–Mars triad,1918-05-22T10:10:35Z,"Venus,Jupiter,Mars",2,1348-02-25T12:00:00Z,0.3355725109577179,4.054842975165229e-06
+m064,f15_1918_spring,motif_064,May 22 Venus–Jupiter–Mars triad,1918-05-22T10:10:35Z,"Venus,Jupiter,Mars",3,0393-08-26T12:00:00Z,0.39448776841163635,5.406457603385206e-06
+m064,f15_1918_spring,motif_064,May 22 Venus–Jupiter–Mars triad,1918-05-22T10:10:35Z,"Venus,Jupiter,Mars",4,1777-03-17T12:00:00Z,0.533545196056366,6.7580717768578324e-06
+m064,f15_1918_spring,motif_064,May 22 Venus–Jupiter–Mars triad,1918-05-22T10:10:35Z,"Venus,Jupiter,Mars",5,0538-12-16T12:00:00Z,0.5768570899963379,8.109685950330459e-06
+m065,f15_1918_spring,motif_065,May 22 dual-triad six-body assembly,1918-05-22T10:10:35Z,"Mercury,Pluto,Neptune,Venus,Jupiter,Mars",1,2020-12-07T12:00:00Z,11.717281341552734,5.000973033020273e-05
+m065,f15_1918_spring,motif_065,May 22 dual-triad six-body assembly,1918-05-22T10:10:35Z,"Mercury,Pluto,Neptune,Venus,Jupiter,Mars",2,0959-06-07T12:00:00Z,17.036571502685547,0.00010272268991684541
+m065,f15_1918_spring,motif_065,May 22 dual-triad six-body assembly,1918-05-22T10:10:35Z,"Mercury,Pluto,Neptune,Venus,Jupiter,Mars",3,0536-10-30T12:00:00Z,18.74846839904785,0.00013380982272792608
+m065,f15_1918_spring,motif_065,May 22 dual-triad six-body assembly,1918-05-22T10:10:35Z,"Mercury,Pluto,Neptune,Venus,Jupiter,Mars",4,0487-08-08T12:00:00Z,20.546897888183594,0.0001770614762790501
+m065,f15_1918_spring,motif_065,May 22 dual-triad six-body assembly,1918-05-22T10:10:35Z,"Mercury,Pluto,Neptune,Venus,Jupiter,Mars",5,0436-04-13T12:00:00Z,21.472070693969727,0.00020544537983369082
+m066,f15_1918_spring,motif_066,May 28 Venus equidistant Jupiter/Uranus,1918-05-28T12:00:00Z,"Venus,Jupiter,Uranus",1,0095-05-15T12:00:00Z,0.09480179101228714,2.703228801692603e-06
+m066,f15_1918_spring,motif_066,May 28 Venus equidistant Jupiter/Uranus,1918-05-28T12:00:00Z,"Venus,Jupiter,Uranus",2,0993-03-28T12:00:00Z,0.13662774860858917,4.054842975165229e-06
+m066,f15_1918_spring,motif_066,May 28 Venus equidistant Jupiter/Uranus,1918-05-28T12:00:00Z,"Venus,Jupiter,Uranus",3,0965-12-12T12:00:00Z,0.22738344967365265,5.406457603385206e-06
+m066,f15_1918_spring,motif_066,May 28 Venus equidistant Jupiter/Uranus,1918-05-28T12:00:00Z,"Venus,Jupiter,Uranus",4,1559-11-28T12:00:00Z,0.2437778264284134,6.7580717768578324e-06
+m066,f15_1918_spring,motif_066,May 28 Venus equidistant Jupiter/Uranus,1918-05-28T12:00:00Z,"Venus,Jupiter,Uranus",5,0330-03-17T12:00:00Z,0.30999860167503357,8.109685950330459e-06
+m067,f15_1918_spring,motif_067,May 28 Mars/Jupiter plus Venus/Jupiter/Uranus,1918-05-28T12:00:00Z,"Mars,Jupiter,Venus,Uranus",1,0150-04-13T12:00:00Z,4.823950290679932,2.0274215785320848e-05
+m067,f15_1918_spring,motif_067,May 28 Mars/Jupiter plus Venus/Jupiter/Uranus,1918-05-28T12:00:00Z,"Mars,Jupiter,Venus,Uranus",2,0109-07-25T12:00:00Z,5.502901554107666,3.2438743801321834e-05
+m067,f15_1918_spring,motif_067,May 28 Mars/Jupiter plus Venus/Jupiter/Uranus,1918-05-28T12:00:00Z,"Mars,Jupiter,Venus,Uranus",3,0344-06-01T12:00:00Z,5.810072898864746,4.1900046198861673e-05
+m067,f15_1918_spring,motif_067,May 28 Mars/Jupiter plus Venus/Jupiter/Uranus,1918-05-28T12:00:00Z,"Mars,Jupiter,Venus,Uranus",4,0205-12-18T12:00:00Z,6.225261688232422,5.811941809952259e-05
+m067,f15_1918_spring,motif_067,May 28 Mars/Jupiter plus Venus/Jupiter/Uranus,1918-05-28T12:00:00Z,"Mars,Jupiter,Venus,Uranus",5,0440-07-06T12:00:00Z,6.340411186218262,6.487748760264367e-05
+m068,f16_2020_mar11,motif_068,Mars–Jupiter–Pluto–Saturn symmetric compression,2020-03-11T12:00:00Z,"Mars,Jupiter,Pluto,Saturn",1,0113-05-19T12:00:00Z,2.592182159423828,1.7570986528880894e-05
+m068,f16_2020_mar11,motif_068,Mars–Jupiter–Pluto–Saturn symmetric compression,2020-03-11T12:00:00Z,"Mars,Jupiter,Pluto,Saturn",2,0710-06-16T12:00:00Z,7.197223663330078,8.65033216541633e-05
+m068,f16_2020_mar11,motif_068,Mars–Jupiter–Pluto–Saturn symmetric compression,2020-03-11T12:00:00Z,"Mars,Jupiter,Pluto,Saturn",3,0849-01-24T12:00:00Z,7.801703453063965,0.00011623883619904518
+m068,f16_2020_mar11,motif_068,Mars–Jupiter–Pluto–Saturn symmetric compression,2020-03-11T12:00:00Z,"Mars,Jupiter,Pluto,Saturn",4,1284-12-30T12:00:00Z,8.385113716125488,0.0001500291982665658
+m068,f16_2020_mar11,motif_068,Mars–Jupiter–Pluto–Saturn symmetric compression,2020-03-11T12:00:00Z,"Mars,Jupiter,Pluto,Saturn",5,1821-04-04T12:00:00Z,8.84549331665039,0.00018246793479193002
+m069,f16_2020_mar11,motif_069,Saturn–Mercury–Neptune 30/20/50 rail,2020-03-11T12:00:00Z,"Saturn,Mercury,Neptune",1,0406-05-05T12:00:00Z,0.1651226133108139,6.7580717768578324e-06
+m069,f16_2020_mar11,motif_069,Saturn–Mercury–Neptune 30/20/50 rail,2020-03-11T12:00:00Z,"Saturn,Mercury,Neptune",2,0729-04-26T12:00:00Z,0.3453715443611145,1.0812915206770413e-05
+m069,f16_2020_mar11,motif_069,Saturn–Mercury–Neptune 30/20/50 rail,2020-03-11T12:00:00Z,"Saturn,Mercury,Neptune",3,0370-02-09T12:00:00Z,0.35551488399505615,1.2164528925495688e-05
+m069,f16_2020_mar11,motif_069,Saturn–Mercury–Neptune 30/20/50 rail,2020-03-11T12:00:00Z,"Saturn,Mercury,Neptune",4,0512-12-20T12:00:00Z,0.4378039538860321,1.7570986528880894e-05
+m069,f16_2020_mar11,motif_069,Saturn–Mercury–Neptune 30/20/50 rail,2020-03-11T12:00:00Z,"Saturn,Mercury,Neptune",5,0441-07-20T12:00:00Z,0.461172491312027,2.0274215785320848e-05
+m070,f16_2020_mar11,motif_070,Neptune–Uranus/Venus double-node bridge,2020-03-11T12:00:00Z,"Neptune,Uranus,Venus",1,0815-01-12T12:00:00Z,0.046699535101652145,2.703228801692603e-06
+m070,f16_2020_mar11,motif_070,Neptune–Uranus/Venus double-node bridge,2020-03-11T12:00:00Z,"Neptune,Uranus,Venus",2,0643-12-03T12:00:00Z,0.20360197126865387,5.406457603385206e-06
+m070,f16_2020_mar11,motif_070,Neptune–Uranus/Venus double-node bridge,2020-03-11T12:00:00Z,"Neptune,Uranus,Venus",3,1503-03-09T12:00:00Z,0.32829204201698303,1.2164528925495688e-05
+m070,f16_2020_mar11,motif_070,Neptune–Uranus/Venus double-node bridge,2020-03-11T12:00:00Z,"Neptune,Uranus,Venus",4,0471-11-29T12:00:00Z,0.41653308272361755,1.7570986528880894e-05
+m070,f16_2020_mar11,motif_070,Neptune–Uranus/Venus double-node bridge,2020-03-11T12:00:00Z,"Neptune,Uranus,Venus",5,1676-02-26T12:00:00Z,0.4217870533466339,2.0274215785320848e-05
+m071,f16_2020_mar11,motif_071,Eight-planet chained assembly,2020-03-11T12:00:00Z,"Mercury,Venus,Mars,Jupiter,Saturn,Uranus,Neptune,Pluto",1,1981-11-22T12:00:00Z,33.07366943359375,0.00014191950322128832
+m071,f16_2020_mar11,motif_071,Eight-planet chained assembly,2020-03-11T12:00:00Z,"Mercury,Venus,Mars,Jupiter,Saturn,Uranus,Neptune,Pluto",2,2018-02-18T12:00:00Z,34.119789123535156,0.00017435825429856777
+m071,f16_2020_mar11,motif_071,Eight-planet chained assembly,2020-03-11T12:00:00Z,"Mercury,Venus,Mars,Jupiter,Saturn,Uranus,Neptune,Pluto",3,1979-12-02T12:00:00Z,34.575653076171875,0.000194632462807931
+m071,f16_2020_mar11,motif_071,Eight-planet chained assembly,2020-03-11T12:00:00Z,"Mercury,Venus,Mars,Jupiter,Saturn,Uranus,Neptune,Pluto",4,1879-06-04T12:00:00Z,37.51607131958008,0.00029600353445857763
+m071,f16_2020_mar11,motif_071,Eight-planet chained assembly,2020-03-11T12:00:00Z,"Mercury,Venus,Mars,Jupiter,Saturn,Uranus,Neptune,Pluto",5,0475-10-01T12:00:00Z,38.04682159423828,0.0003270906745456159
