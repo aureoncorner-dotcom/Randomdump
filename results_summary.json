@@ -1,0 +1,293 @@
+{
+  "analysis_version": "0.1",
+  "base_seed": 20260826,
+  "cohorts": {
+    "P1": {
+      "calendar_day19": {
+        "null_hit_count": {
+          "mean": 0.2658,
+          "q025": 0.0,
+          "q975": 2.0
+        },
+        "null_mean_distance": {
+          "mean": 7.9844375,
+          "q025": 4.625,
+          "q975": 11.5
+        },
+        "observed_best_mean_distance_days": 9.0,
+        "observed_best_target_days": [
+          11
+        ],
+        "observed_mean_distance_days": 11.0,
+        "observed_rank_among_days_1_28": 14,
+        "observed_windows_containing_day19": 0,
+        "raw_lower_tail_p_mean_distance": 0.9568043195680432,
+        "scan_adjusted_lower_tail_p": 0.9959004099590041,
+        "upper_tail_p_hit_count": 1.0
+      },
+      "event_ids": [
+        "MAP_2025_08_01",
+        "MAP_2025_10_07",
+        "MAP_2025_10_27",
+        "MAP_2025_12_06",
+        "MAP_2025_12_11",
+        "MAP_2026_01_11",
+        "MAP_2026_02_28",
+        "MAP_2026_03_31"
+      ],
+      "lunar_nearest_primary": {
+        "null": {
+          "mean": 33.55374916666667,
+          "q025": 16.512447916666666,
+          "q975": 50.939843749999994
+        },
+        "observed_mean_distance_hours": 19.545833333333334,
+        "raw_lower_tail_p": 0.05419458054194581
+      },
+      "lunar_phase_specific": {
+        "First Quarter": {
+          "holm_adjusted_p": 1.0,
+          "null": {
+            "mean": 162.49537291666667,
+            "q025": 94.31473958333335,
+            "q975": 233.43822916666664
+          },
+          "observed_mean_distance_hours": 157.68958333333333,
+          "raw_lower_tail_p": 0.4443555644435556
+        },
+        "Full Moon": {
+          "holm_adjusted_p": 0.18518148185181482,
+          "null": {
+            "mean": 162.93915645833331,
+            "q025": 93.38520833333332,
+            "q975": 234.25479166666668
+          },
+          "observed_mean_distance_hours": 102.09583333333335,
+          "raw_lower_tail_p": 0.046295370462953706
+        },
+        "Last Quarter": {
+          "holm_adjusted_p": 1.0,
+          "null": {
+            "mean": 168.49889270833333,
+            "q025": 97.75744791666668,
+            "q975": 237.92541666666668
+          },
+          "observed_mean_distance_hours": 172.46875,
+          "raw_lower_tail_p": 0.5443455654434557
+        },
+        "New Moon": {
+          "holm_adjusted_p": 1.0,
+          "null": {
+            "mean": 167.9754683333333,
+            "q025": 96.84791666666668,
+            "q975": 238.69848958333336
+          },
+          "observed_mean_distance_hours": 229.58958333333334,
+          "raw_lower_tail_p": 0.9551044895510449
+        }
+      },
+      "n": 8,
+      "rng_seed": 15516214841709092808
+    },
+    "S1": {
+      "calendar_day19": {
+        "null_hit_count": {
+          "mean": 2.6341,
+          "q025": 0.0,
+          "q975": 5.0
+        },
+        "null_mean_distance": {
+          "mean": 6.604985000000001,
+          "q025": 4.65,
+          "q975": 8.65
+        },
+        "observed_best_mean_distance_days": 5.5,
+        "observed_best_target_days": [
+          12
+        ],
+        "observed_mean_distance_days": 7.25,
+        "observed_rank_among_days_1_28": 13,
+        "observed_windows_containing_day19": 5,
+        "raw_lower_tail_p_mean_distance": 0.7428257174282572,
+        "scan_adjusted_lower_tail_p": 0.9263073692630737,
+        "upper_tail_p_hit_count": 0.07949205079492051
+      },
+      "event_ids": [
+        "MAP_2025_07_12",
+        "MAP_2025_08_01",
+        "MAP_2025_08_06_09",
+        "MAP_2025_08_11_17",
+        "MAP_2025_09_01",
+        "MAP_2025_09_12",
+        "MAP_2025_10_07",
+        "MAP_2025_10_12_16",
+        "MAP_2025_10_27",
+        "MAP_2025_11_07_09",
+        "MAP_2025_12_06",
+        "MAP_2025_12_11",
+        "MAP_2025_12_19_22",
+        "MAP_2026_01_11",
+        "MAP_2026_01_19",
+        "MAP_2026_02_28",
+        "MAP_2026_03_17_20",
+        "MAP_2026_03_31",
+        "MAP_2026_05_08_20",
+        "MAP_2026_06_10_20"
+      ],
+      "lunar_nearest_primary": {
+        "null": {
+          "mean": 22.5387745,
+          "q025": 13.820687500000002,
+          "q975": 31.634312499999997
+        },
+        "observed_mean_distance_hours": 14.434999999999999,
+        "raw_lower_tail_p": 0.0342965703429657
+      },
+      "lunar_phase_specific": {
+        "First Quarter": {
+          "holm_adjusted_p": 1.0,
+          "null": {
+            "mean": 144.37211333333332,
+            "q025": 100.5433125,
+            "q975": 188.23879166666666
+          },
+          "observed_mean_distance_hours": 153.54583333333332,
+          "raw_lower_tail_p": 0.6616338366163383
+        },
+        "Full Moon": {
+          "holm_adjusted_p": 0.6899310068993101,
+          "null": {
+            "mean": 146.83913691666666,
+            "q025": 104.70385416666664,
+            "q975": 189.71175
+          },
+          "observed_mean_distance_hours": 125.95416666666668,
+          "raw_lower_tail_p": 0.17248275172482752
+        },
+        "Last Quarter": {
+          "holm_adjusted_p": 0.7295270472952705,
+          "null": {
+            "mean": 143.92964066666667,
+            "q025": 101.04064583333334,
+            "q975": 187.29656249999994
+          },
+          "observed_mean_distance_hours": 128.8425,
+          "raw_lower_tail_p": 0.24317568243175683
+        },
+        "New Moon": {
+          "holm_adjusted_p": 1.0,
+          "null": {
+            "mean": 139.53143133333333,
+            "q025": 97.44185416666669,
+            "q975": 181.68758333333332
+          },
+          "observed_mean_distance_hours": 165.59750000000003,
+          "raw_lower_tail_p": 0.8841115888411158
+        }
+      },
+      "n": 20,
+      "rng_seed": 11115656012758193671
+    },
+    "S2": {
+      "calendar_day19": {
+        "null_hit_count": {
+          "mean": 0.1633,
+          "q025": 0.0,
+          "q975": 1.0
+        },
+        "null_mean_distance": {
+          "mean": 7.9809600000000005,
+          "q025": 3.8,
+          "q975": 12.6
+        },
+        "observed_best_mean_distance_days": 3.6,
+        "observed_best_target_days": [
+          11
+        ],
+        "observed_mean_distance_days": 7.2,
+        "observed_rank_among_days_1_28": 15,
+        "observed_windows_containing_day19": 1,
+        "raw_lower_tail_p_mean_distance": 0.39136086391360864,
+        "scan_adjusted_lower_tail_p": 0.7157284271572842,
+        "upper_tail_p_hit_count": 0.15258474152584742
+      },
+      "event_ids": [
+        "USR_2025_08_09_2215",
+        "USR_2025_08_11_1442",
+        "USR_2025_08_14_1557",
+        "USR_2026_04_06",
+        "USR_2026_04_19"
+      ],
+      "lunar_nearest_primary": {
+        "null": {
+          "mean": 39.344190000000005,
+          "q025": 17.702666666666666,
+          "q975": 62.56074999999999
+        },
+        "observed_mean_distance_hours": 44.669999999999995,
+        "raw_lower_tail_p": 0.680931906809319
+      },
+      "lunar_phase_specific": {
+        "First Quarter": {
+          "holm_adjusted_p": 1.0,
+          "null": {
+            "mean": 168.04438066666665,
+            "q025": 77.92333333333335,
+            "q975": 258.7894999999999
+          },
+          "observed_mean_distance_hours": 227.61666666666665,
+          "raw_lower_tail_p": 0.8957104289571043
+        },
+        "Full Moon": {
+          "holm_adjusted_p": 0.38036196380361964,
+          "null": {
+            "mean": 170.98762833333333,
+            "q025": 83.26633333333334,
+            "q975": 258.55
+          },
+          "observed_mean_distance_hours": 116.86666666666665,
+          "raw_lower_tail_p": 0.12148785121487851
+        },
+        "Last Quarter": {
+          "holm_adjusted_p": 0.38036196380361964,
+          "null": {
+            "mean": 177.7236276666667,
+            "q025": 86.39758333333333,
+            "q975": 267.00375
+          },
+          "observed_mean_distance_hours": 114.93999999999998,
+          "raw_lower_tail_p": 0.09509049095090491
+        },
+        "New Moon": {
+          "holm_adjusted_p": 1.0,
+          "null": {
+            "mean": 174.11700266666665,
+            "q025": 86.68,
+            "q975": 262.5166666666666
+          },
+          "observed_mean_distance_hours": 216.28000000000003,
+          "raw_lower_tail_p": 0.8216178382161784
+        }
+      },
+      "n": 5,
+      "rng_seed": 7866739478383934180
+    }
+  },
+  "executed_at_utc": "2026-08-26T11:37:33.036765+00:00",
+  "frozen_input_hashes": {
+    "FREEZE_SPEC.md": "b432d81a272e80229b04e0b33526a2218ef62424570d3b7a0f48f51773410ed7",
+    "ledger_input.csv": "be01ca5f9c2c4d05e9678667fdf0e013a6c3cfe0b6bb7f75048133425f1eeb24"
+  },
+  "holdout_status": "PENDING_NEXT_UNOPENED_ARCHIVE_BATCH",
+  "permutations_per_test": 10000,
+  "phase_snapshot_sha256": "81c2ec7a85eaaee6f7ab7a770499697ad2f4d0b6d798eec3f186032a95355ccd",
+  "status": "retrospective_exploratory",
+  "technical_T1": {
+    "distance_hours": 1.2666666666666666,
+    "estimated_event_utc": "2026-08-20T01:30:00+00:00",
+    "event_id": "TECH_2026_08_20_0830",
+    "inferential_test": "not_run_n_equals_1",
+    "nearest_primary_phase": "First Quarter",
+    "nearest_primary_phase_utc": "2026-08-20T02:46:00+00:00"
+  }
+}
