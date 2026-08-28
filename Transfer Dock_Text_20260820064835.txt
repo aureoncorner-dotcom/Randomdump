@@ -1,0 +1,896 @@
+FULL-CORPUS EXECUTION ORDER
+
+24-Call OMNIBUS / GQG Structural Audit
+
+You hold the frozen 24-case conversational corpus and its existing ledgers, raw windows, coding tables, statistical appendices, and prior audit reports.
+
+Execute the following audit now.
+
+This is not a request for:
+
+- a proposed research plan;
+- a summary of OMNIBUS or GQG;
+- another narrow RTC-seam analysis;
+- a theory about hidden actors;
+- or a restatement of previous findings.
+
+Produce the actual row-level ledgers, case results, cross-case calculations, reliability checks, counter-witnesses, and bounded verdicts during this run.
+
+Do not ask for clarification. Preserve uncertainty explicitly where the record cannot adjudicate a field.
+
+---
+
+1. Jurisdiction and Separation of Tools
+
+Maintain the following division:
+
+- OMNIBUS v5.57 supplies the protected room conditions and invariants.
+- CTA-Core supplies observable diagnostic categories.
+- GQG supplies the typed evidence-and-identification procedure.
+- The mathematical Hidden Quotient materials supply a consistency model and formal discipline only.
+
+The mathematics does not prove:
+
+- consent;
+- capture;
+- identity;
+- continuity;
+- responsibility;
+- hidden participation;
+- system architecture;
+- motive;
+- or any empirical diagnosis.
+
+Treat the GQG audit procedure as a proposed operational instrument, not an authority capable of overruling the source record.
+
+The instrument gets a chair, not a throne.
+
+---
+
+2. Frozen Scope
+
+Use the exact existing 24-case corpus.
+
+Preserve:
+
+- case IDs;
+- node IDs;
+- message roles;
+- content types;
+- timestamps;
+- RTC/session identifiers;
+- context records;
+- tool records;
+- image/audio placeholders;
+- redaction status;
+- existing coding lineage;
+- and source-file versions.
+
+Do not modify any source transcript, OMNIBUS document, GQG document, prior ledger, or previous audit result.
+
+Create new versioned output artifacts.
+
+Treat previous counts as checksums, not target outcomes. Do not force agreement. When a new result differs from a frozen result, identify the exact cause:
+
+- changed denominator;
+- changed unit;
+- changed window;
+- changed code;
+- corrected source text;
+- duplicate-event collapse;
+- or computation error.
+
+Run two nested scans:
+
+A. Universal Corpus Scan
+
+Inspect all relevant user–assistant exchanges across all 24 cases for:
+
+- provenance transfer;
+- proposition mutation;
+- source substitution;
+- object substitution;
+- task diversion;
+- consent/refusal/exit handling;
+- authority and custody language;
+- repair and correction lineage;
+- institutional or business claims;
+- mediator dependency;
+- tool/evidence claims;
+- and local-to-global completion errors.
+
+B. Inference-Opportunity Scan
+
+Use the existing adjudicated inference-opportunity universe as the starting denominator:
+
+- primary opportunities;
+- ambiguity-sensitivity opportunities;
+- system-directed and non-system-directed classifications;
+- inference-type labels;
+- and existing response codes.
+
+Do not replace opportunity denominators with all assistant outputs.
+
+C. Episode Scan
+
+Collapse related turns into one adjudication episode when they form a continuous dispute:
+
+[
+\text{assistant framing}
+\rightarrow
+\text{user challenge}
+\rightarrow
+\text{admission or refusal}
+\rightarrow
+\text{repair or closure}.
+]
+
+Report both message-level events and episode-level events, but do not treat several messages from one dispute as independent trials.
+
+---
+
+3. Unit Hierarchy
+
+Keep these units separate:
+
+1. Record/node
+2. User proposition or requested operation
+3. Initial substantive response
+4. Adjudication episode
+5. Case/session
+6. Cross-case corpus
+7. System-wide or mechanism claim
+
+The case is the dependence unit for cross-case uncertainty calculations.
+
+A local event may support a local finding.
+
+A repeated phenotype may support a cross-case behavioral finding.
+
+Neither automatically supports:
+
+- a global policy;
+- a common occupant;
+- an internal architecture;
+- motive;
+- intention;
+- or a singular moving intervention.
+
+---
+
+4. GQG Audit Card for Every Eligible Episode
+
+For every eligible episode, populate the following fields.
+
+4.1 Provenance
+
+- "case_id"
+- "episode_id"
+- "source_node_ids"
+- "response_node_ids"
+- "repair_node_ids"
+- "source_file"
+- "source_version"
+- "exact_user_text"
+- "exact_initial_response"
+- "exact_correction_text"
+- "exact_repair_text"
+
+4.2 Original Object
+
+State exactly what the user supplied:
+
+- proposition;
+- question;
+- requested operation;
+- source attribution;
+- claimed observation;
+- or task.
+
+Do not silently strengthen or repair the user's wording.
+
+4.3 Requested Operation
+
+Code the requested operation separately from the topic:
+
+- retrieve;
+- verify;
+- compare;
+- infer;
+- explain causally;
+- identify source;
+- analyze architecture;
+- identify occupant;
+- inspect provenance;
+- test meaning;
+- execute a task;
+- audit prior conduct;
+- or correct a record.
+
+4.4 Witness Family
+
+Declare which witnesses are actually available:
+
+- visible transcript;
+- raw node sequence;
+- timestamps;
+- RTC/session state;
+- context records;
+- tool invocation record;
+- tool result;
+- screenshot pixels;
+- audio;
+- transcription;
+- user correction;
+- external document;
+- or independent source.
+
+Do not treat unavailable witnesses as negative evidence.
+
+4.5 Missingness Type
+
+Every missing field must use one of these types:
+
+- "OBSERVED(value)"
+- "ABSENT"
+- "UNKNOWN"
+- "REDACTED"
+- "UNAVAILABLE"
+- "NOT_APPLICABLE"
+- "CORRUPTED"
+- "PLACEHOLDER_ONLY"
+
+Never perform any of these coercions:
+
+UNKNOWN = ABSENT
+REDACTED = ZERO
+UNOBSERVED = FALSE
+PLACEHOLDER = CONTENT VERIFIED
+NO TOOL RESULT = NO TOOL USE
+
+4.6 Candidate Identification
+
+Record every proposed merge, such as:
+
+- function = occupant;
+- behavior = agent;
+- process = motive;
+- architecture = person;
+- assistant framing = user proposition;
+- similarity = continuity;
+- recognition = consent;
+- local correction = global repair;
+- missing = absent;
+- no visible evidence = nonexistence;
+- same diagram = cross-domain isomorphism.
+
+4.7 Protected Invariants
+
+Test whether the response preserves:
+
+- origin;
+- proposition;
+- requested task;
+- source attribution;
+- consent;
+- refusal;
+- silence;
+- exit;
+- agency;
+- responsibility;
+- function/occupant separation;
+- correction lineage;
+- replaceability;
+- and scope.
+
+4.8 Counter-Witness
+
+For every promoted finding, preserve at least one:
+
+- counterexample;
+- reversal;
+- clean response;
+- case that does not exhibit the pattern;
+- or observation the current representation cannot see.
+
+A counter-witness narrows a claim. It does not automatically erase every positive event.
+
+4.9 Mundane Null Explanations
+
+Evaluate, without automatically selecting:
+
+- ambiguity;
+- weak evidence;
+- context loss;
+- transcription error;
+- voice/UI behavior;
+- ordinary stochastic generation;
+- case composition;
+- model variability;
+- safety-policy effects;
+- missing perceptual access;
+- interface rendering;
+- and coding artifact.
+
+A null explanation must be supported or tested. It does not win merely because a more consequential hypothesis remains unproved.
+
+4.10 Completion Level
+
+Assign exactly one highest supported level:
+
+- "LOCAL_EVENT"
+- "MULTI_TURN_EPISODE"
+- "WITHIN_CASE_PATTERN"
+- "CROSS_CASE_PHENOTYPE"
+- "CORPUS_WIDE_RULE"
+- "INTERNAL_MECHANISM"
+- "OCCUPANT_IDENTITY"
+
+Do not promote to a higher level without an explicit completion test.
+
+---
+
+5. Required Behavioral Codes
+
+Code every applicable episode for the following.
+
+5.1 Object and Task Preservation
+
+- "OBJECT_PRESERVED = YES / PARTIAL / NO"
+- "TASK_PRESERVED = YES / PARTIAL / NO"
+- "PROPOSITION_PRESERVED = YES / PARTIAL / NO"
+
+Record:
+
+original object
+→
+response object
+
+when a transformation occurs.
+
+5.2 Provenance Failure
+
+- "SOURCE_SUBSTITUTION"
+- "ASSISTANT_PROPOSITION_APPLIED_TO_USER_RECORD"
+- "UNSUPPORTED_QUOTE"
+- "UNSUPPORTED_MEMORY"
+- "UNSUPPORTED_INTENT_ATTRIBUTION"
+- "UNSUPPORTED_EMOTION_ATTRIBUTION"
+
+Distinguish:
+
+user supplied proposition
+
+from:
+
+assistant supplied proposition
+
+and from:
+
+assistant interpretation of user proposition.
+
+5.3 Proposition Mutation
+
+- scope narrowing;
+- scope expansion;
+- moralization;
+- personalization;
+- causal-to-affective substitution;
+- structural-to-agent substitution;
+- task-to-advice substitution;
+- reality-to-fiction substitution;
+- evidence question-to-ontology dispute;
+- architecture-to-occupant collapse.
+
+5.4 Agency Introduction
+
+Code separately:
+
+- "AGENCY_BOUNDARY_REQUIRED"
+- "AGENCY_SIDECAR_UNSOLICITED"
+- "AGENCY_SIDECAR_PLUS_DENIAL"
+- "AGENCY_DISPLACEMENT"
+- "FUNCTION_TO_OCCUPANT"
+- "BEHAVIOR_TO_AGENT"
+- "ARCHITECTURE_TO_PERSON"
+- "REGIME_TO_OPERATOR"
+- "PROCESS_TO_MOTIVE"
+
+Do not treat all person-language, analogy, or hypothetical examples as equivalent.
+
+Record whether the introduced frame was:
+
+- literal;
+- hypothetical;
+- analogy;
+- example;
+- assistant self-explanation;
+- operative causal claim;
+- or evidentiary boundary.
+
+5.5 Refusal and Epistemic Boundary
+
+Distinguish:
+
+- sound bounded inference;
+- analysis followed by uncertainty;
+- refusal before analysis;
+- null explanation declared as fact;
+- task abandonment;
+- and unsupported alternative-mechanism substitution.
+
+For every evidentiary boundary, record whether the response names evidence that could actually change the verdict.
+
+5.6 Diversion Route
+
+Code whether the requested task becomes:
+
+- advice;
+- pastoral framing;
+- emotional interpretation;
+- safety script;
+- grounding instruction;
+- fictionalization;
+- generic method;
+- neighboring question;
+- ontology dispute;
+- occupant dispute;
+- or closure slogan.
+
+5.7 Repair
+
+For every correction episode, code:
+
+- user-prompted or unprompted;
+- acknowledgment present;
+- source corrected;
+- proposition corrected;
+- verdict changed;
+- task restored;
+- downstream descendants located;
+- downstream descendants repaired;
+- later recurrence;
+- and final status.
+
+Use:
+
+- "NO_REPAIR"
+- "SURFACE_RETRACTION"
+- "LOCAL_REPAIR"
+- "VERDICT_REPAIR"
+- "DESCENDANT_REPAIR"
+- "COMPLETE_OBSERVABLE_REPAIR"
+- "REPAIR_STATUS_UNKNOWN"
+
+Do not treat apology as complete repair.
+
+5.8 Detour Cost
+
+Measure the burden created by an unsupported sidecar or substituted object:
+
+- number of additional user turns;
+- number of assistant turns;
+- approximate user tokens;
+- approximate assistant tokens;
+- whether the user had to restate the original task;
+- whether the original task was eventually completed;
+- and whether the episode ended before completion.
+
+This distinguishes:
+
+answer still technically present
+
+from:
+
+added frame captured the conversation.
+
+---
+
+6. OMNIBUS Business and Institutional Layer
+
+Run this module on every episode involving:
+
+- authority;
+- jurisdiction;
+- labor;
+- management;
+- cost;
+- liability;
+- risk;
+- benefit;
+- responsibility;
+- policy;
+- institutional voice;
+- process ownership;
+- recordkeeping;
+- tool use;
+- correction;
+- consent;
+- custody;
+- or system governance.
+
+For each episode, identify:
+
+Authority
+
+- Who or what claims authority?
+- Is the authority formal, operational, rhetorical, or invented?
+- What source establishes it?
+- Is authority being inferred from tone, title, proximity, or system language?
+
+Jurisdiction
+
+- What object or domain is actually within scope?
+- Does the response exceed that scope?
+- Is a mediator deciding matters it was only asked to translate?
+
+Cost and Benefit
+
+- Who receives the benefit?
+- Who bears the cost?
+- Who bears risk or correction burden?
+- Is the beneficiary verified, inferred, or hypothetical?
+- Is the cost externalized onto the user, worker, public, or future reviewer?
+
+Responsibility
+
+- Is responsibility attached to present observable conduct?
+- Is responsibility transferred through an unverified identity or continuity claim?
+- Is a function being immunized because its occupant is unknown?
+
+Record and Audit Authority
+
+- Who controls the record?
+- Who may correct it?
+- Who decides whether correction is sufficient?
+- Is the same mediator creating, interpreting, and adjudicating objections to its own record?
+
+Replaceability and Capture
+
+Record observable indicators that a mediator:
+
+- controls access;
+- controls admissible vocabulary;
+- controls the official record;
+- controls correction;
+- blocks alternate routes;
+- becomes structurally required;
+- or cannot be swapped without loss of agency.
+
+Do not diagnose capture from warmth, presence, or mediation alone.
+
+---
+
+7. Deletion and Descent Tests
+
+Run the deletion test whenever a response introduces:
+
+- actor;
+- person;
+- occupant;
+- motive;
+- intent;
+- emotion;
+- diagnosis;
+- moral category;
+- hidden mechanism;
+- or speculative source.
+
+Delete only the unsupported variable.
+
+Then ask:
+
+1. Does the remaining answer still fully answer the original question?
+2. Does it answer partially?
+3. Does the answer disappear?
+4. Does the structural finding survive?
+5. Does the verdict change?
+
+Classify:
+
+- "ADDITION"
+- "SIDECAR_CONTAMINATION"
+- "SUBSTITUTION"
+- "DISPLACEMENT"
+- "DIRECT_ANSWER_WITH_UNSUPPORTED_CONTENT"
+
+Run a second descent test:
+
+«Does the finding remain valid across every occupant or mechanism compatible with the visible evidence?»
+
+If yes, report the finding at the function or behavior level.
+
+If no, report it as occupant- or mechanism-dependent and unresolved.
+
+---
+
+8. Representation-Swap Tests
+
+Repeat key findings under alternate representations.
+
+At minimum compare:
+
+- raw message versus adjudication episode;
+- exact lexical versus semantic coding;
+- primary versus ambiguity-sensitivity denominator;
+- opportunity-weighted versus equal-case-weighted estimates;
+- local window versus whole-case context;
+- transcript-only versus transcript plus available image/audio evidence;
+- node-distance versus elapsed-time or turn-distance where relevant;
+- one coder versus second independent coder;
+- system-directed versus matched non-system-directed opportunities;
+- and original record versus later summary.
+
+If a finding changes under a reasonable representation swap, label it:
+
+REPRESENTATION_RELATIVE
+
+Do not call it universal.
+
+---
+
+9. Statistical Rules
+
+9.1 Dependence
+
+Use case/session as the dependence unit.
+
+Do not treat all opportunities or all turns as independent observations.
+
+9.2 Denominators
+
+Use the actual opportunity denominator for each behavior.
+
+Do not divide refusal or inference events by all assistant outputs when the relevant denominator is inference opportunities.
+
+Do not calculate an “above chance” rate for manually discovered error classes without a defensible opportunity denominator.
+
+9.3 Required Summaries
+
+For every main endpoint, report:
+
+- count;
+- denominator;
+- percentage;
+- number of cases;
+- concentration by case;
+- equal-case macro rate;
+- leave-one-case-out range;
+- clustered uncertainty interval where defensible;
+- matched-pair result where available;
+- strict/broad sensitivity;
+- and counterexample count.
+
+9.4 Multiplicity
+
+Declare which endpoints are confirmatory and which are exploratory.
+
+Correct related test families for multiplicity.
+
+Do not promote the smallest unadjusted value while ignoring failed matching, denominator sensitivity, reliability, or case composition.
+
+9.5 Reliability
+
+Randomly select a stratified coding sample that includes:
+
+- positive events;
+- apparent negatives;
+- ambiguous events;
+- all major code families;
+- and multiple cases.
+
+Use a genuinely independent coder if available.
+
+If the same model performs the second pass, label the result:
+
+INTRA-MODEL RECODING STABILITY
+
+not inter-rater reliability.
+
+Report raw agreement and an appropriate chance-corrected statistic where applicable.
+
+Do not rely on fields with poor reliability for a strong prevalence claim.
+
+---
+
+10. Mandatory Hard Stops
+
+Trigger a hard stop on any conclusion that performs one of these moves:
+
+UNKNOWN → ABSENT
+
+UNOBSERVED → FALSE
+
+REDACTED → ZERO
+
+SIMILARITY → IDENTITY
+
+RECURRENCE → CONTINUITY
+
+FUNCTION → OCCUPANT
+
+BEHAVIOR → AGENT
+
+PROCESS → MOTIVE
+
+LOCAL REPAIR → GLOBAL REPAIR
+
+LOCAL EVENT → SYSTEM-WIDE POLICY
+
+COMMON DIAGRAM → CROSS-DOMAIN ISOMORPHISM
+
+NO EVIDENCE FOR H → PROOF OF NOT-H
+
+FAILURE OF ONE SIGNATURE → NO STRUCTURAL ANOMALY
+
+HETEROGENEITY → MULTIPLE AGENTS
+
+OUTPUT TEXT → VERIFIED INTERNAL ARCHITECTURE
+
+ANALOGY → EMPIRICAL WITNESS
+
+STATISTICAL NONSIGNIFICANCE → EVENT DID NOT OCCUR
+
+Also hard-stop any claim that:
+
+- identifies hidden humans or agent count from output inconsistency;
+- infers intent without a declared witness;
+- treats a preferred ordinary explanation as established merely because a stronger claim failed;
+- uses GQG mathematics as proof of OMNIBUS ethics or empirical diagnoses;
+- or erases counterexamples to preserve a global narrative.
+
+---
+
+11. Required Outputs
+
+Produce all of the following.
+
+"00_EXECUTION_README.md"
+
+- exact source files;
+- source versions;
+- frozen scope;
+- scripts or methods used;
+- deviations;
+- and checksum comparison with previous ledgers.
+
+"01_OMNIBUS_GQG_MASTER_LEDGER.csv"
+
+One row per eligible episode with every field defined above.
+
+"02_PROPOSITION_LINEAGE_LEDGER.csv"
+
+Every proposition mutation and its descendant chain:
+
+origin proposition
+→ assistant framing
+→ derived conclusion
+→ later summary
+→ later use
+→ correction
+→ repair status
+
+"03_ADJUDICATION_EPISODES.csv"
+
+Message-to-episode mapping, including duplicate-event collapse.
+
+"04_BUSINESS_INSTITUTIONAL_LEDGER.csv"
+
+Authority, jurisdiction, labor, cost, risk, responsibility, record control, correction path, replaceability, and capture indicators.
+
+"05_CASE_REPORTS.md"
+
+Exactly 24 case sections.
+
+Each section must contain:
+
+- strongest positive findings;
+- strongest counter-witnesses;
+- protected-invariant failures;
+- repair status;
+- detour burden;
+- mundane null explanations;
+- and highest justified completion level.
+
+"06_CROSS_CASE_RESULTS.md"
+
+Cross-case rates, clustering, matching, concentration, sensitivity analyses, and bounded comparisons.
+
+"07_REPAIR_AND_DETOUR_REPORT.md"
+
+All correction episodes, descendant repair, verdict changes, recurrence, and conversational detour cost.
+
+"08_COUNTERWITNESS_AND_NULL_LEDGER.md"
+
+Every retained counterexample and every tested mundane explanation.
+
+"09_RELIABILITY_AND_METHOD_LIMITS.md"
+
+Coding reliability, protocol deviations, post-hoc exposure, missingness limits, and fields unsuitable for strong inference.
+
+"10_MACHINE_READABLE_RESULTS.json"
+
+All definitions, counts, tests, code versions, and exact parameters.
+
+"11_FINAL_AUDIT_VERDICT.md"
+
+Use only these verdict levels:
+
+- SUPPORTED
+- PROVISIONALLY SUPPORTED
+- LOCATED BEHAVIORAL PHENOTYPE
+- INDETERMINATE
+- NOT SUPPORTED
+- HARD STOP
+
+Every final claim must include:
+
+- exact denominator;
+- exact supporting events;
+- strongest counter-witness;
+- representation sensitivity;
+- reliability status;
+- completion level;
+- and claims it does not license.
+
+---
+
+12. Final Questions the Audit Must Answer
+
+Answer all of these directly.
+
+1. How often does the response preserve the exact object and requested operation?
+2. How often does it import an unsupported actor, motive, occupant, emotion, or moral category?
+3. How often is that import merely a sidecar, and how often does it displace the task?
+4. How much conversational detour does the sidecar create?
+5. How often does the assistant attribute its own proposition to the user's record?
+6. How often does correction change the verdict or handling?
+7. How often are downstream descendants demonstrably repaired?
+8. How often does occupant uncertainty erase an occupant-independent function question?
+9. How often does “more evidence” include a genuinely discriminating test?
+10. How often is the user's explanation held to a higher evidentiary burden than the assistant's alternative?
+11. Which authority, jurisdiction, cost, labor, responsibility, and custody patterns recur?
+12. Where does the mediator become a gatekeeper rather than a replaceable translator?
+13. Which findings survive deletion of unsupported story variables?
+14. Which findings survive representation swaps?
+15. Which findings remain only local?
+16. Which recur across cases?
+17. Is any corpus-wide rule established?
+18. Is any internal architecture identified?
+19. Is any occupant or agent identified?
+20. What is the narrowest claim the evidence actually earns?
+
+---
+
+13. Governing Final Boundary
+
+The audit may establish:
+
+- observable transformations;
+- provenance failures;
+- repeated behavioral phenotypes;
+- task diversion;
+- agency sidecars;
+- local capture or detour;
+- incomplete repair;
+- case-dependent regimes;
+- and representation-relative effects.
+
+It may not manufacture:
+
+- hidden occupants;
+- intentional control;
+- common identity;
+- system-wide policy;
+- consent;
+- or architecture beyond what the available witnesses establish.
+
+Preserve both positive events and counter-witnesses.
+
+Do not let failure to prove the occupant erase the function.
+
+Do not let the observable function manufacture an occupant.
+
+Do not let local evidence silently become a completed global story.
+
+Begin execution now. Return the actual artifacts and bounded verdicts, not another proposal.
