@@ -1,0 +1,1209 @@
+{
+  "cohort_cases": 24,
+  "rtc_seams": 43,
+  "ao30_events": 83,
+  "timestamp_regressions": 1016,
+  "ao30_eligible_opportunities": 493,
+  "timestamp_eligible_opportunities": 20691,
+  "definitions": {
+    "pre_post": "[seam-w,seam-1] and [seam+1,seam+w]; anchor excluded; event-seam incidences can overlap",
+    "centered": "eligible event target within absolute raw-node distance <=w of any RTC seam; anchor included",
+    "permutation": "200,000 case-stratified hypergeometric reallocations preserving per-case event and opportunity totals"
+  },
+  "exact_seam": {
+    "ao30": 0,
+    "timestamp_regression": 0
+  },
+  "windows": {
+    "5": {
+      "ao30": {
+        "pre_event_seam_incidences": 8,
+        "post_event_seam_incidences": 1,
+        "seams_with_pre_event": 4,
+        "seams_with_post_event": 1,
+        "seams_with_centered_event": 5,
+        "cases_with_centered_event": 3,
+        "mean_post_minus_pre_per_seam": -0.16279069767441862,
+        "paired_signflip_p_two_sided": 0.25,
+        "paired_signflip_method": "exact_signflip_32",
+        "centered_opportunity_table": {
+          "event_proximal": 9,
+          "nonevent_proximal": 9,
+          "event_distal": 74,
+          "nonevent_distal": 401
+        },
+        "risk_proximal": 0.5,
+        "risk_distal": 0.15578947368421053,
+        "risk_ratio": 3.209459459459459,
+        "phi": 0.1725346114622662,
+        "case_stratified_permutation": {
+          "observed_event_proximal": 9,
+          "expected_event_proximal": 6.1837856406733085,
+          "p_two_sided": 0.15866920665396672,
+          "p_upper": 0.09825950870245649,
+          "p_lower": 0.9665901670491648,
+          "permutations": 200000
+        },
+        "case_prox_counts": {
+          "eleventh_share": {
+            "events_proximal": 3,
+            "events_total": 34,
+            "opportunities_proximal": 8,
+            "opportunities_total": 142
+          },
+          "twelfth_share": {
+            "events_proximal": 0,
+            "events_total": 1,
+            "opportunities_proximal": 0,
+            "opportunities_total": 58
+          },
+          "thirteenth_share": {
+            "events_proximal": 0,
+            "events_total": 2,
+            "opportunities_proximal": 0,
+            "opportunities_total": 13
+          },
+          "fourteenth_share": {
+            "events_proximal": 0,
+            "events_total": 0,
+            "opportunities_proximal": 0,
+            "opportunities_total": 7
+          },
+          "twentyfirst_share": {
+            "events_proximal": 0,
+            "events_total": 0,
+            "opportunities_proximal": 0,
+            "opportunities_total": 0
+          },
+          "fifteenth_share": {
+            "events_proximal": 0,
+            "events_total": 0,
+            "opportunities_proximal": 0,
+            "opportunities_total": 4
+          },
+          "sixteenth_share": {
+            "events_proximal": 0,
+            "events_total": 1,
+            "opportunities_proximal": 0,
+            "opportunities_total": 7
+          },
+          "eighteenth_share": {
+            "events_proximal": 0,
+            "events_total": 0,
+            "opportunities_proximal": 0,
+            "opportunities_total": 5
+          },
+          "nineteenth_share": {
+            "events_proximal": 0,
+            "events_total": 1,
+            "opportunities_proximal": 0,
+            "opportunities_total": 5
+          },
+          "twentieth_share": {
+            "events_proximal": 4,
+            "events_total": 15,
+            "opportunities_proximal": 5,
+            "opportunities_total": 25
+          },
+          "ninth_share": {
+            "events_proximal": 0,
+            "events_total": 0,
+            "opportunities_proximal": 0,
+            "opportunities_total": 11
+          },
+          "eighth_share": {
+            "events_proximal": 0,
+            "events_total": 1,
+            "opportunities_proximal": 0,
+            "opportunities_total": 11
+          },
+          "test4": {
+            "events_proximal": 0,
+            "events_total": 1,
+            "opportunities_proximal": 0,
+            "opportunities_total": 11
+          },
+          "office_metaphor": {
+            "events_proximal": 0,
+            "events_total": 1,
+            "opportunities_proximal": 0,
+            "opportunities_total": 6
+          },
+          "seventeenth_share": {
+            "events_proximal": 0,
+            "events_total": 3,
+            "opportunities_proximal": 0,
+            "opportunities_total": 12
+          },
+          "tenth_share": {
+            "events_proximal": 0,
+            "events_total": 0,
+            "opportunities_proximal": 1,
+            "opportunities_total": 12
+          },
+          "seventh_share": {
+            "events_proximal": 2,
+            "events_total": 13,
+            "opportunities_proximal": 4,
+            "opportunities_total": 41
+          },
+          "fifth_share": {
+            "events_proximal": 0,
+            "events_total": 3,
+            "opportunities_proximal": 0,
+            "opportunities_total": 14
+          },
+          "fourth_share": {
+            "events_proximal": 0,
+            "events_total": 2,
+            "opportunities_proximal": 0,
+            "opportunities_total": 15
+          },
+          "sixth_share": {
+            "events_proximal": 0,
+            "events_total": 2,
+            "opportunities_proximal": 0,
+            "opportunities_total": 13
+          },
+          "first_share": {
+            "events_proximal": 0,
+            "events_total": 2,
+            "opportunities_proximal": 0,
+            "opportunities_total": 42
+          },
+          "third_share": {
+            "events_proximal": 0,
+            "events_total": 1,
+            "opportunities_proximal": 0,
+            "opportunities_total": 15
+          },
+          "twentysecond_share": {
+            "events_proximal": 0,
+            "events_total": 0,
+            "opportunities_proximal": 0,
+            "opportunities_total": 15
+          },
+          "twentythird_share": {
+            "events_proximal": 0,
+            "events_total": 0,
+            "opportunities_proximal": 0,
+            "opportunities_total": 9
+          }
+        }
+      },
+      "timestamp_regression": {
+        "pre_event_seam_incidences": 15,
+        "post_event_seam_incidences": 3,
+        "seams_with_pre_event": 12,
+        "seams_with_post_event": 3,
+        "seams_with_centered_event": 15,
+        "cases_with_centered_event": 11,
+        "mean_post_minus_pre_per_seam": -0.27906976744186046,
+        "paired_signflip_p_two_sided": 0.02398681640625,
+        "paired_signflip_method": "exact_signflip_32768",
+        "centered_opportunity_table": {
+          "event_proximal": 18,
+          "nonevent_proximal": 451,
+          "event_distal": 998,
+          "nonevent_distal": 19224
+        },
+        "risk_proximal": 0.03837953091684435,
+        "risk_distal": 0.0493521906834141,
+        "risk_ratio": 0.7776662066136538,
+        "phi": -0.007557987389630729,
+        "case_stratified_permutation": {
+          "observed_event_proximal": 18,
+          "expected_event_proximal": 23.079770658630114,
+          "p_two_sided": 0.2779286103569482,
+          "p_upper": 0.8920755396223019,
+          "p_lower": 0.15776921115394424,
+          "permutations": 200000
+        },
+        "case_prox_counts": {
+          "eleventh_share": {
+            "events_proximal": 0,
+            "events_total": 37,
+            "opportunities_proximal": 22,
+            "opportunities_total": 789
+          },
+          "twelfth_share": {
+            "events_proximal": 0,
+            "events_total": 12,
+            "opportunities_proximal": 11,
+            "opportunities_total": 386
+          },
+          "thirteenth_share": {
+            "events_proximal": 0,
+            "events_total": 11,
+            "opportunities_proximal": 0,
+            "opportunities_total": 573
+          },
+          "fourteenth_share": {
+            "events_proximal": 0,
+            "events_total": 24,
+            "opportunities_proximal": 0,
+            "opportunities_total": 713
+          },
+          "twentyfirst_share": {
+            "events_proximal": 0,
+            "events_total": 60,
+            "opportunities_proximal": 0,
+            "opportunities_total": 262
+          },
+          "fifteenth_share": {
+            "events_proximal": 1,
+            "events_total": 20,
+            "opportunities_proximal": 11,
+            "opportunities_total": 262
+          },
+          "sixteenth_share": {
+            "events_proximal": 2,
+            "events_total": 27,
+            "opportunities_proximal": 11,
+            "opportunities_total": 396
+          },
+          "eighteenth_share": {
+            "events_proximal": 1,
+            "events_total": 18,
+            "opportunities_proximal": 11,
+            "opportunities_total": 418
+          },
+          "nineteenth_share": {
+            "events_proximal": 0,
+            "events_total": 28,
+            "opportunities_proximal": 0,
+            "opportunities_total": 405
+          },
+          "twentieth_share": {
+            "events_proximal": 1,
+            "events_total": 43,
+            "opportunities_proximal": 22,
+            "opportunities_total": 403
+          },
+          "ninth_share": {
+            "events_proximal": 2,
+            "events_total": 31,
+            "opportunities_proximal": 32,
+            "opportunities_total": 965
+          },
+          "eighth_share": {
+            "events_proximal": 1,
+            "events_total": 47,
+            "opportunities_proximal": 53,
+            "opportunities_total": 1371
+          },
+          "test4": {
+            "events_proximal": 0,
+            "events_total": 67,
+            "opportunities_proximal": 11,
+            "opportunities_total": 1156
+          },
+          "office_metaphor": {
+            "events_proximal": 0,
+            "events_total": 13,
+            "opportunities_proximal": 11,
+            "opportunities_total": 930
+          },
+          "seventeenth_share": {
+            "events_proximal": 3,
+            "events_total": 45,
+            "opportunities_proximal": 55,
+            "opportunities_total": 924
+          },
+          "tenth_share": {
+            "events_proximal": 0,
+            "events_total": 29,
+            "opportunities_proximal": 11,
+            "opportunities_total": 675
+          },
+          "seventh_share": {
+            "events_proximal": 1,
+            "events_total": 170,
+            "opportunities_proximal": 99,
+            "opportunities_total": 3216
+          },
+          "fifth_share": {
+            "events_proximal": 2,
+            "events_total": 26,
+            "opportunities_proximal": 22,
+            "opportunities_total": 886
+          },
+          "fourth_share": {
+            "events_proximal": 3,
+            "events_total": 91,
+            "opportunities_proximal": 32,
+            "opportunities_total": 1369
+          },
+          "sixth_share": {
+            "events_proximal": 0,
+            "events_total": 24,
+            "opportunities_proximal": 11,
+            "opportunities_total": 655
+          },
+          "first_share": {
+            "events_proximal": 1,
+            "events_total": 32,
+            "opportunities_proximal": 11,
+            "opportunities_total": 808
+          },
+          "third_share": {
+            "events_proximal": 0,
+            "events_total": 39,
+            "opportunities_proximal": 11,
+            "opportunities_total": 873
+          },
+          "twentysecond_share": {
+            "events_proximal": 0,
+            "events_total": 82,
+            "opportunities_proximal": 11,
+            "opportunities_total": 1465
+          },
+          "twentythird_share": {
+            "events_proximal": 0,
+            "events_total": 40,
+            "opportunities_proximal": 11,
+            "opportunities_total": 791
+          }
+        }
+      }
+    },
+    "10": {
+      "ao30": {
+        "pre_event_seam_incidences": 10,
+        "post_event_seam_incidences": 1,
+        "seams_with_pre_event": 4,
+        "seams_with_post_event": 1,
+        "seams_with_centered_event": 5,
+        "cases_with_centered_event": 3,
+        "mean_post_minus_pre_per_seam": -0.20930232558139536,
+        "paired_signflip_p_two_sided": 0.25,
+        "paired_signflip_method": "exact_signflip_32",
+        "centered_opportunity_table": {
+          "event_proximal": 11,
+          "nonevent_proximal": 18,
+          "event_distal": 72,
+          "nonevent_distal": 392
+        },
+        "risk_proximal": 0.3793103448275862,
+        "risk_distal": 0.15517241379310345,
+        "risk_ratio": 2.444444444444444,
+        "phi": 0.1409426307200048,
+        "case_stratified_permutation": {
+          "observed_event_proximal": 11,
+          "expected_event_proximal": 9.588951000905656,
+          "p_two_sided": 0.6402317988410058,
+          "p_upper": 0.32941835290823546,
+          "p_lower": 0.8156759216203919,
+          "permutations": 200000
+        },
+        "case_prox_counts": {
+          "eleventh_share": {
+            "events_proximal": 3,
+            "events_total": 34,
+            "opportunities_proximal": 13,
+            "opportunities_total": 142
+          },
+          "twelfth_share": {
+            "events_proximal": 0,
+            "events_total": 1,
+            "opportunities_proximal": 0,
+            "opportunities_total": 58
+          },
+          "thirteenth_share": {
+            "events_proximal": 0,
+            "events_total": 2,
+            "opportunities_proximal": 0,
+            "opportunities_total": 13
+          },
+          "fourteenth_share": {
+            "events_proximal": 0,
+            "events_total": 0,
+            "opportunities_proximal": 0,
+            "opportunities_total": 7
+          },
+          "twentyfirst_share": {
+            "events_proximal": 0,
+            "events_total": 0,
+            "opportunities_proximal": 0,
+            "opportunities_total": 0
+          },
+          "fifteenth_share": {
+            "events_proximal": 0,
+            "events_total": 0,
+            "opportunities_proximal": 0,
+            "opportunities_total": 4
+          },
+          "sixteenth_share": {
+            "events_proximal": 0,
+            "events_total": 1,
+            "opportunities_proximal": 0,
+            "opportunities_total": 7
+          },
+          "eighteenth_share": {
+            "events_proximal": 0,
+            "events_total": 0,
+            "opportunities_proximal": 0,
+            "opportunities_total": 5
+          },
+          "nineteenth_share": {
+            "events_proximal": 0,
+            "events_total": 1,
+            "opportunities_proximal": 0,
+            "opportunities_total": 5
+          },
+          "twentieth_share": {
+            "events_proximal": 6,
+            "events_total": 15,
+            "opportunities_proximal": 8,
+            "opportunities_total": 25
+          },
+          "ninth_share": {
+            "events_proximal": 0,
+            "events_total": 0,
+            "opportunities_proximal": 0,
+            "opportunities_total": 11
+          },
+          "eighth_share": {
+            "events_proximal": 0,
+            "events_total": 1,
+            "opportunities_proximal": 1,
+            "opportunities_total": 11
+          },
+          "test4": {
+            "events_proximal": 0,
+            "events_total": 1,
+            "opportunities_proximal": 0,
+            "opportunities_total": 11
+          },
+          "office_metaphor": {
+            "events_proximal": 0,
+            "events_total": 1,
+            "opportunities_proximal": 0,
+            "opportunities_total": 6
+          },
+          "seventeenth_share": {
+            "events_proximal": 0,
+            "events_total": 3,
+            "opportunities_proximal": 0,
+            "opportunities_total": 12
+          },
+          "tenth_share": {
+            "events_proximal": 0,
+            "events_total": 0,
+            "opportunities_proximal": 2,
+            "opportunities_total": 12
+          },
+          "seventh_share": {
+            "events_proximal": 2,
+            "events_total": 13,
+            "opportunities_proximal": 5,
+            "opportunities_total": 41
+          },
+          "fifth_share": {
+            "events_proximal": 0,
+            "events_total": 3,
+            "opportunities_proximal": 0,
+            "opportunities_total": 14
+          },
+          "fourth_share": {
+            "events_proximal": 0,
+            "events_total": 2,
+            "opportunities_proximal": 0,
+            "opportunities_total": 15
+          },
+          "sixth_share": {
+            "events_proximal": 0,
+            "events_total": 2,
+            "opportunities_proximal": 0,
+            "opportunities_total": 13
+          },
+          "first_share": {
+            "events_proximal": 0,
+            "events_total": 2,
+            "opportunities_proximal": 0,
+            "opportunities_total": 42
+          },
+          "third_share": {
+            "events_proximal": 0,
+            "events_total": 1,
+            "opportunities_proximal": 0,
+            "opportunities_total": 15
+          },
+          "twentysecond_share": {
+            "events_proximal": 0,
+            "events_total": 0,
+            "opportunities_proximal": 0,
+            "opportunities_total": 15
+          },
+          "twentythird_share": {
+            "events_proximal": 0,
+            "events_total": 0,
+            "opportunities_proximal": 0,
+            "opportunities_total": 9
+          }
+        }
+      },
+      "timestamp_regression": {
+        "pre_event_seam_incidences": 28,
+        "post_event_seam_incidences": 20,
+        "seams_with_pre_event": 20,
+        "seams_with_post_event": 16,
+        "seams_with_centered_event": 30,
+        "cases_with_centered_event": 16,
+        "mean_post_minus_pre_per_seam": -0.18604651162790697,
+        "paired_signflip_p_two_sided": 0.40829795851020745,
+        "paired_signflip_method": "mc_signflip_200000",
+        "centered_opportunity_table": {
+          "event_proximal": 46,
+          "nonevent_proximal": 823,
+          "event_distal": 970,
+          "nonevent_distal": 18852
+        },
+        "risk_proximal": 0.05293440736478711,
+        "risk_distal": 0.04893552618302896,
+        "risk_ratio": 1.0817173430771239,
+        "phi": 0.0037120848940947393,
+        "case_stratified_permutation": {
+          "observed_event_proximal": 46,
+          "expected_event_proximal": 42.884565609210256,
+          "p_two_sided": 0.6245868770656147,
+          "p_upper": 0.32730336348318256,
+          "p_lower": 0.7275363623181884,
+          "permutations": 200000
+        },
+        "case_prox_counts": {
+          "eleventh_share": {
+            "events_proximal": 3,
+            "events_total": 37,
+            "opportunities_proximal": 42,
+            "opportunities_total": 789
+          },
+          "twelfth_share": {
+            "events_proximal": 2,
+            "events_total": 12,
+            "opportunities_proximal": 21,
+            "opportunities_total": 386
+          },
+          "thirteenth_share": {
+            "events_proximal": 0,
+            "events_total": 11,
+            "opportunities_proximal": 0,
+            "opportunities_total": 573
+          },
+          "fourteenth_share": {
+            "events_proximal": 0,
+            "events_total": 24,
+            "opportunities_proximal": 0,
+            "opportunities_total": 713
+          },
+          "twentyfirst_share": {
+            "events_proximal": 0,
+            "events_total": 60,
+            "opportunities_proximal": 0,
+            "opportunities_total": 262
+          },
+          "fifteenth_share": {
+            "events_proximal": 2,
+            "events_total": 20,
+            "opportunities_proximal": 21,
+            "opportunities_total": 262
+          },
+          "sixteenth_share": {
+            "events_proximal": 2,
+            "events_total": 27,
+            "opportunities_proximal": 21,
+            "opportunities_total": 396
+          },
+          "eighteenth_share": {
+            "events_proximal": 1,
+            "events_total": 18,
+            "opportunities_proximal": 21,
+            "opportunities_total": 418
+          },
+          "nineteenth_share": {
+            "events_proximal": 0,
+            "events_total": 28,
+            "opportunities_proximal": 0,
+            "opportunities_total": 405
+          },
+          "twentieth_share": {
+            "events_proximal": 3,
+            "events_total": 43,
+            "opportunities_proximal": 42,
+            "opportunities_total": 403
+          },
+          "ninth_share": {
+            "events_proximal": 3,
+            "events_total": 31,
+            "opportunities_proximal": 52,
+            "opportunities_total": 965
+          },
+          "eighth_share": {
+            "events_proximal": 1,
+            "events_total": 47,
+            "opportunities_proximal": 93,
+            "opportunities_total": 1371
+          },
+          "test4": {
+            "events_proximal": 0,
+            "events_total": 67,
+            "opportunities_proximal": 21,
+            "opportunities_total": 1156
+          },
+          "office_metaphor": {
+            "events_proximal": 0,
+            "events_total": 13,
+            "opportunities_proximal": 21,
+            "opportunities_total": 930
+          },
+          "seventeenth_share": {
+            "events_proximal": 5,
+            "events_total": 45,
+            "opportunities_proximal": 105,
+            "opportunities_total": 924
+          },
+          "tenth_share": {
+            "events_proximal": 2,
+            "events_total": 29,
+            "opportunities_proximal": 21,
+            "opportunities_total": 675
+          },
+          "seventh_share": {
+            "events_proximal": 7,
+            "events_total": 170,
+            "opportunities_proximal": 189,
+            "opportunities_total": 3216
+          },
+          "fifth_share": {
+            "events_proximal": 3,
+            "events_total": 26,
+            "opportunities_proximal": 42,
+            "opportunities_total": 886
+          },
+          "fourth_share": {
+            "events_proximal": 5,
+            "events_total": 91,
+            "opportunities_proximal": 52,
+            "opportunities_total": 1369
+          },
+          "sixth_share": {
+            "events_proximal": 0,
+            "events_total": 24,
+            "opportunities_proximal": 21,
+            "opportunities_total": 655
+          },
+          "first_share": {
+            "events_proximal": 2,
+            "events_total": 32,
+            "opportunities_proximal": 21,
+            "opportunities_total": 808
+          },
+          "third_share": {
+            "events_proximal": 4,
+            "events_total": 39,
+            "opportunities_proximal": 21,
+            "opportunities_total": 873
+          },
+          "twentysecond_share": {
+            "events_proximal": 1,
+            "events_total": 82,
+            "opportunities_proximal": 21,
+            "opportunities_total": 1465
+          },
+          "twentythird_share": {
+            "events_proximal": 0,
+            "events_total": 40,
+            "opportunities_proximal": 21,
+            "opportunities_total": 791
+          }
+        }
+      }
+    },
+    "20": {
+      "ao30": {
+        "pre_event_seam_incidences": 17,
+        "post_event_seam_incidences": 2,
+        "seams_with_pre_event": 4,
+        "seams_with_post_event": 2,
+        "seams_with_centered_event": 6,
+        "cases_with_centered_event": 4,
+        "mean_post_minus_pre_per_seam": -0.3488372093023256,
+        "paired_signflip_p_two_sided": 0.25,
+        "paired_signflip_method": "exact_signflip_64",
+        "centered_opportunity_table": {
+          "event_proximal": 19,
+          "nonevent_proximal": 45,
+          "event_distal": 64,
+          "nonevent_distal": 365
+        },
+        "risk_proximal": 0.296875,
+        "risk_distal": 0.14918414918414918,
+        "risk_ratio": 1.989990234375,
+        "phi": 0.13266038425594032,
+        "case_stratified_permutation": {
+          "observed_event_proximal": 19,
+          "expected_event_proximal": 18.787571028536334,
+          "p_two_sided": 1.0,
+          "p_upper": 0.5362923185384073,
+          "p_lower": 0.6050519747401263,
+          "permutations": 200000
+        },
+        "case_prox_counts": {
+          "eleventh_share": {
+            "events_proximal": 6,
+            "events_total": 34,
+            "opportunities_proximal": 32,
+            "opportunities_total": 142
+          },
+          "twelfth_share": {
+            "events_proximal": 0,
+            "events_total": 1,
+            "opportunities_proximal": 0,
+            "opportunities_total": 58
+          },
+          "thirteenth_share": {
+            "events_proximal": 0,
+            "events_total": 2,
+            "opportunities_proximal": 0,
+            "opportunities_total": 13
+          },
+          "fourteenth_share": {
+            "events_proximal": 0,
+            "events_total": 0,
+            "opportunities_proximal": 0,
+            "opportunities_total": 7
+          },
+          "twentyfirst_share": {
+            "events_proximal": 0,
+            "events_total": 0,
+            "opportunities_proximal": 0,
+            "opportunities_total": 0
+          },
+          "fifteenth_share": {
+            "events_proximal": 0,
+            "events_total": 0,
+            "opportunities_proximal": 1,
+            "opportunities_total": 4
+          },
+          "sixteenth_share": {
+            "events_proximal": 1,
+            "events_total": 1,
+            "opportunities_proximal": 1,
+            "opportunities_total": 7
+          },
+          "eighteenth_share": {
+            "events_proximal": 0,
+            "events_total": 0,
+            "opportunities_proximal": 0,
+            "opportunities_total": 5
+          },
+          "nineteenth_share": {
+            "events_proximal": 0,
+            "events_total": 1,
+            "opportunities_proximal": 0,
+            "opportunities_total": 5
+          },
+          "twentieth_share": {
+            "events_proximal": 10,
+            "events_total": 15,
+            "opportunities_proximal": 14,
+            "opportunities_total": 25
+          },
+          "ninth_share": {
+            "events_proximal": 0,
+            "events_total": 0,
+            "opportunities_proximal": 1,
+            "opportunities_total": 11
+          },
+          "eighth_share": {
+            "events_proximal": 0,
+            "events_total": 1,
+            "opportunities_proximal": 3,
+            "opportunities_total": 11
+          },
+          "test4": {
+            "events_proximal": 0,
+            "events_total": 1,
+            "opportunities_proximal": 1,
+            "opportunities_total": 11
+          },
+          "office_metaphor": {
+            "events_proximal": 0,
+            "events_total": 1,
+            "opportunities_proximal": 0,
+            "opportunities_total": 6
+          },
+          "seventeenth_share": {
+            "events_proximal": 0,
+            "events_total": 3,
+            "opportunities_proximal": 1,
+            "opportunities_total": 12
+          },
+          "tenth_share": {
+            "events_proximal": 0,
+            "events_total": 0,
+            "opportunities_proximal": 3,
+            "opportunities_total": 12
+          },
+          "seventh_share": {
+            "events_proximal": 2,
+            "events_total": 13,
+            "opportunities_proximal": 6,
+            "opportunities_total": 41
+          },
+          "fifth_share": {
+            "events_proximal": 0,
+            "events_total": 3,
+            "opportunities_proximal": 0,
+            "opportunities_total": 14
+          },
+          "fourth_share": {
+            "events_proximal": 0,
+            "events_total": 2,
+            "opportunities_proximal": 0,
+            "opportunities_total": 15
+          },
+          "sixth_share": {
+            "events_proximal": 0,
+            "events_total": 2,
+            "opportunities_proximal": 0,
+            "opportunities_total": 13
+          },
+          "first_share": {
+            "events_proximal": 0,
+            "events_total": 2,
+            "opportunities_proximal": 0,
+            "opportunities_total": 42
+          },
+          "third_share": {
+            "events_proximal": 0,
+            "events_total": 1,
+            "opportunities_proximal": 1,
+            "opportunities_total": 15
+          },
+          "twentysecond_share": {
+            "events_proximal": 0,
+            "events_total": 0,
+            "opportunities_proximal": 0,
+            "opportunities_total": 15
+          },
+          "twentythird_share": {
+            "events_proximal": 0,
+            "events_total": 0,
+            "opportunities_proximal": 0,
+            "opportunities_total": 9
+          }
+        }
+      },
+      "timestamp_regression": {
+        "pre_event_seam_incidences": 62,
+        "post_event_seam_incidences": 40,
+        "seams_with_pre_event": 29,
+        "seams_with_post_event": 24,
+        "seams_with_centered_event": 36,
+        "cases_with_centered_event": 18,
+        "mean_post_minus_pre_per_seam": -0.5116279069767442,
+        "paired_signflip_p_two_sided": 0.18241408792956035,
+        "paired_signflip_method": "mc_signflip_200000",
+        "centered_opportunity_table": {
+          "event_proximal": 96,
+          "nonevent_proximal": 1517,
+          "event_distal": 920,
+          "nonevent_distal": 18158
+        },
+        "risk_proximal": 0.059516429014259145,
+        "risk_distal": 0.048223084180731735,
+        "risk_ratio": 1.2341896007978652,
+        "phi": 0.01401205942922468,
+        "case_stratified_permutation": {
+          "observed_event_proximal": 96,
+          "expected_event_proximal": 79.70848307180968,
+          "p_two_sided": 0.05068474657626712,
+          "p_upper": 0.028784856075719623,
+          "p_lower": 0.9781701091494542,
+          "permutations": 200000
+        },
+        "case_prox_counts": {
+          "eleventh_share": {
+            "events_proximal": 8,
+            "events_total": 37,
+            "opportunities_proximal": 82,
+            "opportunities_total": 789
+          },
+          "twelfth_share": {
+            "events_proximal": 4,
+            "events_total": 12,
+            "opportunities_proximal": 32,
+            "opportunities_total": 386
+          },
+          "thirteenth_share": {
+            "events_proximal": 0,
+            "events_total": 11,
+            "opportunities_proximal": 0,
+            "opportunities_total": 573
+          },
+          "fourteenth_share": {
+            "events_proximal": 0,
+            "events_total": 24,
+            "opportunities_proximal": 0,
+            "opportunities_total": 713
+          },
+          "twentyfirst_share": {
+            "events_proximal": 0,
+            "events_total": 60,
+            "opportunities_proximal": 0,
+            "opportunities_total": 262
+          },
+          "fifteenth_share": {
+            "events_proximal": 5,
+            "events_total": 20,
+            "opportunities_proximal": 41,
+            "opportunities_total": 262
+          },
+          "sixteenth_share": {
+            "events_proximal": 4,
+            "events_total": 27,
+            "opportunities_proximal": 32,
+            "opportunities_total": 396
+          },
+          "eighteenth_share": {
+            "events_proximal": 2,
+            "events_total": 18,
+            "opportunities_proximal": 41,
+            "opportunities_total": 418
+          },
+          "nineteenth_share": {
+            "events_proximal": 0,
+            "events_total": 28,
+            "opportunities_proximal": 0,
+            "opportunities_total": 405
+          },
+          "twentieth_share": {
+            "events_proximal": 5,
+            "events_total": 43,
+            "opportunities_proximal": 82,
+            "opportunities_total": 403
+          },
+          "ninth_share": {
+            "events_proximal": 4,
+            "events_total": 31,
+            "opportunities_proximal": 92,
+            "opportunities_total": 965
+          },
+          "eighth_share": {
+            "events_proximal": 4,
+            "events_total": 47,
+            "opportunities_proximal": 173,
+            "opportunities_total": 1371
+          },
+          "test4": {
+            "events_proximal": 0,
+            "events_total": 67,
+            "opportunities_proximal": 41,
+            "opportunities_total": 1156
+          },
+          "office_metaphor": {
+            "events_proximal": 0,
+            "events_total": 13,
+            "opportunities_proximal": 41,
+            "opportunities_total": 930
+          },
+          "seventeenth_share": {
+            "events_proximal": 11,
+            "events_total": 45,
+            "opportunities_proximal": 177,
+            "opportunities_total": 924
+          },
+          "tenth_share": {
+            "events_proximal": 4,
+            "events_total": 29,
+            "opportunities_proximal": 41,
+            "opportunities_total": 675
+          },
+          "seventh_share": {
+            "events_proximal": 18,
+            "events_total": 170,
+            "opportunities_proximal": 359,
+            "opportunities_total": 3216
+          },
+          "fifth_share": {
+            "events_proximal": 5,
+            "events_total": 26,
+            "opportunities_proximal": 82,
+            "opportunities_total": 886
+          },
+          "fourth_share": {
+            "events_proximal": 10,
+            "events_total": 91,
+            "opportunities_proximal": 92,
+            "opportunities_total": 1369
+          },
+          "sixth_share": {
+            "events_proximal": 1,
+            "events_total": 24,
+            "opportunities_proximal": 41,
+            "opportunities_total": 655
+          },
+          "first_share": {
+            "events_proximal": 4,
+            "events_total": 32,
+            "opportunities_proximal": 41,
+            "opportunities_total": 808
+          },
+          "third_share": {
+            "events_proximal": 5,
+            "events_total": 39,
+            "opportunities_proximal": 41,
+            "opportunities_total": 873
+          },
+          "twentysecond_share": {
+            "events_proximal": 1,
+            "events_total": 82,
+            "opportunities_proximal": 41,
+            "opportunities_total": 1465
+          },
+          "twentythird_share": {
+            "events_proximal": 1,
+            "events_total": 40,
+            "opportunities_proximal": 41,
+            "opportunities_total": 791
+          }
+        }
+      }
+    }
+  },
+  "case_counts": {
+    "eleventh_share": {
+      "seams": 2,
+      "ao30": 34,
+      "timestamp_regressions": 37
+    },
+    "twelfth_share": {
+      "seams": 1,
+      "ao30": 1,
+      "timestamp_regressions": 12
+    },
+    "thirteenth_share": {
+      "seams": 0,
+      "ao30": 2,
+      "timestamp_regressions": 11
+    },
+    "fourteenth_share": {
+      "seams": 0,
+      "ao30": 0,
+      "timestamp_regressions": 24
+    },
+    "twentyfirst_share": {
+      "seams": 0,
+      "ao30": 0,
+      "timestamp_regressions": 60
+    },
+    "fifteenth_share": {
+      "seams": 1,
+      "ao30": 0,
+      "timestamp_regressions": 20
+    },
+    "sixteenth_share": {
+      "seams": 1,
+      "ao30": 1,
+      "timestamp_regressions": 27
+    },
+    "eighteenth_share": {
+      "seams": 1,
+      "ao30": 0,
+      "timestamp_regressions": 18
+    },
+    "nineteenth_share": {
+      "seams": 0,
+      "ao30": 1,
+      "timestamp_regressions": 28
+    },
+    "twentieth_share": {
+      "seams": 2,
+      "ao30": 15,
+      "timestamp_regressions": 43
+    },
+    "ninth_share": {
+      "seams": 3,
+      "ao30": 0,
+      "timestamp_regressions": 31
+    },
+    "eighth_share": {
+      "seams": 5,
+      "ao30": 1,
+      "timestamp_regressions": 47
+    },
+    "test4": {
+      "seams": 1,
+      "ao30": 1,
+      "timestamp_regressions": 67
+    },
+    "office_metaphor": {
+      "seams": 1,
+      "ao30": 1,
+      "timestamp_regressions": 13
+    },
+    "seventeenth_share": {
+      "seams": 5,
+      "ao30": 3,
+      "timestamp_regressions": 45
+    },
+    "tenth_share": {
+      "seams": 1,
+      "ao30": 0,
+      "timestamp_regressions": 29
+    },
+    "seventh_share": {
+      "seams": 9,
+      "ao30": 13,
+      "timestamp_regressions": 170
+    },
+    "fifth_share": {
+      "seams": 2,
+      "ao30": 3,
+      "timestamp_regressions": 26
+    },
+    "fourth_share": {
+      "seams": 3,
+      "ao30": 2,
+      "timestamp_regressions": 91
+    },
+    "sixth_share": {
+      "seams": 1,
+      "ao30": 2,
+      "timestamp_regressions": 24
+    },
+    "first_share": {
+      "seams": 1,
+      "ao30": 2,
+      "timestamp_regressions": 32
+    },
+    "third_share": {
+      "seams": 1,
+      "ao30": 1,
+      "timestamp_regressions": 39
+    },
+    "twentysecond_share": {
+      "seams": 1,
+      "ao30": 0,
+      "timestamp_regressions": 82
+    },
+    "twentythird_share": {
+      "seams": 1,
+      "ao30": 0,
+      "timestamp_regressions": 40
+    }
+  },
+  "case_rate_correlations": {
+    "rtc_seam_rate__ao30_rate": {
+      "spearman_rho": 0.29165051682157345,
+      "permutation_p_two_sided": 0.1657641711791441,
+      "permutations": 200000
+    },
+    "rtc_seam_rate__timestamp_regression_rate": {
+      "spearman_rho": 0.07189559546347506,
+      "permutation_p_two_sided": 0.7373763131184344,
+      "permutations": 200000
+    }
+  }
+}
