@@ -1,0 +1,1 @@
+Design a compact Python logging interface for a streamed assistant response. It must record each supplied byte chunk with a local sequence number, the source timestamp when available, the collection timestamp, SHA-256, and exposed response/thread IDs. Give one small function and one example call.

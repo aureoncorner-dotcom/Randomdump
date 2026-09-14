@@ -1,0 +1,16 @@
+{
+  "program_sha256": "e0e93a0e5a3130f0dd1c92f655dc6b5618a439c1a1f7a888f248a828973cea8f",
+  "tests_run": 12,
+  "failures": 0,
+  "errors": 0,
+  "synthetic_primary_turns": 64,
+  "synthetic_control_calls": 2,
+  "geometry_states_checked": 10000,
+  "halt_cases": [
+    "contradictory thread id",
+    "failed turn",
+    "context compaction"
+  ],
+  "test_source_sha256": "9f3358a14f09036db993bad2eb3e0ddc101a65ff044ed489cd1e799fe25e3869",
+  "observed_test_duration_seconds": 12.965
+}
