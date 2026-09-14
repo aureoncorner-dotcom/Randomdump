@@ -1,0 +1,33 @@
+{
+  "anti_retrofit_rule": "Do not modify this file after numerical execution. Any correction gets a new experiment id.",
+  "created_utc": "2026-09-14T16:03:48.677912+00:00",
+  "equation": "da/dt = delta - K*sin(a)",
+  "experiment_id": "CTA3-BLIND-075-001",
+  "initial_condition": {
+    "a0_rad": 0.0
+  },
+  "parameters": {
+    "K": 0.00225,
+    "K_over_abs_delta": 0.75,
+    "delta_minus": -0.003,
+    "delta_plus": 0.003,
+    "normalized_end_time_u": 600.0,
+    "u_definition": "u = abs(delta) * t"
+  },
+  "pass_criteria": {
+    "max_mirror_error_rad": 5e-07,
+    "max_overlap_difference": 5e-07,
+    "turn_count_exact_match": true
+  },
+  "pre_run_predictions": {
+    "complete_turns_minus": -63,
+    "complete_turns_plus": 63,
+    "direction_minus": "negative",
+    "direction_plus": "positive",
+    "mirror_relation": "a_minus(u) = -a_plus(u)",
+    "normalized_turn_period_approx": 9.499283293789807,
+    "normalized_turn_period_formula": "2*pi/sqrt(1-r^2), r=K/abs(delta)",
+    "overlap_relation": "C_minus(u) = C_plus(u), C=(5+4*cos(a))/9"
+  },
+  "source_model": "Cosmic Time Architecture III signed-detuning scalar branch"
+}

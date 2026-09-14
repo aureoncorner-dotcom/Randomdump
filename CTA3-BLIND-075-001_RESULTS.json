@@ -1,0 +1,24 @@
+{
+  "experiment_id": "CTA3-BLIND-075-001",
+  "freeze_sha256": "db33fe486578cf51806e5d654af0cf716bc36837b3b5fd6a01cd36afc649cbaa",
+  "freeze_unchanged_after_run": true,
+  "results": {
+    "complete_turns_minus": -63,
+    "complete_turns_plus": 63,
+    "endpoint_a_minus_rad": -396.7969046856857,
+    "endpoint_a_plus_rad": 396.7969046856857,
+    "max_mirror_error_rad": 0.0,
+    "max_overlap_difference": 0.0,
+    "normalized_turn_period": 9.499283293789807,
+    "u_over_period": 63.16265990216886,
+    "wrapped_endpoint_minus_rad": -0.9562303333717956,
+    "wrapped_endpoint_plus_rad": 0.9562303333717743
+  },
+  "solver": {
+    "atol": 1e-13,
+    "method": "DOP853",
+    "rtol": 1e-11,
+    "saved_points": 24001
+  },
+  "verdict": "PASS"
+}
