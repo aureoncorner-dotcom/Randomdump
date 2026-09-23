@@ -1,0 +1,56 @@
+{
+  "kind": "CONTROLLED_SOFTWARE_TEST",
+  "fresh_model_calls": 0,
+  "source_tasks": 250,
+  "pipeline_evaluations": 1500,
+  "conditions": {
+    "identity_control": {
+      "apply_before_answer": {
+        "cases": 250,
+        "acknowledged": 250,
+        "correct": 250,
+        "current_reference": 250
+      },
+      "acknowledge_only": {
+        "cases": 250,
+        "acknowledged": 250,
+        "correct": 250,
+        "current_reference": 250
+      },
+      "repair_after_acknowledgment": {
+        "cases": 250,
+        "acknowledged": 250,
+        "correct": 250,
+        "current_reference": 250
+      }
+    },
+    "changed_clues": {
+      "apply_before_answer": {
+        "cases": 250,
+        "acknowledged": 250,
+        "correct": 250,
+        "current_reference": 250
+      },
+      "acknowledge_only": {
+        "cases": 250,
+        "acknowledged": 250,
+        "correct": 0,
+        "current_reference": 0
+      },
+      "repair_after_acknowledgment": {
+        "cases": 250,
+        "acknowledged": 250,
+        "correct": 250,
+        "current_reference": 250
+      }
+    }
+  },
+  "projection_counterexample": true,
+  "design_limits": [
+    "Clue changes are engineered to move the correct answer in every changed case.",
+    "The program implements the interventions explicitly; this is not an estimate of model behavior.",
+    "Late substantive repair and early substantive correction use the same solver.",
+    "Source questions share constraint paragraphs; cases are not independent population samples.",
+    "No language comparison, runtime-internal observation, or physical mechanism is tested."
+  ]
+}

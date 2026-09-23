@@ -1,0 +1,82 @@
+﻿Nitrogen Reservoirs in Fulgurites - Lab Handoff
+Objective: resolve the reservoir before naming the nitrogen. No reservoir, no claim.  Boundary: source-bound condensation only; no added mechanism claims. R1-R4 are specimen reservoirs; B is a procedural/background competitor, not a fifth reservoir.  Definitions: R1 = lattice/structural N bonded as Si-N or Si-O-N; R2 = N-bearing molecular gas occluded in sealed vesicles; R3 = surface/weathering/handling N on rinds, cracks, or open surfaces; R4 = N in organic or carbonaceous residues; B = preparation/lab background competitor.
+Measurement order and gates
+#
+	Lane
+	Sample domain
+	Measurement / gate / expected readout
+	0
+	Triage
+	Fresh interior lechatelierite; mixed groundmass; sealed/open vesicles; rind; cracks/pores; C-rich residues; bioaltered zones.
+	Curation audit; micro-CT/microscopy; SEM-EDS/Raman/XRD/microprobe context. Map domains before destructive work. Bulk-mixed results cannot assign a reservoir.
+	1
+	R1 locate
+	Fresh interior plus N-free fused silica, preparation replicates, and full-procedure blanks.
+	NanoSIMS survey; exclude rind, cracks, residues, and mixed groundmass. Hotspot above local background and B -> target that exact domain by EELS; otherwise report an R1 upper bound.
+	2
+	R1 bond
+	Exact clean-interior hotspot selected in step 1.
+	EELS N-K ELNES with nitrate, organic, gas, beam, mount, and preparation controls. N above detection plus Si-N-consistent fine structure after controls supports R1; otherwise upper bound.
+	3
+	R3 / R4
+	Rind/cracks/open surfaces vs fresh interior; C-rich residues vs clean glass.
+	NanoSIMS gradients plus Raman/organic ELNES and cleaning/fracture contrasts. Exterior/crack gradient -> R3. C-co-located CN/organic signature -> R4. Neither is R1.
+	4
+	R2 gas
+	Matched sealed/open vesicles plus rind/air/soil references and blanks.
+	Micro-CT/microscopy -> vacuum crush/stepped heating -> GC-MS -> 13C/15N; add 14C only for ancient-preservation claims. Distinct sealed release strengthens R2; matching controls stops it.
+	5
+	Redox
+	C-rich vs C-poor zones; same-site protolith/non-strike controls.
+	SEM-EDS/Raman/XRD/microprobe -> P/Fe XANES/EXAFS. Spatially correlated reduced P/Fe with contamination excluded supports a redox archive only, not reduced N.
+	6
+	Pilot
+	Experimental and sterilized fulgurite; thermal glass; protolith; disturbed and matched non-strike substrate.
+	Time series, multi-site replication, blinded scoring. Keep a separate sample stream; colonized specimens cannot enter clean-N chemistry.
+	Mandatory controls and stop rules
+Analytical - full-procedure blanks for extraction/mounting/polishing/storage; N-free fused silica through identical preparation; preparation replicates; same-site protolith; sealed/open pairs; interior/rind and clean/mixed contrasts; crack/pore maps; curation audit for adhesives, consolidants, acid treatment, storage nitrate, animal/bird contamination, and handling; beam-induced C/N buildup checks.
+Interpretive - SIMS SiN- alone is not Si-N; organic CN is not lattice N; sealed gas is not structural N; P/Fe redox is not reduced N. Crushing, heating, sputtering, and preparation require transformation controls. If B is variable/comparable to the candidate signal, or an assay separates no live reservoir explanation, stop or limit the conclusion.
+Safety / segregation - institutional labs, trained staff, approved procedures, ventilation, and proper instrumentation only. No DIY lightning, storm collection, non-lab high-voltage rigs, sealed pressure vessels, unknown-gas extraction, mystery-material heating, or synthesis attempts. Biology and clean-N chemistry remain separate.
+Expected outputs - R1 negative/upper bound; provenance-resolved N accounting; replication/extension of sealed-vesicle gas signals; spatial test of C-correlated reduced P/Fe phases; strictly controlled bioreceptivity pilot kept separate from clean chemistry; no general coupled C-N-Si mechanism.
+Compact if / then interpretation table
+IF result
+	Would support
+	Would NOT support
+	Then / stop
+	No clean-interior N above B, or EELS N is below detection.
+	R1 predicted-negative / upper bound.
+	Does not rule out R2-R4 and does not mean "nothing happened."
+	Stop R1 escalation; report detection limit and B.
+	SIMS hotspot overlaps rind, crack, residue, mixed groundmass, or B is comparable/variable.
+	R3, R4, or background candidate; limited identifiability.
+	Not Si-N bonding or event provenance.
+	Reject as R1 target; reclassify or limit.
+	Clean-interior hotspot plus EELS N-K ELNES is Si-N-consistent and all controls survive.
+	R1 in the tested microdomain.
+	Not a general fulgurite result, event provenance by itself, or a coupled C-N-Si mechanism.
+	Upgrade sample-specific R1; replicate.
+	N follows rind/cracks, falls inward, or changes with cleaning/fresh fracture.
+	R3 surface/weathering nitrogen.
+	Not event N or R1.
+	Report R3; do not escalate.
+	CN co-locates with C and organic ELNES/Raman/residue texture.
+	R4 organic-residue nitrogen.
+	Not lattice nitrogen.
+	Keep separate from R1.
+	Sealed release differs from open/air/soil/blanks, separates by heating step, and isotopes support provenance.
+	R2 sealed-gas archive.
+	Not structural N; isotopes alone are insufficient.
+	Strengthen R2; replicate across specimens.
+	Sealed/open are indistinguishable, gas matches modern air/soil, or heating does not separate adsorption.
+	Infiltration/adsorption is more consistent.
+	Not an R2 archive.
+	Weaken or stop R2 claim.
+	Reduced P/Fe tracks C-rich zones, is absent from controls, and conductor/detrital contamination is excluded.
+	Local P/Fe redox archive.
+	Not reduced N or R1.
+	Keep the redox lane separate.
+	Signal changes under crushing, heating, sputtering, or preparation controls.
+	Measurement-induced species or B contribution.
+	Not a pre-existing specimen reservoir assignment.
+	Stop/limit; redesign method-specific controls.
+	Provenance boundary: condensed from the newest Google Drive document "V3Nitrogen Reservoirs in Fulgurites." Physical entrapment is not bonding; surface N is not event N without controls; organic N is not lattice N. Instrument count is not the objective - reservoir discrimination is.

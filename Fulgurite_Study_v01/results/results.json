@@ -1,0 +1,107 @@
+{
+  "title": "Fulgurite gas archive \u2014 first analysis",
+  "version": "0.1",
+  "date_utc": "2026-09-08",
+  "calculation_status": "EXECUTED",
+  "specimen_measurement_status": "NOT_MEASURED",
+  "assumption_status": "ILLUSTRATIVE_ASSUMPTIONS",
+  "python": "3.12.13",
+  "input_sha256": "0c594d668326fbd6e54b7124e887bf41fddc2a4a86da4a8ba5ef9f3aae46e04e",
+  "published_arithmetic_replay": {
+    "rim": {
+      "calculated_percent": 55.28455284552845,
+      "exact_percent": "6800/123",
+      "authors_rounded_percent": 55,
+      "rounded_agreement": true
+    },
+    "core": {
+      "calculated_percent": 34.959349593495936,
+      "exact_percent": "4300/123",
+      "authors_rounded_percent": 35,
+      "rounded_agreement": true
+    }
+  },
+  "same_readout_examples": [
+    {
+      "case": "Pre-existing gas",
+      "preexisting_gas": 1.0,
+      "other_host_release": 0.0,
+      "species_formed_during_extraction": 0.0,
+      "measured_signal": 1.0
+    },
+    {
+      "case": "Other-host release",
+      "preexisting_gas": 0.0,
+      "other_host_release": 1.0,
+      "species_formed_during_extraction": 0.0,
+      "measured_signal": 1.0
+    },
+    {
+      "case": "Species formed during extraction",
+      "preexisting_gas": 0.0,
+      "other_host_release": 0.0,
+      "species_formed_during_extraction": 1.0,
+      "measured_signal": 1.0
+    },
+    {
+      "case": "Mixed contributions",
+      "preexisting_gas": 0.4,
+      "other_host_release": 0.3,
+      "species_formed_during_extraction": 0.3,
+      "measured_signal": 1.0
+    }
+  ],
+  "compatible_ranges": [
+    {
+      "nuisance_bound": 0.0,
+      "compatible_min": 0.9,
+      "compatible_max": 1.375,
+      "zero_compatible": false
+    },
+    {
+      "nuisance_bound": 0.25,
+      "compatible_min": 0.65,
+      "compatible_max": 1.6875,
+      "zero_compatible": false
+    },
+    {
+      "nuisance_bound": 0.5,
+      "compatible_min": 0.4,
+      "compatible_max": 2.0,
+      "zero_compatible": false
+    },
+    {
+      "nuisance_bound": 0.75,
+      "compatible_min": 0.15000000000000002,
+      "compatible_max": 2.3125,
+      "zero_compatible": false
+    },
+    {
+      "nuisance_bound": 0.9,
+      "compatible_min": 0.0,
+      "compatible_max": 2.5,
+      "zero_compatible": true
+    },
+    {
+      "nuisance_bound": 1.0,
+      "compatible_min": 0.0,
+      "compatible_max": 2.625,
+      "zero_compatible": true
+    }
+  ],
+  "positive_lower_bound_condition": "observed_contrast > measurement_error_bound + nuisance_bound",
+  "independent_verification": {
+    "status": "PASS",
+    "method": "Independent linear programming projection",
+    "cases": 60,
+    "feasible": 44,
+    "infeasible": 16,
+    "maximum_absolute_difference": 4.440892098500626e-16,
+    "tolerance": 1e-09,
+    "scipy_version": "1.17.0"
+  },
+  "plot_libraries": {
+    "numpy": "2.3.5",
+    "matplotlib": "3.10.8"
+  }
+}

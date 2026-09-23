@@ -1,0 +1,25 @@
+{
+  "project": "Fulgurite gas archive — first analysis",
+  "version": "0.1",
+  "date_utc": "2026-09-08",
+  "illustration": {
+    "input_status": "ILLUSTRATIVE_ASSUMPTIONS",
+    "units": "normalized arbitrary signal/amount units",
+    "observed_contrast": 1.0,
+    "measurement_error_bound": 0.1,
+    "recovery_min": 0.8,
+    "recovery_max": 1.0,
+    "nuisance_bounds": [0.0, 0.25, 0.5, 0.75, 0.9, 1.0]
+  },
+  "published_arithmetic": {
+    "source": "https://www.nature.com/articles/s41467-021-21849-2",
+    "source_location": "Results: Formation conditions of the fulgurite",
+    "input_status": "PUBLISHED_SUMMARY_VALUES",
+    "quantity": "P2O5 mass percent",
+    "normalized_parent_baseline": 0.246,
+    "fulgurite_rim": 0.11,
+    "fulgurite_core": 0.16,
+    "authors_rounded_percent": {"rim": 55, "core": 35},
+    "interpretation": "Conditional arithmetic under the authors' normalization and assignment of missing matrix phosphorus to phosphide; mineral identification is separate evidence."
+  }
+}

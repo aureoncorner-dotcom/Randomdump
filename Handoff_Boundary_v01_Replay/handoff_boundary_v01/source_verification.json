@@ -1,0 +1,58 @@
+{
+  "archive_sha256": "3d71c3a16d764f8d51f897dfff7f10bbbbf1fc570d06f775e74349d77d707b88",
+  "checked_files": [
+    {
+      "file": "README.md",
+      "match": true
+    },
+    {
+      "file": "Report.md",
+      "match": true
+    },
+    {
+      "file": "development/README.md",
+      "match": true
+    },
+    {
+      "file": "development/initial_results/receipts.json",
+      "match": true
+    },
+    {
+      "file": "development/initial_results/summary.json",
+      "match": true
+    },
+    {
+      "file": "development/replay_initial.py",
+      "match": true
+    },
+    {
+      "file": "replay.py",
+      "match": true
+    },
+    {
+      "file": "results/receipts.json",
+      "match": true
+    },
+    {
+      "file": "results/summary.json",
+      "match": true
+    },
+    {
+      "file": "source/LICENSE",
+      "match": true
+    },
+    {
+      "file": "source/model_outputs.json",
+      "match": true
+    },
+    {
+      "file": "source/tasks.json",
+      "match": true
+    },
+    {
+      "file": "source_manifest.json",
+      "match": true
+    }
+  ],
+  "all_match": true
+}

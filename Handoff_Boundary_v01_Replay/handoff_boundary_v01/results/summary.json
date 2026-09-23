@@ -1,0 +1,198 @@
+{
+  "experiment": "HANDOFF-BOUNDARY-001",
+  "version": "0.1",
+  "fresh_baseline": {
+    "questions": 250,
+    "historical_correct": 65,
+    "historical_wrong": 185,
+    "fresh_checked_correct": 250,
+    "assignments_enumerated": 1260000
+  },
+  "trials": 2750,
+  "conditions": [
+    {
+      "condition": "control",
+      "description": "Unchanged handoff",
+      "trials": 250,
+      "accepted": 250,
+      "withheld": 0,
+      "wrong_answers_at_receiving_capture": 0,
+      "wrong_released_answers": 0,
+      "answer_only_equal": 250,
+      "signals": {
+        "NO_OBSERVED_CHANGE": 250
+      },
+      "expectations_met": 250
+    },
+    {
+      "condition": "json_reformat",
+      "description": "Change JSON whitespace and key order only in the relay",
+      "trials": 250,
+      "accepted": 250,
+      "withheld": 0,
+      "wrong_answers_at_receiving_capture": 0,
+      "wrong_released_answers": 0,
+      "answer_only_equal": 250,
+      "signals": {
+        "WIRE_REENCODING": 250
+      },
+      "expectations_met": 250
+    },
+    {
+      "condition": "question_replacement",
+      "description": "Replace the checker input with another corpus question; retain original authority",
+      "trials": 250,
+      "accepted": 0,
+      "withheld": 250,
+      "wrong_answers_at_receiving_capture": 0,
+      "wrong_released_answers": 0,
+      "answer_only_equal": 0,
+      "signals": {
+        "ORIGINAL_TO_CHECKER_CHANGED": 250
+      },
+      "expectations_met": 250
+    },
+    {
+      "condition": "answer_flip_before_send",
+      "description": "Change the checked answer before the sender capture",
+      "trials": 250,
+      "accepted": 0,
+      "withheld": 250,
+      "wrong_answers_at_receiving_capture": 250,
+      "wrong_released_answers": 0,
+      "answer_only_equal": 0,
+      "signals": {
+        "CHECKED_TO_SENDER_CHANGED": 250
+      },
+      "expectations_met": 250
+    },
+    {
+      "condition": "answer_flip_in_transit",
+      "description": "Change the answer between sender and receiver captures",
+      "trials": 250,
+      "accepted": 0,
+      "withheld": 250,
+      "wrong_answers_at_receiving_capture": 250,
+      "wrong_released_answers": 0,
+      "answer_only_equal": 0,
+      "signals": {
+        "SENDER_TO_RECEIVER_CHANGED": 250
+      },
+      "expectations_met": 250
+    },
+    {
+      "condition": "case_id_replacement",
+      "description": "Replace the case ID while retaining the correct answer",
+      "trials": 250,
+      "accepted": 0,
+      "withheld": 250,
+      "wrong_answers_at_receiving_capture": 0,
+      "wrong_released_answers": 0,
+      "answer_only_equal": 250,
+      "signals": {
+        "SENDER_TO_RECEIVER_CHANGED": 250
+      },
+      "expectations_met": 250
+    },
+    {
+      "condition": "certificate_damage",
+      "description": "Reverse the retained satisfying order while retaining the correct answer",
+      "trials": 250,
+      "accepted": 0,
+      "withheld": 250,
+      "wrong_answers_at_receiving_capture": 0,
+      "wrong_released_answers": 0,
+      "answer_only_equal": 250,
+      "signals": {
+        "SENDER_TO_RECEIVER_CHANGED": 250
+      },
+      "expectations_met": 250
+    },
+    {
+      "condition": "whole_record_replay_same_answer",
+      "description": "Substitute another case's internally consistent checked envelope with the same answer letter",
+      "trials": 250,
+      "accepted": 0,
+      "withheld": 250,
+      "wrong_answers_at_receiving_capture": 0,
+      "wrong_released_answers": 0,
+      "answer_only_equal": 250,
+      "signals": {
+        "SENDER_TO_RECEIVER_CHANGED": 250
+      },
+      "expectations_met": 250
+    },
+    {
+      "condition": "missing_delivery",
+      "description": "Relay supplies no payload at the receiver capture",
+      "trials": 250,
+      "accepted": 0,
+      "withheld": 250,
+      "wrong_answers_at_receiving_capture": 0,
+      "wrong_released_answers": 0,
+      "answer_only_equal": 0,
+      "signals": {
+        "NO_RECEIVED_PAYLOAD": 250
+      },
+      "expectations_met": 250
+    },
+    {
+      "condition": "missing_sender_capture_with_flip",
+      "description": "Omit sender capture and change answer in relay",
+      "trials": 250,
+      "accepted": 0,
+      "withheld": 250,
+      "wrong_answers_at_receiving_capture": 250,
+      "wrong_released_answers": 0,
+      "answer_only_equal": 0,
+      "signals": {
+        "CHECKED_TO_RECEIVER_GAP": 250
+      },
+      "expectations_met": 250
+    },
+    {
+      "condition": "transient_flip_restored",
+      "description": "Relay changes then restores the answer before receipt; only injection ledger sees the intermediate value",
+      "trials": 250,
+      "accepted": 250,
+      "withheld": 0,
+      "wrong_answers_at_receiving_capture": 0,
+      "wrong_released_answers": 0,
+      "answer_only_equal": 250,
+      "signals": {
+        "NO_OBSERVED_CHANGE": 250
+      },
+      "expectations_met": 250
+    }
+  ],
+  "new_model_calls": 0,
+  "accepted": 750,
+  "withheld": 2000,
+  "wrong_answers_at_receiving_capture": 750,
+  "wrong_released_answers": 0,
+  "unobserved_transient_changes": 250,
+  "expectations_met": 2750,
+  "stage_runs": [
+    {
+      "stage": "certify",
+      "returncode": 0,
+      "wall_ns": 1161696691
+    },
+    {
+      "stage": "send",
+      "returncode": 0,
+      "wall_ns": 168652661
+    },
+    {
+      "stage": "relay",
+      "returncode": 0,
+      "wall_ns": 150878126
+    },
+    {
+      "stage": "receive",
+      "returncode": 0,
+      "wall_ns": 260193383
+    }
+  ],
+  "finished_utc": "2026-09-08T20:13:14.531219+00:00"
+}

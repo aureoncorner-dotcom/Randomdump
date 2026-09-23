@@ -1,0 +1,33 @@
+{
+  "corpus": "BBH logical_deduction_seven_objects",
+  "responses": "published code-davinci-002 direct few-shot outputs",
+  "historical_replay": true,
+  "new_model_calls": 0,
+  "injected_faults": 0,
+  "tasks": 250,
+  "raw_correct": 65,
+  "raw_wrong": 185,
+  "accepted_primary": 65,
+  "recovered": 185,
+  "unresolved": 0,
+  "final_correct": 250,
+  "wrong_accepted": 0,
+  "parser_errors": [],
+  "assignments_enumerated": 1260000,
+  "distinct_full_questions": 250,
+  "distinct_constraint_paragraphs": 95,
+  "valid_order_count_range": [
+    1,
+    1
+  ],
+  "candidate_counterexamples": 185,
+  "receipts_sha256": "0cc42972870cd1c6ceccf5094d151db4ea22e3a2af97c92d3aafbd545a5b49fa",
+  "limitations": [
+    "historical published outputs, not current-model measurements",
+    "template-specific assistant-authored parser; not arbitrary natural language",
+    "gold labels visible during initial source inspection, but absent from decision inputs",
+    "exhaustive solver supplies the corrected answer; no model retraining or general reasoning improvement",
+    "source claims about original model execution are not independently attested here",
+    "shared runtime and parser remain trusted; no physical or chemical inference"
+  ]
+}

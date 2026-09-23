@@ -1,0 +1,101 @@
+{
+  "version": "0.1",
+  "seed": 20260908,
+  "tasks": 128,
+  "positive_tasks": 64,
+  "total_trials": 1408,
+  "in_scope_trials": 1280,
+  "in_scope_wrong_accepted": 0,
+  "in_scope_recovered": 704,
+  "in_scope_unresolved": 256,
+  "scenarios": {
+    "control": {
+      "trials": 128,
+      "ACCEPT_PRIMARY": 128,
+      "primary_invalid": 0,
+      "primary_wrong": 0,
+      "wrong_accepted": 0
+    },
+    "answer_flip": {
+      "trials": 128,
+      "RECOVERED": 128,
+      "primary_invalid": 128,
+      "primary_wrong": 128,
+      "wrong_accepted": 0
+    },
+    "proof_step_drop": {
+      "trials": 128,
+      "RECOVERED": 64,
+      "ACCEPT_PRIMARY": 64,
+      "primary_invalid": 64,
+      "primary_wrong": 0,
+      "wrong_accepted": 0
+    },
+    "invalid_rule_id": {
+      "trials": 128,
+      "RECOVERED": 64,
+      "ACCEPT_PRIMARY": 64,
+      "primary_invalid": 64,
+      "primary_wrong": 0,
+      "wrong_accepted": 0
+    },
+    "countermodel_bit_flip": {
+      "trials": 128,
+      "ACCEPT_PRIMARY": 64,
+      "RECOVERED": 64,
+      "primary_invalid": 64,
+      "primary_wrong": 0,
+      "wrong_accepted": 0
+    },
+    "input_query_replacement": {
+      "trials": 128,
+      "RECOVERED": 128,
+      "primary_invalid": 128,
+      "primary_wrong": 55,
+      "wrong_accepted": 0
+    },
+    "worker_output_missing": {
+      "trials": 128,
+      "RECOVERED": 128,
+      "primary_invalid": 128,
+      "primary_wrong": 0,
+      "wrong_accepted": 0
+    },
+    "correlated_wrong_answers": {
+      "trials": 128,
+      "UNRESOLVED": 128,
+      "primary_invalid": 128,
+      "primary_wrong": 128,
+      "wrong_accepted": 0
+    },
+    "both_outputs_missing": {
+      "trials": 128,
+      "UNRESOLVED": 128,
+      "primary_invalid": 128,
+      "primary_wrong": 0,
+      "wrong_accepted": 0
+    },
+    "malformed_output": {
+      "trials": 128,
+      "RECOVERED": 128,
+      "primary_invalid": 128,
+      "primary_wrong": 0,
+      "wrong_accepted": 0
+    },
+    "checker_corruption_boundary": {
+      "trials": 128,
+      "ACCEPT_PRIMARY": 128,
+      "primary_invalid": 128,
+      "primary_wrong": 128,
+      "wrong_accepted": 128
+    }
+  },
+  "limitations": [
+    "Synthetic finite Horn logic only; no natural-language or LLM test.",
+    "No antimony measurement, dose model, hardware diagnosis or modification.",
+    "Input, checker, routing, output channel and evaluation oracle trusted in scoped trials.",
+    "All workers execute on the same runtime; no physical independence demonstrated.",
+    "Seeded finite corpus is not a hardware fault distribution or statistical population.",
+    "UNRESOLVED is failure to certify; for false entailment, no does not prove negation."
+  ]
+}

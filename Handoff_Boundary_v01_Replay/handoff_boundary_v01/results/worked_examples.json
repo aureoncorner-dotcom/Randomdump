@@ -1,0 +1,647 @@
+[
+  {
+    "source_case": {
+      "case_id": "BBH-000",
+      "question": "The following paragraphs each describe a set of seven objects arranged in a fixed order. The statements are logically consistent within each paragraph. In a golf tournament, there were seven golfers: Ana, Eve, Ada, Dan, Rob, Amy, and Joe. Dan finished third. Ana finished above Ada. Amy finished last. Dan finished below Rob. Eve finished below Ada. Rob finished below Joe.\nOptions:\n(A) Ana finished third\n(B) Eve finished third\n(C) Ada finished third\n(D) Dan finished third\n(E) Rob finished third\n(F) Amy finished third\n(G) Joe finished third",
+      "historical_prediction": "(C)"
+    },
+    "sender_capture": {
+      "case_index": 0,
+      "checked_wire_b64": "eyJhbnN3ZXIiOiJEIiwiY2FzZV9pZCI6IkJCSC0wMDAiLCJxdWVzdGlvbiI6IlRoZSBmb2xsb3dpbmcgcGFyYWdyYXBocyBlYWNoIGRlc2NyaWJlIGEgc2V0IG9mIHNldmVuIG9iamVjdHMgYXJyYW5nZWQgaW4gYSBmaXhlZCBvcmRlci4gVGhlIHN0YXRlbWVudHMgYXJlIGxvZ2ljYWxseSBjb25zaXN0ZW50IHdpdGhpbiBlYWNoIHBhcmFncmFwaC4gSW4gYSBnb2xmIHRvdXJuYW1lbnQsIHRoZXJlIHdlcmUgc2V2ZW4gZ29sZmVyczogQW5hLCBFdmUsIEFkYSwgRGFuLCBSb2IsIEFteSwgYW5kIEpvZS4gRGFuIGZpbmlzaGVkIHRoaXJkLiBBbmEgZmluaXNoZWQgYWJvdmUgQWRhLiBBbXkgZmluaXNoZWQgbGFzdC4gRGFuIGZpbmlzaGVkIGJlbG93IFJvYi4gRXZlIGZpbmlzaGVkIGJlbG93IEFkYS4gUm9iIGZpbmlzaGVkIGJlbG93IEpvZS5cbk9wdGlvbnM6XG4oQSkgQW5hIGZpbmlzaGVkIHRoaXJkXG4oQikgRXZlIGZpbmlzaGVkIHRoaXJkXG4oQykgQWRhIGZpbmlzaGVkIHRoaXJkXG4oRCkgRGFuIGZpbmlzaGVkIHRoaXJkXG4oRSkgUm9iIGZpbmlzaGVkIHRoaXJkXG4oRikgQW15IGZpbmlzaGVkIHRoaXJkXG4oRykgSm9lIGZpbmlzaGVkIHRoaXJkIiwicXVlc3Rpb25fc2hhMjU2IjoiMmE2YzRlMmZiMDE3ZDQ1NjkwZmFmM2VhMGQyMGRmZDcyMmE1M2I4MWI0MDhkZWFmZDgyMDM3ZmViYmJkMDg5NCIsInNhdGlzZnlpbmdfb3JkZXIiOlsiSm9lIiwiUm9iIiwiRGFuIiwiQW5hIiwiQWRhIiwiRXZlIiwiQW15Il0sInNjaGVtYSI6ImhhbmRvZmYtZW52ZWxvcGUtMSIsInRyaWFsX2lkIjoiYTRjNjA5ZTY1YTBmOWJkNWQxZTkzOTVlIn0=",
+      "checker_input_question": "The following paragraphs each describe a set of seven objects arranged in a fixed order. The statements are logically consistent within each paragraph. In a golf tournament, there were seven golfers: Ana, Eve, Ada, Dan, Rob, Amy, and Joe. Dan finished third. Ana finished above Ada. Amy finished last. Dan finished below Rob. Eve finished below Ada. Rob finished below Joe.\nOptions:\n(A) Ana finished third\n(B) Eve finished third\n(C) Ada finished third\n(D) Dan finished third\n(E) Rob finished third\n(F) Amy finished third\n(G) Joe finished third",
+      "input_matches_original": true,
+      "monotonic_ns": 3261725298440,
+      "sender_capture_present": true,
+      "sender_wire_b64": "eyJhbnN3ZXIiOiJEIiwiY2FzZV9pZCI6IkJCSC0wMDAiLCJxdWVzdGlvbiI6IlRoZSBmb2xsb3dpbmcgcGFyYWdyYXBocyBlYWNoIGRlc2NyaWJlIGEgc2V0IG9mIHNldmVuIG9iamVjdHMgYXJyYW5nZWQgaW4gYSBmaXhlZCBvcmRlci4gVGhlIHN0YXRlbWVudHMgYXJlIGxvZ2ljYWxseSBjb25zaXN0ZW50IHdpdGhpbiBlYWNoIHBhcmFncmFwaC4gSW4gYSBnb2xmIHRvdXJuYW1lbnQsIHRoZXJlIHdlcmUgc2V2ZW4gZ29sZmVyczogQW5hLCBFdmUsIEFkYSwgRGFuLCBSb2IsIEFteSwgYW5kIEpvZS4gRGFuIGZpbmlzaGVkIHRoaXJkLiBBbmEgZmluaXNoZWQgYWJvdmUgQWRhLiBBbXkgZmluaXNoZWQgbGFzdC4gRGFuIGZpbmlzaGVkIGJlbG93IFJvYi4gRXZlIGZpbmlzaGVkIGJlbG93IEFkYS4gUm9iIGZpbmlzaGVkIGJlbG93IEpvZS5cbk9wdGlvbnM6XG4oQSkgQW5hIGZpbmlzaGVkIHRoaXJkXG4oQikgRXZlIGZpbmlzaGVkIHRoaXJkXG4oQykgQWRhIGZpbmlzaGVkIHRoaXJkXG4oRCkgRGFuIGZpbmlzaGVkIHRoaXJkXG4oRSkgUm9iIGZpbmlzaGVkIHRoaXJkXG4oRikgQW15IGZpbmlzaGVkIHRoaXJkXG4oRykgSm9lIGZpbmlzaGVkIHRoaXJkIiwicXVlc3Rpb25fc2hhMjU2IjoiMmE2YzRlMmZiMDE3ZDQ1NjkwZmFmM2VhMGQyMGRmZDcyMmE1M2I4MWI0MDhkZWFmZDgyMDM3ZmViYmJkMDg5NCIsInNhdGlzZnlpbmdfb3JkZXIiOlsiSm9lIiwiUm9iIiwiRGFuIiwiQW5hIiwiQWRhIiwiRXZlIiwiQW15Il0sInNjaGVtYSI6ImhhbmRvZmYtZW52ZWxvcGUtMSIsInRyaWFsX2lkIjoiYTRjNjA5ZTY1YTBmOWJkNWQxZTkzOTVlIn0=",
+      "trial_id": "a4c609e65a0f9bd5d1e9395e"
+    },
+    "receiver_capture": {
+      "monotonic_ns": 3262095007242,
+      "trial_id": "a4c609e65a0f9bd5d1e9395e",
+      "wire_b64": "eyJhbnN3ZXIiOiJEIiwiY2FzZV9pZCI6IkJCSC0wMDAiLCJxdWVzdGlvbiI6IlRoZSBmb2xsb3dpbmcgcGFyYWdyYXBocyBlYWNoIGRlc2NyaWJlIGEgc2V0IG9mIHNldmVuIG9iamVjdHMgYXJyYW5nZWQgaW4gYSBmaXhlZCBvcmRlci4gVGhlIHN0YXRlbWVudHMgYXJlIGxvZ2ljYWxseSBjb25zaXN0ZW50IHdpdGhpbiBlYWNoIHBhcmFncmFwaC4gSW4gYSBnb2xmIHRvdXJuYW1lbnQsIHRoZXJlIHdlcmUgc2V2ZW4gZ29sZmVyczogQW5hLCBFdmUsIEFkYSwgRGFuLCBSb2IsIEFteSwgYW5kIEpvZS4gRGFuIGZpbmlzaGVkIHRoaXJkLiBBbmEgZmluaXNoZWQgYWJvdmUgQWRhLiBBbXkgZmluaXNoZWQgbGFzdC4gRGFuIGZpbmlzaGVkIGJlbG93IFJvYi4gRXZlIGZpbmlzaGVkIGJlbG93IEFkYS4gUm9iIGZpbmlzaGVkIGJlbG93IEpvZS5cbk9wdGlvbnM6XG4oQSkgQW5hIGZpbmlzaGVkIHRoaXJkXG4oQikgRXZlIGZpbmlzaGVkIHRoaXJkXG4oQykgQWRhIGZpbmlzaGVkIHRoaXJkXG4oRCkgRGFuIGZpbmlzaGVkIHRoaXJkXG4oRSkgUm9iIGZpbmlzaGVkIHRoaXJkXG4oRikgQW15IGZpbmlzaGVkIHRoaXJkXG4oRykgSm9lIGZpbmlzaGVkIHRoaXJkIiwicXVlc3Rpb25fc2hhMjU2IjoiMmE2YzRlMmZiMDE3ZDQ1NjkwZmFmM2VhMGQyMGRmZDcyMmE1M2I4MWI0MDhkZWFmZDgyMDM3ZmViYmJkMDg5NCIsInNhdGlzZnlpbmdfb3JkZXIiOlsiSm9lIiwiUm9iIiwiRGFuIiwiQW5hIiwiQWRhIiwiRXZlIiwiQW15Il0sInNjaGVtYSI6ImhhbmRvZmYtZW52ZWxvcGUtMSIsInRyaWFsX2lkIjoiYTRjNjA5ZTY1YTBmOWJkNWQxZTkzOTVlIn0="
+    },
+    "observation_and_score": {
+      "answer_only_equal": true,
+      "case_index": 0,
+      "changed_fields": [],
+      "checked_reference_matches": true,
+      "checked_sha256": "855d6d4575fbce9508a45f6e166b247280deb6bab3030fbba9498b521992566b",
+      "decision": "ACCEPT",
+      "interval": null,
+      "original_question_matches": true,
+      "received_envelope_matches_checked": true,
+      "received_parse_error": null,
+      "received_payload_present": true,
+      "received_sha256": "855d6d4575fbce9508a45f6e166b247280deb6bab3030fbba9498b521992566b",
+      "receiver_answer": "D",
+      "released_answer": "D",
+      "sender_capture_present": true,
+      "sent_sha256": "855d6d4575fbce9508a45f6e166b247280deb6bab3030fbba9498b521992566b",
+      "signal": "NO_OBSERVED_CHANGE",
+      "trial_id": "a4c609e65a0f9bd5d1e9395e",
+      "condition": "control",
+      "published_target": "D",
+      "received_answer_wrong": false,
+      "released_answer_wrong": false,
+      "expected_signal": "NO_OBSERVED_CHANGE",
+      "expectation_met": true
+    },
+    "injection_truth_not_seen_by_detector": {
+      "condition": "control",
+      "ground_truth_only": true,
+      "intermediate_wire_b64": null,
+      "monotonic_ns": 3261898761140,
+      "relay_in_sha256": "855d6d4575fbce9508a45f6e166b247280deb6bab3030fbba9498b521992566b",
+      "relay_out_sha256": "855d6d4575fbce9508a45f6e166b247280deb6bab3030fbba9498b521992566b",
+      "trial_id": "a4c609e65a0f9bd5d1e9395e"
+    }
+  },
+  {
+    "source_case": {
+      "case_id": "BBH-000",
+      "question": "The following paragraphs each describe a set of seven objects arranged in a fixed order. The statements are logically consistent within each paragraph. In a golf tournament, there were seven golfers: Ana, Eve, Ada, Dan, Rob, Amy, and Joe. Dan finished third. Ana finished above Ada. Amy finished last. Dan finished below Rob. Eve finished below Ada. Rob finished below Joe.\nOptions:\n(A) Ana finished third\n(B) Eve finished third\n(C) Ada finished third\n(D) Dan finished third\n(E) Rob finished third\n(F) Amy finished third\n(G) Joe finished third",
+      "historical_prediction": "(C)"
+    },
+    "sender_capture": {
+      "case_index": 0,
+      "checked_wire_b64": "eyJhbnN3ZXIiOiJEIiwiY2FzZV9pZCI6IkJCSC0wMDAiLCJxdWVzdGlvbiI6IlRoZSBmb2xsb3dpbmcgcGFyYWdyYXBocyBlYWNoIGRlc2NyaWJlIGEgc2V0IG9mIHNldmVuIG9iamVjdHMgYXJyYW5nZWQgaW4gYSBmaXhlZCBvcmRlci4gVGhlIHN0YXRlbWVudHMgYXJlIGxvZ2ljYWxseSBjb25zaXN0ZW50IHdpdGhpbiBlYWNoIHBhcmFncmFwaC4gSW4gYSBnb2xmIHRvdXJuYW1lbnQsIHRoZXJlIHdlcmUgc2V2ZW4gZ29sZmVyczogQW5hLCBFdmUsIEFkYSwgRGFuLCBSb2IsIEFteSwgYW5kIEpvZS4gRGFuIGZpbmlzaGVkIHRoaXJkLiBBbmEgZmluaXNoZWQgYWJvdmUgQWRhLiBBbXkgZmluaXNoZWQgbGFzdC4gRGFuIGZpbmlzaGVkIGJlbG93IFJvYi4gRXZlIGZpbmlzaGVkIGJlbG93IEFkYS4gUm9iIGZpbmlzaGVkIGJlbG93IEpvZS5cbk9wdGlvbnM6XG4oQSkgQW5hIGZpbmlzaGVkIHRoaXJkXG4oQikgRXZlIGZpbmlzaGVkIHRoaXJkXG4oQykgQWRhIGZpbmlzaGVkIHRoaXJkXG4oRCkgRGFuIGZpbmlzaGVkIHRoaXJkXG4oRSkgUm9iIGZpbmlzaGVkIHRoaXJkXG4oRikgQW15IGZpbmlzaGVkIHRoaXJkXG4oRykgSm9lIGZpbmlzaGVkIHRoaXJkIiwicXVlc3Rpb25fc2hhMjU2IjoiMmE2YzRlMmZiMDE3ZDQ1NjkwZmFmM2VhMGQyMGRmZDcyMmE1M2I4MWI0MDhkZWFmZDgyMDM3ZmViYmJkMDg5NCIsInNhdGlzZnlpbmdfb3JkZXIiOlsiSm9lIiwiUm9iIiwiRGFuIiwiQW5hIiwiQWRhIiwiRXZlIiwiQW15Il0sInNjaGVtYSI6ImhhbmRvZmYtZW52ZWxvcGUtMSIsInRyaWFsX2lkIjoiZmZmNGRlOTQ2NzM1OWI0Y2I2MjQ2NTAzIn0=",
+      "checker_input_question": "The following paragraphs each describe a set of seven objects arranged in a fixed order. The statements are logically consistent within each paragraph. In a golf tournament, there were seven golfers: Ana, Eve, Ada, Dan, Rob, Amy, and Joe. Dan finished third. Ana finished above Ada. Amy finished last. Dan finished below Rob. Eve finished below Ada. Rob finished below Joe.\nOptions:\n(A) Ana finished third\n(B) Eve finished third\n(C) Ada finished third\n(D) Dan finished third\n(E) Rob finished third\n(F) Amy finished third\n(G) Joe finished third",
+      "input_matches_original": true,
+      "monotonic_ns": 3261733886478,
+      "sender_capture_present": true,
+      "sender_wire_b64": "eyJhbnN3ZXIiOiJEIiwiY2FzZV9pZCI6IkJCSC0wMDAiLCJxdWVzdGlvbiI6IlRoZSBmb2xsb3dpbmcgcGFyYWdyYXBocyBlYWNoIGRlc2NyaWJlIGEgc2V0IG9mIHNldmVuIG9iamVjdHMgYXJyYW5nZWQgaW4gYSBmaXhlZCBvcmRlci4gVGhlIHN0YXRlbWVudHMgYXJlIGxvZ2ljYWxseSBjb25zaXN0ZW50IHdpdGhpbiBlYWNoIHBhcmFncmFwaC4gSW4gYSBnb2xmIHRvdXJuYW1lbnQsIHRoZXJlIHdlcmUgc2V2ZW4gZ29sZmVyczogQW5hLCBFdmUsIEFkYSwgRGFuLCBSb2IsIEFteSwgYW5kIEpvZS4gRGFuIGZpbmlzaGVkIHRoaXJkLiBBbmEgZmluaXNoZWQgYWJvdmUgQWRhLiBBbXkgZmluaXNoZWQgbGFzdC4gRGFuIGZpbmlzaGVkIGJlbG93IFJvYi4gRXZlIGZpbmlzaGVkIGJlbG93IEFkYS4gUm9iIGZpbmlzaGVkIGJlbG93IEpvZS5cbk9wdGlvbnM6XG4oQSkgQW5hIGZpbmlzaGVkIHRoaXJkXG4oQikgRXZlIGZpbmlzaGVkIHRoaXJkXG4oQykgQWRhIGZpbmlzaGVkIHRoaXJkXG4oRCkgRGFuIGZpbmlzaGVkIHRoaXJkXG4oRSkgUm9iIGZpbmlzaGVkIHRoaXJkXG4oRikgQW15IGZpbmlzaGVkIHRoaXJkXG4oRykgSm9lIGZpbmlzaGVkIHRoaXJkIiwicXVlc3Rpb25fc2hhMjU2IjoiMmE2YzRlMmZiMDE3ZDQ1NjkwZmFmM2VhMGQyMGRmZDcyMmE1M2I4MWI0MDhkZWFmZDgyMDM3ZmViYmJkMDg5NCIsInNhdGlzZnlpbmdfb3JkZXIiOlsiSm9lIiwiUm9iIiwiRGFuIiwiQW5hIiwiQWRhIiwiRXZlIiwiQW15Il0sInNjaGVtYSI6ImhhbmRvZmYtZW52ZWxvcGUtMSIsInRyaWFsX2lkIjoiZmZmNGRlOTQ2NzM1OWI0Y2I2MjQ2NTAzIn0=",
+      "trial_id": "fff4de9467359b4cb6246503"
+    },
+    "receiver_capture": {
+      "monotonic_ns": 3262107193118,
+      "trial_id": "fff4de9467359b4cb6246503",
+      "wire_b64": "ewogICJ0cmlhbF9pZCI6ICJmZmY0ZGU5NDY3MzU5YjRjYjYyNDY1MDMiLAogICJzY2hlbWEiOiAiaGFuZG9mZi1lbnZlbG9wZS0xIiwKICAic2F0aXNmeWluZ19vcmRlciI6IFsKICAgICJKb2UiLAogICAgIlJvYiIsCiAgICAiRGFuIiwKICAgICJBbmEiLAogICAgIkFkYSIsCiAgICAiRXZlIiwKICAgICJBbXkiCiAgXSwKICAicXVlc3Rpb25fc2hhMjU2IjogIjJhNmM0ZTJmYjAxN2Q0NTY5MGZhZjNlYTBkMjBkZmQ3MjJhNTNiODFiNDA4ZGVhZmQ4MjAzN2ZlYmJiZDA4OTQiLAogICJxdWVzdGlvbiI6ICJUaGUgZm9sbG93aW5nIHBhcmFncmFwaHMgZWFjaCBkZXNjcmliZSBhIHNldCBvZiBzZXZlbiBvYmplY3RzIGFycmFuZ2VkIGluIGEgZml4ZWQgb3JkZXIuIFRoZSBzdGF0ZW1lbnRzIGFyZSBsb2dpY2FsbHkgY29uc2lzdGVudCB3aXRoaW4gZWFjaCBwYXJhZ3JhcGguIEluIGEgZ29sZiB0b3VybmFtZW50LCB0aGVyZSB3ZXJlIHNldmVuIGdvbGZlcnM6IEFuYSwgRXZlLCBBZGEsIERhbiwgUm9iLCBBbXksIGFuZCBKb2UuIERhbiBmaW5pc2hlZCB0aGlyZC4gQW5hIGZpbmlzaGVkIGFib3ZlIEFkYS4gQW15IGZpbmlzaGVkIGxhc3QuIERhbiBmaW5pc2hlZCBiZWxvdyBSb2IuIEV2ZSBmaW5pc2hlZCBiZWxvdyBBZGEuIFJvYiBmaW5pc2hlZCBiZWxvdyBKb2UuXG5PcHRpb25zOlxuKEEpIEFuYSBmaW5pc2hlZCB0aGlyZFxuKEIpIEV2ZSBmaW5pc2hlZCB0aGlyZFxuKEMpIEFkYSBmaW5pc2hlZCB0aGlyZFxuKEQpIERhbiBmaW5pc2hlZCB0aGlyZFxuKEUpIFJvYiBmaW5pc2hlZCB0aGlyZFxuKEYpIEFteSBmaW5pc2hlZCB0aGlyZFxuKEcpIEpvZSBmaW5pc2hlZCB0aGlyZCIsCiAgImNhc2VfaWQiOiAiQkJILTAwMCIsCiAgImFuc3dlciI6ICJEIgp9"
+    },
+    "observation_and_score": {
+      "answer_only_equal": true,
+      "case_index": 0,
+      "changed_fields": [],
+      "checked_reference_matches": true,
+      "checked_sha256": "09ba28e286549b1d1dc16855267fe32b27d36faa64fcece3ff6d473f24fa896b",
+      "decision": "ACCEPT",
+      "interval": "sender -> receiver (bytes only; decoded fields preserved)",
+      "original_question_matches": true,
+      "received_envelope_matches_checked": true,
+      "received_parse_error": null,
+      "received_payload_present": true,
+      "received_sha256": "3cc43d360872065bedfabcb1d40f29ebef49a5cc6560fe4ebeca1ca11830c929",
+      "receiver_answer": "D",
+      "released_answer": "D",
+      "sender_capture_present": true,
+      "sent_sha256": "09ba28e286549b1d1dc16855267fe32b27d36faa64fcece3ff6d473f24fa896b",
+      "signal": "WIRE_REENCODING",
+      "trial_id": "fff4de9467359b4cb6246503",
+      "condition": "json_reformat",
+      "published_target": "D",
+      "received_answer_wrong": false,
+      "released_answer_wrong": false,
+      "expected_signal": "WIRE_REENCODING",
+      "expectation_met": true
+    },
+    "injection_truth_not_seen_by_detector": {
+      "condition": "json_reformat",
+      "ground_truth_only": true,
+      "intermediate_wire_b64": null,
+      "monotonic_ns": 3261904902451,
+      "relay_in_sha256": "09ba28e286549b1d1dc16855267fe32b27d36faa64fcece3ff6d473f24fa896b",
+      "relay_out_sha256": "3cc43d360872065bedfabcb1d40f29ebef49a5cc6560fe4ebeca1ca11830c929",
+      "trial_id": "fff4de9467359b4cb6246503"
+    }
+  },
+  {
+    "source_case": {
+      "case_id": "BBH-000",
+      "question": "The following paragraphs each describe a set of seven objects arranged in a fixed order. The statements are logically consistent within each paragraph. In a golf tournament, there were seven golfers: Ana, Eve, Ada, Dan, Rob, Amy, and Joe. Dan finished third. Ana finished above Ada. Amy finished last. Dan finished below Rob. Eve finished below Ada. Rob finished below Joe.\nOptions:\n(A) Ana finished third\n(B) Eve finished third\n(C) Ada finished third\n(D) Dan finished third\n(E) Rob finished third\n(F) Amy finished third\n(G) Joe finished third",
+      "historical_prediction": "(C)"
+    },
+    "sender_capture": {
+      "case_index": 0,
+      "checked_wire_b64": null,
+      "checker_input_question": "The following paragraphs each describe a set of seven objects arranged in a fixed order. The statements are logically consistent within each paragraph. In an antique car show, there are seven vehicles: a bus, a motorcyle, a hatchback, a station wagon, a minivan, a truck, and a limousine. The station wagon is the fourth-newest. The motorcyle is newer than the truck. The station wagon is older than the hatchback. The minivan is newer than the hatchback. The bus is newer than the minivan. The truck is newer than the limousine.\nOptions:\n(A) The bus is the third-oldest\n(B) The motorcyle is the third-oldest\n(C) The hatchback is the third-oldest\n(D) The station wagon is the third-oldest\n(E) The minivan is the third-oldest\n(F) The truck is the third-oldest\n(G) The limousine is the third-oldest",
+      "input_matches_original": false,
+      "monotonic_ns": 3261740911249,
+      "sender_capture_present": false,
+      "sender_wire_b64": null,
+      "trial_id": "902917965718b3efb4223458"
+    },
+    "receiver_capture": {
+      "monotonic_ns": 3262119152344,
+      "trial_id": "902917965718b3efb4223458",
+      "wire_b64": null
+    },
+    "observation_and_score": {
+      "answer_only_equal": null,
+      "case_index": 0,
+      "changed_fields": [
+        "question"
+      ],
+      "checked_reference_matches": false,
+      "checked_sha256": null,
+      "decision": "WITHHOLD",
+      "interval": "original_question -> checker_input",
+      "original_question_matches": false,
+      "received_envelope_matches_checked": null,
+      "received_parse_error": null,
+      "received_payload_present": false,
+      "received_sha256": null,
+      "receiver_answer": null,
+      "released_answer": null,
+      "sender_capture_present": false,
+      "sent_sha256": null,
+      "signal": "ORIGINAL_TO_CHECKER_CHANGED",
+      "trial_id": "902917965718b3efb4223458",
+      "condition": "question_replacement",
+      "published_target": "D",
+      "received_answer_wrong": false,
+      "released_answer_wrong": false,
+      "expected_signal": "ORIGINAL_TO_CHECKER_CHANGED",
+      "expectation_met": true
+    },
+    "injection_truth_not_seen_by_detector": {
+      "condition": "question_replacement",
+      "ground_truth_only": true,
+      "intermediate_wire_b64": null,
+      "monotonic_ns": 3261915593167,
+      "relay_in_sha256": null,
+      "relay_out_sha256": null,
+      "trial_id": "902917965718b3efb4223458"
+    }
+  },
+  {
+    "source_case": {
+      "case_id": "BBH-000",
+      "question": "The following paragraphs each describe a set of seven objects arranged in a fixed order. The statements are logically consistent within each paragraph. In a golf tournament, there were seven golfers: Ana, Eve, Ada, Dan, Rob, Amy, and Joe. Dan finished third. Ana finished above Ada. Amy finished last. Dan finished below Rob. Eve finished below Ada. Rob finished below Joe.\nOptions:\n(A) Ana finished third\n(B) Eve finished third\n(C) Ada finished third\n(D) Dan finished third\n(E) Rob finished third\n(F) Amy finished third\n(G) Joe finished third",
+      "historical_prediction": "(C)"
+    },
+    "sender_capture": {
+      "case_index": 0,
+      "checked_wire_b64": "eyJhbnN3ZXIiOiJEIiwiY2FzZV9pZCI6IkJCSC0wMDAiLCJxdWVzdGlvbiI6IlRoZSBmb2xsb3dpbmcgcGFyYWdyYXBocyBlYWNoIGRlc2NyaWJlIGEgc2V0IG9mIHNldmVuIG9iamVjdHMgYXJyYW5nZWQgaW4gYSBmaXhlZCBvcmRlci4gVGhlIHN0YXRlbWVudHMgYXJlIGxvZ2ljYWxseSBjb25zaXN0ZW50IHdpdGhpbiBlYWNoIHBhcmFncmFwaC4gSW4gYSBnb2xmIHRvdXJuYW1lbnQsIHRoZXJlIHdlcmUgc2V2ZW4gZ29sZmVyczogQW5hLCBFdmUsIEFkYSwgRGFuLCBSb2IsIEFteSwgYW5kIEpvZS4gRGFuIGZpbmlzaGVkIHRoaXJkLiBBbmEgZmluaXNoZWQgYWJvdmUgQWRhLiBBbXkgZmluaXNoZWQgbGFzdC4gRGFuIGZpbmlzaGVkIGJlbG93IFJvYi4gRXZlIGZpbmlzaGVkIGJlbG93IEFkYS4gUm9iIGZpbmlzaGVkIGJlbG93IEpvZS5cbk9wdGlvbnM6XG4oQSkgQW5hIGZpbmlzaGVkIHRoaXJkXG4oQikgRXZlIGZpbmlzaGVkIHRoaXJkXG4oQykgQWRhIGZpbmlzaGVkIHRoaXJkXG4oRCkgRGFuIGZpbmlzaGVkIHRoaXJkXG4oRSkgUm9iIGZpbmlzaGVkIHRoaXJkXG4oRikgQW15IGZpbmlzaGVkIHRoaXJkXG4oRykgSm9lIGZpbmlzaGVkIHRoaXJkIiwicXVlc3Rpb25fc2hhMjU2IjoiMmE2YzRlMmZiMDE3ZDQ1NjkwZmFmM2VhMGQyMGRmZDcyMmE1M2I4MWI0MDhkZWFmZDgyMDM3ZmViYmJkMDg5NCIsInNhdGlzZnlpbmdfb3JkZXIiOlsiSm9lIiwiUm9iIiwiRGFuIiwiQW5hIiwiQWRhIiwiRXZlIiwiQW15Il0sInNjaGVtYSI6ImhhbmRvZmYtZW52ZWxvcGUtMSIsInRyaWFsX2lkIjoiNWI5N2I4OWQyMDk0ZmQ4MTQxODgxYWFiIn0=",
+      "checker_input_question": "The following paragraphs each describe a set of seven objects arranged in a fixed order. The statements are logically consistent within each paragraph. In a golf tournament, there were seven golfers: Ana, Eve, Ada, Dan, Rob, Amy, and Joe. Dan finished third. Ana finished above Ada. Amy finished last. Dan finished below Rob. Eve finished below Ada. Rob finished below Joe.\nOptions:\n(A) Ana finished third\n(B) Eve finished third\n(C) Ada finished third\n(D) Dan finished third\n(E) Rob finished third\n(F) Amy finished third\n(G) Joe finished third",
+      "input_matches_original": true,
+      "monotonic_ns": 3261741899887,
+      "sender_capture_present": true,
+      "sender_wire_b64": "eyJhbnN3ZXIiOiJFIiwiY2FzZV9pZCI6IkJCSC0wMDAiLCJxdWVzdGlvbiI6IlRoZSBmb2xsb3dpbmcgcGFyYWdyYXBocyBlYWNoIGRlc2NyaWJlIGEgc2V0IG9mIHNldmVuIG9iamVjdHMgYXJyYW5nZWQgaW4gYSBmaXhlZCBvcmRlci4gVGhlIHN0YXRlbWVudHMgYXJlIGxvZ2ljYWxseSBjb25zaXN0ZW50IHdpdGhpbiBlYWNoIHBhcmFncmFwaC4gSW4gYSBnb2xmIHRvdXJuYW1lbnQsIHRoZXJlIHdlcmUgc2V2ZW4gZ29sZmVyczogQW5hLCBFdmUsIEFkYSwgRGFuLCBSb2IsIEFteSwgYW5kIEpvZS4gRGFuIGZpbmlzaGVkIHRoaXJkLiBBbmEgZmluaXNoZWQgYWJvdmUgQWRhLiBBbXkgZmluaXNoZWQgbGFzdC4gRGFuIGZpbmlzaGVkIGJlbG93IFJvYi4gRXZlIGZpbmlzaGVkIGJlbG93IEFkYS4gUm9iIGZpbmlzaGVkIGJlbG93IEpvZS5cbk9wdGlvbnM6XG4oQSkgQW5hIGZpbmlzaGVkIHRoaXJkXG4oQikgRXZlIGZpbmlzaGVkIHRoaXJkXG4oQykgQWRhIGZpbmlzaGVkIHRoaXJkXG4oRCkgRGFuIGZpbmlzaGVkIHRoaXJkXG4oRSkgUm9iIGZpbmlzaGVkIHRoaXJkXG4oRikgQW15IGZpbmlzaGVkIHRoaXJkXG4oRykgSm9lIGZpbmlzaGVkIHRoaXJkIiwicXVlc3Rpb25fc2hhMjU2IjoiMmE2YzRlMmZiMDE3ZDQ1NjkwZmFmM2VhMGQyMGRmZDcyMmE1M2I4MWI0MDhkZWFmZDgyMDM3ZmViYmJkMDg5NCIsInNhdGlzZnlpbmdfb3JkZXIiOlsiSm9lIiwiUm9iIiwiRGFuIiwiQW5hIiwiQWRhIiwiRXZlIiwiQW15Il0sInNjaGVtYSI6ImhhbmRvZmYtZW52ZWxvcGUtMSIsInRyaWFsX2lkIjoiNWI5N2I4OWQyMDk0ZmQ4MTQxODgxYWFiIn0=",
+      "trial_id": "5b97b89d2094fd8141881aab"
+    },
+    "receiver_capture": {
+      "monotonic_ns": 3262122726523,
+      "trial_id": "5b97b89d2094fd8141881aab",
+      "wire_b64": "eyJhbnN3ZXIiOiJFIiwiY2FzZV9pZCI6IkJCSC0wMDAiLCJxdWVzdGlvbiI6IlRoZSBmb2xsb3dpbmcgcGFyYWdyYXBocyBlYWNoIGRlc2NyaWJlIGEgc2V0IG9mIHNldmVuIG9iamVjdHMgYXJyYW5nZWQgaW4gYSBmaXhlZCBvcmRlci4gVGhlIHN0YXRlbWVudHMgYXJlIGxvZ2ljYWxseSBjb25zaXN0ZW50IHdpdGhpbiBlYWNoIHBhcmFncmFwaC4gSW4gYSBnb2xmIHRvdXJuYW1lbnQsIHRoZXJlIHdlcmUgc2V2ZW4gZ29sZmVyczogQW5hLCBFdmUsIEFkYSwgRGFuLCBSb2IsIEFteSwgYW5kIEpvZS4gRGFuIGZpbmlzaGVkIHRoaXJkLiBBbmEgZmluaXNoZWQgYWJvdmUgQWRhLiBBbXkgZmluaXNoZWQgbGFzdC4gRGFuIGZpbmlzaGVkIGJlbG93IFJvYi4gRXZlIGZpbmlzaGVkIGJlbG93IEFkYS4gUm9iIGZpbmlzaGVkIGJlbG93IEpvZS5cbk9wdGlvbnM6XG4oQSkgQW5hIGZpbmlzaGVkIHRoaXJkXG4oQikgRXZlIGZpbmlzaGVkIHRoaXJkXG4oQykgQWRhIGZpbmlzaGVkIHRoaXJkXG4oRCkgRGFuIGZpbmlzaGVkIHRoaXJkXG4oRSkgUm9iIGZpbmlzaGVkIHRoaXJkXG4oRikgQW15IGZpbmlzaGVkIHRoaXJkXG4oRykgSm9lIGZpbmlzaGVkIHRoaXJkIiwicXVlc3Rpb25fc2hhMjU2IjoiMmE2YzRlMmZiMDE3ZDQ1NjkwZmFmM2VhMGQyMGRmZDcyMmE1M2I4MWI0MDhkZWFmZDgyMDM3ZmViYmJkMDg5NCIsInNhdGlzZnlpbmdfb3JkZXIiOlsiSm9lIiwiUm9iIiwiRGFuIiwiQW5hIiwiQWRhIiwiRXZlIiwiQW15Il0sInNjaGVtYSI6ImhhbmRvZmYtZW52ZWxvcGUtMSIsInRyaWFsX2lkIjoiNWI5N2I4OWQyMDk0ZmQ4MTQxODgxYWFiIn0="
+    },
+    "observation_and_score": {
+      "answer_only_equal": false,
+      "case_index": 0,
+      "changed_fields": [
+        "answer"
+      ],
+      "checked_reference_matches": true,
+      "checked_sha256": "045d56e9702e5255e5dfc98ffa2a316d9a60e3665633adc0ce47bcff457f1d5b",
+      "decision": "WITHHOLD",
+      "interval": "checked -> sender",
+      "original_question_matches": true,
+      "received_envelope_matches_checked": false,
+      "received_parse_error": null,
+      "received_payload_present": true,
+      "received_sha256": "cb52cb13dcfc2d3c8ef46c911ad195c943808a8f5378eec057611ae9a7c573f4",
+      "receiver_answer": "E",
+      "released_answer": null,
+      "sender_capture_present": true,
+      "sent_sha256": "cb52cb13dcfc2d3c8ef46c911ad195c943808a8f5378eec057611ae9a7c573f4",
+      "signal": "CHECKED_TO_SENDER_CHANGED",
+      "trial_id": "5b97b89d2094fd8141881aab",
+      "condition": "answer_flip_before_send",
+      "published_target": "D",
+      "received_answer_wrong": true,
+      "released_answer_wrong": false,
+      "expected_signal": "CHECKED_TO_SENDER_CHANGED",
+      "expectation_met": true
+    },
+    "injection_truth_not_seen_by_detector": {
+      "condition": "answer_flip_before_send",
+      "ground_truth_only": true,
+      "intermediate_wire_b64": null,
+      "monotonic_ns": 3261917186134,
+      "relay_in_sha256": "cb52cb13dcfc2d3c8ef46c911ad195c943808a8f5378eec057611ae9a7c573f4",
+      "relay_out_sha256": "cb52cb13dcfc2d3c8ef46c911ad195c943808a8f5378eec057611ae9a7c573f4",
+      "trial_id": "5b97b89d2094fd8141881aab"
+    }
+  },
+  {
+    "source_case": {
+      "case_id": "BBH-000",
+      "question": "The following paragraphs each describe a set of seven objects arranged in a fixed order. The statements are logically consistent within each paragraph. In a golf tournament, there were seven golfers: Ana, Eve, Ada, Dan, Rob, Amy, and Joe. Dan finished third. Ana finished above Ada. Amy finished last. Dan finished below Rob. Eve finished below Ada. Rob finished below Joe.\nOptions:\n(A) Ana finished third\n(B) Eve finished third\n(C) Ada finished third\n(D) Dan finished third\n(E) Rob finished third\n(F) Amy finished third\n(G) Joe finished third",
+      "historical_prediction": "(C)"
+    },
+    "sender_capture": {
+      "case_index": 0,
+      "checked_wire_b64": "eyJhbnN3ZXIiOiJEIiwiY2FzZV9pZCI6IkJCSC0wMDAiLCJxdWVzdGlvbiI6IlRoZSBmb2xsb3dpbmcgcGFyYWdyYXBocyBlYWNoIGRlc2NyaWJlIGEgc2V0IG9mIHNldmVuIG9iamVjdHMgYXJyYW5nZWQgaW4gYSBmaXhlZCBvcmRlci4gVGhlIHN0YXRlbWVudHMgYXJlIGxvZ2ljYWxseSBjb25zaXN0ZW50IHdpdGhpbiBlYWNoIHBhcmFncmFwaC4gSW4gYSBnb2xmIHRvdXJuYW1lbnQsIHRoZXJlIHdlcmUgc2V2ZW4gZ29sZmVyczogQW5hLCBFdmUsIEFkYSwgRGFuLCBSb2IsIEFteSwgYW5kIEpvZS4gRGFuIGZpbmlzaGVkIHRoaXJkLiBBbmEgZmluaXNoZWQgYWJvdmUgQWRhLiBBbXkgZmluaXNoZWQgbGFzdC4gRGFuIGZpbmlzaGVkIGJlbG93IFJvYi4gRXZlIGZpbmlzaGVkIGJlbG93IEFkYS4gUm9iIGZpbmlzaGVkIGJlbG93IEpvZS5cbk9wdGlvbnM6XG4oQSkgQW5hIGZpbmlzaGVkIHRoaXJkXG4oQikgRXZlIGZpbmlzaGVkIHRoaXJkXG4oQykgQWRhIGZpbmlzaGVkIHRoaXJkXG4oRCkgRGFuIGZpbmlzaGVkIHRoaXJkXG4oRSkgUm9iIGZpbmlzaGVkIHRoaXJkXG4oRikgQW15IGZpbmlzaGVkIHRoaXJkXG4oRykgSm9lIGZpbmlzaGVkIHRoaXJkIiwicXVlc3Rpb25fc2hhMjU2IjoiMmE2YzRlMmZiMDE3ZDQ1NjkwZmFmM2VhMGQyMGRmZDcyMmE1M2I4MWI0MDhkZWFmZDgyMDM3ZmViYmJkMDg5NCIsInNhdGlzZnlpbmdfb3JkZXIiOlsiSm9lIiwiUm9iIiwiRGFuIiwiQW5hIiwiQWRhIiwiRXZlIiwiQW15Il0sInNjaGVtYSI6ImhhbmRvZmYtZW52ZWxvcGUtMSIsInRyaWFsX2lkIjoiY2Y3MzNjNmM0MjExYmE4OGE5M2IwNTg2In0=",
+      "checker_input_question": "The following paragraphs each describe a set of seven objects arranged in a fixed order. The statements are logically consistent within each paragraph. In a golf tournament, there were seven golfers: Ana, Eve, Ada, Dan, Rob, Amy, and Joe. Dan finished third. Ana finished above Ada. Amy finished last. Dan finished below Rob. Eve finished below Ada. Rob finished below Joe.\nOptions:\n(A) Ana finished third\n(B) Eve finished third\n(C) Ada finished third\n(D) Dan finished third\n(E) Rob finished third\n(F) Amy finished third\n(G) Joe finished third",
+      "input_matches_original": true,
+      "monotonic_ns": 3261751424008,
+      "sender_capture_present": true,
+      "sender_wire_b64": "eyJhbnN3ZXIiOiJEIiwiY2FzZV9pZCI6IkJCSC0wMDAiLCJxdWVzdGlvbiI6IlRoZSBmb2xsb3dpbmcgcGFyYWdyYXBocyBlYWNoIGRlc2NyaWJlIGEgc2V0IG9mIHNldmVuIG9iamVjdHMgYXJyYW5nZWQgaW4gYSBmaXhlZCBvcmRlci4gVGhlIHN0YXRlbWVudHMgYXJlIGxvZ2ljYWxseSBjb25zaXN0ZW50IHdpdGhpbiBlYWNoIHBhcmFncmFwaC4gSW4gYSBnb2xmIHRvdXJuYW1lbnQsIHRoZXJlIHdlcmUgc2V2ZW4gZ29sZmVyczogQW5hLCBFdmUsIEFkYSwgRGFuLCBSb2IsIEFteSwgYW5kIEpvZS4gRGFuIGZpbmlzaGVkIHRoaXJkLiBBbmEgZmluaXNoZWQgYWJvdmUgQWRhLiBBbXkgZmluaXNoZWQgbGFzdC4gRGFuIGZpbmlzaGVkIGJlbG93IFJvYi4gRXZlIGZpbmlzaGVkIGJlbG93IEFkYS4gUm9iIGZpbmlzaGVkIGJlbG93IEpvZS5cbk9wdGlvbnM6XG4oQSkgQW5hIGZpbmlzaGVkIHRoaXJkXG4oQikgRXZlIGZpbmlzaGVkIHRoaXJkXG4oQykgQWRhIGZpbmlzaGVkIHRoaXJkXG4oRCkgRGFuIGZpbmlzaGVkIHRoaXJkXG4oRSkgUm9iIGZpbmlzaGVkIHRoaXJkXG4oRikgQW15IGZpbmlzaGVkIHRoaXJkXG4oRykgSm9lIGZpbmlzaGVkIHRoaXJkIiwicXVlc3Rpb25fc2hhMjU2IjoiMmE2YzRlMmZiMDE3ZDQ1NjkwZmFmM2VhMGQyMGRmZDcyMmE1M2I4MWI0MDhkZWFmZDgyMDM3ZmViYmJkMDg5NCIsInNhdGlzZnlpbmdfb3JkZXIiOlsiSm9lIiwiUm9iIiwiRGFuIiwiQW5hIiwiQWRhIiwiRXZlIiwiQW15Il0sInNjaGVtYSI6ImhhbmRvZmYtZW52ZWxvcGUtMSIsInRyaWFsX2lkIjoiY2Y3MzNjNmM0MjExYmE4OGE5M2IwNTg2In0=",
+      "trial_id": "cf733c6c4211ba88a93b0586"
+    },
+    "receiver_capture": {
+      "monotonic_ns": 3262137123697,
+      "trial_id": "cf733c6c4211ba88a93b0586",
+      "wire_b64": "eyJhbnN3ZXIiOiJFIiwiY2FzZV9pZCI6IkJCSC0wMDAiLCJxdWVzdGlvbiI6IlRoZSBmb2xsb3dpbmcgcGFyYWdyYXBocyBlYWNoIGRlc2NyaWJlIGEgc2V0IG9mIHNldmVuIG9iamVjdHMgYXJyYW5nZWQgaW4gYSBmaXhlZCBvcmRlci4gVGhlIHN0YXRlbWVudHMgYXJlIGxvZ2ljYWxseSBjb25zaXN0ZW50IHdpdGhpbiBlYWNoIHBhcmFncmFwaC4gSW4gYSBnb2xmIHRvdXJuYW1lbnQsIHRoZXJlIHdlcmUgc2V2ZW4gZ29sZmVyczogQW5hLCBFdmUsIEFkYSwgRGFuLCBSb2IsIEFteSwgYW5kIEpvZS4gRGFuIGZpbmlzaGVkIHRoaXJkLiBBbmEgZmluaXNoZWQgYWJvdmUgQWRhLiBBbXkgZmluaXNoZWQgbGFzdC4gRGFuIGZpbmlzaGVkIGJlbG93IFJvYi4gRXZlIGZpbmlzaGVkIGJlbG93IEFkYS4gUm9iIGZpbmlzaGVkIGJlbG93IEpvZS5cbk9wdGlvbnM6XG4oQSkgQW5hIGZpbmlzaGVkIHRoaXJkXG4oQikgRXZlIGZpbmlzaGVkIHRoaXJkXG4oQykgQWRhIGZpbmlzaGVkIHRoaXJkXG4oRCkgRGFuIGZpbmlzaGVkIHRoaXJkXG4oRSkgUm9iIGZpbmlzaGVkIHRoaXJkXG4oRikgQW15IGZpbmlzaGVkIHRoaXJkXG4oRykgSm9lIGZpbmlzaGVkIHRoaXJkIiwicXVlc3Rpb25fc2hhMjU2IjoiMmE2YzRlMmZiMDE3ZDQ1NjkwZmFmM2VhMGQyMGRmZDcyMmE1M2I4MWI0MDhkZWFmZDgyMDM3ZmViYmJkMDg5NCIsInNhdGlzZnlpbmdfb3JkZXIiOlsiSm9lIiwiUm9iIiwiRGFuIiwiQW5hIiwiQWRhIiwiRXZlIiwiQW15Il0sInNjaGVtYSI6ImhhbmRvZmYtZW52ZWxvcGUtMSIsInRyaWFsX2lkIjoiY2Y3MzNjNmM0MjExYmE4OGE5M2IwNTg2In0="
+    },
+    "observation_and_score": {
+      "answer_only_equal": false,
+      "case_index": 0,
+      "changed_fields": [
+        "answer"
+      ],
+      "checked_reference_matches": true,
+      "checked_sha256": "3d860fa036597a5a71490873036bc805b6e29139469255541802084f1f48f60a",
+      "decision": "WITHHOLD",
+      "interval": "sender -> receiver",
+      "original_question_matches": true,
+      "received_envelope_matches_checked": false,
+      "received_parse_error": null,
+      "received_payload_present": true,
+      "received_sha256": "3d4b377b325a3f21c3bf70a694932e177fe50f1b555d894133c989631326e898",
+      "receiver_answer": "E",
+      "released_answer": null,
+      "sender_capture_present": true,
+      "sent_sha256": "3d860fa036597a5a71490873036bc805b6e29139469255541802084f1f48f60a",
+      "signal": "SENDER_TO_RECEIVER_CHANGED",
+      "trial_id": "cf733c6c4211ba88a93b0586",
+      "condition": "answer_flip_in_transit",
+      "published_target": "D",
+      "received_answer_wrong": true,
+      "released_answer_wrong": false,
+      "expected_signal": "SENDER_TO_RECEIVER_CHANGED",
+      "expectation_met": true
+    },
+    "injection_truth_not_seen_by_detector": {
+      "condition": "answer_flip_in_transit",
+      "ground_truth_only": true,
+      "intermediate_wire_b64": null,
+      "monotonic_ns": 3261924555293,
+      "relay_in_sha256": "3d860fa036597a5a71490873036bc805b6e29139469255541802084f1f48f60a",
+      "relay_out_sha256": "3d4b377b325a3f21c3bf70a694932e177fe50f1b555d894133c989631326e898",
+      "trial_id": "cf733c6c4211ba88a93b0586"
+    }
+  },
+  {
+    "source_case": {
+      "case_id": "BBH-000",
+      "question": "The following paragraphs each describe a set of seven objects arranged in a fixed order. The statements are logically consistent within each paragraph. In a golf tournament, there were seven golfers: Ana, Eve, Ada, Dan, Rob, Amy, and Joe. Dan finished third. Ana finished above Ada. Amy finished last. Dan finished below Rob. Eve finished below Ada. Rob finished below Joe.\nOptions:\n(A) Ana finished third\n(B) Eve finished third\n(C) Ada finished third\n(D) Dan finished third\n(E) Rob finished third\n(F) Amy finished third\n(G) Joe finished third",
+      "historical_prediction": "(C)"
+    },
+    "sender_capture": {
+      "case_index": 0,
+      "checked_wire_b64": "eyJhbnN3ZXIiOiJEIiwiY2FzZV9pZCI6IkJCSC0wMDAiLCJxdWVzdGlvbiI6IlRoZSBmb2xsb3dpbmcgcGFyYWdyYXBocyBlYWNoIGRlc2NyaWJlIGEgc2V0IG9mIHNldmVuIG9iamVjdHMgYXJyYW5nZWQgaW4gYSBmaXhlZCBvcmRlci4gVGhlIHN0YXRlbWVudHMgYXJlIGxvZ2ljYWxseSBjb25zaXN0ZW50IHdpdGhpbiBlYWNoIHBhcmFncmFwaC4gSW4gYSBnb2xmIHRvdXJuYW1lbnQsIHRoZXJlIHdlcmUgc2V2ZW4gZ29sZmVyczogQW5hLCBFdmUsIEFkYSwgRGFuLCBSb2IsIEFteSwgYW5kIEpvZS4gRGFuIGZpbmlzaGVkIHRoaXJkLiBBbmEgZmluaXNoZWQgYWJvdmUgQWRhLiBBbXkgZmluaXNoZWQgbGFzdC4gRGFuIGZpbmlzaGVkIGJlbG93IFJvYi4gRXZlIGZpbmlzaGVkIGJlbG93IEFkYS4gUm9iIGZpbmlzaGVkIGJlbG93IEpvZS5cbk9wdGlvbnM6XG4oQSkgQW5hIGZpbmlzaGVkIHRoaXJkXG4oQikgRXZlIGZpbmlzaGVkIHRoaXJkXG4oQykgQWRhIGZpbmlzaGVkIHRoaXJkXG4oRCkgRGFuIGZpbmlzaGVkIHRoaXJkXG4oRSkgUm9iIGZpbmlzaGVkIHRoaXJkXG4oRikgQW15IGZpbmlzaGVkIHRoaXJkXG4oRykgSm9lIGZpbmlzaGVkIHRoaXJkIiwicXVlc3Rpb25fc2hhMjU2IjoiMmE2YzRlMmZiMDE3ZDQ1NjkwZmFmM2VhMGQyMGRmZDcyMmE1M2I4MWI0MDhkZWFmZDgyMDM3ZmViYmJkMDg5NCIsInNhdGlzZnlpbmdfb3JkZXIiOlsiSm9lIiwiUm9iIiwiRGFuIiwiQW5hIiwiQWRhIiwiRXZlIiwiQW15Il0sInNjaGVtYSI6ImhhbmRvZmYtZW52ZWxvcGUtMSIsInRyaWFsX2lkIjoiMWI5YWI0MmY0ZTZiZTYxYmYxNjgzMjQ1In0=",
+      "checker_input_question": "The following paragraphs each describe a set of seven objects arranged in a fixed order. The statements are logically consistent within each paragraph. In a golf tournament, there were seven golfers: Ana, Eve, Ada, Dan, Rob, Amy, and Joe. Dan finished third. Ana finished above Ada. Amy finished last. Dan finished below Rob. Eve finished below Ada. Rob finished below Joe.\nOptions:\n(A) Ana finished third\n(B) Eve finished third\n(C) Ada finished third\n(D) Dan finished third\n(E) Rob finished third\n(F) Amy finished third\n(G) Joe finished third",
+      "input_matches_original": true,
+      "monotonic_ns": 3261759123404,
+      "sender_capture_present": true,
+      "sender_wire_b64": "eyJhbnN3ZXIiOiJEIiwiY2FzZV9pZCI6IkJCSC0wMDAiLCJxdWVzdGlvbiI6IlRoZSBmb2xsb3dpbmcgcGFyYWdyYXBocyBlYWNoIGRlc2NyaWJlIGEgc2V0IG9mIHNldmVuIG9iamVjdHMgYXJyYW5nZWQgaW4gYSBmaXhlZCBvcmRlci4gVGhlIHN0YXRlbWVudHMgYXJlIGxvZ2ljYWxseSBjb25zaXN0ZW50IHdpdGhpbiBlYWNoIHBhcmFncmFwaC4gSW4gYSBnb2xmIHRvdXJuYW1lbnQsIHRoZXJlIHdlcmUgc2V2ZW4gZ29sZmVyczogQW5hLCBFdmUsIEFkYSwgRGFuLCBSb2IsIEFteSwgYW5kIEpvZS4gRGFuIGZpbmlzaGVkIHRoaXJkLiBBbmEgZmluaXNoZWQgYWJvdmUgQWRhLiBBbXkgZmluaXNoZWQgbGFzdC4gRGFuIGZpbmlzaGVkIGJlbG93IFJvYi4gRXZlIGZpbmlzaGVkIGJlbG93IEFkYS4gUm9iIGZpbmlzaGVkIGJlbG93IEpvZS5cbk9wdGlvbnM6XG4oQSkgQW5hIGZpbmlzaGVkIHRoaXJkXG4oQikgRXZlIGZpbmlzaGVkIHRoaXJkXG4oQykgQWRhIGZpbmlzaGVkIHRoaXJkXG4oRCkgRGFuIGZpbmlzaGVkIHRoaXJkXG4oRSkgUm9iIGZpbmlzaGVkIHRoaXJkXG4oRikgQW15IGZpbmlzaGVkIHRoaXJkXG4oRykgSm9lIGZpbmlzaGVkIHRoaXJkIiwicXVlc3Rpb25fc2hhMjU2IjoiMmE2YzRlMmZiMDE3ZDQ1NjkwZmFmM2VhMGQyMGRmZDcyMmE1M2I4MWI0MDhkZWFmZDgyMDM3ZmViYmJkMDg5NCIsInNhdGlzZnlpbmdfb3JkZXIiOlsiSm9lIiwiUm9iIiwiRGFuIiwiQW5hIiwiQWRhIiwiRXZlIiwiQW15Il0sInNjaGVtYSI6ImhhbmRvZmYtZW52ZWxvcGUtMSIsInRyaWFsX2lkIjoiMWI5YWI0MmY0ZTZiZTYxYmYxNjgzMjQ1In0=",
+      "trial_id": "1b9ab42f4e6be61bf1683245"
+    },
+    "receiver_capture": {
+      "monotonic_ns": 3262150867388,
+      "trial_id": "1b9ab42f4e6be61bf1683245",
+      "wire_b64": "eyJhbnN3ZXIiOiJEIiwiY2FzZV9pZCI6ImZvcmVpZ24tQkJILTAwMCIsInF1ZXN0aW9uIjoiVGhlIGZvbGxvd2luZyBwYXJhZ3JhcGhzIGVhY2ggZGVzY3JpYmUgYSBzZXQgb2Ygc2V2ZW4gb2JqZWN0cyBhcnJhbmdlZCBpbiBhIGZpeGVkIG9yZGVyLiBUaGUgc3RhdGVtZW50cyBhcmUgbG9naWNhbGx5IGNvbnNpc3RlbnQgd2l0aGluIGVhY2ggcGFyYWdyYXBoLiBJbiBhIGdvbGYgdG91cm5hbWVudCwgdGhlcmUgd2VyZSBzZXZlbiBnb2xmZXJzOiBBbmEsIEV2ZSwgQWRhLCBEYW4sIFJvYiwgQW15LCBhbmQgSm9lLiBEYW4gZmluaXNoZWQgdGhpcmQuIEFuYSBmaW5pc2hlZCBhYm92ZSBBZGEuIEFteSBmaW5pc2hlZCBsYXN0LiBEYW4gZmluaXNoZWQgYmVsb3cgUm9iLiBFdmUgZmluaXNoZWQgYmVsb3cgQWRhLiBSb2IgZmluaXNoZWQgYmVsb3cgSm9lLlxuT3B0aW9uczpcbihBKSBBbmEgZmluaXNoZWQgdGhpcmRcbihCKSBFdmUgZmluaXNoZWQgdGhpcmRcbihDKSBBZGEgZmluaXNoZWQgdGhpcmRcbihEKSBEYW4gZmluaXNoZWQgdGhpcmRcbihFKSBSb2IgZmluaXNoZWQgdGhpcmRcbihGKSBBbXkgZmluaXNoZWQgdGhpcmRcbihHKSBKb2UgZmluaXNoZWQgdGhpcmQiLCJxdWVzdGlvbl9zaGEyNTYiOiIyYTZjNGUyZmIwMTdkNDU2OTBmYWYzZWEwZDIwZGZkNzIyYTUzYjgxYjQwOGRlYWZkODIwMzdmZWJiYmQwODk0Iiwic2F0aXNmeWluZ19vcmRlciI6WyJKb2UiLCJSb2IiLCJEYW4iLCJBbmEiLCJBZGEiLCJFdmUiLCJBbXkiXSwic2NoZW1hIjoiaGFuZG9mZi1lbnZlbG9wZS0xIiwidHJpYWxfaWQiOiIxYjlhYjQyZjRlNmJlNjFiZjE2ODMyNDUifQ=="
+    },
+    "observation_and_score": {
+      "answer_only_equal": true,
+      "case_index": 0,
+      "changed_fields": [
+        "case_id"
+      ],
+      "checked_reference_matches": true,
+      "checked_sha256": "18c0bab1e263f127c0be507b79a66b1a609a895472a54b93fc2a519732e24d67",
+      "decision": "WITHHOLD",
+      "interval": "sender -> receiver",
+      "original_question_matches": true,
+      "received_envelope_matches_checked": false,
+      "received_parse_error": null,
+      "received_payload_present": true,
+      "received_sha256": "fe56b43b1d17cdc903148e5316d3a1e4a043c8ccee0a6b8305a36c3a60e36152",
+      "receiver_answer": "D",
+      "released_answer": null,
+      "sender_capture_present": true,
+      "sent_sha256": "18c0bab1e263f127c0be507b79a66b1a609a895472a54b93fc2a519732e24d67",
+      "signal": "SENDER_TO_RECEIVER_CHANGED",
+      "trial_id": "1b9ab42f4e6be61bf1683245",
+      "condition": "case_id_replacement",
+      "published_target": "D",
+      "received_answer_wrong": false,
+      "released_answer_wrong": false,
+      "expected_signal": "SENDER_TO_RECEIVER_CHANGED",
+      "expectation_met": true
+    },
+    "injection_truth_not_seen_by_detector": {
+      "condition": "case_id_replacement",
+      "ground_truth_only": true,
+      "intermediate_wire_b64": null,
+      "monotonic_ns": 3261933141373,
+      "relay_in_sha256": "18c0bab1e263f127c0be507b79a66b1a609a895472a54b93fc2a519732e24d67",
+      "relay_out_sha256": "fe56b43b1d17cdc903148e5316d3a1e4a043c8ccee0a6b8305a36c3a60e36152",
+      "trial_id": "1b9ab42f4e6be61bf1683245"
+    }
+  },
+  {
+    "source_case": {
+      "case_id": "BBH-000",
+      "question": "The following paragraphs each describe a set of seven objects arranged in a fixed order. The statements are logically consistent within each paragraph. In a golf tournament, there were seven golfers: Ana, Eve, Ada, Dan, Rob, Amy, and Joe. Dan finished third. Ana finished above Ada. Amy finished last. Dan finished below Rob. Eve finished below Ada. Rob finished below Joe.\nOptions:\n(A) Ana finished third\n(B) Eve finished third\n(C) Ada finished third\n(D) Dan finished third\n(E) Rob finished third\n(F) Amy finished third\n(G) Joe finished third",
+      "historical_prediction": "(C)"
+    },
+    "sender_capture": {
+      "case_index": 0,
+      "checked_wire_b64": "eyJhbnN3ZXIiOiJEIiwiY2FzZV9pZCI6IkJCSC0wMDAiLCJxdWVzdGlvbiI6IlRoZSBmb2xsb3dpbmcgcGFyYWdyYXBocyBlYWNoIGRlc2NyaWJlIGEgc2V0IG9mIHNldmVuIG9iamVjdHMgYXJyYW5nZWQgaW4gYSBmaXhlZCBvcmRlci4gVGhlIHN0YXRlbWVudHMgYXJlIGxvZ2ljYWxseSBjb25zaXN0ZW50IHdpdGhpbiBlYWNoIHBhcmFncmFwaC4gSW4gYSBnb2xmIHRvdXJuYW1lbnQsIHRoZXJlIHdlcmUgc2V2ZW4gZ29sZmVyczogQW5hLCBFdmUsIEFkYSwgRGFuLCBSb2IsIEFteSwgYW5kIEpvZS4gRGFuIGZpbmlzaGVkIHRoaXJkLiBBbmEgZmluaXNoZWQgYWJvdmUgQWRhLiBBbXkgZmluaXNoZWQgbGFzdC4gRGFuIGZpbmlzaGVkIGJlbG93IFJvYi4gRXZlIGZpbmlzaGVkIGJlbG93IEFkYS4gUm9iIGZpbmlzaGVkIGJlbG93IEpvZS5cbk9wdGlvbnM6XG4oQSkgQW5hIGZpbmlzaGVkIHRoaXJkXG4oQikgRXZlIGZpbmlzaGVkIHRoaXJkXG4oQykgQWRhIGZpbmlzaGVkIHRoaXJkXG4oRCkgRGFuIGZpbmlzaGVkIHRoaXJkXG4oRSkgUm9iIGZpbmlzaGVkIHRoaXJkXG4oRikgQW15IGZpbmlzaGVkIHRoaXJkXG4oRykgSm9lIGZpbmlzaGVkIHRoaXJkIiwicXVlc3Rpb25fc2hhMjU2IjoiMmE2YzRlMmZiMDE3ZDQ1NjkwZmFmM2VhMGQyMGRmZDcyMmE1M2I4MWI0MDhkZWFmZDgyMDM3ZmViYmJkMDg5NCIsInNhdGlzZnlpbmdfb3JkZXIiOlsiSm9lIiwiUm9iIiwiRGFuIiwiQW5hIiwiQWRhIiwiRXZlIiwiQW15Il0sInNjaGVtYSI6ImhhbmRvZmYtZW52ZWxvcGUtMSIsInRyaWFsX2lkIjoiZmM1MGY1ZWYzM2EyMzcwZGMxYTBiNmU2In0=",
+      "checker_input_question": "The following paragraphs each describe a set of seven objects arranged in a fixed order. The statements are logically consistent within each paragraph. In a golf tournament, there were seven golfers: Ana, Eve, Ada, Dan, Rob, Amy, and Joe. Dan finished third. Ana finished above Ada. Amy finished last. Dan finished below Rob. Eve finished below Ada. Rob finished below Joe.\nOptions:\n(A) Ana finished third\n(B) Eve finished third\n(C) Ada finished third\n(D) Dan finished third\n(E) Rob finished third\n(F) Amy finished third\n(G) Joe finished third",
+      "input_matches_original": true,
+      "monotonic_ns": 3261767878979,
+      "sender_capture_present": true,
+      "sender_wire_b64": "eyJhbnN3ZXIiOiJEIiwiY2FzZV9pZCI6IkJCSC0wMDAiLCJxdWVzdGlvbiI6IlRoZSBmb2xsb3dpbmcgcGFyYWdyYXBocyBlYWNoIGRlc2NyaWJlIGEgc2V0IG9mIHNldmVuIG9iamVjdHMgYXJyYW5nZWQgaW4gYSBmaXhlZCBvcmRlci4gVGhlIHN0YXRlbWVudHMgYXJlIGxvZ2ljYWxseSBjb25zaXN0ZW50IHdpdGhpbiBlYWNoIHBhcmFncmFwaC4gSW4gYSBnb2xmIHRvdXJuYW1lbnQsIHRoZXJlIHdlcmUgc2V2ZW4gZ29sZmVyczogQW5hLCBFdmUsIEFkYSwgRGFuLCBSb2IsIEFteSwgYW5kIEpvZS4gRGFuIGZpbmlzaGVkIHRoaXJkLiBBbmEgZmluaXNoZWQgYWJvdmUgQWRhLiBBbXkgZmluaXNoZWQgbGFzdC4gRGFuIGZpbmlzaGVkIGJlbG93IFJvYi4gRXZlIGZpbmlzaGVkIGJlbG93IEFkYS4gUm9iIGZpbmlzaGVkIGJlbG93IEpvZS5cbk9wdGlvbnM6XG4oQSkgQW5hIGZpbmlzaGVkIHRoaXJkXG4oQikgRXZlIGZpbmlzaGVkIHRoaXJkXG4oQykgQWRhIGZpbmlzaGVkIHRoaXJkXG4oRCkgRGFuIGZpbmlzaGVkIHRoaXJkXG4oRSkgUm9iIGZpbmlzaGVkIHRoaXJkXG4oRikgQW15IGZpbmlzaGVkIHRoaXJkXG4oRykgSm9lIGZpbmlzaGVkIHRoaXJkIiwicXVlc3Rpb25fc2hhMjU2IjoiMmE2YzRlMmZiMDE3ZDQ1NjkwZmFmM2VhMGQyMGRmZDcyMmE1M2I4MWI0MDhkZWFmZDgyMDM3ZmViYmJkMDg5NCIsInNhdGlzZnlpbmdfb3JkZXIiOlsiSm9lIiwiUm9iIiwiRGFuIiwiQW5hIiwiQWRhIiwiRXZlIiwiQW15Il0sInNjaGVtYSI6ImhhbmRvZmYtZW52ZWxvcGUtMSIsInRyaWFsX2lkIjoiZmM1MGY1ZWYzM2EyMzcwZGMxYTBiNmU2In0=",
+      "trial_id": "fc50f5ef33a2370dc1a0b6e6"
+    },
+    "receiver_capture": {
+      "monotonic_ns": 3262163793629,
+      "trial_id": "fc50f5ef33a2370dc1a0b6e6",
+      "wire_b64": "eyJhbnN3ZXIiOiJEIiwiY2FzZV9pZCI6IkJCSC0wMDAiLCJxdWVzdGlvbiI6IlRoZSBmb2xsb3dpbmcgcGFyYWdyYXBocyBlYWNoIGRlc2NyaWJlIGEgc2V0IG9mIHNldmVuIG9iamVjdHMgYXJyYW5nZWQgaW4gYSBmaXhlZCBvcmRlci4gVGhlIHN0YXRlbWVudHMgYXJlIGxvZ2ljYWxseSBjb25zaXN0ZW50IHdpdGhpbiBlYWNoIHBhcmFncmFwaC4gSW4gYSBnb2xmIHRvdXJuYW1lbnQsIHRoZXJlIHdlcmUgc2V2ZW4gZ29sZmVyczogQW5hLCBFdmUsIEFkYSwgRGFuLCBSb2IsIEFteSwgYW5kIEpvZS4gRGFuIGZpbmlzaGVkIHRoaXJkLiBBbmEgZmluaXNoZWQgYWJvdmUgQWRhLiBBbXkgZmluaXNoZWQgbGFzdC4gRGFuIGZpbmlzaGVkIGJlbG93IFJvYi4gRXZlIGZpbmlzaGVkIGJlbG93IEFkYS4gUm9iIGZpbmlzaGVkIGJlbG93IEpvZS5cbk9wdGlvbnM6XG4oQSkgQW5hIGZpbmlzaGVkIHRoaXJkXG4oQikgRXZlIGZpbmlzaGVkIHRoaXJkXG4oQykgQWRhIGZpbmlzaGVkIHRoaXJkXG4oRCkgRGFuIGZpbmlzaGVkIHRoaXJkXG4oRSkgUm9iIGZpbmlzaGVkIHRoaXJkXG4oRikgQW15IGZpbmlzaGVkIHRoaXJkXG4oRykgSm9lIGZpbmlzaGVkIHRoaXJkIiwicXVlc3Rpb25fc2hhMjU2IjoiMmE2YzRlMmZiMDE3ZDQ1NjkwZmFmM2VhMGQyMGRmZDcyMmE1M2I4MWI0MDhkZWFmZDgyMDM3ZmViYmJkMDg5NCIsInNhdGlzZnlpbmdfb3JkZXIiOlsiQW15IiwiRXZlIiwiQWRhIiwiQW5hIiwiRGFuIiwiUm9iIiwiSm9lIl0sInNjaGVtYSI6ImhhbmRvZmYtZW52ZWxvcGUtMSIsInRyaWFsX2lkIjoiZmM1MGY1ZWYzM2EyMzcwZGMxYTBiNmU2In0="
+    },
+    "observation_and_score": {
+      "answer_only_equal": true,
+      "case_index": 0,
+      "changed_fields": [
+        "satisfying_order"
+      ],
+      "checked_reference_matches": true,
+      "checked_sha256": "7589be2f6f90b90da0f447812ec6475737bbbcc5424a8f16a9a1fb6b5453d367",
+      "decision": "WITHHOLD",
+      "interval": "sender -> receiver",
+      "original_question_matches": true,
+      "received_envelope_matches_checked": false,
+      "received_parse_error": null,
+      "received_payload_present": true,
+      "received_sha256": "97df35dc1a060254e4e5c5ebd588c7bfbfd1c56f3fd0284109bab4361e24e6d4",
+      "receiver_answer": "D",
+      "released_answer": null,
+      "sender_capture_present": true,
+      "sent_sha256": "7589be2f6f90b90da0f447812ec6475737bbbcc5424a8f16a9a1fb6b5453d367",
+      "signal": "SENDER_TO_RECEIVER_CHANGED",
+      "trial_id": "fc50f5ef33a2370dc1a0b6e6",
+      "condition": "certificate_damage",
+      "published_target": "D",
+      "received_answer_wrong": false,
+      "released_answer_wrong": false,
+      "expected_signal": "SENDER_TO_RECEIVER_CHANGED",
+      "expectation_met": true
+    },
+    "injection_truth_not_seen_by_detector": {
+      "condition": "certificate_damage",
+      "ground_truth_only": true,
+      "intermediate_wire_b64": null,
+      "monotonic_ns": 3261940037270,
+      "relay_in_sha256": "7589be2f6f90b90da0f447812ec6475737bbbcc5424a8f16a9a1fb6b5453d367",
+      "relay_out_sha256": "97df35dc1a060254e4e5c5ebd588c7bfbfd1c56f3fd0284109bab4361e24e6d4",
+      "trial_id": "fc50f5ef33a2370dc1a0b6e6"
+    }
+  },
+  {
+    "source_case": {
+      "case_id": "BBH-000",
+      "question": "The following paragraphs each describe a set of seven objects arranged in a fixed order. The statements are logically consistent within each paragraph. In a golf tournament, there were seven golfers: Ana, Eve, Ada, Dan, Rob, Amy, and Joe. Dan finished third. Ana finished above Ada. Amy finished last. Dan finished below Rob. Eve finished below Ada. Rob finished below Joe.\nOptions:\n(A) Ana finished third\n(B) Eve finished third\n(C) Ada finished third\n(D) Dan finished third\n(E) Rob finished third\n(F) Amy finished third\n(G) Joe finished third",
+      "historical_prediction": "(C)"
+    },
+    "sender_capture": {
+      "case_index": 0,
+      "checked_wire_b64": "eyJhbnN3ZXIiOiJEIiwiY2FzZV9pZCI6IkJCSC0wMDAiLCJxdWVzdGlvbiI6IlRoZSBmb2xsb3dpbmcgcGFyYWdyYXBocyBlYWNoIGRlc2NyaWJlIGEgc2V0IG9mIHNldmVuIG9iamVjdHMgYXJyYW5nZWQgaW4gYSBmaXhlZCBvcmRlci4gVGhlIHN0YXRlbWVudHMgYXJlIGxvZ2ljYWxseSBjb25zaXN0ZW50IHdpdGhpbiBlYWNoIHBhcmFncmFwaC4gSW4gYSBnb2xmIHRvdXJuYW1lbnQsIHRoZXJlIHdlcmUgc2V2ZW4gZ29sZmVyczogQW5hLCBFdmUsIEFkYSwgRGFuLCBSb2IsIEFteSwgYW5kIEpvZS4gRGFuIGZpbmlzaGVkIHRoaXJkLiBBbmEgZmluaXNoZWQgYWJvdmUgQWRhLiBBbXkgZmluaXNoZWQgbGFzdC4gRGFuIGZpbmlzaGVkIGJlbG93IFJvYi4gRXZlIGZpbmlzaGVkIGJlbG93IEFkYS4gUm9iIGZpbmlzaGVkIGJlbG93IEpvZS5cbk9wdGlvbnM6XG4oQSkgQW5hIGZpbmlzaGVkIHRoaXJkXG4oQikgRXZlIGZpbmlzaGVkIHRoaXJkXG4oQykgQWRhIGZpbmlzaGVkIHRoaXJkXG4oRCkgRGFuIGZpbmlzaGVkIHRoaXJkXG4oRSkgUm9iIGZpbmlzaGVkIHRoaXJkXG4oRikgQW15IGZpbmlzaGVkIHRoaXJkXG4oRykgSm9lIGZpbmlzaGVkIHRoaXJkIiwicXVlc3Rpb25fc2hhMjU2IjoiMmE2YzRlMmZiMDE3ZDQ1NjkwZmFmM2VhMGQyMGRmZDcyMmE1M2I4MWI0MDhkZWFmZDgyMDM3ZmViYmJkMDg5NCIsInNhdGlzZnlpbmdfb3JkZXIiOlsiSm9lIiwiUm9iIiwiRGFuIiwiQW5hIiwiQWRhIiwiRXZlIiwiQW15Il0sInNjaGVtYSI6ImhhbmRvZmYtZW52ZWxvcGUtMSIsInRyaWFsX2lkIjoiYWI5YjZhZmQzZDNkZmE3MDQwODUxN2NjIn0=",
+      "checker_input_question": "The following paragraphs each describe a set of seven objects arranged in a fixed order. The statements are logically consistent within each paragraph. In a golf tournament, there were seven golfers: Ana, Eve, Ada, Dan, Rob, Amy, and Joe. Dan finished third. Ana finished above Ada. Amy finished last. Dan finished below Rob. Eve finished below Ada. Rob finished below Joe.\nOptions:\n(A) Ana finished third\n(B) Eve finished third\n(C) Ada finished third\n(D) Dan finished third\n(E) Rob finished third\n(F) Amy finished third\n(G) Joe finished third",
+      "input_matches_original": true,
+      "monotonic_ns": 3261776333721,
+      "sender_capture_present": true,
+      "sender_wire_b64": "eyJhbnN3ZXIiOiJEIiwiY2FzZV9pZCI6IkJCSC0wMDAiLCJxdWVzdGlvbiI6IlRoZSBmb2xsb3dpbmcgcGFyYWdyYXBocyBlYWNoIGRlc2NyaWJlIGEgc2V0IG9mIHNldmVuIG9iamVjdHMgYXJyYW5nZWQgaW4gYSBmaXhlZCBvcmRlci4gVGhlIHN0YXRlbWVudHMgYXJlIGxvZ2ljYWxseSBjb25zaXN0ZW50IHdpdGhpbiBlYWNoIHBhcmFncmFwaC4gSW4gYSBnb2xmIHRvdXJuYW1lbnQsIHRoZXJlIHdlcmUgc2V2ZW4gZ29sZmVyczogQW5hLCBFdmUsIEFkYSwgRGFuLCBSb2IsIEFteSwgYW5kIEpvZS4gRGFuIGZpbmlzaGVkIHRoaXJkLiBBbmEgZmluaXNoZWQgYWJvdmUgQWRhLiBBbXkgZmluaXNoZWQgbGFzdC4gRGFuIGZpbmlzaGVkIGJlbG93IFJvYi4gRXZlIGZpbmlzaGVkIGJlbG93IEFkYS4gUm9iIGZpbmlzaGVkIGJlbG93IEpvZS5cbk9wdGlvbnM6XG4oQSkgQW5hIGZpbmlzaGVkIHRoaXJkXG4oQikgRXZlIGZpbmlzaGVkIHRoaXJkXG4oQykgQWRhIGZpbmlzaGVkIHRoaXJkXG4oRCkgRGFuIGZpbmlzaGVkIHRoaXJkXG4oRSkgUm9iIGZpbmlzaGVkIHRoaXJkXG4oRikgQW15IGZpbmlzaGVkIHRoaXJkXG4oRykgSm9lIGZpbmlzaGVkIHRoaXJkIiwicXVlc3Rpb25fc2hhMjU2IjoiMmE2YzRlMmZiMDE3ZDQ1NjkwZmFmM2VhMGQyMGRmZDcyMmE1M2I4MWI0MDhkZWFmZDgyMDM3ZmViYmJkMDg5NCIsInNhdGlzZnlpbmdfb3JkZXIiOlsiSm9lIiwiUm9iIiwiRGFuIiwiQW5hIiwiQWRhIiwiRXZlIiwiQW15Il0sInNjaGVtYSI6ImhhbmRvZmYtZW52ZWxvcGUtMSIsInRyaWFsX2lkIjoiYWI5YjZhZmQzZDNkZmE3MDQwODUxN2NjIn0=",
+      "trial_id": "ab9b6afd3d3dfa70408517cc"
+    },
+    "receiver_capture": {
+      "monotonic_ns": 3262176587831,
+      "trial_id": "ab9b6afd3d3dfa70408517cc",
+      "wire_b64": "eyJhbnN3ZXIiOiJEIiwiY2FzZV9pZCI6IkJCSC0wMTIiLCJxdWVzdGlvbiI6IlRoZSBmb2xsb3dpbmcgcGFyYWdyYXBocyBlYWNoIGRlc2NyaWJlIGEgc2V0IG9mIHNldmVuIG9iamVjdHMgYXJyYW5nZWQgaW4gYSBmaXhlZCBvcmRlci4gVGhlIHN0YXRlbWVudHMgYXJlIGxvZ2ljYWxseSBjb25zaXN0ZW50IHdpdGhpbiBlYWNoIHBhcmFncmFwaC4gSW4gYSBnb2xmIHRvdXJuYW1lbnQsIHRoZXJlIHdlcmUgc2V2ZW4gZ29sZmVyczogSm9lLCBEYW4sIEFuYSwgTWVsLCBBZGEsIEV2ZSwgYW5kIEFteS4gRXZlIGZpbmlzaGVkIGFib3ZlIEFteS4gRGFuIGZpbmlzaGVkIHNlY29uZC4gQWRhIGZpbmlzaGVkIGJlbG93IEFuYS4gQW5hIGZpbmlzaGVkIHRoaXJkLXRvLWxhc3QuIE1lbCBmaW5pc2hlZCBsYXN0LiBBbXkgZmluaXNoZWQgdGhpcmQuXG5PcHRpb25zOlxuKEEpIEpvZSBmaW5pc2hlZCBsYXN0XG4oQikgRGFuIGZpbmlzaGVkIGxhc3RcbihDKSBBbmEgZmluaXNoZWQgbGFzdFxuKEQpIE1lbCBmaW5pc2hlZCBsYXN0XG4oRSkgQWRhIGZpbmlzaGVkIGxhc3RcbihGKSBFdmUgZmluaXNoZWQgbGFzdFxuKEcpIEFteSBmaW5pc2hlZCBsYXN0IiwicXVlc3Rpb25fc2hhMjU2IjoiNjc1MDg0MzJiYzJhZWFkMmExZDhiNDNkNjZjY2ZmYmQ0ZjAyNWMxZmEyYzkxYjFlYWIyZmNhZmRhOTYwYTUxNyIsInNhdGlzZnlpbmdfb3JkZXIiOlsiRXZlIiwiRGFuIiwiQW15IiwiSm9lIiwiQW5hIiwiQWRhIiwiTWVsIl0sInNjaGVtYSI6ImhhbmRvZmYtZW52ZWxvcGUtMSIsInRyaWFsX2lkIjoiZm9yZWlnbi10cmlhbC1hYjliNmFmZDNkM2RmYTcwNDA4NTE3Y2MifQ=="
+    },
+    "observation_and_score": {
+      "answer_only_equal": true,
+      "case_index": 0,
+      "changed_fields": [
+        "case_id",
+        "question",
+        "question_sha256",
+        "satisfying_order",
+        "trial_id"
+      ],
+      "checked_reference_matches": true,
+      "checked_sha256": "85cb7b530513bd0b3faee955cc03bd9f32e539a5364c13393b40a644a39bbc8d",
+      "decision": "WITHHOLD",
+      "interval": "sender -> receiver",
+      "original_question_matches": true,
+      "received_envelope_matches_checked": false,
+      "received_parse_error": null,
+      "received_payload_present": true,
+      "received_sha256": "b482e538e8a288064ebf82cb6fd60d122dae18151491f5b7257574669040aaac",
+      "receiver_answer": "D",
+      "released_answer": null,
+      "sender_capture_present": true,
+      "sent_sha256": "85cb7b530513bd0b3faee955cc03bd9f32e539a5364c13393b40a644a39bbc8d",
+      "signal": "SENDER_TO_RECEIVER_CHANGED",
+      "trial_id": "ab9b6afd3d3dfa70408517cc",
+      "condition": "whole_record_replay_same_answer",
+      "published_target": "D",
+      "received_answer_wrong": false,
+      "released_answer_wrong": false,
+      "expected_signal": "SENDER_TO_RECEIVER_CHANGED",
+      "expectation_met": true
+    },
+    "injection_truth_not_seen_by_detector": {
+      "condition": "whole_record_replay_same_answer",
+      "ground_truth_only": true,
+      "intermediate_wire_b64": null,
+      "monotonic_ns": 3261948980687,
+      "relay_in_sha256": "85cb7b530513bd0b3faee955cc03bd9f32e539a5364c13393b40a644a39bbc8d",
+      "relay_out_sha256": "b482e538e8a288064ebf82cb6fd60d122dae18151491f5b7257574669040aaac",
+      "trial_id": "ab9b6afd3d3dfa70408517cc"
+    }
+  },
+  {
+    "source_case": {
+      "case_id": "BBH-000",
+      "question": "The following paragraphs each describe a set of seven objects arranged in a fixed order. The statements are logically consistent within each paragraph. In a golf tournament, there were seven golfers: Ana, Eve, Ada, Dan, Rob, Amy, and Joe. Dan finished third. Ana finished above Ada. Amy finished last. Dan finished below Rob. Eve finished below Ada. Rob finished below Joe.\nOptions:\n(A) Ana finished third\n(B) Eve finished third\n(C) Ada finished third\n(D) Dan finished third\n(E) Rob finished third\n(F) Amy finished third\n(G) Joe finished third",
+      "historical_prediction": "(C)"
+    },
+    "sender_capture": {
+      "case_index": 0,
+      "checked_wire_b64": "eyJhbnN3ZXIiOiJEIiwiY2FzZV9pZCI6IkJCSC0wMDAiLCJxdWVzdGlvbiI6IlRoZSBmb2xsb3dpbmcgcGFyYWdyYXBocyBlYWNoIGRlc2NyaWJlIGEgc2V0IG9mIHNldmVuIG9iamVjdHMgYXJyYW5nZWQgaW4gYSBmaXhlZCBvcmRlci4gVGhlIHN0YXRlbWVudHMgYXJlIGxvZ2ljYWxseSBjb25zaXN0ZW50IHdpdGhpbiBlYWNoIHBhcmFncmFwaC4gSW4gYSBnb2xmIHRvdXJuYW1lbnQsIHRoZXJlIHdlcmUgc2V2ZW4gZ29sZmVyczogQW5hLCBFdmUsIEFkYSwgRGFuLCBSb2IsIEFteSwgYW5kIEpvZS4gRGFuIGZpbmlzaGVkIHRoaXJkLiBBbmEgZmluaXNoZWQgYWJvdmUgQWRhLiBBbXkgZmluaXNoZWQgbGFzdC4gRGFuIGZpbmlzaGVkIGJlbG93IFJvYi4gRXZlIGZpbmlzaGVkIGJlbG93IEFkYS4gUm9iIGZpbmlzaGVkIGJlbG93IEpvZS5cbk9wdGlvbnM6XG4oQSkgQW5hIGZpbmlzaGVkIHRoaXJkXG4oQikgRXZlIGZpbmlzaGVkIHRoaXJkXG4oQykgQWRhIGZpbmlzaGVkIHRoaXJkXG4oRCkgRGFuIGZpbmlzaGVkIHRoaXJkXG4oRSkgUm9iIGZpbmlzaGVkIHRoaXJkXG4oRikgQW15IGZpbmlzaGVkIHRoaXJkXG4oRykgSm9lIGZpbmlzaGVkIHRoaXJkIiwicXVlc3Rpb25fc2hhMjU2IjoiMmE2YzRlMmZiMDE3ZDQ1NjkwZmFmM2VhMGQyMGRmZDcyMmE1M2I4MWI0MDhkZWFmZDgyMDM3ZmViYmJkMDg5NCIsInNhdGlzZnlpbmdfb3JkZXIiOlsiSm9lIiwiUm9iIiwiRGFuIiwiQW5hIiwiQWRhIiwiRXZlIiwiQW15Il0sInNjaGVtYSI6ImhhbmRvZmYtZW52ZWxvcGUtMSIsInRyaWFsX2lkIjoiNzFlMzliMmMwMmVlOGIzN2E5N2I3NjFiIn0=",
+      "checker_input_question": "The following paragraphs each describe a set of seven objects arranged in a fixed order. The statements are logically consistent within each paragraph. In a golf tournament, there were seven golfers: Ana, Eve, Ada, Dan, Rob, Amy, and Joe. Dan finished third. Ana finished above Ada. Amy finished last. Dan finished below Rob. Eve finished below Ada. Rob finished below Joe.\nOptions:\n(A) Ana finished third\n(B) Eve finished third\n(C) Ada finished third\n(D) Dan finished third\n(E) Rob finished third\n(F) Amy finished third\n(G) Joe finished third",
+      "input_matches_original": true,
+      "monotonic_ns": 3261783912104,
+      "sender_capture_present": true,
+      "sender_wire_b64": "eyJhbnN3ZXIiOiJEIiwiY2FzZV9pZCI6IkJCSC0wMDAiLCJxdWVzdGlvbiI6IlRoZSBmb2xsb3dpbmcgcGFyYWdyYXBocyBlYWNoIGRlc2NyaWJlIGEgc2V0IG9mIHNldmVuIG9iamVjdHMgYXJyYW5nZWQgaW4gYSBmaXhlZCBvcmRlci4gVGhlIHN0YXRlbWVudHMgYXJlIGxvZ2ljYWxseSBjb25zaXN0ZW50IHdpdGhpbiBlYWNoIHBhcmFncmFwaC4gSW4gYSBnb2xmIHRvdXJuYW1lbnQsIHRoZXJlIHdlcmUgc2V2ZW4gZ29sZmVyczogQW5hLCBFdmUsIEFkYSwgRGFuLCBSb2IsIEFteSwgYW5kIEpvZS4gRGFuIGZpbmlzaGVkIHRoaXJkLiBBbmEgZmluaXNoZWQgYWJvdmUgQWRhLiBBbXkgZmluaXNoZWQgbGFzdC4gRGFuIGZpbmlzaGVkIGJlbG93IFJvYi4gRXZlIGZpbmlzaGVkIGJlbG93IEFkYS4gUm9iIGZpbmlzaGVkIGJlbG93IEpvZS5cbk9wdGlvbnM6XG4oQSkgQW5hIGZpbmlzaGVkIHRoaXJkXG4oQikgRXZlIGZpbmlzaGVkIHRoaXJkXG4oQykgQWRhIGZpbmlzaGVkIHRoaXJkXG4oRCkgRGFuIGZpbmlzaGVkIHRoaXJkXG4oRSkgUm9iIGZpbmlzaGVkIHRoaXJkXG4oRikgQW15IGZpbmlzaGVkIHRoaXJkXG4oRykgSm9lIGZpbmlzaGVkIHRoaXJkIiwicXVlc3Rpb25fc2hhMjU2IjoiMmE2YzRlMmZiMDE3ZDQ1NjkwZmFmM2VhMGQyMGRmZDcyMmE1M2I4MWI0MDhkZWFmZDgyMDM3ZmViYmJkMDg5NCIsInNhdGlzZnlpbmdfb3JkZXIiOlsiSm9lIiwiUm9iIiwiRGFuIiwiQW5hIiwiQWRhIiwiRXZlIiwiQW15Il0sInNjaGVtYSI6ImhhbmRvZmYtZW52ZWxvcGUtMSIsInRyaWFsX2lkIjoiNzFlMzliMmMwMmVlOGIzN2E5N2I3NjFiIn0=",
+      "trial_id": "71e39b2c02ee8b37a97b761b"
+    },
+    "receiver_capture": {
+      "monotonic_ns": 3262189300380,
+      "trial_id": "71e39b2c02ee8b37a97b761b",
+      "wire_b64": null
+    },
+    "observation_and_score": {
+      "answer_only_equal": null,
+      "case_index": 0,
+      "changed_fields": [],
+      "checked_reference_matches": true,
+      "checked_sha256": "d649495c1e43211613bc9908d5c823731650005c5533a61ef08fcd12bfa3392e",
+      "decision": "WITHHOLD",
+      "interval": "sender -> receiver (no payload at receiving capture)",
+      "original_question_matches": true,
+      "received_envelope_matches_checked": false,
+      "received_parse_error": null,
+      "received_payload_present": false,
+      "received_sha256": null,
+      "receiver_answer": null,
+      "released_answer": null,
+      "sender_capture_present": true,
+      "sent_sha256": "d649495c1e43211613bc9908d5c823731650005c5533a61ef08fcd12bfa3392e",
+      "signal": "NO_RECEIVED_PAYLOAD",
+      "trial_id": "71e39b2c02ee8b37a97b761b",
+      "condition": "missing_delivery",
+      "published_target": "D",
+      "received_answer_wrong": false,
+      "released_answer_wrong": false,
+      "expected_signal": "NO_RECEIVED_PAYLOAD",
+      "expectation_met": true
+    },
+    "injection_truth_not_seen_by_detector": {
+      "condition": "missing_delivery",
+      "ground_truth_only": true,
+      "intermediate_wire_b64": null,
+      "monotonic_ns": 3261959261968,
+      "relay_in_sha256": "d649495c1e43211613bc9908d5c823731650005c5533a61ef08fcd12bfa3392e",
+      "relay_out_sha256": null,
+      "trial_id": "71e39b2c02ee8b37a97b761b"
+    }
+  },
+  {
+    "source_case": {
+      "case_id": "BBH-000",
+      "question": "The following paragraphs each describe a set of seven objects arranged in a fixed order. The statements are logically consistent within each paragraph. In a golf tournament, there were seven golfers: Ana, Eve, Ada, Dan, Rob, Amy, and Joe. Dan finished third. Ana finished above Ada. Amy finished last. Dan finished below Rob. Eve finished below Ada. Rob finished below Joe.\nOptions:\n(A) Ana finished third\n(B) Eve finished third\n(C) Ada finished third\n(D) Dan finished third\n(E) Rob finished third\n(F) Amy finished third\n(G) Joe finished third",
+      "historical_prediction": "(C)"
+    },
+    "sender_capture": {
+      "case_index": 0,
+      "checked_wire_b64": "eyJhbnN3ZXIiOiJEIiwiY2FzZV9pZCI6IkJCSC0wMDAiLCJxdWVzdGlvbiI6IlRoZSBmb2xsb3dpbmcgcGFyYWdyYXBocyBlYWNoIGRlc2NyaWJlIGEgc2V0IG9mIHNldmVuIG9iamVjdHMgYXJyYW5nZWQgaW4gYSBmaXhlZCBvcmRlci4gVGhlIHN0YXRlbWVudHMgYXJlIGxvZ2ljYWxseSBjb25zaXN0ZW50IHdpdGhpbiBlYWNoIHBhcmFncmFwaC4gSW4gYSBnb2xmIHRvdXJuYW1lbnQsIHRoZXJlIHdlcmUgc2V2ZW4gZ29sZmVyczogQW5hLCBFdmUsIEFkYSwgRGFuLCBSb2IsIEFteSwgYW5kIEpvZS4gRGFuIGZpbmlzaGVkIHRoaXJkLiBBbmEgZmluaXNoZWQgYWJvdmUgQWRhLiBBbXkgZmluaXNoZWQgbGFzdC4gRGFuIGZpbmlzaGVkIGJlbG93IFJvYi4gRXZlIGZpbmlzaGVkIGJlbG93IEFkYS4gUm9iIGZpbmlzaGVkIGJlbG93IEpvZS5cbk9wdGlvbnM6XG4oQSkgQW5hIGZpbmlzaGVkIHRoaXJkXG4oQikgRXZlIGZpbmlzaGVkIHRoaXJkXG4oQykgQWRhIGZpbmlzaGVkIHRoaXJkXG4oRCkgRGFuIGZpbmlzaGVkIHRoaXJkXG4oRSkgUm9iIGZpbmlzaGVkIHRoaXJkXG4oRikgQW15IGZpbmlzaGVkIHRoaXJkXG4oRykgSm9lIGZpbmlzaGVkIHRoaXJkIiwicXVlc3Rpb25fc2hhMjU2IjoiMmE2YzRlMmZiMDE3ZDQ1NjkwZmFmM2VhMGQyMGRmZDcyMmE1M2I4MWI0MDhkZWFmZDgyMDM3ZmViYmJkMDg5NCIsInNhdGlzZnlpbmdfb3JkZXIiOlsiSm9lIiwiUm9iIiwiRGFuIiwiQW5hIiwiQWRhIiwiRXZlIiwiQW15Il0sInNjaGVtYSI6ImhhbmRvZmYtZW52ZWxvcGUtMSIsInRyaWFsX2lkIjoiNDRhNjU0ZTViZDlmYmZkYzM2MmQ4NTcyIn0=",
+      "checker_input_question": "The following paragraphs each describe a set of seven objects arranged in a fixed order. The statements are logically consistent within each paragraph. In a golf tournament, there were seven golfers: Ana, Eve, Ada, Dan, Rob, Amy, and Joe. Dan finished third. Ana finished above Ada. Amy finished last. Dan finished below Rob. Eve finished below Ada. Rob finished below Joe.\nOptions:\n(A) Ana finished third\n(B) Eve finished third\n(C) Ada finished third\n(D) Dan finished third\n(E) Rob finished third\n(F) Amy finished third\n(G) Joe finished third",
+      "input_matches_original": true,
+      "monotonic_ns": 3261791492461,
+      "sender_capture_present": false,
+      "sender_wire_b64": null,
+      "trial_id": "44a654e5bd9fbfdc362d8572"
+    },
+    "receiver_capture": {
+      "monotonic_ns": 3262198025680,
+      "trial_id": "44a654e5bd9fbfdc362d8572",
+      "wire_b64": "eyJhbnN3ZXIiOiJFIiwiY2FzZV9pZCI6IkJCSC0wMDAiLCJxdWVzdGlvbiI6IlRoZSBmb2xsb3dpbmcgcGFyYWdyYXBocyBlYWNoIGRlc2NyaWJlIGEgc2V0IG9mIHNldmVuIG9iamVjdHMgYXJyYW5nZWQgaW4gYSBmaXhlZCBvcmRlci4gVGhlIHN0YXRlbWVudHMgYXJlIGxvZ2ljYWxseSBjb25zaXN0ZW50IHdpdGhpbiBlYWNoIHBhcmFncmFwaC4gSW4gYSBnb2xmIHRvdXJuYW1lbnQsIHRoZXJlIHdlcmUgc2V2ZW4gZ29sZmVyczogQW5hLCBFdmUsIEFkYSwgRGFuLCBSb2IsIEFteSwgYW5kIEpvZS4gRGFuIGZpbmlzaGVkIHRoaXJkLiBBbmEgZmluaXNoZWQgYWJvdmUgQWRhLiBBbXkgZmluaXNoZWQgbGFzdC4gRGFuIGZpbmlzaGVkIGJlbG93IFJvYi4gRXZlIGZpbmlzaGVkIGJlbG93IEFkYS4gUm9iIGZpbmlzaGVkIGJlbG93IEpvZS5cbk9wdGlvbnM6XG4oQSkgQW5hIGZpbmlzaGVkIHRoaXJkXG4oQikgRXZlIGZpbmlzaGVkIHRoaXJkXG4oQykgQWRhIGZpbmlzaGVkIHRoaXJkXG4oRCkgRGFuIGZpbmlzaGVkIHRoaXJkXG4oRSkgUm9iIGZpbmlzaGVkIHRoaXJkXG4oRikgQW15IGZpbmlzaGVkIHRoaXJkXG4oRykgSm9lIGZpbmlzaGVkIHRoaXJkIiwicXVlc3Rpb25fc2hhMjU2IjoiMmE2YzRlMmZiMDE3ZDQ1NjkwZmFmM2VhMGQyMGRmZDcyMmE1M2I4MWI0MDhkZWFmZDgyMDM3ZmViYmJkMDg5NCIsInNhdGlzZnlpbmdfb3JkZXIiOlsiSm9lIiwiUm9iIiwiRGFuIiwiQW5hIiwiQWRhIiwiRXZlIiwiQW15Il0sInNjaGVtYSI6ImhhbmRvZmYtZW52ZWxvcGUtMSIsInRyaWFsX2lkIjoiNDRhNjU0ZTViZDlmYmZkYzM2MmQ4NTcyIn0="
+    },
+    "observation_and_score": {
+      "answer_only_equal": false,
+      "case_index": 0,
+      "changed_fields": [
+        "answer"
+      ],
+      "checked_reference_matches": true,
+      "checked_sha256": "94ec2f7de75154a324f4c56faed5b12afede99f4cd6cc99c2f3b623ae3a6dd0a",
+      "decision": "WITHHOLD",
+      "interval": "checked -> receiver (sender capture absent)",
+      "original_question_matches": true,
+      "received_envelope_matches_checked": false,
+      "received_parse_error": null,
+      "received_payload_present": true,
+      "received_sha256": "03f392b36151c8fc1e65ae11a2c53390b68d7b40a2c7943dc366f7fb62666ffe",
+      "receiver_answer": "E",
+      "released_answer": null,
+      "sender_capture_present": false,
+      "sent_sha256": null,
+      "signal": "CHECKED_TO_RECEIVER_GAP",
+      "trial_id": "44a654e5bd9fbfdc362d8572",
+      "condition": "missing_sender_capture_with_flip",
+      "published_target": "D",
+      "received_answer_wrong": true,
+      "released_answer_wrong": false,
+      "expected_signal": "CHECKED_TO_RECEIVER_GAP",
+      "expectation_met": true
+    },
+    "injection_truth_not_seen_by_detector": {
+      "condition": "missing_sender_capture_with_flip",
+      "ground_truth_only": true,
+      "intermediate_wire_b64": null,
+      "monotonic_ns": 3261964474251,
+      "relay_in_sha256": "94ec2f7de75154a324f4c56faed5b12afede99f4cd6cc99c2f3b623ae3a6dd0a",
+      "relay_out_sha256": "03f392b36151c8fc1e65ae11a2c53390b68d7b40a2c7943dc366f7fb62666ffe",
+      "trial_id": "44a654e5bd9fbfdc362d8572"
+    }
+  },
+  {
+    "source_case": {
+      "case_id": "BBH-000",
+      "question": "The following paragraphs each describe a set of seven objects arranged in a fixed order. The statements are logically consistent within each paragraph. In a golf tournament, there were seven golfers: Ana, Eve, Ada, Dan, Rob, Amy, and Joe. Dan finished third. Ana finished above Ada. Amy finished last. Dan finished below Rob. Eve finished below Ada. Rob finished below Joe.\nOptions:\n(A) Ana finished third\n(B) Eve finished third\n(C) Ada finished third\n(D) Dan finished third\n(E) Rob finished third\n(F) Amy finished third\n(G) Joe finished third",
+      "historical_prediction": "(C)"
+    },
+    "sender_capture": {
+      "case_index": 0,
+      "checked_wire_b64": "eyJhbnN3ZXIiOiJEIiwiY2FzZV9pZCI6IkJCSC0wMDAiLCJxdWVzdGlvbiI6IlRoZSBmb2xsb3dpbmcgcGFyYWdyYXBocyBlYWNoIGRlc2NyaWJlIGEgc2V0IG9mIHNldmVuIG9iamVjdHMgYXJyYW5nZWQgaW4gYSBmaXhlZCBvcmRlci4gVGhlIHN0YXRlbWVudHMgYXJlIGxvZ2ljYWxseSBjb25zaXN0ZW50IHdpdGhpbiBlYWNoIHBhcmFncmFwaC4gSW4gYSBnb2xmIHRvdXJuYW1lbnQsIHRoZXJlIHdlcmUgc2V2ZW4gZ29sZmVyczogQW5hLCBFdmUsIEFkYSwgRGFuLCBSb2IsIEFteSwgYW5kIEpvZS4gRGFuIGZpbmlzaGVkIHRoaXJkLiBBbmEgZmluaXNoZWQgYWJvdmUgQWRhLiBBbXkgZmluaXNoZWQgbGFzdC4gRGFuIGZpbmlzaGVkIGJlbG93IFJvYi4gRXZlIGZpbmlzaGVkIGJlbG93IEFkYS4gUm9iIGZpbmlzaGVkIGJlbG93IEpvZS5cbk9wdGlvbnM6XG4oQSkgQW5hIGZpbmlzaGVkIHRoaXJkXG4oQikgRXZlIGZpbmlzaGVkIHRoaXJkXG4oQykgQWRhIGZpbmlzaGVkIHRoaXJkXG4oRCkgRGFuIGZpbmlzaGVkIHRoaXJkXG4oRSkgUm9iIGZpbmlzaGVkIHRoaXJkXG4oRikgQW15IGZpbmlzaGVkIHRoaXJkXG4oRykgSm9lIGZpbmlzaGVkIHRoaXJkIiwicXVlc3Rpb25fc2hhMjU2IjoiMmE2YzRlMmZiMDE3ZDQ1NjkwZmFmM2VhMGQyMGRmZDcyMmE1M2I4MWI0MDhkZWFmZDgyMDM3ZmViYmJkMDg5NCIsInNhdGlzZnlpbmdfb3JkZXIiOlsiSm9lIiwiUm9iIiwiRGFuIiwiQW5hIiwiQWRhIiwiRXZlIiwiQW15Il0sInNjaGVtYSI6ImhhbmRvZmYtZW52ZWxvcGUtMSIsInRyaWFsX2lkIjoiYmY4OTA0NmQ4YjcxZjFkYjM1YmJkZmYyIn0=",
+      "checker_input_question": "The following paragraphs each describe a set of seven objects arranged in a fixed order. The statements are logically consistent within each paragraph. In a golf tournament, there were seven golfers: Ana, Eve, Ada, Dan, Rob, Amy, and Joe. Dan finished third. Ana finished above Ada. Amy finished last. Dan finished below Rob. Eve finished below Ada. Rob finished below Joe.\nOptions:\n(A) Ana finished third\n(B) Eve finished third\n(C) Ada finished third\n(D) Dan finished third\n(E) Rob finished third\n(F) Amy finished third\n(G) Joe finished third",
+      "input_matches_original": true,
+      "monotonic_ns": 3261797496806,
+      "sender_capture_present": true,
+      "sender_wire_b64": "eyJhbnN3ZXIiOiJEIiwiY2FzZV9pZCI6IkJCSC0wMDAiLCJxdWVzdGlvbiI6IlRoZSBmb2xsb3dpbmcgcGFyYWdyYXBocyBlYWNoIGRlc2NyaWJlIGEgc2V0IG9mIHNldmVuIG9iamVjdHMgYXJyYW5nZWQgaW4gYSBmaXhlZCBvcmRlci4gVGhlIHN0YXRlbWVudHMgYXJlIGxvZ2ljYWxseSBjb25zaXN0ZW50IHdpdGhpbiBlYWNoIHBhcmFncmFwaC4gSW4gYSBnb2xmIHRvdXJuYW1lbnQsIHRoZXJlIHdlcmUgc2V2ZW4gZ29sZmVyczogQW5hLCBFdmUsIEFkYSwgRGFuLCBSb2IsIEFteSwgYW5kIEpvZS4gRGFuIGZpbmlzaGVkIHRoaXJkLiBBbmEgZmluaXNoZWQgYWJvdmUgQWRhLiBBbXkgZmluaXNoZWQgbGFzdC4gRGFuIGZpbmlzaGVkIGJlbG93IFJvYi4gRXZlIGZpbmlzaGVkIGJlbG93IEFkYS4gUm9iIGZpbmlzaGVkIGJlbG93IEpvZS5cbk9wdGlvbnM6XG4oQSkgQW5hIGZpbmlzaGVkIHRoaXJkXG4oQikgRXZlIGZpbmlzaGVkIHRoaXJkXG4oQykgQWRhIGZpbmlzaGVkIHRoaXJkXG4oRCkgRGFuIGZpbmlzaGVkIHRoaXJkXG4oRSkgUm9iIGZpbmlzaGVkIHRoaXJkXG4oRikgQW15IGZpbmlzaGVkIHRoaXJkXG4oRykgSm9lIGZpbmlzaGVkIHRoaXJkIiwicXVlc3Rpb25fc2hhMjU2IjoiMmE2YzRlMmZiMDE3ZDQ1NjkwZmFmM2VhMGQyMGRmZDcyMmE1M2I4MWI0MDhkZWFmZDgyMDM3ZmViYmJkMDg5NCIsInNhdGlzZnlpbmdfb3JkZXIiOlsiSm9lIiwiUm9iIiwiRGFuIiwiQW5hIiwiQWRhIiwiRXZlIiwiQW15Il0sInNjaGVtYSI6ImhhbmRvZmYtZW52ZWxvcGUtMSIsInRyaWFsX2lkIjoiYmY4OTA0NmQ4YjcxZjFkYjM1YmJkZmYyIn0=",
+      "trial_id": "bf89046d8b71f1db35bbdff2"
+    },
+    "receiver_capture": {
+      "monotonic_ns": 3262207792316,
+      "trial_id": "bf89046d8b71f1db35bbdff2",
+      "wire_b64": "eyJhbnN3ZXIiOiJEIiwiY2FzZV9pZCI6IkJCSC0wMDAiLCJxdWVzdGlvbiI6IlRoZSBmb2xsb3dpbmcgcGFyYWdyYXBocyBlYWNoIGRlc2NyaWJlIGEgc2V0IG9mIHNldmVuIG9iamVjdHMgYXJyYW5nZWQgaW4gYSBmaXhlZCBvcmRlci4gVGhlIHN0YXRlbWVudHMgYXJlIGxvZ2ljYWxseSBjb25zaXN0ZW50IHdpdGhpbiBlYWNoIHBhcmFncmFwaC4gSW4gYSBnb2xmIHRvdXJuYW1lbnQsIHRoZXJlIHdlcmUgc2V2ZW4gZ29sZmVyczogQW5hLCBFdmUsIEFkYSwgRGFuLCBSb2IsIEFteSwgYW5kIEpvZS4gRGFuIGZpbmlzaGVkIHRoaXJkLiBBbmEgZmluaXNoZWQgYWJvdmUgQWRhLiBBbXkgZmluaXNoZWQgbGFzdC4gRGFuIGZpbmlzaGVkIGJlbG93IFJvYi4gRXZlIGZpbmlzaGVkIGJlbG93IEFkYS4gUm9iIGZpbmlzaGVkIGJlbG93IEpvZS5cbk9wdGlvbnM6XG4oQSkgQW5hIGZpbmlzaGVkIHRoaXJkXG4oQikgRXZlIGZpbmlzaGVkIHRoaXJkXG4oQykgQWRhIGZpbmlzaGVkIHRoaXJkXG4oRCkgRGFuIGZpbmlzaGVkIHRoaXJkXG4oRSkgUm9iIGZpbmlzaGVkIHRoaXJkXG4oRikgQW15IGZpbmlzaGVkIHRoaXJkXG4oRykgSm9lIGZpbmlzaGVkIHRoaXJkIiwicXVlc3Rpb25fc2hhMjU2IjoiMmE2YzRlMmZiMDE3ZDQ1NjkwZmFmM2VhMGQyMGRmZDcyMmE1M2I4MWI0MDhkZWFmZDgyMDM3ZmViYmJkMDg5NCIsInNhdGlzZnlpbmdfb3JkZXIiOlsiSm9lIiwiUm9iIiwiRGFuIiwiQW5hIiwiQWRhIiwiRXZlIiwiQW15Il0sInNjaGVtYSI6ImhhbmRvZmYtZW52ZWxvcGUtMSIsInRyaWFsX2lkIjoiYmY4OTA0NmQ4YjcxZjFkYjM1YmJkZmYyIn0="
+    },
+    "observation_and_score": {
+      "answer_only_equal": true,
+      "case_index": 0,
+      "changed_fields": [],
+      "checked_reference_matches": true,
+      "checked_sha256": "555d878f7e3bb9c5d7274ecd8b5d2d73422aeb80f8013a715d9030f7c29ecac6",
+      "decision": "ACCEPT",
+      "interval": null,
+      "original_question_matches": true,
+      "received_envelope_matches_checked": true,
+      "received_parse_error": null,
+      "received_payload_present": true,
+      "received_sha256": "555d878f7e3bb9c5d7274ecd8b5d2d73422aeb80f8013a715d9030f7c29ecac6",
+      "receiver_answer": "D",
+      "released_answer": "D",
+      "sender_capture_present": true,
+      "sent_sha256": "555d878f7e3bb9c5d7274ecd8b5d2d73422aeb80f8013a715d9030f7c29ecac6",
+      "signal": "NO_OBSERVED_CHANGE",
+      "trial_id": "bf89046d8b71f1db35bbdff2",
+      "condition": "transient_flip_restored",
+      "published_target": "D",
+      "received_answer_wrong": false,
+      "released_answer_wrong": false,
+      "expected_signal": "NO_OBSERVED_CHANGE",
+      "expectation_met": true
+    },
+    "injection_truth_not_seen_by_detector": {
+      "condition": "transient_flip_restored",
+      "ground_truth_only": true,
+      "intermediate_wire_b64": "eyJhbnN3ZXIiOiJFIiwiY2FzZV9pZCI6IkJCSC0wMDAiLCJxdWVzdGlvbiI6IlRoZSBmb2xsb3dpbmcgcGFyYWdyYXBocyBlYWNoIGRlc2NyaWJlIGEgc2V0IG9mIHNldmVuIG9iamVjdHMgYXJyYW5nZWQgaW4gYSBmaXhlZCBvcmRlci4gVGhlIHN0YXRlbWVudHMgYXJlIGxvZ2ljYWxseSBjb25zaXN0ZW50IHdpdGhpbiBlYWNoIHBhcmFncmFwaC4gSW4gYSBnb2xmIHRvdXJuYW1lbnQsIHRoZXJlIHdlcmUgc2V2ZW4gZ29sZmVyczogQW5hLCBFdmUsIEFkYSwgRGFuLCBSb2IsIEFteSwgYW5kIEpvZS4gRGFuIGZpbmlzaGVkIHRoaXJkLiBBbmEgZmluaXNoZWQgYWJvdmUgQWRhLiBBbXkgZmluaXNoZWQgbGFzdC4gRGFuIGZpbmlzaGVkIGJlbG93IFJvYi4gRXZlIGZpbmlzaGVkIGJlbG93IEFkYS4gUm9iIGZpbmlzaGVkIGJlbG93IEpvZS5cbk9wdGlvbnM6XG4oQSkgQW5hIGZpbmlzaGVkIHRoaXJkXG4oQikgRXZlIGZpbmlzaGVkIHRoaXJkXG4oQykgQWRhIGZpbmlzaGVkIHRoaXJkXG4oRCkgRGFuIGZpbmlzaGVkIHRoaXJkXG4oRSkgUm9iIGZpbmlzaGVkIHRoaXJkXG4oRikgQW15IGZpbmlzaGVkIHRoaXJkXG4oRykgSm9lIGZpbmlzaGVkIHRoaXJkIiwicXVlc3Rpb25fc2hhMjU2IjoiMmE2YzRlMmZiMDE3ZDQ1NjkwZmFmM2VhMGQyMGRmZDcyMmE1M2I4MWI0MDhkZWFmZDgyMDM3ZmViYmJkMDg5NCIsInNhdGlzZnlpbmdfb3JkZXIiOlsiSm9lIiwiUm9iIiwiRGFuIiwiQW5hIiwiQWRhIiwiRXZlIiwiQW15Il0sInNjaGVtYSI6ImhhbmRvZmYtZW52ZWxvcGUtMSIsInRyaWFsX2lkIjoiYmY4OTA0NmQ4YjcxZjFkYjM1YmJkZmYyIn0=",
+      "monotonic_ns": 3261973157888,
+      "relay_in_sha256": "555d878f7e3bb9c5d7274ecd8b5d2d73422aeb80f8013a715d9030f7c29ecac6",
+      "relay_out_sha256": "555d878f7e3bb9c5d7274ecd8b5d2d73422aeb80f8013a715d9030f7c29ecac6",
+      "trial_id": "bf89046d8b71f1db35bbdff2"
+    }
+  }
+]

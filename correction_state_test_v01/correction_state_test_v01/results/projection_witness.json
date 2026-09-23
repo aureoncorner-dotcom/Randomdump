@@ -1,0 +1,24 @@
+{
+  "projection": "acknowledged",
+  "witness": "answer_correct",
+  "records": [
+    {
+      "task_id": 0,
+      "arm": "apply_before_answer",
+      "projection": true,
+      "witness": true,
+      "answer": "E",
+      "expected": "E"
+    },
+    {
+      "task_id": 0,
+      "arm": "acknowledge_only",
+      "projection": true,
+      "witness": false,
+      "answer": "D",
+      "expected": "E"
+    }
+  ],
+  "equal_projection": true,
+  "different_witness": true
+}

@@ -1,0 +1,755 @@
+﻿Nitrogen Reservoirs in Fulgurites
+
+
+A Provenance Protocol for Structural Nitrogen and Event-Archive Tests
+
+
+Contract
+
+
+This is the chemistry lane. It does not claim a coupled carbon–nitrogen–silicon system, a new mineral, a planetary circuit, or a mystical archive. It treats fulgurites as geochemical materials formed by lightning and asks a narrow, testable question:
+
+
+«When nitrogen is detected in a fulgurite, what reservoir is it actually in?»
+
+
+The answer matters because “nitrogen in the glass” can describe nitrogen bonded into the silica network, molecular nitrogen in vesicles or dissolved within glass, nitrogen on surfaces or weathering rinds, nitrogen-bearing organic residues, or nitrogen in discrete inclusions. These are different physical hosts and chemical forms. A signal that cannot yet be assigned remains unresolved; its host does not by itself establish when or how nitrogen entered the specimen.
+
+
+The operating rule is simple:
+
+
+«Resolve the reservoir before naming the nitrogen.
+No reservoir, no claim.»
+
+
+This follows the project’s No-Crown rule: mythic labels may generate questions, but they do not support conclusions; the evidence strand cannot borrow authority from the narrative strand.
+
+
+---
+
+
+1. Abstract
+
+
+Fulgurites are natural glasses formed when cloud-to-ground lightning fuses sand, soil, rock, or related substrates. Pasek, Block, and Pasek describe fulgurites as natural glasses produced by lightning and classify their morphologies across sand, clay, caliche, rock, and related forms.
+
+
+Structural nitrogen means nitrogen bonded directly into the silica network as Si–N or Si–O–N. This protocol adopts a working expectation of low or undetectable network-bound nitrogen in clean, silica-rich interior glass without independent evidence of strongly reducing conditions. This is a conditional hypothesis, not an established absence across terrestrial fulgurites. Atmospheric formation alone does not determine local melt redox, and rapid quenching alone does not establish which species formed or survived. Experimental melt results motivate redox-sensitive tests but do not supply a quantitative detection prediction for fulgurites.
+
+
+The contribution is a provenance protocol: distinguish network nitrogen, vesicular and glass-dissolved molecular nitrogen, surface nitrogen, organic nitrogen, and other or unresolved hosts; test each with discriminating measurements; and report calibrated limits or inconclusive results as appropriate. Surface contamination, organic matter, SIMS recombination, and modern air infiltration remain competing explanations.
+
+
+The two most promising positive archive lanes are: first, sealed-vesicle gas, because Navarro-González and colleagues reported CO₂, CO, and NO in glassy bubbles from a Late Pleistocene Libyan Desert fulgurite; and second, carbon-correlated reduced phases, because lightning has been shown to reduce phosphate in fulgurites and iron silicides have been reported and reviewed in fulgurite contexts.
+
+
+The expected output is therefore:
+
+
+1. a domain-specific test of structural Si–N, with bonding evidence, a calibrated limit, or an explicitly inconclusive result;
+2. provenance-resolved accounting of any nitrogen detected;
+3. replication/extension of sealed-vesicle gas archive signals;
+4. spatial testing of carbon-correlated reduced phosphorus and iron-silicide phases;
+5. a strictly controlled pilot on post-strike bioreceptivity, kept separate from clean nitrogen chemistry.
+
+
+---
+
+
+2. Background: What Fulgurites Are
+
+
+A fulgurite is a natural melt product produced when lightning delivers enough energy into a substrate to fuse, vitrify, and sometimes vaporize mineral grains. In silica-rich settings, the resulting material is commonly dominated by lechatelierite, amorphous silica glass. The morphology and chemistry of a fulgurite depend on the struck substrate, the discharge conditions, moisture, organic content, metal contamination, and cooling history.
+
+
+This matters because fulgurites are not uniform laboratory glasses. They are small, violent, heterogeneous melt products. A single specimen can contain clean silica glass, mixed groundmass, bubbles, charred residues, metallic inclusions, weathered exterior surfaces, and cracks that later admit fluids or contaminants. That heterogeneity is exactly why nitrogen provenance must be resolved before interpretation.
+
+
+The chemistry question is not simply:
+
+
+«Is there nitrogen?»
+
+
+The better question is:
+
+
+«Where is the nitrogen, what chemical form is it in, and how do we know it belongs to the lightning event rather than to later contamination or biological/weathering overprint?»
+
+
+---
+
+
+3. The Actual Gap
+
+
+Fulgurites can preserve event information. That is not the speculative part.
+
+
+The sealed-vesicle gas result is already real enough to treat as a target for replication: Navarro-González and colleagues reported CO₂, CO, and NO trapped inside glassy bubbles in a Libyan Desert fulgurite and used those gases, plus isotopic and C/N information, to infer paleoecological context.
+
+
+Lightning-driven redox chemistry is also a real lane. Pasek and Block reported that cloud-to-ground lightning can reduce phosphate in fulgurites, with reduced phosphorus found in several specimens.  Iron silicides have also been reviewed in fulgurite occurrences, with the key issue being the extremely reducing microenvironments required for their formation.
+
+
+The gap is more specific:
+
+
+«Positive nitrogen signals in fulgurites are easy to overinterpret unless they are assigned to the correct reservoir.»
+
+
+A nitrogen peak, by itself, is not a structural claim. A surface nitrate signal is not event nitrogen. A CN signal is not automatically lattice nitrogen. A SiN⁻ secondary ion in SIMS is not automatically proof of a pre-existing Si–N bond. A bubble gas signal is not the same as a bonded network signal.
+
+
+The chemistry lane is therefore a sorting machine.
+
+
+---
+
+
+4. Structural Si–N: A Conditional Working Hypothesis
+
+
+Low or undetectable structural Si–N is the working expectation for clean, silica-rich interior glass without independent evidence of strongly reducing conditions.
+
+
+The central claim is conditional and open to revision by direct bonding evidence.
+
+
+The argument has four parts.
+
+
+4.1 Nitrogen speciation in silicate melts is redox-controlled
+
+
+Nitrogen incorporation in silicate melts depends strongly on oxygen fugacity. Under relatively oxidizing conditions, nitrogen is generally present as molecular N₂ rather than as network-bonded nitride. Under highly reducing conditions, nitride-like N³⁻ species can become more significant and enter melt structures.
+
+
+These experiments constrain plausible nitrogen behavior under their stated compositions, pressures, temperatures, redox conditions, and equilibration times. Extrapolation to rapidly quenched silica-rich fulgurites must also consider nitrogen availability and reaction kinetics. See the nitrogen-solubility study in §15.
+
+
+4.2 Atmospheric formation does not determine local redox
+
+
+Terrestrial fulgurites form when lightning strikes sand, soil, rock, or sediment. Their atmospheric setting does not establish uniform oxidizing conditions inside the transient melt. Published fulgurite studies document reduced phosphorus and carbon-associated reduction; local domains therefore require separate characterization. See the phosphorus-reduction studies in §15.
+
+
+Test clean interior silica glass separately from reduced inclusions, carbon-rich interfaces, and mixed groundmass. Reduced P or Fe phases can justify targeted nitrogen analysis, but they do not establish nitrogen speciation or Si–N bonding.
+
+
+4.3 Silicon oxynitride requires special conditions
+
+
+Natural silicon oxynitride, known as sinoite, was identified as a meteoritic mineral in an enstatite chondrite, a highly reduced extraterrestrial context, not an ordinary terrestrial lightning-glass product.  Confirmed terrestrial nitride minerals are exceptionally rare; siderazot, an iron nitride from a fumarolic setting, was historically reported once and only much later confirmed and structurally characterized.
+
+
+These occurrences show that nature can form nitrides under particular conditions. Their rarity is context, not a proof of absence in fulgurites; nitrogen in a discrete nitride inclusion would also be distinct from nitrogen bonded into the silica glass network.
+
+
+4.4 Limits, inconclusive tests, and domain-specific conclusions
+
+
+A nitrogen non-detection supports a numerical limit only when calibration, blank treatment, uncertainty convention, and the sampled domain are specified. An unresolved bonding spectrum or an uncalibrated test remains inconclusive. Neither result establishes absence throughout a heterogeneous specimen, and a targeted hotspot survey alone does not estimate prevalence.
+
+
+So the clean claim is:
+
+
+«Test structural Si–N directly. Resolve the host and chemical form, retain the preparation history, and restrict each conclusion to the domains and sensitivities actually examined.»
+
+
+---
+
+
+5. Nitrogen Reservoirs and Unresolved Hosts
+
+
+Use R1–R4 as working host categories, with R2 divided into vesicular and glass-dissolved molecular nitrogen. Retain an other-host/unresolved field rather than forcing every observation into these categories. Record host, chemical species, and inferred origin separately.
+
+
+R1 — Lattice / Structural Nitrogen
+
+
+Definition: nitrogen bonded into the silica glass network as Si–N or Si–O–N.
+
+
+Prior expectation: low or undetectable in clean, silica-rich interior glass without independent evidence of strongly reducing conditions; other domains require separate tests.
+
+
+What would support it: spatially coherent nitrogen in fresh interior lechatelierite above a calibrated threshold, with N-K edge fine structure matching appropriate Si–N references and discriminating plausible alternatives. Control nitrate, organic nitrogen, molecular nitrogen, discrete inclusions, beam effects, preparation, spatial mixing, and SIMS recombination.
+
+
+Status: conditional working hypothesis; upgrade only with direct bonding evidence.
+
+
+R2 — Non-Network Molecular Nitrogen
+
+
+R2a — Vesicular gas: nitrogen-bearing molecules such as NO, other NOₓ species, or N₂ in vesicles. CO and CO₂ are contextual gas measurements, not nitrogen-bearing species.
+
+
+R2b — Glass-dissolved molecular nitrogen: molecular nitrogen physically dissolved or trapped within glass without demonstrated Si–N bonding. This possibility is supported by silicate-glass literature; it is not a finding in the specimens proposed here. See the silicate-glass nitrogen-analysis study in §15.
+
+
+Prior expectation: R2a is a documented archive target; R2b is a candidate category requiring discriminating measurements.
+
+
+What would support R2a: controlled extraction from apparently sealed domains, with gas composition, recovery, blanks, open-vesicle controls, and provenance evidence. What would support R2b: co-registered interior measurements that distinguish dissolved molecular nitrogen from network nitrogen, unresolved bubbles, inclusions, and preparation effects. Lack of a visible bubble alone does not assign R2b. Isotopes support provenance without independently proving it; dating is treated separately.
+
+
+Status: R2a is a plausible positive archive lane; R2b remains a distinct hypothesis until resolved.
+
+
+R3 — Surface / Weathering Nitrogen
+
+
+Definition: nitrate, ammonium, adsorbed nitrogen, handling contamination, storage contamination, soil/weathering input, or nitrogen on cracks and rinds.
+
+
+Prior expectation: common.
+
+
+What would confirm it: exterior-to-interior gradients, concentration on cracks/rinds, disappearance in fresh interior glass, association with open surfaces, and sensitivity to cleaning/fracturing protocols.
+
+
+Status: default contamination lane unless proven otherwise.
+
+
+R4 — Organic Residue Nitrogen
+
+
+Definition: nitrogen in N-bearing charred biomass, carbonaceous particles, organic compounds, microbial films, bioalteration products, or soil organic matter. A carbonaceous particle or ordinary PAH signal alone does not demonstrate nitrogen.
+
+
+Prior expectation: mixed; possible, but must be separated from lattice and gas claims.
+
+
+What would confirm it: co-location with carbon phases, CN-rich signals, organic ELNES/Raman signatures, textural association with residues rather than clean lechatelierite, and separation from biological overprint.
+
+
+Status: plausible but dangerous if confused with R1.
+
+
+Other-host / unresolved assignment
+
+
+Use this field for nitrogen in discrete mineral inclusions, unclassified interior species, or measurements that cannot distinguish competing hosts. It is not evidence for a new reservoir or mineral. Do not assign an inclusion to R1 unless bonding into the silica network itself is demonstrated. Procedural/background nitrogen B remains an analytical contribution, not a specimen host.
+
+
+Physical entrapment is not bonding. Organic nitrogen is not lattice nitrogen. Surface nitrogen is not event nitrogen without controls. That is the whole blade.
+
+
+---
+
+
+6. Analytical Decision Tree
+
+
+6.1 Sample triage
+
+
+Start by separating physical domains before analysis:
+
+
+1. fresh interior lechatelierite;
+2. mixed groundmass;
+3. sealed vesicles;
+4. open vesicles;
+5. weathered rind;
+6. cracks and pores;
+7. carbon-rich residues;
+8. biologically colonized or altered zones.
+
+
+Do not analyze all of these as if they are one material. A bulk result is almost guaranteed to smear reservoirs together.
+
+
+6.2 NanoSIMS
+
+
+NanoSIMS is useful for sensitive nitrogen detection and spatial mapping. It can map CN⁻, SiN⁻, NO⁻, and related secondary ions across interior glass, residues, cracks, and rinds.
+
+
+But NanoSIMS cannot, by itself, prove a pre-existing Si–N bond. Secondary ions can form during sputtering, and CN⁻ can reflect organic nitrogen, adsorbed nitrogen, or analytical recombination. The correct role of NanoSIMS is localization and reservoir targeting, not final bonding assignment.
+
+
+6.3 EELS N-K ELNES
+
+
+EELS N-K edge fine structure can test nitrogen bonding environments when signal quality and concentration permit. Compare appropriate standards and plausible nitride-like, nitrate-like, organic, and molecular alternatives, while controlling thickness, beam effects, preparation, and spatial mixing. The method name alone does not guarantee an unambiguous assignment.
+
+
+Distinguish nitrogen not detected under a calibrated limit from nitrogen detected with unresolved bonding. Report an upper bound only with an explicit procedure, units, reference materials or calibration, background treatment, uncertainty convention, and defined sampled volume or population. Otherwise report inconclusive or not measured, as appropriate.
+
+
+6.4 Vacuum crush, stepped heating, GC-MS, isotopes
+
+
+This is the main analytical route for R2a, the vesicular gas archive. It does not by itself establish R2b or R1.
+
+
+Use paired sealed/open-vesicle extraction, procedural blanks, modern-air references, stepped heating, gas composition, and δ¹³C/δ¹⁵N where feasible. Establish age with an appropriate dating method and sample fraction. The cited Libyan study used thermoluminescence; ¹⁴C can provide additional context when suitable carbon and age range are available, but is not a universal requirement or a direct age measurement of nitrogen.
+
+
+A gas archive claim strengthens only if sealed vesicles release gas that is compositionally or isotopically distinct from modern air, soil infiltration, open vesicles, and weathered surfaces.
+
+
+Define the physical sample and apparatus boundary for each gas measurement. Report calibrated species-dependent recovery, extraction efficiency, carryover, and blank uncertainty. Crushing and heating may release, transform, or generate species; their products are not assumed to reproduce pre-analysis composition without supporting controls.
+
+
+6.5 XANES / EXAFS for phosphorus and iron
+
+
+XANES and EXAFS are appropriate for the redox archive lane, especially for phosphorus and iron oxidation states. This lane should test whether reduced P or Fe phases correlate spatially with carbon-rich zones, rather than merely identifying isolated reduced phases.
+
+
+This matters because carbon can locally drive reduction in lightning melts. But that does not automatically imply nitrogen is reduced into the silica lattice. The chemistry document explicitly keeps those mechanisms separate.
+
+
+6.6 Raman, XRD, SEM-EDS, microprobe
+
+
+These are context tools:
+
+
+- Raman: carbon phases, glass structure, possible organic/residue signatures;
+- XRD: crystalline reduced phases;
+- SEM-EDS: texture, inclusions, phase context;
+- electron microprobe: transects across carbon, phosphorus, iron, silicon, and substrate heterogeneity.
+
+
+They are powerful for mapping and selecting targets, but they do not replace direct nitrogen bonding tests.
+
+
+6.7 XPS, FTIR, and surface-only methods
+
+
+XPS is surface-biased and therefore dangerous unless used on freshly fractured interiors with strict controls and depth profiling. FTIR and Raman assignments for Si–N in complex glass are not decisive because vibrational features can overlap or be ambiguous.
+
+
+Any surface-only nitrogen detection should be treated as R3 until proven otherwise.
+
+
+6.8 Identifiability, Selectivity, and Measurement-Induced Transformation
+
+
+The analytical objective is not to maximize instrument count. It is to discriminate among competing reservoir assignments with the smallest set of measurements and preparation contrasts that actually change what can be concluded. A method that reproduces an ambiguity may still be useful for quality control, but it does not add provenance information merely because it is technologically different.
+
+
+6.8.1 Adaptive targeting: NanoSIMS → EELS
+
+
+NanoSIMS and EELS should not be treated as two parallel votes on R1. Their strongest relationship is sequential. NanoSIMS first surveys fresh interior domains, maps nitrogen at high spatial sensitivity, and identifies candidate hotspots while excluding obvious cracks, rinds, carbon-rich residues, and mixed groundmass. EELS N-K ELNES is then targeted to the most credible high-N interior microdomains.
+
+
+The operational sequence for R1 is therefore:
+
+
+1. select fresh interior lechatelierite;
+2. survey with NanoSIMS;
+3. separate obvious R3/R4 and mixed-phase targets from the clean-glass R1 test, retaining them for their own host-specific analyses;
+4. identify the highest-confidence interior-N targets;
+5. target registered companion material or a validated preparation sequence for EELS N-K ELNES, accounting for sputter alteration;
+6. audit preparation, beam, mounting, and background contributions;
+7. report supported bonding, a calibrated domain-specific limit, or an explicitly inconclusive result;
+
+
+This makes NanoSIMS a targeting instrument for the conditional bonding test rather than independent proof of structural nitrogen.
+
+
+6.8.2 Background nitrogen is a measured competitor, not an afterthought
+
+
+Define B — procedural/background nitrogen as the contribution introduced or exposed by preparation, mounting, polishing, storage, handling, extraction, analytical blanks, or the laboratory environment. B is not a specimen reservoir; it is a competing contribution to the observed signal and should be characterized quantitatively.
+
+
+Repeated full-procedure blanks, nitrogen-free fused-silica controls, preparation replicates, and blank distributions should therefore travel with the specimen measurements. Where B is variable or comparable to the candidate event signal, the correct conclusion is limited by that uncertainty.
+
+
+6.8.3 Observation is not always passive
+
+
+Several methods in this program transform the material before or during observation. Crushing exposes and mixes previously sealed domains. Heating releases species and can alter or generate products. SIMS sputtering creates secondary ions and can recombine atoms in the sputter plume. These are not merely different windows onto a fixed specimen.
+
+
+For every destructive or transformative method, distinguish:
+
+
+- species or bonding environments demonstrably present before analysis;
+- species released from a pre-existing reservoir by the analytical operation;
+- species redistributed, recombined, or generated during preparation or measurement.
+
+
+Method-specific controls must therefore ask not only “what signal was measured?” but also “could the operation itself have produced, transformed, or reassigned the signal?” This generalizes the existing SIMS-recombination warning to the entire analytical workflow.
+
+
+6.8.4 Prefer discriminating contrasts
+
+
+The design question for every added measurement is:
+
+
+> **Which currently plausible reservoir assignments does this measurement separate that the existing workflow cannot?**
+
+
+| Provenance question | High-value discriminating contrast |
+|---|---|
+| R1 vs R4 | clean interior vs carbon-associated domains, followed by targeted ELNES |
+| R2a vs modern infiltration | apparently sealed vs open vesicles plus gas ratios, recovery, and blanks |
+| R3 vs interior N | rind/crack vs fresh-interior gradients |
+| specimen N vs B | repeated full-procedure blanks plus nitrogen-free fused silica |
+| pre-existing vs measurement-produced species | method-specific transformation controls |
+| R1 detectable anywhere? | NanoSIMS hotspot search → targeted EELS |
+| R1 vs R2b | co-registered bonding/speciation evidence and controls for unresolved bubbles and inclusions |
+
+
+Preparation contrasts may provide more provenance information than adding another instrument. Interior/exterior splits, sealed/open vesicles, clean/residue-rich domains, and controlled preparation variants directly challenge competing explanations.
+
+
+6.8.5 Quantitative identifiability as a later analysis layer
+
+
+Once empirical sensitivities, covariance structures, detection limits, transformation behavior, and blank distributions are available, the measurement suite can be treated quantitatively as an identifiability and experimental-design problem. Sensitivity matrices, estimability analysis, singular-value/condition analysis, profile likelihood, and optimal-design methods could then be used to identify redundant assays, poorly constrained reservoir contrasts, and minimum discriminating measurement sets.
+
+
+Those calculations are not claimed here because the required empirical inputs do not yet exist. The present protocol supplies the experimental structure needed to obtain them.
+
+
+6.8.6 Preparation history and correlative targeting
+
+
+Every nitrogen result must retain a specimen and microdomain identifier, mapped relation to glass, vesicles, cracks and residues, preparation history, analytical order, exposure or beam history, blank batch, calibration, and effective spatial/depth range. Preserve planned targets, attempted measurements, failed preparations, excluded targets, non-detections, and reasons for deviations.
+
+
+NanoSIMS-guided EELS is a correlative workflow, not automatically repeated observation of unchanged material. Define how the EELS specimen relates to the sputtered map. Use a protected adjacent region, registered serial section, or validated preparation sequence as appropriate; document registration uncertainty and alteration, and compare matched unsputtered material when needed.
+
+
+6.8.7 Sampling coverage and independent recovery
+
+
+Targeted hotspots test whether a candidate bonding environment can be found. A preregistered representative or systematic sample of domains supports claims about prevalence. A hotspot search alone does not estimate prevalence, and negative clean-glass results do not exclude nitrogen in untested reduced inclusions.
+
+
+Where an independent nitrogen total is available, compare it with independently calibrated reservoir recoveries in consistent units and over compatible sample domains. Report unassigned nitrogen and uncertainty. Fitting the reservoir contributions to sum to the total is a bookkeeping constraint, not independent mass-balance validation. A recovery discrepancy is not a toroidal closure defect.
+
+
+6.9 Connection to the toroidal methodology
+
+
+The toroidal reference work reinforces explicit state definitions, boundaries, operation histories, and bounded validation claims. Its tiny-system report records passing L=2 implementation checks using a separately planned follow-up reference cohort, preserves the original unresolved cohort, and keeps physical Q2 marked NOT_RUN. These are reported model-validation results, not fulgurite measurements or evidence for structural Si–N. See the project references in §15.
+
+
+A fixed extraction boundary, a deforming vesicle wall, and a material streamtube are different boundaries. Zero bulk-fluid flux across a material streamtube does not establish zero diffusive nitrogen transport. The curved-throat construction is a kinematic benchmark; a physical fulgurite comparison would require a measured geometry, transient transport and thermal model, appropriate boundary conditions, and a mapping to observations. Tubular appearance alone does not establish toroidal topology, and Monte Carlo steps are not lightning time.
+
+
+---
+
+
+7. Sub-Study A: Sealed-Vesicle Gas Archive
+
+
+Sealed-vesicle gas is the strongest documented positive nitrogen archive target in this protocol.
+
+
+Known starting point: Navarro-González and colleagues reported CO₂, CO, and NO in glass bubbles from a Late Pleistocene Libyan Desert fulgurite, using those gases to reconstruct paleoecological context.
+
+
+Research question
+
+
+Can sealed vesicles in multiple fulgurites preserve event-linked gas signatures distinguishable from modern air, soil infiltration, and surface contamination?
+
+
+Novelty
+
+
+The novelty is not “gas in one fulgurite exists.” The novelty would be:
+
+
+1. multi-specimen reproducibility;
+2. paired sealed-vs-open vesicle comparison;
+3. stepped-heating release structure;
+4. explicit modern-air and procedural blanks;
+5. provenance-resolved nitrogen accounting.
+
+
+Methods
+
+
+- micro-CT or microscopy to identify apparently sealed vesicles at a stated resolution;
+- vacuum crush of sealed vesicle domains;
+- stepped heating;
+- GC-MS for CO₂, CO, NO, N₂, O₂, Ar, and related species;
+- δ¹³C and δ¹⁵N where sample size permits;
+- suitable independent dating, with ¹⁴C context only where an appropriate carbon fraction and age range permit;
+- comparison against open vesicles and weathered rinds.
+
+
+Boundary and preservation record
+
+
+Use “apparently sealed at the stated resolution” when sealing is inferred from imaging. Record vesicle geometry, visible connections, preparation-induced fractures, and the interval between imaging and extraction. Imaging alone does not establish historical impermeability or exclude connections below resolution.
+
+
+Falsifiers
+
+
+The gas archive claim weakens or fails if:
+
+
+- sealed-vesicle gas matches modern air or soil gas;
+- N₂/O₂/Ar ratios indicate infiltration;
+- open and sealed vesicles are indistinguishable;
+- stepped heating does not separate occluded gas from adsorbed contamination;
+- carbon dating of the relevant fraction returns modern carbon where its ancient preservation is claimed; this challenges that fraction's provenance rather than directly dating nitrogen.
+
+
+Caveat
+
+
+δ¹⁵N should not be overclaimed. Lightning-fixed nitrogen and atmospheric/soil nitrogen can overlap isotopically. Isotopes support provenance; they do not single-handedly prove it.
+
+
+---
+
+
+8. Sub-Study B: Carbon-Correlated Reduced Phases
+
+
+The second positive lane is redox chemistry involving phosphorus and iron.
+
+
+Pasek and Block showed that cloud-to-ground lightning can reduce phosphate in fulgurites, and Hess and colleagues later argued that lightning-produced reduced phosphorus could be significant for prebiotic chemistry under early Earth conditions.  Iron silicides are also reported in fulgurites and reviewed as products associated with highly reducing conditions.
+
+
+Research question
+
+
+Are reduced phosphorus and iron-silicide phases spatially correlated with carbon-rich zones in fulgurites?
+
+
+Why carbon matters
+
+
+Carbon-rich substrate or organic matter can create local reducing microenvironments during a lightning melt. That may help explain reduced phosphorus species or iron-silicide formation.
+
+
+Carbon-driven reduction in P and Fe systems does not establish nitrogen reduction or incorporation into the silica network. Keep the nitrogen test separate and conditional on direct speciation evidence.
+
+
+Methods
+
+
+- SEM-EDS phase mapping;
+- Raman mapping of carbon phases;
+- XRD for crystalline reduced phases;
+- P and Fe XANES/EXAFS for oxidation state;
+- microprobe transects across carbon-rich and carbon-poor zones;
+- comparison with substrate/protolith controls;
+- audit for conductor contamination, metallic debris, and detrital reduced phases.
+
+
+Falsifiers
+
+
+Evaluate two distinct claims: carbon correlation and lightning-produced reduction. The following outcomes have different implications:
+
+
+- lack of carbon correlation weakens the carbon-correlation hypothesis, but does not by itself reject all lightning-driven reduction;
+- phases trace to wire, fence, conductor, or anthropogenic contamination;
+- phases are detrital rather than lightning-produced;
+- reduced products appear equally in non-strike substrate controls.
+
+
+---
+
+
+9. Pilot: Post-Strike Bioreceptivity
+
+
+Biological colonization of silicate glass is not a new claim. The narrow question is whether lightning-altered glass has a colonization or alteration signature distinguishable from ordinary glass, substrate disturbance, moisture, nutrients, surface area, and pH.
+
+
+This must remain a pilot, not a co-equal central hypothesis.
+
+
+Research question
+
+
+Does strike-altered glass chemistry produce a biological colonization or alteration response beyond ordinary glass/substrate controls?
+
+
+Required controls
+
+
+- experimental fulgurite generated under realistic discharge conditions;
+- sterilized fulgurite glass;
+- kiln or thermal glass;
+- protolith from the same site;
+- disturbed non-strike soil;
+- nearby matched non-strike substrate;
+- time series;
+- multi-site replication;
+- blinded scoring.
+
+
+Experimental fulgurite generation has been reported under controlled discharge conditions, which makes it a useful control route for this pilot.
+
+
+Boundary
+
+
+Biologically colonized specimens must not be used for clean structural-nitrogen measurements. Biology and clean nitrogen chemistry need separate sample streams.
+
+
+---
+
+
+10. Cosmochemical Context: Why These Elements Keep Showing Up
+
+
+This part is context, not proof of any fulgurite-specific claim.
+
+
+The recurring elements in the broader walk — carbon, nitrogen, oxygen, silicon, sulfur, phosphorus, and iron — are not random symbolic furniture. They sit inside real cosmochemical and geochemical supply chains.
+
+
+Carbon, nitrogen, and oxygen are central to stellar nucleosynthesis and later planetary chemistry. The CNO cycle is a real hydrogen-burning process in stars, and nitrogen has a distinct stellar-processing lane rather than simply being “the next symbolic element.”  Massive-star evolution also produces onion-shell structures involving carbon, oxygen, silicon, sulfur, and iron-group endpoints; silicon burning is the final fusion stage leading toward iron-core collapse.
+
+
+That cosmic context helps explain why these elements recur in bodies, rocks, atmospheres, soils, and glasses. But it does not prove a coupled C–N–Si fulgurite mechanism.
+
+
+The clean phrasing is:
+
+
+«Nucleosynthesis explains why the materials are available.
+Local geochemistry explains what lightning does to a sample.
+The two may touch as context, but they do not fuse into evidence.»
+
+
+---
+
+
+11. Upgrade Criteria
+Upgrade R1, structural nitrogen, only if the adaptive sequence survives end to end:
+fresh interior lechatelierite, not rind or mixed groundmass;
+NanoSIMS survey locating a credible interior-N target above local background;
+separate treatment of cracks, surfaces, carbon-rich residues, mixed groundmass, and contamination rather than pooling them with clean glass;
+targeted EELS on registered material with a documented preparation sequence, adequate nitrogen signal, and fine structure that discriminates Si–N from plausible alternatives;
+quantitative comparison against B, the procedural/background contribution;
+controls excluding nitrate, organic nitrogen, trapped gas, beam buildup, mounting media, adhesives, preparation artifacts, and SIMS recombination.
+If these conditions are not met, report detected but unassigned, not detected under a calibrated limit, inconclusive, or not measured as appropriate. An unsupported bonding claim does not automatically yield a numerical upper bound.
+Strengthen R2a, vesicular gas, if:
+sealed vesicles differ from open vesicles;
+gas ratios differ from modern air and soil gas;
+stepped heating separates occluded gas from adsorbed contamination;
+isotopes support non-modern or event-linked provenance;
+results replicate across specimens.
+Strengthen the carbon-correlation and redox-origin claims separately:
+reduced P or Fe phases correlate with carbon-rich zones for the carbon-correlation claim;
+phases are absent from comparable non-strike substrate;
+conductor contamination is excluded;
+P/Fe oxidation-state maps support lightning-driven reduction;
+results replicate across samples.
+Strengthen the bioreceptivity pilot if:
+colonization differs from thermal glass and non-strike substrate;
+the difference tracks strike-altered mineral/glass chemistry;
+the result survives sterile, disturbed-soil, protolith, and experimental-fulgurite controls;
+scoring is blinded and replicated.
+Result vocabulary
+Use detected and assigned; detected but unassigned; not detected under a calibrated limit; inconclusive; or not measured. Report the measurement domain and uncertainty with each result. A positive R1 assignment requires network-bonding evidence; nitrogen in an inclusion or an unresolved mixture remains a different assignment.
+
+
+12. Mandatory Controls
+Analytical controls
+procedural blanks for extraction, mounting, polishing, and storage;
+nitrogen-free fused silica through identical preparation;
+protolith from the same site;
+sealed-vs-open vesicle pairs;
+fresh interior vs rind gradient;
+clean lechatelierite vs mixed groundmass;
+crack and pore mapping;
+curation audit for adhesives, consolidants, acid treatment, storage nitrate, animal/bird contamination, and handling residue;
+beam-induced C/N buildup checks;
+separate sample streams for biology and clean nitrogen chemistry.
+Interpretation controls
+never treat surface nitrogen as event nitrogen without gradient and blank controls;
+never treat SiN⁻ SIMS signal alone as Si–N bonding;
+never treat organic CN signal as lattice nitrogen;
+never treat sealed gas as structural nitrogen;
+never treat redox P/Fe behavior as proof of reduced nitrogen;
+never assume a destructive analytical operation is a passive observation when it can release, redistribute, recombine, or generate measured species;
+never add an assay as provenance evidence unless it discriminates at least one live reservoir/background explanation or is explicitly labeled as quality control.
+Safety controls
+No DIY lightning. No high-voltage arc rigs outside institutional laboratories. No fulgurite collection during active storms. No sealed pressure vessels. No unknown-gas extraction outside proper lab infrastructure. No heating mystery materials. No chemical synthesis attempts. All serious testing belongs in institutional labs with trained personnel, approved procedures, ventilation, and appropriate instrumentation.
+13. Expected Results
+The protocol does not prescribe a negative outcome. Its working expectation and reporting scope are:
+Conditional expectations and possible results:
+low or undetectable structural Si–N in sampled clean, silica-rich interior glass without independent evidence of strongly reducing conditions;
+a calibrated domain-specific upper bound where justified, or an explicitly inconclusive or unassigned result;
+nitrogen assigned to surface/weathering, organic, vesicular, glass-dissolved molecular, or other hosts where measurements discriminate them;
+possible replication of occluded CO₂/CO/NO archive signals in well-preserved vesicles;
+possible carbon-correlated reduced P and Fe phases in specific local microenvironments;
+no inference of a general coupled carbon–nitrogen–silicon mechanism from these separate tests.
+That is not a failure. That is the chemistry getting sharper.
+The strongest honest contribution is:
+A provenance protocol for fulgurite nitrogen, a conditional structural-Si–N hypothesis tested with direct bonding evidence, and a controlled replication/extension program for vesicular gas and carbon-correlated redox archives.
+14. One-Page Summary
+Central question
+When nitrogen is detected in a fulgurite, which reservoir is it in?
+Central prediction
+Low or undetectable structural Si–N is a working expectation for clean silica-rich glass without independent evidence of strong reduction; reduced inclusions require separate tests.
+Best positive archive target
+R2a vesicular gas: NO and N₂-related species, with CO₂/CO context, gas ratios, isotopes, dating, and preservation controls.
+Best redox target
+Carbon-correlated reduced phosphorus and iron phases, tested spatially and controlled against contamination.
+Biggest false positive
+Surface nitrogen, organic CN, or SIMS recombination misread as lattice nitrogen.
+Best instrument pairing
+Use NanoSIMS to locate candidate interior nitrogen, then EELS on registered material with a validated preparation sequence. Calibrate limits and distinguish inconclusive bonding. Use controlled extraction/gas analysis for R2a, separate tests for R2b, P/Fe methods for redox, and contextual imaging throughout.
+Governing rule
+Resolve the reservoir before naming the nitrogen.
+Final chemistry statement
+Fulgurites can preserve chemical information. Resolve network nitrogen, vesicular and glass-dissolved molecular nitrogen, surface nitrogen, organic nitrogen, and other or unresolved hosts. Keep the structural-Si–N hypothesis conditional; quantify sensitivity and coverage, retain preparation history, and restrict each conclusion to the measurements actually made.
+The mythic phrase “glass remembers” is allowed to point. The chemistry lane asks: as what — gas, dissolved molecule, bond, surface, residue, or another host?
+
+
+---
+
+
+15. Sources for the Revised Tests and Methodological Context
+
+
+Chemistry references
+
+
+Nitrogen solubility in basaltic melt: effect of oxygen fugacity — experimental constraints on redox-sensitive nitrogen incorporation; extrapolation to fulgurites remains conditional.
+
+
+Analyzing nitrogen in natural and synthetic silicate glasses by secondary ion mass spectrometry — molecular nitrogen within glass and analytical context for R2b.
+
+
+Lightning-induced reduction of phosphorus oxidation state — evidence for reduced phosphorus and composition-dependent products in fulgurites.
+
+
+Lightning strikes as a major facilitator of prebiotic phosphorus reduction on early Earth — local reduced phases and carbon-associated reduction; not evidence for Si–N bonding.
+
+
+Paleoecology reconstruction from trapped gases in a fulgurite — the CO₂/CO/NO archive example and thermoluminescence age context.
+
+
+Project methodology references
+
+
+Toroidal Geometry v1: # Toroidal Geometry v1
+
+
+Toroidal Dynamics v0.1: # Toroidal Dynamics v0.1
+
+
+Tiny-system validation v0.1: # Tiny-system validation v0.1
+
+
+The tiny-system report supplies the later execution status relative to the original dynamics specification. Its PASS applies to the stated small-system implementation checks, not physical Q2 or fulgurite chemistry. The protocol adopts methodological lessons from these documents without treating their mathematics or simulations as chemical observations.
