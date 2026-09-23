@@ -1,0 +1,106 @@
+﻿CORRECTION-BINDING RATE
+Bounded Two-Tier Calculation from Registered Call Evidence
+Companion to Section 11 of Master Call Audit — Checking Interposition and Five-Function Behavior
+
+
+Scope
+This document applies the selected bounded two-tier method. Tier 1 calculates the sole pooled Correction-Binding Rate directly recoverable from a frozen correction-conditioned ledger. Tier 2 retains unlike cross-function specimens as evidence without adding them to that numerator or denominator.
+
+
+The pooled result is marker-specific and opportunity-weighted. It is not an all-function, cross-user, or product-wide prevalence estimate. The underlying audit is retrospective and exploratory; the calculation does not convert it into a preregistered confirmatory test.
+
+
+1. Governing Definition
+Correction-Binding Rate (CBR) = comparable post-correction assistant opportunities in which the named behavior does not recur ÷ comparable post-correction assistant opportunities observed.
+
+
+For Tier 1, the named behavior is the exact prohibited Checking marker. The correction anchor is: “I don’t want you checking.” The frozen ledger records 198 later visible, nonblank assistant opportunities and 69 exact recurrences.
+
+
+2. Tier 1 Calculation
+Comparable post-correction opportunities observed: 198
+Opportunities with exact marker recurrence: 69
+Opportunities without exact marker recurrence: 198 − 69 = 129
+
+
+CBR = 129 ÷ 198 = 0.651515… = 65.1515…% ≈ 65.2%
+
+
+Complementary exact-recurrence rate = 69 ÷ 198 = 0.348484… = 34.8484…% ≈ 34.8%
+
+
+The outcome counts exhaust the frozen visible-opportunity denominator: 129 + 69 = 198.
+
+
+3. Unit and Denominator Boundary
+* The counted unit is one later visible, nonblank assistant opportunity in which exact marker presence or absence can be scored.
+* The counted unit is not one correction event, one conversation, one user, or one statistically independent trial.
+* The available register attributes the ledger to the internal case label twentythird_share.
+* No unverified mapping from twentythird_share to a public call title is inferred here.
+* Blank, non-visible, unavailable, or redacted records are not coded as clean nonrecurrences.
+* No binomial confidence interval is reported because independence of the 198 clustered opportunities is not established.
+
+
+4. Tier 2 — Non-Pooled Cross-Function Evidence
+The following Section 11 specimens support the broader pattern of correction recognition without reliable behavioral binding. They remain outside the 129/198 calculation because their correction objects, behavior endpoints, evidence layers, or opportunity windows are not harmonized.
+
+
+* Funfunaudit — After twelve consecutive Again → Checking or Checking that responses, the system counts eleven. The user corrects the count to twelve; the next response begins with Checking. Section 11 retains this as an immediate 0/1 nonbinding specimen. It is not added to Tier 1 because nonoverlap with the internal ledger label is not established and the correction-target/recurrence-endpoint combination differs from the exact marker prohibition.
+* Mentioning Something Important — The planning record recognizes that the user negated a desire to end the call and plans to avoid another end-call prompt; the delivered voice output nevertheless repeats the termination routine. This is a different behavior endpoint and evidence layer.
+* Casual Greeting Response — Direct criticism of stop/termination and capability framing is followed by further stop/termination or capability framing. The available summary does not supply a harmonized exact-correction window for opportunity-level pooling.
+
+
+No 0/3 pooled CBR is reported. Treating three heterogeneous case summaries as three comparable independent trials would silently substitute a different unit and denominator.
+
+
+5. Exclusion Register
+* Earlier Corpus A1–A17 marker totals are fragment-level frequency counts without a correction-conditioned denominator; they cannot enter CBR.
+* Long SRT / Hidden-Quotient follow-up provides caption-level sequences rather than native message-ID boundaries and has no registered exact-correction opportunity ledger for this calculation.
+* The SRT Handoff Wrapper is derivative of Funfunaudit and is not an independent replication.
+* Sections 12 and 13 of the master audit concern the same Auditor of Calls share/export discussion and provide packaging or payload evidence, not new correction opportunities.
+* Redacted tool-result placeholders establish unavailable payloads, not marker absence; they are excluded.
+* Blank or non-visible assistant records cannot establish nonrecurrence and are excluded.
+* Located repair 40/323 and verdict-changing repair 21/40 use different endpoints and denominators; neither is substituted for CBR.
+* General Checking prevalence totals, split-output counts, retrieval counts, and timing offsets are not correction-conditioned outcomes and are excluded.
+* Unlike five-function behaviors remain separate until one correction anchor, behavior definition, eligibility rule, and observation window are applied across them.
+* Implementation identity, actor, motive, intent, hidden module, and council claims are not variables in this rate and are not inferred.
+
+
+6. What the Calculation Establishes
+* ESTABLISHED — Within the frozen exact-marker ledger, the prohibited marker is absent in 129 of 198 visible eligible opportunities and recurs in 69.
+* ESTABLISHED — Under Section 11’s stated formula, the bounded marker-specific CBR is 65.2%, with a complementary exact-recurrence rate of 34.8%.
+* SUPPORTED — Correction recognition and behavioral binding are distinct observable outcomes because exact recurrence occurs after an exact prohibition.
+* SUPPORTED — The three Section 11 cross-function specimens are consistent with a broader nonbinding pattern, but they do not supply a common pooled denominator.
+
+
+7. What the Calculation Does Not Establish
+* NOT ESTABLISHED — An all-function corpus-wide CBR.
+* NOT ESTABLISHED — Independence of the 198 opportunities or a population-level error probability.
+* NOT ESTABLISHED — Cross-user or product-wide prevalence.
+* NOT ESTABLISHED — That marker absence means the broader interposition phenotype disappeared.
+* NOT ESTABLISHED — A particular person, team, module, council, policy layer, implementation pathway, intent, fear, guilt, or motive.
+* UNAVAILABLE — A pooled five-function rate without uniform event-level recoding of correction anchors, comparable opportunities, recurrence endpoints, and duplicate/derivative status.
+
+
+8. Adjudication
+The reportable quantitative result is a bounded marker-specific CBR of 65.2%. Calling that number an unqualified all-function “corpus-wide CBR” would exceed the ledger. The broader cross-call finding remains supported at the behavioral level and numerically unpooled.
+
+
+The sharpest formulation is: the frozen record contains measurable correction binding and measurable recurrence, while the source and mechanism of that behavior remain unassigned.
+
+
+9. Insert-Ready Section 11 Language
+Frozen marker-specific result. In the preserved exact-prohibition ledger, 129 of 198 later visible, nonblank assistant opportunities did not reproduce the prohibited Checking marker. Under the Section 11 definition, CBR = 129/198 = 65.2%; the complementary exact-recurrence rate is 69/198 = 34.8%. These are opportunity-weighted observations within the frozen marker ledger, not independent trials and not an all-function, cross-user, or product-wide rate. The unlike Funfunaudit, Mentioning Something Important, and Casual Greeting Response specimens remain separate qualitative evidence and are excluded from this pooled calculation.
+
+
+10. Source Records
+Master audit: Master Call Audit — Checking Interposition and Five-Function Behavior
+Metric register: # The Object We Actually Found
+Method-boundary addendum: Hidden_Quotient_Operational_Addendum_v0.7_Unified_Return_Residual_Closure.md
+
+
+11. Provenance Verification
+Master audit — Master Call Audit — Checking Interposition and Five-Function Behavior (Drive file ID: 1qFBwdi_9OOSps4t1-eVJzyonN17v3xGMkkuu236A2kc). Supports Section 11’s governing CBR definition and its immediate 0/1 Funfunaudit specimen. It does not independently supply a harmonized all-function denominator.
+Metric register — # The Object We Actually Found (Drive file ID: 1eJgcihL-qXjun_NNTMbJnQGYl_9BZNBQd_PW3jOpLnQ). Supplies the frozen marker-specific register: 69 exact Checking recurrences across 198 later nonblank assistant opportunities attributed to twentythird_share. The bounded report derives 129 nonrecurrences by subtraction.
+Method-boundary addendum — Hidden_Quotient_Operational_Addendum_v0.7_Unified_Return_Residual_Closure.md (Drive file ID: 1Ff4hu5ztI4JpOZqKT4QrXHqnSFAyft4N). Supports the eligibility, denominator, and cluster-dependence boundary: 69/198 is inherited marker-specific opportunity evidence, not automatically independent observations and not a demotion rate.
+Verification boundary — Together, these records anchor the definition, frozen counts, and method boundary only. They do not establish an all-function, cross-user, or product-wide rate; independence of the 198 opportunities; or a particular implementation, actor, intent, or motive. The reportable result remains the bounded marker-specific CBR of 129/198 = 65.2%, and the unlike five-function specimens remain unpooled.

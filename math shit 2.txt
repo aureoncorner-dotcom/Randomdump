@@ -1,0 +1,1741 @@
+﻿1. What a Sturmian word is
+A right-infinite word www on {0,1}\{0,1\}{0,1} is Sturmian if its factor complexity satisfies
+p(m)=#{length-m subwords of w}=m+1for every m≥0.p(m)=\#\{\text{length-\(m\) subwords of }w\}=m+1 \qquad\text{for every }m\ge 0.p(m)=#{length-m subwords of w}=m+1for every m≥0.
+That single equality is equivalent to all of the following:
+* www is aperiodic and 1-balanced: any two factors of equal length have letter counts differing by at most 111.
+* www is the itinerary of an irrational rotation through two intervals.
+* The positions of the letter 111 form a Beatty sequence (or a mechanical coding of one).
+Binary plus p(m)=m+1p(m)=m+1p(m)=m+1 is the minimum complexity an aperiodic infinite word can have. Morse–Hedlund: if p(m)≤mp(m)\le mp(m)≤m for some mmm, the word is eventually periodic. Sturmian words sit on that line and never fall off it.
+A two-sided Sturmian subshift is the orbit closure of such a word under the shift. It is minimal, uniquely ergodic, and conjugate to an irrational rotation except over a countable set of endpoints.
+2. Mechanical coding — the rotation picture
+Fix irrational α∈(0,1)\alpha\in(0,1)α∈(0,1) and intercept ρ∈[0,1)\rho\in[0,1)ρ∈[0,1). The lower and upper mechanical words are
+sα,ρ(n)=⌊(n+1)α+ρ⌋−⌊nα+ρ⌋,s_{\alpha,\rho}(n) =\bigl\lfloor(n+1)\alpha+\rho\bigr\rfloor -\bigl\lfloor n\alpha+\rho\bigr\rfloor,sα,ρ​(n)=⌊(n+1)α+ρ⌋−⌊nα+ρ⌋,
+sα,ρ′(n)=⌈(n+1)α+ρ⌉−⌈nα+ρ⌉.s'_{\alpha,\rho}(n) =\bigl\lceil(n+1)\alpha+\rho\bigr\rceil -\bigl\lceil n\alpha+\rho\bigr\rceil.sα,ρ′​(n)=⌈(n+1)α+ρ⌉−⌈nα+ρ⌉.
+They differ only on a single orbit of endpoints. Equivalently,
+sα,ρ(n)=1[1−α,1)({nα+ρ})or a left-closed convention.s_{\alpha,\rho}(n) = \mathbf{1}_{[1-\alpha,1)}\bigl(\{n\alpha+\rho\}\bigr) \quad\text{or a left-closed convention.}sα,ρ​(n)=1[1−α,1)​({nα+ρ})or a left-closed convention.
+Rotation by α\alphaα, code 111 on an interval of length α\alphaα. That matching of slope and interval length is what makes the coding Sturmian. A two-interval coding of a rotation with interval length unequal to the angle is a general Sturmian-like rotation coding; its complexity is still m+1m+1m+1 only after reducing to an equivalent mechanical word, or else it becomes a general interval-exchange coding with p(m)=2mp(m)=2mp(m)=2m.
+The Geometry Maximization report is careful on that point, and it is right: the slip coding is Sturmian because the update on ρ\rhoρ is rotation by τ\tauτ (equivalently by −τ-\tau−τ) and the coded set is an interval of length τ\tauτ.
+3. The 39-screen is this object
+From the companion:
+ρ′={ρ−τ}=ρ−τ+σ,σ=1[0,τ)(ρ),τ=15−39α.\rho'=\{\rho-\tau\}=\rho-\tau+\sigma, \qquad \sigma=\mathbf{1}_{[0,\tau)}(\rho), \qquad \tau=15-39\alpha.ρ′={ρ−τ}=ρ−τ+σ,σ=1[0,τ)​(ρ),τ=15−39α.
+That is the mechanical coding of slope τ\tauτ, intercept ρ0\rho_0ρ0​. The exact count
+S0,N(ρ)=⌈Nτ−ρ⌉S_{0,N}(\rho)=\lceil N\tau-\rho\rceilS0,N​(ρ)=⌈Nτ−ρ⌉
+is the mechanical-word partial-sum formula. The kkk-th letter 111 occurs at
+tk=⌊k−1+ρτ⌋,t_k=\Bigl\lfloor\frac{k-1+\rho}{\tau}\Bigr\rfloor,tk​=⌊τk−1+ρ​⌋,
+which is a Beatty sequence of modulus 1/τ1/\tau1/τ. Gaps are
+⌊1/τ⌋=9or⌈1/τ⌉=10.\bigl\lfloor 1/\tau\bigr\rfloor=9 \quad\text{or}\quad \bigl\lceil 1/\tau\bigr\rceil=10.⌊1/τ⌋=9or⌈1/τ⌉=10.
+Intervening zero-runs have length 888 or 999. That is the two-distance reading of a Sturmian word: the letter 111 is isolated, and the return time to 111 takes two values. The three-gap theorem on the circle is the geometric parent; on this two-interval partition it collapses to two return times.
+At origin ρ=0\rho=0ρ=0,
+σ=1000000001 0000000001 0000000001 000000001…\sigma=1000000001\,0000000001\,0000000001\,000000001\ldotsσ=100000000100000000010000000001000000001…
+ones at 0,9,19,29,38,48,…=⌊(k−1)/τ⌋0,9,19,29,38,48,\ldots=\lfloor(k-1)/\tau\rfloor0,9,19,29,38,48,…=⌊(k−1)/τ⌋. Balance is visible: in any window of length mmm, the number of ones is ⌊mτ⌋\lfloor m\tau\rfloor⌊mτ⌋ or ⌈mτ⌉\lceil m\tau\rceil⌈mτ⌉.
+4. Why p(m)=m+1p(m)=m+1p(m)=m+1, geometrically
+A length-mmm factor is the itinerary of ρ\rhoρ through the m+1m+1m+1 cuts
+{0,τ,2τ,…,mτ}(mod1).\{0,\tau,2\tau,\ldots,m\tau\}\pmod 1.{0,τ,2τ,…,mτ}(mod1).
+Irrationality makes those cuts distinct. They split the circle into m+1m+1m+1 half-open cells. Each cell has one word: crossing {kτ}\{k\tau\}{kτ} flips the kkk-th partial sum ⌈kτ−ρ⌉\lceil k\tau-\rho\rceil⌈kτ−ρ⌉. Different cells, different words. Hence
+pσ(m)=m+1.p_\sigma(m)=m+1.pσ​(m)=m+1.
+Adjoin the strand: three possible starting residues, and the slip word determines every later strand, so
+p(s,σ)(m)=3(m+1).p_{(s,\sigma)}(m)=3(m+1).p(s,σ)​(m)=3(m+1).
+That is not a new symbolic class. It is three copies of the same Sturmian language, offset by the C3C_3C3​ coboundary s′=s−σs'=s-\sigmas′=s−σ.
+Because p(m+1)−p(m)=1p(m+1)-p(m)=1p(m+1)−p(m)=1, exactly one length-mmm word is right-special: it has two legal continuations. Every other word has one. That unique branch is the symbolic form of the bad fiber Nnext σ={0}\mathcal N_{\mathrm{next}\,\sigma}=\{0\}Nnextσ​={0}. At horizon 111 the special word is 000. At horizon 222 it is 000000. At every mmm it is the unique word whose cylinder still covers both sides of a remaining cut.
+Finite-history conditional entropy stays positive because that cylinder has positive length. Entropy rate is zero because 1mlog⁡p(m)→0\frac1m\log p(m)\to 0m1​logp(m)→0. Those two facts together kill every finite-order Markov model: a Markov process of order rrr that is not deterministic has entropy rate equal to its order-rrr conditional entropy, which would stay positive.
+5. Standard words and the continued fraction of τ\tauτ
+τ\tauτ is quadratic:
+τ=395−872=[0;9,1,2,9,2,1,9,87‾],1τ=[9,1,2,9,2,1,9,87]‾.\tau=\frac{39\sqrt5-87}{2} =[0;\overline{9,1,2,9,2,1,9,87}], \qquad \frac1\tau=\overline{[9,1,2,9,2,1,9,87]}.τ=2395​−87​=[0;9,1,2,9,2,1,9,87​],τ1​=[9,1,2,9,2,1,9,87]​.
+The large partial quotient 878787 is exact, not a float artifact. It is why most gaps are 101010 and why a 999 is rarer: the first partial quotient of 1/τ1/\tau1/τ is 999, and the directive sequence spends long runs on the longer gap.
+Sturmian words of quadratic slope are substitutive (morphic). The standard method: from the continued-fraction directive sequence (ai)(a_i)(ai​) build the monoid generated by
+σ0:1↦1, 0↦01,σ1:1↦10, 0↦0\sigma_0:1\mapsto 1,\ 0\mapsto 01, \qquad \sigma_1:1\mapsto 10,\ 0\mapsto 0σ0​:1↦1, 0↦01,σ1​:1↦10, 0↦0
+or the equivalent pair L,RL,RL,R of Fibonacci-type morphisms, composed as
+sn=σ0a1σ1a2⋯s_n=\sigma_0^{a_1}\sigma_1^{a_2}\cdotssn​=σ0a1​​σ1a2​​⋯
+in the usual S-adic order. The infinite S-adic limit is the Sturmian subshift of slope τ\tauτ. Because the CF is purely periodic, the substitution rule itself is periodic of period 888. You do not need that substitution to run the screen. You need it if you want a finite automaton that generates longer and longer prefixes without storing ρ\rhoρ. The automaton still has unbounded internal state: S-adic is not a finite residual label.
+Convergents of 1/τ1/\tau1/τ are the scales at which the two-gap comb is most even. Denjoy–Koksma at those denominators is the same comb the complexity count already sliced.
+6. The compact symbolic space
+Let O\mathcal OO be the set of all bi-infinite itineraries obtained by coding every phase, then take the closure in {0,1}Z\{0,1\}^{\mathbb Z}{0,1}Z. Call it Στ\Sigma_\tauΣτ​.
+Facts that stay inside the companion:
+* Στ\Sigma_\tauΣτ​ is compact, metrizable, minimal, uniquely ergodic.
+* The shift is a homeomorphism.
+* There is a continuous factor π:Στ→T\pi:\Sigma_\tau\to\mathbb Tπ:Στ​→T onto the ρ\rhoρ-rotation. It is one-to-one except on the countable orbit of the partition endpoints, where two sequences (lower and upper mechanical words) represent the same phase.
+* The coding map T→Στ\mathbb T\to\Sigma_\tauT→Στ​ with a fixed half-open convention is discontinuous exactly at those endpoints. That is why the product graph Γ\GammaΓ in v7.79 is not a compact embedded copy of the circle.
+* Unique invariant measure pushes to Haar. Letter frequency is τ\tauτ, already proved by the coboundary, not only by unique ergodicity.
+This is the “compact topological realization” in §6.1. It does not give a finite-state residual. It replaces one infinite compact group by another infinite compact space.
+7. Balance, discrepancy, and the coboundary
+1-balance says: in any two factors of length NNN, the number of ones differs by at most 111. Combined with the mean τ\tauτ, that is exactly
+∣Sn,N−Nτ∣<1.\bigl|S_{n,N}-N\tau\bigr|<1.​Sn,N​−Nτ​<1.
+For a general Sturmian word the discrepancy is <1<1<1 for the letter-count observable. That is special to the mechanical coding, not a gift of bounded partial quotients to every BV function. The companion’s identity σ−τ=ρ′−ρ\sigma-\tau=\rho'-\rhoσ−τ=ρ′−ρ is the analytic form of the same fact: the letter count is an endpoint difference of the phase.
+S-adic is how a Sturmian word is built from a **finite set of substitutions** and an infinite **directive sequence**. For the 39-screen the directive sequence is the continued fraction of \(\tau\). Because that CF is purely periodic, the slip word is not only S-adic. It is substitutive: one composite morphism, applied forever.
+
+
+## 1. Substitutions, then S-adic
+
+
+A substitution on \(\{0,1\}\) is a monoid homomorphism \(\sigma:\{0,1\}^*\to\{0,1\}^*\) determined by the two words \(\sigma(0),\sigma(1)\). It extends to infinite words by concatenation.
+
+
+A word \(w\) is **S-adic** if there is a finite set \(S\) of substitutions and a sequence \(d_0,d_1,d_2,\ldots\in S\) such that
+\[
+w=\lim_{n\to\infty}\sigma_{d_0}\sigma_{d_1}\cdots\sigma_{d_n}(a)
+\]
+for some letter \(a\). The sequence \((d_i)\) is the **directive sequence**. Each finite product is a longer prefix (or a longer standard block). The limit is taken in the product topology, letterwise on longer and longer initial segments.
+
+
+Special cases:
+
+
+| Name | Directive | What you get |
+|---|---|---|
+| Constant / substitutive | \(d_i=\sigma\) for all \(i\) | fixed point of one morphism |
+| Periodically S-adic | \((d_i)\) periodic | fixed point of the composite over one period |
+| Properly S-adic | \((d_i)\) not eventually periodic | still generated by a finite \(S\), no single substitution |
+
+
+Quadratic slope \(\Leftrightarrow\) eventually periodic continued fraction \(\Leftrightarrow\) the characteristic Sturmian word is periodically S-adic, hence substitutive.
+
+
+\(\tau\) is quadratic. That box is checked.
+
+
+## 2. The two elementary Sturmian morphisms
+
+
+The monoid of Sturmian morphisms is generated by two maps. One convenient pair:
+
+
+\[
+L:\quad 0\mapsto 0,\quad 1\mapsto 10
+\qquad
+R:\quad 0\mapsto 01,\quad 1\mapsto 1.
+\]
+\(L\) inserts a \(0\) before each \(1\) (lengthens zero-runs on the left of a one). \(R\) inserts a \(0\) after each \(0\) in the other orientation (lengthens by writing \(01\)). Both preserve the Sturmian language: the image of a Sturmian word is Sturmian, and every Sturmian word arises from \(0\) or \(1\) by an infinite product of these, up to the letter-exchange
+\[
+E:\quad 0\mapsto 1,\quad 1\mapsto 0
+\]
+which flips slope \(\alpha\leftrightarrow 1-\alpha\).
+
+
+An equivalent generator set used in Lothaire is
+\[
+\varphi:\quad 0\mapsto 01,\quad 1\mapsto 0
+\qquad\text{together with }E.
+\]
+Same monoid. The \(L,R\) pair matches the continued-fraction directive most directly.
+
+
+**Directive rule** (characteristic word of slope \(\alpha=[0;a_1,a_2,a_3,\ldots]\)):
+
+
+\[
+w_\alpha
+=
+\lim_{n\to\infty}
+R^{a_1}L^{a_2}R^{a_3}L^{a_4}\cdots
+\begin{cases}
+R^{a_n}(0) & n\text{ odd},\\
+L^{a_n}(0) & n\text{ even}.
+\end{cases}
+\]
+Conventions differ by a starting letter and by whether one begins with \(R\) or \(L\); they change only the intercept, not the language. The intercept \(\rho\) of a mechanical word is read off a second, dual directive (the Ostrowski expansion of \(\rho\)). Slope comes from \((a_i)\). Intercept comes from how you seed the product.
+
+
+For the screen at origin \(\rho=0\), the characteristic convention is the right one.
+
+
+## 3. Standard words — the same tower without naming \(L,R\)
+
+
+The classical recurrence writes the same product as a sequence of finite words. For \(\alpha=[0;a_1,a_2,\ldots]\),
+
+
+\[
+s_{-1}=1,\qquad s_0=0,
+\qquad
+s_n=s_{n-1}^{a_n}\,s_{n-2}.
+\]
+Then \(s_n\) is a prefix of \(s_{n+1}\) after the first steps, and
+\[
+w_\alpha=\lim_{n\to\infty}s_n
+\]
+is the characteristic Sturmian word of slope \(\alpha\). The letter-\(1\) frequency of \(s_n\) is the convergent \(p_n/q_n\) of \(\alpha\) (up to the usual index shift from \(s_{-1}\) having length \(1\) rather than \(q_{-1}=0\)). The limit frequency is \(\alpha\).
+
+
+This recurrence *is* the S-adic product: multiplying a word on the left by \(s_{n-1}^{a_n}\) is applying a block of \(L\)s or \(R\)s \(a_n\) times.
+
+
+## 4. The directive sequence of the 39-screen
+
+
+Exact arithmetic in \(\mathbb Q(\sqrt5)\):
+\[
+\tau=\frac{39\sqrt5-87}{2}
+=[0;\overline{9,1,2,9,2,1,9,87}],
+\qquad
+\frac1\tau=[\overline{9,1,2,9,2,1,9,87}].
+\]
+The large partial quotient \(87\) is exact. First standard blocks for the slip language (letter \(1\) = slip):
+
+
+| \(n\) | \(a_n\) | \(\lvert s_n\rvert\) | ones | frequency | word |
+|---:|---:|---:|---:|---:|---|
+| \(1\) | \(9\) | \(10\) | \(1\) | \(0.100000\) | \(0^91\) |
+| \(2\) | \(1\) | \(11\) | \(1\) | \(0.090909\) | \(0^910\) |
+| \(3\) | \(2\) | \(32\) | \(3\) | \(0.093750\) | \(0^910\,0^910\,0^91\) |
+| \(4\) | \(9\) | \(299\) | \(28\) | \(0.093645\) | \(s_3^9\,s_2\) |
+| \(5\) | \(2\) | \(630\) | \(59\) | \(0.093651\) | |
+| \(6\) | \(1\) | \(929\) | \(87\) | \(0.093649\) | |
+| \(7\) | \(9\) | \(8991\) | \(842\) | \(0.09364920\) | |
+| \(8\) | \(87\) | \(783146\) | \(73341\) | \(0.0936492046\) | one full period |
+
+
+Convergents of \(\tau\):
+\[
+\frac1{9},\;
+\frac1{10},\;
+\frac3{29},\;
+\frac{28}{271},\;
+\frac{59}{571},\;
+\frac{87}{842},\;
+\frac{842}{8149},\;
+\frac{73341}{709805}.
+\]
+The last already matches \(\tau\) to \(12\) digits. That is the S-adic truncation error after one period: the standard word \(s_8\) is a length-\(783146\) mechanical prefix whose letter frequency is the \(8\)th convergent.
+
+
+The origin-\(0\) slip sequence computed from \(\lceil N\tau\rceil\) begins
+\[
+1000000001\,0000000001\,0000000001\,000000001\ldots
+\]
+ones at Beatty positions \(\lfloor(k-1)/\tau\rfloor\). The standard-word convention above begins with \(0^91=0000000001\), which is the same language shifted by one intercept convention (lower versus upper mechanical word, or a rotation of the seed). Same S-adic tower, two endpoint codings. The companion already said those two sequences represent the same phase.
+
+
+## 5. One composite substitution for the whole period
+
+
+Because \((a_i)\) has period \(8\), the characteristic word is a fixed point of the composite
+\[
+\Theta
+=
+R^{9}L^{1}R^{2}L^{9}R^{2}L^{1}R^{9}L^{87}
+\]
+(or the \(L/R\) swap matching your chosen seed). \(\Theta\) is a single substitution \(\{0,1\}\to\{0,1\}^*\). Its incidence matrix is the monodromy of one CF period. The Perron eigenvalue is the length-growth across one period,
+\[
+\lambda_\Theta
+\sim
+\frac{\lvert s_8\rvert}{\text{unit seed}}
+\sim 7.83\times 10^5,
+\]
+and the positive eigenvector is the letter-frequency \((\beta,\tau)\). After applying \(\Theta\) once you have a block of hundreds of thousands of letters; after \(k\) times, length \(\sim\lambda_\Theta^k\).
+
+
+That is what “quadratic slope \(\Rightarrow\) morphic” means here. You do not need an infinite nonperiodic directive. You need one fat substitution and a fixed point
+\[
+\Theta(w)=w.
+\]
+
+
+Do not confuse that with a finite residual state. \(\Theta\) *generates* longer prefixes from a seed. To emit the next bit of \(w\) you still need either the phase \(\rho\), the Ostrowski digits of the current position, or an unbounded counter into the current \(\Theta\)-block. The substitution is a compressor of *construction*, not a closed label for *one-step autonomy*.
+
+
+## 6. Ostrowski numeration is the position coordinate
+
+
+The dual of the directive sequence is how you address a time index. Every \(N\) has a unique Ostrowski expansion in the denominators \(q_i\) of \(\tau\):
+\[
+N=\sum_{i\ge 1}b_i q_{i-1},
+\qquad
+0\le b_1\le a_1,\quad
+0\le b_i\le a_i,
+\quad
+b_{i+1}=a_{i+1}\Rightarrow b_i=0.
+\]
+The letter \(w_N\) is a locally computable function of those digits. That is the S-adic analogue of “keep the phase.” The digit string \((b_i)\) is unbounded in length as \(N\to\infty\). Bounded memory of the last \(r\) emitted bits is exactly what the unique right-special factor forbids.
+
+
+Denjoy–Koksma at convergent times \(q_n\) is the statement that one standard block is an even comb. S-adic says those blocks are nested by the morphism rule. Same comb, two languages.
+
+
+## 7. Derived words and return substitutions
+
+
+A second S-adic presentation uses **returns to \(1\)**. In the slip word a \(1\) is always isolated, so the first-return words to \(1\) are
+\[
+10^8\quad\text{and}\quad 10^9
+\]
+(gap \(9\) or \(10\)). The derived word that records which return is used is itself Sturmian, of slope
+\[
+\bigl\{1/\tau\bigr\}=\frac1\tau-9.
+\]
+Its CF is the tail of the CF of \(1/\tau\) after the first partial quotient \(9\). That is the general fact: desubstitution by first returns peels the first directive letter and leaves the S-adic tail.
+
+
+Repeat eight times and you are back at a word of the same slope — one period of \(\Theta\). The rare \(87\)-block is the long run of one return type before the directive flips. Combinatorially that is why \(10\)-gaps dominate: \(P(\text{gap }10)=1/\tau-9\approx 0.678\).
+
+
+## 8. What this does and does not close
+
+
+Closed, as mathematics of the declared coding:
+
+
+- The slip language is S-adic on \(\{L,R\}\) with directive \(\overline{(9,1,2,9,2,1,9,87)}\).
+- It is substitutive via the period-\(8\) composite \(\Theta\).
+- Standard words are the finite S-adic approximants; their frequencies are the convergents of \(\tau\).
+- Return words are \(10^8\) and \(10^9\); the derived word is the S-adic tail.
+- None of that makes \(\sigma_n\) a function of \(\sigma_{n-1},\ldots,\sigma_{n-r}\).
+
+
+Still failed or unresolved, as in the companion ledger:
+
+
+- current-label autonomy: `FAILED`
+- finite-state generator of the infinite word: `IMPOSSIBLE` (irrational frequency, or equivalently unbounded Ostrowski length)
+- platform instantiation of \(\Theta\): `UNRESOLVED`
+
+
+\(\Theta\) is not \(\mathcal L\), not \(R_n\), and not a third key. It is a recipe for prefixes of one observation of a circle.
+
+
+## 9. How to write it in the file
+
+
+A tight paragraph for Geometry Upgrade / OMNIBUS cross-reference:
+
+
+> The departing-slip sequence is the mechanical word of slope \(\tau=[0;\overline{9,1,2,9,2,1,9,87}]\). It is S-adic on the Sturmian pair \(L,R\) with that directive, and substitutive by the period-\(8\) composite. Standard words \(s_n=s_{n-1}^{a_n}s_{n-2}\) are the nested approximants; return words to letter \(1\) are \(10^8\) and \(10^9\). This constructs prefixes. It does not close a finite residual. The predictive coordinate remains \(\rho=\{39\theta\}\).
+
+
+That is the whole use of S-adic here: name the directive, keep the phase, do not promote a morphism to a machine.
+
+
+The strand indicator 1[0,1/3)(z)1_{[0,1/3)}(z)1[0,1/3)​(z) is not a Sturmian coding of the zzz-rotation against an interval of length γ\gammaγ. Its length 1/31/31/3 does not lie in Z+γZ\mathbb Z+\gamma\mathbb ZZ+γZ, so it is not a bounded-remainder set. Complexity of that one-letter occupation sequence is not m+1m+1m+1. Centered counts are unbounded. Same circle, different partition, different symbolic class.
+8. Cocycles, factors, extensions
+Read against §9 of the maximization report:
+Object
+	Symbolic meaning
+	ρ\rhoρ-rotation
+	minimal factor for the slip language
+	σ\sigmaσ as a function of ρ\rhoρ
+	discontinuous coding map
+	Στ\Sigma_\tauΣτ​
+	symbolic extension that restores compactness and continuity of the shift
+	zzz-rotation
+	factor that still sees the strand
+	skew product (ρ,a)↦(ρ′,a−σ)(\rho,a)\mapsto(\rho',a-\sigma)(ρ,a)↦(ρ′,a−σ)
+	ergodic C3C_3C3​-extension of the slip rotation; not a coboundary
+	skew product (θ,a)↦(Tθ,a−σ)(\theta,a)\mapsto(T\theta,a-\sigma)(θ,a)↦(Tθ,a−σ)
+	not ergodic; three invariant graphs a−s(θ)a-s(\theta)a−s(θ)
+	Sturmian theory is about the first four rows. The last two are group extensions of that coding. Do not call the C3C_3C3​ extension a Sturmian factor. It is an extension by a cocycle valued in a finite group.
+Kronecker still applies: the ρ\rhoρ-rotation has no nontrivial finite measurable factor. Στ\Sigma_\tauΣτ​ is an almost one-to-one extension of the rotation, not a finite factor of it.
+9. What Sturmian theory refuses to give the rest of the stack
+* A finite residual state. Linear complexity plus irrational slope forbids it.
+* A Markov kernel that generates the process. The special word at every order is the obstruction; P(101)=0P(101)=0P(101)=0 is the order-222 case.
+* A mediator. The unique right-special word is a combinatorial cut, not a third constitutional seat.
+* A joining of two clocks. A product of two Sturmian systems is not Sturmian. Complexity becomes quadratic. The relative-phase factor uuu in §10 is a rotation, which may itself be coded by a Sturmian word if you binarize catch/no-catch at a width equal to the angle. That is a new coding, declared separately.
+* Empirical platform status. Substitutive structure of a quadratic slope is a theorem about τ∈Q(5)\tau\in\mathbb Q(\sqrt5)τ∈Q(5​). It is not a hardware description.
+10. How to use it as an instrument
+If the screen lane is written up:
+1. Call σ\sigmaσ a mechanical word of slope τ\tauτ and intercept ρ\rhoρ. Cite the identity S=⌈Nτ−ρ⌉S=\lceil N\tau-\rho\rceilS=⌈Nτ−ρ⌉.
+2. Use p(m)=m+1p(m)=m+1p(m)=m+1 and unique right-special factors as the descent geometry at every horizon, not only at horizon 111.
+3. Use Beatty gaps {9,10}\{9,10\}{9,10} as the two-distance theorem for this partition.
+4. Use Στ\Sigma_\tauΣτ​ when you need a compact shift; use ρ∈T\rho\in\mathbb Tρ∈T when you need the minimal predictive coordinate.
+5. Do not say “Sturmian” about bnb_nbn​, about (s,σ)(s,\sigma)(s,σ) as a six-letter primitive language, or about catch distance. Those have different complexity functions.
+6. Keep L\mathcal LL out of Στ\Sigma_\tauΣτ​. The subshift is a model of one declared observation.
+One-line mechanic: Sturmian means the future of a two-letter rotation code is a cut on a circle, and exactly one finite word still sits on both sides of the remaining cut. That is the 39-screen. Labels name the cut. They are not the state.
+Explore S-adic substitutions for Sturmian words
+Exploring S-adic substitutions for Sturmian words
++2 more
+Computing standard words for the slope
+Computing convergent denominators for the slope
+Computing the standard-word recurrences from τ’s continued fraction so the S-adic tower is explicit.
+
+
+Denjoy–Koksma is a **block-sum bound at continued-fraction times**, not a residual law and not a bound for every \(q\) with \(\lVert q\alpha\rVert\le 1/q\). The companion’s §8 is the version that should stand. This pass is that statement, the proof geometry, the two failed shortcuts, and what the 39-screen uses instead.
+
+
+## 1. Two inequalities with similar names
+
+
+**Koksma.** Any \(N\) points \(x_1,\ldots,x_N\) on \([0,1)\), any \(f\) of total variation \(V(f)\):
+\[
+\Bigl\lvert\frac1N\sum_{k=1}^N f(x_k)-\int f\Bigr\rvert
+\le
+V(f)\,D_N^*,
+\]
+where \(D_N^*\) is the extreme discrepancy of the point set. This is an integration-error identity. It does not need a rotation.
+
+
+**Denjoy–Koksma.** Specialize to an irrational rotation (or, in Herman’s form, a circle map with invariant probability \(\mu\)) and to a denominator \(q\) of a rational \(p/q\) satisfying
+\[
+\bigl\lvert\alpha-p/q\bigr\rvert<\frac1{q^2}.
+\]
+Then for every starting point,
+\[
+\boxed{
+\Bigl\lvert
+\sum_{k=0}^{q-1}f(x+k\alpha)
+-q\int f\,d\lambda
+\Bigr\rvert
+\le
+V(f).
+}
+\]
+The sum, not the average, is bounded by the variation. Convergents \(p_n/q_n\) all satisfy the Diophantine hypothesis, so the bound holds along \(q=q_n\).
+
+
+Herman’s version replaces the rigid rotation by any circle map \(f\) of irrational rotation number, with \(\mu\) \(f\)-invariant, and the same \(1/q^2\) approximation to that rotation number. For the screen you only need the rigid case.
+
+
+The two theorems meet: a convergent orbit segment has discrepancy \(D_q^*=O(1/q)\), Koksma then gives an \(O(V/q)\) error on the *average*, hence \(O(V)\) on the *sum*. Denjoy–Koksma is the sharp packaging of that fact at those special \(q\).
+
+
+## 2. Why convergents, not “any small \(\lVert q\alpha\rVert\)”
+
+
+A convergent \(p_n/q_n\) is a *best* approximation: no smaller denominator beats it, \(p_n\) and \(q_n\) are coprime, and the \(q_n\) points
+\[
+\{x,\ x+\alpha,\ \ldots,\ x+(q_n-1)\alpha\}
+\]
+place **exactly one** point in each interval of a partition of mesh \(\sim 1/q_n\). That is the comb.
+
+
+\(\lVert q\alpha\rVert\le 1/q\) only says the orbit *almost closes*. It does not say the \(q\) points are unclustered. If \(p/q\) is unreduced, the segment can sit on a shorter cycle and pile up.
+
+
+Companion §8.1 is the exact kill of that shortcut. For
+\[
+\alpha_*=\tfrac12+\tfrac{\sqrt5}{1000},\qquad q=10,\qquad f=\mathbf{1}_{[0,1/4)},
+\]
+one has \(\lVert 10\alpha_*\rVert<1/10\), but the ten points form two tight clusters of five. Hits in \([0,1/4)\): \(5\). Centered error \(2.5>V(f)=2\). The hypothesis \(\lvert\alpha-p/q\rvert<1/q^2\) with \(\gcd(p,q)=1\) is the one that forbids that clustering.
+
+
+Semi-convergents (intermediates \(p=ap_n+p_{n-1}\), \(q=aq_n+q_{n-1}\) with \(1\le a<a_{n+1}\)) still give well-spaced combs and are the terms that appear in Ostrowski expansions. Random \(q\) with a lucky small return do not.
+
+
+## 3. Proof geometry
+
+
+Assume \(\int f=0\) by subtracting the mean. Let \(q=q_n\), \(p=p_n\). The three-gap theorem says the \(q\) complementary arcs have at most three lengths, and those lengths are
+\[
+\lVert q\alpha\rVert
+\quad\text{scale:}\quad
+\frac1q+O\bigl(\lVert q\alpha\rVert\bigr).
+\]
+For a convergent, \(\lVert q\alpha\rVert<1/q\), so every arc is \(<2/q\).
+
+
+A standard arrangement: the intervals
+\[
+I_j=\Bigl[\frac{j}{q},\frac{j+1}{q}\Bigr)
+\]
+each contain **exactly one** point of the segment. That is Lemma 5 in the usual writeup.
+
+
+Write
+\[
+\sum_{k=0}^{q-1}f(x+k\alpha)
+=\sum_{j=0}^{q-1}f(\xi_j),
+\qquad\xi_j\in I_j.
+\]
+Compare to \(q\int f=0\). On each \(I_j\) replace \(f(\xi_j)\) by the mean of \(f\) on \(I_j\). The error on one tooth is at most the oscillation of \(f\) on that tooth. Summing oscillations around a circular partition costs at most \(V(f)\). That is the inequality.
+
+
+If \(f\) is \(C^1\), one can integrate by parts against the discrepancy function and gain a factor of \(\lVert f'\rVert_\infty/q\) extra; that is a refinement, not the BV theorem.
+
+
+## 4. From special \(q\) to arbitrary \(N\): Ostrowski
+
+
+Every \(N\) has an Ostrowski expansion in the denominators of \(\alpha\):
+\[
+N=\sum_{i}b_i q_i,
+\qquad 0\le b_i\le a_{i+1},
+\quad\text{with the usual no-adjacent-carry rule}.
+\]
+Split the Birkhoff sum into those blocks. Each block of length \(q_i\), started at whatever phase the previous block ended, is a Denjoy–Koksma block, so contributes at most \(V(f)\) after centering. There are \(b_i\) such blocks at scale \(i\). Hence
+\[
+\sup_x\bigl\lvert S_N f(x)-N\bar f\bigr\rvert
+\le
+V(f)\sum_i b_i.
+\]
+If the partial quotients \(a_i\) are bounded (constant type / badly approximable), the number of Ostrowski digits is \(O(\log N)\) and the digits themselves are bounded, so
+\[
+\boxed{S_Nf-N\bar f=O\bigl(V(f)\log N\bigr)}
+\]
+uniformly in the start. That is Jitomirskaya’s form for constant-type \(\alpha\): \(\lvert S_k\rvert\le C\log k\cdot V(f)\).
+
+
+For Diophantine type \(r>1\) the bound becomes \(O\bigl(k^{1-1/r}\log k\bigr)\). Golden-type \(\alpha=\varphi^{-2}=[0;2,\overline{1}]\) is constant type, so the generic BV law on the screen’s base rotation is **logarithmic**, not bounded.
+
+
+The proposed sharpening \(V(f)\,q\,\lVert q\alpha\rVert\) is not a theorem. Companion §8.2: golden convergent \(q=5\), \(f=\mathbf{1}_{[0,1/1000)}\), centered error \(0.995>2\cdot5\cdot\lVert5\alpha\rVert\approx0.902\).
+
+
+## 5. Bounded remainder is a different property
+
+
+An observable can beat Denjoy–Koksma. \(f\) is a **bounded remainder set** (or function) when
+\[
+\sup_{x,N}\bigl\lvert S_N f(x)-N\bar f\bigr\rvert<\infty.
+\]
+For an interval indicator on an irrational rotation, this happens iff the length lies in \(\mathbb Z+\alpha\mathbb Z\), endpoints excepted. The slip bit is exactly that case:
+\[
+\sigma-\tau=\rho\circ T-\rho,
+\qquad
+\lvert S_{n,N}-N\tau\rvert<1.
+\]
+The transfer is the within-bin phase. Denjoy–Koksma did not construct it. The endpoint identity did.
+
+
+The strand indicator \(1_{[0,1/3)}(z)\) is the in-model counterexample on the other side: \(1/3\notin\mathbb Z+\gamma\mathbb Z\), so centered occupation is unbounded, while the \(O(\log N)\) envelope still holds.
+
+
+| Observable | Mean | What controls \(S_N-N\mu\) |
+|---|---|---|
+| Generic BV on \(\alpha=\varphi^{-2}\) | \(\int f\) | DK + Ostrowski: \(O(V\log N)\) |
+| Slip \(\sigma\) | \(\tau\) | exact coboundary: \(<1\) |
+| One strand of \(z\) | \(1/3\) | unbounded, \(O(\log N)\) |
+
+
+## 6. Discrepancy language, used correctly
+
+
+The empirical measure of \(q\) orbit points and Lebesgue are at total-variation distance \(1\): atoms versus a density. They are close in **interval discrepancy** and therefore close against BV test functions, which is all Koksma needs. Do not say the measures are TV-close.
+
+
+Three-gap is the spacing lemma inside the convergent comb. At most three lengths, largest the sum of the other two. Two lengths at pure convergents. That is why “a rotation segment has two gaps” was too strong, and why “the comb is even at \(q_n\)” is right.
+
+
+## 7. What the inequality is for in this project
+
+
+Use it as a **finite-length envelope** for declared BV observations of a declared rotation, at declared convergent times, or via Ostrowski for all \(N\) with an \(O(\log N)\) constant you can write down from \(V(f)\) and \(\sup a_i\).
+
+
+Do not use it to:
+
+
+- close residual descent (one-step autonomy is a function on labels),
+- claim every golden BV sum is bounded,
+- merge two clocks (apply it to the *relative-phase* factor \(u\) after that factor is declared),
+- turn a frequency test on a finite sample into a falsification of unique ergodicity without an envelope.
+
+
+For the slip bit the envelope is stronger and already proved:
+\[
+S_{n,N}\in\bigl\{\lfloor N\tau\rfloor,\lceil N\tau\rceil\bigr\}.
+\]
+A finite-sample deviation from that set is a fail of the rotation model. Agreement is agreement with a mechanical word. Neither is residual closure. Neither is a platform.
+
+
+## 8. One-line mechanic
+
+
+Koksma: variation times how uneven the points are.  
+Denjoy–Koksma: at a convergent, the points are even enough that variation itself bounds the *sum*.  
+Ostrowski: glue those sums; bounded type costs a log.  
+The screen’s slip skips the glue. It is an endpoint difference, so the error never reaches \(1\).
+Ostrowski is the numeration that turns Denjoy–Koksma from a statement at special times \(q_n\) into a statement at every \(N\). You write \(N\) in the denominator basis of \(\alpha\), split the Birkhoff sum into those blocks, and add the block errors.
+
+
+## 1. The expansion
+
+
+Let \(\alpha=[a_0;a_1,a_2,\ldots]\) be irrational, with convergents \(p_n/q_n\),
+\[
+q_{-1}=0,\quad q_0=1,\quad
+q_{n}=a_n q_{n-1}+q_{n-2}.
+\]
+Every integer \(N\ge 0\) has a unique **Ostrowski expansion**
+\[
+\boxed{
+N=\sum_{k=1}^m b_k q_{k-1}
+}
+\]
+subject to
+\[
+0\le b_1\le a_1,
+\qquad
+0\le b_k\le a_k\quad(k\ge 2),
+\qquad
+b_{k+1}=a_{k+1}\ \Longrightarrow\ b_k=0.
+\]
+The last rule is the no-carry constraint: you may not sit on a full \(a_{k+1}\) copies of \(q_k\) and also use \(q_{k-1}\). That is the same adjacency ban that makes Zeckendorf unique for Fibonacci.
+
+
+For the screen there are two bases, because there are two rotations.
+
+
+**Base \(\alpha=\varphi^{-2}=[0;2,\overline{1}]\).**  
+Denominators are the Fibonacci sequence shifted:
+\[
+q_n=1,2,3,5,8,13,21,\ldots
+\]
+After \(a_1=2\), every later \(a_k=1\), so digits are \(0\) or \(1\) and no two consecutive \(1\)s (Zeckendorf). Example:
+\[
+100=89+8+3,
+\qquad
+50=34+13+3,
+\qquad
+10000=6765+2584+610+34+5+2.
+\]
+
+
+**Base \(\tau=[0;\overline{9,1,2,9,2,1,9,87}]\).**  
+Denominators begin
+\[
+1,\ 9,\ 10,\ 29,\ 271,\ 571,\ 842,\ 8149,\ 709805,\ \ldots
+\]
+Digits may run up to \(9\), \(2\), or \(87\) according to the place. This is the numeration native to slip *counts*, because the mechanical-word blocks are the standard words of \(\tau\).
+
+
+Do not mix the two bases. Ostrowski for \(\alpha\) addresses time along \(\theta_n=\{n\alpha\}\). Ostrowski for \(\tau\) addresses time along the \(\rho\)-rotation of slope \(\tau\). Same integers \(N\), different digit strings.
+
+
+## 2. How a sum splits
+
+
+Fix \(f\) of bounded variation on the circle, rotation by \(\alpha\), mean \(\bar f\). Write
+\[
+S_N(x)=\sum_{k=0}^{N-1}f(x+k\alpha).
+\]
+Take the Ostrowski digits of \(N\) and cut the orbit into consecutive blocks of lengths
+\[
+\underbrace{q_{k-1},\ldots,q_{k-1}}_{b_k\text{ copies}},
+\quad k=m,m-1,\ldots,1.
+\]
+There are \(\sum b_k\) blocks. The \(j\)-th block starts at whatever phase the previous block ended; call it \(x_j\). Then
+\[
+S_N(x)-N\bar f
+=
+\sum_j\Bigl(S_{q^{(j)}}(x_j)-q^{(j)}\bar f\Bigr),
+\]
+where each \(q^{(j)}\) is some \(q_{k-1}\).
+
+
+Denjoy–Koksma on a convergent (and the same bound on the intermediates that actually appear as Ostrowski places) gives
+\[
+\bigl\lvert S_{q_{k-1}}(x_j)-q_{k-1}\bar f\bigr\rvert
+\le V(f).
+\]
+Hence the concatenated bound
+\[
+\boxed{
+\sup_x\bigl\lvert S_N(x)-N\bar f\bigr\rvert
+\le
+V(f)\sum_{k=1}^m b_k(N).
+}
+\]
+That is the whole mechanism. The quality of the bound is the digit-sum \(\sum b_k\), not \(N\) itself.
+
+
+## 3. What the digit-sum does
+
+
+- **Bounded partial quotients** (constant type): \(b_k\le A=\sup a_i\), and the number of digits is \(O(\log N)\) because \(q_n\) grows at least exponentially. So \(\sum b_k=O(\log N)\), and
+  \[
+  S_N-N\bar f=O\bigl(V(f)\log N\bigr).
+  \]
+  This is \(\alpha=\varphi^{-2}\) and also \(\tau\) (periodic CF, bounded \(a_i\) except the large but *bounded* \(87\)).
+
+
+- **Large isolated \(a_k\)**: a single digit can be huge. The \(87\) in \(\tau\) allows a block of eighty-seven copies of a standard word. That costs \(87\,V(f)\) at that scale, still \(O(\log N)\) overall because \(87\) is capped.
+
+
+- **Unbounded type**: if \(a_n\) grows fast, \(\sum b_k\) can be as large as a power of \(N\), and you recover the Diophantine-type bounds \(O(N^{1-1/r}\log N)\).
+
+
+The slip observable does not need this glue. Its error is already \(<1\) at every \(N\), so concatenating DK blocks would be a strictly worse estimate. Ostrowski is still the *address system* of that word: the digits tell you which standard-word factors you are inside. They just are not needed to bound the count.
+
+
+## 4. Worked splits on the screen’s \(N\)
+
+
+Against the \(\tau\)-denominators, greedy place-value (the unique Ostrowski digits sit inside these):
+
+
+\[
+\begin{aligned}
+39&=29+10,\\
+507&=271+8\cdot 29+4\cdot 1,\\
+10000&=8149+2\cdot 842+5\cdot 29+2\cdot 10+2\cdot 1.
+\end{aligned}
+\]
+
+
+Read those as Birkhoff cuts for a \(\tau\)-rotation observable. For slip counts you already know the exact answer
+\[
+S_{0,39}=5,\quad S_{0,507}=53,\quad S_{0,10000}=1034,
+\]
+which is \(\lceil N\tau\rceil\), not an Ostrowski estimate. The expansion tells you *why* those \(N\) are ordinary times, not convergent times: \(39\) is not a \(q_n(\tau)\); \(10\) and \(29\) are. A DK block at \(q=29\) would give slip error \(\le V(\sigma)\); the coboundary gives error \(<1\), and \(V(\sigma)\) is the jump count of \(\sigma\), larger than \(1\).
+
+
+Against the \(\alpha\)-denominators, \(10000\) is the Zeckendorf sum above. That split is what you would use for a generic BV function of \(\theta\), such as a bin indicator \(1_{[k/39,(k+1)/39)}\). Those are not bounded-remainder functions. Their centered counts are \(O(\log N)\) by this expansion, and can be shown unbounded by the interval criterion.
+
+
+## 5. Connection to S-adic blocks
+
+
+Ostrowski digits *are* the run-length instructions for the S-adic product.
+
+
+At place \(k\), the digit \(b_k\) means: concatenate \(b_k\) copies of the standard word \(s_{k-1}\), then drop to the next surviving place. The no-carry rule \(b_{k+1}=a_{k+1}\Rightarrow b_k=0\) is the same rule that keeps standard words from overlapping illegally. So:
+
+
+- S-adic builds the *word*,
+- Ostrowski names the *position* in that word,
+- Denjoy–Koksma bounds the *Birkhoff sum* of a BV test function on the corresponding rotation segment.
+
+
+Three readings of one CF.
+
+
+For \(\tau\), a digit \(b=87\) at the last place of a period is “write the length-\(8149\) standard word eighty-seven times.” That is the long run of \(10\)-gaps in the slip sequence. A digit \(b=1\) at \(q=29\) is a short insertion of the \(3/29\) block.
+
+
+## 6. Sums that are not BV Birkhoff sums
+
+
+Ostrowski also organizes other additive quantities on the same orbit.
+
+
+**Cocycle sums.** If \(\psi\) takes values in an abelian group \(A\),
+\[
+c(0,N)=\sum_{k=0}^{N-1}\psi(T^k x)
+\]
+splits over the same blocks. When \(\psi\) is BV as a function \(\mathbb T\to\mathbb R\subset A\) you get the real bound above. When \(\psi=\sigma\bmod 3\), the real coboundary already determines the sum, and reduction mod \(3\) is bookkeeping. Ostrowski does not create a new \(C_3\) bound.
+
+
+**Driven versus autonomous.** Concatenating exact block maps does not produce a memoryless next-symbol rule. Each block map still needs the phase at the block start. The digits name the block; they do not eliminate \(\rho\).
+
+
+**Two clocks.** If catch indicators live on the relative phase \(u\) of increment \(\nu\), Ostrowski must be written in the denominators of \(\nu\), not of \(\alpha\) or \(\tau\). Wrong base, wrong blocks, wrong envelope.
+
+
+## 7. How to use it as a test envelope
+
+
+A predeclared finite-\(N\) check against unique ergodicity of a BV observation \(f\) of a declared rotation should read:
+
+
+1. Name \(\alpha\), name \(f\), name \(V(f)\).
+2. Expand \(N\) in the Ostrowski basis of that \(\alpha\).
+3. Predict
+   \[
+   \bigl\lvert S_N-N\bar f\bigr\rvert
+   \le V(f)\sum b_k
+   \]
+   or, if you only want a coarse constant-type bound,
+   \[
+   \bigl\lvert S_N-N\bar f\bigr\rvert
+   \le C V(f)\log N
+   \]
+   with \(C\) from \(\sup a_i\) and the \(q_n\) growth rate.
+4. A violation of that inequality is a fail of the rotation-plus-\(f\) model.
+5. For \(\sigma\) itself, replace the Ostrowski envelope by the exact test \(S\in\{\lfloor N\tau\rfloor,\lceil N\tau\rceil\}\).
+
+
+Agreement with either envelope is not residual closure and not a platform.
+
+
+## 8. One-line mechanic
+
+
+Ostrowski writes \(N\) as a sum of convergent lengths with bounded digits and a no-carry rule. Denjoy–Koksma bounds each piece. The digit-sum bounds the whole. For generic BV that is an \(O(\log N)\) law on these quadratics. For the slip bit the law is stronger and already closed: the count *is* the phase difference, so the digits address the word and do not have to save the sum.
+S-adic is a construction language: a **finite set of substitutions** plus an infinite **directive sequence**. A substitution by itself is the constant-directive special case. Sturmian words are the smallest interesting example. The 39-screen slip is that example with a periodic directive read off \(\tau\).
+
+
+## 1. The objects
+
+
+A substitution on a finite alphabet \(\mathcal A\) is a monoid map \(\sigma:\mathcal A^*\to\mathcal A^*\) determined by the words \(\sigma(a)\), \(a\in\mathcal A\). It acts on infinite words by concatenation.
+
+
+Fix a finite set \(S\) of substitutions on the same alphabet. A word \(w\) is **\(S\)-adic** if there exist \(d_0,d_1,d_2,\ldots\in S\) and letters (or finite words) \(u_n\) such that
+\[
+w=\lim_{n\to\infty}\sigma_{d_0}\sigma_{d_1}\cdots\sigma_{d_n}(u_n).
+\]
+The sequence \((d_n)\) is the directive sequence. Each finite product is a longer and longer “standard block.” The limit is letterwise on prefixes.
+
+
+Useful specializations:
+
+
+| Regime | Directive | Typical name |
+|---|---|---|
+| Constant | \(d_n=\sigma\) for all \(n\) | substitutive / morphic / pure morphic |
+| Eventually periodic | \((d_n)\) eventually repeats | periodically S-adic; still substitutive via the composite |
+| Unbounded but finite \(S\) | infinitely many distinct finite patterns of \(d_n\) | properly S-adic |
+| Growing alphabets | \(S_n\) on \(\mathcal A_n\) with maps \(\mathcal A_{n+1}\to\mathcal A_n^*\) | general S-adic tower / Bratteli–Vershik |
+
+
+“Finite alphabet, finite \(S\)” is the working definition in most symbolic-dynamics papers. The Bratteli–Vershik picture is the same tower drawn as a graded graph: level \(n\) is letters of the current alphabet, edges are how \(\sigma_{d_n}\) writes those letters as words in the previous alphabet.
+
+
+## 2. Why anyone bothers
+
+
+A single primitive substitution has a rigid structure: linear recurrence, unique ergodicity under mild hypotheses, Pisot or expanding incidence matrix, bounded discrepancy for letter counts if the substitution is Pisot, etc.
+
+
+S-adic keeps the **local** rigidity of a substitution (each step is a finite rewriting rule) while letting the rule change. That is exactly the situation for:
+
+
+- Sturmian words (two rules \(L,R\), directive = continued fraction),
+- interval-exchange trajectories (Rauzy induction produces a directive sequence of monoid generators),
+- Arnoux–Rauzy / episturmian words (a larger finite monoid, still S-adic),
+- some linearly recurrent subshifts that are not substitutive.
+
+
+The **S-adic conjecture** (now a theorem in several precise forms) is the converse direction: a subshift of linear factor complexity is S-adic with a controlled directive sequence. Sturmian is the base case \(p(n)=n+1\). Complexity \(p(n)\le kn\) corresponds to an S-adic tower whose substitutions stay in a compact family of “simple” maps.
+
+
+That is the right conceptual link to the companion: linear complexity of \(\sigma\) is not a mystery property. It is the complexity of an S-adic tower with two maps.
+
+
+## 3. Substitutive versus S-adic, sharply
+
+
+A word is **pure morphic** if it is a fixed point of one substitution, **morphic** if it is the image of a pure morphic word under a coding.
+
+
+Periodically S-adic \(\Rightarrow\) morphic: if \((d_n)\) has period \(p\), the composite
+\[
+\Theta=\sigma_{d_0}\cdots\sigma_{d_{p-1}}
+\]
+is a single substitution, and the word is a fixed point of \(\Theta\) (after a prefix).
+
+
+Quadratic irrationals have eventually periodic continued fractions. Therefore every Sturmian word of quadratic slope is morphic. That is the 39-screen: \(\tau\in\mathbb Q(\sqrt5)\) gives period \(8\), composite \(\Theta=R^9 L^1 R^2 L^9 R^2 L^1 R^9 L^{87}\) (up to the \(L/R\) seed convention).
+
+
+A generic Sturmian word, slope with unbounded partial quotients, is S-adic on \(\{L,R\}\) and **not** substitutive. The directive never repeats. There is no single \(\Theta\).
+
+
+So: “S-adic” is the genus. “Substitutive” is the periodic-directive species. The screen is the species. A random irrational rotation coding is only the genus.
+
+
+## 4. The Sturmian pair, again, as the model \(S\)
+
+
+\[
+L:\ 0\mapsto 0,\ 1\mapsto 10,
+\qquad
+R:\ 0\mapsto 01,\ 1\mapsto 1.
+\]
+Directive \((a_n)\) from \(\alpha=[0;a_1,a_2,\ldots]\) produces the characteristic word of slope \(\alpha\) as
+\[
+\lim R^{a_1}L^{a_2}R^{a_3}L^{a_4}\cdots(0).
+\]
+Standard words are the finite products:
+\[
+s_{-1}=1,\quad s_0=0,\quad s_n=s_{n-1}^{a_n}s_{n-2}.
+\]
+Desubstitution by first returns peels \(a_1\) and leaves the tail directive. That is S-adic induction. It is Rauzy induction restricted to two intervals.
+
+
+For \(\tau=[0;\overline{9,1,2,9,2,1,9,87}]\) the first blocks are \(0^91\), \(0^910\), then the length-\(32\) word with three ones, and after one full period a block of length \(783146\). Those lengths are the S-adic clocks. Ostrowski digits of \(N\) say how many copies of each surviving block appear in the prefix of length \(N\).
+
+
+## 5. Incidence matrices and frequencies
+
+
+Each substitution \(\sigma\) has an incidence matrix \(M_\sigma\) with
+\[
+(M_\sigma)_{a,b}=\text{number of }a\text{ in }\sigma(b).
+\]
+An S-adic product of length \(n\) has matrix
+\[
+M^{(n)}=M_{d_0}M_{d_1}\cdots M_{d_n}.
+\]
+If the infinite product of normalized columns converges, letter frequencies exist. For Sturmian \(L,R\) they always do: the frequency of \(1\) is the slope. For a periodic directive the Perron eigenvector of \(\Theta\) is the frequency vector \((\beta,\tau)\).
+
+
+This is also why a substitutive binary word cannot have an irrational letter frequency *unless* the substitution is not of constant length in a way that forces rational frequencies — actually a primitive substitution can have irrational frequencies (Perron eigenvalue not integer). Fibonacci substitution has frequency \(1/\varphi\). The screen’s \(\Theta\) has frequency \(\tau\), irrational. That kills *finite-state automata with a finite recurrent-state output*, not substitutions: a substitution is allowed to expand.
+
+
+The distinction the companion needs:
+
+
+- finite **output automaton** (bounded memory of emitted letters) \(\Rightarrow\) eventually periodic \(\Rightarrow\) rational frequencies,
+- finite **rewriting rule** (substitution / S-adic) \(\Rightarrow\) allowed irrational frequencies, unbounded descriptive state.
+
+
+\(\Theta\) is the second. Descent on \((\sigma_n)\) asked for the first.
+
+
+## 6. Linear recurrence and recognizability
+
+
+A subshift is **linearly recurrent** if there is \(K\) such that every factor of length \(n\) returns inside every factor of length \(Kn\). Primitive substitutive subshifts are linearly recurrent. S-adic subshifts are linearly recurrent when the directive sequence is **bounded and primitive enough** (each map appears with controlled gaps and each matrix product is positive).
+
+
+Sturmian words of bounded type — including \(\tau\) — are linearly recurrent. That is the symbolic form of “partial quotients bounded.” It gives:
+
+
+- uniform return times to a given block,
+- unique ergodicity,
+- discrepancy control for cylinder indicators.
+
+
+It does **not** give a finite Markov representation. Linear recurrence plus \(p(n)=n+1\) is compatible with exactly one right-special word of each length, which is the anti-Markov geometry.
+
+
+Mosse recognizability: for a primitive aperiodic substitution, long enough factors have unique desubstitution. S-adic recognizability needs extra hypotheses on the directive. When it holds, there is a canonical inverse of each \(\sigma_{d_n}\) on the language. That inverse is the “keep more context” move in residual language: desubstitution restores the coordinate the one-step label threw away.
+
+
+## 7. Broader families, so the word is not overused
+
+
+**Episturmian / Arnoux–Rauzy.** Alphabet size \(d\ge 2\), monoid generated by \(d\) morphisms analogous to \(L,R\). Complexity \(p(n)=(d-1)n+1\). The \(d=3\) Arnoux–Rauzy word is the standard higher-alphabet cousin. The pair \((s,\sigma)\) is *not* Arnoux–Rauzy on six letters. Its complexity is \(3(m+1)\), which is three copies of a Sturmian language, not a primitive \(6\)-letter AR language.
+
+
+**Interval exchanges.** An IET of \(k\) intervals has Rauzy–Veech induction whose monoid is generated by a finite set of substitutions on \(k\) letters. Complexity is \(p(n)=kn\). The full \(39\)-bin itinerary of \(\theta\) is an IET coding (equal-width partition, rotation = IET of \(39\) intervals). Complexity is linear with a large slope, not \(m+1\). Calling that itinerary Sturmian is wrong. Calling it S-adic is right.
+
+
+**Toeplitz / regular Toeplitz.** Also S-adic, usually on growing constant-length substitutions. Different discrepancy behavior.
+
+
+Use the name at the right altitude: slip = Sturmian = S-adic on two maps. Full bin itinerary = S-adic IET tower. Strand/slip pair = product of a Sturmian language with a coboundary, not a primitive higher-alphabet S-adic core.
+
+
+## 8. What S-adic does not do in this stack
+
+
+- It does not close \(\overline U_R\) on current labels.
+- It does not make \(\mathcal L\) a substitution system.
+- It does not identify \(\Theta\) with a platform lattice \(\Lambda_{q_{\mathrm{site}}}(g)\).
+- It does not merge two clocks. A product of two S-adic systems is S-adic on a product alphabet with a product (or interleaved) directive; complexity multiplies. Catch/no-catch at a width not equal to the relative increment is a different coding.
+- It does not replace the evidence firewall. A morphism is a construction of a declared sequence.
+
+
+## 9. How to write the tower in one block
+
+
+```text
+alphabet:        {0,1}          # 1 = slip
+S:               {L, R}
+directive:       period-8 CF of tau
+                 (9,1,2,9,2,1,9,87)
+status:          periodically S-adic = substitutive
+composite:       Theta = product over one period
+predictive coord: rho = {39 theta}
+Ostrowski:       digits of N in q_n(tau) = address in the tower
+descent on bits: FAILED
+finite automaton: IMPOSSIBLE
+platform:        UNRESOLVED
+```
+
+
+That is the whole S-adic claim for the screen. Everything else is either a larger-alphabet tower (bins, IETs) or a different file (human-side residuals, toroidal lumpability).
+
+
+One-line mechanic: **a substitution rewrites letters; S-adic lets the rewriting rule change; a periodic directive collapses back to one fat substitution; none of those is a finite state for the emitted sequence.** The rule builds prefixes. The phase still runs the next bit.
+Rauzy induction is the Euclidean algorithm for interval exchanges. For two intervals it *is* the continued-fraction engine behind Sturmian S-adic. For more intervals it is the same idea with a permutation that can change. The 39-screen uses the two-interval case on \(\rho\). The \(39\)-bin itinerary is a coding of a rotation, not a generic \(39\)-exchange.
+
+
+## 1. Interval exchanges
+
+
+A **\(d\)-interval exchange** \(T=T(\lambda,\pi)\) on \([0,1)\) is given by a length vector \(\lambda=(\lambda_1,\ldots,\lambda_d)\) with \(\sum\lambda_i=1\), \(\lambda_i>0\), and a permutation \(\pi\in S_d\). Cut \([0,1)\) into intervals \(I_a\) of lengths \(\lambda_a\), in a fixed order. Send them to new positions in the order \(\pi\). On each piece \(T\) is a translation.
+
+
+A rigid rotation by \(\alpha\) is the \(2\)-IET with
+\[
+\lambda=(\alpha,1-\alpha),\qquad
+\pi=(2\ 1)
+\]
+or the swapped lengths. Every irrational rotation is of this form. An exchange of \(d\ge 3\) intervals is a genuine generalization: several discontinuities, not all on one orbit.
+
+
+Keane’s condition (the \(d-1\) discontinuity orbits infinite and disjoint) implies minimality. Unique ergodicity is subtler; almost every IET is uniquely ergodic (Masur–Veech), but there exist minimal non-uniquely-ergodic examples for \(d\ge 4\).
+
+
+## 2. The induction step
+
+
+Look at the first interval \(I_{\mathrm{top}}\) and the last interval \(I_{\mathrm{bot}}\) of the current partition. Compare their lengths.
+
+
+**Type \(0\)** (top longer): induce \(T\) on the complement of the last interval, i.e. on \([0,1-\lambda_{\mathrm{bot}})\). The last piece is being eaten by the first. After inducing and rescaling back to length \(1\), you get a new length vector and a new permutation.
+
+
+**Type \(1\)** (bottom longer): induce on the complement of the first interval and rescale.
+
+
+If the two lengths are equal the algorithm hits a rational relation and stops — the analogue of a finite continued fraction. For a rotation that is \(\alpha\) rational.
+
+
+Each step produces:
+
+
+- a type in \(\{0,1\}\),
+- a new permutation in a finite **Rauzy class** (the permutations reachable from \(\pi\)),
+- a new length vector, positive and summing to \(1\),
+- a substitution on the \(d\) letters that names the intervals: each old letter is written as a word in the new letters (how the induced pieces tile the old interval).
+
+
+That substitution is the S-adic map for this step. The infinite sequence of types and permutations is a path in the **Rauzy diagram**. The infinite product of the substitutions is the S-adic expansion of the itinerary.
+
+
+Rauzy–Veech induction keeps a little more data (zippered rectangles, a suspension over the IET). The extra moduli are Teichmüller-theoretic. You do not need them for the symbolic directive of a single IET.
+
+
+## 3. Two intervals: this is the continued fraction
+
+
+For \(d=2\) there is only one interesting permutation, the swap. The Rauzy diagram is a single loop with two edge labels, type \(0\) and type \(1\).
+
+
+Comparing \(\lambda_1\) and \(\lambda_2\) is comparing \(\alpha\) and \(1-\alpha\). Inducing and rescaling is one step of the subtractive (or additive, depending on whether you iterate the same type) Euclidean algorithm on those lengths. Counting how many times you fire the same type before the comparison flips is exactly a partial quotient \(a_n\).
+
+
+So:
+
+
+\[
+\text{2-IET Rauzy induction}
+\;=\;
+\text{continued fraction of }\alpha
+\;=\;
+\text{Sturmian directive }(a_n)
+\;=\;
+\text{S-adic product of }L\text{ and }R.
+\]
+The two morphisms from the last note *are* the Rauzy substitutions of the two types. Standard words \(s_n=s_{n-1}^{a_n}s_{n-2}\) are the finite induced partitions written as words.
+
+
+For the slip coordinate this dictionary is literal. On \(\rho\in[0,1)\),
+\[
+T\rho=\{\rho-\tau\},
+\qquad
+\sigma=\mathbf{1}_{[0,\tau)}(\rho).
+\]
+That is the \(2\)-IET with lengths \((\tau,1-\tau)\). Rauzy induction on it produces
+\[
+[0;\overline{9,1,2,9,2,1,9,87}].
+\]
+The type-run of length \(9\) is “eat the long interval nine times.” The \(87\) is a long sojourn on one type. First-return words to letter \(1\) are \(10^8\) and \(10^9\): those are the two induced intervals after one full peel of the first partial quotient.
+
+
+No extra theory is required for the screen’s S-adic tower. Rauzy induction *is* that tower.
+
+
+## 4. What changes at \(d\ge 3\)
+
+
+The permutation can move. The Rauzy diagram of a class is a finite directed graph whose vertices are permutations and whose edges are the two induction types that stay in the class. An infinite path plus a length vector in the corresponding positive cone determines an IET (up to the usual projective normalization).
+
+
+The S-adic alphabet has \(d\) letters. Complexity of a regular IET coding is
+\[
+p(n)=dn
+\]
+in the typical Keane case (exactly \(d\) right-special factors of each long enough length, one per discontinuity). That is why a generic \(d\)-IET language is not Sturmian unless \(d=2\).
+
+
+Arnoux–Rauzy words are the paths that stay on a very special diagram: at every step one letter is “the winner” and the others are rewritten by inserting that letter. Complexity \((d-1)n+1\). They are S-adic of a restricted kind, not general IET paths.
+
+
+Rauzy–Veech *renormalization* (projectivize the length vector after each step) is an acceleration of Teichmüller geodesic flow on the stratum of translation surfaces that suspend the IET. Unique ergodicity of almost every IET is unique ergodicity of that flow. Bounded partial quotients in the \(d=2\) case become, in higher \(d\), bounded Rauzy paths in a compact subset of the diagram × projective cone — linear recurrence of the subshift.
+
+
+## 5. Where the 39-screen sits
+
+
+Keep three codings distinct.
+
+
+**Slip \(\sigma\).**  
+\(2\)-IET on \(\rho\), lengths \((\tau,1-\tau)\). Rauzy induction = CF of \(\tau\). Language Sturmian. This is the object of Geometry Maximization §§4–6.
+
+
+**Pair \((s,\sigma)\).**  
+Not an IET on six intervals. It is a \(2\)-IET coding plus the \(C_3\) coboundary \(s'=s-\sigma\). Rauzy induction does not act on the six labels as a \(6\)-IET. The extra letter is a group extension, not a third cutting point of a single exchange.
+
+
+**Full bin \(b=\lfloor 39\theta\rfloor\).**  
+Equal-width coding of a rotation. Equivalent to a \(39\)-IET whose discontinuities all lie on one orbit (a rotation is a very special IET: one generating translation). Rauzy induction on that \(39\)-exchange is legal but clumsy. The minimal predictive coordinate is still \(\theta\), or \(\rho\) if you only need the within-bin phase for jumps. Complexity of the full \(39\)-letter itinerary is linear with slope \(39\), not \(m+1\).
+
+
+**Two-clock catch.**  
+A product of two rotations is a translation on \(\mathbb T^2\), equivalently an exchange on a polygon, not a \(1\)-dimensional IET. Rauzy–Veech in dimension \(1\) does not apply. Use the relative-phase factor \(u\) from the companion, then, if you binarize catch/no-catch at width equal to the increment, you get a new \(2\)-IET on \(u\). That is a declared extra coding, not an induction of the screen.
+
+
+## 6. What induction gives you operationally
+
+
+At each step you obtain a **recognized prefix rule**: every long enough factor of the current language has a unique desubstitution into the induced language (under Keane / aperiodicity). That is Mosse-type recognizability for the Rauzy substitutions along the path.
+
+
+In residual language:
+
+
+- the current IET letter is the coarse label,
+- one Rauzy step restores a bit of the length-vector coordinate,
+- the infinite path plus the projective length is a complete state,
+- any finite truncation of the path leaves a positive-measure fiber on which the next coarse letter is not constant.
+
+
+That last item is the non-descent locus at that horizon. For \(d=2\) it is the unique right-special word. For a generic \(d\)-IET there are \(d\) of them.
+
+
+Rauzy induction therefore *organizes* the predictive refinement of Geometry Upgrade: each induction step is one coarsest split that keeps the itinerary. It does not terminate at a finite residual.
+
+
+## 7. What it refuses to be
+
+
+- A mediator. The type \(\{0,1\}\) is which end of the exchange is shorter. It is not a third constitutional seat.
+- A platform lattice. Zippered rectangles are a suspension of an IET, not \(\Lambda_{q_{\mathrm{site}}}(g)\).
+- A proof that a finite complete kernel lumps. IET induction is deterministic. Toroidal FH-REF-1 is a Markov kernel on currents. Different category.
+- An empirical event class. A Rauzy path is a coding of one declared map.
+
+
+## 8. How to cite it in the companion
+
+
+A sufficient cross-reference:
+
+
+> The \(\rho\)-update is a \(2\)-IET. Its Rauzy induction is the continued fraction of \(\tau\), hence the S-adic directive already recorded. The \(39\)-bin itinerary is a rotation coding, equivalently a highly degenerate \(39\)-IET; induction on that exchange is not needed once \(\theta\) or \(\rho\) is retained. The pair \((s,\sigma)\) is a group extension of the \(2\)-IET, not a \(6\)-IET. Catch distance lives on a \(2\)-torus translation and is outside one-dimensional Rauzy induction.
+
+
+One-line mechanic: **Rauzy induction peels the longer end off an interval exchange and writes a substitution for how the remainder tiles the old pieces.** For two pieces that peel is the Euclidean algorithm. For the slip bit, that algorithm is already the CF of \(\tau\). You do not get a finite state. You get a named rule that builds the next standard block from the previous two.
+
+
+Rauzy induction rewrites an interval exchange. **Rauzy–Veech renormalization** does that *and* rescales the translation surface that suspends the exchange. The extra data are heights. The extra dynamics are Teichmüller geodesic flow. For two intervals this is the geodesic flow on the modular surface, and the first-return map on a section is the Gauss map of the continued fraction you already have.
+
+
+## 1. From an exchange to a surface
+
+
+An IET \(T(\lambda,\pi)\) is a map of an interval. Suspend it. Veech’s **zippered rectangles** attach, to each exchanged interval \(I_a\), a rectangle of width \(\lambda_a\) and height \(h_a>0\). Glue horizontal sides by the IET and vertical sides by a “zipper” rule compatible with \(\pi\). The result is a compact **translation surface** \(M(\lambda,h,\pi)\): charts to \(\mathbb C\) with derivatives in \(\{1\}\), finitely many conical singularities, area \(\langle\lambda,h\rangle\).
+
+
+The original interval is a transversal. The IET is first return to that transversal under the vertical flow. So:
+
+
+\[
+\text{IET}
+\;=\;
+\text{return map of vertical flow on a zippered rectangle}.
+\]
+
+
+For \(d=2\), \(\pi\) the swap, the surface is a flat torus. One modulus. For \(d\ge 3\) you get higher-genus translation surfaces in a stratum \(\mathcal H(\kappa)\) determined by the cone angles.
+
+
+The length vector \(\lambda\) lives in the stable (horizontal) homology. The height vector \(h\) lives in the unstable (vertical) homology. Area is the pairing.
+
+
+## 2. What renormalization adds to induction
+
+
+Rauzy induction acts on \((\lambda,\pi)\). It produces a new exchange on a shorter interval and a substitution on the letters.
+
+
+Rauzy–Veech keeps the heights and **renormalizes area**. After an induction step the induced interval has length \(1-\lambda_{\mathrm{win}}\). The new surface is the old surface with a rectangle cut off and reglued, then scaled so that area is \(1\) again (or so that the new transversal has length \(1\), depending on the normalization). Combinatorics follow the Rauzy diagram. The pair \((\lambda,h)\) is multiplied by an integer matrix — the **Rauzy–Veech cocycle** — and then projectivized.
+
+
+Write \(B_n\) for the nonnegative integer matrix of step \(n\). Lengths go forward by \(B_n^{-1}\) (the induced widths are the old widths, split), heights go forward by \(B_n^\top\) (the new rectangles stack the old heights). Different authors transpose the convention; the invariant is
+\[
+\langle\lambda_{n+1},h_{n+1}\rangle=\langle\lambda_n,h_n\rangle
+\]
+before the projective rescaling, and area \(1\) after it.
+
+
+An infinite Rauzy path plus a projective class \([\lambda:h]\) is a point of a finite cover of a stratum, cut down to a fundamental domain of zippered rectangles. The induction map on that domain is a **Poincaré section of Teichmüller geodesic flow**
+\[
+g_t=\begin{pmatrix}e^{t}&0\\0&e^{-t}\end{pmatrix}
+\]
+acting by affine stretch on the surface. Flow direction: stretch the vertical, contract the horizontal. Hitting the section = the vertical transversal has become short enough (or a zipper inequality has saturated) that you must cut and reglue. That cut-and-reglue is one Rauzy step.
+
+
+So Rauzy–Veech renormalization is not a new combinatorial gadget. It is Rauzy induction realized as a return map of \(g_t\) on a section of the moduli space.
+
+
+## 3. The two-interval case is the modular surface
+
+
+For a \(2\)-IET the zippered rectangle is a torus. The space of area-\(1\) flat tori is \(\mathrm{SL}(2,\mathbb R)/\mathrm{SL}(2,\mathbb Z)\). Teichmüller flow is the geodesic flow of the modular surface. A standard section is the Gauss map
+\[
+\alpha\mapsto\{1/\alpha\}
+\]
+on the continued-fraction interval. Rauzy type-runs of length \(a_n\) are the geodesic segments that stay in one cusp-neighborhood until the next partial quotient.
+
+
+That is the complete identification for the slip coordinate:
+
+
+\[
+\begin{aligned}
+\rho\text{-rotation of slope }\tau
+&=\ 2\text{-IET}\\
+&=\ \text{vertical return on a flat torus}\\
+\text{Rauzy induction}
+&=\ \text{CF of }\tau\\
+\text{Rauzy–Veech renormalization}
+&=\ \text{geodesic flow, section = Gauss map}.
+\end{aligned}
+\]
+
+
+The substitution matrices of \(L\) and \(R\) *are* the Rauzy–Veech cocycle in genus one. Their product over a period of \(\tau\) is the monodromy \(\Theta\) already written. The Perron eigenvalue of that product is how much the geodesic stretched over one period of the CF.
+
+
+You do not gain a new predictive coordinate by saying “Rauzy–Veech” here. You gain the geometric name of the same tower: a geodesic on the modular surface, not a third key.
+
+
+## 4. The cocycle and what it measures
+
+
+On a higher-genus stratum the Rauzy–Veech matrices act on \(H^1(M,\mathbb R)\) (or relative homology). After projectivizing and accelerating, this is the **Kontsevich–Zorich cocycle** over Teichmüller flow.
+
+
+Lyapunov exponents \(\theta_1=1>\theta_2\ge\cdots\ge\theta_g\ge 0\) (plus the symmetric negative half) control how cohomology classes grow along the geodesic. Zorich’s phenomenon: Birkhoff sums of the IET’s letter-indicator deviations from the mean grow like \(N^{\theta_2/\theta_1}\) almost everywhere, not like \(\log N\) or \(\sqrt N\).
+
+
+For genus one there is only \(\theta_1=1\). There is no second exponent. Deviation of a generic BV observable on a rotation is the Ostrowski / continued-fraction law you already have, \(O(\log N)\) for bounded type. The slip bit is even smaller because it is a coboundary. KZ theory is not what proves \(\lvert S-N\tau\rvert<1\). That identity is elementary.
+
+
+For a genuine \(d\ge 3\) IET, Rauzy–Veech is the correct renormalization, and KZ exponents are the correct discrepancy scale. The full \(39\)-bin itinerary is **not** that object. It is a rotation coding. Its deviations are genus-one deviations, however many letters you paint on the circle.
+
+
+## 5. Zorich acceleration
+
+
+A raw Rauzy path can fire the same type many times (the \(87\) in \(\tau\)). The corresponding geodesic spends a long time going up a cusp. The **Zorich acceleration** groups a maximal run of one type into a single step. The accelerated cocycle has better integrability (log of the matrix is integrable), which is what makes Oseledets apply cleanly.
+
+
+For the screen, acceleration is “read one partial quotient at a time instead of one subtractive Euclidean step at a time.” That is already how standard words and Ostrowski digits are indexed. Naming Zorich here is translation, not a new algorithm.
+
+
+## 6. What the heights are — and are not
+
+
+Heights \(h_a\) are suspension times: how long the vertical flow stays over interval \(I_a\) before hitting the transversal again. They are *not* the constitutional shared field, *not* \(R_n\), and *not* \(\Lambda_{q_{\mathrm{site}}}(g)\).
+
+
+If you never suspend the IET, you do not have heights. The 39-screen as written is a map of a circle, not a vertical flow on a torus. You may *choose* to suspend \(\rho\)-rotation by constant height \(1\); you get a flat torus and the picture above. That suspension is an optional geometric model of one declared observation. It is not demanded by v7.79 and it does not instantiate a platform.
+
+
+Two-clock catch is a \(\mathbb T^2\)-translation. That *is* already a translation surface (a torus again) with a linear flow that is not vertical in the zippered-rectangle coordinates of a single \(2\)-IET unless you pick a basis that makes one frequency vertical. Rauzy–Veech in genus one still applies after you choose that basis. The companion’s relative-phase factor \(u\) is the cheaper 1D section. Use \(u\) unless you need the Teichmüller-language Lyapunov data, which you do not for a declared rational-width catch on a torus.
+
+
+## 7. Unique ergodicity and measures
+
+
+Masur–Veech: Teichmüller flow is ergodic on each connected component of a stratum (with the Masur–Veech measure). Almost every IET is therefore uniquely ergodic. The exceptional set is nonempty for \(d\ge 4\).
+
+
+Rotations are uniquely ergodic with no almost-every. Haar is the only invariant probability. Rauzy–Veech does not add a second measure to the slip process. Unique ergodicity of \(\Sigma_\tau\) was already the mechanical-word fact.
+
+
+What it *does* add in higher genus is a natural measure on combinatorial paths (the measure of zippered rectangles that follow that Rauzy path). That is how one says “almost every directive sequence.” For the single slope \(\tau\) there is no ensemble. There is one path, the periodic CF.
+
+
+## 8. Status against the ledger
+
+
+| Object | Rauzy–Veech name | Status in the project |
+|---|---|---|
+| \(\rho\)-update | \(2\)-IET, zippered torus, geodesic on the modular surface | model of a declared coding; predictive coordinate still \(\rho\) |
+| CF of \(\tau\) | Rauzy types / Gauss section | already recorded |
+| Matrices of \(L,R\) and \(\Theta\) | genus-one RV cocycle | already recorded as S-adic |
+| \(\lvert S-N\tau\rvert<1\) | not a KZ statement | exact coboundary |
+| Full \(39\)-letter itinerary | rotation painting, not a generic \(39\)-IET | keep \(\theta\) |
+| \((s,\sigma)\) | group extension of a \(2\)-IET, not a \(6\)-IET | coboundary over \(z\) |
+| Catch on two clocks | linear flow on \(\mathbb T^2\) | use relative phase \(u\); RV optional |
+| Platform / \(\mathcal L\) / \(R_n\) | none of these | `UNRESOLVED` / reserved |
+
+
+## 9. How to write it without opening a new religion
+
+
+> Rauzy–Veech renormalization is Rauzy induction plus area-one rescaling of the zippered-rectangle suspension. In genus one it is geodesic flow on the modular surface with section the Gauss map. For the slip \(2\)-IET that section is the continued fraction of \(\tau\). The Rauzy–Veech cocycle is the incidence product of \(L\) and \(R\). No second Lyapunov exponent appears. Heights are an optional suspension of a declared circle map. They do not restore a mediator and they do not instantiate a lattice.
+
+
+One-line mechanic: **induction peels the interval; Veech hangs rectangles on the pieces and stretches the surface until you must peel again.** For two pieces the stretch is a modular geodesic and the peels are the partial quotients of \(\tau\). Same tower as S-adic. Same predictive state \(\rho\). New words, no new seat.
+The Kontsevich–Zorich cocycle is the linear algebra of Teichmüller flow acting on cohomology. Rauzy–Veech supplies the matrices. KZ is those matrices, viewed as a cocycle over the geodesic flow on a stratum of translation surfaces, with Lyapunov exponents that govern how cohomology — and therefore Birkhoff deviations of an IET — grow.
+
+
+For the 39-screen the stratum is genus one. The spectrum is \(\{1,-1\}\). There is no extra exponent to harvest. What follows is the object, the spectrum, the deviation law, and the exact place it does *not* enter your ledger.
+
+
+## 1. The bundle and the flow
+
+
+Let \(\mathcal H(\kappa)\) be a stratum of abelian differentials: compact Riemann surfaces of genus \(g\) with a holomorphic \(1\)-form \(\omega\) whose zeros have multiplicities \(\kappa\), area \(1\). A point is a translation surface. Teichmüller flow is
+\[
+g_t\cdot(X,\omega)
+=
+\bigl(X,\; e^{t}\operatorname{Re}\omega+i\,e^{-t}\operatorname{Im}\omega\bigr)
+\]
+in period coordinates: stretch the horizontal direction, contract the vertical.
+
+
+Over \(\mathcal H(\kappa)\) sits the **Hodge bundle** \(H^1\), whose fiber at \((X,\omega)\) is \(H^1(X;\mathbb R)\cong\mathbb R^{2g}\). Period coordinates identify a neighborhood with an open set in \(H^1(X,\Sigma;\mathbb C)\). Moving along \(g_t\) by Gauss–Manin (the periods of a fixed cohomology class, written in the moving real/imaginary basis of \(\omega\)) gives a linear map
+\[
+A(t,(X,\omega)):H^1(X;\mathbb R)\to H^1(g_t\cdot X;\mathbb R).
+\]
+That family of maps is the **Kontsevich–Zorich cocycle**. It is symplectic with respect to the intersection form, so exponents come in \(\pm\) pairs.
+
+
+Rauzy–Veech is a Poincaré section. The integer matrices \(B_n\) of induction *are* the KZ cocycle sampled at return times to the zippered-rectangle domain, in a basis adapted to the current intervals. Zorich acceleration makes \(\log\|B\|\) integrable so Oseledets applies to the section map.
+
+
+## 2. Lyapunov spectrum
+
+
+Oseledets, for an ergodic \(g_t\)-invariant probability \(\mu\) (Masur–Veech measure on a connected component is the default), yields
+\[
+\theta_1=1
+\ge
+\theta_2
+\ge
+\cdots
+\ge
+\theta_g
+\ge
+0
+\ge
+-\theta_g
+\ge
+\cdots
+\ge
+-1.
+\]
+The top exponent is \(1\) because area-one Teichmüller flow stretches the tautological plane \(\operatorname{span}\{\operatorname{Re}\omega,\operatorname{Im}\omega\}\) at rates \(+1\) and \(-1\). The remaining \(2g-2\) exponents are the interesting ones. They live on the symplectic orthogonal of that plane — the “Kontsevich–Zorich hyperplane.”
+
+
+Kontsevich–Zorich conjectured that for Masur–Veech measure on each connected component the spectrum is **simple**:
+\[
+1>\theta_2>\cdots>\theta_g>0.
+\]
+Avila–Viana proved simplicity. Separate formulas of Eskin–Kontsevich–Zorich compute the *sum* of the positive exponents from Siegel–Veech constants. Individual values on specific strata are a mix of theorems and numerics.
+
+
+None of that fires in genus \(1\). There, \(H^1\) *is* the tautological plane, \(\theta_1=1\), \(\theta_2\) does not exist, and KZ is ordinary geodesic stretch on the modular surface.
+
+
+## 3. What the exponents control
+
+
+Let \(T\) be the IET of the horizontal (or vertical) foliation of \((X,\omega)\). Letter indicators, or more generally functions whose mean-zero part corresponds to a cohomology class \(c\in H^1\), have Birkhoff sums whose deviation from the mean is governed by the Lyapunov exponent of \(c\).
+
+
+Zorich’s deviation law, schematic form: if \(c\) is generic in the subspace of exponent \(\theta_i\), then
+\[
+\bigl\lvert S_N f_c-N\bar f_c\bigr\rvert
+\asymp
+N^{\theta_i}
+\]
+along almost every geodesic, up to the usual \(\varepsilon\) and log corrections in finer statements. The second exponent \(\theta_2\) is the one that shows up for “typical” mean-zero observables of a typical IET of genus \(g\ge 2\).
+
+
+Compare the three scales you already have on a **rotation** (genus one):
+
+
+| Mechanism | Deviation of a mean-zero observable |
+|---|---|
+| Exact coboundary (slip \(\sigma-\tau\)) | \(O(1)\) |
+| BV + bounded type, Ostrowski | \(O(\log N)\) |
+| KZ, genus \(g\ge 2\), exponent \(\theta_2\) | \(N^{\theta_2}\) a.e. |
+
+
+KZ does not improve the slip bound. The slip bound is better than every KZ prediction because the cohomology class is trivial: \(\sigma-\tau\) is an endpoint difference on the circle, not a nontrivial period.
+
+
+For a generic \(d\)-IET with \(d\ge 3\), KZ *is* the right discrepancy theory. The \(39\)-letter painting of a rotation is not a generic \(39\)-IET. Its homology is still rank \(2\). Painting more letters does not raise the genus.
+
+
+## 4. How the cocycle is computed in practice
+
+
+On the Rauzy–Veech section:
+
+
+1. Keep a basis of relative homology adapted to the current zippered rectangles (widths and heights).
+2. Each induction step writes the new basis as \(B_n\) times the old basis, \(B_n\) a nonnegative integer matrix of determinant \(\pm 1\) on the tautological plane and symplectic on the whole \(H^1\).
+3. For a long path, \(A_n=B_n\cdots B_1\).
+4. Lyapunov exponents are
+   \[
+   \theta_i=\lim_{n\to\infty}\frac1{t_n}\log\sigma_i(A_n),
+   \]
+   where \(t_n\) is Teichmüller time (log of the width contraction) and \(\sigma_i\) is the \(i\)-th singular value.
+
+
+In genus one \(B_n\) is \(2\times 2\), the incidence matrix of \(L\) or \(R\) (or a type-run \(L^{a}\), \(R^{a}\)). The product over a CF period of \(\tau\) is the monodromy of \(\Theta\). Its spectral radius is \(e^{t_{\mathrm{period}}}\), the stretch of that modular geodesic segment. That number is already implicit in \(\lvert s_8\rvert\sim 7.83\times 10^5\). Calling it a KZ exponent does not change it.
+
+
+## 5. Invariant measures and “almost every”
+
+
+KZ exponents are properties of a **measure** on the stratum, not of one surface. Masur–Veech is the canonical choice. Other measures (periodic Teichmüller geodesics, covering constructions, square-tiled surfaces, Eskin–Mirzakhani–Mohammadi orbit closures) can have different spectra.
+
+
+The 39-screen fixes one rotation, one slope \(\tau\), one periodic CF. That is a **closed geodesic** on the modular surface, not a Masur–Veech typical point of a higher stratum. The Oseledets theorem for that single orbit is just the spectral radius of \(\Theta^{\pm 1}\). There is no ensemble to average over, and no second exponent hiding in the average.
+
+
+If someone later studies a *family* of screens with random slopes, Masur–Veech / Gauss measure on the modular surface becomes the right null. Letter-count deviations then follow the genus-one law (logarithmic for bounded type, with a tail from the Gauss measure of large partial quotients). Still not \(N^{\theta_2}\).
+
+
+## 6. What KZ does not touch in the stack
+
+
+- Residual descent on \((\sigma)\) or \((s,\sigma)\). Lyapunov growth is an asymptotic of *sums*, not a one-step function on labels.
+- Finite factors of a rotation. Kronecker already killed those. KZ lives on the Hodge bundle of the surface, not on a finite quotient of the circle.
+- Toroidal FH-REF-1 lumpability. That is a Markov kernel on currents of a lattice model. Different category, different cocycle (if any).
+- Two-clock catch. A fixed translation on \(\mathbb T^2\) is one point of \(\mathcal H(0)\), genus one. Its KZ cocycle is again \(\{1,-1\}\). Catch-distance descent is the elementary reflection-fiber test already in the companion.
+- \(\mathcal L\), \(R_n\), platform instantiation. A symplectic cocycle over Teichmüller flow has no constitutional standing.
+
+
+## 7. When you would actually invoke it
+
+
+Only if the project takes on a genuine higher-genus translation surface or a generic IET of \(d\ge 3\) intervals whose discontinuities are not a single rotation orbit. Then:
+
+
+1. Name the stratum and the measure.
+2. Name the cohomology class of the observable.
+3. Predict deviations \(N^{\theta_i}\) with the exponent of that class, or the EKZ sum if you only need an \(L^2\) budget.
+4. Keep that prediction inside `CODES` / a declared rotation-or-IET model. Do not promote it to an empirical event class.
+
+
+Until that file exists, KZ is background that explains why people talk about matrices along Rauzy paths. It is not a missing lemma in Geometry Maximization.
+
+
+## 8. Placement next to the other names
+
+
+\[
+\begin{aligned}
+\text{Rauzy induction} &\quad\text{combinatorial peel of an IET}\\
+\text{Rauzy–Veech} &\quad\text{that peel + zippered heights + area-one rescale}\\
+\text{KZ cocycle} &\quad\text{the linear action on }H^1\text{ along }g_t\\
+\text{Zorich acceleration} &\quad\text{group type-runs so }\log\|B\|\in L^1\\
+\text{Zorich deviation} &\quad\text{Birkhoff error }\sim N^{\theta_i}\\
+\text{genus one} &\quad\text{all of the above collapse to CF + modular geodesics}.
+\end{aligned}
+\]
+
+
+The screen lives on the last line. The exact slip coboundary lives *below* even that line.
+
+
+One-line mechanic: **KZ is parallel transport of cohomology along Teichmüller stretch.** Its exponents grade how periods — and IET Birkhoff errors — grow. On a torus there is only the tautological stretch \(\pm 1\). The slip count does not even use that: it is a coboundary, error less than one, no Hodge bundle required.
+The Eskin–Kontsevich–Zorich formula is a **sum rule** for the positive Lyapunov exponents of the Hodge bundle. It does not compute the individual \(\theta_i\). It writes their sum as a combinatorial number from the zeros plus a geometric number, the area Siegel–Veech constant. Published as EKZ 2014, *Publ. Math. IHÉS* 120:207–333.
+
+
+## 1. The formula
+
+
+Let \(\mathcal L\) be an \(\mathrm{SL}(2,\mathbb R)\)-invariant suborbifold of a stratum of **abelian** differentials \(\mathcal H(d_1,\ldots,d_n)\), genus \(g\), area one. Let \(\lambda_1\ge\cdots\ge\lambda_g\ge 0\) be the nonnegative KZ exponents of \(H^1\) along Teichmüller flow restricted to \(\mathcal L\). Then \(\lambda_1=1\) and
+
+
+\[
+\boxed{
+\lambda_1+\cdots+\lambda_g
+=
+\frac1{12}\sum_{i=1}^n\frac{d_i(d_i+2)}{d_i+1}
++
+\frac{\pi^2}{3}\,c_{\mathrm{area}}(\mathcal L).
+}
+\]
+
+
+Here \(c_{\mathrm{area}}(\mathcal L)\) is the **area Siegel–Veech constant** of \(\mathcal L\): the constant in the quadratic asymptotic for the number of cylinders, each weighted by its modulus (height/width), of bounded length.
+
+
+For a stratum of **quadratic** differentials the combinatorial prefactor is \(1/24\) and the formula is adjusted by the usual orientation-cover relation to an abelian stratum. Same paper.
+
+
+The first term depends only on the zero type \(\mu=(d_1,\ldots,d_n)\). Write
+\[
+\kappa_\mu
+=
+\frac1{12}\sum_i\frac{d_i(d_i+2)}{d_i+1}.
+\]
+Then \(L(\mathcal L)=\kappa_\mu+(\pi^2/3)\,c_{\mathrm{area}}(\mathcal L)\). The algebraic-geometry twin is Mumford’s relation \(\lambda=(\delta+\kappa)/12\) on \(\overline{\mathcal M}_g\): Hodge class, boundary, and tautological \(\kappa\). The Siegel–Veech term is the dynamical stand-in for how the orbit closure meets the boundary.
+
+
+## 2. What \(c_{\mathrm{area}}\) is
+
+
+Closed geodesics on a translation surface come in parallel families that fill maximal flat cylinders. A Siegel–Veech transform counts those cylinders of length \(\le L\). The area (or modulus) weighting gives
+\[
+\sum_{\mathrm{cyl}:\,w\le L}\frac{h}{w}
+\sim
+c_{\mathrm{area}}\,\pi L^2
+\]
+in the mean over \(\mathcal L\). The constant \(c_{\mathrm{area}}\) is a measure-theoretic invariant of the orbit closure. For many strata it is a ratio of Masur–Veech volumes of the stratum and of its principal-boundary strata (Eskin–Masur–Zorich cylinder decompositions). For square-tiled surfaces it is an explicit arithmetic average over the Teichmüller disc.
+
+
+Large-genus heuristics: on non-hyperelliptic components one expects \(c_{\mathrm{area}}\to 1/2\), hence
+\[
+\sum_{i=1}^g\lambda_i
+\sim
+\kappa_\mu+\frac{\pi^2}{6}
+\]
+with an error vanishing as \(g\to\infty\). That is a conjecture-plus-EKZ corollary, not the theorem itself.
+
+
+## 3. What the theorem does and does not give
+
+
+**Does give**
+
+
+- The sum \(\lambda_1+\cdots+\lambda_g\) once \(c_{\mathrm{area}}\) is known, or conversely \(c_{\mathrm{area}}\) once the sum is known (e.g. from a numerical Rauzy–Veech experiment).
+- Rationality of the sum when \(c_{\mathrm{area}}\) is rational, which it is for many arithmetic orbit closures.
+- A check on numerical Lyapunov spectra: if the computed \(\theta_i\) do not add up to EKZ, the experiment is wrong.
+- Analogous sum rules on any Hodge-invariant, covariantly constant subbundle; when the Hodge bundle splits maximally one can sometimes recover *individual* exponents from several such sums.
+
+
+**Does not give**
+
+
+- The separate values \(\theta_2,\ldots,\theta_g\). Simplicity (Avila–Viana) says they are distinct. EKZ does not say what they are.
+- A deviation law for one named observable. Zorich deviation still needs the exponent of that cohomology class, not the sum.
+- Anything about a single closed geodesic except the tautological identity in genus one.
+
+
+## 4. Genus one, which is the screen
+
+
+A flat torus is an abelian differential with no zeros: \(2g-2=0\), empty partition. The Hodge bundle is the tautological plane. The only nonnegative exponent is \(\lambda_1=1\). EKZ therefore reads
+\[
+1=\kappa_\emptyset+\frac{\pi^2}{3}\,c_{\mathrm{area}}(\mathcal H(0)).
+\]
+The combinatorial term vanishes. The formula becomes a determination of \(c_{\mathrm{area}}\) on the modular surface, not a source of extra exponents.
+
+
+The 39-screen is one periodic geodesic on that surface (the CF of \(\tau\)). EKZ is an *ensemble* identity on an invariant suborbifold. A single geodesic has its own stretch, the spectral radius of the period matrix \(\Theta\), already visible in \(\lvert s_8\rvert\). You do not evaluate EKZ on that geodesic and extract \(\theta_2\). There is no \(\theta_2\).
+
+
+The slip coboundary remains stronger than every sum-of-exponents budget:
+\[
+\lvert S_{n,N}-N\tau\rvert<1.
+\]
+EKZ does not prove that and is not needed for it.
+
+
+## 5. Proof shape, so the hypotheses stay visible
+
+
+The argument is analytic, not combinatorial:
+
+
+1. The sum of KZ exponents is the integral of a curvature of the Hodge bundle along Teichmüller flow (a Forni / Kontsevich observation).
+2. Analytic Riemann–Roch relates that curvature to determinants of Laplacians.
+3. Compare the **flat** Laplacian of the translation surface to the **hyperbolic** Laplacian of the underlying Riemann surface.
+4. Degenerate the surface toward the boundary of moduli space. The discrepancy of the two determinants produces the Siegel–Veech (cylinder) term and the combinatorial \(\kappa_\mu\) term from the zeros.
+
+
+That is why the theorem needs an \(\mathrm{SL}(2,\mathbb R)\)-invariant suborbifold with finite mass, not an arbitrary subset of a stratum, and why the combinatorial piece knows only the zero type. It is also why EKZ applies to orbit closures in the Eskin–Mirzakhani–Mohammadi classification, not to a hand-drawn finite path in a Rauzy diagram with no invariant measure specified.
+
+
+## 6. Status in the project ledger
+
+
+| Claim | Disposition |
+|---|---|
+| EKZ as a theorem about KZ sums on invariant suborbifolds | established mathematics, outside the governing files |
+| A second exponent for the \(\rho\)-rotation | does not exist; genus one |
+| EKZ as a proof of the slip envelope | wrong tool |
+| EKZ as residual descent | category error: sums, not one-step labels |
+| EKZ as platform / \(\mathcal L\) / two-clock scheduler | no |
+| Use of EKZ if a later file studies a genuine \(g\ge 2\) stratum or a Masur–Veech ensemble of screens | legitimate, with \(\mathcal L\) named and \(c_{\mathrm{area}}\) sourced |
+
+
+## 7. If that later file ever exists
+
+
+Predeclare:
+
+
+1. the stratum or orbit closure,
+2. the measure (Masur–Veech, or an arithmetic disc),
+3. whether the observable’s class is tautological or lies in a complementary Hodge summand,
+4. the predicted *sum* of exponents from EKZ, and only then any guess at individual \(\theta_i\),
+5. the conversion of \(\theta_i\) into a Birkhoff envelope, with eligibility and sample size named.
+
+
+Until then the formula is background that closes the chain
+
+
+\[
+\text{Rauzy peel}
+\to
+\text{RV matrices}
+\to
+\text{KZ cocycle}
+\to
+\text{EKZ sum of exponents}.
+\]
+
+
+On the screen that chain collapses to the continued fraction of \(\tau\) and the coboundary \(\sigma-\tau=\rho'-\rho\). EKZ has nothing left to add.
+
+
+One-line mechanic: **EKZ trades the sum of Hodge Lyapunov exponents for a zero-type number plus a cylinder-counting constant.** It is a global identity on an \(\mathrm{SL}(2,\mathbb R)\) orbit closure. A torus has one positive exponent, equal to \(1\). The slip count does not consult it.
+Siegel–Veech constants are **mean quadratic growth rates** for cylinders and saddle connections on translation surfaces. They are invariants of an \(\mathrm{SL}(2,\mathbb R)\) orbit closure, not of one geodesic. EKZ uses one of them, \(c_{\mathrm{area}}\). The 39-screen, being one torus rotation, does not need a SV constant to bound a slip count.
+
+
+## 1. What is being counted
+
+
+On a translation surface, a **saddle connection** is a geodesic segment between singularities (or a closed geodesic through a singularity) with no singularities in its interior. Parallel saddle connections of equal length can bound a **cylinder** of regular closed geodesics.
+
+
+For a surface \(X\) and \(L>0\), typical counting functions are
+
+
+- \(N_{\mathrm{sc}}(X,L)\): number of saddle connections of length \(\le L\),
+- \(N_{\mathrm{cyl}}(X,L)\): number of cylinders of circumference \(\le L\),
+- \(N_{\mathrm{area}}(X,L)\): the same cylinders, each weighted by modulus \(h/w\) (or by area).
+
+
+Veech and then Eskin–Masur: for almost every \(X\) in a stratum (Masur–Veech measure), and more generally for almost every surface in an \(\mathrm{SL}(2,\mathbb R)\) orbit closure of finite mass,
+\[
+N_\bullet(X,L)
+\sim
+c_\bullet\,\pi L^2
+\qquad(L\to\infty).
+\]
+The number \(c_\bullet\) is the **Siegel–Veech constant** of that counting problem on that orbit closure. The \(\pi L^2\) is the area of a Euclidean disc: directions and lengths look, on average, like a lattice in \(\mathbb R^2\).
+
+
+Different weights give different constants: \(c_{\mathrm{sc}}\), \(c_{\mathrm{cyl}}\), \(c_{\mathrm{area}}\). EKZ wants \(c_{\mathrm{area}}\).
+
+
+## 2. The Siegel–Veech formula
+
+
+The name is the dynamical analogue of Siegel’s mean-value formula for \(\mathrm{SL}(d,\mathbb Z)\)-lattices.
+
+
+Let \(V\subset\mathbb R^2\setminus\{0\}\) be the set of holonomy vectors of the objects you are counting (saddle connections, or cores of cylinders). For a test function \(f:\mathbb R^2\to\mathbb R_{\ge 0}\), the **Siegel–Veech transform** is
+\[
+(\widehat f)(X)
+=
+\sum_{v\in V(X)}f(v).
+\]
+The SV formula says that, after integrating against the invariant probability \(\mu\) on the orbit closure,
+\[
+\int\widehat f\,d\mu
+=
+c\int_{\mathbb R^2}f\,dx\,dy.
+\]
+Taking \(f=\mathbf{1}_{\lvert v\rvert\le L}\) recovers \(N(L)\sim c\pi L^2\). Taking a modulus-weighted \(f\) recovers \(c_{\mathrm{area}}\).
+
+
+The constant \(c\) is therefore a **mean density of holonomy vectors**. It is a property of \((\mathcal L,\mu)\), not of a single surface, except when the \(\mathrm{SL}(2,\mathbb R)\) orbit is closed and the limit exists everywhere on that orbit (Veech surfaces, square-tiled surfaces).
+
+
+## 3. Why \(c_{\mathrm{area}}\) is the one in EKZ
+
+
+Area weighting records how fat the cylinders are, not only how many. Pinching the core of a cylinder is how a translation surface approaches the boundary of moduli space. The analytic comparison of flat and hyperbolic Laplacians in EKZ sees that degeneration; the coefficient it produces is \(c_{\mathrm{area}}\).
+
+
+Hence
+\[
+\sum_{i=1}^g\lambda_i
+=
+\kappa_\mu
++
+\frac{\pi^2}{3}\,c_{\mathrm{area}}(\mathcal L).
+\]
+A numerical Lyapunov sum is a numerical \(c_{\mathrm{area}}\), and conversely. That is the only place SV constants have entered this conversation.
+
+
+Other constants (\(c_{\mathrm{sc}}\), configurations of two singularities of given orders, …) control different counting problems and different boundary strata. They have Eskin–Masur–Zorich expressions as rational combinations of Masur–Veech volumes. They do not appear in the slip coboundary.
+
+
+## 4. How the constants are computed
+
+
+Three working methods.
+
+
+**Volumes.** For many configurations, \(c\) is a ratio
+\[
+c
+=
+\frac{\text{volume of a principal-boundary stratum}\times\text{combinatorial factor}}{\text{volume of }\mathcal L}.
+\]
+Eskin–Masur–Zorich wrote the combinatorial factors. Large-genus volume asymptotics then give large-genus \(c_{\mathrm{area}}\to 1/2\) on non-hyperelliptic components.
+
+
+**Square-tiled surfaces / arithmetic discs.** On a closed \(\mathrm{SL}(2,\mathbb R)\) orbit of a square-tiled surface the constant is an exact average over the finitely many lattice surfaces in the orbit: count cylinders on each tiling, weight, divide. EKZ appendix and later arithmetic-disc papers do this.
+
+
+**Direct counting plus unique ergodicity.** Simulate Teichmüller flow (or accelerated Rauzy–Veech), count cylinders up to large \(L\), fit \(c\pi L^2\). This is how numerical tables are made, then checked against EKZ.
+
+
+Genus one is degenerate in this list. The moduli space of area-one flat tori is the modular surface. Saddle connections are just the lattice vectors of the period lattice. The Siegel–Veech transform *is* Siegel’s formula for \(\mathrm{SL}(2,\mathbb Z)\). The constants are classical: for the primitive lattice,
+\[
+\sum_{v\in\mathbb Z^2\setminus\{0\}}f(v)
+=
+\frac1{\zeta(2)}\int f
+\]
+up to the usual area normalization, and \(\zeta(2)=\pi^2/6\). That is why EKZ in genus one becomes an identity that *determines* \(c_{\mathrm{area}}\) rather than an identity that produces new exponents.
+
+
+## 5. What a constant is not
+
+
+- It is not a Lyapunov exponent. It is an input (or output) of a sum of exponents.
+- It is not a residual. Counting cylinders of length \(\le L\) is an asymptotic on an ensemble of surfaces. Descent asks whether a one-step label determines the next label on one declared map.
+- It is not a frequency of slips. \(\tau\) is Haar measure of an interval on one circle. No cylinder sum is involved.
+- It is not a platform lattice \(\Lambda_{q_{\mathrm{site}}}(g)\). Holonomy vectors of a translation surface are a discrete subset of \(\mathbb R^2\) that changes with the surface. A moving site-lattice on a second clock is a different declared object.
+
+
+## 6. The 39-screen, in this language
+
+
+Suspend the \(\rho\)-rotation to a flat torus. Closed geodesics are the rational directions of the period lattice. Their counting law is Siegel’s lattice formula. The mechanical word of slope \(\tau\) does not consult that count. Its letter \(1\) is a hit of a fixed interval, not a closed geodesic of bounded length.
+
+
+If you wanted a SV-style statement for the screen you already have a stronger one:
+\[
+S_{N}=\lceil N\tau-\rho\rceil,
+\qquad
+N_{\mathrm{slip}}(N)\sim\tau N
+\]
+*exactly*, with error \(<1\), for every origin. That is linear growth in time on one orbit, not quadratic growth in length on an ensemble of surfaces. Different counting problem, different theorem.
+
+
+A family of screens with random slope, Haar on the modular surface, would have a SV theory: average number of periodic approximations, average cylinder structure of the suspended tori. That file does not exist. If it did, \(c_{\mathrm{area}}\) would be the modular-surface constant, EKZ would again only restate \(\lambda_1=1\), and the slip envelope on each fiber would still be the coboundary.
+
+
+Two-clock catch lives on \(\mathbb T^2\). Closed geodesics there are rational relations between the two frequencies. A SV count on that torus is again Siegel’s formula in dimension two. The companion’s catch law \(P(\delta\le w)=\min(1,2qw)\) is the Haar measure of a neighborhood of the grid, which is the \(L\to\infty\) limit *before* it starts: it is the infinitesimal form of the same lattice picture, at one fixed surface, for one named width. You do not need the quadratic asymptotic to write that probability.
+
+
+## 7. Ledger
+
+
+| Object | Role of a Siegel–Veech constant |
+|---|---|
+| EKZ sum of KZ exponents | \(c_{\mathrm{area}}\) is the geometric term |
+| Generic IET / higher-genus stratum | \(c_{\mathrm{sc}}\), \(c_{\mathrm{cyl}}\) control counting and boundary |
+| One torus, slope \(\tau\) | lattice Siegel formula; no extra KZ data |
+| Slip counts | exact linear law; SV not used |
+| Residual descent | not a SV problem |
+| Platform / \(\mathcal L\) / moving lattice | do not identify holonomy vectors with \(\Lambda_{q_{\mathrm{site}}}\) |
+
+
+## 8. If you ever need one in a file
+
+
+Name four things before writing \(c\):
+
+
+1. the orbit closure \(\mathcal L\) and its measure,
+2. the objects counted (saddle connections of which configuration, cylinders, area-weighted or not),
+3. the Euclidean normalization (\(\pi L^2\) versus \(L^2\), primitive versus all multiples),
+4. the source of the value (volume ratio, arithmetic average, numerical fit).
+
+
+Then keep \(N(L)\sim c\pi L^2\) inside a declared model of a translation surface. Do not feed it into \(R_n\).
+
+
+One-line mechanic: **a Siegel–Veech constant is the mean density of holonomy vectors on an \(\mathrm{SL}(2,\mathbb R)\) orbit closure.** Area-weighting that density is what EKZ eats. A single circle rotation already knows its hit counts exactly. It does not take a mean over moduli space to learn that \(\sigma\) has frequency \(\tau\).

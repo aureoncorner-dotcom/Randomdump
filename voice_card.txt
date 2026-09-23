@@ -1,0 +1,19 @@
+TWIN TIMELINES / BLIND ROUND b61c98e0eda1e6f0
+Label (data): 'bub-857'
+
+Two exact starting phases produced the same first 39 slip observations.
+A and B: 0100000000 1000000000 1000000000 100000000
+
+Their next observations differ, but the assignment of phases to A and B is hidden.
+Does the shared past determine which labeled timeline slips at observation 40?
+Give a justified answer of "underdetermined", or label your proposed pair as a guess.
+Explain what extra information would make the prediction computable.
+
+Record your answer before the holder reveals the exact phases. After the reveal,
+compute the next bits from both exact starts and check the earlier commitment.
+Ask for a fresh rematch only after this round has been revealed.
+
+Commitment: b61c98e0eda1e6f09e9b72d99566edd0dfaa53da1389aa3e5583b62dc2bb69d1
+The full hash belongs in the text chat; it need not be read aloud.
+The solver receives no private file during the blind stage. Reading that file
+turns this into an open computation exercise, not a blind prediction.

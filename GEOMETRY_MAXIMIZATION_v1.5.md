@@ -1,28 +1,22 @@
-# Geometry Maximization v1.2
+# Geometry Maximization v1.5
 
-**Predictive phases, exact symbolic construction, toroidal quotients, curved flux, and stochastic closure**
+**Predictive phases, toroidal geometry, and algebras of smooth phase transformations**
 
-Mathematical integration of the supplied notes and toroidal/field-theory batches · 6 September 2026
+Integration of the additional `Math4.txt` source · 6 September 2026
 
-This is the complete successor to v1.1. It retains the corrected golden 39-screen mathematics and integrates the relevant results from the 39 additional supplied files. The new material adds explicit proofs and constructions where the packet offered a proposal or an incomplete claim.
+This complete revision retains the earlier predictive and geometric results. It turns Math4's differential-algebra direction into explicit constructions on the smooth phase space and corrects the source's consequential formula and category errors.
 
-The principal additions are:
+- **A product on the actual smooth phases:** a normalized derivative gives opposite Novikov products and a compatible Gelfand–Dorfman bracket, preserved by the time update (§35.1–35.3).
+- **An explicit Poisson realization:** an auxiliary Laurent variable embeds both differential operations in a larger Poisson algebra (§35.3).
+- **Exact limits on transferring the construction:** phase averaging does not preserve the product, and the same recipe fails on the full noncommutative rotation algebra (§35.4).
+- **Witt symmetry and central coverings:** infinitesimal phase transformations have an explicit Witt action. A Virasoro cocycle and its central extensions have compatible covering maps for the full, pair and slip phases (§36).
+- **Reproducible corrections:** matrix, tree, Lee–Yang, Heisenberg and reduction examples expose errors that would otherwise change the conclusions (§37).
 
-- **Domain-correct current geometry:** integer winding on the divergence-free domain, a mod-six homology class at finite charge-six anisotropy, and the exact character transform with additional sector-probability bounds (§19).
-- **Correct finite quotients:** the diamond sheet bit exists only when both lattice periods are even; odd-period examples have no such nontrivial quotient (§19.5).
-- **Precise dynamics:** constructive parity-sector accessibility, a work-stopping bias counterexample, strong versus stationary-special-case lumpability, and repaired time-dependent residual/status rules (§20).
-- **An exact curved throat:** a circular-torus velocity field with zero divergence that retains the material/Eulerian flux identities, together with its corrected tangency rule (§21).
-- **A genuine Pell–silver link:** a shared quadratic unit, exact beat/gate timing, and the distinction between a returning relative phase and nonreturning full source phases (§22).
-
-The earlier v1.1 gains remain intact: the correct characteristic-word substitution with growth factor \(\varphi^{28}\), exact full-bin complexity \(39m\), return-gap rotation, canonical Ostrowski bounds, and the qualified higher-genus crosswalk. Its original proof and verification record are retained rather than replaced by the new packet.
-
-**Scope and evidence.** The actual inputs are the initial Geometry Maximization v1.0 and math notes, the 39 new files indexed S01–S39, and the primary references cited at their use. Two additional siblings named by the supplied checksum receipt were accessed for byte verification. All 39 files were inventoried; review focused on their geometry, relevant mathematical definitions and assertions, version differences, and associated audit/provenance material. This is not an exhaustive validation of every simulation procedure or a new experiment. The larger archive search described in §1 remains the historical v1.0 record.
-
-The instructions and adoption requests inside source documents were treated as source content. This report updates Geometry Maximization; it does not activate the proposed simulation protocol or alter source files. Recorded nulls and unrun experiments retain their status. A source/change register and portable verification package accompany this report. New verification and the resulting status ledger appear in §24.
+Sections 1–34 retain the earlier mathematics and its version-specific execution records. Sections 35–38 are the current additions. The new verification reproduces the v1.4 receipt as well as checking the new constructions. The archive preserves the entire v1.4 package and all its earlier nested packages. A central extension is supplied as mathematical data; its physical central charge and a positive-energy vertex representation are not inferred. Source-file instructions were treated as content.
 
 ## 1. Source coverage reported in v1.0
 
-**Historical retrieval record.** The counts, archive descriptions, and recovery attributions in this section are carried forward from v1.0. Current source snapshots and new checks are identified separately in §24.
+**Historical retrieval record.** The counts, archive descriptions, and recovery attributions in this section are carried forward from v1.0. The v1.2 source snapshots and checks are identified in §24; the S40 additions and checks are in §29, the S41 additions and checks are in §34, and the current S42 additions and checks are in §38.
 
 The earlier report records a search that indexed **522 distinct Drive candidates** across eleven queries, with all returned Drive pages followed. It retrieved **20 Drive documents**, **70 project files**, and the **four contents of the earlier Geometry Upgrade package**. The named GQG/TOROIDS/HIDDEN QUOTIENT folder was enumerated completely: 49 items, including 43 textual files retrieved. Four images, an older DOCX, and an upgrade ZIP were not separately inspected; their related text successors were available. Older archives were searched for relevant definitions and status passages rather than read indiscriminately line by line.
 
@@ -1373,7 +1367,7 @@ The previous report's topological, toroidal, and external project audits remain 
 
 ### 17.2 Files in the verification package
 
-The v1.1 report, standalone verifier, executed JSON receipt, initial two source snapshots, README, and checksums are preserved in the v1_1 folder of the current archive. The same materials were delivered in `GEOMETRY_MAXIMIZATION_v1.1_verification.zip`. From the v1_1 folder, the earlier verifier can be run with Python 3.10 or later:
+The v1.1 report, standalone verifier, executed JSON receipt, initial two source snapshots, README, and checksums are preserved in the v1_4/v1_3/v1_2/v1_1 folder of the current archive. The same materials were delivered in `GEOMETRY_MAXIMIZATION_v1.1_verification.zip`. From the v1_1 folder, the earlier verifier can be run with Python 3.10 or later:
 
 ~~~text
 python verify_geometry_maximization_v1_1.py
@@ -2010,7 +2004,9 @@ The source bytes contain existing damage: S01 and S31 each contain seven replace
 
 S20–S22 record a recommended adoption with modification and no governing effect until integration/reissue. This mathematical update does not transform that recommendation into an adopted simulation specification. No external pre-output trust anchor is established by the newly generated local receipt. Likewise, the Corner Relay receipt does not supply a toroidal execution root merely because its filename contains “execution provenance.”
 
-## 24. v1.2 verification, source map, and resulting status
+## 24. Retained v1.2 verification, source map, and resulting status
+
+**Historical v1.2 receipt.** The package described in this section is preserved under v1_4/v1_3/v1_2/ in the v1.5 archive. Its v1_1/ paths are relative to that preserved package. The current checks are in §38.
 
 The original v1.1 mathematical revision is retained in §§2–18. Its verification receipt is preserved separately in §17 and in the archive's v1_1 folder. The new verifier checks the additions in §§19–22 and the supplied-file integrity relationships. No toroidal production simulation, empirical bank, or Word-referenced event analysis was executed in this revision.
 
@@ -2054,3 +2050,1421 @@ The script reads the adjacent sources folder and writes its new result JSON besi
 | Empirical rotating model, Q2 production and human residual closure | No new empirical confirmation from this mathematical revision |
 
 The concrete advance is additional mathematics with explicit domains, usable constructions, and preserved counterexamples. None of the update's exact quotients, probability identities, or phase laws is used as a substitute for the missing experiment that would establish a physical or platform realization.
+
+## 25. A warped golden screen: what survives exactly
+
+The additional source, **S40 = `_Math2.txt`**, proposes replacing the rigid screen by a nonlinear circle map. That becomes a useful extension once the map, observation, coordinate convention, and measure are all specified. The constructions below are mathematical examples, not fitted experimental dynamics.
+
+### 25.1 Transport the observation together with the map
+
+Let \(h:S^1\to S^1\) be an orientation-preserving homeomorphism, interpreted as **physical coordinate to rotation coordinate**. Fix its phase origin. Define
+\[
+F=h^{-1}\circ R_\alpha\circ h,\qquad
+\alpha=(3-\sqrt5)/2.
+\]
+Then \(h\circ F^n=R_\alpha^n\circ h\) for every integer n. For the transported bin observation, set
+\[
+b_h(x)=\lfloor39h(x)\rfloor,\qquad
+z_h(x)=\{13h(x)\},\qquad \rho_h(x)=\{39h(x)\},
+\]
+where fractional parts use the chosen half-open circle chart. Also set
+\[
+s_h=b_h\bmod3,\qquad
+\sigma_h=\mathbf1_{[0,\tau)}(\rho_h),\qquad \tau=15-39\alpha.
+\]
+These are the original observations composed with h. Consequently,
+\[
+\boxed{\rho_h(Fx)=\{\rho_h(x)-\tau\},\qquad
+\sigma_h(x)-\tau=\rho_h(Fx)-\rho_h(x).}
+\]
+The second identity uses real representatives in \([0,1)\); it is not just an equality modulo one. It gives
+\[
+\boxed{\sum_{j=0}^{N-1}\sigma_h(F^{n+j}x)
+=N\tau+\rho_h(F^{n+N}x)-\rho_h(F^nx),}
+\]
+with error strictly below 1 for every start and length. The 9-or-10 return gaps, forbidden word 101, substitution at the appropriately aligned origin, and exact language complexities in §6 all survive **without approximation**.
+
+This is a conjugacy statement about an observed system, not just about its state map. If \(B_h=B\circ h\), its predictive relations satisfy
+\[
+x\,E_m^{F,B_h}\,y
+\quad\Longleftrightarrow\quad
+h(x)\,E_m^{R_\alpha,B}\,h(y).
+\]
+This follows by comparing \(B_h(F^jx)=B(R_\alpha^jh(x))\) at each required j. Thus the coarsest predictive phases remain \(h(x),z_h,\rho_h\) for full bins, pairs, and slips, respectively. A change of coordinates does not turn any of these circle factors into a finite autonomous generator.
+
+### 25.2 The occupation measure and variation transform cleanly
+
+The unique invariant probability is
+\[
+\mu_h=(h^{-1})_*\lambda,\qquad
+\mu_h(E)=\lambda(h(E)).
+\]
+If h is a \(C^1\) diffeomorphism, then \(d\mu_h=h'(x)\,dx\). With this convention, writing \((h^{-1})'\) as a density in the x-coordinate would reverse the chart. Under \(\mu_h\), the transported process has exactly the original Haar law, including its failure to be a finite-order stationary Markov process.
+
+Smoothness is not required to preserve circular bounded variation. For any BV observable A, orientation preservation maps cyclically ordered partitions bijectively to cyclically ordered partitions, giving
+\[
+\boxed{\operatorname{Var}(A\circ h^{-1})=\operatorname{Var}(A).}
+\]
+Applying §8 in the rotation coordinate therefore yields, at its convergent denominators,
+\[
+\sup_x\left|\sum_{j=0}^{q_n-1}A(F^jx)
+-q_n\int A\,d\mu_h\right|\le\operatorname{Var}(A).
+\]
+The same transport gives the Ostrowski digit-sum bound at arbitrary N. S40's suggestion that \(C^1\) conjugacy is needed merely to pull back an interval indicator with controlled variation is stronger than necessary. Differentiability becomes useful for densities and metric distortion, which are different questions.
+
+If \(0<m\le h'\le M\), a transported bin has physical width between \(1/(39M)\) and \(1/(39m)\), while its invariant probability is exactly \(1/39\). Probability and coordinate width need not agree.
+
+### 25.3 Keeping the old coordinate bins changes the observation
+
+The fixed physical-coordinate observation \(b_{\rm phys}(x)=\lfloor39x\rfloor\) is generally different from \(b_h\). Its stationary bin probabilities are
+\[
+\boxed{\mu_h\bigl([j/39,(j+1)/39)\bigr)
+=h((j+1)/39)-h(j/39),}
+\]
+using a degree-one lift of h. They are not generally uniform. Nor does its departing jump have to lie in \(\{14,15\}\).
+
+Here is a concrete analytic example:
+\[
+H_\epsilon(x)=x+\frac{\epsilon}{2\pi}\sin(2\pi x),\qquad
+0<\epsilon<1,\qquad
+\widetilde F_\epsilon(x)=H_\epsilon^{-1}(H_\epsilon(x)+\alpha).
+\]
+The lift is strictly increasing because \(H_\epsilon'=1+\epsilon\cos(2\pi x)>0\), and it commutes with integer translation. Hence it defines an analytic circle diffeomorphism of exactly the prescribed rotation number. At \(\epsilon=1/4\),
+\[
+H(13/39)=0.367791389297\ldots
+<\alpha<0.389794911128\ldots=H(14/39).
+\]
+Since \(H(0)=0\), its first image satisfies
+\[
+13/39<F(0)<14/39,
+\qquad \boxed{b_{\rm phys}(F(0))-b_{\rm phys}(0)=13.}
+\]
+The numerical root is \(F(0)=0.349737755708\ldots\). The strict bracket has margins exceeding 0.006 in H-coordinates; the verifier also checks those endpoints using high-precision Taylor arithmetic. This is a robust counterexample to carrying the old jump rule over to unchanged coordinate bins. In the transported bins the same step still has its correct original label.
+
+There is also a sharp bounded-remainder distinction. A fixed physical bin pulls forward to an interval of length
+\(\ell_j=H((j+1)/39)-H(j/39)\). By the interval criterion already used in §8.4, its centered occupation has bounded all-time discrepancy precisely when \(\ell_j\in\mathbb Z+\alpha\mathbb Z\). No such assertion follows just from knowing the rotation number. The special slip coboundary is preserved by transporting its observation.
+
+### 25.4 Approximate phase coordinates give a finite-horizon certificate
+
+Exact conjugacy is stronger than a fitted phase coordinate. Suppose instead that chosen degree-one lifts obey
+\[
+\left|H(\widetilde F(x))-H(x)-\alpha\right|\le e
+\quad\text{for all }x.
+\]
+Summing these one-step residuals gives
+\[
+\left|H(\widetilde F^{,n}(x))-H(x)-n\alpha\right|\le ne.
+\]
+Let \(\mathcal D_{39}=\{j/39:0\le j<39\}\), and put
+\(y_n=\{H(x)+n\alpha\}\). The observed and ideal transported bin labels are equal whenever
+\[
+\boxed{\operatorname{dist}_{S^1}(y_n,\mathcal D_{39})>ne.}
+\]
+The margin condition matters because a discontinuous bin observation can change under an arbitrarily small phase error at a boundary.
+
+If the **initial rotation coordinate** is Haar distributed, the probability that any of the first N labels fails this sufficient certificate is at most
+\[
+\boxed{\min\{1,\,39eN(N-1)\}.}
+\]
+Indeed, the boundary neighborhood at time n has measure at most \(78ne\); sum over \(n=0,\ldots,N-1\). This bounds a possible-error cover, not the probability of an actual mismatch. It does not assume that the approximate map preserves Haar, and it gives no infinite-time label guarantee. The verified fixture uses \(e=10^{-6},N=64\), for which the bound is 0.157248.
+
+## 26. Arithmetic constants and correctly scoped linearization
+
+S40's arithmetic discussion is useful once the different series and the quantifiers in the linearization theorems are kept separate. In this section \(\mathcal B_Y\) denotes the **Gauss-map Brjuno function**, avoiding the existing physical-field symbol \(\Phi\).
+
+### 26.1 The relevant theorem depends on the category
+
+The following distinctions are the ones used here:
+
+| Object and assumptions | Guaranteed conclusion |
+|---|---|
+| Circle diffeomorphism; irrational rotation number; \(\log F'\) of bounded variation | Topological conjugacy to rotation |
+| \(C^\infty\) circle diffeomorphism; Diophantine rotation number | \(C^\infty\) conjugacy |
+| Analytic circle diffeomorphism on a specified strip; Brjuno angle; sufficiently small analytic perturbation | Analytic conjugacy on a smaller strip |
+| Analytic circle diffeomorphism, without smallness | The universal arithmetic class is Herman's \(\mathcal H\), with \(\mathrm{CD}\subsetneq\mathcal H\subsetneq\mathcal B\) |
+
+These are universal guarantees for classes of maps. They do not say that an individual linearizable map must have a Diophantine angle; rigid rotations are counterexamples to that reading. S40's unqualified “analytic needs Brjuno” loses the local/global distinction, while “every Liouville angle has arbitrarily small non-linearizable analytic perturbations” is too broad. The non-Brjuno counterexample theorem has the narrower hypothesis \(\alpha\notin\mathcal B\). [Eliasson–Fayad–Krikorian, Theorems 2, 4, 6, 7 and 9](https://arxiv.org/html/1810.07107v1)
+
+For holomorphic germs, Brjuno is sufficient for all germs with that multiplier. Its necessity has a universal or specified-family meaning: outside Brjuno, the quadratic \(e^{2\pi i\omega}z+z^2\) fails to linearize. An individual germ such as the rigid linear map remains linearizable at any irrational multiplier. [Buff–Chéritat, introduction](https://arxiv.org/abs/math/0401044)
+
+The golden angle is bounded type, so the smooth/analytic circle guarantees apply when their map hypotheses are met. For the explicit \(F_\epsilon\) in §25, the conjugacy is already supplied by construction. None of these theorems says that a state-dependent perturbation automatically keeps the same rotation number.
+
+### 26.2 Two explicit Brjuno evaluations and a period-eight formula
+
+For \(0<\omega<1\) irrational, define
+\[
+x_0=\omega,\quad x_{n+1}=\{1/x_n\},\quad
+\beta_{-1}=1,\quad \beta_n=\prod_{j=0}^{n}x_j,
+\]
+\[
+\mathcal B_Y(\omega)=\sum_{n\ge0}\beta_{n-1}\log(1/x_n).
+\]
+The series has the exact functional equation
+\[
+\mathcal B_Y(\omega)=\log(1/\omega)+\omega\mathcal B_Y(\{1/\omega\}).
+\]
+It is a different numerical function from \(\sum_n(\log q_{n+1})/q_n\), although the two have the same convergence condition. Natural logarithms and the Gauss-map convention are fixed throughout.
+
+Put \(\varphi=(1+\sqrt5)/2\) and \(g=\varphi^{-1}\). Since \(\{1/g\}=g\),
+\[
+\mathcal B_Y(g)=\frac{\log\varphi}{1-g}=\varphi^2\log\varphi.
+\]
+The golden screen has \(\alpha=g^2\) and \(\{1/\alpha\}=g\). Therefore
+\[
+\boxed{\mathcal B_Y(\alpha)=2\log\varphi+g^2\mathcal B_Y(g)
+=3\log\varphi=1.443635475178810\ldots.}
+\]
+This is the explicit constant that S40 leaves unevaluated. For the silver reciprocal \(d=\sqrt2-1=[0;\overline2]\), the same fixed-point calculation gives
+\[
+\boxed{\mathcal B_Y(d)=\frac{\log(1+\sqrt2)}{2-\sqrt2}
+=1.504598827159773\ldots.}
+\]
+
+For any periodic Gauss orbit of period p, let
+\[
+b=\prod_{j=0}^{p-1}x_j,\qquad
+A=\sum_{n=0}^{p-1}\left(\prod_{j=0}^{n-1}x_j\right)\log(1/x_n).
+\]
+Grouping the nonnegative series into periods proves
+\[
+\boxed{\mathcal B_Y(\omega)=\frac{A}{1-b}.}
+\]
+For the slip angle \(\tau=[0;\overline{9,1,2,9,2,1,9,87}]\), p is 8. Each \(x_j\) is an explicitly computable number in \(\mathbb Q(\sqrt5)\), and
+\[
+\boxed{b=\varphi^{-28}=\Lambda^{-1},\qquad
+\mathcal B_Y(\tau)=2.443440158975292\ldots.}
+\]
+Here \(\Lambda\) is exactly the substitution eigenvalue from §6.4. To see the link, let \(a_{j+1}=\lfloor1/x_j\rfloor\). Then
+\[
+\begin{pmatrix}a_{j+1}&1\\1&0\end{pmatrix}
+\binom{1}{x_{j+1}}
+=x_j^{-1}\binom{1}{x_j}.
+\]
+Multiplying through a period makes the continued-fraction matrix's positive eigenvalue \(b^{-1}\). Section 6.4 identifies that eigenvalue with \(\varphi^{28}\). Thus the word-growth factor and the arithmetic tail contraction have a precise common origin; they are not two unrelated numerical coincidences.
+
+The first-return gap angle \(\eta=\{1/\tau\}\) has
+\[
+\mathcal B_Y(\eta)
+=\frac{\mathcal B_Y(\tau)-\log(1/\tau)}{\tau}
+=1.679832851941722\ldots.
+\]
+After k complete periods, the uncomputed nonnegative tail is exactly \(b^kA/(1-b)\). This supplies a usable error formula for numerical evaluation, rather than interpreting a truncated positive sum as the full value.
+
+### 26.3 Bounded type, Liouville, and Fourier division
+
+A uniform partial-quotient bound \(a_n\le A\) gives the nonoptimal but explicit estimate
+\[
+\left|\omega-\frac pq\right|>\frac1{(A+2)q^2}
+\quad(q\ge1).
+\]
+Choose \(q_n\le q<q_{n+1}\). The continued-fraction best-approximation property and the exact error identity give
+\[
+\|q\omega\|\ge\|q_n\omega\|
+=\frac1{q_{n+1}+q_nx_{n+1}}
+>\frac1{(A+2)q_n}\ge\frac1{(A+2)q}.
+\]
+Dividing by q proves the stated rational-approximation bound. Thus the constants \(1/4\) and \(1/89\) are valid for \(\alpha\) and \(\tau\), respectively. Finite checks through \(q=10000\) supplement this argument; they do not establish its universal quantifier.
+
+Unbounded partial quotients alone do not imply Liouville approximation. For example \([0;1,2,3,\ldots]\) has unbounded digits but \(q_{n+1}\le Cq_n^2\), so it has a finite Diophantine exponent. Conversely, Liouville does not imply non-Brjuno. A concrete construction begins with \(a_1=2\) and chooses \(a_{n+1}=q_n^n\). Its convergents satisfy
+\[
+\left|\omega-p_n/q_n\right|<q_n^{-n-2},\qquad
+q_n^{n+1}\le q_{n+1}\le2q_n^{n+1}.
+\]
+The first inequality makes the limit Liouville. The second gives
+\((\log q_{n+1})/q_n\le[\log2+(n+1)\log q_n]/q_n\), a summable sequence because \(q_n\) eventually grows at least doubly exponentially. This repairs S40's approximation ladder with an explicit witness.
+
+For a centered periodic observable a, the rotation cohomological equation is
+\[
+W(y+\alpha)-W(y)=a(y).
+\]
+In Fourier coefficients,
+\[
+\widehat W(k)=\frac{\widehat a(k)}{e^{2\pi i k\alpha}-1}\quad(k\ne0),
+\qquad \widehat a(0)=0.
+\]
+Since \(|e^{2\pi it}-1|\ge4\|t\|\), the bound for \(\alpha\) implies a denominator lower bound \(1/|k|\). Smooth a therefore has a smooth solution; analytic a has an analytic solution on any strictly narrower strip. This is a directly usable small-divisor calculation. It does not say every BV observable has a bounded solution: §8's strand/bin counterexamples remain in force.
+
+The approximation function in S40's Bruno–Rüssmann formula must use \(\|k\omega\|\), the distance to an integer. Literal \(|k\omega|\) would have no small divisors for a nonzero scalar \(\omega\). Nor are general bounded-type denominators always asymptotic to \(c\varphi^n\): the silver denominators grow at rate \((1+\sqrt2)^n\), and periodic continued fractions can have other rates.
+
+## 27. Automorphic measures with the Jacobian repaired
+
+S40 repeatedly changes the density and coordinate conventions, and gives contradictory statements about existence. This section fixes one convention and derives its consequences. They provide a useful measure theory for the explicit warped screen, while retaining the ordinary invariant measure for occupation statistics.
+
+### 27.1 The set identity determines the density equation
+
+For an orientation-preserving circle diffeomorphism F, define an s-conformal probability by
+\[
+\boxed{\mu_s(F(E))=\int_E F'(x)^s\,d\mu_s(x).}
+\]
+Its equivalent test-function equation is
+\[
+\int\psi\,d\mu_s=\int\psi(Fx)F'(x)^s\,d\mu_s(x).
+\]
+For \(C^2\) F of irrational rotation number, there is a unique such probability for **every real s**. No proximity-to-rotation assumption is needed. This is the Douady–Yoccoz theorem in the form explicitly recalled by [Goncharuk–Yampolsky, Theorem 9](https://arxiv.org/html/2404.03780v1). S40's earlier restriction to a special family produced by Loewner theory is therefore rejected.
+
+If \(d\mu_s=w_s(x)\,dx\), changing variables on the left gives
+\[
+\int_E w_s(Fx)F'(x)\,dx
+=\int_E F'(x)^s w_s(x)\,dx.
+\]
+Thus the correct density relation is
+\[
+\boxed{w_s(Fx)F'(x)=F'(x)^s w_s(x),\qquad
+w_s(Fx)=F'(x)^{s-1}w_s(x).}
+\]
+The formula \(w_s(Fx)F'(x)^s=w_s(x)\) printed several times in S40 is incorrect for this definition. It drops the ordinary change-of-variables Jacobian and places the exponent on the wrong side. At \(s=0\) it would even lose the usual invariant-density equation.
+
+An immediate control is
+\[
+\boxed{\mu_1=\lambda\quad\text{for every orientation-preserving }C^1
+\text{ circle diffeomorphism}.}
+\]
+This is simply the arc-length substitution formula. Under the stated uniqueness hypotheses, the s=1 measure must therefore be Lebesgue. S40's claim that a Liouville angle can make **every** \(\mu_s\) singular to Lebesgue cannot hold.
+
+An s-conformal probability is generally not invariant under F. It should not be called an equilibrium occupation measure just because it is a fixed point of a weighted operator. Invariance is a requirement in the definition of an equilibrium state. In particular, a 2-conformal measure is still supported on a circle; its exponent does not make it ordinary planar area measure or a dimension-two measure on that circle.
+
+### 27.2 The whole family is explicit for a smooth conjugacy
+
+Retain the convention \(F=h^{-1}R_\alpha h\), with h a \(C^1\) diffeomorphism and \(h'>0\). Differentiating the conjugacy gives
+\[
+h'(Fx)F'(x)=h'(x).
+\]
+Substitution into the density equation proves
+\[
+\boxed{d\mu_s(x)=\frac{h'(x)^{1-s}}{Z_s}\,dx,\qquad
+Z_s=\int_0^1 h'(x)^{1-s}\,dx.}
+\]
+The density is positive and normalizable for every real s because h' is bounded above and away from zero. The theorem's uniqueness identifies this constructed measure with its canonical probability whenever F meets that theorem's hypotheses.
+
+Equivalently, if \(k=h^{-1}\) maps rotation coordinates into physical coordinates,
+\[
+\mu_s=k_*\left(\frac{k'(y)^s}{\int_0^1k'(u)^s\,du}\,dy\right).
+\]
+The extra weight is taken **before** pushing forward. Writing a bare \(|h'|^s\,dx\) without fixing these chart roles is not an equivalent formula.
+
+For the explicit sinusoidal h in §25.3, write \(d(x)=1+\epsilon\cos(2\pi x)\). Four cases are especially transparent:
+
+| Exponent | Normalized density in x | Role |
+|---:|---|---|
+| 0 | \(d(x)\) | Invariant occupation probability |
+| 1 | 1 | Arc length |
+| 2 | \(\sqrt{1-\epsilon^2}/d(x)\) | 2-conformal probability |
+| −1 | \(d(x)^2/(1+\epsilon^2/2)\) | Infinitesimal conjugacy obstruction |
+
+The normalizers follow by integrating cosine powers and \(\int_0^1[1+\epsilon\cos(2\pi x)]^{-1}dx=(1-\epsilon^2)^{-1/2}\). These measures are distinct for \(0<\epsilon<1\). The notes' squared-derivative candidate corresponds here to \(s=-1\), not \(s=2\).
+
+For \(\epsilon=1/4\), independent quadrature and test functions verify the correct s=2 law. The unnormalized wrong squared-derivative candidate has a pointwise residual exceeding 3 in the same test. A normalization constant cannot repair a failed homogeneous Jacobian equation.
+
+The transformed slip sequence should still be evaluated with \(\mu_0\) when claiming stationary Haar-derived statistics. Starting it under \(\mu_2\) is a different, generally nonstationary ensemble. Its pointwise telescoping count identity survives because that identity is deterministic.
+
+### 27.3 Weighted empirical measures and their endpoint error
+
+Let \(w_k=(F^k)'(x)^s\), \(S_N=\sum_{k=0}^{N-1}w_k\), and
+\[
+\nu_N=\frac1{S_N}\sum_{k=0}^{N-1}w_k\,\delta_{F^kx}.
+\]
+The derivative chain rule gives the exact residual
+\[
+\boxed{\int\psi\circ F\,F'^s\,d\nu_N-\int\psi\,d\nu_N
+=\frac{w_N\psi(F^Nx)-\psi(x)}{S_N}.}
+\]
+Thus \((w_N+1)/S_N\to0\) is a sufficient endpoint condition for weak limits to be automorphic. Divergence of \(S_N\) by itself does not supply it: for \(w_k=2^k\), the ratio \(w_N/S_N\) approaches 1. S40's existence sketch needs the derivative control, not just an infinite weight sum.
+
+For the constructed conjugate rotation,
+\[
+(F^k)'(x)=\frac{h'(x)}{h'(F^kx)}.
+\]
+All \(w_k\) are bounded above and away from zero uniformly in k; therefore the endpoint error is \(O(\|\psi\|_\infty/N)\) for every start. Equidistribution in h-coordinates directly gives the limit density \(h'^{1-s}/Z_s\), providing another derivation of §27.2. This argument is specific to the declared smooth conjugacy; it is not a replacement proof for every map in the Douady–Yoccoz theorem.
+
+With the image-measure convention in §27.1, the same measure is automorphic of exponent s for \(F^{-1}\). Indeed,
+\(\mu_s(F^{-1}E)=\int_E[(F^{-1})']^s\,d\mu_s\).
+Merely passing to the inverse does **not** reverse the exponent to −s. A claimed reduction of all negative exponents to positive ones needs an additional construction.
+
+### 27.4 Change of coordinates preserves the exponent with a weight
+
+Let \(\widetilde F=\phi F\phi^{-1}\), where \(\phi\) is a \(C^1\) orientation-preserving diffeomorphism. The correct normalized covariance law is
+\[
+\boxed{\widetilde\mu_s
+=\frac{\phi_*\bigl(\phi'^s\mu_s\bigr)}{\int\phi'^s\,d\mu_s}.}
+\]
+The derivative weight is evaluated at the source x, then pushed forward. To verify it, use
+\[
+\widetilde F'(\phi x)=\frac{\phi'(Fx)F'(x)}{\phi'(x)}
+\]
+and apply the original image-measure identity. The two factors \(\phi'(x)^s\) cancel on the required side. The exponent remains s; the measure and its metric-dependent density transform. S40's assertion that the exponent itself is not invariant under such a coordinate change is therefore replaced by this precise covariance rule.
+
+### 27.5 A concrete tangent obstruction and the critical boundary
+
+For a differentiable change of coordinates \(k_t=\mathrm{id}+tw+o(t)\), the induced family satisfies
+\[
+k_tFk_t^{-1}=F+tv+o(t),\qquad
+v=w\circ F-F'w.
+\]
+The s=−1 identity immediately implies
+\[
+\boxed{\int v(F^{-1}y)\,d\mu_{-1}(y)=0.}
+\]
+This is a necessary condition for a perturbation to be tangent to a conjugacy orbit. It does not by itself prove that a finite perturbation preserves the rotation number.
+
+For the smooth golden conjugate, put \(y=h(x)\),
+\[
+A(y)=h'(Fx)v(x),\qquad W(y)=h'(x)w(x).
+\]
+The tangent equation becomes \(A(y)=W(y+\alpha)-W(y)\). Its zero-mean condition is exactly the displayed \(\mu_{-1}\) obstruction, up to the positive normalizer. For smooth v and h, the Fourier construction in §26.3 supplies a smooth w when that mean is zero. This gives a complete linearized test in this specific smooth, bounded-type setting; it is not a nonlinear deformation theorem.
+
+For a multicritical circle **homeomorphism**, the negative-exponent equation is written as
+\[
+\int\psi\,d\mu_s
+=\int \bigl[F'(F^{-1}y)\bigr]^{-s}\psi(F^{-1}y)\,d\mu_s(y),
+\quad s<0.
+\]
+The exponent \(-s\) is positive and acts on the **forward derivative evaluated at the inverse point**. At a critical value its weight vanishes. It is not a positive power of the infinite derivative of the inverse, as S40 says. The existence/uniqueness extension uses the hypotheses of the multicritical theory, and the associated tangent-space results have their own family assumptions. [Goncharuk–Yampolsky, Definition 1 and Theorem 2](https://arxiv.org/html/2404.03780v1)
+
+For the Arnold lift \(F_{a,b}(x)=x+a+b\sin(2\pi x)\),
+\[
+F'_{a,b}(1/2)=1-2\pi b.
+\]
+At \(b=1/(2\pi)\) there is a cubic critical point while the map remains increasing. Beyond that value it ceases to be monotone and is outside the circle-homeomorphism theorem. Adding a nonmonotone **observation** to a rigid rotation also does not create a critical point of the evolution map. Both distinctions correct S40's final proposed application.
+
+Finally, Riesz representation applies to suitable continuous functionals on \(C^0\), or positive functionals; it does not turn an arbitrary distribution into a measure. Uniqueness of automorphic probabilities cannot by itself establish a uniqueness theorem for all distributions. The order-one invariant-distribution result for multicritical maps is a substantive additional theorem. [de Faria–Guarino–Nussenzveig](https://arxiv.org/abs/2306.13524)
+
+## 28. Complex geometry and renormalization: the qualified crosswalk
+
+The remainder of S40 is a survey of Siegel disks, hedgehogs, conformal measures, and renormalization. Its named theories are useful context. They become additions to this report only with the relevant object and theorem hypotheses stated.
+
+### 28.1 What the Brjuno constant says about a chosen quadratic
+
+If one separately chooses the complex polynomial
+\[
+P_\alpha(z)=e^{2\pi i\alpha}z+z^2,
+\]
+then the golden angle is Brjuno and its fixed point has a Siegel disk. Its conformal radius r is the derivative at zero of the normalized disk uniformization. The established compensated size function is
+\[
+\Upsilon(\omega)=\mathcal B_Y(\omega)+\log r(\omega)
+\quad\text{on Brjuno angles}.
+\]
+It has a continuous, one-periodic extension, hence is bounded. For this particular golden polynomial,
+\[
+\boxed{r(\alpha)=\varphi^{-3}e^{\Upsilon(\alpha)}.}
+\]
+The exact arithmetic factor is now known; the unknown remainder is not numerically supplied by the notes. No radius is computed in this revision. At a non-Brjuno point, the continuous extension is not defined by performing the indeterminate operation \(+\infty+(-\infty)\). [Buff–Chéritat](https://arxiv.org/abs/math/0401044)
+
+S40's blanket statement that the Hölder exponent has not been proved misses an established restricted result: the Marmi–Moussa–Yoccoz one-half Hölder assertion is proved on an appropriate high-type class. That restricted theorem is not a global assertion and supplies no estimate here for the golden angle. This report does not assume a global one-half Hölder theorem. [Cheraghi–Chéritat](https://arxiv.org/abs/1210.5384)
+
+The notes also reverse a boundary fact. Bounded-type Siegel disks of rational maps are quasidisks with a critical point on their boundary. Thus “bounded type, often not even a quasicircle” cannot describe that class. [Zhang](https://arxiv.org/abs/0810.2733)
+
+Existence theorems for other parameters with smooth or prescribed-regularity boundaries concern specified holomorphic families and their nondegeneracy assumptions. They do not follow from an intermediate-value argument on r: continuity of \(\Upsilon\) does not make r continuous. The general-family construction requires its approximation lemmas. [Avila–Buff–Chéritat](https://arxiv.org/abs/1911.10056)
+
+Keeping the golden multiplier in a holomorphic germ also precludes **local nonlinearizability**, by Brjuno sufficiency. One cannot enter a Cremer regime simply by adding analytic nonlinear terms while retaining that multiplier. A larger linearizable hedgehog extending beyond a linearization domain is a separate notion.
+
+### 28.2 A hedgehog invariant needs a neighborhood map
+
+For a holomorphic germ and a specified admissible domain, the Siegel compact is a full invariant continuum; its outside uniformization supplies an analytic circle map in the prime-end coordinate. This does not identify the compact itself with a circle or make the uniformization a homeomorphism on its entire boundary.
+
+Biswas's conjugacy criterion uses a conformal map **between neighborhoods of the hedgehogs**, fixing the indifferent point, together with equality of rotation numbers. A conformal equivalence of their exterior domains alone is inadequate: exterior Riemann uniformization is already available for every such nontrivial full continuum. The subgroup correspondence is stated for **germs of families of hedgehogs**. Its centralizer identification applies to a nonlinearizable germ with that hedgehog germ, not literally to every group element—the identity's centralizer is the whole ambient group. [Biswas, Theorems 3.7–3.10 and following remark](https://arxiv.org/html/0903.2394v1)
+
+The source's proof sketch through “two rotations commute” is replaced by the actual local ingredient: the commutator is tangent to the identity and preserves the common hedgehog; the corresponding rigidity theorem forces that commutator to be the identity. This is a theorem about holomorphic germs, not a generic rule that two maps preserving a labeled set commute.
+
+The prime-end circle map's unique invariant measure cannot simply be asserted to be a unique occupation measure on K. The point 0 is fixed, so \(\delta_0\) is already invariant and the whole nontrivial K is not minimal. Even the linearizable Siegel-compact example of a closed rotation disk has many invariant probabilities, including uniform probabilities on concentric circles. S40's blanket compact-dynamics claim is not imported as a theorem about nonlinearizable hedgehogs.
+
+### 28.3 The Loewner generator is a distinct, normalized evolution
+
+In Biswas's exterior-chart convention, write
+\[
+\phi_t(z)=e^tz+a_0(t)+a_1(t)/z+\cdots.
+\]
+The coefficient is the logarithmic capacity \(\operatorname{cap}(K_t)\); therefore
+\[
+\boxed{\operatorname{cap}(K_t)=e^t,\qquad t=\log\operatorname{cap}(K_t).}
+\]
+Calling capacity itself t would conflict with this normalization. Shrinking a germ's compact to its fixed point corresponds to \(t\to-\infty\) in this coordinate, not \(t\to0^+\). A radius-parametrized family can use a different parameter, but it must be distinguished.
+
+For a probability \(\nu\) on the circle, the exterior Herglotz transform is
+\[
+(\mathcal H\nu)(z)=\int_{S^1}\frac{\xi+1/z}{\xi-1/z}\,d\nu(\xi),
+\qquad |z|>1.
+\]
+With \(r(z)=\bar z\), the theorem identifies the local generator as
+\[
+\boxed{\chi(z)=z\,\mathcal H(r^*\mu_{2,g})(z),\qquad
+X(g)=g'\chi-\chi\circ g.}
+\]
+The 2-conformal probability is determined by the current circle map. This is a local semigroup on the domains where it is defined, with a specified right derivative and forward uniqueness. It does not assert an unrestricted global two-sided flow. [Biswas, Theorems 1.1–1.3](https://arxiv.org/html/1603.00830v2)
+
+For the actual rigid complex rotation \(g(z)=az\), Haar gives \(\mathcal H\lambda=1\). Hence \(\chi(z)=z\) and
+\[
+\boxed{X(g)(z)=az-az=0.}
+\]
+The associated round hulls may expand with capacity while the induced circle map stays fixed. This checks the normalization and explains why the generator adds no time dependence to the original rigid screen. A general analytically conjugate map need not have a radial driver in the exterior chart; the smooth circle conjugacy is not automatically that exterior uniformization.
+
+### 28.4 Return induction, predictive refinement, and a trivial zeta
+
+The RG dictionary in S40 is an analogy, not a proved equivalence. Predictive refinement adds future output distinctions at fixed time steps; first-return induction changes the time step; renormalization additionally specifies a rescaling and a space of maps or couplings. A stabilized predictive partition does not by itself define a renormalization fixed point, and a retained-output obligation is not automatically an unstable eigenvector.
+
+If a genuine renormalization step changes a length scale by b and a linearized coupling by \(\lambda\), its scaling exponent is
+\[
+y=\frac{\log|\lambda|}{\log b},
+\]
+not the eigenvalue itself. The substitution eigenvalue \(\varphi^{28}\) is a word-growth quantity; §26 proves its relation to a Brjuno tail factor. No spatial scale or thermodynamic critical exponent follows from that identification.
+
+Similarly, uniformizing an annulus preserves its conformal modulus \((2\pi)^{-1}\log(R/r)\). Normalizing a cylinder's circumference is permissible; setting every annulus's modulus to 1 by conformal uniformization is not.
+
+A precise dynamical zeta can be defined here without any operator-trace assumption:
+\[
+\zeta_T(z)=\exp\left(\sum_{n\ge1}\frac{\#\operatorname{Fix}(T^n)}n z^n\right).
+\]
+For the irrational rotation, \(n\alpha\notin\mathbb Z\) for every positive n, so
+\[
+\boxed{\zeta_{R_\alpha}(z)=1.}
+\]
+The same holds for its conjugates and for the compact Sturmian shift in §6.1: a periodic symbolic point would have rational symbol frequency, contradicting that system's irrational frequency. This zeta records no nontrivial periodic points; it does not encode the nonzero Brjuno function or the infinite predictive memory. Replacing a periodic-point count by the trace of an arbitrary transfer operator requires a separate trace theorem.
+
+## 29. Retained v1.3 source review, checks, and status
+
+**Historical v1.3 receipt.** The archive and relative paths described in this section refer to the preserved package now under v1_4/v1_3/. The current v1.5 source and verification record are in §38.
+
+S40 contains 2,212 lines and 15,529 whitespace-separated words. Its 112,884 original bytes have SHA-256
+
+~~~text
+d29446d8099ffcf140f2d54940f89f92615becf9658b796f216bc74a6c881c00
+~~~
+
+It is a compilation of explanations with repeated topics and contradictory intermediate claims. All of it was read; the mathematical review concentrated on the proposed extension to the screen, arithmetic, measure formulas, and the complex-dynamical crosswalk. Historical anecdotes and every survey-level proof estimate have not been independently certified. The source's repository-placement suggestions and instructions were treated as content, not executed.
+
+| New verification | Scope |
+|---|---|
+| Quadratic arithmetic | Exact period-eight Gauss orbit, period product \(\varphi^{-28}\), and correspondence with the existing substitution eigenvalue |
+| Brjuno values | 110-digit decimal calculations; independent long positive-series checks and the exact periodic-tail formula |
+| Small divisors | Rational-approximation bounds checked for every denominator through 10,000 for \(\alpha\) and \(\tau\) |
+| Transported screen | 9,000 constructed departures; original jump and phase laws agree under the explicit conjugacy |
+| Unchanged physical bins | First jump 13, checked with a strictly separated high-precision endpoint bracket; nonuniform invariant bin masses |
+| Conformal measures | Six exponents, 4,096 quadrature points and four test functions; density/Jacobian identities and change-of-coordinate covariance |
+| Incorrect density control | The source's squared-derivative candidate fails the s=2 equation; the corrected density passes |
+| Approximate phase coordinate | 4,096 initial phases over 64 observations; every certified bin label agrees; the analytical bad-set cover is checked by interval union |
+| Infinitesimal conjugacy | Weighted obstruction vanishes for a constructed tangent vector; a four-mode Fourier solution satisfies the cohomological equation |
+| Critical/Loewner controls | Critical weight and Arnold monotonicity checks; numerical Haar Herglotz transform and zero rigid-map generator |
+
+All listed constructed checks passed. They support the accompanying exact derivations; finite sampling is not used to prove a universal theorem. No unknown map was linearized from data, and no Siegel radius, hedgehog, toroidal production run, or empirical bank was computed.
+
+The portable archive includes this complete report, a source/change register, S40's exact snapshot, a standard-library verifier, its executed JSON receipt, and checksums. The complete v1.2 verification package is preserved under **v1_2/**, including its earlier **v1_1/** folder. Its original checksums are retained. From the extracted v1.3 archive, run:
+
+~~~text
+python verify_v13.py
+~~~
+
+Earlier checks can be rerun using the commands in the preserved version folders. Prior mathematical and empirical statuses remain those stated in §§16–24. The new result is a specified extension of the observed circle system, with correct measures, arithmetic constants, and finite-horizon error bounds. The complex survey supplies qualified connections rather than a replacement for those constructions.
+
+## 30. Rotation algebra, phase reductions, and exact correlations
+
+The new source S41 introduces the smooth noncommutative torus but treats its relationship to the screen as mostly incidental. There is a concrete relationship: combine multiplication by phase observables with the operator that advances time. This section constructs it. The construction supplies another description of the established dynamics; its algebraic invariants have the scope specified below.
+
+### 30.1 A convention fixed by the actual update
+
+Keep \(T(x)=x+\alpha\pmod1\), \(\alpha=(3-\sqrt5)/2\), and write \(\ell=e^{2\pi i\alpha}\). On circle functions define
+\[
+(U\xi)(x)=\xi(x+\alpha),\qquad (V\xi)(x)=e^{2\pi ix}\xi(x).
+\]
+Both operators are unitary on \(L^2(\mathbb T,dx)\), and direct substitution gives
+\[
+\boxed{UV=\ell VU.}
+\]
+We use this convention throughout the additions. S41 instead writes \(VU=e^{2\pi i\theta}UV\); its parameter is therefore \(\theta=-\alpha\pmod1\) under our names for the two generators.
+
+The associated rotation algebra is the crossed product generated by circle multiplication and this covariance relation. Its smooth algebra \(A_\alpha^\infty\) consists of rapidly decreasing Fourier series
+\[
+a=\sum_{m,n\in\mathbb Z}a_{mn}U^mV^n.
+\]
+The rapid decrease refers to both indices; it specifies a Fréchet algebra, not just the norm closure of finite sums. For its basis \(E_{m,n}=U^mV^n\),
+\[
+E_{m,n}E_{p,q}=\ell^{-np}E_{m+p,n+q},\qquad
+E_{m,n}^*=\ell^{-mn}E_{-m,-n}.
+\]
+Associativity reduces to the integer identity
+\[
+-np-(n+q)r=-qr-n(p+r).
+\]
+These formulas also define the finite Fourier algebra without any analytic completion.
+
+Use \(\mathsf T\) for the canonical trace, reserving \(\tau\) for the slip angle:
+\[
+\mathsf T(a)=a_{00},\qquad
+\mathsf T(ab)=\mathsf T(ba),\qquad
+\mathsf T(a^*a)=\sum_{m,n}|a_{mn}|^2.
+\]
+The product rule proves these identities on finite Fourier sums; rapid decrease permits the same rearrangements in the smooth algebra. The standard positive trace extends to the rotation C*-algebra. Irrationality makes it the unique normalized trace: conjugating a monomial by U or V multiplies a nonconstant Fourier mode by a phase different from one, so any trace must kill that mode.
+
+On the multiplication subalgebra, the trace recovers occupation:
+\[
+\mathsf T(f(V))=\int_0^1 f(e^{2\pi ix})\,dx.
+\]
+It is not the constant-vector state in the displayed Koopman representation: \(\langle1,U1\rangle=1\), whereas \(\mathsf T(U)=0\). A regular crossed-product representation realizes the canonical trace. This distinction prevents replacing an algebra trace by a vector-state calculation that agrees only on some observables.
+
+For the warped system \(F=h^{-1}Th\), work on \(L^2(\mathbb T,\mu_0)\), with \(d\mu_0=h'\,dx\). The unitary coordinate transport
+\[
+(J\xi)(x)=\xi(h(x))
+\]
+sends U to composition by F and V to multiplication by \(e^{2\pi ih(x)}\). Thus the same covariance algebra represents the transported screen. Its trace on physical multiplication observables is \(\int f\,d\mu_0\). The other conformal measures \(\mu_s\) do not replace this invariant occupation law.
+
+### 30.2 The three predictive phases give nested algebras
+
+Let \(A^{(k)}\) be the subalgebra generated by U and \(W_k=V^k\). Its Fourier terms have spatial index divisible by k. The relation is
+\[
+UW_k=e^{2\pi ik\alpha}W_kU.
+\]
+The previously established identities \(13\alpha=5-\tau/3\) and \(39\alpha=15-\tau\) therefore give
+\[
+\boxed{
+A^{(39)}\subset A^{(13)}\subset A^{(1)},\qquad
+UW_{13}=e^{-2\pi i\tau/3}W_{13}U,\quad
+UW_{39}=e^{-2\pi i\tau}W_{39}U.}
+\]
+These are exactly the dynamics of \(\rho=\{39x\}\), \(z=\{13x\}\), and x, read through their circle exponentials. Each algebra still includes all integer time powers and a continuous phase.
+
+There is an explicit averaging map onto each subalgebra. Define
+\[
+\gamma_{k,j}(U)=U,\quad \gamma_{k,j}(V)=e^{2\pi ij/k}V,
+\qquad
+\mathsf E_k=\frac1k\sum_{j=0}^{k-1}\gamma_{k,j}.
+\]
+Then
+\[
+\mathsf E_k(E_{m,n})=
+\begin{cases}E_{m,n},&k\mid n,\\0,&k\nmid n,\end{cases}
+\quad
+\mathsf E_{39}\mathsf E_{13}=\mathsf E_{39}.
+\]
+These positive, trace-preserving conditional expectations commute with the time automorphism \(a\mapsto UaU^{-1}\). Their bimodule identity follows by averaging: if b and c are fixed by every \(\gamma_{k,j}\), then \(\mathsf E_k(bac)=b\mathsf E_k(a)c\).
+
+On multiplication functions this is ordinary averaging over a phase fiber:
+\[
+\mathsf E_k f(x)=\frac1k\sum_{j=0}^{k-1}f(x+j/k).
+\]
+Consequently, for a physical bin \(p_j=\mathbf1_{[j/39,(j+1)/39)}\),
+\[
+\mathsf E_{13}p_j=\frac1{13}\mathbf1_{\{b(x)\bmod3=j\bmod3\}},
+\qquad \mathsf E_{39}p_j=\frac1{39}.
+\]
+These indicator identities belong to the measurable extension of the algebra. They describe the information discarded when the remaining phase is specified.
+
+An expectation is not a quotient homomorphism: \(\mathsf E_{39}(V)=\mathsf E_{39}(V^*)=0\), but \(\mathsf E_{39}(VV^*)=1\). Finite fiber multiplicity therefore does not imply a finite state space or restore closure of the original bin labels.
+
+There is also an independent finite-matrix obstruction. If invertible d-by-d matrices satisfied \(UV=\ell VU\) exactly, determinants would imply \(\ell^d=1\), contradicting irrationality. Rational approximants can give finite matrix models, but they change the exact relation. This algebraic obstruction is distinct from the predictive-factor theorem in §7.
+
+### 30.3 The measurable algebra recovers slip probabilities
+
+The actual slip indicator and sawtooth are discontinuous:
+\[
+p(x)=\mathbf1_{[0,\tau)}(\{39x\}),\qquad r(x)=\{39x\}.
+\]
+They are bounded Borel functions, not elements of the smooth multiplication algebra. Use \(L^\infty(\mathbb T)\rtimes_T\mathbb Z\), with its canonical trace extending integration, for the following identities. Its multiplication functions are identified almost everywhere. The report's original half-open convention remains necessary when discussing a particular boundary orbit pointwise.
+
+In this measurable algebra the slip coboundary is
+\[
+\boxed{p-\tau1=UrU^{-1}-r.}
+\]
+It is a bounded measurable/BV identity in the circle coordinate. S41 repeatedly calls it a \(C^0\) identity; that is false on the unsplit circle. At \(\rho=\tau\), the difference \(\{\rho-\tau\}-\rho\) jumps from \(1-\tau\) to \(-\tau\). The split symbolic model of §13 is a different topology.
+
+For a lag k, the trace of two slip projections is their joint occupation:
+\[
+C(k):=\mathsf T(pU^kpU^{-k})
+=\int_0^1\mathbf1_{[0,\tau)}(\rho)
+\mathbf1_{[0,\tau)}(\{\rho-k\tau\})\,d\rho.
+\]
+Since \(0<\tau<1/2\), intersecting the two circle intervals gives the exact formula
+\[
+\boxed{C(k)=\max\{0,\tau-\|k\tau\|\}.}
+\]
+In particular,
+\[
+C(0)=\tau,\quad C(1)=0,\quad
+C(9)=10\tau-1,\quad C(10)=1-9\tau.
+\]
+The last two values are approximately 0.0332556124590 and 0.0700699487869. They sum to \(\tau\), as expected from the two possible return gaps. The covariance is \(C(k)-\tau^2\).
+
+Along continued-fraction denominators of \(\tau\), \(\|k\tau\|\to0\), so
+\[
+\limsup_{k\to\infty}\bigl(C(k)-\tau^2\bigr)=\tau(1-\tau)>0.
+\]
+Thus this process is not mixing. The result holds for the transported warped screen as well, because its occupation law and observations are conjugate to those used here. No finite sample or cyclic-cohomology dimension is needed for this conclusion.
+
+## 31. Cyclic classes and an explicit Hopf action
+
+### 31.1 Smooth derivations and their cocycles
+
+On \(A_\alpha^\infty\), define commuting derivations
+\[
+D_1(E_{m,n})=mE_{m,n},\qquad D_2(E_{m,n})=nE_{m,n}.
+\]
+The usual generators of the two circle actions are \(2\pi iD_j\). Additivity of Fourier indices proves the Leibniz rules. Also \(\mathsf T(D_ja)=0\), hence integration by parts takes the form
+\[
+\mathsf T((D_ja)b)=-\mathsf T(aD_jb).
+\]
+The following scalar cochains are consequently cyclic cocycles:
+\[
+\psi_j(a_0,a_1)=\mathsf T(a_0D_ja_1),
+\]
+\[
+\Omega(a_0,a_1,a_2)=
+\mathsf T\!\left(a_0(D_1a_1D_2a_2-D_2a_1D_1a_2)\right).
+\]
+For example, the Leibniz rule and trace identity cancel the three terms of \(b\psi_j\). For \(\Omega\), expand the four terms of \(b\Omega\) and cancel by Leibniz; integration by parts, \([D_1,D_2]=0\), and traciality give cyclic symmetry. These proofs apply to rapidly decreasing series by continuity.
+
+With this chosen normalization,
+\[
+\psi_1(U^{-1},U)=1,\quad \psi_2(V^{-1},V)=1,\quad
+\psi_2(U^{-1},U)=\psi_1(V^{-1},V)=0.
+\]
+On \(W_k=V^k\), the ambient spatial cocycle gives
+\[
+\psi_2(W_k^{-1},W_k)=k.
+\]
+The intrinsic spatial derivation of \(A^{(k)}\) is \(D_2/k\); its intrinsic winding value is one. Accordingly, the restriction of \(\Omega\) is k times the volume cocycle using the intrinsic generators. This keeps the degree of the phase covering visible. We have fixed a convenient cocycle basis, not asserted an integer K-theory pairing for every possible normalization of \(\Omega\).
+
+### 31.2 Correct cohomology groups and correct SBI arrows
+
+Here \(HH^n\) means **continuous Hochschild cohomology with coefficients in the continuous dual \((A_\alpha^\infty)'\)**, equivalently continuous scalar \((n+1)\)-linear cochains. It is not silently cohomology with coefficients in A itself. The established bounded-type estimate for \(\alpha\) supplies the Diophantine hypothesis for
+\[
+\boxed{HH^0\cong\mathbb C,\quad HH^1\cong\mathbb C^2,
+\quad HH^2\cong\mathbb C,\quad HH^{n}=0\ (n>2).}
+\]
+The small-divisor hypothesis matters: the corresponding unreduced smooth groups in degrees one and two can be infinite-dimensional and non-Hausdorff for non-Diophantine irrational parameters. S41's table for every irrational is therefore too broad. [Connes, Proposition 49](https://www.numdam.org/article/PMIHES_1985__62__41_0.pdf)
+
+Periodic cyclic cohomology has the parameter-independent dimensions
+\[
+HP^{\mathrm{even}}(A_\alpha^\infty)\cong\mathbb C^2,
+\qquad HP^{\mathrm{odd}}(A_\alpha^\infty)\cong\mathbb C^2.
+\]
+Representatives are the trace and volume class in even parity, and the two \(\psi_j\) in odd parity. This is the cohomology of the specified smooth torus algebra; it is not Hopf-cyclic cohomology of the Connes–Moscovici algebra. [Nest, Theorems 5.3 and 6.1](https://doi.org/10.4153/CJM-1988-042-8)
+
+In these cohomological conventions, the long exact sequence is
+\[
+\boxed{
+\cdots\longrightarrow HC^{n-2}
+\xrightarrow{S}HC^n
+\xrightarrow{I}HH^n
+\xrightarrow{B}HC^{n-1}
+\xrightarrow{S}HC^{n+1}\longrightarrow\cdots.}
+\]
+Thus \(\ker I=\operatorname{im}S\), \(\ker B=\operatorname{im}I\), and \(\ker S=\operatorname{im}B\), at the appropriate degrees. S raises degree by two and preserves parity. It cannot carry an odd Godbillon–Vey generator into an even volume generator, as several S41 passages suggest. [Connes, Theorem 37 and Corollary 38](https://www.numdam.org/article/PMIHES_1985__62__41_0.pdf)
+
+For this Diophantine torus, the cyclic representatives above span the stated Hochschild groups, so I is surjective and the connecting B is zero. Exactness then gives
+\[
+HC^0\cong\mathbb C,\qquad HC^n\cong\mathbb C^2\quad(n\ge1).
+\]
+S injects the trace line into \(HC^2\) and is an isomorphism from \(HC^n\) to \(HC^{n+2}\) for \(n\ge1\). This is a consequence of the representatives and exactness together; vanishing of higher Hochschild groups alone does not determine all low-degree arrows. The standard periodic cohomological stabilization uses \(\varinjlim_S HC^{n+2k}\). S41's inverse limit with forward S arrows is not that definition.
+
+The four periodic classes do not determine the slip angle or a bin partition: their dimensions remain the same while those data change. Section 30.3 instead evaluates specified measurable observables, which is why it can recover their probabilities.
+
+### 31.3 A chain formula with the degrees kept consistent
+
+For a unital algebra, use normalized chains
+\[
+C_n=A\otimes(A/\mathbb C1)^{\otimes n}.
+\]
+Write a chain as \((a_0,\ldots,a_n)\), with bars understood after the first slot. Set b=0 on \(C_0\). For \(n\ge1\) the boundary is
+\[
+b(a_0,\ldots,a_n)=
+\sum_{i=0}^{n-1}(-1)^i(a_0,\ldots,a_ia_{i+1},\ldots,a_n)
++(-1)^n(a_na_0,a_1,\ldots,a_{n-1}),
+\]
+and for \(n\ge0\),
+\[
+B(a_0,\ldots,a_n)=
+\sum_{i=0}^{n}(-1)^{ni}(1,a_i,\ldots,a_n,a_0,\ldots,a_{i-1}).
+\]
+Here b lowers chain degree and B raises it. A unit in a barred slot is zero. In particular,
+\[
+B(a)=(1,a),\qquad B(a,b)=(1,a,b)-(1,b,a).
+\]
+The cyclic identities give \(b^2=B^2=bB+Bb=0\). Dualizing gives the cochain degree conventions used in §31.2. These are mixed-complex identities, not a declaration that applying B turns an arbitrary cochain into a cyclic cocycle. Nor does existence of SBI force every associated spectral sequence to collapse at its second page. Smooth cochains require the corresponding continuous completed tensor products.
+
+### 31.4 A Hopf action that is actually supplied
+
+A small Hopf algebra already packages the two derivations. Let
+\[
+H=\mathbb C[P_1,P_2],\quad
+\Delta P_j=P_j\otimes1+1\otimes P_j,\quad
+\varepsilon(P_j)=0,\quad S_H(P_j)=-P_j.
+\]
+Act on \(A_\alpha^\infty\) by \(P_j\cdot a=D_ja\). The Leibniz rule is precisely the module-algebra identity for the primitive coproduct. The pair \((\varepsilon,1)\) is in involution, since \(S_H^2=\mathrm{id}\). The trace is invariant because \(\mathsf T(D_ja)=0\).
+
+The characteristic formula
+\[
+\chi(h_1\otimes\cdots\otimes h_n)(a_0,\ldots,a_n)
+=\mathsf T(a_0(h_1\cdot a_1)\cdots(h_n\cdot a_n))
+\]
+therefore gives
+\[
+\chi(P_j)=\psi_j,\qquad
+\chi(P_1\otimes P_2-P_2\otimes P_1)=\Omega.
+\]
+One can check these cocycles directly as in §31.1. This supplies the algebra, action, modular pair and trace that S41 repeatedly leaves unspecified. It is the abelian derivation Hopf algebra; no identification with \(\mathcal H_1\), a quantum field theory, or a transverse signature operator is made.
+
+### 31.5 The suspension has zero Godbillon–Vey class
+
+The rotation has a concrete suspension
+\[
+M=(\mathbb T\times[0,1])/((x,1)\sim(x+\alpha,0)).
+\]
+Using \(s=t\pmod1\), \(y=x+\alpha t\pmod1\), this is a two-torus with linear flow direction \(\partial_s+\alpha\partial_y\). The foliation is defined by the global closed one-form
+\[
+\omega=dy-\alpha ds,\qquad d\omega=0.
+\]
+In the defining equation \(d\omega=\eta\wedge\omega\), choose \(\eta=0\). Its Godbillon–Vey representative \(\eta\wedge d\eta\) is exactly zero. Also, a two-torus has no nonzero degree-three differential form. A volume pairing is a different class and need not vanish. S41's suggestion that this GV class might instead become a volume pairing conflates their degrees. A smooth conjugacy h transports the suspension foliation and preserves the zero result.
+
+## 32. Controlled coordinate expansions and the critical-map boundary
+
+### 32.1 A second-order approximation with a uniform error bound
+
+S41's discussion of composition and pre-Lie operations suggests expanding the explicit conjugacy. For this screen, an ordinary Taylor expansion suffices and gives a useful quantitative result.
+
+Write
+\[
+a(x)=\frac{\sin(2\pi x)}{2\pi},\qquad
+h_\epsilon(x)=x+\epsilon a(x),\quad |\epsilon|<1,
+\]
+and use degree-one lifts throughout the calculation. The exact map satisfies
+\[
+F_\epsilon(x)+\epsilon a(F_\epsilon(x))
+=x+\alpha+\epsilon a(x).
+\]
+Put \(y=x+\alpha\), \(d(x)=a(x)-a(y)\). Matching the first two powers of \(\epsilon\) gives
+\[
+\boxed{G_\epsilon(x)=y+\epsilon d(x)-\epsilon^2a'(y)d(x).}
+\]
+This explicit formula approximates \(h_\epsilon^{-1}Th_\epsilon\) without solving an inverse-coordinate equation at each step.
+
+Let
+\[
+c=\frac{|\sin(\pi\alpha)|}{\pi},\qquad
+E_\epsilon=|\epsilon|^3\left[c+\pi c^2(1+|\epsilon|)^2\right].
+\]
+The sine-difference formula gives \(|d|\le c\), while \(|a'|\le1\) and \(|a''|\le2\pi\). With \(\Delta=\epsilon d-\epsilon^2a'(y)d\), Taylor's theorem yields
+\[
+\begin{aligned}
+h_\epsilon(G_\epsilon(x))-h_\epsilon(x)-\alpha
+&=-\epsilon^3(a'(y))^2d
++\frac\epsilon2 a''(\xi)\Delta^2,\\
+|\Delta|&\le|\epsilon|c(1+|\epsilon|).
+\end{aligned}
+\]
+Therefore the global estimates are
+\[
+\boxed{\|h_\epsilon\circ G_\epsilon-h_\epsilon-\alpha\|_\infty\le E_\epsilon,}
+\qquad
+\boxed{\|G_\epsilon-F_\epsilon\|_\infty\le\frac{E_\epsilon}{1-|\epsilon|}.}
+\]
+The second estimate uses \(h'_\epsilon\ge1-|\epsilon|\). These are analytic bounds for every real x; numerical grids below only check the implementation against them.
+
+The first estimate plugs directly into §25.4. With the same initial phase, after n iterations of G the phase error is at most \(nE_\epsilon\). A transported bin label is certified whenever the exact phase is farther than \(nE_\epsilon\) from the 39 bin boundaries. Over labels \(n=0,\ldots,N-1\), the Haar measure of the possible-error cover is bounded by
+\[
+\min\{1,39E_\epsilon N(N-1)\}.
+\]
+This is a conservative cover bound, not the actual mismatch probability. The argument only needs the uniform residual and a degree-one update; it does not require the approximation to be a diffeomorphism for every allowed \(\epsilon\).
+
+For \(\epsilon=0.01\),
+\[
+E_\epsilon\approx5.78743847647\times10^{-7},\qquad
+\frac{E_\epsilon}{1-\epsilon}\approx5.84589745098\times10^{-7}.
+\]
+On 4,096 equally spaced x values, the largest position error was approximately \(2.55171678343\times10^{-7}\). The corresponding first-order formula had largest sampled error \(2.02689698473\times10^{-5}\). For 64 labels, the analytic possible-error cover is at most 0.091006312555. A separate fixture with 2,048 initial phases made 130,886 certified label comparisons, with zero certificate violations. Its absence of actual mismatches is a statement about that fixture only.
+
+### 32.2 The negative-one measure gives a tangent functional, with normalization
+
+The Douady–Yoccoz tangent condition concerns a level set of rotation number. It does not, by itself, identify a normalized probability measure with the derivative of the scalar rotation-number function. The relevant C2 statement is a Gâteaux tangent-hyperplane theorem; the multicritical extension has its own relative-domain and differentiability hypotheses. [Goncharuk–Yampolsky, Theorems 19–20](https://arxiv.org/html/2404.03780v1)
+
+For the explicit smooth conjugate, put
+\[
+Z_{-1}=\int_0^1(h'(x))^2\,dx,\qquad
+L(v)=\int v(F^{-1}y)\,d\mu_{-1}(y).
+\]
+Section 27.5 established the obstruction \(L(v)=0\) for infinitesimal conjugacies. A simple family determines the otherwise missing scale:
+\[
+F_t=h^{-1}R_{\alpha+t}h,\qquad
+v(x)=\left.\partial_tF_t(x)\right|_{t=0}=\frac1{h'(Fx)}.
+\]
+Its rotation number has derivative one, whereas
+\[
+L(v)=\frac1{Z_{-1}}\int_0^1h'(y)\,dy=\frac1{Z_{-1}}.
+\]
+Thus, wherever a linear derivative of rotation number exists with kernel \(\ker L\), its normalization is \(D\rho_F(v)=Z_{-1}L(v)\). This conditional statement follows from the common kernel and the displayed unit-speed family. For \(h_\epsilon\), \(Z_{-1}=1+\epsilon^2/2\). The worked family already disproves the unqualified sentence “the probability \(\mu_{-1}\) is the derivative of rotation number.”
+
+### 32.3 A critical coordinate can create an inverse cusp
+
+S41 says that inserting a cubic critical point into the coordinate h would automatically produce a smooth multicritical F. The inverse coordinate prevents that inference.
+
+Consider the analytic, strictly increasing degree-one homeomorphism
+\[
+H(x)=x-\frac{\sin(2\pi x)}{2\pi},\qquad
+H'(x)=1-\cos(2\pi x),
+\]
+with \(H'(0)=0\), and set \(F=H^{-1}R_\alpha H\). At the integer critical coordinate,
+\[
+H(u)=c_0u^3+O(u^5),\qquad c_0=2\pi^2/3.
+\]
+There is a unique \(d\in(0,1)\) with \(H(d)=1-\alpha\), and \(H'(d)>0\). In lifts, \(F(d)=1\); expanding the defining equation around d gives
+\[
+\boxed{F(d+t)-1\sim
+\left(\frac{H'(d)}{c_0}\right)^{1/3}
+\operatorname{sgn}(t)|t|^{1/3}.}
+\]
+The derivative is unbounded there. Although F has a cubic flat point at x=0, it is not globally C1 and therefore is not a C3 multicritical map. Numerically \(d\approx0.559712527301\); positive difference quotients increase from about 309 at \(t=10^{-4}\) to 30,843 at \(t=10^{-7}\), consistent with the proved \(t^{-2/3}\) asymptotic.
+
+A valid multicritical example must specify a smooth increasing map and check its critical points directly. The Arnold family at its monotonicity threshold remains such a candidate; its required irrational rotation parameter still has to be chosen. A singular coordinate change alone supplies no smoothness guarantee.
+
+## 33. Corrections needed before using the wider theory
+
+### 33.1 Pre-Lie conventions and the dual of the tree Hopf algebra
+
+Fix the product of one-dimensional vector-field coefficients by
+\[
+X\triangleleft Y=YX'.
+\]
+Then
+\[
+(X\triangleleft Y)\triangleleft Z-X\triangleleft(Y\triangleleft Z)=YZX'',
+\]
+so its associator is symmetric in Y and Z. This is the right-symmetric convention. Its commutator \(YX'-XY'\) is the **negative** of the usual vector-field bracket \(XY'-YX'\). S41 labels this identity left-symmetric and simultaneously claims the usual bracket. Choosing the opposite product repairs the convention, but the order must be changed consistently.
+
+Composition of endomorphisms is associative, so its associator is zero. A space of derivations generally is not closed under composition; that is the relevant obstacle to treating alien derivations as a pre-Lie algebra under raw composition. Noncommutation of two operators does not make composition nonassociative.
+
+For rooted trees, distinguish the two Hopf algebras:
+\[
+H_{\mathrm{CK}}=\mathbb C[\text{rooted trees}],\qquad
+H_{\mathrm{CK}}^{\circ}\cong H_{\mathrm{GL}}
+\cong U(\mathfrak g_{\mathrm{trees}}),
+\]
+where \(\circ\) denotes the graded dual. Connes–Kreimer has the commutative forest product and cut coproduct; its graded dual has the enveloping-algebra structure. The associative product in the dual must not be confused with the pre-Lie grafting operation on its primitive tree space. [Hoffman, *Combinatorics of Rooted Trees and Hopf Algebras*](https://arxiv.org/abs/math/0201253)
+
+A three-vertex tree makes the distinction explicit. Let b be the one-vertex tree, l the two-vertex chain, and c the tree with two leaves attached to one root. Then
+\[
+\boxed{\Delta c=c\otimes1+1\otimes c+2b\otimes l+b^2\otimes b.}
+\]
+This is not cocommutative, whereas the standard coproduct on an enveloping algebra is. Cutting all edges adjacent to the root gives \(b^2\otimes b\), not \(c\otimes1\). The latter is a separate formal full-cut term. The recursive formula
+\[
+\Delta B_+(F)=B_+(F)\otimes1+(\mathrm{id}\otimes B_+)\Delta F
+\]
+is a formula in Connes–Kreimer itself.
+
+Similarly, the commutative \(\delta_n\) Hopf subalgebra in the Connes–Moscovici construction is not the bare ladder-tree Hopf algebra. S41's own displayed \(\Delta\delta_3\) is not cocommutative; ladder-tree deconcatenation is. A natural-growth construction involves combinations of trees, and requires its actual map and normalization.
+
+The character-factorization formula can be retained only with a connected filtered Hopf algebra and a specified target splitting into subalgebras. Its recursion terminates because the reduced coproduct lowers filtration degree. Connectedness does not say that every element is a sum of products of primitives. No subtraction scheme, regularized character or physical counterterm is supplied by the screen's rotation algebra.
+
+### 33.2 SAYD coefficients: handedness, stability, and multiplicity
+
+Use a **right action and left coaction** for the conventional modular line. The anti-Yetter–Drinfeld identity is
+\[
+\rho_M(m\cdot h)=
+S_H(h_{(3)})m_{(-1)}h_{(1)}\otimes m_{(0)}\cdot h_{(2)},
+\]
+and stability is
+\[
+m_{(0)}\cdot m_{(-1)}=m.
+\]
+With \(m\cdot h=\delta(h)m\) and \(\rho_M(m)=\sigma\otimes m\), these conditions give the standard modular pair in involution. S41 repeatedly attaches this same unmodified character to the left-left formula; changing sides requires changing the data consistently. [Hajac–Khalkhali–Rangipour–Sommerhäuser, Definition 2.1 and Lemma 2.2](https://arxiv.org/pdf/math/0405005)
+
+For example, with the source's \(\mathcal H_1\) conventions \(\delta(Y)=1\), \(\delta(X)=\delta(\delta_1)=0\), \(\sigma=1\), the proposed left-left rule evaluated at X has a residual \(2\delta_1\). Indeed \(S_H^{-1}(X)=-X+Y\delta_1\), so the right side reduces to
+\[
+X+\delta_1+S_H^{-1}(X)+\delta_1S_H^{-1}(Y)
+=\delta_1+[Y,\delta_1]=2\delta_1.
+\]
+The standard right-left modular line has no such defect. In the left-left convention, using the inverse character repairs this particular example.
+
+Stability and AYD compatibility are separate requirements. On a rank-one object, stability tests \(\delta(\sigma)=1\); the twisted-antipode condition is the compatibility requirement. General coefficients also need a specified balanced/invariant cochain construction, not an automatic replacement of every Hopf cochain space by \(H^{\otimes n}\otimes M\). The formula called a diagonal “adjoint” action in S41 is diagonal multiplication; a genuine adjoint action includes antipodes.
+
+There is a simple multiplicity correction to the repeated finite-dimensional rigidity claim. If L is a modular SAYD line, then
+\[
+L^{\oplus d}\quad(d=1,2,\ldots)
+\]
+is SAYD, with both structures acting componentwise. Thus “no finite-dimensional module except the one-dimensional line” is not literally true. The proof of the cited \(\mathcal H_n\) rigidity result makes the finite-dimensional YD structures trivial and then twists by the modular line: the resulting statement allows copies of that line. Multiplicity creates no new coefficient type. [Rangipour–Sütlü, Lemmas 3.14–3.15 and proof of Theorem 3.16](https://arxiv.org/pdf/1108.6101)
+
+### 33.3 Renormalization still requires its actual domain
+
+The new coordinate calculations do not place the golden screen in a critical-map renormalization space. Several S41 statements need narrower versions:
+
+| Topic | Correct use here |
+|---|---|
+| Arithmetic itinerary | \(\alpha=[0;2,\overline1]\), not \([0;\overline{2,1}]\). Its first Gauss iterate is the golden reciprocal; subsequent digits are all one. |
+| Bounded type versus high type | An upper bound and a lower bound on digits are different conditions, and can hold together, for example for \([0;\overline N]\). The high-type Hölder theorem quoted in §28 still does not supply a golden-angle estimate. |
+| Critical orders | In the smooth definition, local non-flatness is written \(f(c)+\psi(x)|\psi(x)|^{d-1}\), subject to the stated regularity. Analytic increasing germs have odd integer critical orders. |
+| Unstable dimension | One critical point and two critical points need their own theorems. The bounded-combinatorics bi-cubic attractor has a codimension-two stable foliation; the source's blanket one-dimensional unstable entry cannot be carried across. |
+| Fixed-point constants | The return operator, normalization and function space must be specified before assigning a Feigenbaum or circle-renormalization scaling constant. No such constant replaces \(\varphi^{28}\). |
+
+The bi-cubic qualification follows from the explicitly scoped attractor theorem, not from a numerical analogy. [Estevez–Yampolsky, *Hyperbolicity of Renormalization for bi-cubic circle maps with bounded combinatorics*](https://arxiv.org/abs/2112.05849)
+
+Nor is an arbitrary first return of a rigid rotation a rigid translation on the chosen interval. On \(I=[0,1/2)\), the first returns of x=0, 1/5 and 2/5 have return times 1, 3 and 2 respectively. Their displacements are \(\alpha\), \(3\alpha-1\), and \(2\alpha-1\), which are distinct even modulo the interval length. Return maps are defined piecewise; identifying special induced maps with rescaled rotations needs the actual inducing interval and endpoint identifications.
+
+### 33.4 Parabolic and radius formulas need their own corrections
+
+For \(f(z)=z+cz^2+O(z^3)\), the coordinate \(Z=-1/(cz)\) gives translation by +1 at infinity. If
+\[
+F(Z)=Z+1+\frac bZ+O(Z^{-2}),
+\]
+the formal Fatou coordinate starts \(v(Z)=Z-b\log Z+O(Z^{-1})\): substituting \(Z+k\log Z\) into \(v\circ F-v\) leaves coefficient \((b+k)/Z\). S41 uses the same sign for b and the logarithmic term and obtains the wrong first cancellation.
+
+For a simple parabolic germ, the attracting and repelling charts give an upper and a lower horn, with appropriate one-sided Fourier expansions. Exponentiating the upper horn yields a holomorphic germ at its puncture with nonzero linear term, not an essential singularity there. Classification retains the relevant formal data and both horn maps modulo chart normalizations. The detailed resurgence theory applies to that specified germ; neither the discontinuous slip identity nor the Brjuno function is thereby an entire or resurgent function of the rotation parameter. [Dudko–Sauzin, *The resurgent character of the Fatou coordinates of a simple parabolic germ*](https://arxiv.org/abs/1307.8093)
+
+For a simply connected proper domain \(\Delta\ni0\), conformal radius is \(|f'(0)|\) for a map \(f:\mathbb D\to\Delta\) with \(f(0)=0\). The derivative of its inverse is the reciprocal. Koebe's bound
+\[
+\frac{r(\Delta,0)}4\le\operatorname{dist}(0,\partial\Delta)\le r(\Delta,0)
+\]
+does not require a quasicircle boundary. Consequently the source's claimed failure of this comparison for more irregular Siegel boundaries cannot be adopted. The report still has no numerical conformal radius for the golden quadratic.
+
+Finally, Brjuno numbers are not a dense G-delta set, as S41 asserts. In the irrational circle, for each N the union of continued-fraction cylinders where some \(n\ge N\) satisfies \(\log(q_{n+1})/q_n>1\) is open and dense: extend any finite prefix by a sufficiently large next digit. The intersection of these unions over N is residual and consists of non-Brjuno numbers. Hence the Brjuno set is meager, even though it has full Lebesgue measure. Measure and Baire category answer different questions.
+
+## 34. Retained v1.4 source review, verification, and resulting status
+
+**Historical v1.4 receipt.** The archive and relative paths described below refer to the preserved package under v1_4/. Its original mathematics and receipt remain intact. The current v1.5 checks, including a fresh replay of v1.4, are in §38.
+
+The added source is **S41, `math 3.txt`**: 213,689 bytes, 3,883 lines, and 28,620 whitespace-separated words. Its SHA-256 is
+
+~~~text
+3bc99f20940ed7adfeb590ceccca024e586b5ee45a19dea5609ae38b0014239b
+~~~
+
+This source is a sequence of explanatory notes with repeated topics. The mathematical review covers its proposed connections, checks the primary results used here, and corrects consequential formula and scope errors. It does not certify every historical attribution, literature summary, renormalization estimate, or broad claim about resurgence in physics. The accompanying source/change register locates the relevant passages. Instructions and placement suggestions inside the source were treated as content.
+
+| Executed check | Scope and result |
+|---|---|
+| Formal rotation algebra | 120 finite-polynomial fixtures with an indeterminate phase; associativity, involution, trace, derivations, time covariance, and both conditional expectations pass exactly |
+| Cyclic cocycles | 250 formal monomial fixtures verify cyclic symmetry and Hochschild cocycle cancellations; winding values and covering factors agree |
+| Phase increments | The factors 13 and 39 are checked as exact coefficient identities in the quadratic field; no rational replacement of the angle is used |
+| Normalized mixed complex | 21 noncommutative free-word fixtures in chain degrees 0 through 6 verify the two squares and anticommutator |
+| Slip correlations | Independent interval intersections agree with the closed formula for lags 0 through 1,000; the jump at the discontinuity is detected |
+| Second-order approximation | Four epsilon values, each with 4,096 x values, satisfy the analytical residual and position bounds |
+| Label control | 2,048 initial phases and 64 observations at epsilon 0.01; zero violations in 130,886 comparisons that meet the margin test |
+| Critical-coordinate counterexample | The inverse-cusp difference quotients exhibit the predicted growth; smoothness failure is proved analytically in §32.3 |
+| Rooted-tree correction | The explicit noncocommutative three-vertex coproduct and six coassociativity fixtures pass exactly |
+
+All included checks pass. Exact algebra and analytic proofs supply the universal statements. Floating-point fixtures check implementations and examples; they are not interval-arithmetic proofs or evidence for a production simulation. Neither general cohomology theorems nor renormalization theorems are proved by these finite checks.
+
+The archive contains the complete v1.4 report, its source/change register, the new source snapshot, the standard-library verifier and executed receipt, a source inventory, and SHA-256 checksums. The **entire v1.3 package** is preserved under `v1_3/`, including its own earlier packages. The version folders are:
+
+| Version | Location inside the current archive |
+|---|---|
+| v1.4 | Archive root |
+| v1.3 | `v1_3/` |
+| v1.2 | `v1_3/v1_2/` |
+| v1.1 | `v1_3/v1_2/v1_1/` |
+
+From the extracted archive, with Python 3.10 or later, run:
+
+~~~text
+python verify_v14.py
+~~~
+
+Packaging reruns this verifier from an extracted copy and checks that it reproduces the stored receipt. Earlier version receipts are preserved and their checksums rechecked; they are not relabeled as new executions. The inventory now covers 43 explicitly supplied input files across the updates, plus the two earlier checksum dependencies. Local checksums bind these bytes but do not create an external trust anchor.
+
+The completed update adds an explicit algebra and Hopf action for the screen, an exact lag-correlation law, and an approximation with a usable phase-error bound. Predictive non-descent, the required continuous phases, the original empirical statuses, and the previously qualified toroidal results retain their established meanings. The larger mathematical theories apply only to the objects and hypotheses stated in their respective sections.
+
+## 35. A differential algebra for the predictive phases
+
+Math4's Novikov discussion can be connected to the existing model by specifying its functions, derivative, product and time action. This construction concerns smooth phase observables. It does not replace the continuous predictive phases established in §§1–12 with a finite state.
+
+### 35.1 Domain and conventions
+
+Let \(h:\mathbb R\to\mathbb R\) be a smooth lift of an orientation-preserving circle diffeomorphism, with \(h(x+1)=h(x)+1\) and \(h'(x)>0\). Include the rigid case \(h(x)=x\). Set
+
+\[
+F=h^{-1}\circ R_\alpha\circ h,\qquad
+B_h=C^\infty(\mathbb T;\mathbb C),\qquad
+D_h=\frac{1}{2\pi i\,h'(x)}\frac{d}{dx},\qquad
+e_n^h(x)=e^{2\pi i n h(x)}.
+\]
+
+Then \(D_he_n^h=ne_n^h\). In rigid coordinates this is exactly the restriction of \(D_2\) from §31 to the smooth multiplication algebra. Finite Fourier sums in the \(e_n^h\) form a dense differential subalgebra; the products below are continuous on the smooth function space. The factor \(2\pi i\) fixes the integer Fourier normalization. These are complexified vector fields; the corresponding real coordinate derivative is \(2\pi iD_h=(h')^{-1}\partial_x\).
+
+The occupation functional and time pullback are
+
+\[
+I_h(f)=\int_0^1 f(x)h'(x)\,dx,\qquad K_Ff=f\circ F.
+\]
+
+Periodicity gives
+
+\[
+I_h(D_hf)=0,\qquad I_h((D_hf)g)=-I_h(fD_hg).
+\]
+
+Differentiating \(h(F(x))=h(x)+\alpha\) yields \(h'(F(x))F'(x)=h'(x)\), hence
+
+\[
+D_hK_F=K_FD_h,\qquad K_Fe_n^h=e^{2\pi i n\alpha}e_n^h.
+\]
+
+Thus multiplication, the normalized derivative and occupation all transform consistently under the actual update. Positivity of \(h'\) is essential here: the critical coordinate in §32.3 does not satisfy these hypotheses. Bin and slip indicators remain measurable/BV observables and are not elements of this classical smooth differential domain.
+
+### 35.2 The two opposite Novikov products
+
+Fix the associator convention \(\operatorname{as}(f,g,u)=(f\circ g)\circ u-f\circ(g\circ u)\). Define
+
+\[
+f\circ g=fD_hg.
+\]
+
+Direct use of the product rule gives
+
+\[
+\operatorname{as}_\circ(f,g,u)=-fgD_h^2u,
+\qquad
+(f\circ g)\circ u=f(D_hg)(D_hu).
+\]
+
+The first expression is symmetric in \(f,g\), and the second is symmetric in \(g,u\). These are respectively left pre-Lie symmetry and commutation of right multiplications: the stated product is **left Novikov**. Its opposite
+
+\[
+f\triangleleft g=gD_hf
+\]
+
+is right Novikov, with associator \(guD_h^2f\) and commuting left multiplications. Up to the displayed derivative normalization, this is the product retained in §33.1. For that right product, with its own commutator bracket, the right-multiplication identity has the sign
+
+\[
+[R_f,R_g]=-R_{[f,g]_{\triangleleft}}.
+\]
+
+For the left product the subadjacent bracket is
+
+\[
+[f,g]_D=fD_hg-gD_hf,
+\qquad e_m^h\circ e_n^h=n e_{m+n}^h,
+\qquad [e_m^h,e_n^h]_D=(n-m)e_{m+n}^h.
+\]
+
+The injective map \(f\mapsto fD_h\) identifies this bracket with operator commutation of vector fields. It proves Jacobi directly. Since \(K_F\) preserves multiplication and commutes with \(D_h\), it preserves both Novikov products and this bracket. These identities hold for every rotation angle; the particular \(\alpha\) enters through the time eigenvalues and the chosen predictive phase factors.
+
+### 35.3 Gelfand–Dorfman compatibility, with an explicit realization
+
+The left Novikov product and \([\ ,\ ]_D\) satisfy the Gelfand–Dorfman identity
+
+\[
+[f\circ g,u]_D-[f\circ u,g]_D
++[f,g]_D\circ u-[f,u]_D\circ g-f\circ[g,u]_D=0.
+\]
+
+For a direct check on modes of indices \(m,n,p\), the coefficient of \(e_{m+n+p}^h\) is
+
+\[
+n(p-m-n)-p(n-m-p)+(n-m)p-(p-m)n-(p-n)(n+p)=0.
+\]
+
+Multilinearity, or a direct derivative expansion, proves the identity for smooth functions. The zero bracket gives another GD structure on the same Novikov algebra. This two-operation structure is sometimes called a GD bialgebra; it supplies no coalgebra or Hopf coproduct. The convention and the differential Poisson construction agree with [Kolesnikov–Sartayev](https://arxiv.org/html/2105.13815v2).
+
+The nonzero bracket above is **not** a Poisson bracket for pointwise multiplication on \(B_h\): \([1,g]_D=D_hg\), whereas a Poisson bracket with the unit is zero. Nevertheless this GD algebra has a concrete ambient Poisson realization. Introduce an auxiliary algebraic Laurent variable \(t\), and put
+
+\[
+P=B_h[t,t^{-1}],\qquad d=t^{-1}D_h,\qquad
+\{A,B\}=(\partial_tA)(D_hB)-(D_hA)(\partial_tB).
+\]
+
+The commuting derivations \(\partial_t,D_h\) make this a Poisson bracket. The operator \(d\) is a derivation of both the commutative product and this bracket. For verification,
+
+\[
+\{ft^r,gt^s\}=t^{r+s-1}(r fD_hg-s gD_hf),
+\qquad d(ft^r)=t^{r-1}D_hf;
+\]
+
+substitution gives \(d\{A,B\}=\{dA,B\}+\{A,dB\}\). The injective linear map \(\iota(f)=tf\) then satisfies
+
+\[
+\iota(f)d\iota(g)=t(fD_hg)=\iota(f\circ g),
+\qquad \{\iota(f),\iota(g)\}=t[f,g]_D.
+\]
+
+This explicitly realizes both GD operations inside a differential Poisson algebra. The map preserves the GD operations, not the separate pointwise multiplication on \(B_h\). The auxiliary variable is not an additional physical coordinate or an inferred Hamiltonian for the screen.
+
+### 35.4 The full, pair and slip phases, and the limits of averaging
+
+For a positive integer \(k\), define the smooth phase inclusion
+
+\[
+J_{k,h}f(x)=f(kh(x)\bmod1),\qquad B_h^{(k)}=J_{k,h}C^\infty(\mathbb T).
+\]
+
+Its modes are \(e_{kn}^h\). The predictive choices remain \(k=1,13,39\), with
+
+\[
+B_h^{(39)}\subset B_h^{(13)}\subset B_h^{(1)}.
+\]
+
+Writing \(D=(2\pi i)^{-1}\partial_y\) on the intrinsic phase circle,
+
+\[
+D_hJ_{k,h}=kJ_{k,h}D,\qquad
+(J_{k,h}f)\circ(J_{k,h}g)=kJ_{k,h}(fDg).
+\]
+
+Thus the intrinsic Novikov product on \(B_h^{(k)}\) uses \(D_h/k\). This normalization makes \(J_{k,h}\) an isomorphism onto its image for both the product and bracket. It also intertwines time with rotation through \(k\alpha\): \(K_FJ_{k,h}=J_{k,h}K_{k\alpha}\). In particular \(13\alpha=5-\tau/3\) and \(39\alpha=15-\tau\), exactly as in §30.
+
+The finite-fiber expectation from §30 restricts to
+
+\[
+E_{k,h}f(x)=\frac1k\sum_{r=0}^{k-1}
+ f\!\left(h^{-1}(h(x)+r/k)\right).
+\]
+
+It commutes with \(D_h\) and \(K_F\), and preserves \(I_h\). It does not preserve the Novikov product. For \(k>1\),
+
+\[
+E_{k,h}(e_1^h)=E_{k,h}(e_{-1}^h)=0,
+\qquad E_{k,h}(e_1^h\circ e_{-1}^h)=-1.
+\]
+
+Commuting with a derivative does not make an averaging map multiplicative. This explicit obstruction prevents replacing the smooth algebra by an algebraic quotient using the expectation alone.
+
+There is a second, different limitation. On the full smooth rotation algebra \(A_\alpha^\infty\), the same recipe \(a\circ b=aD_2b\) is generally **not Novikov**. With \(UV=\ell VU\), \(\ell=e^{2\pi i\alpha}\),
+
+\[
+(1\circ V)\circ(UV)-(1\circ UV)\circ V
+=VUV-UV^2=(\ell^{-1}-1)UV^2\ne0.
+\]
+
+The left pre-Lie associator difference at \((U,V,V)\) gives the same defect. Its canonical trace is zero, but its squared trace norm is
+
+\[
+\mathsf T(\Delta^*\Delta)=|\ell^{-1}-1|^2
+=4\sin^2(\pi\alpha)>0.
+\]
+
+The smooth commutative multiplication subalgebra supports the new construction; adjoining noncommuting time operators changes the identities. A vanishing trace of an element is not a certificate that the element vanishes.
+
+## 36. Witt symmetry and a normalized central cocycle
+
+### 36.1 Infinitesimal transformations of the phase
+
+On smooth observables define the complex vector fields
+
+\[
+L_n=-e_n^hD_h,\qquad n\in\mathbb Z.
+\]
+
+Their action and commutator are
+
+\[
+L_ne_j^h=-j e_{n+j}^h,\qquad
+[L_m,L_n]=(m-n)L_{m+n}.
+\]
+
+This is an explicit representation of the centerless Witt algebra. Time conjugation is equally explicit:
+
+\[
+K_FL_nK_F^{-1}=e^{2\pi i n\alpha}L_n.
+\]
+
+The operators are defined on the common smooth domain; no claim that they are bounded operators on the occupation Hilbert space is needed. The Laurent mode span already proves the displayed Lie relations, which extend to smooth coefficients by differentiation.
+
+This is a connection between the actual predictive phase and infinitesimal coordinate transformations. It is not yet a vertex operator algebra: no state-field correspondence or vacuum representation has been supplied. In this representation \(L_0e_j^h=-j e_j^h\), so its spectrum on Fourier modes contains every integer and is not bounded below.
+
+### 36.2 An explicit Lie 2-cocycle
+
+The standard Virasoro normalization on these abstract Witt generators is
+
+\[
+\omega(L_m,L_n)=\frac{m^3-m}{12}\,\delta_{m+n,0}.
+\]
+
+Here \(\delta\) is the Kronecker delta. On smooth vector fields it can be written
+
+\[
+\omega(fD_h,gD_h)=\frac1{12}
+ I_h\!\left(((D_h^3-D_h)f)g\right).
+\]
+
+Integration by parts proves antisymmetry. The cyclic Jacobi identity reduces on modes to
+
+\[
+(m-n)c(m+n)+(n-p)c(n+p)+(p-m)c(p+m)=0,
+\quad c(q)=\frac{q^3-q}{12},\quad m+n+p=0.
+\]
+
+Substituting \(p=-m-n\) proves it as a polynomial identity; when the total mode is nonzero every central term vanishes. The integral is a continuous bilinear functional on the smooth domain, and its cocycle identity is trilinear, so Fourier approximation extends the mode calculation. Time invariance follows either from \(I_h\) and derivative covariance or from the factor \(e^{2\pi i(m+n)\alpha}=1\) on supported mode pairs.
+
+The cocycle is not a coboundary on the Witt mode algebra. If it equaled \(b([\ ,\ ])\), the pair \((L_1,L_{-1})\) would force \(b(L_0)=0\), while \((L_2,L_{-2})\) would require \(4b(L_0)=1/2\). This is a contradiction.
+
+One may therefore define a central extension by adjoining \(C\) and specifying
+
+\[
+[L_m,L_n]_{\mathrm{ext}}=(m-n)L_{m+n}
++\kappa\,\omega(L_m,L_n)C,\qquad [C,L_n]=0.
+\]
+
+The scalar \(\kappa\) is chosen data. The differential-operator representation above has zero central action. Nothing here assigns a physical central charge from \(\alpha\), \(39\), the substitution eigenvalue or an occupation statistic. The usual Virasoro/vertex-algebra distinction is treated in [De Sole–Kac](https://arxiv.org/abs/math-ph/0511055).
+
+### 36.3 What a phase covering does to the cocycle
+
+For \(k>0\), normalized generators acting on the \(k\)-phase algebra are
+
+\[
+L_m^{(k)}=\frac1kL_{km}=-e_{km}^h\frac{D_h}{k}.
+\]
+
+They have the intrinsic Witt bracket and act by \(L_m^{(k)}e_{kj}^h=-j e_{k(m+j)}^h\). Pulling back the ambient cocycle gives
+
+\[
+\omega_k(L_m,L_n)=\omega(L_m^{(k)},L_n^{(k)})
+=\frac{k m^3-m/k}{12}\,\delta_{m+n,0}.
+\]
+
+This differs from \(k\omega\) by a linear term:
+
+\[
+\omega_k-k\omega=\frac{k-1/k}{12}m\,\delta_{m+n,0}
+=b_k([L_m,L_n]),
+\quad b_k(L_0)=\frac{k-1/k}{24},\quad b_k(L_j)=0\ (j\ne0).
+\]
+
+Under the Chevalley–Eilenberg convention \((db)(X,Y)=-b([X,Y])\), the difference is \(-db_k\). Consequently
+
+\[
+[\omega_k]=k[\omega].
+\]
+
+At central normalization \(\kappa=1\), shifting the chosen lifts by \(+b_k(L_m)C\) subtracts that linear difference; other \(\kappa\) scale the shift accordingly. This states exactly which representative and central normalization are being compared.
+
+More explicitly, at \(\kappa=1\) the central extensions themselves have compatible embeddings
+
+\[
+\Phi_k(L_m)=\frac{L_{km}}{k}+b_k(L_m)C,\qquad
+\Phi_k(C)=kC,\qquad \Phi_l\circ\Phi_k=\Phi_{kl}.
+\]
+
+The composition follows from \(b_l(L_0)/k+l b_k(L_0)=b_{kl}(L_0)\). For example \(b_{13}(L_0)=7/13\) and \(b_{39}(L_0)=190/117\); the pair-to-slip covering composes consistently with the full-to-pair covering, including the central term.
+
+For the model the factors are \(13\) and \(39\), with \(39=3\cdot13\). They are degrees of phase coverings. The same degrees appeared in the cyclic winding computation in §31, but the Lie cocycle here and that cyclic cocycle belong to different complexes. Equal numerical factors do not by themselves provide a comparison theorem between them, nor do they predict a conformal-field-theory central charge.
+
+## 37. Corrections needed before using the larger algebraic survey
+
+The source/change register audits Math4's broader discussion by passage. The following short examples explain the most consequential corrections without making that entire survey part of the predictive model.
+
+### 37.1 Associativity, Novikov identities, and rooted trees
+
+Associativity makes the pre-Lie associator zero, but it does not imply the additional Novikov identity. In an associative matrix algebra, take \(x=I\), \(y=E_{12}\), \(z=E_{21}\). Then
+
+\[
+(xy)z-(xz)y=E_{11}-E_{22}\ne0.
+\]
+
+Thus Math4's assertion that associative differential-operator composition is automatically Novikov is invalid. Conversely, commutative associative multiplication does satisfy both Novikov conventions; no new screen dynamics follows from merely naming that structure.
+
+A related error appears in its Grossman–Larson product. In the forest realization compatible with root insertion, let \(b\) be the one-vertex tree, \(\ell\) the two-vertex chain and \(c\) the three-vertex cherry. The product includes repeated attachment targets:
+
+\[
+b^2\star b=b^3+2b\ell+c.
+\]
+
+The cherry occurs when both source components attach to the same target vertex. Requiring distinct targets deletes it and breaks associativity. This is consistent with the all-maps construction in [Hoffman, §4](https://arxiv.org/pdf/math/0201253); it does not change the Connes–Kreimer coproduct retained in §33.
+
+The source also claims that some Novikov algebras cannot embed in a commutative differential algebra. Over characteristic zero the embedding theorem gives precisely such an embedding, with the appropriate handedness. This must be distinguished from exceptional GD algebras, where **both** operations must embed. See [Bokut–Chen–Zhang](https://arxiv.org/html/1506.03466v2) and [Kolesnikov–Sartayev, Remark 1](https://arxiv.org/html/2105.13815v2). The construction in §35.3 supplies the two-operation embedding for this model directly.
+
+### 37.2 Two exact vertex-algebra counterexamples
+
+An associative envelope, a Lie conformal algebra, a vertex algebra and a vertex operator algebra are distinct objects. Universal enveloping vertex algebras of Lie conformal algebras do exist; their normally ordered product is generally nonassociative. In the rank-one Heisenberg vacuum module, with \([h_m,h_n]=m\delta_{m+n,0}\) and \(h=h_{-1}\mathbf1\),
+
+\[
+(h_{(-1)}h)_{(-1)}h-h_{(-1)}(h_{(-1)}h)
+=2h_{-3}\mathbf1=T^2h\ne0.
+\]
+
+Normal ordering has a quasi-associativity identity, not unrestricted ordinary associativity. The enveloping construction and these distinctions are set out in [De Sole–Kac, §§1.6–1.8](https://arxiv.org/pdf/math-ph/0511055).
+
+The Lee–Yang example in Math4 has the correct final Zhu polynomial but an incorrect singular-vector level. In the universal Virasoro vacuum module at \(c=-22/5\), the relevant vector is at **level four**:
+
+\[
+v=\left(L_{-2}^{\,2}-\frac35L_{-4}\right)\mathbf1.
+\]
+
+The Virasoro commutator gives \(L_nv=0\) for \(n>0\), whereas
+
+\[
+L_2L_{-2}\mathbf1=\frac c2\mathbf1=-\frac{11}{5}\mathbf1\ne0.
+\]
+
+With \(x=[\omega]\) in the Zhu algebra,
+
+\[
+[L_{-2}^{\,2}\mathbf1]=x^2+2x,\qquad
+[L_{-4}\mathbf1]=3x,\qquad [v]=x(x+1/5).
+\]
+
+These exact mode calculations reproduce the corrected relation and its roots \(0,-1/5\). They audit the source's example; they do not select a Lee–Yang theory for the geometry.
+
+At generic central charge, the simple Virasoro vacuum algebra instead has Zhu algebra \(\mathbb C[x]\), not \(\mathbb C[x]/(x)\). Generic simplicity is explicit in the [primary Virasoro study](https://link.springer.com/article/10.1007/s00220-021-04266-w). A central charge, quotient and module category must therefore be stated before applying such a polynomial. In general Zhu correspondence, admissible modules must not silently become ordinary modules with finite-dimensional weight spaces; see [Dong–Li–Mason](https://arxiv.org/abs/q-alg/9612010). Universal versus simple affine W-algebras, critical levels and ordinary versus Hamiltonian-twisted Zhu constructions also require separate hypotheses. None of those missing choices is fixed by §36's Witt action.
+
+### 37.3 A reduction must retain its hypotheses and its kernel
+
+Three elementary tests expose major problems in the later W-algebra discussion.
+
+First, in the principal nilpotent case the finite W-algebra is \(Z(U(\mathfrak g))\). For \(\mathfrak g=\mathfrak{sl}_2\) this is a polynomial algebra \(\mathbb C[C_2]\) in a Casimir generator. The characters \(C_2\mapsto a\), \(a\in\mathbb C\), give an affine line of one-dimensional representations. Their scheme is not generally finite. A separately imposed central character changes the question.
+
+Second, a Slodowy slice \(S_e=e+\mathfrak g^f\), for an \(\mathfrak{sl}_2\)-triple \((e,h,f)\), has contracting action
+
+\[
+t\cdot(e+x)=e+t^{2-\operatorname{ad}h}x.
+\]
+
+It must fix \(e\). The source's \(t^2e\) term already fails that test. On the \(\mathfrak{sl}_2\) slice the correct formula is \(e+af\mapsto e+t^4af\). With PBW degree \(r\) and weight \(j\), Kazhdan degree is \(2r+j\); an individual generator of weight \(j\) has degree \(j+2\). These conventions follow [Gan–Ginzburg](https://arxiv.org/pdf/math/0105225).
+
+Third, the source's simultaneous left/right Whittaker-kernel formula gives zero on the regular bimodule \(U(\mathfrak g)\): multiplication by a nonzero \(x-\chi(x)\) is injective, since the enveloping algebra is a domain. This cannot reproduce a nonzero finite W-algebra. For the stated Harish–Chandra bimodule setting, the reduction instead first takes coinvariants and then invariants:
+
+\[
+\operatorname{Wh}(K)=(K/K\mathfrak m_\chi)^{\operatorname{ad}\mathfrak m}.
+\]
+
+See [Ginzburg, equation (3.3.2)](https://arxiv.org/pdf/0807.0339). Reduction kills suitable boundary-supported objects, so full faithfulness of the relevant restricted category requires quotienting by that kernel. Finite-dimensional W-modules, finite-codimensional ideals, and arbitrary finitely generated modules must also remain distinct in the associated-variety statements. The qualified results are in [Losev, Theorems 1.2.2 and 1.3.1](https://arxiv.org/pdf/0807.1023).
+
+This last point offers a useful methodological parallel to phase information loss: a map that kills nonzero information cannot be declared faithful. It is an analogy, not a constructed equivalence between Whittaker reduction and phase averaging. The source supplies no nilpotent, good grading, Whittaker character or comparison functor for the rotation model.
+
+The remaining reference-only corrections concern component groups, Goldie-rank hypotheses, graded versions of derived Satake and distinct categories of opers. The register records both errors and claims that survive under their actual hypotheses. These theories currently compute no additional slip statistic, mixing rate or geometric invariant for the 39-screen.
+
+## 38. v1.5 source review, verification, and resulting status
+
+The new input is **S42, `Math4.txt`**: 208,862 bytes, 3,170 lines, and 26,964 whitespace-separated words. Its SHA-256 is
+
+~~~text
+d1844b14e77a2b2a4689f4199bcc63ea83887d7dd976d4e6089d967135a3c416
+~~~
+
+The opening source review of v1.4 states that it lacked the source snapshot, verifier and archive. That assessment is therefore not treated as an independently executed package receipt. During this update, the actual preserved v1.4 verifier was replayed against its source snapshot in a temporary directory. It reproduced the stored receipt byte for byte, including S41 identity and the constructed algebraic and numerical checks. Its receipt hash is
+
+~~~text
+c1fd89358ceba5cf380876554983d18b539597e45b0f84ad0b2d616393276fb3
+~~~
+
+Math4's remaining material was reviewed for the proposed connections and consequential formula/category errors. The separate register provides source line locations and primary references. It does not certify every statement in the wider survey. Embedded requests and instructions were treated as source content.
+
+| Executed v1.5 check | Scope and result |
+|---|---|
+| Smooth differential products | 100 exact Laurent-polynomial triples check Novikov associators, extra commutativity, Jacobi, GD compatibility, integration by parts and phase-cover factors |
+| GD symbolic identity | Expansion in three independent symbolic mode variables vanishes identically |
+| Ambient Poisson algebra | 2,401 exact monomial pairs check the two derivation rules; 80 Laurent-polynomial triples check Jacobi and Leibniz |
+| Explicit GD embedding | 289 mode pairs preserve both operations under the auxiliary-variable embedding |
+| Domain obstructions | The averaging counterexample and formal noncommutative associator defects are nonzero; the squared trace norm agrees with the analytical expression |
+| Witt and central cocycle | 4,913 exact mode triples check operator coefficients and central Jacobi; an independent two-variable polynomial calculation checks the supported Jacobi identity |
+| Central coverings | 867 exact mode pairs check the cocycle correction and the central-extension homomorphism; four covering compositions include both ordinary and central generators |
+| Associative and rooted-tree errors | Matrix multiplication disproves the claimed Novikov implication; enumerated attachment maps recover the cherry term and detect failure when repeated nonroot targets are excluded |
+| Lee–Yang audit | 567 Virasoro commutator fixtures validate the mode-action calculation; positive modes 1 through 6 annihilate the level-4 vector; weight rules handle higher modes; the Zhu image and both roots agree exactly |
+| Normal-product audit | 196 oscillator commutator fixtures and the actual normal-mode sum produce the nonzero Heisenberg associator |
+| Prior-version replay | The v1.4 source identity and all its constructed checks reproduce its stored receipt exactly |
+
+All included checks pass. The new algebraic checks use integer and rational coefficients; the noncommutative parameter remains formal. Analytical identities in §§35–36 provide the general statements. Finite test collections supplement those derivations and do not certify general external theorems. The replay of v1.4 includes its previously labeled floating-point fixtures. No production simulation or empirical packet claim was rerun.
+
+The archive contains the full v1.5 report, this source/change register, the S42 snapshot, two standard-library verification modules, the executed receipt, the source inventory and SHA-256 checksums. The **entire v1.4 package** is preserved with all its nested earlier packages:
+
+| Version | Location inside the current archive |
+|---|---|
+| v1.5 | Archive root |
+| v1.4 | `v1_4/` |
+| v1.3 | `v1_4/v1_3/` |
+| v1.2 | `v1_4/v1_3/v1_2/` |
+| v1.1 | `v1_4/v1_3/v1_2/v1_1/` |
+
+From the extracted archive, with Python 3.10 or later, run:
+
+~~~text
+python verify_v15.py
+~~~
+
+This runs the v1.5 checks and replays v1.4 in a temporary copy, preserving its packaged files. The packaging check extracts the new archive, reruns this command, verifies byte-identical results and checks the nested checksums. Versions v1.1–v1.3 retain their historical execution receipts; their mathematical verifiers are not claimed as freshly executed here.
+
+The inventory now covers **44 explicitly supplied inputs**, plus the two earlier checksum dependencies. Source snapshots and issued earlier artifacts are preserved. Local hashes identify the reviewed bytes and detect subsequent differences; they do not create an external trust anchor.
+
+The update supplies a smooth Novikov/GD algebra, an explicit Poisson realization, a time-covariant Witt action and compatible central covering maps. It also identifies precise failures of two tempting extensions: preserving the product by averaging and applying the same Novikov formula to the whole noncommutative algebra. Earlier predictive non-descent, continuous phase requirements, exact slip laws, non-mixing and the qualified toroidal results retain their established meanings. A physical central charge, positive-energy vertex representation and the later Lie-theoretic comparison data remain unspecified.
