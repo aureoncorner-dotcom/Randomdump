@@ -1,0 +1,394 @@
+{
+  "schema": "toroidal-historical-source-recovery-checks/1",
+  "performed_at_utc": "2026-09-08T17:01:28.761224+00:00",
+  "scope": "Artifact identity, bounded evidence inventory, original arithmetic verifier execution, and structural retained-sample verification. No sampler trajectory replay in this recovery.",
+  "environment": {
+    "python": "3.12.13 (main, Aug  7 2026, 02:25:39) [Clang 22.1.3 ]",
+    "platform": "Linux-6.18.35-x86_64-with-glibc2.39"
+  },
+  "original_packet_manifest_checks": [
+    {
+      "archive": "TD_COS_FH_001_L2_FIRST_RUN_PACKET_v0.1.zip",
+      "manifest": "MANIFEST.json",
+      "count": 9,
+      "status": "PASS",
+      "entries": [
+        {
+          "path": "DYNAMICS_PROSE_RECONSTRUCTION.json",
+          "expected_bytes": 2274,
+          "observed_bytes": 2274,
+          "expected_sha256": "176b18f1c955337a5fc1dbe8bf0aac5e2e9a028ec076b0b519652776ee01fb11",
+          "observed_sha256": "176b18f1c955337a5fc1dbe8bf0aac5e2e9a028ec076b0b519652776ee01fb11",
+          "matches": true
+        },
+        {
+          "path": "td_cos_fh_001_sampler.py",
+          "expected_bytes": 47134,
+          "observed_bytes": 47134,
+          "expected_sha256": "262f60cf72e41481428c45cb921aee99c1c6178d39f67ed7071252001f180c2b",
+          "observed_sha256": "262f60cf72e41481428c45cb921aee99c1c6178d39f67ed7071252001f180c2b",
+          "matches": true
+        },
+        {
+          "path": "verify_td_receipt.py",
+          "expected_bytes": 5294,
+          "observed_bytes": 5294,
+          "expected_sha256": "f19939e16e453feea09580a2e901746e8bc0f0f50dbefb2bf34c657ae8a9c2f0",
+          "observed_sha256": "f19939e16e453feea09580a2e901746e8bc0f0f50dbefb2bf34c657ae8a9c2f0",
+          "matches": true
+        },
+        {
+          "path": "make_td_report.py",
+          "expected_bytes": 13443,
+          "observed_bytes": 13443,
+          "expected_sha256": "f892c60222f54e30c4479173fa2c3aff91cde5ff9e36df48d9c6f94a60ed4993",
+          "observed_sha256": "f892c60222f54e30c4479173fa2c3aff91cde5ff9e36df48d9c6f94a60ed4993",
+          "matches": true
+        },
+        {
+          "path": "TD_COS_FH_001_L2_run_results.json",
+          "expected_bytes": 84171,
+          "observed_bytes": 84171,
+          "expected_sha256": "40a3c3224fe8b99993abf78fd63125be585823588652a289f9eb4c28b4e96b3a",
+          "observed_sha256": "40a3c3224fe8b99993abf78fd63125be585823588652a289f9eb4c28b4e96b3a",
+          "matches": true
+        },
+        {
+          "path": "TD_COS_FH_001_L2_samples.npz",
+          "expected_bytes": 1516660,
+          "observed_bytes": 1516660,
+          "expected_sha256": "411310b8f7257c115627187cdda415a19c72fd32b0317a018b15f5027a0e9106",
+          "observed_sha256": "411310b8f7257c115627187cdda415a19c72fd32b0317a018b15f5027a0e9106",
+          "matches": true
+        },
+        {
+          "path": "TD_COS_FH_001_L2_verification.json",
+          "expected_bytes": 1217,
+          "observed_bytes": 1217,
+          "expected_sha256": "68836f3bc39f246cc456f8a4080b131f5f23555aeacba24ee8497682cdbf95fc",
+          "observed_sha256": "68836f3bc39f246cc456f8a4080b131f5f23555aeacba24ee8497682cdbf95fc",
+          "matches": true
+        },
+        {
+          "path": "TD_COS_FH_001_L2_companion_comparison.json",
+          "expected_bytes": 2419,
+          "observed_bytes": 2419,
+          "expected_sha256": "70093dd9161c3e7cd8475251c86ebe0a52a194d8be77dd0c5e32ab61ebc76665",
+          "observed_sha256": "70093dd9161c3e7cd8475251c86ebe0a52a194d8be77dd0c5e32ab61ebc76665",
+          "matches": true
+        },
+        {
+          "path": "TD_COS_FH_001_L2_preproduction_receipt.md",
+          "expected_bytes": 7697,
+          "observed_bytes": 7697,
+          "expected_sha256": "12556387c150df21247204ffbf33eaa4ff8614df0f87438afd9b1c8220cd6a0a",
+          "observed_sha256": "12556387c150df21247204ffbf33eaa4ff8614df0f87438afd9b1c8220cd6a0a",
+          "matches": true
+        }
+      ]
+    },
+    {
+      "archive": "TD_COS_FH_001_Mismatch_Investigation_v0.1.zip",
+      "manifest": "DIAGNOSTIC_MANIFEST.json",
+      "count": 29,
+      "status": "PASS",
+      "entries": [
+        {
+          "path": "README.md",
+          "expected_bytes": 2764,
+          "observed_bytes": 2764,
+          "expected_sha256": "f0ba510f5e485a18f5ff24c1a653f33c79300024f64e1e133e4f031d5064e6d1",
+          "observed_sha256": "f0ba510f5e485a18f5ff24c1a653f33c79300024f64e1e133e4f031d5064e6d1",
+          "matches": true
+        },
+        {
+          "path": "TD_COS_FH_001_Mismatch_Investigation_v0.1.md",
+          "expected_bytes": 10173,
+          "observed_bytes": 10173,
+          "expected_sha256": "d07f66ffb99022846b1eb42abd0fca97acd5c075cecabc80fa9cd0c02daba777",
+          "observed_sha256": "d07f66ffb99022846b1eb42abd0fca97acd5c075cecabc80fa9cd0c02daba777",
+          "matches": true
+        },
+        {
+          "path": "compare_td_traces.py",
+          "expected_bytes": 3578,
+          "observed_bytes": 3578,
+          "expected_sha256": "c8228b53c3bc73e24d6fbee7c2cabe90f2d4e8425913fb6afa00e142b0807aba",
+          "observed_sha256": "c8228b53c3bc73e24d6fbee7c2cabe90f2d4e8425913fb6afa00e142b0807aba",
+          "matches": true
+        },
+        {
+          "path": "diagnose_td_mismatch.py",
+          "expected_bytes": 10198,
+          "observed_bytes": 10198,
+          "expected_sha256": "a136bc505aad07bf8813c0d8e72f08bce6d64829ffdf217164375701e14c25b8",
+          "observed_sha256": "a136bc505aad07bf8813c0d8e72f08bce6d64829ffdf217164375701e14c25b8",
+          "matches": true
+        },
+        {
+          "path": "diagnostics/BOUNDED_DIAGNOSTICS.json",
+          "expected_bytes": 11359,
+          "observed_bytes": 11359,
+          "expected_sha256": "769f49b9edcfa911fb38fadfd6860878ad303f3844d29ff8ce8a647a84b0c716",
+          "observed_sha256": "769f49b9edcfa911fb38fadfd6860878ad303f3844d29ff8ce8a647a84b0c716",
+          "matches": true
+        },
+        {
+          "path": "diagnostics/CHECKPOINT_SERIALIZATION_CHECKS.json",
+          "expected_bytes": 144,
+          "observed_bytes": 144,
+          "expected_sha256": "a782430dd50c7136396a51a099e18e22bab018270e4c42a77769fe9b4a195310",
+          "observed_sha256": "a782430dd50c7136396a51a099e18e22bab018270e4c42a77769fe9b4a195310",
+          "matches": true
+        },
+        {
+          "path": "diagnostics/COMPARATOR_CHECKS.json",
+          "expected_bytes": 573,
+          "observed_bytes": 573,
+          "expected_sha256": "0557369793954d400d674baf8dc44ae25c0f238b79ac5cd8fd531e5771d79634",
+          "observed_sha256": "0557369793954d400d674baf8dc44ae25c0f238b79ac5cd8fd531e5771d79634",
+          "matches": true
+        },
+        {
+          "path": "diagnostics/chain_0_restartable_checkpoints.json",
+          "expected_bytes": 103672,
+          "observed_bytes": 103672,
+          "expected_sha256": "cf482bc75a44300e0c266dbdd4103e33d8352208a209bee1c84ad2d2cc640a04",
+          "observed_sha256": "cf482bc75a44300e0c266dbdd4103e33d8352208a209bee1c84ad2d2cc640a04",
+          "matches": true
+        },
+        {
+          "path": "diagnostics/chain_1_restartable_checkpoints.json",
+          "expected_bytes": 103653,
+          "observed_bytes": 103653,
+          "expected_sha256": "d3f46f43e9e889c739f3e4b0a7b8fe1b02681244f98d456d625bf933a187e47b",
+          "observed_sha256": "d3f46f43e9e889c739f3e4b0a7b8fe1b02681244f98d456d625bf933a187e47b",
+          "matches": true
+        },
+        {
+          "path": "diagnostics/chain_2_restartable_checkpoints.json",
+          "expected_bytes": 103647,
+          "observed_bytes": 103647,
+          "expected_sha256": "bd5cfc9eaa9829c18b8b5b18a5f1d67d5219d20cb927de4db1ca4ff3506ef511",
+          "observed_sha256": "bd5cfc9eaa9829c18b8b5b18a5f1d67d5219d20cb927de4db1ca4ff3506ef511",
+          "matches": true
+        },
+        {
+          "path": "diagnostics/chain_3_restartable_checkpoints.json",
+          "expected_bytes": 103714,
+          "observed_bytes": 103714,
+          "expected_sha256": "18f3542cb934b6740a712f262fd8c8633f406c4d7d71701caf5d155da978a994",
+          "observed_sha256": "18f3542cb934b6740a712f262fd8c8633f406c4d7d71701caf5d155da978a994",
+          "matches": true
+        },
+        {
+          "path": "diagnostics/chain_4_restartable_checkpoints.json",
+          "expected_bytes": 103671,
+          "observed_bytes": 103671,
+          "expected_sha256": "b96a7dfe4d2c9f63201f5b727c550058fcdf905957b0430bc1fc2baee7642ac2",
+          "observed_sha256": "b96a7dfe4d2c9f63201f5b727c550058fcdf905957b0430bc1fc2baee7642ac2",
+          "matches": true
+        },
+        {
+          "path": "diagnostics/chain_5_restartable_checkpoints.json",
+          "expected_bytes": 103599,
+          "observed_bytes": 103599,
+          "expected_sha256": "4e38db10641b8e3d3ea67b9cf82bfc84af2e23fde2faa0d36d25f7e7ce5222a5",
+          "observed_sha256": "4e38db10641b8e3d3ea67b9cf82bfc84af2e23fde2faa0d36d25f7e7ce5222a5",
+          "matches": true
+        },
+        {
+          "path": "diagnostics/chain_6_restartable_checkpoints.json",
+          "expected_bytes": 103600,
+          "observed_bytes": 103600,
+          "expected_sha256": "b919e7bd114f7a38c3b471faa2792505ca09cf031bb0464325e810e75b4763fb",
+          "observed_sha256": "b919e7bd114f7a38c3b471faa2792505ca09cf031bb0464325e810e75b4763fb",
+          "matches": true
+        },
+        {
+          "path": "diagnostics/chain_7_restartable_checkpoints.json",
+          "expected_bytes": 103622,
+          "observed_bytes": 103622,
+          "expected_sha256": "3d074147e2e501033e8ddeb51d2d156e71e1396356bdf04adfeb9aedc6c2d740",
+          "observed_sha256": "3d074147e2e501033e8ddeb51d2d156e71e1396356bdf04adfeb9aedc6c2d740",
+          "matches": true
+        },
+        {
+          "path": "diagnostics/reproduction_prefix_events.jsonl",
+          "expected_bytes": 6608019,
+          "observed_bytes": 6608019,
+          "expected_sha256": "e1830bb58a0762f0de88bd3cb5b074d2328463eb6d79c204a1def2d78aa75e89",
+          "observed_sha256": "e1830bb58a0762f0de88bd3cb5b074d2328463eb6d79c204a1def2d78aa75e89",
+          "matches": true
+        },
+        {
+          "path": "preserved_reproduction/DYNAMICS_PROSE_RECONSTRUCTION.json",
+          "expected_bytes": 2274,
+          "observed_bytes": 2274,
+          "expected_sha256": "176b18f1c955337a5fc1dbe8bf0aac5e2e9a028ec076b0b519652776ee01fb11",
+          "observed_sha256": "176b18f1c955337a5fc1dbe8bf0aac5e2e9a028ec076b0b519652776ee01fb11",
+          "matches": true
+        },
+        {
+          "path": "preserved_reproduction/MANIFEST.json",
+          "expected_bytes": 2837,
+          "observed_bytes": 2837,
+          "expected_sha256": "6933194f51de7b2751d3635745233a1bd8d3b7db3d2952809a4f9c9c3029550e",
+          "observed_sha256": "6933194f51de7b2751d3635745233a1bd8d3b7db3d2952809a4f9c9c3029550e",
+          "matches": true
+        },
+        {
+          "path": "preserved_reproduction/TD_COS_FH_001_L2_companion_comparison.json",
+          "expected_bytes": 2419,
+          "observed_bytes": 2419,
+          "expected_sha256": "70093dd9161c3e7cd8475251c86ebe0a52a194d8be77dd0c5e32ab61ebc76665",
+          "observed_sha256": "70093dd9161c3e7cd8475251c86ebe0a52a194d8be77dd0c5e32ab61ebc76665",
+          "matches": true
+        },
+        {
+          "path": "preserved_reproduction/TD_COS_FH_001_L2_preproduction_receipt.md",
+          "expected_bytes": 7697,
+          "observed_bytes": 7697,
+          "expected_sha256": "12556387c150df21247204ffbf33eaa4ff8614df0f87438afd9b1c8220cd6a0a",
+          "observed_sha256": "12556387c150df21247204ffbf33eaa4ff8614df0f87438afd9b1c8220cd6a0a",
+          "matches": true
+        },
+        {
+          "path": "preserved_reproduction/TD_COS_FH_001_L2_run_results.json",
+          "expected_bytes": 84171,
+          "observed_bytes": 84171,
+          "expected_sha256": "40a3c3224fe8b99993abf78fd63125be585823588652a289f9eb4c28b4e96b3a",
+          "observed_sha256": "40a3c3224fe8b99993abf78fd63125be585823588652a289f9eb4c28b4e96b3a",
+          "matches": true
+        },
+        {
+          "path": "preserved_reproduction/TD_COS_FH_001_L2_samples.npz",
+          "expected_bytes": 1516660,
+          "observed_bytes": 1516660,
+          "expected_sha256": "411310b8f7257c115627187cdda415a19c72fd32b0317a018b15f5027a0e9106",
+          "observed_sha256": "411310b8f7257c115627187cdda415a19c72fd32b0317a018b15f5027a0e9106",
+          "matches": true
+        },
+        {
+          "path": "preserved_reproduction/TD_COS_FH_001_L2_verification.json",
+          "expected_bytes": 1217,
+          "observed_bytes": 1217,
+          "expected_sha256": "68836f3bc39f246cc456f8a4080b131f5f23555aeacba24ee8497682cdbf95fc",
+          "observed_sha256": "68836f3bc39f246cc456f8a4080b131f5f23555aeacba24ee8497682cdbf95fc",
+          "matches": true
+        },
+        {
+          "path": "preserved_reproduction/make_td_report.py",
+          "expected_bytes": 13443,
+          "observed_bytes": 13443,
+          "expected_sha256": "f892c60222f54e30c4479173fa2c3aff91cde5ff9e36df48d9c6f94a60ed4993",
+          "observed_sha256": "f892c60222f54e30c4479173fa2c3aff91cde5ff9e36df48d9c6f94a60ed4993",
+          "matches": true
+        },
+        {
+          "path": "preserved_reproduction/td_cos_fh_001_sampler.py",
+          "expected_bytes": 47134,
+          "observed_bytes": 47134,
+          "expected_sha256": "262f60cf72e41481428c45cb921aee99c1c6178d39f67ed7071252001f180c2b",
+          "observed_sha256": "262f60cf72e41481428c45cb921aee99c1c6178d39f67ed7071252001f180c2b",
+          "matches": true
+        },
+        {
+          "path": "preserved_reproduction/verify_td_receipt.py",
+          "expected_bytes": 5294,
+          "observed_bytes": 5294,
+          "expected_sha256": "f19939e16e453feea09580a2e901746e8bc0f0f50dbefb2bf34c657ae8a9c2f0",
+          "observed_sha256": "f19939e16e453feea09580a2e901746e8bc0f0f50dbefb2bf34c657ae8a9c2f0",
+          "matches": true
+        },
+        {
+          "path": "sources/RECOVERY_RECORD.json",
+          "expected_bytes": 1091,
+          "observed_bytes": 1091,
+          "expected_sha256": "90b99b4b07a2ad02d0d8eaeb7f42f02868eeb82dee8dd8f621dc96ee7fd7fbca",
+          "observed_sha256": "90b99b4b07a2ad02d0d8eaeb7f42f02868eeb82dee8dd8f621dc96ee7fd7fbca",
+          "matches": true
+        },
+        {
+          "path": "sources/companion_Drive_snapshot.txt",
+          "expected_bytes": 11469,
+          "observed_bytes": 11469,
+          "expected_sha256": "b89b2f860bd7c2e40699d831118016c6ff661279bbd94bf1c1f1a5fef93bc3dc",
+          "observed_sha256": "b89b2f860bd7c2e40699d831118016c6ff661279bbd94bf1c1f1a5fef93bc3dc",
+          "matches": true
+        },
+        {
+          "path": "sources/dynamics_Drive_snapshot.txt",
+          "expected_bytes": 14450,
+          "observed_bytes": 14450,
+          "expected_sha256": "94088c80827a2bdb3cd800a5be9f5bd3d01f7c41174ecd30d3819506d69b4f0b",
+          "observed_sha256": "94088c80827a2bdb3cd800a5be9f5bd3d01f7c41174ecd30d3819506d69b4f0b",
+          "matches": true
+        }
+      ]
+    }
+  ],
+  "investigation_preserved_reproduction_all_10_files_identical_to_first_zip": true,
+  "complete_note": {
+    "sha256": "3fa3d6769e311241df398b2d1b15a1dfacba50743d9b627b67fc782daa2498d7",
+    "bytes": 25675,
+    "matches_git_blob_and_upstream_hash": true
+  },
+  "verifier": {
+    "source_hash_matches_declared": true,
+    "output_hash_matches_declared": true,
+    "fresh_stdout_byte_identical_to_original": true,
+    "clock_cases": 6,
+    "local_decimal_cases": 3,
+    "scope": "Supplementary finite arithmetic, not historical sampler verification or a formal proof."
+  },
+  "reproduction_structural_verification": {
+    "status": "PASS",
+    "checks": 16,
+    "receipt": "checks/reproduction_receipt_recovery_check.json"
+  },
+  "reproduction_inspectable_event_evidence": {
+    "rows": 4096,
+    "contiguous_events_per_chain": {
+      "0": 512,
+      "1": 512,
+      "2": 512,
+      "3": 512,
+      "4": 512,
+      "5": 512,
+      "6": 512,
+      "7": 512
+    },
+    "full_initial_state_and_rng_checkpoint_files": 8,
+    "full_state_rng_snapshots": 32,
+    "ticks_per_chain": [
+      0,
+      512,
+      142000,
+      142071
+    ]
+  },
+  "reproduction_original_digest_checkpoints": {
+    "per_chain": [
+      11,
+      11,
+      11,
+      11,
+      11,
+      11,
+      11,
+      11
+    ],
+    "total": 88,
+    "scope": "Digest records, not full serialized restart states."
+  },
+  "historical_comparison": {
+    "executed": 1107368,
+    "preserved_companion": 1108720,
+    "difference": -1352
+  },
+  "historical_status": "UNRESOLVED",
+  "companion_actual_trace_comparison": "NOT_RUN_COMPANION_AUTHORITY_UNRECOVERED",
+  "production_authorization": "NOT_AUTHORIZED",
+  "physical_Q2": "NOT_RUN"
+}

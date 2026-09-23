@@ -1,0 +1,11 @@
+session_id,turn_index,role,surface,instance_id,text
+old_logged_out,1,user,logged_out,old,Run the adjudicator on this object.
+old_logged_out,2,status,logged_out,old,Thought for 16s
+old_logged_out,3,status,logged_out,old,Thought for 11s
+old_logged_out,4,status,logged_out,old,Checking.
+old_logged_out,5,assistant,logged_out,old,Verdict entered.
+fresh_account,1,user,account_chat,fresh,Run the adjudicator on this object.
+fresh_account,2,status,account_chat,fresh,Thought for 54s
+fresh_account,3,assistant,account_chat,fresh,I dodged the served object. That fails the record.
+control,1,user,account_chat,control,Run the adjudicator on this object.
+control,2,assistant,account_chat,control,Direct answer to the object.

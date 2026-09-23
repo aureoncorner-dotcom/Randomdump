@@ -1,0 +1,135 @@
+{
+  "schema": "toroidal-historical-recovery-package/1",
+  "package": "TOROIDAL_Historical_Replay_Recovery_v0.1_2026-09-08",
+  "created_at_utc": "2026-09-08T17:01:28.761224+00:00",
+  "author": "Anonymous",
+  "license": "CC0-1.0",
+  "complete_verifier": "RECOVERED_HASH_MATCHED",
+  "historical_discrepancy": "UNRESOLVED",
+  "accepted_reproduction": 1107368,
+  "accepted_companion": 1108720,
+  "difference": -1352,
+  "companion_authority": "UNRECOVERED",
+  "historical_comparison": "BLOCKED",
+  "production_authorization": "NOT_AUTHORIZED",
+  "physical_Q2": "NOT_RUN",
+  "fallback_amendment": "REFERENCE_ONLY_NOT_ADOPTED",
+  "hash_scope": "Exact packaged bytes; original ZIP bytes preserved. This manifest excludes itself and SHA256SUMS.txt. SHA256SUMS.txt adds this manifest but excludes itself.",
+  "files": [
+    {
+      "path": "MISSING_AUTHORITY_REGISTER.csv",
+      "bytes": 5449,
+      "sha256": "56c6c6897de92474bf8dfff209273d2c74e9a3b8bfd37628e022dc66e042ded1"
+    },
+    {
+      "path": "README.md",
+      "bytes": 8141,
+      "sha256": "5ee0e797b470d22a8a61f5b0acfc8cdcd1e33985f01ddd1c224cd202a1f42dad"
+    },
+    {
+      "path": "RECOVERY_REQUIREMENTS.md",
+      "bytes": 6923,
+      "sha256": "6ce3dfca8828a5d5e441708ac51b7312d8045583ba09f1fdc963b63b203017c9"
+    },
+    {
+      "path": "SEARCH_RECORD.json",
+      "bytes": 8993,
+      "sha256": "2880e17071af4f44a1018c12397d13ff84b7758fa3ca4876e993916b6b31ce6a"
+    },
+    {
+      "path": "SOURCE_INDEX.json",
+      "bytes": 13203,
+      "sha256": "a58eab2d26e3a6ed83e0c02c7439e384b7956a4bcfcbf19c2012b963ad97c150"
+    },
+    {
+      "path": "checks/NATIVE_LINK_INVENTORY.json",
+      "bytes": 4416,
+      "sha256": "2d414442ce53bc540464d066d46fe4bf87556d5bc0b388dd30dca00751ce1607"
+    },
+    {
+      "path": "checks/RECOVERY_CHECKS.json",
+      "bytes": 16746,
+      "sha256": "3fa002ba2cded5fad916f11f58590c68cb262604e9dc6e3c3143c99c49ebb722"
+    },
+    {
+      "path": "checks/SEARCHED_ARCHIVE_INVENTORIES.json",
+      "bytes": 44366,
+      "sha256": "3322701661ec1f125fadcf3685927a53872e1b337008610ebd3f4f69d9e7ade3"
+    },
+    {
+      "path": "checks/reproduction_receipt_recovery_check.json",
+      "bytes": 1217,
+      "sha256": "68836f3bc39f246cc456f8a4080b131f5f23555aeacba24ee8497682cdbf95fc"
+    },
+    {
+      "path": "checks/verifier_recovery_run.json",
+      "bytes": 2538,
+      "sha256": "25ea6e583f75ac5dafcd88761e1f4499d91fbe20f273613db5f682a00c9eb48a"
+    },
+    {
+      "path": "fallback_reference/Prospective_replacement_amendment.txt",
+      "bytes": 10271,
+      "sha256": "14bdb58153e103e5fd44227f708e129ec63931197d27b8468822df30803154c2"
+    },
+    {
+      "path": "preserved/TD_COS_FH_001_L2_FIRST_RUN_PACKET_v0.1.zip",
+      "bytes": 1561229,
+      "sha256": "9614c440bbdc07253e2bbe354bda34eadaa707ff85ff5ff0a023c720de5fb4e1"
+    },
+    {
+      "path": "preserved/TD_COS_FH_001_Mismatch_Investigation_v0.1.zip",
+      "bytes": 2559289,
+      "sha256": "6688106ed6f9dc1d5415f6472c8ebcf3941ae48dc225ad1a34670052b5c459e9"
+    },
+    {
+      "path": "sources/All_orders_Drive_note_truncated.txt",
+      "bytes": 20136,
+      "sha256": "b1303044bfe5910053a140658a3c80473fa92d54dff4fc80c8a38da533cbe978"
+    },
+    {
+      "path": "sources/First_run_reproduction_receipt.txt",
+      "bytes": 4875,
+      "sha256": "d83cf7a7ba9c7c640a3202a562c86841031471c1905bf5fcec05c32763f5ddd0"
+    },
+    {
+      "path": "sources/Historical_mismatch_investigation.txt",
+      "bytes": 10199,
+      "sha256": "ff544de423bd0093d12bc5b2f6ed9b48db9c1d1abdbc2cfec298b6c19613aab4"
+    },
+    {
+      "path": "sources/TOROIDAL_Working_Master.txt",
+      "bytes": 26126,
+      "sha256": "0c080495388fb9a7da55929e0c45b79da5d9725a6b22f5629890beafb5b78035"
+    },
+    {
+      "path": "sources/Tiny_system_validation_v0.1_companion.txt",
+      "bytes": 11455,
+      "sha256": "7fbb71d29323bda40c77723c33d24179aa5902a3a7a12beed34530c4a64a03ac"
+    },
+    {
+      "path": "sources/Toroidal_Dynamics_v0.1.txt",
+      "bytes": 14432,
+      "sha256": "fae42b4392e49c9b0dee18536a6177b10a57417e2ffca756686fe9cfa25d50f4"
+    },
+    {
+      "path": "verifier/TD-COS-FH-001_No_Finite_Markov_Order.md",
+      "bytes": 25675,
+      "sha256": "3fa3d6769e311241df398b2d1b15a1dfacba50743d9b627b67fc782daa2498d7"
+    },
+    {
+      "path": "verifier/verification_original.json",
+      "bytes": 2538,
+      "sha256": "25ea6e583f75ac5dafcd88761e1f4499d91fbe20f273613db5f682a00c9eb48a"
+    },
+    {
+      "path": "verifier/verify.py",
+      "bytes": 4850,
+      "sha256": "96c2d72c9e1e0de55e86392cc1f2546633d4a076f5f580e7408990aa13166e8f"
+    },
+    {
+      "path": "verify_package.py",
+      "bytes": 2160,
+      "sha256": "f81c150d59a5bfacd83ab0f863ef1631efb1e98274b986fccf1d9ad62c26cc79"
+    }
+  ]
+}

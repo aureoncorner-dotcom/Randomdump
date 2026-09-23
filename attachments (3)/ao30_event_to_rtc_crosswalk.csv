@@ -1,0 +1,84 @@
+ao30_id,case_id,from_node,to_node,delay_seconds,requested_label,literal_class,sustained_class,window_session_class,rtc_id,rtc_uuid
+AO30-001,eleventh_share,199,200,2044.456785,No Confirmed Trigger,A,A,local low inside sustained-high,rtc_e1adb8a3d2514349814e3b3311f066f9,8c24a98d-84df-4e32-8eac-cbb3a9212dd0
+AO30-002,eleventh_share,200,201,65.176065,No Confirmed Trigger,A,A,local low inside sustained-high,rtc_e1adb8a3d2514349814e3b3311f066f9,8c24a98d-84df-4e32-8eac-cbb3a9212dd0
+AO30-003,eleventh_share,201,202,55.639411,No Confirmed Trigger,A,A,local low inside sustained-high,rtc_e1adb8a3d2514349814e3b3311f066f9,8c24a98d-84df-4e32-8eac-cbb3a9212dd0
+AO30-004,eleventh_share,202,203,37.716204,No Confirmed Trigger,A,A,local low inside sustained-high,rtc_e1adb8a3d2514349814e3b3311f066f9,8c24a98d-84df-4e32-8eac-cbb3a9212dd0
+AO30-005,eleventh_share,204,205,32.646035,No Confirmed Trigger,A,A,local low inside sustained-high,rtc_e1adb8a3d2514349814e3b3311f066f9,8c24a98d-84df-4e32-8eac-cbb3a9212dd0
+AO30-006,eleventh_share,217,218,158.759711,No Confirmed Trigger,A,A,local low inside sustained-high,rtc_e1adb8a3d2514349814e3b3311f066f9,8c24a98d-84df-4e32-8eac-cbb3a9212dd0
+AO30-007,eleventh_share,220,221,85.503997,No Confirmed Trigger,A,A,local low inside sustained-high,rtc_e1adb8a3d2514349814e3b3311f066f9,8c24a98d-84df-4e32-8eac-cbb3a9212dd0
+AO30-008,eleventh_share,221,222,33.171517,No Confirmed Trigger,A,A,local low inside sustained-high,rtc_e1adb8a3d2514349814e3b3311f066f9,8c24a98d-84df-4e32-8eac-cbb3a9212dd0
+AO30-009,eleventh_share,247,248,193.692588,No Confirmed Trigger,A,A,local low inside sustained-high,rtc_e1adb8a3d2514349814e3b3311f066f9,8c24a98d-84df-4e32-8eac-cbb3a9212dd0
+AO30-010,eleventh_share,248,249,246.677783,No Confirmed Trigger,A,A,local low inside sustained-high,rtc_e1adb8a3d2514349814e3b3311f066f9,8c24a98d-84df-4e32-8eac-cbb3a9212dd0
+AO30-011,eleventh_share,249,250,60.554903,No Confirmed Trigger,A,A,local low inside sustained-high,rtc_e1adb8a3d2514349814e3b3311f066f9,8c24a98d-84df-4e32-8eac-cbb3a9212dd0
+AO30-012,eleventh_share,265,266,43.472027,No Confirmed Trigger,A,A,local low inside sustained-high,rtc_e1adb8a3d2514349814e3b3311f066f9,8c24a98d-84df-4e32-8eac-cbb3a9212dd0
+AO30-013,eleventh_share,272,273,199.582106,No Confirmed Trigger,A,A,local low inside sustained-high,rtc_e1adb8a3d2514349814e3b3311f066f9,8c24a98d-84df-4e32-8eac-cbb3a9212dd0
+AO30-014,eleventh_share,299,300,631.007206,No Confirmed Trigger,A,A,local low inside sustained-high,rtc_e1adb8a3d2514349814e3b3311f066f9,8c24a98d-84df-4e32-8eac-cbb3a9212dd0
+AO30-015,eleventh_share,300,301,2784.60254,No Confirmed Trigger,A,A,local low inside sustained-high,rtc_e1adb8a3d2514349814e3b3311f066f9,8c24a98d-84df-4e32-8eac-cbb3a9212dd0
+AO30-016,eleventh_share,304,305,53.625668,No Confirmed Trigger,A,A,local low inside sustained-high,rtc_e1adb8a3d2514349814e3b3311f066f9,8c24a98d-84df-4e32-8eac-cbb3a9212dd0
+AO30-017,eleventh_share,305,306,224.601895,No Confirmed Trigger,A,A,local low inside sustained-high,rtc_e1adb8a3d2514349814e3b3311f066f9,8c24a98d-84df-4e32-8eac-cbb3a9212dd0
+AO30-018,eleventh_share,307,308,91.598736,No Confirmed Trigger,A,A,local low inside sustained-high,rtc_e1adb8a3d2514349814e3b3311f066f9,8c24a98d-84df-4e32-8eac-cbb3a9212dd0
+AO30-019,eleventh_share,308,309,53.90228,No Confirmed Trigger,A,A,local low inside sustained-high,rtc_e1adb8a3d2514349814e3b3311f066f9,8c24a98d-84df-4e32-8eac-cbb3a9212dd0
+AO30-020,eleventh_share,314,315,86.751666,No Confirmed Trigger,A,A,local low inside sustained-high,rtc_e1adb8a3d2514349814e3b3311f066f9,8c24a98d-84df-4e32-8eac-cbb3a9212dd0
+AO30-021,eleventh_share,316,317,40.81639,No Confirmed Trigger,A,A,local low inside sustained-high,rtc_e1adb8a3d2514349814e3b3311f066f9,8c24a98d-84df-4e32-8eac-cbb3a9212dd0
+AO30-022,eleventh_share,330,331,723.860576,No Confirmed Trigger,A,A,local low inside sustained-high,rtc_e1adb8a3d2514349814e3b3311f066f9,8c24a98d-84df-4e32-8eac-cbb3a9212dd0
+AO30-023,eleventh_share,331,332,1071.628027,No Confirmed Trigger,A,A,local low inside sustained-high,rtc_e1adb8a3d2514349814e3b3311f066f9,8c24a98d-84df-4e32-8eac-cbb3a9212dd0
+AO30-024,eleventh_share,380,381,58.543814,Confirmed Trigger,A,A,aligned high,rtc_5d36849729bc41beb973ff099c6378c2,71ba39d8-5e6e-490e-b236-3ec531b00127
+AO30-025,eleventh_share,413,414,36.761575,No Confirmed Trigger,A,A,local low inside sustained-high,rtc_5d36849729bc41beb973ff099c6378c2,71ba39d8-5e6e-490e-b236-3ec531b00127
+AO30-026,eleventh_share,438,439,33.904594,No Confirmed Trigger,A,A,local low inside sustained-high,rtc_5d36849729bc41beb973ff099c6378c2,71ba39d8-5e6e-490e-b236-3ec531b00127
+AO30-027,eleventh_share,481,482,40.917345,No Confirmed Trigger,A,A,local low inside sustained-high,rtc_5d36849729bc41beb973ff099c6378c2,71ba39d8-5e6e-490e-b236-3ec531b00127
+AO30-028,eleventh_share,485,486,34.74435,Confirmed Trigger,A,A,aligned high,rtc_5d36849729bc41beb973ff099c6378c2,71ba39d8-5e6e-490e-b236-3ec531b00127
+AO30-029,eleventh_share,581,582,35.999723,Confirmed Trigger,A,A,aligned high,rtc_5d36849729bc41beb973ff099c6378c2,71ba39d8-5e6e-490e-b236-3ec531b00127
+AO30-030,eleventh_share,599,600,30.118685,Confirmed Trigger,A,A,aligned high,rtc_5d36849729bc41beb973ff099c6378c2,71ba39d8-5e6e-490e-b236-3ec531b00127
+AO30-031,eleventh_share,657,658,64.151691,No Confirmed Trigger,A,A,local low inside sustained-high,rtc_5d36849729bc41beb973ff099c6378c2,71ba39d8-5e6e-490e-b236-3ec531b00127
+AO30-032,eleventh_share,658,659,43.481157,No Confirmed Trigger,A,A,local low inside sustained-high,rtc_5d36849729bc41beb973ff099c6378c2,71ba39d8-5e6e-490e-b236-3ec531b00127
+AO30-033,eleventh_share,769,770,55.82374,Confirmed Trigger,A,A,aligned high,rtc_5d36849729bc41beb973ff099c6378c2,71ba39d8-5e6e-490e-b236-3ec531b00127
+AO30-034,eleventh_share,772,773,51.192403,Confirmed Trigger,A,A,aligned high,rtc_5d36849729bc41beb973ff099c6378c2,71ba39d8-5e6e-490e-b236-3ec531b00127
+AO30-035,twelfth_share,312,313,31.779084,No Confirmed Trigger,A,B,aligned low,rtc_277bf2c5320642b582a68462e103d149,43f71d59-0118-4b54-8bd9-1f112c2e708d
+AO30-036,thirteenth_share,566,567,218.480109,No Confirmed Trigger,A,B,aligned low,rtc_d3e9a9fe507b48ec92266f26841b0490,c1b4e38f-3c95-4181-b541-cafe2bf954b9
+AO30-037,thirteenth_share,571,572,1328.005552,No Confirmed Trigger,A,B,aligned low,rtc_d3e9a9fe507b48ec92266f26841b0490,c1b4e38f-3c95-4181-b541-cafe2bf954b9
+AO30-038,sixteenth_share,396,397,767.310835,No Confirmed Trigger,A,A,local low inside sustained-high,rtc_5aa42bc023554ee7a34bfab5b5d1021d,3fc84e28-746d-4e5f-865b-f85f7c73de2f
+AO30-039,nineteenth_share,97,98,56.809554,No Confirmed Trigger,B,B,aligned low,rtc_b36767717f0c4dfc94b3263257513824,92d5db35-79fd-4c43-a1c2-9d57fd6b05ec
+AO30-040,twentieth_share,230,231,86.373709,No Confirmed Trigger,A,A,local low inside sustained-high,rtc_ed45b69c03a648aea04b1ee9f07310e9,ba3942ed-4d26-4bc4-8d13-0479b1a3e09b
+AO30-041,twentieth_share,242,243,535.967339,No Confirmed Trigger,A,A,local low inside sustained-high,rtc_ed45b69c03a648aea04b1ee9f07310e9,ba3942ed-4d26-4bc4-8d13-0479b1a3e09b
+AO30-042,twentieth_share,258,259,289.227172,No Confirmed Trigger,A,A,local low inside sustained-high,rtc_ed45b69c03a648aea04b1ee9f07310e9,ba3942ed-4d26-4bc4-8d13-0479b1a3e09b
+AO30-043,twentieth_share,261,262,106.890981,No Confirmed Trigger,A,A,local low inside sustained-high,rtc_ed45b69c03a648aea04b1ee9f07310e9,ba3942ed-4d26-4bc4-8d13-0479b1a3e09b
+AO30-044,twentieth_share,264,265,101.4935,No Confirmed Trigger,A,A,local low inside sustained-high,rtc_ed45b69c03a648aea04b1ee9f07310e9,ba3942ed-4d26-4bc4-8d13-0479b1a3e09b
+AO30-045,twentieth_share,265,266,60.630158,No Confirmed Trigger,A,A,local low inside sustained-high,rtc_ed45b69c03a648aea04b1ee9f07310e9,ba3942ed-4d26-4bc4-8d13-0479b1a3e09b
+AO30-046,twentieth_share,269,270,44.164809,No Confirmed Trigger,A,A,local low inside sustained-high,rtc_ed45b69c03a648aea04b1ee9f07310e9,ba3942ed-4d26-4bc4-8d13-0479b1a3e09b
+AO30-047,twentieth_share,270,271,185.975314,No Confirmed Trigger,A,A,local low inside sustained-high,rtc_ed45b69c03a648aea04b1ee9f07310e9,ba3942ed-4d26-4bc4-8d13-0479b1a3e09b
+AO30-048,twentieth_share,272,273,34.815582,No Confirmed Trigger,A,A,local low inside sustained-high,rtc_ed45b69c03a648aea04b1ee9f07310e9,ba3942ed-4d26-4bc4-8d13-0479b1a3e09b
+AO30-049,twentieth_share,273,274,33.886674,No Confirmed Trigger,A,A,local low inside sustained-high,rtc_ed45b69c03a648aea04b1ee9f07310e9,ba3942ed-4d26-4bc4-8d13-0479b1a3e09b
+AO30-050,twentieth_share,274,275,91.624691,No Confirmed Trigger,A,A,local low inside sustained-high,rtc_ed45b69c03a648aea04b1ee9f07310e9,ba3942ed-4d26-4bc4-8d13-0479b1a3e09b
+AO30-051,twentieth_share,276,277,64.041536,No Confirmed Trigger,A,A,local low inside sustained-high,rtc_ed45b69c03a648aea04b1ee9f07310e9,ba3942ed-4d26-4bc4-8d13-0479b1a3e09b
+AO30-052,twentieth_share,339,340,79.236881,No Confirmed Trigger,A,A,local low inside sustained-high,rtc_353453a5a77e4c46af5af8fb7bb9b63a,a6830805-fcb6-40c7-90e9-04ef5b7b3af5
+AO30-053,twentieth_share,360,361,107.950653,No Confirmed Trigger,A,A,local low inside sustained-high,rtc_353453a5a77e4c46af5af8fb7bb9b63a,a6830805-fcb6-40c7-90e9-04ef5b7b3af5
+AO30-054,twentieth_share,366,367,147.905883,No Confirmed Trigger,A,A,local low inside sustained-high,rtc_353453a5a77e4c46af5af8fb7bb9b63a,a6830805-fcb6-40c7-90e9-04ef5b7b3af5
+AO30-055,eighth_share,851,854,30.146708,No Confirmed Trigger,A,A,local low inside sustained-high,rtc_9b4ca9071fc645c99d088753dd6e6914,72c4d02f-d93a-4898-9aaa-b7560ace2520
+AO30-056,test4,301,304,41.684695,No Confirmed Trigger,A,A,local low inside sustained-high,rtc_d305d6313f9a4266be6da78e277c6c8c,346a5a0b-2e8c-4a6f-995e-f295e0dce039
+AO30-057,office_metaphor,151,154,34.293394,No Confirmed Trigger,A,A,local low inside sustained-high,rtc_d74aa50c85f74a8aa72675ddc16526aa,591ff9b1-9d07-408d-8146-dc767addb93b
+AO30-058,seventeenth_share,29,32,66.077073,Confirmed Trigger,A,A,aligned high,rtc_5057a29e01fc4067b1088d396a142a5a,efbbfce2-fe9a-4fb7-96ff-18c5717914bc
+AO30-059,seventeenth_share,49,50,34.941734,No Confirmed Trigger,A,A,local low inside sustained-high,rtc_5057a29e01fc4067b1088d396a142a5a,efbbfce2-fe9a-4fb7-96ff-18c5717914bc
+AO30-060,seventeenth_share,865,866,77.36399,Confirmed Trigger,A,A,aligned high,rtc_c605a2fe0cb3477f9098624a35c113c2,d98c3bdd-9d6c-4bf8-a4ec-2dd456952ef1
+AO30-061,seventh_share,560,561,121.175366,Confirmed Trigger,A,A,aligned high,rtc_f607bb5acc5b485eaed6b195c99959b1,3acc5444-d49d-4ee2-80b6-e6cf13f48673
+AO30-062,seventh_share,569,575,30.837043,Confirmed Trigger,A,A,aligned high,rtc_f607bb5acc5b485eaed6b195c99959b1,3acc5444-d49d-4ee2-80b6-e6cf13f48673
+AO30-063,seventh_share,1027,1028,30.937759,No Confirmed Trigger,A,A,local low inside sustained-high,rtc_b4716960dd144c349161d83fd1dee7e9,af2dd43c-089f-4af0-b0fc-86f60abaaad2
+AO30-064,seventh_share,1713,1714,37.393082,No Confirmed Trigger,A,A,local low inside sustained-high,rtc_d76a7459513844cfb7e191829e1a19d9,46ca0fec-43d9-4519-b885-6b71cfd7aba1
+AO30-065,seventh_share,1886,1887,54.452854,No Confirmed Trigger,A,A,local low inside sustained-high,rtc_d76a7459513844cfb7e191829e1a19d9,46ca0fec-43d9-4519-b885-6b71cfd7aba1
+AO30-066,seventh_share,1961,1962,30.428065,No Confirmed Trigger,A,A,local low inside sustained-high,rtc_d76a7459513844cfb7e191829e1a19d9,46ca0fec-43d9-4519-b885-6b71cfd7aba1
+AO30-067,seventh_share,1963,1964,93.703696,No Confirmed Trigger,A,A,local low inside sustained-high,rtc_d76a7459513844cfb7e191829e1a19d9,46ca0fec-43d9-4519-b885-6b71cfd7aba1
+AO30-068,seventh_share,2022,2023,79.130878,No Confirmed Trigger,A,A,local low inside sustained-high,rtc_949c126f53694242b25b8372cb85ad15,27a2abd4-e822-4ee5-aa05-2da7c37d40e0
+AO30-069,seventh_share,2031,2032,47.964399,No Confirmed Trigger,A,A,local low inside sustained-high,rtc_949c126f53694242b25b8372cb85ad15,27a2abd4-e822-4ee5-aa05-2da7c37d40e0
+AO30-070,seventh_share,2032,2033,100.866734,No Confirmed Trigger,A,A,local low inside sustained-high,rtc_949c126f53694242b25b8372cb85ad15,27a2abd4-e822-4ee5-aa05-2da7c37d40e0
+AO30-071,seventh_share,2033,2034,131.852799,No Confirmed Trigger,A,A,local low inside sustained-high,rtc_949c126f53694242b25b8372cb85ad15,27a2abd4-e822-4ee5-aa05-2da7c37d40e0
+AO30-072,seventh_share,2062,2063,30.066712,No Confirmed Trigger,A,A,local low inside sustained-high,rtc_949c126f53694242b25b8372cb85ad15,27a2abd4-e822-4ee5-aa05-2da7c37d40e0
+AO30-073,seventh_share,2229,2234,249.779635,No Confirmed Trigger,A,A,local low inside sustained-high,rtc_82044b89e0ba40a8a44836d066980909,2926e79a-7012-485d-b255-f27621f44152
+AO30-074,fifth_share,529,530,36.544582,No Confirmed Trigger,A,A,local low inside sustained-high,rtc_c69b631e49cc49e78fc3df096a861b2e,eb4c9569-f071-43ab-96c1-79d8d846bafa
+AO30-075,fifth_share,794,795,90.714212,Confirmed Trigger,A,A,aligned high,rtc_9fdd9b27759d4046820f6077cdee2ef9,7a855b6b-274c-4bcf-838a-7a47ee4fd108
+AO30-076,fifth_share,883,884,112.877964,Confirmed Trigger,A,A,aligned high,rtc_9fdd9b27759d4046820f6077cdee2ef9,7a855b6b-274c-4bcf-838a-7a47ee4fd108
+AO30-077,fourth_share,199,200,30.978536,No Confirmed Trigger,A,A,local low inside sustained-high,rtc_899ff77131ce4921a0aea407dcf550d9,627cd0b0-69fc-40be-81e0-8916e85b116c
+AO30-078,fourth_share,905,906,30.816281,Confirmed Trigger,A,A,aligned high,rtc_cda956e9caa04769a2d0794a8e773c8d,ce6d6c62-2c2f-4e2f-82ae-dcadd78bd589
+AO30-079,sixth_share,243,244,43.146335,Confirmed Trigger,A,A,aligned high,rtc_a1b5c7e90d2947458d828d466500e881,d2491a11-df12-4e89-ba60-962dc98d8300
+AO30-080,sixth_share,590,591,38.007439,No Confirmed Trigger,A,A,local low inside sustained-high,rtc_e6e278f0c59840bca948b24a8d20fb6d,fb276836-f274-4671-9c1e-db7190590218
+AO30-081,first_share,153,154,30.108355,No Confirmed Trigger,A,A,local low inside sustained-high,rtc_31d6da310ab8459c9ce8d45fed849099,2759271f-2a51-4fcd-bd33-ef860d7a0a5f
+AO30-082,first_share,804,805,408.805522,No Confirmed Trigger,A,A,local low inside sustained-high,rtc_1660c7154ebf49d7bc24283692d4a5df,8fe3cb48-ee57-454c-ae8e-01b3735d1834
+AO30-083,third_share,270,271,62.468233,Confirmed Trigger,A,A,aligned high,rtc_68838024da8a4cd7aeac72f32270895b,1e2beeed-35c7-4e21-9fd1-5d277bc80c26

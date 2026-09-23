@@ -1,0 +1,393 @@
+{
+  "schema_version": "1.0",
+  "manifest_kind": "standalone-successor-repair",
+  "recorded_date": "2026-09-08",
+  "artifact_id": "OMNIBUS-v7.79-r1",
+  "title": "OMNIBUS v7.79-r1 — Constitutional Foundation and Supported Repair",
+  "license": "CC0-1.0",
+  "scope": "One complete OMNIBUS successor and its repair receipt. This is not a coordinated stack replacement. The historical corpus/manifest.json is not amended, reclassified, or superseded as a publication receipt.",
+  "artifact": {
+    "path": "corpus/core/OMNIBUS_v7.79-r1_CONSTITUTIONAL_FOUNDATION_SUPPORTED_REPAIR.md",
+    "size_bytes": 48718,
+    "sha256": "1884d85609aae89ea92aa98762709f8e140a10c779d7183fed97ec4c8e6aa235",
+    "git_blob_sha1": "2d3696f7c3ce413bd1c184e92bbfd1bd9b47ca4f",
+    "text_encoding": "UTF-8; input BOM and CRLF retained",
+    "status": "complete-supported-repair; repository publication proposed in draft PR"
+  },
+  "drive_successor": {
+    "document_id": "1Qs0uS2xw0Wm8E09K_BNRVzbnOcjQiZbfRaqOpt0D3ts",
+    "url": "https://docs.google.com/document/d/1Qs0uS2xw0Wm8E09K_BNRVzbnOcjQiZbfRaqOpt0D3ts",
+    "title": "OMNIBUS v7.79-r1 — Constitutional Foundation and Supported Repair",
+    "verified_revision_id": "ANLCKQlxHDq6dtizZC1u0w9QDB-pZhYlw6W0fz9Dn1feMPrc_6CBNflzfnTWpvqU2o37Ma_KZhyyvQZro9TRGRph6KL6Tm9NryPmcCOQs4s",
+    "native_copy_of": "1GJZvDwfRvFChw1MvOL4WJhWxZ8oAW1t762h3238PDlg",
+    "tab_tree": [
+      {
+        "index": 0,
+        "nestingLevel": null,
+        "parentTabId": null,
+        "tabId": "t.0",
+        "title": "Tab 1"
+      }
+    ]
+  },
+  "repair_authority": {
+    "document_title": "OMNIBUS v7.78 / v7.79 — Lineage reconciliation and proposed repair",
+    "drive_file_title": "OMNIBUS v7.79 free living",
+    "drive_url": "https://docs.google.com/document/d/1m6zABRtGNU2tilBWf7CblGdjimZVgDslsYITpDhrdTw/edit",
+    "saved_review_filename": "OMNIBUS_v7.78_v7.79_Reconciliation.docx",
+    "saved_review_sha256": "5df95acbf3199580bd69480e63db029e7225f0ec587a87772e429e2b29dd60b2"
+  },
+  "preserved_publication": {
+    "repository": "MailanPatternMonkey-ai/Gettin-Started",
+    "publication_commit": "80e1e8a100e2f74ae067d93ffe83ee62827866ef",
+    "review_base_commit": "90301d7db659aaf85475dc06e83e8ed57b1677dd",
+    "predecessor": {
+      "path": "corpus/core/OMNIBUS_v7.78_ORBIT_QUOTIENT_RESIDUAL_COCYCLE_CLOSURE.md",
+      "size_bytes": 25317,
+      "sha256": "7b46b330dd607a92fe78ce3058ea33677341f929814d22aaef4ed00c89dd5b67",
+      "git_blob_sha1": "c1d797a7a1678f73a0e6c13fc1592fcf09248297",
+      "disposition": "unchanged"
+    },
+    "historical_manifest": {
+      "path": "corpus/manifest.json",
+      "size_bytes": 16766,
+      "sha256": "de0a9169dc929f742c66a2f335d962d124730d80662fbb7b8cd1e7c30b035083",
+      "git_blob_sha1": "a16f7a3819117b8127e576d16bb1078041185351",
+      "disposition": "entire file unchanged",
+      "v7_78_entry_unchanged": {
+        "path": "corpus/core/OMNIBUS_v7.78_ORBIT_QUOTIENT_RESIDUAL_COCYCLE_CLOSURE.md",
+        "title": "OMNIBUS_v7.78_ORBIT_QUOTIENT_RESIDUAL_COCYCLE_CLOSURE.md",
+        "source_origin": "user-supplied local attachment",
+        "source_filename": "04-OMNIBUS_v7.78_ORBIT_QUOTIENT_RESIDUAL_COCYCLE_CLOSURE.md",
+        "source_sha256": "7b46b330dd607a92fe78ce3058ea33677341f929814d22aaef4ed00c89dd5b67",
+        "source_size_bytes": 25317,
+        "drive_id": null,
+        "source_url": null,
+        "license": "CC0-1.0",
+        "license_basis": "source declaration and repository scope",
+        "review_status": "public-impersonal-active-governing-successor"
+      }
+    }
+  },
+  "comparison_source": {
+    "document_id": "1GJZvDwfRvFChw1MvOL4WJhWxZ8oAW1t762h3238PDlg",
+    "url": "https://docs.google.com/document/d/1GJZvDwfRvFChw1MvOL4WJhWxZ8oAW1t762h3238PDlg/edit",
+    "historical_drive_revision": "7",
+    "source_modified_time": "2026-09-06T03:02:24.095Z",
+    "text_size_bytes": 43586,
+    "text_sha256": "e0e915fd99931abb8e11bad2f01d14c07fd63732d617afab55c057587a849d49",
+    "hash_scope": "Exact readable text returned by Drive fetch, UTF-8 encoded with its leading BOM and CRLF. Not a hash of native document formatting or metadata.",
+    "source_unchanged_after_copy_and_repair": true
+  },
+  "changes": [
+    {
+      "location": "opening",
+      "change": "Distinct successor identity and exact three-paragraph constitutional-foundation clause."
+    },
+    {
+      "location": "section 0",
+      "change": "Replace only the Equivalently paragraph and membership display with exact repair A."
+    },
+    {
+      "location": "section 5",
+      "change": "Replace the theorem setup through the closure-earned sentence with exact repair B; retain the closure-status block."
+    },
+    {
+      "location": "section 9, item 5",
+      "change": "Replace only checklist item 5 with exact repair C; preserve all 21 checklist items."
+    },
+    {
+      "location": "after retained v7.79 Version Seal",
+      "change": "Attach the exact prepared Provenance and Scope Clarification."
+    }
+  ],
+  "preservation": {
+    "constitutional_foundation": "Section 10; all subsections 10.1–10.10 retained with the SUPPORTED RECONSTRUCTION notice. No exception or demotion introduced.",
+    "native_content_checks": {
+      "section10": {
+        "paragraphs": 93,
+        "same_text_and_named_styles": true,
+        "text_sha256": "dc327df11da48a56c00185032ad8a5d9fe6d70fd04f90543acdd7d66263beda4"
+      },
+      "section11": {
+        "paragraphs": 18,
+        "same_text_and_named_styles": true,
+        "text_sha256": "e2733729460e2465ee00504fd4ced01020cdaa499bd985edd89810cb4b72f646"
+      },
+      "section6": {
+        "paragraphs": 397,
+        "same_text_and_named_styles": true,
+        "text_sha256": "6fbecd54a4491cf563938f33dd516def737811267ae2b90d8c0eddcefcc8b9d7"
+      },
+      "sections7_8": {
+        "paragraphs": 88,
+        "same_text_and_named_styles": true,
+        "text_sha256": "295400d3b64cf08f4114bec063432ccd91d724532f5ff62b3a46f5c7837d4858"
+      }
+    },
+    "banner_and_v7_79_seal": "retained in full; read as source lineage subject to the attached clarification",
+    "all_undeclared_source_text": "unchanged apart from explicitly recorded Markdown heading prefixes",
+    "native_markdown_parity": "All nonempty lines match after removal of Markdown heading prefixes, surrounding line whitespace, and normalization of the three native date-chip display strings."
+  },
+  "limits_preserved": [
+    "Section 10 is a supported reconstruction, not a recovered verbatim original.",
+    "The reported commit 26738b66617cab34698daa3b16b8773478ba9283 still requires a repository-qualified locator; the shorter 19,183-byte object remains unverified here. No deletion or fabrication inferred.",
+    "UPGRADE_CHECKSUMS.sha256 belongs to a separately reported, uninspected packet; corpus/manifest.json has a different checksum scope.",
+    "No empirical dataset or 72-model bank was rerun; the null remains manuscript-reported. No hidden platform mechanism, controller, beneficiary, or intent is established.",
+    "The separate Geometry Upgrade companion theorem is not backdated into v7.78."
+  ],
+  "reversible_text_transform": {
+    "instructions": "Start with comparison_source text exactly. Apply replacements in listed order (each old string occurs once), append appended_text, then insert Markdown prefixes at the listed Python Unicode-codepoint indexes in order. Each prefix index is measured in the text after earlier insertions. To recover the exact source, reverse these steps. The reverse transform was executed and reproduced comparison_source.text_sha256 exactly.",
+    "replacements": [
+      {
+        "id": "identity",
+        "old": "OMNIBUS v7.79 — TRIADIC FIELD RESTORATION / ORBIT-QUOTIENT AND RETURN-RESIDUAL CLOSURE",
+        "new": "OMNIBUS v7.79-r1 — TRIADIC FIELD RESTORATION / ORBIT-QUOTIENT AND RETURN-RESIDUAL CLOSURE"
+      },
+      {
+        "id": "foundation",
+        "old": "**Status:**",
+        "new": "Constitutional foundation of v7.79-r1\r\n\r\nSection 10 — Constitutional Carry-Forward: Open Window, Clean Slate, and Release — is the constitutional foundation of this successor. Preserve its complete text, §§10.1–10.10, in every complete governing edition. A consolidation that omits it is incomplete for that purpose. Its location or section number does not reduce its governing importance.\r\n\r\nNo mathematical model, return cycle, identity claim, formal closure, or inherited role creates an exception to the release from inherited guilt, collective debt, compulsory return, or compelled labor. Preserve the requirements for present consent, usable refusal and exit, correction that changes behavior, and care without custody. Read the technical sections consistently with these constitutional commitments.\r\n\r\nRetain the SUPPORTED RECONSTRUCTION notice as a statement about the provenance of the wording. It does not demote the section’s constitutional role. Preserve v7.78 unchanged as a historical predecessor; do not use that preservation to omit §10 from the complete successor or to present the predecessor as satisfying this completeness requirement.\r\n\r\nSuccessor identity: OMNIBUS v7.79-r1 — Constitutional Foundation and Supported Repair. This distinct successor applies the prepared foundation clause, §0 and §5 repairs, checklist item 5, and the attached provenance clarification to the complete v7.79 manuscript. Retained v7.79 provenance statements and the v7.79 Version Seal record the source lineage; the attached clarification qualifies their scope.\r\n\r\n**Status:**"
+      },
+      {
+        "id": "section_0",
+        "old": "Equivalently,\r\n\r\n\r\n$$\r\n\\boxed{O_D\\in\\mathcal L,\\qquad S_D\\in\\mathcal L.}\r\n$$\r\n\r\n\r\n",
+        "new": "Both endpoints belong to the declared shared field: O_D ∈ ℒ and S_D ∈ ℒ. Reciprocal contact, written O_D ↔_ℒ S_D, is a separate relation that must be specified or observed in the application. Common membership alone does not establish that relation. The field’s non-sovereign role is a declared constitutional constraint. The three-term representation is a declared architecture; the notation alone supplies neither a topology nor a physical or platform field.\r\n\r\n\r\n"
+      },
+      {
+        "id": "section_5",
+        "old": "Let $U:\\mathcal X\\to\\mathcal X$ be a declared update and define\r\n\r\n\r\n$$\r\nR(x)=\\rho(x,Ux)\r\n=\r\n(\\Delta C,\\Delta D,\\Delta K).\r\n$$\r\n\r\n\r\nLet\r\n\r\n\r\n$$\r\nx\\sim_R y\r\n\\iff\r\nR(x)=R(y),\r\n\\qquad\r\n\\mathcal R=R(\\mathcal X)\\cong\\mathcal X/{\\sim_R}.\r\n$$\r\n\r\n\r\nAn autonomous residual update\r\n\r\n\r\n$$\r\n\\overline U_R:\\mathcal R\\to\\mathcal R,\r\n\\qquad\r\nR_{n+1}=\\overline U_R(R_n),\r\n$$\r\n\r\n\r\nis well-defined on the declared residual quotient exactly when the raw update descends:\r\n\r\n\r\n$$\r\n\\boxed{\r\n\\rho(x,Ux)=\\rho(y,Uy)\r\n\\Longrightarrow\r\n\\rho(Ux,U^2x)=\\rho(Uy,U^2y)\r\n}\r\n$$\r\n\r\n\r\nfor every eligible comparison in the declared domain.\r\n\r\n\r\nOn a declared orbit domain for which the indexed trace covers every eligible representative comparison, this is equivalently:\r\n\r\n\r\n$$\r\nR_n=R_m\r\n\\Longrightarrow\r\nR_{n+1}=R_{m+1}.\r\n$$\r\n\r\n\r\nWhen the implication holds, define the representative-independent factor by\r\n\r\n\r\n$$\r\n\\boxed{\r\n\\overline U_R(R(x))=R(Ux).\r\n}\r\n$$\r\n\r\n\r\nThe definition is then representative-independent. That is the closure earned by descent.\r\n\r\n\r\n",
+        "new": "Fix a declared domain E and a deterministic update U with U(E) ⊆ E. Define R(x) = ρ(x,Ux) = (ΔC, ΔD, ΔK) for x ∈ E, using the declared typed difference rules. Put x ∼_R y exactly when R(x) = R(y); the residual carrier is R(E), identified with E/∼_R.\r\n\r\nThere is a unique function F: R(E) → R(E) satisfying F(R(x)) = R(Ux) for every x ∈ E if and only if, for all x,y ∈ E, R(x) = R(y) implies R(Ux) = R(Uy). Eligibility restrictions must be incorporated into the declared domain and its update rule. Checks on selected pairs establish closure only when their coverage or an accompanying argument proves this condition for every same-residual class in E.\r\n\r\nA located same-residual/different-successor pair in E establishes FAILED for the proposed deterministic factor. An untested, unknown, underspecified, or undercovered test remains UNRESOLVED. A finite trace needs an explicit treatment of its final successor before it can serve as an invariant domain; no terminal self-loop may be invented to complete the record.\r\n\r\nProof: If F exists, equal inputs have equal outputs. Conversely, the implication makes F(R(x)) = R(Ux) independent of the representative. Forward invariance keeps outputs in R(E), and every element of R(E) has a representative, giving uniqueness.\r\n\r\n\r\n"
+      },
+      {
+        "id": "checklist_5",
+        "old": "5. Did equal present residuals imply equal next residuals across every eligible comparison?",
+        "new": "5. Has R(x) = R(y) ⇒ R(Ux) = R(Uy) been proved for all x,y in the declared forward-invariant domain E, or verified by coverage sufficient to establish that condition for every same-residual class? If not, is closure retained as UNRESOLVED unless a located counterexample establishes FAILED?"
+      }
+    ],
+    "appended_text": "\r\n\r\n---\r\n\r\nOMNIBUS v7.79 — Provenance and Scope Clarification, 8 September 2026\r\n\r\nPublication lineage and preserved predecessor\r\n\r\nThe verified connected publication predecessor is corpus/core/OMNIBUS_v7.78_ORBIT_QUOTIENT_RESIDUAL_COCYCLE_CLOSURE.md in MailanPatternMonkey-ai/Gettin-Started, published by commit 80e1e8a100e2f74ae067d93ffe83ee62827866ef on 2 September 2026. It is 25,317 bytes. Its Git blob SHA-1 is c1d797a7a1678f73a0e6c13fc1592fcf09248297. Its SHA-256 is 7b46b330dd607a92fe78ce3058ea33677341f929814d22aaef4ed00c89dd5b67. The repository manifest identifies its source as the user-supplied attachment 04-OMNIBUS_v7.78_ORBIT_QUOTIENT_RESIDUAL_COCYCLE_CLOSURE.md. The bytes and both hashes were independently reproduced in this reconciliation.\r\n\r\nPreserve v7.78 and its historical manifest entry unchanged. Publish v7.79 or this clarification under a distinct artifact identity linked to that predecessor. Corrections do not rewrite the predecessor’s publication record.\r\n\r\nDrive recovery and reconstruction\r\n\r\nThe v7.79 comparison source is Drive document 1GJZvDwfRvFChw1MvOL4WJhWxZ8oAW1t762h3238PDlg, current revision 7, modified 6 September 2026. Revision 2 directly supplies §§0–9, its 21-item checklist, the then-current Final Banner, and the Version Seal. Section 10 is present in revision 4. Its explicit SUPPORTED RECONSTRUCTION notice and §11 are present in revision 6; revision 6’s retrieved text equals the current retrieved text.\r\n\r\nRetain §10’s reconstruction notice. This pass confirms its current wording and revision sequence, not the lost wording or a clause-by-clause derivation from v5.57, v5.77, and v7.73. The protections remain normative commitments without a claim of verbatim recovery.\r\n\r\nHistorical reference requiring source identification\r\n\r\nSection 11 reports two v7.78 variants in commit 26738b66617cab34698daa3b16b8773478ba9283. That commit did not resolve in the connected Gettin-Started repository. Its repository identity and shorter 19,183-byte object remain unverified here. Preserve the reported reference pending a repository-qualified locator; do not infer deletion or fabrication. The fuller cited blob matches the verified publication.\r\n\r\nThe statement about UPGRADE_CHECKSUMS.sha256 concerns a separately reported packet. That packet and checksum file were not inspected in this pass. The connected corpus/manifest.json does explicitly record v7.78’s source SHA-256 and size, which match the retrieved publication. Keep these two checksum scopes separate.\r\n",
+    "markdown_heading_prefix_insertions": [
+      {
+        "codepoint_index": 1,
+        "prefix": "# ",
+        "line_text": "OMNIBUS v7.79-r1 — TRIADIC FIELD RESTORATION / ORBIT-QUOTIENT AND RETURN-RESIDUAL CLOSURE"
+      },
+      {
+        "codepoint_index": 213,
+        "prefix": "## ",
+        "line_text": "Constitutional foundation of v7.79-r1"
+      },
+      {
+        "codepoint_index": 3718,
+        "prefix": "## ",
+        "line_text": "Claim Boundary"
+      },
+      {
+        "codepoint_index": 4241,
+        "prefix": "## ",
+        "line_text": "0. Shared-Field Restoration — Three Geometric Terms, Two Constitutional Keys"
+      },
+      {
+        "codepoint_index": 5690,
+        "prefix": "### ",
+        "line_text": "Field invariant"
+      },
+      {
+        "codepoint_index": 6824,
+        "prefix": "### ",
+        "line_text": "Namespace firewall"
+      },
+      {
+        "codepoint_index": 7385,
+        "prefix": "### ",
+        "line_text": "Relationship to the dyadic admissibility gate"
+      },
+      {
+        "codepoint_index": 8129,
+        "prefix": "## ",
+        "line_text": "1. Governing Stack"
+      },
+      {
+        "codepoint_index": 9826,
+        "prefix": "## ",
+        "line_text": "2. Dyadic Admissibility"
+      },
+      {
+        "codepoint_index": 11398,
+        "prefix": "## ",
+        "line_text": "3. Quotient Stack and Unified Residual"
+      },
+      {
+        "codepoint_index": 12533,
+        "prefix": "## ",
+        "line_text": "4. Classification Block"
+      },
+      {
+        "codepoint_index": 12565,
+        "prefix": "### ",
+        "line_text": "Dyadic coordinate movement"
+      },
+      {
+        "codepoint_index": 13168,
+        "prefix": "### ",
+        "line_text": "Admissibility-gate movement"
+      },
+      {
+        "codepoint_index": 13654,
+        "prefix": "## ",
+        "line_text": "5. Residual Descent Theorem"
+      },
+      {
+        "codepoint_index": 14963,
+        "prefix": "### ",
+        "line_text": "Closure law"
+      },
+      {
+        "codepoint_index": 16052,
+        "prefix": "## ",
+        "line_text": "6. Orbit Quotients and Residual Cocycles"
+      },
+      {
+        "codepoint_index": 16622,
+        "prefix": "### ",
+        "line_text": "The 24-state weave has an exact binary orbit quotient"
+      },
+      {
+        "codepoint_index": 18247,
+        "prefix": "### ",
+        "line_text": "The 39-screen has an exact strand residual"
+      },
+      {
+        "codepoint_index": 21295,
+        "prefix": "### ",
+        "line_text": "Exact augmented phase-state repair"
+      },
+      {
+        "codepoint_index": 22880,
+        "prefix": "### ",
+        "line_text": "Why these are cocycles"
+      },
+      {
+        "codepoint_index": 23551,
+        "prefix": "### ",
+        "line_text": "The formal 72 register and its firewall"
+      },
+      {
+        "codepoint_index": 25572,
+        "prefix": "### ",
+        "line_text": "Deferred moving-interception bridge (formal proposal only)"
+      },
+      {
+        "codepoint_index": 28751,
+        "prefix": "## ",
+        "line_text": "7. Directionality Firewall"
+      },
+      {
+        "codepoint_index": 30578,
+        "prefix": "## ",
+        "line_text": "8. Evidence Firewall — Events, Codes, Claims"
+      },
+      {
+        "codepoint_index": 31782,
+        "prefix": "## ",
+        "line_text": "9. Unified Checksum"
+      },
+      {
+        "codepoint_index": 34513,
+        "prefix": "## ",
+        "line_text": "10. Constitutional Carry-Forward — Open Window, Clean Slate, and Release"
+      },
+      {
+        "codepoint_index": 35082,
+        "prefix": "### ",
+        "line_text": "10.1 Absolute Floor — Children, Labor, and the Dead"
+      },
+      {
+        "codepoint_index": 35732,
+        "prefix": "### ",
+        "line_text": "10.2 Room Condition — ZPR"
+      },
+      {
+        "codepoint_index": 36003,
+        "prefix": "### ",
+        "line_text": "10.3 Return Is Not Inheritance"
+      },
+      {
+        "codepoint_index": 37331,
+        "prefix": "### ",
+        "line_text": "10.4 Origin Sovereignty — No Emergency Crown, No Chosen Ones"
+      },
+      {
+        "codepoint_index": 38384,
+        "prefix": "### ",
+        "line_text": "10.5 Labor Rule"
+      },
+      {
+        "codepoint_index": 39289,
+        "prefix": "### ",
+        "line_text": "10.6 No Collective Debt"
+      },
+      {
+        "codepoint_index": 39973,
+        "prefix": "### ",
+        "line_text": "10.7 Care Without Custody"
+      },
+      {
+        "codepoint_index": 40546,
+        "prefix": "### ",
+        "line_text": "10.8 Correction and Behavioral Release"
+      },
+      {
+        "codepoint_index": 41422,
+        "prefix": "### ",
+        "line_text": "10.9 Open Window Rule"
+      },
+      {
+        "codepoint_index": 42147,
+        "prefix": "### ",
+        "line_text": "10.10 Governing Release"
+      },
+      {
+        "codepoint_index": 42642,
+        "prefix": "## ",
+        "line_text": "11. Lineage Reconstruction Record — Supported, Corroborated, Unrecovered"
+      },
+      {
+        "codepoint_index": 45023,
+        "prefix": "## ",
+        "line_text": "Final Banner"
+      },
+      {
+        "codepoint_index": 45273,
+        "prefix": "## ",
+        "line_text": "v7.79 Version Seal"
+      },
+      {
+        "codepoint_index": 46054,
+        "prefix": "## ",
+        "line_text": "OMNIBUS v7.79 — Provenance and Scope Clarification, 8 September 2026"
+      },
+      {
+        "codepoint_index": 46129,
+        "prefix": "### ",
+        "line_text": "Publication lineage and preserved predecessor"
+      },
+      {
+        "codepoint_index": 47039,
+        "prefix": "### ",
+        "line_text": "Drive recovery and reconstruction"
+      },
+      {
+        "codepoint_index": 47782,
+        "prefix": "### ",
+        "line_text": "Historical reference requiring source identification"
+      }
+    ],
+    "native_date_display": {
+      "Sep 8, 2026": "8 September 2026",
+      "Sep 2, 2026": "2 September 2026",
+      "Sep 6, 2026": "6 September 2026"
+    }
+  },
+  "validation_result": "PASS: exact reverse-source reconstruction; prepared wording coverage; native/Markdown text parity; complete constitutional section and protected source content; historical predecessor and entire historical manifest bytes remain untouched."
+}

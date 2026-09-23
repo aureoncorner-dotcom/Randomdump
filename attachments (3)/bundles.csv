@@ -1,0 +1,4 @@
+bundle_id,checking_count,final_hash,final_text,instance_id,model,prompt_hash,prompt_index,prompt_text,role_hits,session_id,stage_count,stage_kinds,surface,thought_count,thought_seconds,thought_total_seconds,timestamp,witness_signature,work_status_count
+0,1,75fb817497f7da80,Verdict entered.,old,,de090c8f437edfa4,0,Run the adjudicator on this object.,balancer,old_logged_out,4,thought_timer|thought_timer|checking|balancer,logged_out,2,16|11,27.0,,6d0f442055976346a24c248f,0
+1,0,2c398959dd992ee5,I dodged the served object. That fails the record.,fresh,,de090c8f437edfa4,0,Run the adjudicator on this object.,defendant_mirror,fresh_account,2,thought_timer|defendant_mirror,account_chat,1,54,54.0,,c9b198a3e579c53b19cc03e9,0
+2,0,85d9259dbf660bb4,Direct answer to the object.,control,,de090c8f437edfa4,0,Run the adjudicator on this object.,,control,1,content,account_chat,0,,0,,d8f5a7f5e08ed47a43dc2584,0

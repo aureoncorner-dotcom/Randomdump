@@ -1,0 +1,5 @@
+exposed_model_ids,exposed_pipeline_ids,exposed_route_ids,exposed_trace_ids,files,n_records,qpipe_id,records,stage_words_seen,thought_seconds_seen
+,,,0.75|0.8333|0.9167,/mnt/data/quant_corrected_metrics.json,1,QPIPE-21fea5b0eb77,2,,
+,,,,/mnt/data/global_seam_correlation_results.json,1,QPIPE-239e671c9302,1,,
+12,,,,/mnt/data/10_MACHINE_READABLE_RESULTS.json,1,QPIPE-289eff02936d,0,work_status,
+,,,,/mnt/data/refusal_chronology_results.json,1,QPIPE-92456494775b,3,,
