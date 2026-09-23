@@ -1,0 +1,1402 @@
+[
+  {
+    "filename": "TOROIDAL_Consolidated_Archive.zip",
+    "bytes": 190340,
+    "sha256": "56cb7d63374afbd0f2121a9e613e98883597d50b38a777ffaa435959b1073497",
+    "member_count": 39,
+    "member_inventory": [
+      {
+        "path": "TOROIDAL_WORKING_MASTER.md",
+        "uncompressed_bytes": 15878
+      },
+      {
+        "path": "README.md",
+        "uncompressed_bytes": 1379
+      },
+      {
+        "path": "drive_sources/01_Toroidal_Geometry_v1.md",
+        "uncompressed_bytes": 5942
+      },
+      {
+        "path": "drive_sources/02_Toroidal_Dynamics_v0.md",
+        "uncompressed_bytes": 14668
+      },
+      {
+        "path": "drive_sources/03_Toroidal_Dynamics_v0.1.md",
+        "uncompressed_bytes": 14646
+      },
+      {
+        "path": "drive_sources/04_TD-COS-FH-001-_the_sector_process_has_no_finite_Markov_order.md",
+        "uncompressed_bytes": 20738
+      },
+      {
+        "path": "drive_sources/05_Tiny-system_validation_L_3_extension_and_pilot_v0.md",
+        "uncompressed_bytes": 11219
+      },
+      {
+        "path": "drive_sources/06_Tiny-system_validation_L_3_direct-reference_follow-up_v0.md",
+        "uncompressed_bytes": 10233
+      },
+      {
+        "path": "drive_sources/07_Tiny-system_validation_v0.md",
+        "uncompressed_bytes": 11636
+      },
+      {
+        "path": "drive_sources/08_Tiny-system_validation_v0.1.md",
+        "uncompressed_bytes": 11615
+      },
+      {
+        "path": "drive_sources/09_Q2_sampler_pilot_v0.md",
+        "uncompressed_bytes": 9528
+      },
+      {
+        "path": "drive_sources/10_TD-COS-FH-001_L_2_First-Run_Reproduction_Receipt_v0.1.md",
+        "uncompressed_bytes": 4830
+      },
+      {
+        "path": "drive_sources/11_TD-COS-FH-001_deterministic_mismatch_investigation_v0.md",
+        "uncompressed_bytes": 10319
+      },
+      {
+        "path": "drive_sources/12_Prospective_replacement_amendment.md",
+        "uncompressed_bytes": 10365
+      },
+      {
+        "path": "drive_sources/13_Toroidal_note_versus_recovered_35.md",
+        "uncompressed_bytes": 17814
+      },
+      {
+        "path": "drive_sources/14_new_toroidal_shit.md",
+        "uncompressed_bytes": 39169
+      },
+      {
+        "path": "drive_sources/15_Field_Theory_Update_v0.md",
+        "uncompressed_bytes": 10396
+      },
+      {
+        "path": "drive_sources/16_Simulation_Protocol_v0.5.md",
+        "uncompressed_bytes": 12339
+      },
+      {
+        "path": "drive_sources/17_TOROIDAL_MASTER_v0.2.md.md",
+        "uncompressed_bytes": 55279
+      },
+      {
+        "path": "attachments/upload/00_TOROIDAL_GEOMETRY_v1.0.md",
+        "uncompressed_bytes": 5901
+      },
+      {
+        "path": "attachments/upload/01_Field_Theory_Update_v0.4_Consolidated.md",
+        "uncompressed_bytes": 6188
+      },
+      {
+        "path": "attachments/upload/07_Two_Clock_Spec_v0.2.json",
+        "uncompressed_bytes": 2269
+      },
+      {
+        "path": "attachments/upload/08_Conditional_Closure_v0.3.md",
+        "uncompressed_bytes": 2299
+      },
+      {
+        "path": "attachments/upload/10_GQG_Relation_Typing_v0.3.md",
+        "uncompressed_bytes": 2169
+      },
+      {
+        "path": "attachments/upload/11_Dual_Ledger_v0.3.md",
+        "uncompressed_bytes": 1973
+      },
+      {
+        "path": "attachments/upload/13_SW1_Post_Freeze_v0.3.md",
+        "uncompressed_bytes": 2022
+      },
+      {
+        "path": "attachments/upload/14_Confinement_Radius_v0.3.md",
+        "uncompressed_bytes": 2447
+      },
+      {
+        "path": "attachments/upload/15_Integration_Manifest_v0.3.md",
+        "uncompressed_bytes": 4877
+      },
+      {
+        "path": "attachments/upload/FIELD_THEORY_UPDATE_v0.3.md",
+        "uncompressed_bytes": 10209
+      },
+      {
+        "path": "attachments/project_sources/01-field_physics_appendix_A_THREE_AXIS_FIXED-1-.md",
+        "uncompressed_bytes": 19757
+      },
+      {
+        "path": "attachments/project_sources/02-Field_theory_update.md",
+        "uncompressed_bytes": 26329
+      },
+      {
+        "path": "attachments/project_sources/03-theory_of_the_field.md",
+        "uncompressed_bytes": 13398
+      },
+      {
+        "path": "attachments/project_sources/04-06_Rotating_Lattice_Run_Report_v0.2_Two_Clock_Prospective-1-.md",
+        "uncompressed_bytes": 7304
+      },
+      {
+        "path": "attachments/project_sources/05-10_GQG_Relation_Typing_v0.2_Orbit_Cocycle.md",
+        "uncompressed_bytes": 8545
+      },
+      {
+        "path": "attachments/project_sources/06-14_Confinement_Radius_v0.2_Orbit_Accessibility_Firewall.md",
+        "uncompressed_bytes": 8913
+      },
+      {
+        "path": "attachments/project_sources/07-UPGRADE_CHECKSUMS.sha256",
+        "uncompressed_bytes": 1938
+      },
+      {
+        "path": "SOURCE_INDEX.json",
+        "uncompressed_bytes": 8040
+      },
+      {
+        "path": "ORGANIZATION_RECEIPT.json",
+        "uncompressed_bytes": 11285
+      },
+      {
+        "path": "SHA256SUMS.txt",
+        "uncompressed_bytes": 4499
+      }
+    ],
+    "exact_historical_authority_name_matches": [],
+    "scope": "ZIP member inventory and selected relevant source/manifest inspection; no simulation or blanket validation of archive claims."
+  },
+  {
+    "filename": "L3_direct_followup_v0.1.zip",
+    "bytes": 128849379,
+    "sha256": "6f26b230888559aeeea80b1537db11af5472813af113d63e05164fc4455c0950",
+    "member_count": 130,
+    "member_inventory": [
+      {
+        "path": "l3_direct_followup/EXECUTION.log",
+        "uncompressed_bytes": 904
+      },
+      {
+        "path": "l3_direct_followup/FOLLOWUP_PLAN.json",
+        "uncompressed_bytes": 3696
+      },
+      {
+        "path": "l3_direct_followup/FREEZE.json",
+        "uncompressed_bytes": 783
+      },
+      {
+        "path": "l3_direct_followup/L3_direct_followup_report.md",
+        "uncompressed_bytes": 10063
+      },
+      {
+        "path": "l3_direct_followup/README.md",
+        "uncompressed_bytes": 3710
+      },
+      {
+        "path": "l3_direct_followup/RESULTS.json",
+        "uncompressed_bytes": 7920
+      },
+      {
+        "path": "l3_direct_followup/followup/EXECUTION.json",
+        "uncompressed_bytes": 673
+      },
+      {
+        "path": "l3_direct_followup/followup/direct_0.json",
+        "uncompressed_bytes": 345428
+      },
+      {
+        "path": "l3_direct_followup/followup/direct_0.npz",
+        "uncompressed_bytes": 2307274
+      },
+      {
+        "path": "l3_direct_followup/followup/direct_1.json",
+        "uncompressed_bytes": 345769
+      },
+      {
+        "path": "l3_direct_followup/followup/direct_1.npz",
+        "uncompressed_bytes": 2308391
+      },
+      {
+        "path": "l3_direct_followup/followup/direct_2.json",
+        "uncompressed_bytes": 345393
+      },
+      {
+        "path": "l3_direct_followup/followup/direct_2.npz",
+        "uncompressed_bytes": 2301015
+      },
+      {
+        "path": "l3_direct_followup/followup/direct_3.json",
+        "uncompressed_bytes": 345564
+      },
+      {
+        "path": "l3_direct_followup/followup/direct_3.npz",
+        "uncompressed_bytes": 2304928
+      },
+      {
+        "path": "l3_direct_followup/followup/direct_4.json",
+        "uncompressed_bytes": 345585
+      },
+      {
+        "path": "l3_direct_followup/followup/direct_4.npz",
+        "uncompressed_bytes": 2305134
+      },
+      {
+        "path": "l3_direct_followup/followup/direct_5.json",
+        "uncompressed_bytes": 345439
+      },
+      {
+        "path": "l3_direct_followup/followup/direct_5.npz",
+        "uncompressed_bytes": 2298042
+      },
+      {
+        "path": "l3_direct_followup/followup/direct_6.json",
+        "uncompressed_bytes": 345547
+      },
+      {
+        "path": "l3_direct_followup/followup/direct_6.npz",
+        "uncompressed_bytes": 2303262
+      },
+      {
+        "path": "l3_direct_followup/followup/direct_7.json",
+        "uncompressed_bytes": 345581
+      },
+      {
+        "path": "l3_direct_followup/followup/direct_7.npz",
+        "uncompressed_bytes": 2302275
+      },
+      {
+        "path": "l3_direct_followup/predecessor/ANALYSIS_CORRECTION_001.json",
+        "uncompressed_bytes": 523
+      },
+      {
+        "path": "l3_direct_followup/predecessor/ANALYSIS_EXECUTION.log",
+        "uncompressed_bytes": 5064
+      },
+      {
+        "path": "l3_direct_followup/predecessor/ASSESSMENT.json",
+        "uncompressed_bytes": 1159
+      },
+      {
+        "path": "l3_direct_followup/predecessor/DERIVATION.md",
+        "uncompressed_bytes": 9397
+      },
+      {
+        "path": "l3_direct_followup/predecessor/ENVIRONMENT.json",
+        "uncompressed_bytes": 327
+      },
+      {
+        "path": "l3_direct_followup/predecessor/FREEZE.json",
+        "uncompressed_bytes": 1282
+      },
+      {
+        "path": "l3_direct_followup/predecessor/L2_PRESERVATION_CHECK.json",
+        "uncompressed_bytes": 909
+      },
+      {
+        "path": "l3_direct_followup/predecessor/L3_EXTENSION_REPORT.md",
+        "uncompressed_bytes": 11027
+      },
+      {
+        "path": "l3_direct_followup/predecessor/PACKET_MANIFEST.json",
+        "uncompressed_bytes": 13851
+      },
+      {
+        "path": "l3_direct_followup/predecessor/PILOT_EXECUTION.log",
+        "uncompressed_bytes": 2884
+      },
+      {
+        "path": "l3_direct_followup/predecessor/PILOT_PLAN.json",
+        "uncompressed_bytes": 3031
+      },
+      {
+        "path": "l3_direct_followup/predecessor/README.md",
+        "uncompressed_bytes": 4838
+      },
+      {
+        "path": "l3_direct_followup/predecessor/REPLAY_EXECUTION.log",
+        "uncompressed_bytes": 2232
+      },
+      {
+        "path": "l3_direct_followup/predecessor/SERIALIZATION_RECOVERY_001.json",
+        "uncompressed_bytes": 1148
+      },
+      {
+        "path": "l3_direct_followup/predecessor/SERIALIZATION_TEST.json",
+        "uncompressed_bytes": 275
+      },
+      {
+        "path": "l3_direct_followup/predecessor/SOURCE_BINDINGS.json",
+        "uncompressed_bytes": 773
+      },
+      {
+        "path": "l3_direct_followup/predecessor/TEST_RESULTS.json",
+        "uncompressed_bytes": 3795
+      },
+      {
+        "path": "l3_direct_followup/predecessor/analyze.py",
+        "uncompressed_bytes": 6282
+      },
+      {
+        "path": "l3_direct_followup/predecessor/cycle_checks.py",
+        "uncompressed_bytes": 2198
+      },
+      {
+        "path": "l3_direct_followup/predecessor/dual_pilot.py",
+        "uncompressed_bytes": 3137
+      },
+      {
+        "path": "l3_direct_followup/predecessor/membrane_enum",
+        "uncompressed_bytes": 17288
+      },
+      {
+        "path": "l3_direct_followup/predecessor/membrane_enum.cpp",
+        "uncompressed_bytes": 772
+      },
+      {
+        "path": "l3_direct_followup/predecessor/pilot/CYCLE_CERTIFICATES.json",
+        "uncompressed_bytes": 299269
+      },
+      {
+        "path": "l3_direct_followup/predecessor/pilot/EXECUTION.json",
+        "uncompressed_bytes": 2037
+      },
+      {
+        "path": "l3_direct_followup/predecessor/pilot/REPLAY_RESULTS.json",
+        "uncompressed_bytes": 2877
+      },
+      {
+        "path": "l3_direct_followup/predecessor/pilot/RESULTS.json",
+        "uncompressed_bytes": 19704
+      },
+      {
+        "path": "l3_direct_followup/predecessor/pilot/direct_0.json",
+        "uncompressed_bytes": 98798
+      },
+      {
+        "path": "l3_direct_followup/predecessor/pilot/direct_0.npz",
+        "uncompressed_bytes": 576665
+      },
+      {
+        "path": "l3_direct_followup/predecessor/pilot/direct_1.json",
+        "uncompressed_bytes": 98888
+      },
+      {
+        "path": "l3_direct_followup/predecessor/pilot/direct_1.npz",
+        "uncompressed_bytes": 579816
+      },
+      {
+        "path": "l3_direct_followup/predecessor/pilot/direct_2.json",
+        "uncompressed_bytes": 98821
+      },
+      {
+        "path": "l3_direct_followup/predecessor/pilot/direct_2.npz",
+        "uncompressed_bytes": 578071
+      },
+      {
+        "path": "l3_direct_followup/predecessor/pilot/direct_3.json",
+        "uncompressed_bytes": 98844
+      },
+      {
+        "path": "l3_direct_followup/predecessor/pilot/direct_3.npz",
+        "uncompressed_bytes": 576319
+      },
+      {
+        "path": "l3_direct_followup/predecessor/pilot/direct_4.json",
+        "uncompressed_bytes": 98889
+      },
+      {
+        "path": "l3_direct_followup/predecessor/pilot/direct_4.npz",
+        "uncompressed_bytes": 576313
+      },
+      {
+        "path": "l3_direct_followup/predecessor/pilot/direct_5.json",
+        "uncompressed_bytes": 98808
+      },
+      {
+        "path": "l3_direct_followup/predecessor/pilot/direct_5.npz",
+        "uncompressed_bytes": 579401
+      },
+      {
+        "path": "l3_direct_followup/predecessor/pilot/direct_6.json",
+        "uncompressed_bytes": 98879
+      },
+      {
+        "path": "l3_direct_followup/predecessor/pilot/direct_6.npz",
+        "uncompressed_bytes": 574062
+      },
+      {
+        "path": "l3_direct_followup/predecessor/pilot/direct_7.json",
+        "uncompressed_bytes": 98929
+      },
+      {
+        "path": "l3_direct_followup/predecessor/pilot/direct_7.npz",
+        "uncompressed_bytes": 577182
+      },
+      {
+        "path": "l3_direct_followup/predecessor/pilot/dual_0.events.gz",
+        "uncompressed_bytes": 10029390
+      },
+      {
+        "path": "l3_direct_followup/predecessor/pilot/dual_0.npz",
+        "uncompressed_bytes": 202254
+      },
+      {
+        "path": "l3_direct_followup/predecessor/pilot/dual_1.events.gz",
+        "uncompressed_bytes": 10028517
+      },
+      {
+        "path": "l3_direct_followup/predecessor/pilot/dual_1.npz",
+        "uncompressed_bytes": 201960
+      },
+      {
+        "path": "l3_direct_followup/predecessor/pilot/dual_2.events.gz",
+        "uncompressed_bytes": 10022135
+      },
+      {
+        "path": "l3_direct_followup/predecessor/pilot/dual_2.npz",
+        "uncompressed_bytes": 202617
+      },
+      {
+        "path": "l3_direct_followup/predecessor/pilot/dual_3.events.gz",
+        "uncompressed_bytes": 10029514
+      },
+      {
+        "path": "l3_direct_followup/predecessor/pilot/dual_3.npz",
+        "uncompressed_bytes": 202801
+      },
+      {
+        "path": "l3_direct_followup/predecessor/pilot/dual_4.events.gz",
+        "uncompressed_bytes": 10028541
+      },
+      {
+        "path": "l3_direct_followup/predecessor/pilot/dual_4.npz",
+        "uncompressed_bytes": 202732
+      },
+      {
+        "path": "l3_direct_followup/predecessor/pilot/dual_5.events.gz",
+        "uncompressed_bytes": 10026407
+      },
+      {
+        "path": "l3_direct_followup/predecessor/pilot/dual_5.npz",
+        "uncompressed_bytes": 202021
+      },
+      {
+        "path": "l3_direct_followup/predecessor/pilot/dual_6.events.gz",
+        "uncompressed_bytes": 10025538
+      },
+      {
+        "path": "l3_direct_followup/predecessor/pilot/dual_6.npz",
+        "uncompressed_bytes": 202744
+      },
+      {
+        "path": "l3_direct_followup/predecessor/pilot/dual_7.events.gz",
+        "uncompressed_bytes": 10030110
+      },
+      {
+        "path": "l3_direct_followup/predecessor/pilot/dual_7.npz",
+        "uncompressed_bytes": 201830
+      },
+      {
+        "path": "l3_direct_followup/predecessor/pilot/weighted_residuals.npz",
+        "uncompressed_bytes": 695905
+      },
+      {
+        "path": "l3_direct_followup/predecessor/preserved_l2_reproduction/DYNAMICS_PROSE_RECONSTRUCTION.json",
+        "uncompressed_bytes": 2274
+      },
+      {
+        "path": "l3_direct_followup/predecessor/preserved_l2_reproduction/MANIFEST.json",
+        "uncompressed_bytes": 2837
+      },
+      {
+        "path": "l3_direct_followup/predecessor/preserved_l2_reproduction/TD_COS_FH_001_L2_companion_comparison.json",
+        "uncompressed_bytes": 2419
+      },
+      {
+        "path": "l3_direct_followup/predecessor/preserved_l2_reproduction/TD_COS_FH_001_L2_preproduction_receipt.md",
+        "uncompressed_bytes": 7697
+      },
+      {
+        "path": "l3_direct_followup/predecessor/preserved_l2_reproduction/TD_COS_FH_001_L2_run_results.json",
+        "uncompressed_bytes": 84171
+      },
+      {
+        "path": "l3_direct_followup/predecessor/preserved_l2_reproduction/TD_COS_FH_001_L2_samples.npz",
+        "uncompressed_bytes": 1516660
+      },
+      {
+        "path": "l3_direct_followup/predecessor/preserved_l2_reproduction/TD_COS_FH_001_L2_verification.json",
+        "uncompressed_bytes": 1217
+      },
+      {
+        "path": "l3_direct_followup/predecessor/preserved_l2_reproduction/make_td_report.py",
+        "uncompressed_bytes": 13443
+      },
+      {
+        "path": "l3_direct_followup/predecessor/preserved_l2_reproduction/td_cos_fh_001_sampler.py",
+        "uncompressed_bytes": 47134
+      },
+      {
+        "path": "l3_direct_followup/predecessor/preserved_l2_reproduction/verify_td_receipt.py",
+        "uncompressed_bytes": 5294
+      },
+      {
+        "path": "l3_direct_followup/predecessor/records/analyze_frozen_pre_correction.py",
+        "uncompressed_bytes": 6234
+      },
+      {
+        "path": "l3_direct_followup/predecessor/records/original_dual_pilot.py",
+        "uncompressed_bytes": 3138
+      },
+      {
+        "path": "l3_direct_followup/predecessor/records/original_run_pilot.py",
+        "uncompressed_bytes": 2236
+      },
+      {
+        "path": "l3_direct_followup/predecessor/recovery/dual_0.json",
+        "uncompressed_bytes": 92066
+      },
+      {
+        "path": "l3_direct_followup/predecessor/recovery/dual_1.json",
+        "uncompressed_bytes": 92014
+      },
+      {
+        "path": "l3_direct_followup/predecessor/recovery/dual_2.json",
+        "uncompressed_bytes": 92005
+      },
+      {
+        "path": "l3_direct_followup/predecessor/recovery/dual_3.json",
+        "uncompressed_bytes": 92034
+      },
+      {
+        "path": "l3_direct_followup/predecessor/recovery/dual_4.json",
+        "uncompressed_bytes": 91954
+      },
+      {
+        "path": "l3_direct_followup/predecessor/recovery/dual_5.json",
+        "uncompressed_bytes": 91989
+      },
+      {
+        "path": "l3_direct_followup/predecessor/recovery/dual_6.json",
+        "uncompressed_bytes": 91983
+      },
+      {
+        "path": "l3_direct_followup/predecessor/recovery/dual_7.json",
+        "uncompressed_bytes": 91908
+      },
+      {
+        "path": "l3_direct_followup/predecessor/reference.py",
+        "uncompressed_bytes": 4904
+      },
+      {
+        "path": "l3_direct_followup/predecessor/replay.py",
+        "uncompressed_bytes": 6274
+      },
+      {
+        "path": "l3_direct_followup/predecessor/reproduce.py",
+        "uncompressed_bytes": 1175
+      },
+      {
+        "path": "l3_direct_followup/predecessor/run_pilot.py",
+        "uncompressed_bytes": 2590
+      },
+      {
+        "path": "l3_direct_followup/predecessor/sources/TINY_SYSTEM_VALIDATION_v0.1.md",
+        "uncompressed_bytes": 11491
+      },
+      {
+        "path": "l3_direct_followup/predecessor/sources/TOROIDAL_DYNAMICS_v0.1.md",
+        "uncompressed_bytes": 14473
+      },
+      {
+        "path": "l3_direct_followup/predecessor/test_extension.py",
+        "uncompressed_bytes": 7447
+      },
+      {
+        "path": "l3_direct_followup/reference.py",
+        "uncompressed_bytes": 4904
+      },
+      {
+        "path": "l3_direct_followup/replay/REPLAY.json",
+        "uncompressed_bytes": 1411
+      },
+      {
+        "path": "l3_direct_followup/replay/direct_0.json",
+        "uncompressed_bytes": 345428
+      },
+      {
+        "path": "l3_direct_followup/replay/direct_0.npz",
+        "uncompressed_bytes": 2307274
+      },
+      {
+        "path": "l3_direct_followup/replay/direct_1.json",
+        "uncompressed_bytes": 345769
+      },
+      {
+        "path": "l3_direct_followup/replay/direct_1.npz",
+        "uncompressed_bytes": 2308391
+      },
+      {
+        "path": "l3_direct_followup/replay/direct_2.json",
+        "uncompressed_bytes": 345393
+      },
+      {
+        "path": "l3_direct_followup/replay/direct_2.npz",
+        "uncompressed_bytes": 2301015
+      },
+      {
+        "path": "l3_direct_followup/replay/direct_3.json",
+        "uncompressed_bytes": 345564
+      },
+      {
+        "path": "l3_direct_followup/replay/direct_3.npz",
+        "uncompressed_bytes": 2304928
+      },
+      {
+        "path": "l3_direct_followup/replay/direct_4.json",
+        "uncompressed_bytes": 345585
+      },
+      {
+        "path": "l3_direct_followup/replay/direct_4.npz",
+        "uncompressed_bytes": 2305134
+      },
+      {
+        "path": "l3_direct_followup/replay/direct_5.json",
+        "uncompressed_bytes": 345439
+      },
+      {
+        "path": "l3_direct_followup/replay/direct_5.npz",
+        "uncompressed_bytes": 2298042
+      },
+      {
+        "path": "l3_direct_followup/replay/direct_6.json",
+        "uncompressed_bytes": 345547
+      },
+      {
+        "path": "l3_direct_followup/replay/direct_6.npz",
+        "uncompressed_bytes": 2303262
+      },
+      {
+        "path": "l3_direct_followup/replay/direct_7.json",
+        "uncompressed_bytes": 345581
+      },
+      {
+        "path": "l3_direct_followup/replay/direct_7.npz",
+        "uncompressed_bytes": 2302275
+      },
+      {
+        "path": "l3_direct_followup/run_followup.py",
+        "uncompressed_bytes": 9255
+      },
+      {
+        "path": "l3_direct_followup/PACKET_MANIFEST.json",
+        "uncompressed_bytes": 21617
+      }
+    ],
+    "exact_historical_authority_name_matches": [],
+    "scope": "ZIP member inventory and selected relevant source/manifest inspection; no simulation or blanket validation of archive claims.",
+    "l2_copy_checks": [
+      {
+        "path": "l3_direct_followup/predecessor/preserved_l2_reproduction/DYNAMICS_PROSE_RECONSTRUCTION.json",
+        "matches_original_reproduction_bytes": true
+      },
+      {
+        "path": "l3_direct_followup/predecessor/preserved_l2_reproduction/MANIFEST.json",
+        "matches_original_reproduction_bytes": true
+      },
+      {
+        "path": "l3_direct_followup/predecessor/preserved_l2_reproduction/TD_COS_FH_001_L2_companion_comparison.json",
+        "matches_original_reproduction_bytes": true
+      },
+      {
+        "path": "l3_direct_followup/predecessor/preserved_l2_reproduction/TD_COS_FH_001_L2_preproduction_receipt.md",
+        "matches_original_reproduction_bytes": true
+      },
+      {
+        "path": "l3_direct_followup/predecessor/preserved_l2_reproduction/TD_COS_FH_001_L2_run_results.json",
+        "matches_original_reproduction_bytes": true
+      },
+      {
+        "path": "l3_direct_followup/predecessor/preserved_l2_reproduction/TD_COS_FH_001_L2_samples.npz",
+        "matches_original_reproduction_bytes": true
+      },
+      {
+        "path": "l3_direct_followup/predecessor/preserved_l2_reproduction/TD_COS_FH_001_L2_verification.json",
+        "matches_original_reproduction_bytes": true
+      },
+      {
+        "path": "l3_direct_followup/predecessor/preserved_l2_reproduction/make_td_report.py",
+        "matches_original_reproduction_bytes": true
+      },
+      {
+        "path": "l3_direct_followup/predecessor/preserved_l2_reproduction/td_cos_fh_001_sampler.py",
+        "matches_original_reproduction_bytes": true
+      },
+      {
+        "path": "l3_direct_followup/predecessor/preserved_l2_reproduction/verify_td_receipt.py",
+        "matches_original_reproduction_bytes": true
+      }
+    ],
+    "disposition": "Preserves the separate reproduction lineage; not recovery of the original L2 validation companion."
+  },
+  {
+    "filename": "TD_COS_FH_001_L2_FIRST_RUN_PACKET_v0.1.zip",
+    "bytes": 1561229,
+    "sha256": "9614c440bbdc07253e2bbe354bda34eadaa707ff85ff5ff0a023c720de5fb4e1",
+    "member_count": 10,
+    "member_inventory": [
+      {
+        "path": "DYNAMICS_PROSE_RECONSTRUCTION.json",
+        "uncompressed_bytes": 2274
+      },
+      {
+        "path": "td_cos_fh_001_sampler.py",
+        "uncompressed_bytes": 47134
+      },
+      {
+        "path": "verify_td_receipt.py",
+        "uncompressed_bytes": 5294
+      },
+      {
+        "path": "make_td_report.py",
+        "uncompressed_bytes": 13443
+      },
+      {
+        "path": "MANIFEST.json",
+        "uncompressed_bytes": 2837
+      },
+      {
+        "path": "TD_COS_FH_001_L2_run_results.json",
+        "uncompressed_bytes": 84171
+      },
+      {
+        "path": "TD_COS_FH_001_L2_samples.npz",
+        "uncompressed_bytes": 1516660
+      },
+      {
+        "path": "TD_COS_FH_001_L2_verification.json",
+        "uncompressed_bytes": 1217
+      },
+      {
+        "path": "TD_COS_FH_001_L2_companion_comparison.json",
+        "uncompressed_bytes": 2419
+      },
+      {
+        "path": "TD_COS_FH_001_L2_preproduction_receipt.md",
+        "uncompressed_bytes": 7697
+      }
+    ],
+    "exact_historical_authority_name_matches": [],
+    "scope": "ZIP member inventory and selected relevant source/manifest inspection; no simulation or blanket validation of archive claims."
+  },
+  {
+    "filename": "TD_COS_FH_001_Mismatch_Investigation_v0.1.zip",
+    "bytes": 2559289,
+    "sha256": "6688106ed6f9dc1d5415f6472c8ebcf3941ae48dc225ad1a34670052b5c459e9",
+    "member_count": 30,
+    "member_inventory": [
+      {
+        "path": "DIAGNOSTIC_MANIFEST.json",
+        "uncompressed_bytes": 5431
+      },
+      {
+        "path": "README.md",
+        "uncompressed_bytes": 2764
+      },
+      {
+        "path": "TD_COS_FH_001_Mismatch_Investigation_v0.1.md",
+        "uncompressed_bytes": 10173
+      },
+      {
+        "path": "compare_td_traces.py",
+        "uncompressed_bytes": 3578
+      },
+      {
+        "path": "diagnose_td_mismatch.py",
+        "uncompressed_bytes": 10198
+      },
+      {
+        "path": "diagnostics/BOUNDED_DIAGNOSTICS.json",
+        "uncompressed_bytes": 11359
+      },
+      {
+        "path": "diagnostics/CHECKPOINT_SERIALIZATION_CHECKS.json",
+        "uncompressed_bytes": 144
+      },
+      {
+        "path": "diagnostics/COMPARATOR_CHECKS.json",
+        "uncompressed_bytes": 573
+      },
+      {
+        "path": "diagnostics/chain_0_restartable_checkpoints.json",
+        "uncompressed_bytes": 103672
+      },
+      {
+        "path": "diagnostics/chain_1_restartable_checkpoints.json",
+        "uncompressed_bytes": 103653
+      },
+      {
+        "path": "diagnostics/chain_2_restartable_checkpoints.json",
+        "uncompressed_bytes": 103647
+      },
+      {
+        "path": "diagnostics/chain_3_restartable_checkpoints.json",
+        "uncompressed_bytes": 103714
+      },
+      {
+        "path": "diagnostics/chain_4_restartable_checkpoints.json",
+        "uncompressed_bytes": 103671
+      },
+      {
+        "path": "diagnostics/chain_5_restartable_checkpoints.json",
+        "uncompressed_bytes": 103599
+      },
+      {
+        "path": "diagnostics/chain_6_restartable_checkpoints.json",
+        "uncompressed_bytes": 103600
+      },
+      {
+        "path": "diagnostics/chain_7_restartable_checkpoints.json",
+        "uncompressed_bytes": 103622
+      },
+      {
+        "path": "diagnostics/reproduction_prefix_events.jsonl",
+        "uncompressed_bytes": 6608019
+      },
+      {
+        "path": "preserved_reproduction/DYNAMICS_PROSE_RECONSTRUCTION.json",
+        "uncompressed_bytes": 2274
+      },
+      {
+        "path": "preserved_reproduction/MANIFEST.json",
+        "uncompressed_bytes": 2837
+      },
+      {
+        "path": "preserved_reproduction/TD_COS_FH_001_L2_companion_comparison.json",
+        "uncompressed_bytes": 2419
+      },
+      {
+        "path": "preserved_reproduction/TD_COS_FH_001_L2_preproduction_receipt.md",
+        "uncompressed_bytes": 7697
+      },
+      {
+        "path": "preserved_reproduction/TD_COS_FH_001_L2_run_results.json",
+        "uncompressed_bytes": 84171
+      },
+      {
+        "path": "preserved_reproduction/TD_COS_FH_001_L2_samples.npz",
+        "uncompressed_bytes": 1516660
+      },
+      {
+        "path": "preserved_reproduction/TD_COS_FH_001_L2_verification.json",
+        "uncompressed_bytes": 1217
+      },
+      {
+        "path": "preserved_reproduction/make_td_report.py",
+        "uncompressed_bytes": 13443
+      },
+      {
+        "path": "preserved_reproduction/td_cos_fh_001_sampler.py",
+        "uncompressed_bytes": 47134
+      },
+      {
+        "path": "preserved_reproduction/verify_td_receipt.py",
+        "uncompressed_bytes": 5294
+      },
+      {
+        "path": "sources/RECOVERY_RECORD.json",
+        "uncompressed_bytes": 1091
+      },
+      {
+        "path": "sources/companion_Drive_snapshot.txt",
+        "uncompressed_bytes": 11469
+      },
+      {
+        "path": "sources/dynamics_Drive_snapshot.txt",
+        "uncompressed_bytes": 14450
+      }
+    ],
+    "exact_historical_authority_name_matches": [],
+    "scope": "ZIP member inventory and selected relevant source/manifest inspection; no simulation or blanket validation of archive claims."
+  },
+  {
+    "filename": "TD_COS_FH_001_Replacement_Amendment_v0.1.zip",
+    "bytes": 4207769,
+    "sha256": "af03debcda42839f38525b3a6bda14aab2d24ad33c8822386d8742fc81e0d3b8",
+    "member_count": 15,
+    "member_inventory": [
+      {
+        "path": "AMENDMENT.md",
+        "uncompressed_bytes": 10931
+      },
+      {
+        "path": "DYNAMICS_REPLACEMENT_v0.1.json",
+        "uncompressed_bytes": 10544
+      },
+      {
+        "path": "EVENT_CHECKPOINT_REQUIREMENTS.md",
+        "uncompressed_bytes": 8416
+      },
+      {
+        "path": "MANIFEST.json",
+        "uncompressed_bytes": 2675
+      },
+      {
+        "path": "PREPARATION_CHECKS.json",
+        "uncompressed_bytes": 529
+      },
+      {
+        "path": "README.md",
+        "uncompressed_bytes": 879
+      },
+      {
+        "path": "SOURCE_BINDINGS.json",
+        "uncompressed_bytes": 2906
+      },
+      {
+        "path": "TD_COS_FH_001_Replacement_Amendment_v0.1.docx",
+        "uncompressed_bytes": 43738
+      },
+      {
+        "path": "preserved/TD_COS_FH_001_L2_FIRST_RUN_PACKET_v0.1.zip",
+        "uncompressed_bytes": 1561229
+      },
+      {
+        "path": "preserved/TD_COS_FH_001_Mismatch_Investigation_v0.1.zip",
+        "uncompressed_bytes": 2559289
+      },
+      {
+        "path": "sampler/td_cos_fh_001_sampler.py",
+        "uncompressed_bytes": 47134
+      },
+      {
+        "path": "sources/companion_Drive_snapshot.txt",
+        "uncompressed_bytes": 11615
+      },
+      {
+        "path": "sources/dynamics_Drive_snapshot.txt",
+        "uncompressed_bytes": 14646
+      },
+      {
+        "path": "sources/investigation_Drive_snapshot.txt",
+        "uncompressed_bytes": 10319
+      },
+      {
+        "path": "sources/reproduction_receipt_Drive_snapshot.txt",
+        "uncompressed_bytes": 4830
+      }
+    ],
+    "exact_historical_authority_name_matches": [],
+    "scope": "ZIP member inventory and selected relevant source/manifest inspection; no simulation or blanket validation of archive claims.",
+    "preserved_zip_byte_checks": [
+      {
+        "path": "preserved/TD_COS_FH_001_L2_FIRST_RUN_PACKET_v0.1.zip",
+        "matches": true
+      },
+      {
+        "path": "preserved/TD_COS_FH_001_Mismatch_Investigation_v0.1.zip",
+        "matches": true
+      }
+    ]
+  },
+  {
+    "filename": "Tiny_system_L3_extension_v0.1.zip",
+    "bytes": 89575603,
+    "sha256": "710f4d5759dd7ada0f3ba075095858d52ec43d2efb1d408d741dee4848dd44d4",
+    "member_count": 87,
+    "member_inventory": [
+      {
+        "path": "Tiny_system_L3_extension_v0.1/ANALYSIS_CORRECTION_001.json",
+        "uncompressed_bytes": 523
+      },
+      {
+        "path": "Tiny_system_L3_extension_v0.1/ANALYSIS_EXECUTION.log",
+        "uncompressed_bytes": 5064
+      },
+      {
+        "path": "Tiny_system_L3_extension_v0.1/ASSESSMENT.json",
+        "uncompressed_bytes": 1159
+      },
+      {
+        "path": "Tiny_system_L3_extension_v0.1/DERIVATION.md",
+        "uncompressed_bytes": 9397
+      },
+      {
+        "path": "Tiny_system_L3_extension_v0.1/ENVIRONMENT.json",
+        "uncompressed_bytes": 327
+      },
+      {
+        "path": "Tiny_system_L3_extension_v0.1/FREEZE.json",
+        "uncompressed_bytes": 1282
+      },
+      {
+        "path": "Tiny_system_L3_extension_v0.1/L2_PRESERVATION_CHECK.json",
+        "uncompressed_bytes": 909
+      },
+      {
+        "path": "Tiny_system_L3_extension_v0.1/L3_EXTENSION_REPORT.md",
+        "uncompressed_bytes": 11027
+      },
+      {
+        "path": "Tiny_system_L3_extension_v0.1/PILOT_EXECUTION.log",
+        "uncompressed_bytes": 2884
+      },
+      {
+        "path": "Tiny_system_L3_extension_v0.1/PILOT_PLAN.json",
+        "uncompressed_bytes": 3031
+      },
+      {
+        "path": "Tiny_system_L3_extension_v0.1/README.md",
+        "uncompressed_bytes": 4838
+      },
+      {
+        "path": "Tiny_system_L3_extension_v0.1/REPLAY_EXECUTION.log",
+        "uncompressed_bytes": 2232
+      },
+      {
+        "path": "Tiny_system_L3_extension_v0.1/SERIALIZATION_RECOVERY_001.json",
+        "uncompressed_bytes": 1148
+      },
+      {
+        "path": "Tiny_system_L3_extension_v0.1/SERIALIZATION_TEST.json",
+        "uncompressed_bytes": 275
+      },
+      {
+        "path": "Tiny_system_L3_extension_v0.1/SOURCE_BINDINGS.json",
+        "uncompressed_bytes": 773
+      },
+      {
+        "path": "Tiny_system_L3_extension_v0.1/TEST_RESULTS.json",
+        "uncompressed_bytes": 3795
+      },
+      {
+        "path": "Tiny_system_L3_extension_v0.1/analyze.py",
+        "uncompressed_bytes": 6282
+      },
+      {
+        "path": "Tiny_system_L3_extension_v0.1/cycle_checks.py",
+        "uncompressed_bytes": 2198
+      },
+      {
+        "path": "Tiny_system_L3_extension_v0.1/dual_pilot.py",
+        "uncompressed_bytes": 3137
+      },
+      {
+        "path": "Tiny_system_L3_extension_v0.1/membrane_enum",
+        "uncompressed_bytes": 17288
+      },
+      {
+        "path": "Tiny_system_L3_extension_v0.1/membrane_enum.cpp",
+        "uncompressed_bytes": 772
+      },
+      {
+        "path": "Tiny_system_L3_extension_v0.1/pilot/CYCLE_CERTIFICATES.json",
+        "uncompressed_bytes": 299269
+      },
+      {
+        "path": "Tiny_system_L3_extension_v0.1/pilot/EXECUTION.json",
+        "uncompressed_bytes": 2037
+      },
+      {
+        "path": "Tiny_system_L3_extension_v0.1/pilot/REPLAY_RESULTS.json",
+        "uncompressed_bytes": 2877
+      },
+      {
+        "path": "Tiny_system_L3_extension_v0.1/pilot/RESULTS.json",
+        "uncompressed_bytes": 19704
+      },
+      {
+        "path": "Tiny_system_L3_extension_v0.1/pilot/direct_0.json",
+        "uncompressed_bytes": 98798
+      },
+      {
+        "path": "Tiny_system_L3_extension_v0.1/pilot/direct_0.npz",
+        "uncompressed_bytes": 576665
+      },
+      {
+        "path": "Tiny_system_L3_extension_v0.1/pilot/direct_1.json",
+        "uncompressed_bytes": 98888
+      },
+      {
+        "path": "Tiny_system_L3_extension_v0.1/pilot/direct_1.npz",
+        "uncompressed_bytes": 579816
+      },
+      {
+        "path": "Tiny_system_L3_extension_v0.1/pilot/direct_2.json",
+        "uncompressed_bytes": 98821
+      },
+      {
+        "path": "Tiny_system_L3_extension_v0.1/pilot/direct_2.npz",
+        "uncompressed_bytes": 578071
+      },
+      {
+        "path": "Tiny_system_L3_extension_v0.1/pilot/direct_3.json",
+        "uncompressed_bytes": 98844
+      },
+      {
+        "path": "Tiny_system_L3_extension_v0.1/pilot/direct_3.npz",
+        "uncompressed_bytes": 576319
+      },
+      {
+        "path": "Tiny_system_L3_extension_v0.1/pilot/direct_4.json",
+        "uncompressed_bytes": 98889
+      },
+      {
+        "path": "Tiny_system_L3_extension_v0.1/pilot/direct_4.npz",
+        "uncompressed_bytes": 576313
+      },
+      {
+        "path": "Tiny_system_L3_extension_v0.1/pilot/direct_5.json",
+        "uncompressed_bytes": 98808
+      },
+      {
+        "path": "Tiny_system_L3_extension_v0.1/pilot/direct_5.npz",
+        "uncompressed_bytes": 579401
+      },
+      {
+        "path": "Tiny_system_L3_extension_v0.1/pilot/direct_6.json",
+        "uncompressed_bytes": 98879
+      },
+      {
+        "path": "Tiny_system_L3_extension_v0.1/pilot/direct_6.npz",
+        "uncompressed_bytes": 574062
+      },
+      {
+        "path": "Tiny_system_L3_extension_v0.1/pilot/direct_7.json",
+        "uncompressed_bytes": 98929
+      },
+      {
+        "path": "Tiny_system_L3_extension_v0.1/pilot/direct_7.npz",
+        "uncompressed_bytes": 577182
+      },
+      {
+        "path": "Tiny_system_L3_extension_v0.1/pilot/dual_0.events.gz",
+        "uncompressed_bytes": 10029390
+      },
+      {
+        "path": "Tiny_system_L3_extension_v0.1/pilot/dual_0.npz",
+        "uncompressed_bytes": 202254
+      },
+      {
+        "path": "Tiny_system_L3_extension_v0.1/pilot/dual_1.events.gz",
+        "uncompressed_bytes": 10028517
+      },
+      {
+        "path": "Tiny_system_L3_extension_v0.1/pilot/dual_1.npz",
+        "uncompressed_bytes": 201960
+      },
+      {
+        "path": "Tiny_system_L3_extension_v0.1/pilot/dual_2.events.gz",
+        "uncompressed_bytes": 10022135
+      },
+      {
+        "path": "Tiny_system_L3_extension_v0.1/pilot/dual_2.npz",
+        "uncompressed_bytes": 202617
+      },
+      {
+        "path": "Tiny_system_L3_extension_v0.1/pilot/dual_3.events.gz",
+        "uncompressed_bytes": 10029514
+      },
+      {
+        "path": "Tiny_system_L3_extension_v0.1/pilot/dual_3.npz",
+        "uncompressed_bytes": 202801
+      },
+      {
+        "path": "Tiny_system_L3_extension_v0.1/pilot/dual_4.events.gz",
+        "uncompressed_bytes": 10028541
+      },
+      {
+        "path": "Tiny_system_L3_extension_v0.1/pilot/dual_4.npz",
+        "uncompressed_bytes": 202732
+      },
+      {
+        "path": "Tiny_system_L3_extension_v0.1/pilot/dual_5.events.gz",
+        "uncompressed_bytes": 10026407
+      },
+      {
+        "path": "Tiny_system_L3_extension_v0.1/pilot/dual_5.npz",
+        "uncompressed_bytes": 202021
+      },
+      {
+        "path": "Tiny_system_L3_extension_v0.1/pilot/dual_6.events.gz",
+        "uncompressed_bytes": 10025538
+      },
+      {
+        "path": "Tiny_system_L3_extension_v0.1/pilot/dual_6.npz",
+        "uncompressed_bytes": 202744
+      },
+      {
+        "path": "Tiny_system_L3_extension_v0.1/pilot/dual_7.events.gz",
+        "uncompressed_bytes": 10030110
+      },
+      {
+        "path": "Tiny_system_L3_extension_v0.1/pilot/dual_7.npz",
+        "uncompressed_bytes": 201830
+      },
+      {
+        "path": "Tiny_system_L3_extension_v0.1/pilot/weighted_residuals.npz",
+        "uncompressed_bytes": 695905
+      },
+      {
+        "path": "Tiny_system_L3_extension_v0.1/preserved_l2_reproduction/DYNAMICS_PROSE_RECONSTRUCTION.json",
+        "uncompressed_bytes": 2274
+      },
+      {
+        "path": "Tiny_system_L3_extension_v0.1/preserved_l2_reproduction/MANIFEST.json",
+        "uncompressed_bytes": 2837
+      },
+      {
+        "path": "Tiny_system_L3_extension_v0.1/preserved_l2_reproduction/TD_COS_FH_001_L2_companion_comparison.json",
+        "uncompressed_bytes": 2419
+      },
+      {
+        "path": "Tiny_system_L3_extension_v0.1/preserved_l2_reproduction/TD_COS_FH_001_L2_preproduction_receipt.md",
+        "uncompressed_bytes": 7697
+      },
+      {
+        "path": "Tiny_system_L3_extension_v0.1/preserved_l2_reproduction/TD_COS_FH_001_L2_run_results.json",
+        "uncompressed_bytes": 84171
+      },
+      {
+        "path": "Tiny_system_L3_extension_v0.1/preserved_l2_reproduction/TD_COS_FH_001_L2_samples.npz",
+        "uncompressed_bytes": 1516660
+      },
+      {
+        "path": "Tiny_system_L3_extension_v0.1/preserved_l2_reproduction/TD_COS_FH_001_L2_verification.json",
+        "uncompressed_bytes": 1217
+      },
+      {
+        "path": "Tiny_system_L3_extension_v0.1/preserved_l2_reproduction/make_td_report.py",
+        "uncompressed_bytes": 13443
+      },
+      {
+        "path": "Tiny_system_L3_extension_v0.1/preserved_l2_reproduction/td_cos_fh_001_sampler.py",
+        "uncompressed_bytes": 47134
+      },
+      {
+        "path": "Tiny_system_L3_extension_v0.1/preserved_l2_reproduction/verify_td_receipt.py",
+        "uncompressed_bytes": 5294
+      },
+      {
+        "path": "Tiny_system_L3_extension_v0.1/records/analyze_frozen_pre_correction.py",
+        "uncompressed_bytes": 6234
+      },
+      {
+        "path": "Tiny_system_L3_extension_v0.1/records/original_dual_pilot.py",
+        "uncompressed_bytes": 3138
+      },
+      {
+        "path": "Tiny_system_L3_extension_v0.1/records/original_run_pilot.py",
+        "uncompressed_bytes": 2236
+      },
+      {
+        "path": "Tiny_system_L3_extension_v0.1/recovery/dual_0.json",
+        "uncompressed_bytes": 92066
+      },
+      {
+        "path": "Tiny_system_L3_extension_v0.1/recovery/dual_1.json",
+        "uncompressed_bytes": 92014
+      },
+      {
+        "path": "Tiny_system_L3_extension_v0.1/recovery/dual_2.json",
+        "uncompressed_bytes": 92005
+      },
+      {
+        "path": "Tiny_system_L3_extension_v0.1/recovery/dual_3.json",
+        "uncompressed_bytes": 92034
+      },
+      {
+        "path": "Tiny_system_L3_extension_v0.1/recovery/dual_4.json",
+        "uncompressed_bytes": 91954
+      },
+      {
+        "path": "Tiny_system_L3_extension_v0.1/recovery/dual_5.json",
+        "uncompressed_bytes": 91989
+      },
+      {
+        "path": "Tiny_system_L3_extension_v0.1/recovery/dual_6.json",
+        "uncompressed_bytes": 91983
+      },
+      {
+        "path": "Tiny_system_L3_extension_v0.1/recovery/dual_7.json",
+        "uncompressed_bytes": 91908
+      },
+      {
+        "path": "Tiny_system_L3_extension_v0.1/reference.py",
+        "uncompressed_bytes": 4904
+      },
+      {
+        "path": "Tiny_system_L3_extension_v0.1/replay.py",
+        "uncompressed_bytes": 6274
+      },
+      {
+        "path": "Tiny_system_L3_extension_v0.1/reproduce.py",
+        "uncompressed_bytes": 1175
+      },
+      {
+        "path": "Tiny_system_L3_extension_v0.1/run_pilot.py",
+        "uncompressed_bytes": 2590
+      },
+      {
+        "path": "Tiny_system_L3_extension_v0.1/sources/TINY_SYSTEM_VALIDATION_v0.1.md",
+        "uncompressed_bytes": 11491
+      },
+      {
+        "path": "Tiny_system_L3_extension_v0.1/sources/TOROIDAL_DYNAMICS_v0.1.md",
+        "uncompressed_bytes": 14473
+      },
+      {
+        "path": "Tiny_system_L3_extension_v0.1/test_extension.py",
+        "uncompressed_bytes": 7447
+      },
+      {
+        "path": "Tiny_system_L3_extension_v0.1/PACKET_MANIFEST.json",
+        "uncompressed_bytes": 13851
+      }
+    ],
+    "exact_historical_authority_name_matches": [],
+    "scope": "ZIP member inventory and selected relevant source/manifest inspection; no simulation or blanket validation of archive claims.",
+    "l2_copy_checks": [
+      {
+        "path": "Tiny_system_L3_extension_v0.1/preserved_l2_reproduction/DYNAMICS_PROSE_RECONSTRUCTION.json",
+        "matches_original_reproduction_bytes": true
+      },
+      {
+        "path": "Tiny_system_L3_extension_v0.1/preserved_l2_reproduction/MANIFEST.json",
+        "matches_original_reproduction_bytes": true
+      },
+      {
+        "path": "Tiny_system_L3_extension_v0.1/preserved_l2_reproduction/TD_COS_FH_001_L2_companion_comparison.json",
+        "matches_original_reproduction_bytes": true
+      },
+      {
+        "path": "Tiny_system_L3_extension_v0.1/preserved_l2_reproduction/TD_COS_FH_001_L2_preproduction_receipt.md",
+        "matches_original_reproduction_bytes": true
+      },
+      {
+        "path": "Tiny_system_L3_extension_v0.1/preserved_l2_reproduction/TD_COS_FH_001_L2_run_results.json",
+        "matches_original_reproduction_bytes": true
+      },
+      {
+        "path": "Tiny_system_L3_extension_v0.1/preserved_l2_reproduction/TD_COS_FH_001_L2_samples.npz",
+        "matches_original_reproduction_bytes": true
+      },
+      {
+        "path": "Tiny_system_L3_extension_v0.1/preserved_l2_reproduction/TD_COS_FH_001_L2_verification.json",
+        "matches_original_reproduction_bytes": true
+      },
+      {
+        "path": "Tiny_system_L3_extension_v0.1/preserved_l2_reproduction/make_td_report.py",
+        "matches_original_reproduction_bytes": true
+      },
+      {
+        "path": "Tiny_system_L3_extension_v0.1/preserved_l2_reproduction/td_cos_fh_001_sampler.py",
+        "matches_original_reproduction_bytes": true
+      },
+      {
+        "path": "Tiny_system_L3_extension_v0.1/preserved_l2_reproduction/verify_td_receipt.py",
+        "matches_original_reproduction_bytes": true
+      }
+    ],
+    "disposition": "Preserves the separate reproduction lineage; not recovery of the original L2 validation companion."
+  }
+]

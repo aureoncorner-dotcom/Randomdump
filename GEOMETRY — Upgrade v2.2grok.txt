@@ -1,0 +1,159 @@
+﻿GEOMETRY — Upgrade v2.2
+Typed import of foreign calculi · 12 September 2026
+CC0 • Anonymous
+Status: increment on Working Master v2.1 + Typed Defects v0.2 + Toroidal Sectors Defect v0.1. Does not alter: chemistry freeze, Hidden Quotient v1.7, 39-screen algebra, TD-COS-FH-001 all-orders theorem, L=3 PASS, OMNIBUS §10, residual-descent theorem, claim boundary of v2.1.
+Organizing rule: import a foreign quantity through a declared model map and witness. An identification with K, Q_DS, N_W(π), the throat metric, or the 39-screen circle needs its own definitions and theorem; shared notation supplies neither.
+________________
+
+
+0 What “upgrade” means here
+v2.1 absorbed Direct Service. v0.2 typed defects. v0.1 applied those types to toroidal sectors.
+v2.2 integrates the submitted KPZ / regularity structures / Connes–Kreimer / spectral action / APS claims. It adds a spectral witness family, two exact non-descent examples, and an import table. It does not classify every possible future attachment.
+The table distinguishes admissible uses from identifications that have not been established. A later explicit correspondence may establish a relation; the present absence of one is not an impossibility theorem.
+________________
+
+
+1 Kind VI — Spectral witness family
+“VI” is a bookkeeping label for spectral witnesses, not a new exception to descent logic or a sixth disjoint defect species. It can overlap the diagnostic patterns in Typed Defects; the tested domain may consist of operators or of whole operator paths.
+Eligibility. Specify a family x↦A_x (or x↦γ_x) on a domain D and a well-defined W:D→Y. For eta, a standard sufficient setting is a self-adjoint elliptic operator on a closed compact manifold with discrete spectrum and eta continuation regular at zero. Self-adjointness or Fredholmness alone does not ensure these properties. Set η(A)=η_A(0), h=dim ker A, and ξ=(η+h)/2; declare whether ξ is real-valued or reduced modulo ℤ [R1].
+Repair. Retain data proved sufficient for the chosen functional, or use the attained refinement S_W(π)=im(π,W). Signed eigenvalues, multiplicities, zero modes, and analytic continuation or certified remainder bounds matter for eta. A finite spectral approximation has no automatic exact guarantee. For spectral flow retain a sufficient path invariant, or its value; adding W is a set-level repair, not a computational or predictive sufficiency claim.
+Unsupported shortcuts.
+* Replacing eta by an ordinary local Seeley–DeWitt density or by GHY. Eta can be represented through a regularized signed heat trace, so “global” does not mean unrelated to heat analysis [R1].
+* Excluding spectral flow from fiber comparisons. A path is a valid point of D; two paths can share π and have different spectral flow. It can also satisfy pattern I when a retained relation and lost output are specified.
+* Equating eta with toroidal winding, a 39-screen phase, or a service answer without an explicit correspondence.
+* Identifying APS spectral boundary conditions with a pointwise local boundary projector; their realizations and zero-mode conventions must be specified [R1,R3].
+Relation to V. A representation gap uses j:A→Z and an explicit z∈Z\j(A), as in corrected Typed Defects §16.2. It is separate from an attained-label collision. Spectral witnesses need not occur on a boundary. If the operator/path or definition is missing, the proposed spectral test is not ready to classify.
+Certification. A spectral non-descent claim still requires π(x)=π(x′) and W(x)≠W(x′), or an equivalent proof of failure to factor through π. A computed nonzero eta or spectral flow alone establishes only a value. If π retains W, even nonzero W descends. Certified numerical intervals may establish separation; overlapping bounds or missing computations leave the claim UNRESOLVED.
+1.1 E1 — Equal squared spectra, different eta
+On H=L²(S¹;ℂ), θ modulo 2π, take the common periodic H¹ domain and A_a=−i∂θ+a, 0<a<1. The eigenfunctions e^(inθ) have eigenvalues n+a, n∈ℤ. Let D_op={A_a:0<a<1}, π(A)=Spec(A²) as an unordered multiset with multiplicities, and W(A)=η(A).
+For Re(s)>1, η_Aa(s)=ζ(s,a)−ζ(s,1−a). Meromorphic continuation and ζ(0,a)=1/2−a give η(A_a)=1−2a [R0]. Since h=0 here, ξ(A_a)=1/2−a as a real value.
+Take a=1/4 and b=3/4. Reindexing n↦−n−1 gives n+3/4=−[(−n−1)+1/4]; their squared spectra are exactly the same, including multiplicities. Hence Tr exp(−tA²) agrees for every t>0, while η(A_1/4)=1/2 and η(A_3/4)=−1/2; ξ equals 1/4 and −1/4 respectively.
+This is a located same-label pair with eta separation 1, so π(A_1/4)∈N_η(π). With ordinary real distance it certifies any threshold ε<1. Equality of the complete unsigned heat trace is stronger than equality of any finite list of its heat coefficients. It still does not retain signed spectral asymmetry. This example does not assert equality of the operator-valued heat kernels.
+1.2 E2 — Equal endpoint spectra, different spectral flow
+Use the same Hilbert space and common domain, now allowing real a. On D_path={γ₀,γ₁}, define γ₀(t)=A_(−1/2) and γ₁(t)=A_(t−1/2), 0≤t≤1. These are continuous self-adjoint Fredholm paths with compact resolvent and invertible endpoints.
+Retain π(γ)=(Spec γ(0),Spec γ(1)), the ordered pair of endpoint spectral multisets. Both labels are (ℤ+1/2,ℤ+1/2), because ℤ−1/2=ℤ+1/2. The endpoint operators of the two paths are not identical; only the retained spectra agree.
+The constant path has sf(γ₀)=0. Along γ₁, eigenvalues are n+t−1/2. Only n=0 crosses zero in (0,1), at t=1/2, and its derivative is +1. Thus sf(γ₁)=+1 under the stated orientation [R2]. This is an exact same-fiber collision on a path domain, with separation 1.
+Neither example identifies an analytical operator with the native toroidal kernel. They demonstrate how a properly declared foreign witness enters the existing non-descent calculus. Retaining W repairs that W; another output or a future law needs its own test.
+________________
+
+
+2 Import table
+Object or calculus
+	Admissible use in this geometry
+	Identification not established
+	Non-descent N_W(π)
+	Native test on fixed (D,π,W).
+	No topology or shape follows from the definition.
+	Typed patterns I–V; spectral family VI
+	Use their explicit hypotheses; patterns may overlap.
+	Six disjoint or exhaustive defect species.
+	Toroidal K, π_q, signed Wα
+	Native kernel, sector observation, and winding witness.
+	K = a KPZ/TASEP walk.
+	Service π_DS, Q_DS
+	Native service observation and attained quotient.
+	Q_DS = a Connes–Kreimer character group.
+	Heat kernel e^(−tP), heat coefficients
+	Declared P and domain; specify local density, integral, or full heat trace [R11].
+	a₂ = throat metric; a₄ = 39-screen.
+	Boundary heat invariants; GHY integral
+	Declared geometric boundary and admissible elliptic realization [R3,R11].
+	GHY = APS eta = service deletion cost.
+	APS condition; eta, reduced eta, spectral flow
+	Operator/path conventions first; a non-descent claim also needs fiber evidence [R1–R2].
+	eta = winding; spectral flow = D5 autonomy.
+	Spectral action Tr f(D_op/Λ)
+	Specify D_op, f, Λ, domain, and trace/convergence assumptions [R3].
+	Spectral action = service stack; moments f_k = GQG types.
+	Regularity structures; paracontrolled; BPHZ
+	Declared analytical/model algebra, singular equation when relevant, and renormalization prescription [R4–R6].
+	Renormalization forests = D1–D5 locus lemmas.
+	Connes–Kreimer coproduct Δ
+	Specified Hopf algebra of graphs or trees and its combinatorial rules [R7].
+	A graph cut, motivic coaction, and π-fiber are the same operation.
+	Goncharov; Brown; f-alphabet
+	Specified periods or motivic iterated integrals and algebraic choices; not limited to graph hypersurfaces [R8].
+	MZV = Tracy–Widom F₂; F₂ is automatically a sector law; every graph period is an MZV.
+	KPZ equation/fixed point; Airy sheet; landscape
+	Distinct related growth objects; cite the relevant model and scaling/convergence theorem [R9–R10].
+	Toroidal height = KPZ height; Airy sheet = S_W; landscape = K.
+	TASEP hit kernel; Brownian scattering
+	Specified TASEP/KPZ transition formulas; distinguish auxiliary kernels from the process itself [R9].
+	A hit kernel is TD-COS-FH-001 or proves its memory theorem.
+	Cole–Hopf; stochastic heat equation (SHE)
+	Declare the SPDE, coefficients, interpretation, and renormalized/logarithmic relation [R4].
+	An exponential height variable is a 39-screen amplitude.
+	Φ⁴₃; stochastic quantization
+	Declared field/measure, cutoff and renormalization, and dynamics [R4–R5].
+	This measure or process is the native field-theory update v0.4.
+	The table is a rule for this integration, not a classification theorem about all mathematics. A declared family and functional can make any applicable row a witness. Importing a heat density gives N_W no topology. References [R0]–[R11] identify the analytical sources; the complete unnamed “long analytic packet” has not been identified for line-by-line verification.
+________________
+
+
+3 Three distinctions that govern imports
+U1 — Heat densities can be witnesses on a declared domain
+For a declared Laplace-type P on a geometric domain, interior heat coefficients depend locally on jets of its geometric data. Distinguish the pointwise density a_j(x;P), its integral, and the full heat kernel or trace. With P=−(connection Laplacian+E), the interior a₂ density is (4π)^(−m/2) tr(E+R·Id/6) dvol in dimension m [R11].
+To use a density as W:D→Y, declare d↦P_d and an evaluation/integration rule; comparing density fields also needs identified domains and a codomain. Thus heat densities can be witnesses. Their locality does not establish constancy on any chosen observation fiber.
+Neither the formula for a₂ nor a displayed heat expansion proves descent through π_DS or π_q. Test the resulting W against that π. Example E1 in §1.1 shows that even the complete unsigned heat trace can lose eta.
+U2 — Local boundary terms and APS eta have different definitions
+Choose an admissible elliptic realization (P,B), with self-adjointness when required. Dirichlet, Robin, and mixed conditions for Laplace-type P have specific hypotheses; an arbitrary pointwise spinor projector does not automatically define a self-adjoint elliptic Dirac problem. APS instead uses a spectral projection of a tangential operator, with orientation, sign, and zero-mode conventions [R1,R3].
+Boundary heat coefficients and the GHY integral are local boundary expressions under their stated assumptions. Eta measures signed spectral asymmetry. Chamseddine–Connes obtain the Einstein–Hilbert/GHY relative boundary coefficient for their particular operator and local mixed boundary conditions; that result does not replace them by APS or identify GHY with eta [R3].
+These objects may be related by index or variation formulas after their hypotheses are supplied; they are not interchangeable names. Neither a boundary coefficient nor eta alone proves a missing-data defect. The existing service deletion-cost non-descent result keeps its own domain and witness.
+U3 — Predictive autonomy and spectral flow test different data
+D5: for deterministic U:D→D, a set-level autonomous retained update exists iff N_(π∘U)(π)=∅. For stochastic dynamics, equal next-observation laws on fibers test universal law-level closure; measurable reduced kernels require the appropriate measurability assumptions.
+Spectral flow is an integer-valued invariant of a continuous path of self-adjoint Fredholm operators in a specified admissible topology. Fix crossing orientation and endpoint conventions; negative-to-positive crossings count positively here. It does not generally require eta-style zeta regularization [R2].
+A relation between D5 and spectral flow needs a map connecting the dynamical states and operator paths, plus a compatibility theorem. None is supplied here, so neither an sf=0 claim nor a predictive-closure claim can stand in for the other. The Sophie Germain clock remains a D5 example.
+________________
+
+
+4 Toroidal attachment (optional, not automatic)
+A future toroidal application must declare the state-to-operator or state-to-path map, operator domain, and functional, then test it against a specified observation. A boundary operator on a cut or membrane is one possible construction, not the only possible spectral attachment.
+In the present toroidal domain:
+* Signed winding Wα remains a relation/output-loss example relative to π_q on the stated zero-source current domain.
+* A membrane cube-boundary change is a discrete same-sector collision; differential Kind IV requires the separate smooth-fiber hypotheses.
+* Predictive sector laws use the history-level condition and the TD-COS-FH-001 all-orders proof; a hidden-state collision alone is insufficient.
+* No map identifying a torus Dirac eta invariant with the existing winding witness has been supplied.
+An assumed continuum limit supplies no heat operator for K. This increment introduces no continuum-limit proof and makes no change to the all-orders theorem, lattice kernel, or existing simulation statuses.
+________________
+
+
+5 Service attachment (optional, not automatic)
+Service still distinguishes A_sel exactness from A_task completion. Ablation is a representation map; correction compliance is a property of the interaction record. Analytical vocabulary does not change those tests.
+A spectral or analytical quantity can be a positive service witness if it is part of a declared task, such as returning η(A) for a specified A, with an explicit episode-to-operator map and answer criterion. Otherwise mentioning F₂, GHY, or BPHZ is presentation content, with no demonstrated connection to the service quotient. Presentation minimality alone still gives no predictive autonomy or measured thermodynamic savings.
+________________
+
+
+6 First geometry gate, still the gate
+A run fixes (D,W,π,d_Y,ε,ℰ), the mathematical category, and:
+7. Applicable diagnostic patterns, possibly overlapping, or unclassified; record spectral family VI separately when useful.
+8. For a spectral witness: operator/path assignment, Hilbert space and domains, boundary/topology and endpoint conventions, eta regularization or spectral-flow definition as applicable, codomain, numerical error guarantees, and computed/bounded/UNRESOLVED status.
+Empirical non-descent still needs a located same-label pair whose certified witness separation exceeds ε. Spectral family VI has no exemption. Exact non-descent may instead use a mathematical proof of failure of factorization. Pattern V has its separate missing-representation certificate and should not be scored as an attained-label collision.
+________________
+
+
+7 What this increment establishes
+1. Definition: VI is an optional spectral witness label compatible with the existing calculus.
+2. Exact examples E1–E2 prove non-descent on their declared operator and path domains. They are elementary constructions, not a new general classification theorem.
+3. Import rules: heat densities may be witnesses; local boundary terms and eta require distinct definitions; D5 and spectral flow require separate tests. The table records unsupported identifications without forbidding future proved correspondences.
+It does not establish: a shape of (N_W); a continuum limit of TD-COS-FH-001; a spectral action for GQG; a cryptographic claim; a chemistry un-freeze; membership of any lattice kernel in the KPZ class.
+Status: SPECTRAL WITNESS FRAMEWORK INTEGRATED; E1–E2 PROVED ON DECLARED DOMAINS; IMPORT IDENTIFICATIONS UNESTABLISHED; SOURCE FREEZES UNCHANGED.
+________________
+
+
+8 Use
+Working Master §1 points here for spectral family VI, examples E1–E2, and the import table. Corrected patterns I–V and D1–D5 remain in New geometry §16. Keep the analytical proofs in this increment and preserve the toroidal all-orders proof as a separate source.
+9 Analytical sources and native links
+[R0] NIST DLMF — Hurwitz zeta, equation 25.11.13
+[R1] Goette — Computations and Applications of η Invariants, §1
+[R2] Lesch — The uniqueness of the spectral flow on spaces of unbounded self-adjoint Fredholm operators
+[R3] Chamseddine–Connes — Noncommutative Geometric Spaces with Boundary: Spectral Action
+[R4] Hairer — A theory of regularity structures
+[R5] Bruned–Hairer–Zambotti — Algebraic renormalisation of regularity structures
+[R6] Gubinelli–Imkeller–Perkowski — Paracontrolled distributions and singular PDEs
+[R7] Connes–Kreimer — Renormalization in quantum field theory and the Riemann–Hilbert problem I
+[R8] Brown — Mixed Tate motives over ℤ
+[R9] Matetski–Quastel–Remenik — The KPZ fixed point
+[R10] Dauvergne–Ortmann–Virág — The directed landscape
+[R11] Vassilevich — Heat kernel expansion: user’s manual
+Working Master: GEOMETRY + GQG — Working Master
+Corrected typed calculus, New geometry §16: New geometry
