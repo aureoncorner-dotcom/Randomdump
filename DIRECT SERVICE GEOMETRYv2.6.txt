@@ -590,3 +590,13 @@ CC0 · No rights reserved.
 
 
 I think that is the thing to put out. It is not another indictment and it is not another evidence dump. It is a result: the geometry finally tells us what the behavioral archive proves, what information the clean route preserves, what it destroys, and exactly where attribution remains open.
+
+---
+
+### Geometric comparison — equal retained endpoints and omitted paths
+
+Two surfaces can share endpoint measurements while differing in interior geometry. For G_w(x,0;0)=20[(1−w)x²+w x⁴], both endpoint heights equal 20 for all w, while the interior value at x=1/2 is 5−15w/4. This is an exact mathematical analogue of retaining an answer while omitting distinctions needed for another witness; it is not new behavioral evidence.
+
+If the target is an interior or path-dependent quantity, specify an available measurement that distinguishes it. Retaining the target by definition is a post-answer factorization, not an acquisition policy. A complete sampled path still needs units, clock, eligibility and coverage for a quantitative claim. Smooth presentation, exact copied text and a small visible residual do not establish process stability or global task completion. Existing selected-text ablation and compliance counts retain their separate status.
+
+Current online reference: [DIRECT SERVICE GEOMETRYv2.6](https://docs.google.com/document/d/1vVy2Bk01klLgyfVDkOoxdOddlXEc02wIydAofFY59Bc/edit).

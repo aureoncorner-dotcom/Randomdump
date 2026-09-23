@@ -429,3 +429,29 @@ Local starting source: GEOMETRY_Working_Master_v2.3.md, supplied by the user. Th
 
 
 [^v26-selector]: Constant-ratio example only: on all eight triples of bits (s,a,b), with q constant, primitives s,a,b, and W=a when s=0 and W=b when s=1, every sufficient batch needs all three coordinates. Reading s and then the selected data bit has optimal worst-case cost two. Its ratio is 3/2; the threshold family provides the unbounded gap.
+
+---
+
+### 7.1 Geometric recovery, conditioning, and global validity
+
+The gear calculations supply explicit mathematical examples for three distinct questions: whether a witness is determined by the retained data; how errors in those data affect the answer; and whether a local construction remains valid on its whole declared domain. The set-level descent theorem answers the first question. Quantitative regularity and global geometry answer the others. These are additions to the present models, not a claim of new priority in the mathematical literature.
+
+**A measured-profile collision and a usable repair.** On C=[−1,1]², let G_w(x,y;t)=20[(1−w)x²+w x⁴]+10y²+tx, with w∈[0,1], normalized x,y, and gap coefficients in micrometres. For the family parameter w, retain π(w)=(G_w(−1,0;0),G_w(1,0;0))=(20,20). The witness A(w)=area{G_w(x,y;0)≤2} differs: A(0)=0.4442882938 and A(1)=0.8792167529 in normalized projected-area units. Hence A does not descend through these endpoint measurements. At the known tilt t=4, the minimum also differs: x*(0)=−0.1, x*(1)=−0.3684031499.
+
+An admissible interior measurement m=G_w(1/2,0;0)=5−(15/4)w identifies this specified one-parameter family: w=(4/15)(5−m). If its additive error is bounded by ε, the clipped estimate has |ŵ−w|≤4ε/15; the compatible parameter interval has diameter at most min(1,8ε/15). The repair assumes this family, known calibration and a present measurement. It is not a reconstruction theorem for arbitrary surfaces or permission to use a future witness as an input.
+
+**Exact recovery need not be Lipschitz.** For the quartic member and |t|<80, x*(t)=−cuberoot(t/80). It is unique and exactly determined, but |x*(t)−x*(0)|/|t|=80^(−1/3)|t|^(−2/3) diverges. Thus empty non-descent locus does not imply bounded incremental sensitivity. For the quadratic member, x*=−t/40 while the minimum is interior. Total movement from a baseline and the local derivative are different witnesses.
+
+**A sufficient stability condition, including active boundaries.** Let C⊂R^d be nonempty, compact and convex, and f be differentiable on a neighborhood of C and μ-strongly convex on C, μ>0. Put x_ℓ=argmin_C[f(x)+ℓ·x]. The variational inequalities at x_ℓ and x_m, added together, and strong monotonicity of ∇f give μ||x_ℓ−x_m||²≤(m−ℓ)·(x_ℓ−x_m). Therefore ||x_ℓ−x_m||≤||ℓ−m||/μ. Boundary minima are included; replacing this constrained result by −H⁻¹ℓ is valid only when that unconstrained point is feasible. For G_w, μ=min(40(1−w),20) for 0≤w<1 in the declared normalized Euclidean coordinates.
+
+**Uniform surface error controls normalized gap regions.** Let f,g be continuous on the same nonempty compact domain C and ||f−g||∞≤ε. Their minima m_f,m_g obey |m_f−m_g|≤ε, so ||(f−m_f)−(g−m_g)||∞≤2ε. With Ω_f(δ)={x∈C:f(x)−m_f≤δ} and negative-threshold sets empty, Ω_f(δ−2ε)⊆Ω_g(δ)⊆Ω_f(δ+2ε). This is a set enclosure, not equality of areas or a pressure law. If f is also μ-strongly convex on convex C, any minimizer x_g obeys ||x_g−x_f||≤2√(ε/μ): f(x_g)≤f(x_f)+2ε, while constrained strong convexity gives f(x_g)≥f(x_f)+(μ/2)||x_g−x_f||².
+
+**A trace or first jet does not determine a surface.** f(u,v)=u²+v² and g(u,v)=u²+2v² have equal values and equal gradients along v=0, but transverse second derivatives 2 and 4. On R² their unit sublevel areas are π and π/√2. More generally, finitely many sampled finite jets cannot identify an arbitrary smooth surface: a smooth bump supported in an unsampled open region preserves those jets. A declared finite-dimensional model, coverage argument or global bound is needed.
+
+**From samples to a global bound.** On a compact metric domain, if a signed violation function v is L-Lipschitz and sample points form an h-net, then sup_C v≤max_i v(x_i)+Lh, by taking a sample within h of each x. Thus max_i v(x_i)+Lh≤0 certifies v≤0 everywhere. The metric, domain coverage and valid global L are premises, not consequences of seeing a dense-looking grid. Without them, report a finite sample check. Local envelope tangency additionally needs regularity, trimming, finite end caps and a global non-interference argument.
+
+**Units and representation.** If normalized coordinates map to physical millimetres by X=D x, D=diag(a_x,a_y), and gap heights are recorded in micrometres, the physical gap Hessian is H_phys=10^(−3)D^(−T)H D^(−1), in mm^(−1). Projected physical area is a_x a_y times normalized area. At tangent contact in orthonormal physical coordinates the gap Hessian describes relative curvature; an arbitrary chart needs its metric. Under an invertible affine spatial map A, normal covectors transform by A^(−T), followed by normalization. Shape equality without the coordinate map does not establish equal physical curvature.
+
+**Verification and scope.** The gear audit had 61 exact symbolic checks. The present extension adds 20 exact identities, 1,640 constrained tilt-stability cases and 1,230 bounded surface-perturbation cases. The written arguments supply the general conclusions; these finite computations check their specified examples. No chemistry, behavior, sampler replay, physical Q2, or temporal outcome was tested by these calculations.
+
+Current online reference: [GEOMETRY — Working Master v2.6](https://docs.google.com/document/d/1S-mqz0aK_vCnmZiRVDPAr7rzTBgfoVuDDEyXEgHmkAk/edit).

@@ -160,3 +160,15 @@ Append the following types:
 - D1 phase/context augmentation after a descent counterexample: `AUGMENTED_STATE_CLOSURE` only after an explicit map is constructed.
 - rotating two-clock catch model: `FORMAL_PROPOSAL_ONLY` until prospectively run.
 - any claim that a system or platform uses these states: `EMPIRICAL_INSTANTIATION` required.
+
+---
+
+## Geometric supplement: exact quotient, conditioning and global scope
+
+The checked gear examples fit the formal/chart namespace without changing the empirical instrument. Endpoint data for G_w(x,0;0)=20[(1−w)x²+w x⁴] are (20,20) for all w∈[0,1], while the interior measurement G_w(1/2,0;0)=5−15w/4 reconstructs w. A quotient is adequate only for its declared witness; this repair depends on the specified model and a permitted present observation.
+
+Exact factorization or a driven cocycle identity does not supply a Lipschitz estimate, a physically calibrated norm, an autonomous residual-only update, or a global boundary certificate. The unique quartic minimum −cuberoot(t/80) is not Lipschitz at zero. For an L-Lipschitz signed violation on a compact metric domain covered by an h-net, sup v≤max v_i+Lh; without the global L and coverage premise the result is only sampled. Under uniform gap error ε, minimum-normalized sublevel sets are enclosed at thresholds δ±2ε.
+
+For an orbit path b(q(t)), ḃ=b′q̇ and b̈=b″q̇²+b′q̈: the orbit image alone does not determine its clock or event rate. The driving state and concatenation law required for DRIVEN_COCYCLE remain explicit, and AUGMENTED_STATE_CLOSURE still requires its constructed update on its declared domain. Formal examples transfer only the claims actually proved, not a hidden architecture, empirical response result or physical interpretation.
+
+Proofs and checks: [Geometry transfer](C:/Users/drewd/Documents/Codex/2026-09-16/com/outputs/Geometry_Transfer_Proofs.md).

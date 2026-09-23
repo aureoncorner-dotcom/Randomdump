@@ -150,3 +150,11 @@ These identify the delivered bytes and do not validate source mathematics or emp
 | UBT_v2.1.pdf | `f19f7bd3512d6c60478924885238366c21a66411d09ebe5e30f2b421349d6957` |
 | Phase_Lock_v2.1.md | `655c5e6e849b2965a6154897fd9a4ac646d91c9838cfee03576e72abc56b9405` |
 | UPRR_v3.1.md | `ca2abea9241152d2e3eccfaa87d1c08af4f9db11b42a2e72fef6eb80510c7455` |
+
+---
+
+## Subsequent gear geometry integration
+
+The current online gear document and twenty GEOMETRY/GQG masters and related documents have received targeted mathematical additions. The earlier dated review above remains a historical record. The receiving additions distinguish exact witness recovery, quantitative conditioning, and complete-domain geometric validity; they preserve existing behavioral, physics and replay evidence labels.
+
+The new execution covers 20 exact algebra identities and 2,870 numerical stability cases, in addition to the earlier 61 symbolic gear checks. The full current document list, preservation results, local-copy changes and numerical receipts are in [Geometry_Update_Index.md](C:/Users/drewd/Documents/Codex/2026-09-16/com/outputs/Geometry_Update_Index.md).

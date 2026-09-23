@@ -274,3 +274,13 @@ DO NOT MAKE A QUOTIENT DO A WITNESS'S JOB.
 ```
 v2.1 is an append-only successor. It does not rewrite the 39-screen, the Hidden Quotient faces, toroidal winding, or OMNIBUS §10. It gives the service layer exact lemmas and stops them from eating the rest of the geometry.
 CC0 — No rights reserved
+
+---
+
+### Quantitative geometry integration — witnesses and error bounds
+
+The current gear example gives endpoint observations π(w)=(20,20) for every w∈[0,1] in G_w=20[(1−w)x²+w x⁴]+10y²+tx. The interior shape and near-gap area differ. The present interior measurement G_w(1/2,0;0)=5−15w/4 repairs the specified family, subject to calibration and acquisition cost. It illustrates available-coordinate repair without inserting the desired future answer into a pre-answer record.
+
+Exact factorization alone does not establish stable response: the unique quartic minimum −cuberoot(t/80) is not Lipschitz at t=0. For a μ-strongly convex objective on a fixed compact convex domain, linear-tilt minimizers obey ||Δx*||≤||Δℓ||/μ. Error, units, coverage and global boundaries must be supplied for the chosen witness. No geometric calculation turns selected-text preservation into validated task completeness or proves reduced internal work. The source event counts and behavioral qualifications remain historical evidence.
+
+Current online reference: [GEOMETRY — Working Master v2.6](https://docs.google.com/document/d/16Xnuf6fwVZqLQzA4cVwSChKQj0_GFTg0AUbQKP9o_yI/edit).

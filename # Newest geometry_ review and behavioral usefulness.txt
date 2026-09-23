@@ -192,3 +192,15 @@ The table records inspected scope rather than implying a full proof audit of eve
 
 
 The two raw Markdown masters were retrieved through Drive with their file identities and MIME types. Their historical readings were not treated as instructions. The ablation counts in the service documents remain attributed to those reports: a targeted Drive search did not locate the named AP-001 file itself. The prior Python release report and local release-check JSON were inspected as reported results; their 29 tests and 5,523 finite cases were not rerun or pooled with the twelve fresh check groups above.
+
+---
+
+### Gear-to-geometry integration — mathematical results now executed
+
+The gear audit supplies explicit examples that improve the current geometry documents: equal endpoint observations can lose an interior-area witness; a present interior measurement repairs a specified one-parameter family; a unique quartic minimizer can fail Lipschitz stability; and local tangency does not settle finite boundaries or global interference.
+
+The added quantitative statements are ||Δx*||≤||Δℓ||/μ for a μ-strongly convex objective on a fixed compact convex domain, Ω_f(δ−2ε)⊆Ω_g(δ)⊆Ω_f(δ+2ε) under uniform height error ε, and sup v≤max v_i+Lh for an L-Lipschitz violation sampled by an h-net. Each premise is recorded with the claim.
+
+This integration ran 20 additional exact algebra identities, 1,640 constrained tilt cases and 1,230 bounded surface-perturbation cases. It supplements the previous 61 symbolic gear checks. The new evidence concerns those mathematical models only. Behavioral counts, incomplete provenance, source freezes, the sampler discrepancy and physical or temporal NOT_RUN labels have not been converted into passes.
+
+Current online reference: [# Newest geometry: review and behavioral usefulness](https://docs.google.com/document/d/1qsSMjqqpTTTk9s9TWwY_CwEfFbp8BPC316rEr-meYtg/edit).

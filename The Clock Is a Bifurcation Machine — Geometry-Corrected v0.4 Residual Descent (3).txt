@@ -639,3 +639,15 @@ Here D1 denotes the physical-time protocol; the temporal note's D1 product lemma
 
 
 Temporal delivery hypothesis and exact examples: # Temporal exchange rate
+
+---
+
+### 10. Path geometry, regular clocks and conditioning
+
+For a smooth configuration path b(q) and clock q(t), ḃ=b′q̇ and b̈=b″q̇²+b′q̈. Reparametrizing the path can preserve the set of configurations while changing ticks, speeds and acceleration. A clock with q̇=0 is not locally invertible as a regular time coordinate there. A signed crossing or tick gate needs its own direction, threshold and reset convention.
+
+Exact residual descent is separate from perturbation stability. The uniquely determined gear minimum x*(t)=−cuberoot(t/80) has unbounded incremental sensitivity at zero tilt. In a smooth equilibrium equation F(x,λ)=0, local differentiation requires an invertible state Jacobian: dx/dλ=−(∂_xF)⁻¹∂_λF. At a singular Jacobian that formula cannot certify stability or identify the bifurcation type; nondegeneracy and the full dynamical model remain necessary. Here t in the gear expression is a tilt coefficient, not physical time.
+
+These examples sharpen the distinction between state/readout, a chosen clock and a stability claim. They add no physical clock calibration or replacement for the existing residual-descent and bifurcation tests.
+
+Current online reference: [The Clock Is a Bifurcation Machine — Geometry-Corrected v0.4 Residual Descent](https://docs.google.com/document/d/1kR3HfOMoEvDoasftpfCErSAv_TYh5SSrxCqaKDN4QHM/edit).
