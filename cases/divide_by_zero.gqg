@@ -1,0 +1,11 @@
+category Set
+source P
+carrier P {
+ elements 0 1
+}
+witness W on P {
+ observation Omega : P -> Y
+ eval x |-> x // 0
+}
+equivalence R := kernel_pair(Omega)
+quotient Q := P / R

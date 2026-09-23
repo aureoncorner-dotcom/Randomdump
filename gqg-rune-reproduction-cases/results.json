@@ -1,0 +1,677 @@
+{
+  "integrity": {
+    "testzip": null,
+    "entries": 36,
+    "files": 32
+  },
+  "examples": {
+    "bad_algker_in_set.gqg": {
+      "verdict": "=== GQG Rune v0.2  REJECT ===",
+      "errors": [
+        {
+          "code": "E110",
+          "message": "Algebraic kernel rune used in ambient `Set`."
+        }
+      ],
+      "warnings": [],
+      "statuses": [
+        {
+          "kind": "QUO",
+          "name": "Q",
+          "status": "established"
+        }
+      ],
+      "svg": false
+    },
+    "finite_bad_pair.gqg": {
+      "verdict": "=== GQG Rune v0.2  REJECT ===",
+      "errors": [
+        {
+          "code": "E614",
+          "message": "pair `nope`: 0 ≁ 1 under `Omega2` (0 ≠ 1)."
+        }
+      ],
+      "warnings": [],
+      "statuses": [
+        {
+          "kind": "QUO",
+          "name": "Q2",
+          "status": "established"
+        },
+        {
+          "kind": "PAIR",
+          "name": "nope",
+          "status": "rejected"
+        }
+      ],
+      "svg": true
+    },
+    "finite_floor_fail.gqg": {
+      "verdict": "=== GQG Rune v0.2  FINDING ===",
+      "errors": [
+        {
+          "code": "E204",
+          "message": "Operation `floor_half` fails to descend on the carrier."
+        }
+      ],
+      "warnings": [],
+      "statuses": [
+        {
+          "kind": "QUO",
+          "name": "Q2",
+          "status": "established"
+        },
+        {
+          "kind": "DSC",
+          "name": "dsc_floor_half_Q2",
+          "status": "counterexample"
+        },
+        {
+          "kind": "PAIR",
+          "name": "collide",
+          "status": "established"
+        }
+      ],
+      "svg": true
+    },
+    "finite_incomparable.gqg": {
+      "verdict": "=== GQG Rune v0.2  REJECT ===",
+      "errors": [
+        {
+          "code": "E407",
+          "message": "Refinement `guess` fails on carrier: 0 ~_Omega2 2 but 0 ≠ 2 under `Omega3`."
+        }
+      ],
+      "warnings": [],
+      "statuses": [
+        {
+          "kind": "QUO",
+          "name": "Q2",
+          "status": "established"
+        },
+        {
+          "kind": "QUO",
+          "name": "Q3",
+          "status": "established"
+        },
+        {
+          "kind": "REF",
+          "name": "guess",
+          "status": "rejected"
+        }
+      ],
+      "svg": true
+    },
+    "finite_locus_sector.gqg": {
+      "verdict": "=== GQG Rune v0.2  FINDING ===",
+      "errors": [
+        {
+          "code": "E621",
+          "message": "N_W(q) nonempty on carrier (2 labels)."
+        }
+      ],
+      "warnings": [],
+      "statuses": [
+        {
+          "kind": "QUO",
+          "name": "Q_W",
+          "status": "established"
+        },
+        {
+          "kind": "QUO",
+          "name": "Q_q",
+          "status": "established"
+        },
+        {
+          "kind": "REF",
+          "name": "parity",
+          "status": "tested_only"
+        },
+        {
+          "kind": "LOC",
+          "name": "N_W_q",
+          "status": "counterexample"
+        },
+        {
+          "kind": "LOC",
+          "name": "N_q_W",
+          "status": "tested_only"
+        }
+      ],
+      "svg": true
+    },
+    "finite_parity_add.gqg": {
+      "verdict": "=== GQG Rune v0.2  ACCEPT ===",
+      "errors": [],
+      "warnings": [],
+      "statuses": [
+        {
+          "kind": "QUO",
+          "name": "Q2",
+          "status": "established"
+        },
+        {
+          "kind": "ASN",
+          "name": "canonical_iso",
+          "status": "established"
+        },
+        {
+          "kind": "DSC",
+          "name": "dsc_add_Q2",
+          "status": "tested_only"
+        },
+        {
+          "kind": "PAIR",
+          "name": "even",
+          "status": "established"
+        },
+        {
+          "kind": "PAIR",
+          "name": "odd",
+          "status": "established"
+        }
+      ],
+      "svg": true
+    },
+    "finite_refine.gqg": {
+      "verdict": "=== GQG Rune v0.2  ACCEPT ===",
+      "errors": [],
+      "warnings": [],
+      "statuses": [
+        {
+          "kind": "QUO",
+          "name": "Q4",
+          "status": "established"
+        },
+        {
+          "kind": "QUO",
+          "name": "Q2",
+          "status": "established"
+        },
+        {
+          "kind": "REF",
+          "name": "split",
+          "status": "tested_only"
+        }
+      ],
+      "svg": true
+    },
+    "finite_refine_reversed.gqg": {
+      "verdict": "=== GQG Rune v0.2  REJECT ===",
+      "errors": [
+        {
+          "code": "E407",
+          "message": "Refinement `backwards` fails on carrier: 0 ~_Omega2 2 but 0 ≠ 2 under `Omega4`."
+        }
+      ],
+      "warnings": [],
+      "statuses": [
+        {
+          "kind": "QUO",
+          "name": "Q4",
+          "status": "established"
+        },
+        {
+          "kind": "QUO",
+          "name": "Q2",
+          "status": "established"
+        },
+        {
+          "kind": "REF",
+          "name": "backwards",
+          "status": "rejected"
+        }
+      ],
+      "svg": true
+    },
+    "finite_service.gqg": {
+      "verdict": "=== GQG Rune v0.2  FINDING ===",
+      "errors": [
+        {
+          "code": "E621",
+          "message": "N_C(pi_DS) nonempty on carrier (1 labels)."
+        }
+      ],
+      "warnings": [],
+      "statuses": [
+        {
+          "kind": "QUO",
+          "name": "Q_DS",
+          "status": "established"
+        },
+        {
+          "kind": "LOC",
+          "name": "N_C_pi_DS",
+          "status": "counterexample"
+        },
+        {
+          "kind": "PAIR",
+          "name": "same_answer",
+          "status": "established"
+        }
+      ],
+      "svg": true
+    },
+    "hidden_quotient.gqg": {
+      "verdict": "=== GQG Rune v0.2  ACCEPT ===",
+      "errors": [],
+      "warnings": [
+        {
+          "code": "E512",
+          "message": "Canonical quotient–image iso in `CStar` needs a homomorphism, not an arbitrary map."
+        }
+      ],
+      "statuses": [
+        {
+          "kind": "QUO",
+          "name": "Linf_sf",
+          "status": "established"
+        },
+        {
+          "kind": "ASN",
+          "name": "first_iso",
+          "status": "conditional"
+        }
+      ],
+      "svg": false
+    },
+    "parity_floor_fail.gqg": {
+      "verdict": "=== GQG Rune v0.2  FINDING ===",
+      "errors": [
+        {
+          "code": "E204",
+          "message": "Operation `floor_half` is applied after quotienting, but descent fails."
+        }
+      ],
+      "warnings": [],
+      "statuses": [
+        {
+          "kind": "QUO",
+          "name": "Q2",
+          "status": "established"
+        },
+        {
+          "kind": "DSC",
+          "name": "dsc_floor_half_Q2",
+          "status": "counterexample"
+        }
+      ],
+      "svg": false
+    },
+    "parity_ok.gqg": {
+      "verdict": "=== GQG Rune v0.2  ACCEPT ===",
+      "errors": [],
+      "warnings": [],
+      "statuses": [
+        {
+          "kind": "QUO",
+          "name": "Q2",
+          "status": "established"
+        },
+        {
+          "kind": "ASN",
+          "name": "canonical_iso",
+          "status": "established"
+        },
+        {
+          "kind": "DSC",
+          "name": "dsc_add_Q2",
+          "status": "established"
+        }
+      ],
+      "svg": false
+    },
+    "refine_mod4.gqg": {
+      "verdict": "=== GQG Rune v0.2  ACCEPT ===",
+      "errors": [],
+      "warnings": [],
+      "statuses": [
+        {
+          "kind": "QUO",
+          "name": "Q4",
+          "status": "established"
+        },
+        {
+          "kind": "QUO",
+          "name": "Q2",
+          "status": "established"
+        },
+        {
+          "kind": "REF",
+          "name": "split",
+          "status": "established"
+        }
+      ],
+      "svg": false
+    },
+    "service_compliance.gqg": {
+      "verdict": "=== GQG Rune v0.2  FINDING ===",
+      "errors": [
+        {
+          "code": "E204",
+          "message": "Operation `compliance_read` is applied after quotienting, but descent fails."
+        }
+      ],
+      "warnings": [],
+      "statuses": [
+        {
+          "kind": "QUO",
+          "name": "Q_DS",
+          "status": "established"
+        },
+        {
+          "kind": "DSC",
+          "name": "dsc_compliance_read_Q_DS",
+          "status": "counterexample"
+        }
+      ],
+      "svg": false
+    },
+    "top_iso_blocked.gqg": {
+      "verdict": "=== GQG Rune v0.2  REJECT ===",
+      "errors": [
+        {
+          "code": "E512",
+          "message": "In Top, quotient topology and subspace topology on the image need not agree."
+        }
+      ],
+      "warnings": [],
+      "statuses": [
+        {
+          "kind": "QUO",
+          "name": "Q_W",
+          "status": "established"
+        },
+        {
+          "kind": "ASN",
+          "name": "canonical_iso",
+          "status": "conditional"
+        }
+      ],
+      "svg": false
+    },
+    "toroidal_sector.gqg": {
+      "verdict": "=== GQG Rune v0.2  FINDING ===",
+      "errors": [
+        {
+          "code": "E204",
+          "message": "Operation `next_sector_law` is applied after quotienting, but descent fails."
+        }
+      ],
+      "warnings": [],
+      "statuses": [
+        {
+          "kind": "QUO",
+          "name": "Q_W",
+          "status": "established"
+        },
+        {
+          "kind": "QUO",
+          "name": "Q_q",
+          "status": "established"
+        },
+        {
+          "kind": "REF",
+          "name": "parity",
+          "status": "established"
+        },
+        {
+          "kind": "DSC",
+          "name": "dsc_next_sector_law_Q_q",
+          "status": "counterexample"
+        }
+      ],
+      "svg": false
+    }
+  },
+  "edge_cases": {
+    "undefined_equivalence_observation": {
+      "verdict": "=== GQG Rune v0.2  ACCEPT ===",
+      "errors": [],
+      "warnings": [],
+      "statuses": [
+        {
+          "kind": "QUO",
+          "name": "Q",
+          "status": "established"
+        }
+      ],
+      "svg": false
+    },
+    "wrong_kind_image": {
+      "verdict": "=== GQG Rune v0.2  ACCEPT ===",
+      "errors": [],
+      "warnings": [],
+      "statuses": [],
+      "svg": false
+    },
+    "missing_iso_operands": {
+      "verdict": "=== GQG Rune v0.2  ACCEPT ===",
+      "errors": [],
+      "warnings": [],
+      "statuses": [
+        {
+          "kind": "ASN",
+          "name": "canonical_iso",
+          "status": "established"
+        }
+      ],
+      "svg": false
+    },
+    "wrong_observation_iso": {
+      "verdict": "=== GQG Rune v0.2  ACCEPT ===",
+      "errors": [],
+      "warnings": [],
+      "statuses": [
+        {
+          "kind": "QUO",
+          "name": "Q",
+          "status": "established"
+        },
+        {
+          "kind": "ASN",
+          "name": "canonical_iso",
+          "status": "established"
+        }
+      ],
+      "svg": true
+    },
+    "wrong_carrier_name": {
+      "verdict": "=== GQG Rune v0.2  ACCEPT ===",
+      "errors": [],
+      "warnings": [],
+      "statuses": [
+        {
+          "kind": "QUO",
+          "name": "Q",
+          "status": "established"
+        },
+        {
+          "kind": "DSC",
+          "name": "dsc_f_Q",
+          "status": "tested_only"
+        }
+      ],
+      "svg": true
+    },
+    "non_closed_operation": {
+      "verdict": "=== GQG Rune v0.2  ACCEPT ===",
+      "errors": [],
+      "warnings": [],
+      "statuses": [
+        {
+          "kind": "QUO",
+          "name": "Q",
+          "status": "established"
+        },
+        {
+          "kind": "DSC",
+          "name": "dsc_f_Q",
+          "status": "tested_only"
+        }
+      ],
+      "svg": true
+    },
+    "undefined_operation_on_singletons": {
+      "verdict": "=== GQG Rune v0.2  ACCEPT ===",
+      "errors": [],
+      "warnings": [],
+      "statuses": [
+        {
+          "kind": "QUO",
+          "name": "Q",
+          "status": "established"
+        },
+        {
+          "kind": "DSC",
+          "name": "dsc_f_Q",
+          "status": "tested_only"
+        }
+      ],
+      "svg": true
+    },
+    "undeclared_operation_domain": {
+      "verdict": "=== GQG Rune v0.2  ACCEPT ===",
+      "errors": [],
+      "warnings": [],
+      "statuses": [
+        {
+          "kind": "QUO",
+          "name": "Q",
+          "status": "established"
+        },
+        {
+          "kind": "DSC",
+          "name": "dsc_f_Q",
+          "status": "tested_only"
+        }
+      ],
+      "svg": true
+    },
+    "operation_arity_mismatch": {
+      "verdict": "=== GQG Rune v0.2  ACCEPT ===",
+      "errors": [],
+      "warnings": [],
+      "statuses": [
+        {
+          "kind": "QUO",
+          "name": "Q",
+          "status": "established"
+        },
+        {
+          "kind": "DSC",
+          "name": "dsc_f_Q",
+          "status": "tested_only"
+        }
+      ],
+      "svg": true
+    },
+    "binary_table_json": {
+      "exception": "TypeError",
+      "message": "keys must be str, int, float, bool or None, not tuple",
+      "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\drewd\\Documents\\Codex\\2026-09-11\\cha\\work\\gqg_rune_review\\review_checks.py\", line 18, in inspect\n    p, text = compiler.compile_source(source)\n              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\drewd\\Documents\\Codex\\2026-09-11\\cha\\work\\gqg_rune_review\\gqg_rune_v01\\compiler.py\", line 913, in compile_source\n    return prog, report(prog)\n                 ^^^^^^^^^^^^\n  File \"C:\\Users\\drewd\\Documents\\Codex\\2026-09-11\\cha\\work\\gqg_rune_review\\gqg_rune_v01\\compiler.py\", line 893, in report\n    f\"AST_SHA256={ast_hash(prog)}\",\n                  ^^^^^^^^^^^^^^\n  File \"C:\\Users\\drewd\\Documents\\Codex\\2026-09-11\\cha\\work\\gqg_rune_review\\gqg_rune_v01\\compiler.py\", line 812, in ast_hash\n    return hashlib.sha256(canonical_json(prog).encode()).hexdigest()\n                          ^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\drewd\\Documents\\Codex\\2026-09-11\\cha\\work\\gqg_rune_review\\gqg_rune_v01\\compiler.py\", line 808, in canonical_json\n    return json.dumps(body, sort_keys=True, separators=(\",\", \":\"))\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\drewd\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\json\\__init__.py\", line 238, in dumps\n    **kw).encode(obj)\n          ^^^^^^^^^^^\n  File \"C:\\Users\\drewd\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\json\\encoder.py\", line 200, in encode\n    chunks = self.iterencode(o, _one_shot=True)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\drewd\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\json\\encoder.py\", line 258, in iterencode\n    return _iterencode(o, 0)\n           ^^^^^^^^^^^^^^^^^\nTypeError: keys must be str, int, float, bool or None, not tuple\n"
+    },
+    "mixed_table_json": {
+      "exception": "TypeError",
+      "message": "'<' not supported between instances of 'str' and 'int'",
+      "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\drewd\\Documents\\Codex\\2026-09-11\\cha\\work\\gqg_rune_review\\review_checks.py\", line 18, in inspect\n    p, text = compiler.compile_source(source)\n              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\drewd\\Documents\\Codex\\2026-09-11\\cha\\work\\gqg_rune_review\\gqg_rune_v01\\compiler.py\", line 913, in compile_source\n    return prog, report(prog)\n                 ^^^^^^^^^^^^\n  File \"C:\\Users\\drewd\\Documents\\Codex\\2026-09-11\\cha\\work\\gqg_rune_review\\gqg_rune_v01\\compiler.py\", line 893, in report\n    f\"AST_SHA256={ast_hash(prog)}\",\n                  ^^^^^^^^^^^^^^\n  File \"C:\\Users\\drewd\\Documents\\Codex\\2026-09-11\\cha\\work\\gqg_rune_review\\gqg_rune_v01\\compiler.py\", line 812, in ast_hash\n    return hashlib.sha256(canonical_json(prog).encode()).hexdigest()\n                          ^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\drewd\\Documents\\Codex\\2026-09-11\\cha\\work\\gqg_rune_review\\gqg_rune_v01\\compiler.py\", line 808, in canonical_json\n    return json.dumps(body, sort_keys=True, separators=(\",\", \":\"))\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\drewd\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\json\\__init__.py\", line 238, in dumps\n    **kw).encode(obj)\n          ^^^^^^^^^^^\n  File \"C:\\Users\\drewd\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\json\\encoder.py\", line 200, in encode\n    chunks = self.iterencode(o, _one_shot=True)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\drewd\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\json\\encoder.py\", line 258, in iterencode\n    return _iterencode(o, 0)\n           ^^^^^^^^^^^^^^^^^\nTypeError: '<' not supported between instances of 'str' and 'int'\n"
+    },
+    "mixed_carrier_binary_comparison": {
+      "exception": "TypeError",
+      "message": "'>=' not supported between instances of 'int' and 'str'",
+      "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\drewd\\Documents\\Codex\\2026-09-11\\cha\\work\\gqg_rune_review\\review_checks.py\", line 18, in inspect\n    p, text = compiler.compile_source(source)\n              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\drewd\\Documents\\Codex\\2026-09-11\\cha\\work\\gqg_rune_review\\gqg_rune_v01\\compiler.py\", line 912, in compile_source\n    prog = check(prog)\n           ^^^^^^^^^^^\n  File \"C:\\Users\\drewd\\Documents\\Codex\\2026-09-11\\cha\\work\\gqg_rune_review\\gqg_rune_v01\\compiler.py\", line 542, in check\n    check_finite(prog, err, warn, note)\n  File \"C:\\Users\\drewd\\Documents\\Codex\\2026-09-11\\cha\\work\\gqg_rune_review\\gqg_rune_v01\\compiler.py\", line 734, in check_finite\n    hits = search_descent(carrier, eq_obs, maps[op_node.name])\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\drewd\\Documents\\Codex\\2026-09-11\\cha\\work\\gqg_rune_review\\gqg_rune_v01\\finite.py\", line 248, in search_descent\n    if (x, y) >= (xp, yp):\n       ^^^^^^^^^^^^^^^^^^\nTypeError: '>=' not supported between instances of 'int' and 'str'\n"
+    },
+    "invalid_formula_syntax": {
+      "exception": "SyntaxError",
+      "message": "invalid syntax (<unknown>, line 1)",
+      "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\drewd\\Documents\\Codex\\2026-09-11\\cha\\work\\gqg_rune_review\\review_checks.py\", line 18, in inspect\n    p, text = compiler.compile_source(source)\n              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\drewd\\Documents\\Codex\\2026-09-11\\cha\\work\\gqg_rune_review\\gqg_rune_v01\\compiler.py\", line 912, in compile_source\n    prog = check(prog)\n           ^^^^^^^^^^^\n  File \"C:\\Users\\drewd\\Documents\\Codex\\2026-09-11\\cha\\work\\gqg_rune_review\\gqg_rune_v01\\compiler.py\", line 542, in check\n    check_finite(prog, err, warn, note)\n  File \"C:\\Users\\drewd\\Documents\\Codex\\2026-09-11\\cha\\work\\gqg_rune_review\\gqg_rune_v01\\compiler.py\", line 604, in check_finite\n    maps[n.name] = _as_evalmap(n)\n                   ^^^^^^^^^^^^^^\n  File \"C:\\Users\\drewd\\Documents\\Codex\\2026-09-11\\cha\\work\\gqg_rune_review\\gqg_rune_v01\\compiler.py\", line 555, in _as_evalmap\n    em.bind()\n  File \"C:\\Users\\drewd\\Documents\\Codex\\2026-09-11\\cha\\work\\gqg_rune_review\\gqg_rune_v01\\finite.py\", line 154, in bind\n    compiled = compile_expr(self.formula)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\drewd\\Documents\\Codex\\2026-09-11\\cha\\work\\gqg_rune_review\\gqg_rune_v01\\finite.py\", line 56, in compile_expr\n    tree = ast.parse(expr, mode=\"eval\")\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\drewd\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\ast.py\", line 52, in parse\n    return compile(source, filename, mode, flags,\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<unknown>\", line 1\n    x +\nSyntaxError: invalid syntax\n"
+    },
+    "divide_by_zero": {
+      "exception": "ZeroDivisionError",
+      "message": "integer division or modulo by zero",
+      "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\drewd\\Documents\\Codex\\2026-09-11\\cha\\work\\gqg_rune_review\\review_checks.py\", line 18, in inspect\n    p, text = compiler.compile_source(source)\n              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\drewd\\Documents\\Codex\\2026-09-11\\cha\\work\\gqg_rune_review\\gqg_rune_v01\\compiler.py\", line 912, in compile_source\n    prog = check(prog)\n           ^^^^^^^^^^^\n  File \"C:\\Users\\drewd\\Documents\\Codex\\2026-09-11\\cha\\work\\gqg_rune_review\\gqg_rune_v01\\compiler.py\", line 542, in check\n    check_finite(prog, err, warn, note)\n  File \"C:\\Users\\drewd\\Documents\\Codex\\2026-09-11\\cha\\work\\gqg_rune_review\\gqg_rune_v01\\compiler.py\", line 624, in check_finite\n    fib = fin_fibers(carrier, em)\n          ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\drewd\\Documents\\Codex\\2026-09-11\\cha\\work\\gqg_rune_review\\gqg_rune_v01\\finite.py\", line 190, in fibers\n    out[obs(x)].append(x)\n        ^^^^^^\n  File \"C:\\Users\\drewd\\Documents\\Codex\\2026-09-11\\cha\\work\\gqg_rune_review\\gqg_rune_v01\\finite.py\", line 180, in __call__\n    return self._fn(*args)\n           ^^^^^^^^^^^^^^^\n  File \"C:\\Users\\drewd\\Documents\\Codex\\2026-09-11\\cha\\work\\gqg_rune_review\\gqg_rune_v01\\finite.py\", line 160, in fn\n    return compiled(env)\n           ^^^^^^^^^^^^^\n  File \"C:\\Users\\drewd\\Documents\\Codex\\2026-09-11\\cha\\work\\gqg_rune_review\\gqg_rune_v01\\finite.py\", line 108, in run\n    return ev(tree, env)\n           ^^^^^^^^^^^^^\n  File \"C:\\Users\\drewd\\Documents\\Codex\\2026-09-11\\cha\\work\\gqg_rune_review\\gqg_rune_v01\\finite.py\", line 72, in ev\n    return ev(node.body, env)\n           ^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\drewd\\Documents\\Codex\\2026-09-11\\cha\\work\\gqg_rune_review\\gqg_rune_v01\\finite.py\", line 84, in ev\n    return ALLOWED_BINOPS[type(node.op)](ev(node.left, env), ev(node.right, env))\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nZeroDivisionError: integer division or modulo by zero\n"
+    },
+    "locus_incomplete_operation_table": {
+      "exception": "FiniteError",
+      "message": "g: no table entry for 1",
+      "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\drewd\\Documents\\Codex\\2026-09-11\\cha\\work\\gqg_rune_review\\review_checks.py\", line 18, in inspect\n    p, text = compiler.compile_source(source)\n              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\drewd\\Documents\\Codex\\2026-09-11\\cha\\work\\gqg_rune_review\\gqg_rune_v01\\compiler.py\", line 912, in compile_source\n    prog = check(prog)\n           ^^^^^^^^^^^\n  File \"C:\\Users\\drewd\\Documents\\Codex\\2026-09-11\\cha\\work\\gqg_rune_review\\gqg_rune_v01\\compiler.py\", line 542, in check\n    check_finite(prog, err, warn, note)\n  File \"C:\\Users\\drewd\\Documents\\Codex\\2026-09-11\\cha\\work\\gqg_rune_review\\gqg_rune_v01\\compiler.py\", line 676, in check_finite\n    found = fin_locus(carrier, p_em, w_em)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\drewd\\Documents\\Codex\\2026-09-11\\cha\\work\\gqg_rune_review\\gqg_rune_v01\\finite.py\", line 279, in locus\n    if witness(a) != witness(b):\n                     ^^^^^^^^^^\n  File \"C:\\Users\\drewd\\Documents\\Codex\\2026-09-11\\cha\\work\\gqg_rune_review\\gqg_rune_v01\\finite.py\", line 180, in __call__\n    return self._fn(*args)\n           ^^^^^^^^^^^^^^^\n  File \"C:\\Users\\drewd\\Documents\\Codex\\2026-09-11\\cha\\work\\gqg_rune_review\\gqg_rune_v01\\finite.py\", line 169, in fn\n    raise FiniteError(f\"{self.name}: no table entry for {key}\")\nfinite.FiniteError: g: no table entry for 1\n"
+    },
+    "algebraic_kernel_without_quotient": {
+      "verdict": "=== GQG Rune v0.2  ACCEPT ===",
+      "errors": [],
+      "warnings": [],
+      "statuses": [],
+      "svg": false
+    },
+    "missing_descent_certificate": {
+      "verdict": "=== GQG Rune v0.2  FINDING ===",
+      "errors": [
+        {
+          "code": "E204",
+          "message": "Operation `f` is applied after quotienting, but no descent certificate is present."
+        }
+      ],
+      "warnings": [],
+      "statuses": [
+        {
+          "kind": "QUO",
+          "name": "Q",
+          "status": "established"
+        },
+        {
+          "kind": "DSC",
+          "name": "dsc_f_Q",
+          "status": "unresolved"
+        }
+      ],
+      "svg": false
+    },
+    "unknown_category": {
+      "verdict": "=== GQG Rune v0.2  ACCEPT ===",
+      "errors": [],
+      "warnings": [],
+      "statuses": [],
+      "svg": false
+    },
+    "conflicting_source_category": {
+      "verdict": "=== GQG Rune v0.2  ACCEPT ===",
+      "errors": [],
+      "warnings": [],
+      "statuses": [],
+      "svg": false
+    },
+    "unknown_completion_type": {
+      "verdict": "=== GQG Rune v0.2  ACCEPT ===",
+      "errors": [],
+      "warnings": [],
+      "statuses": [],
+      "svg": false
+    },
+    "vect_non_linear_iso": {
+      "verdict": "=== GQG Rune v0.2  ACCEPT ===",
+      "errors": [],
+      "warnings": [],
+      "statuses": [
+        {
+          "kind": "QUO",
+          "name": "Q",
+          "status": "established"
+        },
+        {
+          "kind": "ASN",
+          "name": "canonical_iso",
+          "status": "established"
+        }
+      ],
+      "svg": true
+    }
+  },
+  "oracle_counts": {
+    "unary_descent": 3984,
+    "binary_descent": 33,
+    "refinement": 255,
+    "locus": 255
+  },
+  "oracle_failures": [],
+  "seconds": 0.0629999999946449
+}

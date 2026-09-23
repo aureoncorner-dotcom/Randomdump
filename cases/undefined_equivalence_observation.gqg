@@ -1,0 +1,4 @@
+category Set
+source P
+equivalence R := kernel_pair(Missing)
+quotient Q := P / R

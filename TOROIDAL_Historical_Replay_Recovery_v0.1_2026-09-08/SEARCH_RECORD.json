@@ -1,0 +1,245 @@
+{
+  "schema": "toroidal-historical-source-recovery-search/1",
+  "assembled_at_utc": "2026-09-08T17:01:28.761224+00:00",
+  "scope_limit": "Targeted accessible-source search and selected archive inspection. Does not establish nonexistence; no local 1109 device, deleted Git history, tag-only history, unexposed accounts or every historical revision searched.",
+  "queries": [
+    {
+      "provider": "Drive",
+      "query": "TOROIDAL; mismatch",
+      "mode": "discovery; followed native links"
+    },
+    {
+      "provider": "Drive",
+      "query": "Exact/filename filters: DYNAMICS.json, EVENT_FORMAT.md, verify.py, verification.json, TD_COS_FH_001, TD-COS-FH-001",
+      "result": "Three TD-COS native documents; no original authority file"
+    },
+    {
+      "provider": "Drive",
+      "query": "Filename variants: DYNAMICS, COMPARISON_RESULTS, VALIDATION_PLAN, FOLLOWUP_PLAN, EVENT_FORMAT, checkpoint, sampler, Tiny",
+      "result": "Prose documents and adjacent L3 records; no original companion raw package"
+    },
+    {
+      "provider": "Library",
+      "query": "TD_COS_FH_001",
+      "mode": "title",
+      "result": "11 artifacts; first-run/investigation and fallback packets recovered"
+    },
+    {
+      "provider": "Library",
+      "query": "DYNAMICS.json; deterministic; verifier",
+      "mode": "title",
+      "result": "0"
+    },
+    {
+      "provider": "Library",
+      "query": "verify.py; verification.json; Markov; all_orders",
+      "mode": "title",
+      "result": "Complete TD-COS-FH-001_No_Finite_Markov_Order.md recovered; other verification filenames not companion authority"
+    },
+    {
+      "provider": "Library",
+      "query": "FOLLOWUP_COMPARISON_RESULTS.json; EVENT_FORMAT.md; Tiny_System; tiny-system; toroidal_dynamics",
+      "mode": "title",
+      "result": "L3 extension archive found and inspected"
+    },
+    {
+      "provider": "Library",
+      "query": "L2; DYNAMICS; toroidal",
+      "mode": "title",
+      "result": "Reproduction files/reconstruction and consolidated archive; archive inspected"
+    },
+    {
+      "provider": "Library",
+      "query": "events; checkpoint; FOLLOWUP; VALIDATION_PLAN",
+      "mode": "title",
+      "result": "L3 direct follow-up archive found and inspected; no original L2 companion authority"
+    },
+    {
+      "provider": "Library",
+      "query": "Declared verifier and output SHA-256 strings",
+      "mode": "content",
+      "result": "Nonliteral unrelated retrieval candidates; not counted as absence evidence"
+    },
+    {
+      "provider": "Library",
+      "query": "review_snapshot.md; spec_snapshot.md",
+      "mode": "title",
+      "result_count": 0
+    },
+    {
+      "provider": "Gmail",
+      "query": "{filename:DYNAMICS.json filename:EVENT_FORMAT.md filename:TD_COS_FH_001 \"1,108,720\" \"1,107,368\"}",
+      "result_count": 0
+    },
+    {
+      "provider": "Gmail",
+      "query": "after:2026/09/01 {filename:toroidal filename:tiny filename:checkpoint filename:sampler filename:verifier filename:Markov}",
+      "result_count": 3,
+      "result": "Sep 3 and Sep 5 geometry attachment metadata; not original Sep 6 companion evidence. Attachment contents not needed or claimed inspected."
+    },
+    {
+      "provider": "Slack",
+      "query": "\"TD-COS-FH-001\"",
+      "result": "No results; messages/files, bot results included"
+    },
+    {
+      "provider": "Slack",
+      "query": "\"DYNAMICS.json\"",
+      "result": "No results; messages/files, bot results included"
+    }
+  ],
+  "github": {
+    "repository": "MailanPatternMonkey-ai/Gettin-Started",
+    "visible_branches": 9,
+    "distinct_commit_trees": 8,
+    "branches": [
+      {
+        "name": "codex/drive-research-20260708-20260908",
+        "commit": "98bd55e7668680d1c08d01e041b3920a99bca545",
+        "tree_entries": 200,
+        "truncated": false
+      },
+      {
+        "name": "codex/td-cos-fh-001-finite-markov-20260908",
+        "commit": "e8623fa88a6e049e17e7564222356a6675d6b29d",
+        "tree_entries": 60,
+        "truncated": false
+      },
+      {
+        "name": "main",
+        "commit": "90301d7db659aaf85475dc06e83e8ed57b1677dd",
+        "tree_entries": 44,
+        "truncated": false
+      },
+      {
+        "name": "publication/abundance-corner-package-2026-09-02",
+        "commit": "1741f5c89a4bf06a819d09e0deb8d97186332215",
+        "tree_entries": 40,
+        "truncated": false
+      },
+      {
+        "name": "publication/abundance-v7-open-field-2026-09-02",
+        "commit": "09c785f79313e5f6de456a7bd8380dd0703f5be4",
+        "tree_entries": 44,
+        "truncated": false
+      },
+      {
+        "name": "publication/core-corpus-expansion-2026-09-02",
+        "commit": "4a13d5964a5d42ebfff092b7ef86b54f2efd166a",
+        "tree_entries": 29,
+        "truncated": false
+      },
+      {
+        "name": "publication/full-drive-corpus-2026-09-02",
+        "commit": "dd085dff32b4e0a6a4b8d8370c7a9a82b97a93c1",
+        "tree_entries": 12,
+        "truncated": false
+      },
+      {
+        "name": "publication/jerusalem-custodial-ecosystem-v1.2",
+        "commit": "90301d7db659aaf85475dc06e83e8ed57b1677dd",
+        "tree_entries": 44,
+        "truncated": false
+      },
+      {
+        "name": "publication/orbit-quotient-successor-stack-2026-09-02",
+        "commit": "8b48f58dfa36fb26dda4c92163f1d0f8d3a85210",
+        "tree_entries": 33,
+        "truncated": false
+      }
+    ],
+    "method": "Full visible-branch tree inventories, followed by exact blob fetches from proof branch. Filename and linked-provenance inspection; not every file body or all deleted history.",
+    "recovered_commit": "e8623fa88a6e049e17e7564222356a6675d6b29d",
+    "releases": [],
+    "tags": "Endpoint rejected as unsupported by connector; tag-only history unverified",
+    "path_matches": [
+      {
+        "branch": "codex/td-cos-fh-001-finite-markov-20260908",
+        "path": "corpus/mathematics/TD-COS-FH-001/source_note.md",
+        "sha": "8e9275862e5a2900186d6e97553a81d188ceca1a",
+        "size": 25675
+      },
+      {
+        "branch": "codex/td-cos-fh-001-finite-markov-20260908",
+        "path": "corpus/mathematics/TD-COS-FH-001/verification_original.json",
+        "sha": "f289324c8a0961377c9813e30494c0cda2c14e2a",
+        "size": 2538
+      },
+      {
+        "branch": "codex/td-cos-fh-001-finite-markov-20260908",
+        "path": "corpus/mathematics/TD-COS-FH-001/verify.py",
+        "sha": "e9801bc8eb36f292f2bf296f903165125b2f8213",
+        "size": 4850
+      }
+    ]
+  },
+  "drive_revisions": [
+    {
+      "document_id": "1ON-nOrXUCCixHFm4WYIbihKtY47wQ2p0ylgR4r4opiY",
+      "listed_revisions": [
+        "1",
+        "2"
+      ],
+      "previous_read": "1",
+      "previous_content": "Only U+FEFF, empty creation revision",
+      "current": "Truncated embedded verifier"
+    },
+    {
+      "document_id": "1J43udMgUlfGXuMMdkCGw_Ef5vaZbYd9SasTzcQ1isEo",
+      "listed_revisions": [
+        "1",
+        "2"
+      ],
+      "previous_read": "1",
+      "previous_content": "Only U+FEFF, empty creation revision",
+      "current": "Readable validation report, original artifact links are relative literals"
+    }
+  ],
+  "archives": [
+    {
+      "filename": "TOROIDAL_Consolidated_Archive.zip",
+      "bytes": 190340,
+      "sha256": "56cb7d63374afbd0f2121a9e613e98883597d50b38a777ffaa435959b1073497",
+      "members": 39,
+      "disposition": "See complete inventory and scoped inspection record"
+    },
+    {
+      "filename": "L3_direct_followup_v0.1.zip",
+      "bytes": 128849379,
+      "sha256": "6f26b230888559aeeea80b1537db11af5472813af113d63e05164fc4455c0950",
+      "members": 130,
+      "disposition": "Preserves the separate reproduction lineage; not recovery of the original L2 validation companion."
+    },
+    {
+      "filename": "TD_COS_FH_001_L2_FIRST_RUN_PACKET_v0.1.zip",
+      "bytes": 1561229,
+      "sha256": "9614c440bbdc07253e2bbe354bda34eadaa707ff85ff5ff0a023c720de5fb4e1",
+      "members": 10,
+      "disposition": "See complete inventory and scoped inspection record"
+    },
+    {
+      "filename": "TD_COS_FH_001_Mismatch_Investigation_v0.1.zip",
+      "bytes": 2559289,
+      "sha256": "6688106ed6f9dc1d5415f6472c8ebcf3941ae48dc225ad1a34670052b5c459e9",
+      "members": 30,
+      "disposition": "See complete inventory and scoped inspection record"
+    },
+    {
+      "filename": "TD_COS_FH_001_Replacement_Amendment_v0.1.zip",
+      "bytes": 4207769,
+      "sha256": "af03debcda42839f38525b3a6bda14aab2d24ad33c8822386d8742fc81e0d3b8",
+      "members": 15,
+      "disposition": "See complete inventory and scoped inspection record"
+    },
+    {
+      "filename": "Tiny_system_L3_extension_v0.1.zip",
+      "bytes": 89575603,
+      "sha256": "710f4d5759dd7ada0f3ba075095858d52ec43d2efb1d408d741dee4848dd44d4",
+      "members": 87,
+      "disposition": "Preserves the separate reproduction lineage; not recovery of the original L2 validation companion."
+    }
+  ],
+  "source_documents_modified": false,
+  "repository_modified": false,
+  "messages_sent": false
+}

@@ -1,0 +1,256 @@
+{
+  "schema": "toroidal-historical-source-index/1",
+  "assembled_at_utc": "2026-09-08T17:01:28.761224+00:00",
+  "byte_authority_note": "Recovered original files and derived readable source snapshots are labelled separately. Source dates are not retrieval dates. SHA-256 is not external preregistration.",
+  "files": [
+    {
+      "path": "preserved/TD_COS_FH_001_L2_FIRST_RUN_PACKET_v0.1.zip",
+      "role": "Original reproduction packet; contains the 1,107,368 execution",
+      "bytes": 1561229,
+      "sha256": "9614c440bbdc07253e2bbe354bda34eadaa707ff85ff5ff0a023c720de5fb4e1",
+      "authority_status": "RECOVERED_ORIGINAL_BYTES_REPRODUCTION_LINEAGE",
+      "origin": {
+        "provider": "ChatGPT Library",
+        "library_file_id": "libfile_8d0483473860819192405de1821107c6",
+        "file_id": "file_000000006d1481fdb958f7edafdfd742",
+        "version_id": null,
+        "original_path": "/TD-COS-FH-001 L2 First Run Packet v0.1/TD_COS_FH_001_L2_FIRST_RUN_PACKET_v0.1.zip",
+        "retrieved_in_this_recovery": true
+      }
+    },
+    {
+      "path": "preserved/TD_COS_FH_001_Mismatch_Investigation_v0.1.zip",
+      "role": "Original investigation packet; contains bounded reproduction evidence and comparator",
+      "bytes": 2559289,
+      "sha256": "6688106ed6f9dc1d5415f6472c8ebcf3941ae48dc225ad1a34670052b5c459e9",
+      "authority_status": "RECOVERED_ORIGINAL_BYTES_REPRODUCTION_LINEAGE",
+      "origin": {
+        "provider": "ChatGPT Library",
+        "library_file_id": "libfile_2f1a227473c48191841ff6f5f53509fe",
+        "file_id": "file_0000000037e481f5a8f70c8b11577eb3",
+        "version_id": null,
+        "original_path": "/TD_COS_FH_001_Mismatch_Investigation_v0.1.zip",
+        "retrieved_in_this_recovery": true
+      }
+    },
+    {
+      "path": "verifier/TD-COS-FH-001_No_Finite_Markov_Order.md",
+      "role": "Complete earlier Markdown note including original code and output",
+      "bytes": 25675,
+      "sha256": "3fa3d6769e311241df398b2d1b15a1dfacba50743d9b627b67fc782daa2498d7",
+      "authority_status": "RECOVERED_COMPLETE_NOTE_HASH_MATCHED",
+      "origin": {
+        "provider": "ChatGPT Library",
+        "library_file_id": "libfile_db84936bf44c819186f69ec4cd429ee4",
+        "file_id": "file_000000006280822f9757d32ff84a7231",
+        "version_id": null,
+        "original_path": "/TD-COS-FH-001_No_Finite_Markov_Order.md",
+        "matching_git_commit": "e8623fa88a6e049e17e7564222356a6675d6b29d",
+        "matching_git_blob": "8e9275862e5a2900186d6e97553a81d188ceca1a",
+        "matching_git_path": "corpus/mathematics/TD-COS-FH-001/source_note.md"
+      }
+    },
+    {
+      "path": "verifier/verify.py",
+      "role": "Original supplementary arithmetic verifier",
+      "bytes": 4850,
+      "sha256": "96c2d72c9e1e0de55e86392cc1f2546633d4a076f5f580e7408990aa13166e8f",
+      "authority_status": "RECOVERED_HASH_MATCHES_ORIGINAL_NOTE_DECLARATION",
+      "origin": {
+        "provider": "GitHub",
+        "repository": "MailanPatternMonkey-ai/Gettin-Started",
+        "commit": "e8623fa88a6e049e17e7564222356a6675d6b29d",
+        "blob_sha": "e9801bc8eb36f292f2bf296f903165125b2f8213",
+        "url": "https://github.com/MailanPatternMonkey-ai/Gettin-Started/blob/e8623fa88a6e049e17e7564222356a6675d6b29d/corpus/mathematics/TD-COS-FH-001/verify.py",
+        "transport": "base64 decoded without content or newline changes"
+      }
+    },
+    {
+      "path": "verifier/verification_original.json",
+      "role": "Original embedded verifier output",
+      "bytes": 2538,
+      "sha256": "25ea6e583f75ac5dafcd88761e1f4499d91fbe20f273613db5f682a00c9eb48a",
+      "authority_status": "RECOVERED_HASH_MATCHES_ORIGINAL_NOTE_DECLARATION",
+      "origin": {
+        "provider": "GitHub",
+        "repository": "MailanPatternMonkey-ai/Gettin-Started",
+        "commit": "e8623fa88a6e049e17e7564222356a6675d6b29d",
+        "blob_sha": "f289324c8a0961377c9813e30494c0cda2c14e2a",
+        "url": "https://github.com/MailanPatternMonkey-ai/Gettin-Started/blob/e8623fa88a6e049e17e7564222356a6675d6b29d/corpus/mathematics/TD-COS-FH-001/verification_original.json",
+        "transport": "base64 decoded without content or newline changes"
+      }
+    },
+    {
+      "path": "sources/TOROIDAL_Working_Master.txt",
+      "role": "Current readable native document snapshot; all returned tabs retained",
+      "bytes": 26126,
+      "sha256": "0c080495388fb9a7da55929e0c45b79da5d9725a6b22f5629890beafb5b78035",
+      "authority_status": "READABLE_SOURCE_SNAPSHOT",
+      "origin": {
+        "provider": "Google Drive",
+        "document_id": "1NV7JsFuqJJVjFzYcqCAuC22y_rrjCSqqcZWZKobcGoU",
+        "url": "https://docs.google.com/document/d/1NV7JsFuqJJVjFzYcqCAuC22y_rrjCSqqcZWZKobcGoU/edit?usp=drivesdk",
+        "title": "TOROIDAL — Working Master",
+        "revision_id": "ANLCKQkS3jSz3rirpY-fEO0XNioPIRncy3GSEdhRsNCDKJG_QNXEFKlicROQTPMmLvHUNV9fjp6jgoj-vXQoU1mwX1eMaTagajg969yyKnA",
+        "created_time": "2026-09-08T01:23:57.987Z",
+        "modified_time": "2026-09-08T12:24:18.658Z",
+        "tabs": [
+          {
+            "id": "t.bfy2gyjv5rvf",
+            "title": "Working master"
+          },
+          {
+            "id": "t.0",
+            "title": "Earlier geometry release"
+          }
+        ],
+        "snapshot_encoding": "UTF-8. Native paragraph text; rich links rendered as title/URI; date chips as display text; table rows separated by pipes; explicit tab headings.",
+        "hash_scope": "These derived readable bytes, not original provider-native serialization or an old run snapshot."
+      }
+    },
+    {
+      "path": "sources/Historical_mismatch_investigation.txt",
+      "role": "Current readable native document snapshot; all returned tabs retained",
+      "bytes": 10199,
+      "sha256": "ff544de423bd0093d12bc5b2f6ed9b48db9c1d1abdbc2cfec298b6c19613aab4",
+      "authority_status": "READABLE_SOURCE_SNAPSHOT",
+      "origin": {
+        "provider": "Google Drive",
+        "document_id": "1G88zvSUXi78R6uCMJYBEZpOmFpIiyP8OAK8_gtd9Hxw",
+        "url": "https://docs.google.com/document/d/1G88zvSUXi78R6uCMJYBEZpOmFpIiyP8OAK8_gtd9Hxw/edit?usp=drivesdk",
+        "title": "# TD-COS-FH-001 — deterministic mismatch investigation v0",
+        "revision_id": "ANLCKQmWBYQ6h2jI1DVRG5GcB3FMQPKV63adjJfWGeyIr5VMrrAQIDp56FdMSLszwRzEL6m06Gm9VrIe-YibKw",
+        "created_time": "2026-09-08T02:48:32.499Z",
+        "modified_time": "2026-09-08T02:48:35.009Z",
+        "tabs": [
+          {
+            "id": "t.0",
+            "title": "Tab 1"
+          }
+        ],
+        "snapshot_encoding": "UTF-8. Native paragraph text; rich links rendered as title/URI; date chips as display text; table rows separated by pipes; explicit tab headings.",
+        "hash_scope": "These derived readable bytes, not original provider-native serialization or an old run snapshot."
+      }
+    },
+    {
+      "path": "sources/First_run_reproduction_receipt.txt",
+      "role": "Current readable native document snapshot; all returned tabs retained",
+      "bytes": 4875,
+      "sha256": "d83cf7a7ba9c7c640a3202a562c86841031471c1905bf5fcec05c32763f5ddd0",
+      "authority_status": "READABLE_SOURCE_SNAPSHOT",
+      "origin": {
+        "provider": "Google Drive",
+        "document_id": "1R6V-Sa6ga1uSEgFLSidUQQBPeqAWF8RTCy8Zn6ICyUc",
+        "url": "https://docs.google.com/document/d/1R6V-Sa6ga1uSEgFLSidUQQBPeqAWF8RTCy8Zn6ICyUc/edit?usp=drivesdk",
+        "title": "# TD-COS-FH-001 — L=2 First-Run Reproduction Receipt v0.1",
+        "revision_id": "ANLCKQlj5r49LnZnX5JEn0qR9-aDJvctLwxOqVXtid_dxMAbq-cHxsjczqLuylRSUrWVAAO0tdf1x01fGZTwpC2wuHrhXIEJnZMGbnvUq8s",
+        "created_time": "2026-09-06T20:24:59.035Z",
+        "modified_time": "2026-09-06T20:27:02.513Z",
+        "tabs": [
+          {
+            "id": "t.0",
+            "title": "Tab 1"
+          }
+        ],
+        "snapshot_encoding": "UTF-8. Native paragraph text; rich links rendered as title/URI; date chips as display text; table rows separated by pipes; explicit tab headings.",
+        "hash_scope": "These derived readable bytes, not original provider-native serialization or an old run snapshot."
+      }
+    },
+    {
+      "path": "sources/Toroidal_Dynamics_v0.1.txt",
+      "role": "Current readable native document snapshot; all returned tabs retained",
+      "bytes": 14432,
+      "sha256": "fae42b4392e49c9b0dee18536a6177b10a57417e2ffca756686fe9cfa25d50f4",
+      "authority_status": "READABLE_SOURCE_SNAPSHOT",
+      "origin": {
+        "provider": "Google Drive",
+        "document_id": "1ZMFcH3AV574iMI8qREeOcLS3NPb7rchNnyB1juHnYeM",
+        "url": "https://docs.google.com/document/d/1ZMFcH3AV574iMI8qREeOcLS3NPb7rchNnyB1juHnYeM/edit?usp=drivesdk",
+        "title": "# Toroidal Dynamics v0.1",
+        "revision_id": "ANLCKQkoMZxmefNPtlBUiRBeUBF8YPw6dfN4TVCMgxqp6vIeKgn31kCpFJvPcpUN_iiJPfuqlTjqeJyCzi8EMYs1wy3-cwQK2ICSOOC_lXg",
+        "created_time": "2026-09-06T16:42:45.342Z",
+        "modified_time": "2026-09-06T16:43:01.559Z",
+        "tabs": [
+          {
+            "id": "t.0",
+            "title": "Tab 1"
+          }
+        ],
+        "snapshot_encoding": "UTF-8. Native paragraph text; rich links rendered as title/URI; date chips as display text; table rows separated by pipes; explicit tab headings.",
+        "hash_scope": "These derived readable bytes, not original provider-native serialization or an old run snapshot."
+      }
+    },
+    {
+      "path": "sources/Tiny_system_validation_v0.1_companion.txt",
+      "role": "Current readable native document snapshot; all returned tabs retained",
+      "bytes": 11455,
+      "sha256": "7fbb71d29323bda40c77723c33d24179aa5902a3a7a12beed34530c4a64a03ac",
+      "authority_status": "READABLE_SOURCE_SNAPSHOT",
+      "origin": {
+        "provider": "Google Drive",
+        "document_id": "1J43udMgUlfGXuMMdkCGw_Ef5vaZbYd9SasTzcQ1isEo",
+        "url": "https://docs.google.com/document/d/1J43udMgUlfGXuMMdkCGw_Ef5vaZbYd9SasTzcQ1isEo/edit?usp=drivesdk",
+        "title": "# Tiny-system validation v0.1",
+        "revision_id": "ANLCKQlBoLiAj43yX-RKqornAEgNz3m2jRp2rwwkFuNH7IlCgKVOqNttGL5gNd5KHqADy0J5q64spn6BHXgxqlJwxtb2mQKEqcNVXr0iFdQ",
+        "created_time": "2026-09-06T17:04:24.522Z",
+        "modified_time": "2026-09-06T17:04:38.274Z",
+        "tabs": [
+          {
+            "id": "t.0",
+            "title": "Tab 1"
+          }
+        ],
+        "snapshot_encoding": "UTF-8. Native paragraph text; rich links rendered as title/URI; date chips as display text; table rows separated by pipes; explicit tab headings.",
+        "hash_scope": "These derived readable bytes, not original provider-native serialization or an old run snapshot."
+      }
+    },
+    {
+      "path": "sources/All_orders_Drive_note_truncated.txt",
+      "role": "Current readable native document snapshot; all returned tabs retained",
+      "bytes": 20136,
+      "sha256": "b1303044bfe5910053a140658a3c80473fa92d54dff4fc80c8a38da533cbe978",
+      "authority_status": "READABLE_SOURCE_SNAPSHOT",
+      "origin": {
+        "provider": "Google Drive",
+        "document_id": "1ON-nOrXUCCixHFm4WYIbihKtY47wQ2p0ylgR4r4opiY",
+        "url": "https://docs.google.com/document/d/1ON-nOrXUCCixHFm4WYIbihKtY47wQ2p0ylgR4r4opiY/edit?usp=drivesdk",
+        "title": "# TD-COS-FH-001- the sector process has no finite Markov order",
+        "revision_id": "ANLCKQlGZxOjGEtozgbzv3F3c-UXnRVxy7vpqcpafVlRxagR7oNN7izXhvScb6af3RJfH-dNS6HAGT6x5medeQ",
+        "created_time": "2026-09-08T05:59:53.816Z",
+        "modified_time": "2026-09-08T05:59:57.504Z",
+        "tabs": [
+          {
+            "id": "t.0",
+            "title": "Tab 1"
+          }
+        ],
+        "snapshot_encoding": "UTF-8. Native paragraph text; rich links rendered as title/URI; date chips as display text; table rows separated by pipes; explicit tab headings.",
+        "hash_scope": "These derived readable bytes, not original provider-native serialization or an old run snapshot."
+      }
+    },
+    {
+      "path": "fallback_reference/Prospective_replacement_amendment.txt",
+      "role": "Current readable native document snapshot; all returned tabs retained",
+      "bytes": 10271,
+      "sha256": "14bdb58153e103e5fd44227f708e129ec63931197d27b8468822df30803154c2",
+      "authority_status": "FALLBACK_ONLY_NOT_HISTORICAL_AUTHORITY",
+      "origin": {
+        "provider": "Google Drive",
+        "document_id": "1gXUSaFvix1R_7-sqtkO5m8VqZqxGnDbl2JiLXas8KF4",
+        "url": "https://docs.google.com/document/d/1gXUSaFvix1R_7-sqtkO5m8VqZqxGnDbl2JiLXas8KF4/edit?usp=drivesdk",
+        "title": "Prospective replacement amendment",
+        "revision_id": "ANLCKQlcTDiydYXPIZbsoJlzLes67zTdYFA9n5dYdz9ViXDOHdaZlzpGNBLUaDJCIrUfC8qhJQ58YIev10vZoQ",
+        "created_time": "2026-09-08T04:27:51.773Z",
+        "modified_time": "2026-09-08T04:27:54.680Z",
+        "tabs": [
+          {
+            "id": "t.0",
+            "title": "Tab 1"
+          }
+        ],
+        "snapshot_encoding": "UTF-8. Native paragraph text; rich links rendered as title/URI; date chips as display text; table rows separated by pipes; explicit tab headings.",
+        "hash_scope": "These derived readable bytes, not original provider-native serialization or an old run snapshot."
+      }
+    }
+  ]
+}

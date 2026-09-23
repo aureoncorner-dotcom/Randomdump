@@ -1,0 +1,15 @@
+category Vect
+source P
+carrier P {
+ elements 0 1 2 3
+}
+witness W on P {
+ observation Omega : P -> Y
+ eval x |-> x % 2
+}
+equivalence R := kernel_pair(Omega)
+quotient Q := P / R
+image I := image(Omega)
+assert canonical_iso {
+ Q ~= I
+}

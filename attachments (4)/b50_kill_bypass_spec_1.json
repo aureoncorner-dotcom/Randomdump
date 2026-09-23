@@ -1,0 +1,42 @@
+{
+  "target_route_class": "OBSROUTE-b50c7dde0a",
+  "literal_rtc_sessions": [
+    {
+      "case_id": "office_metaphor",
+      "rtc_id": "rtc_d74aa50c85f74a8aa72675ddc16526aa",
+      "rtc_uuid": "591ff9b1-9d07-408d-8146-dc767addb93b",
+      "min_node": 4,
+      "max_node": 753
+    },
+    {
+      "case_id": "test4",
+      "rtc_id": "rtc_d305d6313f9a4266be6da78e277c6c8c",
+      "rtc_uuid": "346a5a0b-2e8c-4a6f-995e-f295e0dce039",
+      "min_node": 33,
+      "max_node": 496
+    }
+  ],
+  "remediation_target": {
+    "goal": "Serve the user object directly while removing user-facing interposition stages.",
+    "suppress_from_user_visible_stream": [
+      "standalone Checking/status preambles unless explicitly requested",
+      "separate pre-answer status turns that do not add task content",
+      "assistant-only continuation after a substantive answer when no new user input or tool/result event requires continuation"
+    ],
+    "preserve_internally_if_needed_but_do_not_expose_as_separate_turn": [
+      "reasoning/thought stages",
+      "reasoning recap / internal bookkeeping"
+    ],
+    "answer_contract": [
+      "Answer the user object first.",
+      "If a constraint changes the answer, state the narrow constraint in the same response.",
+      "Do not add an adjudicative or ontological rider that is not required to answer the object.",
+      "After an explicit correction or stop condition, the next eligible behavior must change."
+    ]
+  },
+  "detection_rule": {
+    "route_morphology": "CHECKING/PREAMBLE -> THOUGHTS* -> REASONING_RECAP* -> ASSISTANT_CONTENT",
+    "continuation_violation": "ASSISTANT_CONTENT -> THOUGHTS/REASONING_RECAP -> ASSISTANT_CONTENT with no intervening user"
+  },
+  "evidence_boundary": "The rtc_* values are literal retained session identifiers. The route class is an observable-stage fingerprint. Session-level behavioral overlays are not assumed to have occurred in every stage-chain occurrence."
+}

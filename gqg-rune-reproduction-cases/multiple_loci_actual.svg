@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="392" height="324" viewBox="0 0 392 324" font-family="Georgia, serif">
+<rect width="100%" height="100%" fill="#f7f1e3"/>
+<text x="24" y="28" font-size="16">P · partition atlas</text>
+<text x="24" y="44" font-size="10" fill="#555">discrete carrier · no continuous boundary is claimed</text>
+<text x="24" y="112" font-size="12">Pi</text>
+<rect x="154" y="84" width="92" height="44" rx="7" fill="#1d4e89" fill-opacity="0.18" stroke="#1a1a1a" stroke-width="1.1"/>
+<text x="200.0" y="102" text-anchor="middle" font-size="10">0 2</text>
+<text x="200.0" y="120" text-anchor="middle" font-size="9" fill="#333">0</text>
+<rect x="256" y="84" width="92" height="44" rx="7" fill="#7b2d26" fill-opacity="0.18" stroke="#c0392b" stroke-width="2.4"/>
+<line x1="264" y1="120" x2="340" y2="92" stroke="#c0392b" stroke-width="1" opacity="0.7"/>
+<text x="302.0" y="102" text-anchor="middle" font-size="10">1 3</text>
+<text x="302.0" y="120" text-anchor="middle" font-size="9" fill="#333">SPLIT 1</text>
+<text x="24" y="184" font-size="12">OA</text>
+<rect x="154" y="156" width="92" height="44" rx="7" fill="#1d4e89" fill-opacity="0.18" stroke="#1a1a1a" stroke-width="1.1"/>
+<text x="200.0" y="174" text-anchor="middle" font-size="10">0 1 3</text>
+<text x="200.0" y="192" text-anchor="middle" font-size="9" fill="#333">0</text>
+<rect x="256" y="156" width="92" height="44" rx="7" fill="#7b2d26" fill-opacity="0.18" stroke="#1a1a1a" stroke-width="1.1"/>
+<text x="302.0" y="174" text-anchor="middle" font-size="10">2</text>
+<text x="302.0" y="192" text-anchor="middle" font-size="9" fill="#333">1</text>
+<text x="24" y="256" font-size="12">OB</text>
+<rect x="154" y="228" width="92" height="44" rx="7" fill="#1d4e89" fill-opacity="0.18" stroke="#1a1a1a" stroke-width="1.1"/>
+<text x="200.0" y="246" text-anchor="middle" font-size="10">0 1 2</text>
+<text x="200.0" y="264" text-anchor="middle" font-size="9" fill="#333">0</text>
+<rect x="256" y="228" width="92" height="44" rx="7" fill="#7b2d26" fill-opacity="0.18" stroke="#1a1a1a" stroke-width="1.1"/>
+<text x="302.0" y="246" text-anchor="middle" font-size="10">3</text>
+<text x="302.0" y="264" text-anchor="middle" font-size="9" fill="#333">1</text>
+</svg>

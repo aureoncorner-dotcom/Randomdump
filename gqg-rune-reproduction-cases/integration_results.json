@@ -1,0 +1,111 @@
+{
+  "finite_parity_add.gqg": {
+    "files": [
+      "finite_parity_add.gqg"
+    ],
+    "exit_code": 0,
+    "stdout": "=== GQG Rune v0.2  ACCEPT ===\nCAT=Set  SRC=Z6\nAST_SHA256=25e024335c52dcf954f95ad94a9558a7e3e2ecbd1a238cf0c2fa10854e2460e2\nfeature_signature=843416397693870  counts={'CAT': 1, 'SRC': 1, 'CAR': 1, 'WIT': 1, 'OBS': 1, 'EQV': 1, 'QUO': 1, 'IMG': 1, 'ASN': 1, 'OP': 1, 'DSC': 1, 'PAIR': 2}\n\nambient  CAT[Set]\n\n  [Z6]  --WIT[mod2]:Omega2-->  [Y]\n     \\\n      EQV[R2] = ker_pair(Omega2)\n         \\\n          QUO[Q2]  >-->  IMG[I2]\n          `Q2 ~= I2`   [Set first-iso]\n\n  descent:\n    DSC[add through Q2] ≈  (tested_only)\n\n-- diagnostics: 0 error / 0 warning / 9 note --\n[note   ] N101  QuotientExists_Set(R2) assumed for this sketch.\n[note   ] N512  In `Set`, Q_W ≅ im Ω_W is the usual first-iso factorization.\n[note   ] N210  Descent of `add` queued for finite-carrier search.\n[note   ] N000  Mathematics lane only. Interpretive / room / empirical claims are out of band.\n[note   ] N600  Finite carrier `Z6` has 6 elements. Exhaustive results are scoped to this carrier only.\n[note   ] N610  Fibers of `Omega2` computed on `Z6`.  |  OBS[Omega2] image=[0, 1]  |fibers|=2  colliding_pairs=6 ·     [0] [0, 2, 4] ·     [1] [1, 3, 5]\n[note   ] N611  pair `even`: 0 ~_Omega2 2  (0 = 0).\n[note   ] N611  pair `odd`: 1 ~_Omega2 5  (1 = 1).\n[note   ] N204F  No descent collision for `add` on this carrier. TESTED_ONLY — not established for any larger domain.\n\n-- finite carrier --\ncarrier Z6 = [0, 1, 2, 3, 4, 5]\nOBS[Omega2] image=[0, 1]  |fibers|=2  colliding_pairs=6\n    [0] [0, 2, 4]\n    [1] [1, 3, 5]\n-- partition atlas --\nOmega2       [ 0 2 4 ]:0  [ 1 3 5 ]:1\n\n[svg] C:\\Users\\drewd\\Documents\\Codex\\2026-09-11\\cha\\work\\gqg_rune_review\\gqg_rune_v01\\examples\\..\\out\\finite_parity_add.svg\n\n",
+    "stderr": ""
+  },
+  "missing_descent_certificate.gqg": {
+    "files": [
+      "missing_descent_certificate.gqg"
+    ],
+    "exit_code": 0,
+    "stdout": "=== GQG Rune v0.2  FINDING ===\nCAT=Set  SRC=P\nAST_SHA256=723789a1e4463497bd72513c24e31b316ead050c9fc600245440aaa9450d31ee\nfeature_signature=21111090  counts={'CAT': 1, 'SRC': 1, 'WIT': 1, 'OBS': 1, 'EQV': 1, 'QUO': 1, 'OP': 1, 'DSC': 1}\n\nambient  CAT[Set]\n\n  [P]  --WIT[W]:Omega-->  [Y]\n     \\\n      EQV[R] = ker_pair(Omega)\n         \\\n          QUO[Q]  >-->  IMG[im]\n          `Q ~= im`   [Set first-iso]\n\n  descent:\n    DSC[f through Q] ?  (unresolved)\n\n-- diagnostics: 1 error / 0 warning / 2 note --\n[note   ] N101  QuotientExists_Set(R) assumed for this sketch.\n[error  ] E204  Operation `f` is applied after quotienting, but no descent certificate is present.  |  Add `status proved`, `status fails`, or `search` with a carrier.\n[note   ] N000  Mathematics lane only. Interpretive / room / empirical claims are out of band.\n\n",
+    "stderr": ""
+  },
+  "non_closed_operation.gqg": {
+    "files": [
+      "non_closed_operation.gqg"
+    ],
+    "exit_code": 0,
+    "stdout": "=== GQG Rune v0.2  ACCEPT ===\nCAT=Set  SRC=P\nAST_SHA256=28a3789cd6faa656b3d2d2d5e753710cc1b02b89043a957b234e9b741513e7bd\nfeature_signature=865554690  counts={'CAT': 1, 'SRC': 1, 'CAR': 1, 'WIT': 1, 'OBS': 1, 'EQV': 1, 'QUO': 1, 'OP': 1, 'DSC': 1}\n\nambient  CAT[Set]\n\n  [P]  --WIT[W]:Omega-->  [Y]\n     \\\n      EQV[R] = ker_pair(Omega)\n         \\\n          QUO[Q]  >-->  IMG[im]\n          `Q ~= im`   [Set first-iso]\n\n  descent:\n    DSC[f through Q] ≈  (tested_only)\n\n-- diagnostics: 0 error / 0 warning / 6 note --\n[note   ] N101  QuotientExists_Set(R) assumed for this sketch.\n[note   ] N210  Descent of `f` queued for finite-carrier search.\n[note   ] N000  Mathematics lane only. Interpretive / room / empirical claims are out of band.\n[note   ] N600  Finite carrier `P` has 2 elements. Exhaustive results are scoped to this carrier only.\n[note   ] N610  Fibers of `Omega` computed on `P`.  |  OBS[Omega] image=[0]  |fibers|=1  colliding_pairs=1 ·     [0] [0, 1]\n[note   ] N204F  No descent collision for `f` on this carrier. TESTED_ONLY — not established for any larger domain.\n\n-- finite carrier --\ncarrier P = [0, 1]\nOBS[Omega] image=[0]  |fibers|=1  colliding_pairs=1\n    [0] [0, 1]\n-- partition atlas --\nOmega        [ 0 1 ]:0\n\n[svg] C:\\Users\\drewd\\Documents\\Codex\\2026-09-11\\cha\\work\\gqg_rune_review\\cases\\..\\out\\non_closed_operation.svg\n\n",
+    "stderr": ""
+  },
+  "wrong_observation_iso.gqg": {
+    "files": [
+      "wrong_observation_iso.gqg"
+    ],
+    "exit_code": 0,
+    "stdout": "=== GQG Rune v0.2  ACCEPT ===\nCAT=Set  SRC=P\nAST_SHA256=3da5735d0dd37ee002ca56140c41c8a292f97e2695d050ab954a247bce2dcec7\nfeature_signature=22710037350  counts={'CAT': 1, 'SRC': 1, 'CAR': 1, 'WIT': 2, 'OBS': 2, 'EQV': 1, 'QUO': 1, 'IMG': 1, 'ASN': 1}\n\nambient  CAT[Set]\n\n  [P]  --WIT[W]:Omega-->  [Y]\n     \\\n      EQV[R] = ker_pair(Omega)\n         \\\n          QUO[Q]  >-->  IMG[I]\n          `Q ~= I`   [Set first-iso]\n\n-- diagnostics: 0 error / 0 warning / 6 note --\n[note   ] N101  QuotientExists_Set(R) assumed for this sketch.\n[note   ] N512  In `Set`, Q_W ≅ im Ω_W is the usual first-iso factorization.\n[note   ] N000  Mathematics lane only. Interpretive / room / empirical claims are out of band.\n[note   ] N600  Finite carrier `P` has 4 elements. Exhaustive results are scoped to this carrier only.\n[note   ] N610  Fibers of `Omega` computed on `P`.  |  OBS[Omega] image=[0, 1]  |fibers|=2  colliding_pairs=2 ·     [0] [0, 2] ·     [1] [1, 3]\n[note   ] N610  Fibers of `Id` computed on `P`.  |  OBS[Id] image=[0, 1, 2, 3]  |fibers|=4  colliding_pairs=0 ·     [0] [0] ·     [1] [1] ·     [2] [2] ·     [3] [3]\n\n-- finite carrier --\ncarrier P = [0, 1, 2, 3]\nOBS[Omega] image=[0, 1]  |fibers|=2  colliding_pairs=2\n    [0] [0, 2]\n    [1] [1, 3]\nOBS[Id] image=[0, 1, 2, 3]  |fibers|=4  colliding_pairs=0\n    [0] [0]\n    [1] [1]\n    [2] [2]\n    [3] [3]\n-- partition atlas --\nOmega        [ 0 2 ]:0  [ 1 3 ]:1\nId           [ 0 ]:0  [ 1 ]:1  [ 2 ]:2  [ 3 ]:3\njoin         [ 0 ]:(0, 0)  [ 2 ]:(0, 2)  [ 1 ]:(1, 1)  [ 3 ]:(1, 3)\n\nrefinement  Omega  vs  Id   [coarser]\n  (displayed with the finer partition on top)\n  fine   [ 0 ] [ 2 ]   [ 1 ] [ 3 ]\n         |---------|   |---------|\n  coarse [ 0 2 ]   [ 1 3 ]\n\n\n[svg] C:\\Users\\drewd\\Documents\\Codex\\2026-09-11\\cha\\work\\gqg_rune_review\\cases\\..\\out\\wrong_observation_iso.svg\n\n",
+    "stderr": ""
+  },
+  "binary_table_json.gqg": {
+    "files": [
+      "binary_table_json.gqg"
+    ],
+    "exit_code": 1,
+    "stdout": "",
+    "stderr": "Traceback (most recent call last):\n  File \"C:\\Users\\drewd\\Documents\\Codex\\2026-09-11\\cha\\work\\gqg_rune_review\\gqg_rune_v01\\compiler.py\", line 950, in <module>\n    sys.exit(main(sys.argv))\n             ^^^^^^^^^^^^^^\n  File \"C:\\Users\\drewd\\Documents\\Codex\\2026-09-11\\cha\\work\\gqg_rune_review\\gqg_rune_v01\\compiler.py\", line 926, in main\n    prog, text = compile_source(src)\n                 ^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\drewd\\Documents\\Codex\\2026-09-11\\cha\\work\\gqg_rune_review\\gqg_rune_v01\\compiler.py\", line 913, in compile_source\n    return prog, report(prog)\n                 ^^^^^^^^^^^^\n  File \"C:\\Users\\drewd\\Documents\\Codex\\2026-09-11\\cha\\work\\gqg_rune_review\\gqg_rune_v01\\compiler.py\", line 893, in report\n    f\"AST_SHA256={ast_hash(prog)}\",\n                  ^^^^^^^^^^^^^^\n  File \"C:\\Users\\drewd\\Documents\\Codex\\2026-09-11\\cha\\work\\gqg_rune_review\\gqg_rune_v01\\compiler.py\", line 812, in ast_hash\n    return hashlib.sha256(canonical_json(prog).encode()).hexdigest()\n                          ^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\drewd\\Documents\\Codex\\2026-09-11\\cha\\work\\gqg_rune_review\\gqg_rune_v01\\compiler.py\", line 808, in canonical_json\n    return json.dumps(body, sort_keys=True, separators=(\",\", \":\"))\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\drewd\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\json\\__init__.py\", line 238, in dumps\n    **kw).encode(obj)\n          ^^^^^^^^^^^\n  File \"C:\\Users\\drewd\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\json\\encoder.py\", line 200, in encode\n    chunks = self.iterencode(o, _one_shot=True)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\drewd\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\json\\encoder.py\", line 258, in iterencode\n    return _iterencode(o, 0)\n           ^^^^^^^^^^^^^^^^^\nTypeError: keys must be str, int, float, bool or None, not tuple\n"
+  },
+  "batch_after_bad_formula": {
+    "files": [
+      "invalid_formula_syntax.gqg",
+      "finite_parity_add.gqg"
+    ],
+    "exit_code": 1,
+    "stdout": "",
+    "stderr": "Traceback (most recent call last):\n  File \"C:\\Users\\drewd\\Documents\\Codex\\2026-09-11\\cha\\work\\gqg_rune_review\\gqg_rune_v01\\compiler.py\", line 950, in <module>\n    sys.exit(main(sys.argv))\n             ^^^^^^^^^^^^^^\n  File \"C:\\Users\\drewd\\Documents\\Codex\\2026-09-11\\cha\\work\\gqg_rune_review\\gqg_rune_v01\\compiler.py\", line 926, in main\n    prog, text = compile_source(src)\n                 ^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\drewd\\Documents\\Codex\\2026-09-11\\cha\\work\\gqg_rune_review\\gqg_rune_v01\\compiler.py\", line 912, in compile_source\n    prog = check(prog)\n           ^^^^^^^^^^^\n  File \"C:\\Users\\drewd\\Documents\\Codex\\2026-09-11\\cha\\work\\gqg_rune_review\\gqg_rune_v01\\compiler.py\", line 542, in check\n    check_finite(prog, err, warn, note)\n  File \"C:\\Users\\drewd\\Documents\\Codex\\2026-09-11\\cha\\work\\gqg_rune_review\\gqg_rune_v01\\compiler.py\", line 604, in check_finite\n    maps[n.name] = _as_evalmap(n)\n                   ^^^^^^^^^^^^^^\n  File \"C:\\Users\\drewd\\Documents\\Codex\\2026-09-11\\cha\\work\\gqg_rune_review\\gqg_rune_v01\\compiler.py\", line 555, in _as_evalmap\n    em.bind()\n  File \"C:\\Users\\drewd\\Documents\\Codex\\2026-09-11\\cha\\work\\gqg_rune_review\\gqg_rune_v01\\finite.py\", line 154, in bind\n    compiled = compile_expr(self.formula)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\drewd\\Documents\\Codex\\2026-09-11\\cha\\work\\gqg_rune_review\\gqg_rune_v01\\finite.py\", line 56, in compile_expr\n    tree = ast.parse(expr, mode=\"eval\")\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\drewd\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\ast.py\", line 52, in parse\n    return compile(source, filename, mode, flags,\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<unknown>\", line 1\n    x +\nSyntaxError: invalid syntax\n"
+  },
+  "multiple_loci_overwrite": {
+    "verdict": "=== GQG Rune v0.2  FINDING ===",
+    "loci": [
+      {
+        "name": "N_OA_Pi",
+        "status": "counterexample",
+        "labels": [
+          "0"
+        ]
+      },
+      {
+        "name": "N_OB_Pi",
+        "status": "counterexample",
+        "labels": [
+          "1"
+        ]
+      }
+    ],
+    "svg_split_labels": [
+      "SPLIT 1"
+    ],
+    "expected_labels": [
+      "SPLIT 0",
+      "SPLIT 1"
+    ]
+  },
+  "svg_validation": {
+    "finite_bad_pair.gqg": {
+      "xml_valid": true,
+      "matches_bundled": null
+    },
+    "finite_floor_fail.gqg": {
+      "xml_valid": true,
+      "matches_bundled": true
+    },
+    "finite_incomparable.gqg": {
+      "xml_valid": true,
+      "matches_bundled": true
+    },
+    "finite_locus_sector.gqg": {
+      "xml_valid": true,
+      "matches_bundled": true
+    },
+    "finite_parity_add.gqg": {
+      "xml_valid": true,
+      "matches_bundled": null
+    },
+    "finite_refine.gqg": {
+      "xml_valid": true,
+      "matches_bundled": true
+    },
+    "finite_refine_reversed.gqg": {
+      "xml_valid": true,
+      "matches_bundled": null
+    },
+    "finite_service.gqg": {
+      "xml_valid": true,
+      "matches_bundled": true
+    }
+  }
+}

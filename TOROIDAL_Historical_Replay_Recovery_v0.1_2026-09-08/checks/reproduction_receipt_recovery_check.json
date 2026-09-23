@@ -1,0 +1,27 @@
+{
+  "checks": {
+    "attempt_accounting": true,
+    "authority_gap_disclosed": true,
+    "authorization_boundary_preserved": true,
+    "chain_measurement_digests": true,
+    "dynamics_reconstruction_hash": true,
+    "fixed_parameters": true,
+    "fixed_schedule": true,
+    "fixed_seeds": true,
+    "fixed_shape": true,
+    "kernel_id": true,
+    "online_invariant_receipt_clean": true,
+    "retained_activity_nonnegative": true,
+    "retained_q_winding_parity": true,
+    "sample_file_hash": true,
+    "sample_shapes": true,
+    "sector_counts_recomputed": true
+  },
+  "dynamics_prose_reconstruction_sha256": "176b18f1c955337a5fc1dbe8bf0aac5e2e9a028ec076b0b519652776ee01fb11",
+  "failed_checks": [],
+  "results_sha256": "40a3c3224fe8b99993abf78fd63125be585823588652a289f9eb4c28b4e96b3a",
+  "samples_sha256": "411310b8f7257c115627187cdda415a19c72fd32b0317a018b15f5027a0e9106",
+  "schema": "td-cos-fh-receipt-verification/1",
+  "scope": "Structural receipt and retained-sample verification. Full I/M constraints were checked online by the sampler after every accepted update and at every retained measurement; the compact sample file does not contain complete I/M states for independent replay.",
+  "status": "PASS"
+}

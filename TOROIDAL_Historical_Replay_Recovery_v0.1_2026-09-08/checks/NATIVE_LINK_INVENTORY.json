@@ -1,0 +1,108 @@
+[
+  {
+    "document_id": "1NV7JsFuqJJVjFzYcqCAuC22y_rrjCSqqcZWZKobcGoU",
+    "source_path": "sources/TOROIDAL_Working_Master.txt",
+    "native_link_uris": [
+      "https://docs.google.com/document/d/11nZWX9optKPLn9PX90cNktrj84iyafFNi3Pj1LDFZEk/edit",
+      "https://docs.google.com/document/d/1Cn00U9Cj37QRrK2Xg3bX1417xYKstkFzednitR9xjog/edit",
+      "https://docs.google.com/document/d/1DVgC8ia4Z1suHmLbcrDbvw1ETuSjkTm25_5DH8OOQNI/edit",
+      "https://docs.google.com/document/d/1G88zvSUXi78R6uCMJYBEZpOmFpIiyP8OAK8_gtd9Hxw/edit",
+      "https://docs.google.com/document/d/1ON-nOrXUCCixHFm4WYIbihKtY47wQ2p0ylgR4r4opiY/edit",
+      "https://docs.google.com/document/d/1WhRhyVqrz7lZXPawJfjs8GBnnCis3oMCFYk6fnvFH7k/edit",
+      "https://docs.google.com/document/d/1YNIuAhjiY9szcA9Q5uvMm0N-b88KEQ15jjzFRLvdanY/edit",
+      "https://docs.google.com/document/d/1ZfHYapZKoC3u96rZeOgc7UiBsCvZf-oHpITmTEz9nEk/edit",
+      "https://docs.google.com/document/d/1gGxdHa0Sg9EIKtIJTnI3u0M8emQXwI6rMuZoH82E-TM/edit",
+      "https://docs.google.com/document/d/1gXUSaFvix1R_7-sqtkO5m8VqZqxGnDbl2JiLXas8KF4/edit",
+      "https://docs.google.com/document/d/1jDBi4zR7W4fkJ_1F_gKU-RQPfkBgiBllXF5Pw1onP1Q/edit",
+      "https://docs.google.com/document/d/1yCrt_jZopMgm7HI8kHr_Q0ljMaWLqGRD-lbMGXkyXSY/edit",
+      "https://drive.google.com/drive/folders/17P1St3hK26XlWkgSijHamP5bmeyO_weg",
+      "https://drive.google.com/file/d/1103tr4UUEIbyLYUxfE1zaCyn_E6MyAxW/view"
+    ],
+    "literal_artifact_mentions": [
+      "02_Simulation_Protocol_v0.6_Consolidated.md",
+      "05_TTSC_1_v0.4_Curved_Throat.md",
+      "15_Integration_Manifest_v0.3.md",
+      "VERIFICATION_RESULTS.json"
+    ]
+  },
+  {
+    "document_id": "1G88zvSUXi78R6uCMJYBEZpOmFpIiyP8OAK8_gtd9Hxw",
+    "source_path": "sources/Historical_mismatch_investigation.txt",
+    "native_link_uris": [],
+    "literal_artifact_mentions": [
+      "DYNAMICS.json",
+      "DYNAMICS_PROSE_RECONSTRUCTION.json",
+      "EVENT_FORMAT.md",
+      "TD_COS_FH_001_L2_FIRST_RUN_PACKET_v0.1.zip"
+    ]
+  },
+  {
+    "document_id": "1R6V-Sa6ga1uSEgFLSidUQQBPeqAWF8RTCy8Zn6ICyUc",
+    "source_path": "sources/First_run_reproduction_receipt.txt",
+    "native_link_uris": [
+      "https://docs.google.com/document/d/1J43udMgUlfGXuMMdkCGw_Ef5vaZbYd9SasTzcQ1isEo/edit",
+      "https://docs.google.com/document/d/1ZMFcH3AV574iMI8qREeOcLS3NPb7rchNnyB1juHnYeM/edit"
+    ],
+    "literal_artifact_mentions": [
+      "DYNAMICS.json",
+      "TD_COS_FH_001_L2_FIRST_RUN_PACKET_v0.1.zip",
+      "TD_COS_FH_001_L2_companion_comparison.json",
+      "TD_COS_FH_001_L2_run_results.json",
+      "TD_COS_FH_001_L2_samples.npz",
+      "TD_COS_FH_001_L2_verification.json"
+    ]
+  },
+  {
+    "document_id": "1ZMFcH3AV574iMI8qREeOcLS3NPb7rchNnyB1juHnYeM",
+    "source_path": "sources/Toroidal_Dynamics_v0.1.txt",
+    "native_link_uris": [],
+    "literal_artifact_mentions": [
+      "AUDIT_RESULTS.json",
+      "DYNAMICS.json",
+      "SOURCE_BINDINGS.json",
+      "sources/01_Field_Theory_Update_v0.4_Consolidated.md",
+      "sources/02_Simulation_Protocol_v0.6_Consolidated.md",
+      "sources/03_Appendix_A_v0.2_Three_Axis_Orbit_Cocycle.md"
+    ]
+  },
+  {
+    "document_id": "1J43udMgUlfGXuMMdkCGw_Ef5vaZbYd9SasTzcQ1isEo",
+    "source_path": "sources/Tiny_system_validation_v0.1_companion.txt",
+    "native_link_uris": [],
+    "literal_artifact_mentions": [
+      "COMPARISON_RESULTS.json",
+      "EVENT_FORMAT.md",
+      "FOLLOWUP_COMPARISON_RESULTS.json",
+      "FOLLOWUP_PLAN.json",
+      "VALIDATION_PLAN.json",
+      "baseline/TOROIDAL_DYNAMICS_v0.1.md"
+    ]
+  },
+  {
+    "document_id": "1ON-nOrXUCCixHFm4WYIbihKtY47wQ2p0ylgR4r4opiY",
+    "source_path": "sources/All_orders_Drive_note_truncated.txt",
+    "native_link_uris": [],
+    "literal_artifact_mentions": [
+      "DYNAMICS.json",
+      "review_snapshot.md",
+      "spec_snapshot.md",
+      "verification.json",
+      "verify.py"
+    ]
+  },
+  {
+    "document_id": "1gXUSaFvix1R_7-sqtkO5m8VqZqxGnDbl2JiLXas8KF4",
+    "source_path": "fallback_reference/Prospective_replacement_amendment.txt",
+    "native_link_uris": [],
+    "literal_artifact_mentions": [
+      "DYNAMICS.json",
+      "DYNAMICS_PROSE_RECONSTRUCTION.json",
+      "DYNAMICS_REPLACEMENT_v0.1.json",
+      "EVENT_CHECKPOINT_REQUIREMENTS.md",
+      "MANIFEST.json",
+      "SOURCE_BINDINGS.json",
+      "TD_COS_FH_001_L2_FIRST_RUN_PACKET_v0.1.zip",
+      "sampler/td_cos_fh_001_sampler.py"
+    ]
+  }
+]
