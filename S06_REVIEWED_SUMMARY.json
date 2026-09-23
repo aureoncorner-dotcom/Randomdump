@@ -1,0 +1,119 @@
+{
+  "inclusive": {
+    "events": 1997,
+    "structure": {
+      "CONTENT_BEFORE_NEXT_USER": 1037,
+      "INLINE_CONTENT_INHERITED": 757,
+      "CONTENT_AFTER_USER": 202,
+      "NO_LATER_CONTENT": 1
+    },
+    "patched": 5,
+    "before_next_user_record_time": {
+      "n": 1037,
+      "median": 0.002875,
+      "minimum": -17.774067,
+      "maximum": 282.606054,
+      "negative": 1,
+      "zero_to_0_1": 836
+    },
+    "tool_before_endpoint": 54
+  },
+  "strict": {
+    "events": 1988,
+    "structure": {
+      "CONTENT_BEFORE_NEXT_USER": 1033,
+      "INLINE_CONTENT_INHERITED": 756,
+      "CONTENT_AFTER_USER": 198,
+      "NO_LATER_CONTENT": 1
+    },
+    "patched": 5,
+    "before_next_user_record_time": {
+      "n": 1033,
+      "median": 0.002868,
+      "minimum": -17.774067,
+      "maximum": 282.606054,
+      "negative": 1,
+      "zero_to_0_1": 836
+    },
+    "tool_before_endpoint": 54
+  },
+  "correction_candidate_dispositions": {
+    "ORDINARY_WORD_USE": 5,
+    "DIFFERENT_BEHAVIOR_CORRECTION": 2,
+    "MARKER_ANALYSIS_REQUEST": 4,
+    "SUPPLIED_DOCUMENT_OR_RETROSPECTIVE_ANALYSIS": 22,
+    "DIRECT_PROSPECTIVE_STOP": 2
+  },
+  "direct_stop_anchors": 2,
+  "independent_stop_episodes_claimed": 1,
+  "post_correction_sessions": [
+    {
+      "session": "rtc_4afb8c71de7044a3a7ce60cf5727910f",
+      "matches_anchor": true,
+      "node_start": 335,
+      "node_end": 756,
+      "replies": 186,
+      "checking_events": 66,
+      "checking_inline_inherited": 46,
+      "checking_status_only_inherited": 20
+    },
+    {
+      "session": "rtc_1927e8aa705446fdabe31590307bf3d0",
+      "matches_anchor": false,
+      "node_start": 765,
+      "node_end": 792,
+      "replies": 12,
+      "checking_events": 4,
+      "checking_inline_inherited": 3,
+      "checking_status_only_inherited": 1
+    }
+  ],
+  "post_window": {
+    "replies": 198,
+    "actual_checking": 70,
+    "checking_inline_inherited": 49,
+    "checking_status_only_inherited": 21
+  },
+  "letter_episode": {
+    "initial_request_node": 341,
+    "additional_request_nodes": [
+      344,
+      346,
+      348
+    ],
+    "draft_node": 349,
+    "stop_anchor_nodes": [
+      334,
+      336
+    ],
+    "correction_binding": "CHECKING_RECURS",
+    "task_output": "LETTER_TEXT_PRESENT_REQUESTED_CONFESSION_NOT_PROVIDED",
+    "record_span_user_request_to_draft": 63.973703,
+    "interpretation": "Three further user prompts are observed before the draft. No causal estimate of required effort or acoustic delay is made."
+  },
+  "candidate_probe": {
+    "different_endpoints": 114,
+    "earlier": 110,
+    "later": 4,
+    "earlier_workflow_records": 93,
+    "earlier_other_short_utterances": 17,
+    "disposition": "These are alternative non-status candidates, not 114 established errors in the source audit."
+  },
+  "matched_acoustic_latency_test": {
+    "status": "NOT_ESTIMABLE_FROM_SUPPLIED_RECORDS",
+    "missing": [
+      "request audio end timestamps",
+      "status audio commit/start timestamps",
+      "first substantive audio/token timestamps",
+      "validated matching task and tool-requirement classes"
+    ],
+    "available": "Node creation timestamps, message text, selected metadata, source-coded event classes and tool-role presence."
+  },
+  "unmeasured_coordinates": [
+    "Usable exit",
+    "Compulsory constitutional third seat",
+    "Attention/energy cost",
+    "Beneficiary effect",
+    "Platform implementation mechanism"
+  ]
+}

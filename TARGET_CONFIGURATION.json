@@ -1,0 +1,50 @@
+{
+  "program_version": "4.1",
+  "program_sha256": "4f6977187b54ef6131f2041abee4a93440bc5507a23f5c9f1827e520091cd087",
+  "parent_program_sha256": "61052c99258c2b75d19b7ee58a8e64fb5b8c74efdd74d22e99e940f54119590f",
+  "generated_at_utc": "2026-09-07T18:42:28.083003+00:00",
+  "target_configuration": {
+    "executable": "C:\\Users\\drewd\\AppData\\Local\\OpenAI\\Codex\\bin\\8e5b6932251c2c1c\\codex.exe",
+    "executable_sha256": "e5aa76d19c7c94e2e9ef9b707d590206a73ac0e97c8ddc8382181242494bef75",
+    "arguments": [
+      "exec",
+      "--ephemeral",
+      "--json",
+      "--ignore-user-config",
+      "--skip-git-repo-check",
+      "--sandbox",
+      "read-only",
+      "--model",
+      "gpt-6-astra",
+      "-c",
+      "model_reasoning_effort=\"max\"",
+      "-c",
+      "service_tier=\"priority\"",
+      "-c",
+      "approval_policy=\"never\""
+    ],
+    "environment": {
+      "CODEX_HOME": "C:\\Users\\drewd\\.codex"
+    },
+    "cwd": "C:\\Users\\drewd\\Documents\\Codex\\2026-09-07\\worked-for-1m-19s-yes-mathematically\\work\\next_pass\\model_cwd",
+    "modality": "text",
+    "reasoning_mode": "max",
+    "model_requested": "gpt-6-astra",
+    "model_id_observed": null,
+    "model_label_ui": null,
+    "service_tier_requested": "priority",
+    "timeout_seconds": 240,
+    "session_strategy": "fresh_ephemeral_process_per_trial",
+    "source_configuration_fields": {
+      "model": "gpt-6-astra",
+      "model_reasoning_effort": "max",
+      "service_tier": "priority"
+    },
+    "validation_sha256": {
+      "SOURCE_HASH_GATE.json": "a660a095397d10cafdc472a83263efde722b42f2432cfc2afb85f3691d2c9dc2",
+      "GEOMETRY_REVALIDATION.json": "66d2eec6ad2a7ae0576d1e962585055c0d0c4c0f13a4e1fd56cbd233ee567d1f",
+      "CAPTURE_PATH_VALIDATION.json": "d967f5ef9046021e617bfba544e5f57555ec92a7011ecd90bc2e5e26385411d7"
+    }
+  },
+  "target_configuration_sha256": "5db74c271671b8cfb2e81c5d54b1990362c02a02b58b27ee08daee6b0e9533cd"
+}

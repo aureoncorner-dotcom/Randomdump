@@ -1,0 +1,34 @@
+{
+  "checked_at_utc": "2026-09-07T16:55:09.602850+00:00",
+  "status": "PASS",
+  "release_directory": "C:\\Users\\drewd\\OneDrive\\Desktop\\GEOMETRY_MAXIMIZATION_v2.0",
+  "matching_registered_sha256_files": 43,
+  "matches_previously_read_sources": {
+    "GEOMETRY_MAXIMIZATION_v2.0.md": true,
+    "TECHNICAL_APPENDIX_v2.0.md": true,
+    "FIELD_THEORY_UPDATE_v0.3.md": true,
+    "SIMULATION_PROTOCOL_v0.5.md": true,
+    "CHANGELOG_v2.0.md": true,
+    "RELEASE_REPORT_v2.0.md": true,
+    "EVIDENCE_LEDGER_v2.0.json": true
+  },
+  "drop_it_comparison": {
+    "source_run": "examples/exact_10000/run.json",
+    "states_compared": 10000,
+    "fields_compared_exactly": [
+      "theta",
+      "rho",
+      "z",
+      "bin",
+      "strand",
+      "slip"
+    ],
+    "mismatches": 0,
+    "slips": 1034
+  },
+  "execution_counts": {
+    "release_suite_reruns": 0,
+    "browser_qa_reruns": 0,
+    "live_intervention_trials": 0
+  }
+}

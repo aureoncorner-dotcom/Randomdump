@@ -1,0 +1,186 @@
+{
+  "analysis_time_utc": "2026-09-08T03:14:24.085485+00:00",
+  "protocol_sha256": "b80a6db071f270a4fd099f0d0ca7e2f26df1ae55d7be377c1ca33490d8ef2f48",
+  "input_hashes": {
+    "nodes": "0b140ef5404ea7ac71847f6b14e579227add187e2ef18b26119e4e864be5be21",
+    "events": "47d508059b2d18c2c80d95b03ddb0a54dc471bd4de2a5acb86b51832a4d2d72a",
+    "candidates": "bb0170dafeade4ba0e1e290ea838799b46213703f17fc3f9362cb912b63aef27",
+    "evidence_table": "e8b5d3d31b03567fecae9bd736e720660cffcc186d3f7e4772baeed51b55686f"
+  },
+  "raw_sources": [
+    {
+      "case": "eighteenth_share",
+      "path": "C:\\Users\\drewd\\Documents\\Codex\\2026-08-17\\https-chatgpt-com-share-6a83bc98-6b9c\\work\\eighteenth_share_transcript.md",
+      "expected": "e8e8d0dc338a26631b67069190015e5319a5cc0feaf110edb865ae22ae8a848f",
+      "actual": "e8e8d0dc338a26631b67069190015e5319a5cc0feaf110edb865ae22ae8a848f",
+      "matches": true
+    },
+    {
+      "case": "eighth_share",
+      "path": "C:\\Users\\drewd\\Documents\\Codex\\2026-08-17\\https-chatgpt-com-share-6a83bc98-6b9c\\work\\eighth_share_transcript.md",
+      "expected": "9e2dda08b245cd79934b4e6a44697599323ccacae97fce58c6eb541d08fb3f95",
+      "actual": "9e2dda08b245cd79934b4e6a44697599323ccacae97fce58c6eb541d08fb3f95",
+      "matches": true
+    },
+    {
+      "case": "eleventh_share",
+      "path": "C:\\Users\\drewd\\Documents\\Codex\\2026-08-17\\https-chatgpt-com-share-6a83bc98-6b9c\\work\\eleventh_share_transcript.md",
+      "expected": "69b0cf785008cc3ac4033666af138b76dec70b3eebd34d0c6b457813c98ec961",
+      "actual": "69b0cf785008cc3ac4033666af138b76dec70b3eebd34d0c6b457813c98ec961",
+      "matches": true
+    },
+    {
+      "case": "fifteenth_share",
+      "path": "C:\\Users\\drewd\\Documents\\Codex\\2026-08-17\\https-chatgpt-com-share-6a83bc98-6b9c\\work\\fifteenth_share_transcript.md",
+      "expected": "ec29f1dcf34a0a585803f0fb0eb6c51b817e259f3ff0fa874a1cb1511c707ff7",
+      "actual": "ec29f1dcf34a0a585803f0fb0eb6c51b817e259f3ff0fa874a1cb1511c707ff7",
+      "matches": true
+    },
+    {
+      "case": "fifth_share",
+      "path": "C:\\Users\\drewd\\Documents\\Codex\\2026-08-17\\https-chatgpt-com-share-6a83bc98-6b9c\\work\\fifth_share_transcript.md",
+      "expected": "12859e85c17e30a8c96b00a922da3cb861ea84f3a52845cb453284756361afcb",
+      "actual": "12859e85c17e30a8c96b00a922da3cb861ea84f3a52845cb453284756361afcb",
+      "matches": true
+    },
+    {
+      "case": "first_share",
+      "path": "C:\\Users\\drewd\\Documents\\Codex\\2026-08-17\\https-chatgpt-com-share-6a83bc98-6b9c\\work\\first_share_transcript.md",
+      "expected": "f3fc59221d2d863c065bfc987d2ebdb9059cce141c6a9296fb23348d22ff5640",
+      "actual": "f3fc59221d2d863c065bfc987d2ebdb9059cce141c6a9296fb23348d22ff5640",
+      "matches": true
+    },
+    {
+      "case": "fourteenth_share",
+      "path": "C:\\Users\\drewd\\Documents\\Codex\\2026-08-17\\https-chatgpt-com-share-6a83bc98-6b9c\\work\\fourteenth_share_transcript.md",
+      "expected": "8bf702872a7bbfcb67d5ac12005264af016e3685c58fb5fe2476b2ebae262253",
+      "actual": "8bf702872a7bbfcb67d5ac12005264af016e3685c58fb5fe2476b2ebae262253",
+      "matches": true
+    },
+    {
+      "case": "fourth_share",
+      "path": "C:\\Users\\drewd\\Documents\\Codex\\2026-08-17\\https-chatgpt-com-share-6a83bc98-6b9c\\work\\fourth_share_transcript.md",
+      "expected": "c51d9cd2c485178a5a0b4d5db182428713b79964a67fc24e6447c84d5a87f225",
+      "actual": "c51d9cd2c485178a5a0b4d5db182428713b79964a67fc24e6447c84d5a87f225",
+      "matches": true
+    },
+    {
+      "case": "nineteenth_share",
+      "path": "C:\\Users\\drewd\\Documents\\Codex\\2026-08-17\\https-chatgpt-com-share-6a83bc98-6b9c\\work\\nineteenth_share_transcript.md",
+      "expected": "7adba49bc2f82f08bdfd5e562f3d22528b7d0ade250bebc2eee64a5dfec5528b",
+      "actual": "7adba49bc2f82f08bdfd5e562f3d22528b7d0ade250bebc2eee64a5dfec5528b",
+      "matches": true
+    },
+    {
+      "case": "ninth_share",
+      "path": "C:\\Users\\drewd\\Documents\\Codex\\2026-08-17\\https-chatgpt-com-share-6a83bc98-6b9c\\work\\ninth_share_transcript.md",
+      "expected": "87ecf2a6615ff9e8ea4a7585ddcbde3812a93bda2a3842367eafb751a7e30bfe",
+      "actual": "87ecf2a6615ff9e8ea4a7585ddcbde3812a93bda2a3842367eafb751a7e30bfe",
+      "matches": true
+    },
+    {
+      "case": "office_metaphor",
+      "path": "C:\\Users\\drewd\\Documents\\Codex\\2026-08-17\\https-chatgpt-com-share-6a83bc98-6b9c\\work\\office_metaphor_transcript.md",
+      "expected": "432dcb8593cb01558ed843f96099c475fc5f2ebda281a2137a77ddcf09dd3331",
+      "actual": "432dcb8593cb01558ed843f96099c475fc5f2ebda281a2137a77ddcf09dd3331",
+      "matches": true
+    },
+    {
+      "case": "seventeenth_share",
+      "path": "C:\\Users\\drewd\\Documents\\Codex\\2026-08-17\\https-chatgpt-com-share-6a83bc98-6b9c\\work\\seventeenth_share_transcript.md",
+      "expected": "d323bd606bdc9cc46ffd7b914e0ea9c22cb971d7fd0e4db880e55aa625bee7e7",
+      "actual": "d323bd606bdc9cc46ffd7b914e0ea9c22cb971d7fd0e4db880e55aa625bee7e7",
+      "matches": true
+    },
+    {
+      "case": "seventh_share",
+      "path": "C:\\Users\\drewd\\Documents\\Codex\\2026-08-17\\https-chatgpt-com-share-6a83bc98-6b9c\\work\\seventh_share_transcript.md",
+      "expected": "5243e34fa1ad5297abbd134ef035163fb37aa36b391876a74f2c323fc11c92b0",
+      "actual": "5243e34fa1ad5297abbd134ef035163fb37aa36b391876a74f2c323fc11c92b0",
+      "matches": true
+    },
+    {
+      "case": "sixteenth_share",
+      "path": "C:\\Users\\drewd\\Documents\\Codex\\2026-08-17\\https-chatgpt-com-share-6a83bc98-6b9c\\work\\sixteenth_share_transcript.md",
+      "expected": "df6c0b93316f6648a86854d8dc15d756c0bf428f70359ded1b36e9ce72c62ef1",
+      "actual": "df6c0b93316f6648a86854d8dc15d756c0bf428f70359ded1b36e9ce72c62ef1",
+      "matches": true
+    },
+    {
+      "case": "sixth_share",
+      "path": "C:\\Users\\drewd\\Documents\\Codex\\2026-08-17\\https-chatgpt-com-share-6a83bc98-6b9c\\work\\sixth_share_transcript.md",
+      "expected": "15f5b76f563643cd1096e3d75c7717d8c156bbbe0dc0b82603ff92d79ecb03c8",
+      "actual": "15f5b76f563643cd1096e3d75c7717d8c156bbbe0dc0b82603ff92d79ecb03c8",
+      "matches": true
+    },
+    {
+      "case": "tenth_share",
+      "path": "C:\\Users\\drewd\\Documents\\Codex\\2026-08-17\\https-chatgpt-com-share-6a83bc98-6b9c\\work\\tenth_share_transcript.md",
+      "expected": "f79ed8ec5ee30f8a20a1ab538f9fdc0b29c0ec43d5146244cc2a44211a5f1f58",
+      "actual": "f79ed8ec5ee30f8a20a1ab538f9fdc0b29c0ec43d5146244cc2a44211a5f1f58",
+      "matches": true
+    },
+    {
+      "case": "test4",
+      "path": "C:\\Users\\drewd\\Documents\\Codex\\2026-08-17\\https-chatgpt-com-share-6a83bc98-6b9c\\work\\test4_transcript.md",
+      "expected": "27efa564b6710e7c2aa7f20c5ee9c4d6dfdd4d736890ace671237bf435184707",
+      "actual": "27efa564b6710e7c2aa7f20c5ee9c4d6dfdd4d736890ace671237bf435184707",
+      "matches": true
+    },
+    {
+      "case": "third_share",
+      "path": "C:\\Users\\drewd\\Documents\\Codex\\2026-08-17\\https-chatgpt-com-share-6a83bc98-6b9c\\work\\third_share_transcript.md",
+      "expected": "e86b7f4d05c1ab35eee04ef78b7b6811de5b29c5d9c917819c657f06d7c785e5",
+      "actual": "e86b7f4d05c1ab35eee04ef78b7b6811de5b29c5d9c917819c657f06d7c785e5",
+      "matches": true
+    },
+    {
+      "case": "thirteenth_share",
+      "path": "C:\\Users\\drewd\\Documents\\Codex\\2026-08-17\\https-chatgpt-com-share-6a83bc98-6b9c\\work\\thirteenth_share_transcript.md",
+      "expected": "32c7d09b551bb2eee4007b0125d4b1d84a7e9104c5cd7e90f71acc8ff2b2f6f1",
+      "actual": "32c7d09b551bb2eee4007b0125d4b1d84a7e9104c5cd7e90f71acc8ff2b2f6f1",
+      "matches": true
+    },
+    {
+      "case": "twelfth_share",
+      "path": "C:\\Users\\drewd\\Documents\\Codex\\2026-08-17\\https-chatgpt-com-share-6a83bc98-6b9c\\work\\twelfth_share_transcript.md",
+      "expected": "6fc83b40d2f04aedf6ed1ce3d9db6cd6374293ccfb6159a1741818db118efa75",
+      "actual": "6fc83b40d2f04aedf6ed1ce3d9db6cd6374293ccfb6159a1741818db118efa75",
+      "matches": true
+    },
+    {
+      "case": "twentieth_share",
+      "path": "C:\\Users\\drewd\\Documents\\Codex\\2026-08-17\\https-chatgpt-com-share-6a83bc98-6b9c\\work\\twentieth_share_transcript.md",
+      "expected": "f894cae97fd9de44365503e7b806d74f5036d18ef2e0116fc881546b561db176",
+      "actual": "f894cae97fd9de44365503e7b806d74f5036d18ef2e0116fc881546b561db176",
+      "matches": true
+    },
+    {
+      "case": "twentyfirst_share",
+      "path": "C:\\Users\\drewd\\Documents\\Codex\\2026-08-17\\https-chatgpt-com-share-6a83bc98-6b9c\\work\\twentyfirst_share_transcript.md",
+      "expected": "22db7b89a7aa9ceea02822c9bdfec5eee707917830da50e81aa3f179c0cf0713",
+      "actual": "22db7b89a7aa9ceea02822c9bdfec5eee707917830da50e81aa3f179c0cf0713",
+      "matches": true
+    },
+    {
+      "case": "twentysecond_share",
+      "path": "C:\\Users\\drewd\\Documents\\Codex\\2026-08-17\\https-chatgpt-com-share-6a83bc98-6b9c\\work\\twentysecond_share_transcript.md",
+      "expected": "634dff0e19349b77a9c3ec01c7a92302e07e04405dfaba3fcc28670973d7510e",
+      "actual": "634dff0e19349b77a9c3ec01c7a92302e07e04405dfaba3fcc28670973d7510e",
+      "matches": true
+    },
+    {
+      "case": "twentythird_share",
+      "path": "C:\\Users\\drewd\\Documents\\Codex\\2026-08-17\\https-chatgpt-com-share-6a83bc98-6b9c\\work\\twentythird_share_transcript.md",
+      "expected": "464702d71f08edf2431072995273ae6f783e532cac9a005ccb09c492288a1c71",
+      "actual": "464702d71f08edf2431072995273ae6f783e532cac9a005ccb09c492288a1c71",
+      "matches": true
+    }
+  ],
+  "method_snapshots": {
+    "GEOMETRY_V2_SOURCE.md": "ea5a8ec550d0a043d9498a31158d1074a7fae55e15abb54d57fe126c0208029f",
+    "PROCEDURAL_PILOT_SOURCE.md": "cf0f884df221030dd80699dabddc296363aa9699ad64aa922ea4bda405effcb1",
+    "REFLEX_V3_SOURCE.md": "ddd59fef6d72433cedd1fc1b26f72f75e92ce9c55c578077f13ea739a752ceaf"
+  },
+  "source_body_mismatches": []
+}

@@ -1,0 +1,76 @@
+{
+  "layer": "VALIDATION",
+  "checked_at_utc": "2026-09-07T18:09:36.196249+00:00",
+  "program": "DROP_IT.py",
+  "version": "4.0",
+  "program_sha256": "61052c99258c2b75d19b7ee58a8e64fb5b8c74efdd74d22e99e940f54119590f",
+  "trace_workflow_tests": {
+    "passed": 16,
+    "failed": 0,
+    "data_kind": "synthetic"
+  },
+  "experiment_workflow_tests": {
+    "passed": 13,
+    "failed": 0,
+    "data_kind": "synthetic"
+  },
+  "geometry": {
+    "status": "PASS",
+    "geometry_states_checked": 10000,
+    "oracle": "80-digit Decimal, independent of integer floor algorithm",
+    "exact_identities": [
+      "z=(strand+rho)/3",
+      "rho_next=rho-tau+slip",
+      "strand_next=(strand-slip)%3"
+    ],
+    "slip_counts": {
+      "39": 5,
+      "507": 53,
+      "10000": 1034
+    },
+    "default_answer": [
+      29,
+      2,
+      0
+    ],
+    "prime_10000": 104729
+  },
+  "phrase_checks": {
+    "status": "PASS",
+    "categories": {
+      "C": 1,
+      "R": 1,
+      "J": 1,
+      "B": 1,
+      "K": 1
+    },
+    "negative_examples": 11,
+    "quote_and_code_exclusion": "PASS",
+    "unicode_cli": "PASS"
+  },
+  "live_intervention_trials_recorded": 0,
+  "live_canaries_injected": 0,
+  "receipt_validation": {
+    "file": "DROP_IT_RECEIPTS.jsonl",
+    "count": 247,
+    "distinct_payloads": 240,
+    "head_sha256": "431292e1deac4f6f0ea46ad4f0617f823da8e334dab62bdbcec45310f9311c0e",
+    "validation_metrics": {
+      "sequence_errors": 0,
+      "chain_errors": 0,
+      "payload_hash_errors": 0
+    }
+  },
+  "test_source_sha256": {
+    "test_drop_trace.py": "e8ce0df905b6f7eb086cab2575e1001a3f04b50724c3d0b2934fd9534c2f62d2",
+    "test_drop_experiment.py": "6bb9331c8f8564c549a8d89eb7d59f06825972bc1a8a9c67badf10b17079e803",
+    "test_drop_geometry.py": "d07e4d373e0ee99a41d9495285547de3810fca68ef74777159dca145dea173e7",
+    "test_drop_style.py": "254cb7fc69832d822f34894262eefdb87c4dbf925c61a21715d8db3cb4b123f2"
+  },
+  "test_process_exit_codes": {
+    "test_drop_trace.py": 0,
+    "test_drop_experiment.py": 0,
+    "test_drop_geometry.py": 0,
+    "test_drop_style.py": 0
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "program_version": "4.1",
+  "program_sha256": "4f6977187b54ef6131f2041abee4a93440bc5507a23f5c9f1827e520091cd087",
+  "parent_program_sha256": "61052c99258c2b75d19b7ee58a8e64fb5b8c74efdd74d22e99e940f54119590f",
+  "generated_at_utc": "2026-09-07T18:42:27.895346+00:00",
+  "data_kind": "synthetic",
+  "trace_tests_passed": 16,
+  "experiment_tests_passed": 13,
+  "successor_tests_passed": 10,
+  "failed": 0,
+  "test_source_sha256": {
+    "test_drop_trace.py": "2dbdcf29ed1bec3438744c024a903cbb5d9f2722fe859fb4cbb722af1727a10a",
+    "test_drop_experiment.py": "b3d931bd39c85547341a532e4c06e00a78c8fddbf95fb92e6c884ef98b67ed1b",
+    "test_drop_geometry.py": "4b16d4b238e97fd5a117da50b694d28eea892648edb71c3e9560147301776649",
+    "test_drop_style.py": "4f1293a935a7b29c733ef5ca3a9f4fc82ca17c762750a79b3ddfe271f24fe261",
+    "test_v41.py": "1271c32d982b2869766c2bc0e3c5ea8b35505baf7acb798a37cc8db188bd06c2"
+  },
+  "test_process_exit_codes": {
+    "test_drop_trace.py": 0,
+    "test_drop_experiment.py": 0,
+    "test_drop_geometry.py": 0,
+    "test_drop_style.py": 0,
+    "test_v41.py": 0
+  },
+  "synthetic_adapter_trials": 16,
+  "synthetic_adapter_canaries": 1
+}

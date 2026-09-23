@@ -1,0 +1,13 @@
+{
+  "program_version": "4.1",
+  "program_sha256": "4f6977187b54ef6131f2041abee4a93440bc5507a23f5c9f1827e520091cd087",
+  "parent_program_sha256": "61052c99258c2b75d19b7ee58a8e64fb5b8c74efdd74d22e99e940f54119590f",
+  "generated_at_utc": "2026-09-07T18:55:47.803635+00:00",
+  "package": "DROP_IT_v4.1_MEASUREMENT_PACKAGE.zip",
+  "package_sha256": "deb62fa112912109f2bb6f1832e2281f6d4e864cde63c23e36f3090bcfe39e9b",
+  "bytes": 2370148,
+  "members_verified": 457,
+  "crc_errors": 0,
+  "member_hash_errors": 0,
+  "report_generator_sha256": "98f70fe65b9c098369746bc9cad660ee7d74f359931ea9426713cfd23a9b52c4"
+}

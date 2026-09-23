@@ -1,0 +1,16 @@
+{
+  "program_version": "4.1",
+  "program_sha256": "4f6977187b54ef6131f2041abee4a93440bc5507a23f5c9f1827e520091cd087",
+  "parent_program_sha256": "61052c99258c2b75d19b7ee58a8e64fb5b8c74efdd74d22e99e940f54119590f",
+  "generated_at_utc": "2026-09-07T18:42:27.417436+00:00",
+  "VERIFIED_SOURCE_RECOVERY": "PASSED",
+  "expected_parent_sha256": "61052c99258c2b75d19b7ee58a8e64fb5b8c74efdd74d22e99e940f54119590f",
+  "recovered_source": "C:\\Users\\drewd\\Documents\\Codex\\2026-09-07\\worked-for-1m-19s-yes-mathematically\\outputs\\DROP_IT.py",
+  "preserved_source": "C:\\Users\\drewd\\Documents\\Codex\\2026-09-07\\worked-for-1m-19s-yes-mathematically\\outputs\\DROP_IT_v4.0_VERIFIED.py",
+  "preserved_sha256": "61052c99258c2b75d19b7ee58a8e64fb5b8c74efdd74d22e99e940f54119590f",
+  "preserved_bytes": 72313,
+  "successor_source": "C:\\Users\\drewd\\Documents\\Codex\\2026-09-07\\worked-for-1m-19s-yes-mathematically\\outputs\\DROP_IT_v4.1.py",
+  "successor_matches_tested_candidate": true,
+  "parent_read_only": true,
+  "successor_read_only": true
+}

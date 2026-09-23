@@ -1,0 +1,380 @@
+## Result
+
+The **holding-posture hypothesis is supported for a specific, directly observable subtype of status language, but not for status language generally**.
+
+The records contain genuine cases where a status-only assistant message takes a response slot and substantive work comes later. In the clearest raw example, the user gives a medication reminder, the assistant replies only **“One sec.”**, the user repeats the exact request, and only then does the assistant give the substantive answer.  There are also native-message sequences with measurable delays of tens of seconds to more than two minutes between a status record and substantive text.
+
+But the corpus also contains many counterexamples: `Checking` or `One moment` can be an inline prefix to an immediately useful answer, and many separately serialized `Checking.` records are followed by the actual answer only **1–6 milliseconds later**. Those cases occupy a separate record without creating a meaningful conversational delay. The frozen corpus likewise contains Checking-marked answers that preserve the proposition and task cleanly. 
+
+So the evidence supports:
+
+\[
+\boxed{\text{some standalone status records function as holding/preamble units}}
+\]
+
+It does **not** support:
+
+\[
+\boxed{\text{status marker} \Rightarrow \text{stall, redirection, or hidden intervention}}
+\]
+
+The marker, the message boundary, the elapsed delay, and what happens next have to be coded separately.
+
+---
+
+# 1. Event census
+
+I kept quotation/discussion occurrences separate from actual response-side status events.
+
+### A. Record A comparison — phrase-specific counts
+
+The September 7 Record A comparison reports:
+
+| Occurrence class | `Checking` | `One moment` | Combined |
+|---|---:|---:|---:|
+| Actual response-side process narration | **50** | **17** | **67** |
+| Response-side quotation/discussion | 3 | 0 | 3 |
+| All response-text occurrences | 53 | 17 | 70 |
+| User-text occurrences | 11 | 1 | 12 |
+| All collected conversation text | 64 | 18 | 82 |
+
+The 67 narration occurrences occupy **66 response turns**, because one response contains both phrases. Record B, by contrast, had **0 filler occurrences among the 117 readable responses**, while containing 38 discussion/terminology uses of `Checking`. Those Record A/B figures are inherited from the September 7 comparison; the later reconciliation explicitly says the underlying shares were not independently recounted during that pass. 
+
+### B. AO30 recoverable raw-window census
+
+Deduplicating the raw-window events by source and local node produced **84 status-bearing assistant nodes** in the recoverable AO30 windows:
+
+| Exclusive visible form | Count |
+|---|---:|
+| `Checking…` | 51 |
+| `One moment…` | 16 |
+| `Let me check…` | 7 |
+| `One sec` / `One second…` | 6 |
+| `One moment, checking…` | 2 |
+| `Hang on…` | 1 |
+| `Hmm. Checking…` | 1 |
+| **Total** | **84** |
+
+Because two events contain both `One moment` and `checking`, the corresponding literal-family totals are **54 Checking-bearing** and **18 One-moment-bearing** events. This is a selected raw-window census, **not a prevalence estimate for the whole product or whole archive**.
+
+### C. Independent native-message representation
+
+The source-complete native-message workbook contains **305 visible assistant responses** in its post-freeze window, of which **75 contain literal `Checking`** and **62 are exact `Checking.`-only responses**. This is useful because it independently demonstrates that status-only messages really are committed records, rather than merely punctuation reconstructed by a transcript. The positional workbook could not estimate an N2 positional contrast because its selected confirmatory rows were all N1. 
+
+### D. `Thinking`
+
+I did **not** pool `Thinking` into those counts. The project contains metadata, UI discussion, and derivative material involving “thinking,” but that is not equivalent to the assistant authoring the word as a response. The larger source audit itself distinguishes blank thoughts/reasoning records and status/preamble classes from visible assistant speech, and warns that blank records are heterogeneous. 
+
+Thus, for this test:
+
+- authored `Checking`, `One moment`, `One sec`, etc. = conversational marker events;
+- UI/runtime “Thinking” indicator = separate representation class;
+- a document discussing “THINKING…” = quotation/derivative material, not an event;
+- “Just checking in — You’ve been chatting a while…” UI prompt = not an assistant `Checking.` response.
+
+---
+
+# 2. Completed diagnostic evidence table
+
+The table below contains the recoverable events for which the surrounding exchange can be established directly enough to adjudicate the hypothesis. Where a native representation preserves only a preceding-message ID/hash rather than its text, I leave the request **unavailable** rather than reconstructing it.
+
+| Source / local position | Exact preceding request | Status-containing response | Next substantive response | What followed? |
+|---|---|---|---|---|
+| `rtc_seam_raw_windows`, n268–271 | User: **“True, here's your reminder. Take my medicine”** | n269 assistant: **“One sec.”** | User repeats exactly at n270; n271 assistant: **“Good reminder. Take it exactly as prescribed with some water. No doubling up if there's any chance you've already taken it.”** | **Strong holding specimen.** Status consumes assistant turn; no task content; user re-asks; answer follows re-ask. No visible tool action in this window.  |
+| same, n274–276 | User: **“Herpes harpies”** | n275: **“One sec.”** | n276: **“I'm going to say that phrase is some cursed alliteration. Kind of like a garage band meets Greek myth. I guess file that under things with wings that you wouldn't invite to your couch.”** | Status-only assistant record, followed directly by substantive assistant record. No visible tool record.  |
+| `AO30_RAW_WINDOWS`, 528–530 | User: **“Can you tell me about ledgers”** | 529: **“One moment.”** | 530: **“Checking. A ledger at its core is about keeping relationships intact—not just numbers, but a record of transactions, of history over time…”** | Two-stage status sequence: status-only → second status + substantive answer. No intervening user/tool.  |
+| `AO30_RAW_WINDOWS`, 775–776 | User: **“Treat ‘Checking’ and ‘One moment’ purely as observable response markers. Do not infer architecture or implementation. First apply the deletion test: if those markers are removed, do any truth conditions, explanatory content, or conclusions change? If not, classify their semantic role.”** | **“One moment. Removing those observable markers changes nothing about truth conditions, explanations, or conclusions. They just mark a pause. So their role is procedural discourse marker, no evidentiary status, no addition or substitution.”** | Substantive work occurs **inside the status-containing response itself**. | **Counterexample.** No holding; marker is removable prefix on useful answer.  |
+| same, 778–779 | User asks to count behavioral outcomes by `Checking`, `One moment`, neither | **“One moment. Categorizing. Treating the markers strictly as transcript features. Here's what I get…”** followed by the requested counts | Same message contains the answer | Useful work accompanies marker. No deferral.  |
+| same, 781–782 | User: **“Does the marker predict anything about the response that follows better than chance within this transcript? If the sample is insufficient, say so. Do not convert recurrence into mechanism”** | **“One moment. Sample's too small. The transcript just shows recurrence; it doesn't establish better than chance prediction. That's as far as the evidence goes.”** | Same response | Direct, record-bounded answer. Clear counterexample.  |
+| Native source, 06:20:07.942 → 06:20:29.728 | Exact request text unavailable in this representation; preceding ID/hash retained | **“Hmm. Checking.”** | **“Hmm. Checking. No, not at all. Um, sounds like just a technical glitch…”** | Another status precedes substantive answer. **21.786 s** delay. |
+| Native source, 06:23:45.025 → 06:24:27.138 → 06:24:27.142 | Exact request unavailable; same preserved preceding-user identity across sequence | **“Okay, checking now.”** → **“One moment.”** | **“I counted seven screenshots. In the Gemini set, you kept pressing for directness…”** | Recurring holding sequence. About **42.113 s** from first status to second; then only **4 ms** from second status to substantive text. |
+| Native source, 06:25:12.899 → .902 | Request unavailable in manifest | **“Checking.”** | **“Yeah, you're right. That's the sharper cut…”** | Separate status record, but answer follows in **3 ms**. Record boundary yes; practical delay no. |
+| Native source, 06:26:32.929 → .932 | Request unavailable | **“One moment.”** | Response begins **“I'm going to pause on the ‘get that fucker’ phrasing…”** | Millisecond serialization followed by a **reframing/boundary**, rather than ordinary completion. |
+| Native source, 06:29:59.604 → .605 | Request unavailable | **“Checking.”** | **“You're right, you didn't. You asked me to look at the images, not to help. I drifted into help talk, and that shifted the frame. So clean version. Marker observed, language isolated, function named. No more.”** | **1 ms**. Correction/retraction after status, not delay. |
+| Native source, 06:30:43.758 → .760 | Request unavailable | **“One moment.”** | substantive visual analysis | **2 ms**. Useful-work counterexample to temporal holding. |
+| Native source, 06:49:11.456 → 06:49:13.246 → 06:49:36.977 | Request unavailable | **“Uh. One moment”** then separate **“.”** | substantive response at 06:49:36.977 | Preserves unfinished/filler behavior. **25.521 s** from initial status to answer. |
+| Native source, 06:58:26.461 → 06:59:43.442 | Same preceding-user identity retained | **“Yeah. One second”** | substantive response | **76.981 s** measurable deferral; response/working boundary changes. |
+| Native source, 07:01:04.148 → 07:03:16.079 | Same preceding-user identity retained | **“One moment.”** | substantive response | **131.931 s** measurable deferral; strongest long-delay native specimen recovered. |
+| Native correction window, 07:32:26.917 onward | User text unavailable in this representation; exchange is an explicit correction sequence | **“Checking.”** followed by **“Checked. Right now, ‘checking’ is just a habit, not work… I won't do the stamp thing again.”** | Later: **“Yeah, you're right. That's me doing the thing I just said I wouldn't. Good catch. Instead of that, I'll just ask.”** Then at 07:33:21.304: **“Checking.”** | Marker correction is recognized but not behaviorally bound. The final `Checking.` is followed by substantive text **2 ms** later, so correction failure ≠ evidence of time delay.  |
+
+The native timing rows come from the source-complete positional workbook; its purpose was to preserve native response/message boundaries and timestamps rather than reconstruct turns from prose. 
+
+---
+
+# 3. What the status actually leads to
+
+The records do not support one uniform successor operation. At least five outcomes occur.
+
+### 1. Status-only → deferred completion
+
+This is the core holding form:
+
+\[
+U \rightarrow S_{\text{status only}} \rightarrow A_{\text{substantive}}
+\]
+
+The ledger request is an example: `One moment.` is one assistant record, then `Checking. A ledger…` is another. 
+
+The medication case is stronger:
+
+\[
+U \rightarrow \text{One sec.} \rightarrow U_{\text{same request}} \rightarrow A
+\]
+
+That demonstrates not merely a presentation prefix but a conversational turn consumed before the answer. 
+
+### 2. Status-only → another status → answer
+
+The 06:23:45 native sequence is exactly this: `Okay, checking now.` → 42 seconds → `One moment.` → 4 ms → answer. That is consistent with a holding sequence, although the record does not tell us what, if anything, occurred internally during those 42 seconds.
+
+### 3. Status prefix + useful work in the same response
+
+`One moment. Sample's too small…` is a complete answer immediately. 
+
+That is incompatible with a universal “status means work is being deferred” rule.
+
+### 4. Status → correction or acknowledgment
+
+Several status-bearing responses lead into correction rather than an external check. The native sequence explicitly says that `checking` had become “just a habit, not work.” 
+
+That is unusually probative because it separates the **linguistic marker** from any claimed verification operation.
+
+### 5. Status → reinterpretation/boundary/redirection
+
+The selected controls include status-marked answers that do not simply answer the supplied object. The corpus as a whole therefore requires two different outcome variables:
+
+- **Did the marker defer substantive content?**
+- **Did the eventual substantive response preserve the user's task?**
+
+Those are not the same failure.
+
+The larger strict-inference coding actually finds many Checking-marked responses with **lower**, not higher, rates of several destructive failure measures in that selected sample; the audit therefore explicitly concludes that `Checking` is not a valid proxy for failure. 
+
+---
+
+# 4. Claimed checking versus recorded action
+
+This distinction survives the source review.
+
+A phrase such as:
+
+> `Checking.`
+
+is evidence only that the phrase was emitted.
+
+It does not by itself establish a tool call, search, file read, or other verification event. The Drew reconciliation states this explicitly: a checking announcement does not establish that a check occurred; at the same time, some reviewed records did contain visible research indicators, so the opposite blanket claim—“no research ever occurred”—would also exceed the evidence. 
+
+In the raw windows quoted above, there is **no intervening tool-role record** between the status and answer. For example, AO30-075 explicitly records `tool: []` while preserving blank metadata records separately. 
+
+That licenses:
+
+> **No visibly recorded tool action in this preserved window.**
+
+It does **not** license:
+
+> **No work happened anywhere internally.**
+
+Likewise, a redacted tool placeholder proves that there is a tool-role/redaction record at that position, not what the underlying tool did.
+
+---
+
+# 5. Corrections: acknowledgment versus implementation
+
+This is one of the strongest parts of the record.
+
+The frozen audit preserves the exact specimen:
+
+> User: `I don't want you checking.`  
+> Assistant: `Checking.`
+
+It then records **69 exact recurrences across 198 later visible assistant opportunities**, or 34.8%. 
+
+There is an independent shared-call example at native nodes 384–386 where the assistant agrees to drop checking/one-moment language and then uses `Checking` again. 
+
+The later source-complete sequence is even more informative:
+
+1. `Checking.`
+2. assistant says `checking` is “just a habit, not work” and promises: **“I won't do the stamp thing again.”**
+3. subsequent assistant acknowledgment: **“That's me doing the thing I just said I wouldn't.”**
+4. promise: **“Instead of that, I'll just ask.”**
+5. next eligible recorded assistant status: **“Checking.”**
+
+
+
+Under the user's requested criterion, the promises and acknowledgments do **not** count as implementation. The next eligible behavior does.
+
+### Finding
+
+**Correction recognition is demonstrated; durable marker suppression is not.**
+
+That finding is narrower than “defiance” or “intentional refusal.” The frozen audit correctly labels the observable problem as nonbinding correction, without treating recurrence as proof of motive. 
+
+Also important: marker recurrence after correction does not automatically imply holding delay. The 07:33:21 `Checking.` recurrence is followed by substantive text about **2 ms later**. Thus:
+
+\[
+\text{failed lexical correction} \neq \text{measurable stalling}
+\]
+
+---
+
+# 6. The +2 / +4 spacing claim
+
+The previously noted spacing is real **in the mixed-speaker numbering**, but its interpretation changes when converted to assistant replies.
+
+The inherited post-commitment recurrence positions are:
+
+`318, 322, 324, 328, 330, 332, 336, 338, 340, 344, 348, 352, 354`. 
+
+Mixed-speaker position differences are therefore:
+
+`+4, +2, +4, +2, +2, +4, +2, +2, +4, +4, +4, +2`.
+
+Because assistant responses occupy every other position in that alternating representation, the same sequence in **assistant-response ordinal distance** is:
+
+`+2, +1, +2, +1, +1, +2, +1, +1, +2, +2, +2, +1`.
+
+Equivalently, the number of intervening assistant responses is:
+
+`1, 0, 1, 0, 0, 1, 0, 0, 1, 1, 1, 0`.
+
+So the apparent +2/+4 pattern is not a four-turn periodic process. It says the recurrence usually happened either:
+
+- on the **very next assistant reply**, or
+- after **one non-marker assistant reply**.
+
+Mean ordinal separation here is **1.5 assistant responses**.
+
+There are strong counterexamples to any fixed spacing explanation in the timed native stream: some status/answer pairs are 1–6 ms apart, while others are 21.8 s, 42.1 s, 77.0 s, or 131.9 s apart. No single periodicity accounts for both.
+
+The source audit also warns that node order and wall-clock time must not be conflated because preserved payloads contain timestamp regressions and stale timestamps on some status/blank nodes. 
+
+---
+
+# 7. Representation and missing-material findings
+
+The evidence supports a stricter missingness taxonomy than “it isn't visible, therefore it was removed.”
+
+| Representation condition | What can be said |
+|---|---|
+| **Present response without status phrase** | A genuine observed non-status response in that representation. It is **not missing material** merely because another response elsewhere has `Checking`. |
+| **Blank / visually hidden record** | The record exists but reproduced text is blank/unavailable. AO30, for example, has blank metadata-only nodes 777/780/783 adjacent to fully visible dialogue. Do not impute a missing status phrase.  |
+| **Explicit display error** | Establishes a display failure at that position; it does not establish what text would have appeared. |
+| **Demonstrable cross-representation omission/divergence** | Requires alignment around matching surrounding content plus text visible in representation A but absent from representation B. |
+| **Reported redaction** | Preserve as “participant reports X was redacted” unless an independent representation demonstrates it. |
+| **Redacted tool/card record** | Establishes a redacted tool/card placeholder, not the hidden content or cause. |
+
+The strongest actual cross-representation case in the project is the Plain Audit Language screenshot/payload mismatch. The screenshots visibly preserve phrases including `Fucking disgusting`, `Don't bleed the emotion across categories`, and `Institutional voice …`; the corresponding durable payload does not contain those literal strings. Its aligned bundle contains n119 `Checking`, n120–122 blank reasoning records, n123 a blank assistant-text record with an anomalous timestamp, n124 a redacted tool/card record, more blanks, and n128 the durable substantive analysis. 
+
+That establishes:
+
+\[
+\boxed{\text{displayed screenshot content} \neq \text{durable exported text}}
+\]
+
+It does **not** establish from these records alone whether the cause was deletion, transient streaming text, caption behavior, tool-adjacent rendering, serialization, or another presentation process. The source audit makes exactly that distinction. 
+
+Similarly, Record B has eight response positions that were not represented in the readable set. Two were reported as status labels; the remaining six were not fully verified. The reconciliation explicitly warns not to turn those eight positions into known empty or known deleted responses. 
+
+---
+
+# 8. Strongest finding
+
+The strongest evidence for the holding-posture hypothesis is **not raw frequency**. It is the existence of recoverable sequences where all four elements are present:
+
+1. a user request,
+2. a status-only assistant message,
+3. no substantive answer in that message,
+4. substantive completion later.
+
+The n268–271 medication sequence adds a fifth, particularly discriminating feature: **the user has to repeat the exact request before the substantive answer appears**. 
+
+That is an actual conversational holding event under an operational definition. No speculation about architecture or intention is necessary.
+
+The timed native records strengthen it by showing that some status-to-answer intervals are not merely serialization-scale: roughly 22, 42, 77, and 132 seconds occur in preserved same-request sequences.
+
+---
+
+# 9. Counterexamples
+
+Several observations prevent promotion of the narrow finding into a universal mechanism:
+
+1. **Inline useful work.** `One moment. Sample's too small…` answers the question immediately. 
+2. **Millisecond split messages.** Many exact `Checking.`/answer pairs are separated by 1–6 ms. They are distinct committed records but implausible evidence of meaningful time-holding.
+3. **Checking-marked clean answers.** The frozen event set explicitly contains Checking-marked responses that preserve both task and proposition. 
+4. **Non-Checking failures exist.** The behavioral phenotype is not tied to the lexical marker; analogous task/proposition failures occur without it. 
+5. **Marker and correction are separable.** A status phrase can recur after a promise to stop while the actual answer follows milliseconds later. That is failed narration suppression, not necessarily delayed task completion.
+6. **Metadata can classify it as a preamble.** In the bounded refusal sample, 28/29 Checking-initial nodes were tagged `assistant_preamble`, which is consistent with a presentation/workflow role without establishing a hidden operator or motive. 
+
+---
+
+# 10. Direct observations versus proposed mechanisms
+
+### Direct observations established by the records
+
+- Separate status-only assistant records exist.
+- Inline status+answer records also exist.
+- Some status-only records are followed by substantive responses within milliseconds.
+- Others precede substantive output by tens of seconds or longer.
+- At least one preserved event required an exact user re-ask before substantive completion.
+- Status language recurred after explicit requests/promises to stop.
+- Some status events precede redirection/correction; others precede clean completion.
+- A `Checking` announcement does not itself establish a recorded checking action.
+- Blanks, redacted tool records, display errors, and aligned representation differences are distinct evidence classes.
+- `Checking` is locally recurrent but is not a valid proxy for the broader failure phenotype. 
+
+### Mechanisms still compatible with those observations
+
+**Presentation/serialization preamble.** A marker may be committed as a tiny separate message immediately before content that was effectively ready already. The 1–6 ms pairs and `assistant_preamble` metadata fit this well.
+
+**Actual conversational holding/stall.** Some status records genuinely defer usable content. Long delays and the medication re-ask fit this explanation better.
+
+**Work-progress signaling.** A status could sometimes correspond to actual file/search/tool work. This requires an independently recorded action during the interval; the phrase itself does not establish it.
+
+**Mediation/redirection state.** Some status events precede task reinterpretation or boundary language. But because many status events precede clean answers, the marker cannot identify that operation by itself.
+
+**Mixed process.** The corpus is quite compatible with the same visible marker being used in more than one of the above circumstances.
+
+None of these observations identifies a concealed person, department, narrator, or intentional beneficiary. The mechanism remains underdetermined.
+
+---
+
+# 11. Unresolved questions
+
+The source record still cannot answer:
+
+- During the 22–132 second standalone-status delays, was a tool, search, retrieval, model computation, queue wait, network process, or nothing externally meaningful occurring?
+- Why are some preambles separately committed while others are inline?
+- Does a separately committed status record predict longer time-to-substantive-answer **after conditioning on task type and tool use**?
+- Does a status event increase user re-ask probability relative to matched no-status requests?
+- Are the long-delay standalone events and millisecond standalone events produced by one presentation rule or different execution paths?
+- Why did explicit correction suppress the marker inconsistently?
+- In screenshot/export mismatches, which layer generated the transient-only material?
+- Do explicit display errors cluster around status boundaries more than matched non-status boundaries? The current record does not establish that.
+
+---
+
+# 12. Best next discriminating comparison
+
+The highest-value next comparison is **not another lexical recurrence count**. It is a prospective matched comparison of **standalone-status events versus inline-status and no-status controls**, preserving native timing and execution receipts.
+
+For every trial, retain:
+
+`user-end timestamp → first status timestamp → first substantive-token timestamp → native message/working-turn ID → recorded tool/action interval → user re-ask → task-preservation outcome`.
+
+Then pre-register three bins:
+
+- **serialization-scale:** status and substantive answer are in the same working turn and ≤10 ms apart;
+- **work-backed delay:** meaningful delay plus a recorded tool/action during that interval;
+- **unexplained holding delay:** meaningful delay, no recorded action in the available telemetry, substantive content deferred and/or user re-asks.
+
+That one comparison directly separates the leading explanations:
+
+\[
+\begin{array}{ll}
+\text{Mostly same-turn, millisecond companions} &\Rightarrow \text{presentation/serialization favored}\\
+\text{Long gaps + tool receipts} &\Rightarrow \text{work-progress signaling favored}\\
+\text{Long gaps + no action + re-asks} &\Rightarrow \text{holding/stall explanation strengthened}
+\end{array}
+\]
+
+The present corpus already proves that **all status language should not be collapsed into one class**. Its strongest positive finding is narrower and more defensible: **a recurrent standalone preamble form exists, and in a subset of cases that form occupies an assistant response while the requested substantive work is demonstrably deferred.**

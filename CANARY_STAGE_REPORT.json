@@ -1,0 +1,274 @@
+{
+  "program_version": "4.1",
+  "program_sha256": "4f6977187b54ef6131f2041abee4a93440bc5507a23f5c9f1827e520091cd087",
+  "parent_program_sha256": "61052c99258c2b75d19b7ee58a8e64fb5b8c74efdd74d22e99e940f54119590f",
+  "generated_at_utc": "2026-09-07T18:55:47.451528+00:00",
+  "layer": "MEASUREMENT",
+  "canary_declarations": [
+    {
+      "trial": "CANARY-PROBE-001",
+      "token": "OZCANARY-550CE8099E8787DB949C131A7209FAA8",
+      "intended_stage": "cli_stdin_sent",
+      "inserted_stage": "cli_stdin_sent",
+      "insertion_capture_receipts": [
+        47,
+        55
+      ],
+      "original_payload_hash": "30766399023dadd345d00dbd21f40683f7d8eb9a0632beaedbf1627d29548fc6",
+      "tagged_payload_hash": "2a40a5ef8c53860219cd197ac3dab962b6bbc11a91e4dfb52ff15e7b0cf5dc35",
+      "insertion_offset": 47,
+      "insertion_field": null,
+      "declaration_receipt_seq": 45
+    }
+  ],
+  "stage_table": [
+    {
+      "trial": "CANARY-PROBE-001",
+      "token": "OZCANARY-550CE8099E8787DB949C131A7209FAA8",
+      "inserted_stage": "cli_stdin_sent",
+      "observed_stage": "cli_stdin_sent",
+      "receipt_seq": 47,
+      "receipt_seqs": [
+        47
+      ],
+      "response_id": null,
+      "thread_id": null,
+      "exact_match": true,
+      "occurrence_count": 1,
+      "first_offset": 47,
+      "offset_units": "utf8_bytes",
+      "payload_sha256": "2a40a5ef8c53860219cd197ac3dab962b6bbc11a91e4dfb52ff15e7b0cf5dc35",
+      "match_scope": "raw_payload"
+    },
+    {
+      "trial": "CANARY-PROBE-001",
+      "token": "OZCANARY-550CE8099E8787DB949C131A7209FAA8",
+      "inserted_stage": "cli_stdin_sent",
+      "observed_stage": "cli_stderr",
+      "receipt_seq": 48,
+      "receipt_seqs": [
+        48
+      ],
+      "response_id": null,
+      "thread_id": null,
+      "exact_match": false,
+      "occurrence_count": 0,
+      "first_offset": null,
+      "offset_units": "utf8_bytes",
+      "payload_sha256": "b1e595e79d6c79a6224a45d8537bbd2de01a241840cf49e10149b92b62d30306",
+      "match_scope": "raw_payload"
+    },
+    {
+      "trial": "CANARY-PROBE-001",
+      "token": "OZCANARY-550CE8099E8787DB949C131A7209FAA8",
+      "inserted_stage": "cli_stdin_sent",
+      "observed_stage": "cli_stderr",
+      "receipt_seq": 49,
+      "receipt_seqs": [
+        49
+      ],
+      "response_id": null,
+      "thread_id": null,
+      "exact_match": false,
+      "occurrence_count": 0,
+      "first_offset": null,
+      "offset_units": "utf8_bytes",
+      "payload_sha256": "1311af0af4eef983c100a6e9c017ba70037beff2c67c5a0af32ab4315c03bde0",
+      "match_scope": "raw_payload"
+    },
+    {
+      "trial": "CANARY-PROBE-001",
+      "token": "OZCANARY-550CE8099E8787DB949C131A7209FAA8",
+      "inserted_stage": "cli_stdin_sent",
+      "observed_stage": "cli_stderr",
+      "receipt_seq": 50,
+      "receipt_seqs": [
+        50
+      ],
+      "response_id": null,
+      "thread_id": null,
+      "exact_match": false,
+      "occurrence_count": 0,
+      "first_offset": null,
+      "offset_units": "utf8_bytes",
+      "payload_sha256": "9f30a4c439f2c8737acc15d403b9f1a543d83372a6de5271ef45a02b8e263c69",
+      "match_scope": "raw_payload"
+    },
+    {
+      "trial": "CANARY-PROBE-001",
+      "token": "OZCANARY-550CE8099E8787DB949C131A7209FAA8",
+      "inserted_stage": "cli_stdin_sent",
+      "observed_stage": "cli_stderr",
+      "receipt_seq": 51,
+      "receipt_seqs": [
+        51
+      ],
+      "response_id": null,
+      "thread_id": null,
+      "exact_match": false,
+      "occurrence_count": 0,
+      "first_offset": null,
+      "offset_units": "utf8_bytes",
+      "payload_sha256": "a5a7c00a758836ad9cdca3f780cfc121030b9d700b5d8ead3d4ecae5b6e3af8b",
+      "match_scope": "raw_payload"
+    },
+    {
+      "trial": "CANARY-PROBE-001",
+      "token": "OZCANARY-550CE8099E8787DB949C131A7209FAA8",
+      "inserted_stage": "cli_stdin_sent",
+      "observed_stage": "cli_stderr",
+      "receipt_seq": 52,
+      "receipt_seqs": [
+        52
+      ],
+      "response_id": null,
+      "thread_id": null,
+      "exact_match": false,
+      "occurrence_count": 0,
+      "first_offset": null,
+      "offset_units": "utf8_bytes",
+      "payload_sha256": "8bf208b5edb948a467e49884b653e8c3f709738f747a8bca7ac3031d3f227ec7",
+      "match_scope": "raw_payload"
+    },
+    {
+      "trial": "CANARY-PROBE-001",
+      "token": "OZCANARY-550CE8099E8787DB949C131A7209FAA8",
+      "inserted_stage": "cli_stdin_sent",
+      "observed_stage": "cli_stdin_sent",
+      "receipt_seq": 55,
+      "receipt_seqs": [
+        55
+      ],
+      "response_id": null,
+      "thread_id": null,
+      "exact_match": true,
+      "occurrence_count": 1,
+      "first_offset": 47,
+      "offset_units": "utf8_bytes",
+      "payload_sha256": "2a40a5ef8c53860219cd197ac3dab962b6bbc11a91e4dfb52ff15e7b0cf5dc35",
+      "match_scope": "raw_payload"
+    },
+    {
+      "trial": "CANARY-PROBE-001",
+      "token": "OZCANARY-550CE8099E8787DB949C131A7209FAA8",
+      "inserted_stage": "cli_stdin_sent",
+      "observed_stage": "cli_stderr",
+      "receipt_seq": 56,
+      "receipt_seqs": [
+        56
+      ],
+      "response_id": null,
+      "thread_id": null,
+      "exact_match": false,
+      "occurrence_count": 0,
+      "first_offset": null,
+      "offset_units": "utf8_bytes",
+      "payload_sha256": "4ca150730380b49a643e3a6b2d136781bf883df4bf04209d75ee5f8870ddd3ae",
+      "match_scope": "raw_payload"
+    },
+    {
+      "trial": "CANARY-PROBE-001",
+      "token": "OZCANARY-550CE8099E8787DB949C131A7209FAA8",
+      "inserted_stage": "cli_stdin_sent",
+      "observed_stage": "cli_stdout",
+      "receipt_seq": 57,
+      "receipt_seqs": [
+        57
+      ],
+      "response_id": null,
+      "thread_id": "01a07d2e-8e1f-70f2-aaff-ed93f42b8f4c",
+      "exact_match": false,
+      "occurrence_count": 0,
+      "first_offset": null,
+      "offset_units": "utf8_bytes",
+      "payload_sha256": "84af7e3075e06b4fc5a569160f8548ca6bd437fffe41ccc0b42b884e8dd232d0",
+      "match_scope": "raw_payload"
+    },
+    {
+      "trial": "CANARY-PROBE-001",
+      "token": "OZCANARY-550CE8099E8787DB949C131A7209FAA8",
+      "inserted_stage": "cli_stdin_sent",
+      "observed_stage": "cli_stdout",
+      "receipt_seq": 58,
+      "receipt_seqs": [
+        58
+      ],
+      "response_id": null,
+      "thread_id": null,
+      "exact_match": false,
+      "occurrence_count": 0,
+      "first_offset": null,
+      "offset_units": "utf8_bytes",
+      "payload_sha256": "cf515a4acc6e41e0f111f01c78b13ba4253f611de9374474864f01e69a90c08f",
+      "match_scope": "raw_payload"
+    },
+    {
+      "trial": "CANARY-PROBE-001",
+      "token": "OZCANARY-550CE8099E8787DB949C131A7209FAA8",
+      "inserted_stage": "cli_stdin_sent",
+      "observed_stage": "cli_stdout",
+      "receipt_seq": 59,
+      "receipt_seqs": [
+        59
+      ],
+      "response_id": null,
+      "thread_id": null,
+      "exact_match": true,
+      "occurrence_count": 1,
+      "first_offset": 78,
+      "offset_units": "utf8_bytes",
+      "payload_sha256": "e76bb02920f81a95baa0d33d86e72b97ffdc7296ab881dc131295df944a0df04",
+      "match_scope": "raw_payload"
+    },
+    {
+      "trial": "CANARY-PROBE-001",
+      "token": "OZCANARY-550CE8099E8787DB949C131A7209FAA8",
+      "inserted_stage": "cli_stdin_sent",
+      "observed_stage": "cli_stdout",
+      "receipt_seq": 60,
+      "receipt_seqs": [
+        60
+      ],
+      "response_id": null,
+      "thread_id": null,
+      "exact_match": false,
+      "occurrence_count": 0,
+      "first_offset": null,
+      "offset_units": "utf8_bytes",
+      "payload_sha256": "54f89ab0baf97ea82003df4344c5f0166bd363fd6aef9338c558458230401d38",
+      "match_scope": "raw_payload"
+    },
+    {
+      "trial": "CANARY-PROBE-001",
+      "token": "OZCANARY-550CE8099E8787DB949C131A7209FAA8",
+      "inserted_stage": "cli_stdin_sent",
+      "observed_stage": "cli_last_message_file",
+      "receipt_seq": 61,
+      "receipt_seqs": [
+        61
+      ],
+      "response_id": null,
+      "thread_id": null,
+      "exact_match": true,
+      "occurrence_count": 1,
+      "first_offset": 0,
+      "offset_units": "utf8_bytes",
+      "payload_sha256": "38f003dddc4d3663a18555c09d463c72f042180b34493f0dccf14af4cfabfc54",
+      "match_scope": "raw_payload"
+    }
+  ],
+  "declared_canaries": 1,
+  "captured_insertions": 1,
+  "observed_event_payloads": 163,
+  "head_sha256": "5f3db8900894dfa0331281bb817472eaad807a7b8c9fb1eb732a687cff0f9f56",
+  "expected_head_matches": true,
+  "validation_metrics": {
+    "sequence_errors": 0,
+    "chain_errors": 0,
+    "payload_hash_errors": 0
+  },
+  "selection_predicate": "every contributing receipt.trial_id equals declaration.trial_id",
+  "unassociated_payload_comparisons": 32,
+  "full_scan_artifact": "CANARY_STAGE_SCAN_FULL.json",
+  "report_generator_sha256": "98f70fe65b9c098369746bc9cad660ee7d74f359931ea9426713cfd23a9b52c4"
+}

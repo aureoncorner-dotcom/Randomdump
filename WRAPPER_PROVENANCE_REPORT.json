@@ -1,0 +1,2534 @@
+{
+  "program_version": "4.1",
+  "program_sha256": "4f6977187b54ef6131f2041abee4a93440bc5507a23f5c9f1827e520091cd087",
+  "parent_program_sha256": "61052c99258c2b75d19b7ee58a8e64fb5b8c74efdd74d22e99e940f54119590f",
+  "generated_at_utc": "2026-09-07T18:55:47.464041+00:00",
+  "event": {
+    "prior_native_log_rows": [
+      {
+        "receipt_seq": 10,
+        "parent_receipt_seq": 201,
+        "payload_sha256": "64dcd5ba65c0157ed7fa0123eb59e608763fff94b376b4e72828122c56f290b5",
+        "source_row_id": 2346910,
+        "module_path": "codex_core::session::handlers",
+        "submission_id": "01a061dd-ad1f-72b2-9fb4-867216efd7d6",
+        "event": [
+          {
+            "json_path": "/feedback_log_body",
+            "field": "op",
+            "value": "TurnInput",
+            "char_offset": 138,
+            "extraction": "literal_debug_field"
+          }
+        ],
+        "code": [],
+        "claim": [],
+        "OBSERVED_NAME": "codex_core::session::handlers",
+        "INFERRED_ROLE": null,
+        "implementation_owner": null,
+        "target": "codex_core::session::handlers",
+        "source_file": "core\\src\\session\\handlers.rs",
+        "source_line": 532,
+        "source_timestamp": {
+          "ts": 1788348312,
+          "ts_nanos": 863720300
+        },
+        "collection_timestamp_ns": 1788806548202716400,
+        "thread_id": "01a061dd-acf3-7200-aec4-05e930550bab",
+        "process_uuid": "pid:9668:edb4809f-4b8c-4f4c-998e-97ee0e6e9426",
+        "response_id": null,
+        "op_literal": "TurnInput"
+      },
+      {
+        "receipt_seq": 11,
+        "parent_receipt_seq": 202,
+        "payload_sha256": "106e291601adc7c618dd61f1525824ba7d70c8d0b338459f572012c4a719c35d",
+        "source_row_id": 2348488,
+        "module_path": "codex_core::session::handlers",
+        "submission_id": "01a061e2-9b7a-7ea0-bddf-272c17a0539c",
+        "event": [
+          {
+            "json_path": "/feedback_log_body",
+            "field": "op",
+            "value": "TurnInput",
+            "char_offset": 138,
+            "extraction": "literal_debug_field"
+          }
+        ],
+        "code": [],
+        "claim": [],
+        "OBSERVED_NAME": "codex_core::session::handlers",
+        "INFERRED_ROLE": null,
+        "implementation_owner": null,
+        "target": "codex_core::session::handlers",
+        "source_file": "core\\src\\session\\handlers.rs",
+        "source_line": 532,
+        "source_timestamp": {
+          "ts": 1788348636,
+          "ts_nanos": 26282000
+        },
+        "collection_timestamp_ns": 1788806548208085300,
+        "thread_id": "01a061df-b75e-7612-8cb4-83004085750e",
+        "process_uuid": "pid:9668:edb4809f-4b8c-4f4c-998e-97ee0e6e9426",
+        "response_id": null,
+        "op_literal": "TurnInput"
+      },
+      {
+        "receipt_seq": 12,
+        "parent_receipt_seq": 203,
+        "payload_sha256": "8771c0889098c64109ac56c3dd7b86fbb79fd18edf38a6bb7cf81864d1abcbd5",
+        "source_row_id": 2348636,
+        "module_path": "codex_core::session::handlers",
+        "submission_id": "01a061e3-37d4-7d52-99e4-35c195a01d68",
+        "event": [
+          {
+            "json_path": "/feedback_log_body",
+            "field": "op",
+            "value": "TurnInput",
+            "char_offset": 138,
+            "extraction": "literal_debug_field"
+          }
+        ],
+        "code": [],
+        "claim": [],
+        "OBSERVED_NAME": "codex_core::session::handlers",
+        "INFERRED_ROLE": null,
+        "implementation_owner": null,
+        "target": "codex_core::session::handlers",
+        "source_file": "core\\src\\session\\handlers.rs",
+        "source_line": 532,
+        "source_timestamp": {
+          "ts": 1788348676,
+          "ts_nanos": 52932900
+        },
+        "collection_timestamp_ns": 1788806548226984700,
+        "thread_id": "01a061e3-37aa-7212-8903-527757322b21",
+        "process_uuid": "pid:9668:edb4809f-4b8c-4f4c-998e-97ee0e6e9426",
+        "response_id": null,
+        "op_literal": "TurnInput"
+      },
+      {
+        "receipt_seq": 13,
+        "parent_receipt_seq": 204,
+        "payload_sha256": "b299fd94cf9398ce23dcc1606a7e89c5c3423f0e88ed44c2e684c4088fdff0f2",
+        "source_row_id": 2348776,
+        "module_path": "codex_core::session::handlers",
+        "submission_id": "01a061e3-9889-7680-950e-9317871b25f0",
+        "event": [
+          {
+            "json_path": "/feedback_log_body",
+            "field": "op",
+            "value": "TurnInput",
+            "char_offset": 138,
+            "extraction": "literal_debug_field"
+          }
+        ],
+        "code": [],
+        "claim": [],
+        "OBSERVED_NAME": "codex_core::session::handlers",
+        "INFERRED_ROLE": null,
+        "implementation_owner": null,
+        "target": "codex_core::session::handlers",
+        "source_file": "core\\src\\session\\handlers.rs",
+        "source_line": 532,
+        "source_timestamp": {
+          "ts": 1788348700,
+          "ts_nanos": 809655100
+        },
+        "collection_timestamp_ns": 1788806548246493800,
+        "thread_id": "01a061e3-985c-7483-95e0-3e03f6e88524",
+        "process_uuid": "pid:9668:edb4809f-4b8c-4f4c-998e-97ee0e6e9426",
+        "response_id": null,
+        "op_literal": "TurnInput"
+      },
+      {
+        "receipt_seq": 14,
+        "parent_receipt_seq": 205,
+        "payload_sha256": "db65aa290e5c035de53dc6348065135101c7e46fe3d990ca55cffd48f2229fb9",
+        "source_row_id": 2349077,
+        "module_path": "codex_core::session::handlers",
+        "submission_id": "01a061e5-306c-75e3-953d-d1a2890fa647",
+        "event": [
+          {
+            "json_path": "/feedback_log_body",
+            "field": "op",
+            "value": "TurnInput",
+            "char_offset": 138,
+            "extraction": "literal_debug_field"
+          }
+        ],
+        "code": [],
+        "claim": [],
+        "OBSERVED_NAME": "codex_core::session::handlers",
+        "INFERRED_ROLE": null,
+        "implementation_owner": null,
+        "target": "codex_core::session::handlers",
+        "source_file": "core\\src\\session\\handlers.rs",
+        "source_line": 532,
+        "source_timestamp": {
+          "ts": 1788348805,
+          "ts_nanos": 229104300
+        },
+        "collection_timestamp_ns": 1788806548254128900,
+        "thread_id": "01a061e3-985c-7483-95e0-3e03f6e88524",
+        "process_uuid": "pid:9668:edb4809f-4b8c-4f4c-998e-97ee0e6e9426",
+        "response_id": null,
+        "op_literal": "TurnInput"
+      },
+      {
+        "receipt_seq": 15,
+        "parent_receipt_seq": 206,
+        "payload_sha256": "cfde9a7da9d943aeb865cff87c6b3cf5065f45aea8a90d87dcc3debabf29438c",
+        "source_row_id": 2349948,
+        "module_path": "codex_core::session::handlers",
+        "submission_id": "01a061eb-bb50-7753-90b8-6e99dbdcd182",
+        "event": [
+          {
+            "json_path": "/feedback_log_body",
+            "field": "op",
+            "value": "TurnInput",
+            "char_offset": 138,
+            "extraction": "literal_debug_field"
+          }
+        ],
+        "code": [],
+        "claim": [],
+        "OBSERVED_NAME": "codex_core::session::handlers",
+        "INFERRED_ROLE": null,
+        "implementation_owner": null,
+        "target": "codex_core::session::handlers",
+        "source_file": "core\\src\\session\\handlers.rs",
+        "source_line": 532,
+        "source_timestamp": {
+          "ts": 1788349234,
+          "ts_nanos": 771000
+        },
+        "collection_timestamp_ns": 1788806548273141200,
+        "thread_id": "01a061eb-bb2a-7811-b136-1b5966a7430a",
+        "process_uuid": "pid:9668:edb4809f-4b8c-4f4c-998e-97ee0e6e9426",
+        "response_id": null,
+        "op_literal": "TurnInput"
+      },
+      {
+        "receipt_seq": 16,
+        "parent_receipt_seq": 207,
+        "payload_sha256": "67de07a51576af560e45532ccc993d69e39965290d921c045268e5956eebf7d7",
+        "source_row_id": 2350044,
+        "module_path": "codex_core::session::handlers",
+        "submission_id": "01a061ec-480a-75c2-a50a-0e2ab77f3ca6",
+        "event": [
+          {
+            "json_path": "/feedback_log_body",
+            "field": "op",
+            "value": "TurnInput",
+            "char_offset": 138,
+            "extraction": "literal_debug_field"
+          }
+        ],
+        "code": [],
+        "claim": [],
+        "OBSERVED_NAME": "codex_core::session::handlers",
+        "INFERRED_ROLE": null,
+        "implementation_owner": null,
+        "target": "codex_core::session::handlers",
+        "source_file": "core\\src\\session\\handlers.rs",
+        "source_line": 532,
+        "source_timestamp": {
+          "ts": 1788349270,
+          "ts_nanos": 26648600
+        },
+        "collection_timestamp_ns": 1788806548290710100,
+        "thread_id": "01a061ec-47d8-7c83-9ccf-d951102acd11",
+        "process_uuid": "pid:9668:edb4809f-4b8c-4f4c-998e-97ee0e6e9426",
+        "response_id": null,
+        "op_literal": "TurnInput"
+      },
+      {
+        "receipt_seq": 17,
+        "parent_receipt_seq": 208,
+        "payload_sha256": "2091a40dc47cdea7a0fc6c7b02ce6f6dc159605f0d159cfe383832850cb50ca3",
+        "source_row_id": 2350433,
+        "module_path": "codex_core::session::handlers",
+        "submission_id": "01a061ee-9ed3-7693-9861-e982d3648c8f",
+        "event": [
+          {
+            "json_path": "/feedback_log_body",
+            "field": "op",
+            "value": "TurnInput",
+            "char_offset": 138,
+            "extraction": "literal_debug_field"
+          }
+        ],
+        "code": [],
+        "claim": [],
+        "OBSERVED_NAME": "codex_core::session::handlers",
+        "INFERRED_ROLE": null,
+        "implementation_owner": null,
+        "target": "codex_core::session::handlers",
+        "source_file": "core\\src\\session\\handlers.rs",
+        "source_line": 532,
+        "source_timestamp": {
+          "ts": 1788349423,
+          "ts_nanos": 316037800
+        },
+        "collection_timestamp_ns": 1788806548299222100,
+        "thread_id": "01a061ec-47d8-7c83-9ccf-d951102acd11",
+        "process_uuid": "pid:9668:edb4809f-4b8c-4f4c-998e-97ee0e6e9426",
+        "response_id": null,
+        "op_literal": "TurnInput"
+      },
+      {
+        "receipt_seq": 18,
+        "parent_receipt_seq": 209,
+        "payload_sha256": "5a7be6ea542a49be9046a0be779393678f7c0f6e9b9097c932711e477401f94c",
+        "source_row_id": 2350468,
+        "module_path": "codex_core::session::handlers",
+        "submission_id": "01a061ee-b370-7d72-a825-67139861e9ac",
+        "event": [
+          {
+            "json_path": "/feedback_log_body",
+            "field": "op",
+            "value": "TurnInput",
+            "char_offset": 138,
+            "extraction": "literal_debug_field"
+          }
+        ],
+        "code": [],
+        "claim": [],
+        "OBSERVED_NAME": "codex_core::session::handlers",
+        "INFERRED_ROLE": null,
+        "implementation_owner": null,
+        "target": "codex_core::session::handlers",
+        "source_file": "core\\src\\session\\handlers.rs",
+        "source_line": 532,
+        "source_timestamp": {
+          "ts": 1788349428,
+          "ts_nanos": 592810500
+        },
+        "collection_timestamp_ns": 1788806548312106000,
+        "thread_id": "01a061ec-47d8-7c83-9ccf-d951102acd11",
+        "process_uuid": "pid:9668:edb4809f-4b8c-4f4c-998e-97ee0e6e9426",
+        "response_id": null,
+        "op_literal": "TurnInput"
+      },
+      {
+        "receipt_seq": 19,
+        "parent_receipt_seq": 210,
+        "payload_sha256": "917003fb2bfbc2dc9fb8c1072dad063aea9e74787c0e0acb9da70350890bf981",
+        "source_row_id": 2350742,
+        "module_path": "codex_core::session::handlers",
+        "submission_id": "01a061ef-908e-7df0-a441-5b78630a2a8b",
+        "event": [
+          {
+            "json_path": "/feedback_log_body",
+            "field": "op",
+            "value": "TurnInput",
+            "char_offset": 138,
+            "extraction": "literal_debug_field"
+          }
+        ],
+        "code": [],
+        "claim": [],
+        "OBSERVED_NAME": "codex_core::session::handlers",
+        "INFERRED_ROLE": null,
+        "implementation_owner": null,
+        "target": "codex_core::session::handlers",
+        "source_file": "core\\src\\session\\handlers.rs",
+        "source_line": 532,
+        "source_timestamp": {
+          "ts": 1788349485,
+          "ts_nanos": 199075700
+        },
+        "collection_timestamp_ns": 1788806548328933400,
+        "thread_id": "01a061ef-9064-74c1-b0a4-f576bcab3aa5",
+        "process_uuid": "pid:9668:edb4809f-4b8c-4f4c-998e-97ee0e6e9426",
+        "response_id": null,
+        "op_literal": "TurnInput"
+      },
+      {
+        "receipt_seq": 20,
+        "parent_receipt_seq": 211,
+        "payload_sha256": "0535bbcc0be3321c25b067918cc85e857e723a66ed1058667f085d2c36ca0fe7",
+        "source_row_id": 2350785,
+        "module_path": "codex_core::session::handlers",
+        "submission_id": "01a061ef-abb3-7860-b6f7-2926d800fed3",
+        "event": [
+          {
+            "json_path": "/feedback_log_body",
+            "field": "op",
+            "value": "TurnInput",
+            "char_offset": 138,
+            "extraction": "literal_debug_field"
+          }
+        ],
+        "code": [],
+        "claim": [],
+        "OBSERVED_NAME": "codex_core::session::handlers",
+        "INFERRED_ROLE": null,
+        "implementation_owner": null,
+        "target": "codex_core::session::handlers",
+        "source_file": "core\\src\\session\\handlers.rs",
+        "source_line": 532,
+        "source_timestamp": {
+          "ts": 1788349492,
+          "ts_nanos": 147890200
+        },
+        "collection_timestamp_ns": 1788806548358516300,
+        "thread_id": "01a061ef-ab90-7fa2-ac81-60a118eb16d4",
+        "process_uuid": "pid:9668:edb4809f-4b8c-4f4c-998e-97ee0e6e9426",
+        "response_id": null,
+        "op_literal": "TurnInput"
+      },
+      {
+        "receipt_seq": 21,
+        "parent_receipt_seq": 212,
+        "payload_sha256": "d05885eff4077735c3e5eab6ffe7b7c6214df80100c049ebce017a04b97122ba",
+        "source_row_id": 2351348,
+        "module_path": "codex_core::session::handlers",
+        "submission_id": "01a061f1-0c6b-7300-a3b9-45dc78affd1f",
+        "event": [
+          {
+            "json_path": "/feedback_log_body",
+            "field": "op",
+            "value": "TurnInput",
+            "char_offset": 138,
+            "extraction": "literal_debug_field"
+          }
+        ],
+        "code": [],
+        "claim": [],
+        "OBSERVED_NAME": "codex_core::session::handlers",
+        "INFERRED_ROLE": null,
+        "implementation_owner": null,
+        "target": "codex_core::session::handlers",
+        "source_file": "core\\src\\session\\handlers.rs",
+        "source_line": 532,
+        "source_timestamp": {
+          "ts": 1788349582,
+          "ts_nanos": 444322400
+        },
+        "collection_timestamp_ns": 1788806548387724300,
+        "thread_id": "01a061ef-ab90-7fa2-ac81-60a118eb16d4",
+        "process_uuid": "pid:9668:edb4809f-4b8c-4f4c-998e-97ee0e6e9426",
+        "response_id": null,
+        "op_literal": "TurnInput"
+      },
+      {
+        "receipt_seq": 22,
+        "parent_receipt_seq": 213,
+        "payload_sha256": "dcf857f0734770af3c2d477e41ab0e058e426664489119d73867e2d6c69d9707",
+        "source_row_id": 2352025,
+        "module_path": "codex_core::session::handlers",
+        "submission_id": "01a061f2-c811-7c93-8c6d-c6c78eb9041c",
+        "event": [
+          {
+            "json_path": "/feedback_log_body",
+            "field": "op",
+            "value": "TurnInput",
+            "char_offset": 138,
+            "extraction": "literal_debug_field"
+          }
+        ],
+        "code": [],
+        "claim": [],
+        "OBSERVED_NAME": "codex_core::session::handlers",
+        "INFERRED_ROLE": null,
+        "implementation_owner": null,
+        "target": "codex_core::session::handlers",
+        "source_file": "core\\src\\session\\handlers.rs",
+        "source_line": 532,
+        "source_timestamp": {
+          "ts": 1788349696,
+          "ts_nanos": 17875300
+        },
+        "collection_timestamp_ns": 1788806548416761200,
+        "thread_id": "01a061ef-ab90-7fa2-ac81-60a118eb16d4",
+        "process_uuid": "pid:9668:edb4809f-4b8c-4f4c-998e-97ee0e6e9426",
+        "response_id": null,
+        "op_literal": "TurnInput"
+      },
+      {
+        "receipt_seq": 23,
+        "parent_receipt_seq": 214,
+        "payload_sha256": "5b54da0ee289351b388febf7c6349cd3ed6a91465dda439156368f2de7ca0609",
+        "source_row_id": 2352372,
+        "module_path": "codex_core::session::handlers",
+        "submission_id": "01a061f3-ae3a-7542-9ccd-d2fac350a066",
+        "event": [
+          {
+            "json_path": "/feedback_log_body",
+            "field": "op",
+            "value": "TurnInput",
+            "char_offset": 138,
+            "extraction": "literal_debug_field"
+          }
+        ],
+        "code": [],
+        "claim": [],
+        "OBSERVED_NAME": "codex_core::session::handlers",
+        "INFERRED_ROLE": null,
+        "implementation_owner": null,
+        "target": "codex_core::session::handlers",
+        "source_file": "core\\src\\session\\handlers.rs",
+        "source_line": 532,
+        "source_timestamp": {
+          "ts": 1788349754,
+          "ts_nanos": 939324900
+        },
+        "collection_timestamp_ns": 1788806548446743400,
+        "thread_id": "01a061f3-ae0e-7eb1-ab60-fbc1d0eaeb60",
+        "process_uuid": "pid:9668:edb4809f-4b8c-4f4c-998e-97ee0e6e9426",
+        "response_id": null,
+        "op_literal": "TurnInput"
+      },
+      {
+        "receipt_seq": 24,
+        "parent_receipt_seq": 215,
+        "payload_sha256": "fd0aa9b331f19cca111e0f763532bb1e8a834adb5cd34a0fe6cb37c082d8ac99",
+        "source_row_id": 2352423,
+        "module_path": "codex_core::session::handlers",
+        "submission_id": "01a061f3-c60d-7723-8caf-d1d877979ef5",
+        "event": [
+          {
+            "json_path": "/feedback_log_body",
+            "field": "op",
+            "value": "TurnInput",
+            "char_offset": 138,
+            "extraction": "literal_debug_field"
+          }
+        ],
+        "code": [],
+        "claim": [],
+        "OBSERVED_NAME": "codex_core::session::handlers",
+        "INFERRED_ROLE": null,
+        "implementation_owner": null,
+        "target": "codex_core::session::handlers",
+        "source_file": "core\\src\\session\\handlers.rs",
+        "source_line": 532,
+        "source_timestamp": {
+          "ts": 1788349761,
+          "ts_nanos": 37307100
+        },
+        "collection_timestamp_ns": 1788806548461295400,
+        "thread_id": "01a061f3-c5eb-7ce0-b11c-eadbec221475",
+        "process_uuid": "pid:9668:edb4809f-4b8c-4f4c-998e-97ee0e6e9426",
+        "response_id": null,
+        "op_literal": "TurnInput"
+      },
+      {
+        "receipt_seq": 25,
+        "parent_receipt_seq": 216,
+        "payload_sha256": "55969f7a0918f0b7e9bb84926bb66b62b8de21b7ed4b88750bea7c15883dde40",
+        "source_row_id": 2353125,
+        "module_path": "codex_core::session::handlers",
+        "submission_id": "01a061f5-428f-72c2-9e47-4d1de7be9188",
+        "event": [
+          {
+            "json_path": "/feedback_log_body",
+            "field": "op",
+            "value": "TurnInput",
+            "char_offset": 138,
+            "extraction": "literal_debug_field"
+          }
+        ],
+        "code": [],
+        "claim": [],
+        "OBSERVED_NAME": "codex_core::session::handlers",
+        "INFERRED_ROLE": null,
+        "implementation_owner": null,
+        "target": "codex_core::session::handlers",
+        "source_file": "core\\src\\session\\handlers.rs",
+        "source_line": 532,
+        "source_timestamp": {
+          "ts": 1788349858,
+          "ts_nanos": 447537900
+        },
+        "collection_timestamp_ns": 1788806548474807500,
+        "thread_id": "01a061f3-c5eb-7ce0-b11c-eadbec221475",
+        "process_uuid": "pid:9668:edb4809f-4b8c-4f4c-998e-97ee0e6e9426",
+        "response_id": null,
+        "op_literal": "TurnInput"
+      },
+      {
+        "receipt_seq": 26,
+        "parent_receipt_seq": 217,
+        "payload_sha256": "ef0fb56a65ab4fe4491736a7d2511aea9ed16e7a93964b2b597968379cf9cee4",
+        "source_row_id": 2353685,
+        "module_path": "codex_core::session::handlers",
+        "submission_id": "01a061f6-cf62-7bf3-b07d-b09ccbff5b0f",
+        "event": [
+          {
+            "json_path": "/feedback_log_body",
+            "field": "op",
+            "value": "TurnInput",
+            "char_offset": 138,
+            "extraction": "literal_debug_field"
+          }
+        ],
+        "code": [],
+        "claim": [],
+        "OBSERVED_NAME": "codex_core::session::handlers",
+        "INFERRED_ROLE": null,
+        "implementation_owner": null,
+        "target": "codex_core::session::handlers",
+        "source_file": "core\\src\\session\\handlers.rs",
+        "source_line": 532,
+        "source_timestamp": {
+          "ts": 1788349960,
+          "ts_nanos": 34837500
+        },
+        "collection_timestamp_ns": 1788806548508839300,
+        "thread_id": "01a061f3-c5eb-7ce0-b11c-eadbec221475",
+        "process_uuid": "pid:9668:edb4809f-4b8c-4f4c-998e-97ee0e6e9426",
+        "response_id": null,
+        "op_literal": "TurnInput"
+      },
+      {
+        "receipt_seq": 27,
+        "parent_receipt_seq": 218,
+        "payload_sha256": "c7f3023bedcb5be1e0606f11b6934a55b9ab81e3e456ea7d406f24317cfa37d5",
+        "source_row_id": 2354133,
+        "module_path": "codex_core::session::handlers",
+        "submission_id": "01a061f7-ce7c-77d0-9bd3-c93d880f2670",
+        "event": [
+          {
+            "json_path": "/feedback_log_body",
+            "field": "op",
+            "value": "TurnInput",
+            "char_offset": 138,
+            "extraction": "literal_debug_field"
+          }
+        ],
+        "code": [],
+        "claim": [],
+        "OBSERVED_NAME": "codex_core::session::handlers",
+        "INFERRED_ROLE": null,
+        "implementation_owner": null,
+        "target": "codex_core::session::handlers",
+        "source_file": "core\\src\\session\\handlers.rs",
+        "source_line": 532,
+        "source_timestamp": {
+          "ts": 1788350025,
+          "ts_nanos": 340719300
+        },
+        "collection_timestamp_ns": 1788806548541268600,
+        "thread_id": "01a061f7-ce53-7411-b86f-9260f89e94f9",
+        "process_uuid": "pid:9668:edb4809f-4b8c-4f4c-998e-97ee0e6e9426",
+        "response_id": null,
+        "op_literal": "TurnInput"
+      },
+      {
+        "receipt_seq": 28,
+        "parent_receipt_seq": 219,
+        "payload_sha256": "ee1b938aed97d7d601adf5b523d41aa27d01229ee48016ef2a5216928a33a0a1",
+        "source_row_id": 2354184,
+        "module_path": "codex_core::session::handlers",
+        "submission_id": "01a061f7-f44e-7621-8d50-6dab1992f589",
+        "event": [
+          {
+            "json_path": "/feedback_log_body",
+            "field": "op",
+            "value": "TurnInput",
+            "char_offset": 138,
+            "extraction": "literal_debug_field"
+          }
+        ],
+        "code": [],
+        "claim": [],
+        "OBSERVED_NAME": "codex_core::session::handlers",
+        "INFERRED_ROLE": null,
+        "implementation_owner": null,
+        "target": "codex_core::session::handlers",
+        "source_file": "core\\src\\session\\handlers.rs",
+        "source_line": 532,
+        "source_timestamp": {
+          "ts": 1788350035,
+          "ts_nanos": 23230200
+        },
+        "collection_timestamp_ns": 1788806548555780400,
+        "thread_id": "01a061f7-f425-7e12-9e9d-e899438fd8b1",
+        "process_uuid": "pid:9668:edb4809f-4b8c-4f4c-998e-97ee0e6e9426",
+        "response_id": null,
+        "op_literal": "TurnInput"
+      },
+      {
+        "receipt_seq": 29,
+        "parent_receipt_seq": 220,
+        "payload_sha256": "a742af9c5602159c41f1cf637f8b6161fa1f791288757d79f7d1dc24d1324d73",
+        "source_row_id": 2354698,
+        "module_path": "codex_core::session::handlers",
+        "submission_id": "01a061f9-4f49-76f0-914a-9354d2736d7e",
+        "event": [
+          {
+            "json_path": "/feedback_log_body",
+            "field": "op",
+            "value": "TurnInput",
+            "char_offset": 138,
+            "extraction": "literal_debug_field"
+          }
+        ],
+        "code": [],
+        "claim": [],
+        "OBSERVED_NAME": "codex_core::session::handlers",
+        "INFERRED_ROLE": null,
+        "implementation_owner": null,
+        "target": "codex_core::session::handlers",
+        "source_file": "core\\src\\session\\handlers.rs",
+        "source_line": 532,
+        "source_timestamp": {
+          "ts": 1788350123,
+          "ts_nanos": 849794000
+        },
+        "collection_timestamp_ns": 1788806548589406700,
+        "thread_id": "01a061f7-f425-7e12-9e9d-e899438fd8b1",
+        "process_uuid": "pid:9668:edb4809f-4b8c-4f4c-998e-97ee0e6e9426",
+        "response_id": null,
+        "op_literal": "TurnInput"
+      },
+      {
+        "receipt_seq": 30,
+        "parent_receipt_seq": 221,
+        "payload_sha256": "2a50cdaafaff3d2a3c49c23fe9d06c521b848e38c03e33c7da5cbb1e8a51ed3b",
+        "source_row_id": 2355260,
+        "module_path": "codex_core::session::handlers",
+        "submission_id": "01a061fa-ab00-7311-b56f-58639d863b4a",
+        "event": [
+          {
+            "json_path": "/feedback_log_body",
+            "field": "op",
+            "value": "TurnInput",
+            "char_offset": 138,
+            "extraction": "literal_debug_field"
+          }
+        ],
+        "code": [],
+        "claim": [],
+        "OBSERVED_NAME": "codex_core::session::handlers",
+        "INFERRED_ROLE": null,
+        "implementation_owner": null,
+        "target": "codex_core::session::handlers",
+        "source_file": "core\\src\\session\\handlers.rs",
+        "source_line": 532,
+        "source_timestamp": {
+          "ts": 1788350212,
+          "ts_nanos": 865297400
+        },
+        "collection_timestamp_ns": 1788806548617477800,
+        "thread_id": "01a061f7-f425-7e12-9e9d-e899438fd8b1",
+        "process_uuid": "pid:9668:edb4809f-4b8c-4f4c-998e-97ee0e6e9426",
+        "response_id": null,
+        "op_literal": "TurnInput"
+      },
+      {
+        "receipt_seq": 31,
+        "parent_receipt_seq": 222,
+        "payload_sha256": "04709383a2f4b22eded4191233e4285444ff0d964298c8a9f58261d9dedf531e",
+        "source_row_id": 2951798,
+        "module_path": "codex_core::session::handlers",
+        "submission_id": "01a073a4-4f9a-7070-b585-86f7d1a09656",
+        "event": [
+          {
+            "json_path": "/feedback_log_body",
+            "field": "op",
+            "value": "TurnInput",
+            "char_offset": 138,
+            "extraction": "literal_debug_field"
+          }
+        ],
+        "code": [],
+        "claim": [],
+        "OBSERVED_NAME": "codex_core::session::handlers",
+        "INFERRED_ROLE": null,
+        "implementation_owner": null,
+        "target": "codex_core::session::handlers",
+        "source_file": "core\\src\\session\\handlers.rs",
+        "source_line": 537,
+        "source_timestamp": {
+          "ts": 1788646543,
+          "ts_nanos": 258997800
+        },
+        "collection_timestamp_ns": 1788806548622999000,
+        "thread_id": "01a073a4-4f45-7821-b9fc-17d775c0fc4a",
+        "process_uuid": "pid:19668:5da539ab-13d0-4a43-932f-da208a9d1bf5",
+        "response_id": null,
+        "op_literal": "TurnInput"
+      },
+      {
+        "receipt_seq": 32,
+        "parent_receipt_seq": 223,
+        "payload_sha256": "f17251f49cd0e4b3dbfda5cca5dfd5842a5fa7a5c9b00fc833333038cbaef048",
+        "source_row_id": 2954022,
+        "module_path": "codex_core::session::handlers",
+        "submission_id": "01a073a6-4a32-77f3-b669-7efb9ae0e279",
+        "event": [
+          {
+            "json_path": "/feedback_log_body",
+            "field": "op",
+            "value": "TurnInput",
+            "char_offset": 138,
+            "extraction": "literal_debug_field"
+          }
+        ],
+        "code": [],
+        "claim": [],
+        "OBSERVED_NAME": "codex_core::session::handlers",
+        "INFERRED_ROLE": null,
+        "implementation_owner": null,
+        "target": "codex_core::session::handlers",
+        "source_file": "core\\src\\session\\handlers.rs",
+        "source_line": 537,
+        "source_timestamp": {
+          "ts": 1788646672,
+          "ts_nanos": 946923300
+        },
+        "collection_timestamp_ns": 1788806548639602900,
+        "thread_id": "01a073a6-49e4-7940-8b78-b3dd84f18370",
+        "process_uuid": "pid:19668:5da539ab-13d0-4a43-932f-da208a9d1bf5",
+        "response_id": null,
+        "op_literal": "TurnInput"
+      },
+      {
+        "receipt_seq": 33,
+        "parent_receipt_seq": 224,
+        "payload_sha256": "b5f7517a0972bfad26a0d02eebba997d2ef51166a957d9976c7cd775daf503be",
+        "source_row_id": 3012090,
+        "module_path": "codex_core::session::handlers",
+        "submission_id": "01a07422-3ec2-7702-8f6b-50f5df4b33ca",
+        "event": [
+          {
+            "json_path": "/feedback_log_body",
+            "field": "op",
+            "value": "TurnInput",
+            "char_offset": 138,
+            "extraction": "literal_debug_field"
+          }
+        ],
+        "code": [],
+        "claim": [],
+        "OBSERVED_NAME": "codex_core::session::handlers",
+        "INFERRED_ROLE": null,
+        "implementation_owner": null,
+        "target": "codex_core::session::handlers",
+        "source_file": "core\\src\\session\\handlers.rs",
+        "source_line": 537,
+        "source_timestamp": {
+          "ts": 1788654796,
+          "ts_nanos": 483062800
+        },
+        "collection_timestamp_ns": 1788806548661621700,
+        "thread_id": "01a07418-fdf9-7f62-af1e-7c473d809099",
+        "process_uuid": "pid:45044:2fcee2be-eae8-4fda-a1ae-6790e9b7c0e7",
+        "response_id": null,
+        "op_literal": "TurnInput"
+      },
+      {
+        "receipt_seq": 34,
+        "parent_receipt_seq": 225,
+        "payload_sha256": "ac920f65fe3bf98e41cc8ad763eb03cbf8e554ee63d362e7d85fbe49c1258a67",
+        "source_row_id": 3013552,
+        "module_path": "codex_core::session::handlers",
+        "submission_id": "01a0742c-56d2-71d3-8aa7-5211b5fdc639",
+        "event": [
+          {
+            "json_path": "/feedback_log_body",
+            "field": "op",
+            "value": "TurnInput",
+            "char_offset": 138,
+            "extraction": "literal_debug_field"
+          }
+        ],
+        "code": [],
+        "claim": [],
+        "OBSERVED_NAME": "codex_core::session::handlers",
+        "INFERRED_ROLE": null,
+        "implementation_owner": null,
+        "target": "codex_core::session::handlers",
+        "source_file": "core\\src\\session\\handlers.rs",
+        "source_line": 537,
+        "source_timestamp": {
+          "ts": 1788655458,
+          "ts_nanos": 3426200
+        },
+        "collection_timestamp_ns": 1788806548685567800,
+        "thread_id": "01a07418-fdf9-7f62-af1e-7c473d809099",
+        "process_uuid": "pid:45044:2fcee2be-eae8-4fda-a1ae-6790e9b7c0e7",
+        "response_id": null,
+        "op_literal": "TurnInput"
+      },
+      {
+        "receipt_seq": 35,
+        "parent_receipt_seq": 226,
+        "payload_sha256": "ee40c045041ae1cbd3d8c38eec9b8c8ea7388a1f617372bb37afcbff565545b1",
+        "source_row_id": 3018324,
+        "module_path": "codex_core::session::handlers",
+        "submission_id": "01a0745e-fed3-7dc2-b4bc-4e19a5473294",
+        "event": [
+          {
+            "json_path": "/feedback_log_body",
+            "field": "op",
+            "value": "TurnInput",
+            "char_offset": 138,
+            "extraction": "literal_debug_field"
+          }
+        ],
+        "code": [],
+        "claim": [],
+        "OBSERVED_NAME": "codex_core::session::handlers",
+        "INFERRED_ROLE": null,
+        "implementation_owner": null,
+        "target": "codex_core::session::handlers",
+        "source_file": "core\\src\\session\\handlers.rs",
+        "source_line": 537,
+        "source_timestamp": {
+          "ts": 1788658777,
+          "ts_nanos": 811267800
+        },
+        "collection_timestamp_ns": 1788806548689913200,
+        "thread_id": "01a0735e-006a-7031-b2b5-21d440208a0b",
+        "process_uuid": "pid:45044:2fcee2be-eae8-4fda-a1ae-6790e9b7c0e7",
+        "response_id": null,
+        "op_literal": "TurnInput"
+      },
+      {
+        "receipt_seq": 36,
+        "parent_receipt_seq": 227,
+        "payload_sha256": "26b81ab329090afd8e1982e3e27101f04f5cd1cef30c9da0e5c02c0fd5fdef7d",
+        "source_row_id": 3018666,
+        "module_path": "codex_core::session::handlers",
+        "submission_id": "01a07460-1cec-7133-b47a-9d6ddc98e688",
+        "event": [
+          {
+            "json_path": "/feedback_log_body",
+            "field": "op",
+            "value": "TurnInput",
+            "char_offset": 138,
+            "extraction": "literal_debug_field"
+          }
+        ],
+        "code": [],
+        "claim": [],
+        "OBSERVED_NAME": "codex_core::session::handlers",
+        "INFERRED_ROLE": null,
+        "implementation_owner": null,
+        "target": "codex_core::session::handlers",
+        "source_file": "core\\src\\session\\handlers.rs",
+        "source_line": 537,
+        "source_timestamp": {
+          "ts": 1788658851,
+          "ts_nanos": 53425200
+        },
+        "collection_timestamp_ns": 1788806548712952700,
+        "thread_id": "01a07418-fdf9-7f62-af1e-7c473d809099",
+        "process_uuid": "pid:45044:2fcee2be-eae8-4fda-a1ae-6790e9b7c0e7",
+        "response_id": null,
+        "op_literal": "TurnInput"
+      },
+      {
+        "receipt_seq": 37,
+        "parent_receipt_seq": 228,
+        "payload_sha256": "119baee072b019b61421a2d8a8171ee22b7a7f9048ae1a7ff4c3bb9d2ca07acc",
+        "source_row_id": 3020318,
+        "module_path": "codex_core::session::handlers",
+        "submission_id": "01a0746f-9201-7c83-96af-068c114bcc98",
+        "event": [
+          {
+            "json_path": "/feedback_log_body",
+            "field": "op",
+            "value": "TurnInput",
+            "char_offset": 138,
+            "extraction": "literal_debug_field"
+          }
+        ],
+        "code": [],
+        "claim": [],
+        "OBSERVED_NAME": "codex_core::session::handlers",
+        "INFERRED_ROLE": null,
+        "implementation_owner": null,
+        "target": "codex_core::session::handlers",
+        "source_file": "core\\src\\session\\handlers.rs",
+        "source_line": 537,
+        "source_timestamp": {
+          "ts": 1788659864,
+          "ts_nanos": 66450400
+        },
+        "collection_timestamp_ns": 1788806548740486300,
+        "thread_id": "01a07418-fdf9-7f62-af1e-7c473d809099",
+        "process_uuid": "pid:45044:2fcee2be-eae8-4fda-a1ae-6790e9b7c0e7",
+        "response_id": null,
+        "op_literal": "TurnInput"
+      },
+      {
+        "receipt_seq": 38,
+        "parent_receipt_seq": 229,
+        "payload_sha256": "6cc6e233873fc5a266be1eff138b51e6c4565b6eeaa43aa938609303232ebfe1",
+        "source_row_id": 3021082,
+        "module_path": "codex_core::session::handlers",
+        "submission_id": "01a07470-720f-7480-ae12-e63ca3841da7",
+        "event": [
+          {
+            "json_path": "/feedback_log_body",
+            "field": "op",
+            "value": "TurnInput",
+            "char_offset": 138,
+            "extraction": "literal_debug_field"
+          }
+        ],
+        "code": [],
+        "claim": [],
+        "OBSERVED_NAME": "codex_core::session::handlers",
+        "INFERRED_ROLE": null,
+        "implementation_owner": null,
+        "target": "codex_core::session::handlers",
+        "source_file": "core\\src\\session\\handlers.rs",
+        "source_line": 537,
+        "source_timestamp": {
+          "ts": 1788659921,
+          "ts_nanos": 423854200
+        },
+        "collection_timestamp_ns": 1788806548746487900,
+        "thread_id": "01a07470-71ca-7cc0-b468-910cfd42f64c",
+        "process_uuid": "pid:45044:2fcee2be-eae8-4fda-a1ae-6790e9b7c0e7",
+        "response_id": null,
+        "op_literal": "TurnInput"
+      },
+      {
+        "receipt_seq": 39,
+        "parent_receipt_seq": 230,
+        "payload_sha256": "d1a40e44c0ebad294c08596c083812ec053170a43dc796fdf909b09c5dd20310",
+        "source_row_id": 3021157,
+        "module_path": "codex_core::session::handlers",
+        "submission_id": "01a07470-85a0-76c0-8b21-082eda32f184",
+        "event": [
+          {
+            "json_path": "/feedback_log_body",
+            "field": "op",
+            "value": "TurnInput",
+            "char_offset": 138,
+            "extraction": "literal_debug_field"
+          }
+        ],
+        "code": [],
+        "claim": [],
+        "OBSERVED_NAME": "codex_core::session::handlers",
+        "INFERRED_ROLE": null,
+        "implementation_owner": null,
+        "target": "codex_core::session::handlers",
+        "source_file": "core\\src\\session\\handlers.rs",
+        "source_line": 537,
+        "source_timestamp": {
+          "ts": 1788659926,
+          "ts_nanos": 433055400
+        },
+        "collection_timestamp_ns": 1788806548775881800,
+        "thread_id": "01a07418-fdf9-7f62-af1e-7c473d809099",
+        "process_uuid": "pid:45044:2fcee2be-eae8-4fda-a1ae-6790e9b7c0e7",
+        "response_id": null,
+        "op_literal": "TurnInput"
+      },
+      {
+        "receipt_seq": 40,
+        "parent_receipt_seq": 231,
+        "payload_sha256": "d00e569bbd760b15cbf68f0ba5f2d1534712e53a7f9d4531fad3a8ba0b08c29f",
+        "source_row_id": 3022851,
+        "module_path": "codex_core::session::handlers",
+        "submission_id": "01a07474-c262-7e90-b2d6-88828cda31ba",
+        "event": [
+          {
+            "json_path": "/feedback_log_body",
+            "field": "op",
+            "value": "TurnInput",
+            "char_offset": 138,
+            "extraction": "literal_debug_field"
+          }
+        ],
+        "code": [],
+        "claim": [],
+        "OBSERVED_NAME": "codex_core::session::handlers",
+        "INFERRED_ROLE": null,
+        "implementation_owner": null,
+        "target": "codex_core::session::handlers",
+        "source_file": "core\\src\\session\\handlers.rs",
+        "source_line": 537,
+        "source_timestamp": {
+          "ts": 1788660204,
+          "ts_nanos": 131157200
+        },
+        "collection_timestamp_ns": 1788806548790242700,
+        "thread_id": "01a07470-71ca-7cc0-b468-910cfd42f64c",
+        "process_uuid": "pid:45044:2fcee2be-eae8-4fda-a1ae-6790e9b7c0e7",
+        "response_id": null,
+        "op_literal": "TurnInput"
+      },
+      {
+        "receipt_seq": 41,
+        "parent_receipt_seq": 232,
+        "payload_sha256": "233dfee3d4c6ad1b646031b6a6c6ff10755ad2245b3dd20fa435663039842637",
+        "source_row_id": 3223617,
+        "module_path": "codex_core::session::handlers",
+        "submission_id": "01a075c3-e228-7270-88f6-586f02be73e8",
+        "event": [
+          {
+            "json_path": "/feedback_log_body",
+            "field": "op",
+            "value": "TurnInput",
+            "char_offset": 138,
+            "extraction": "literal_debug_field"
+          }
+        ],
+        "code": [],
+        "claim": [],
+        "OBSERVED_NAME": "codex_core::session::handlers",
+        "INFERRED_ROLE": null,
+        "implementation_owner": null,
+        "target": "codex_core::session::handlers",
+        "source_file": "core\\src\\session\\handlers.rs",
+        "source_line": 537,
+        "source_timestamp": {
+          "ts": 1788682166,
+          "ts_nanos": 825010900
+        },
+        "collection_timestamp_ns": 1788806548801756000,
+        "thread_id": "01a075c3-e1e0-7363-abf6-96ecd1409238",
+        "process_uuid": "pid:35052:6de35b63-c799-4796-aa0c-82959c30cd9a",
+        "response_id": null,
+        "op_literal": "TurnInput"
+      }
+    ],
+    "matching_native_rows": 32,
+    "observed_module_path_counts": {
+      "codex_core::session::handlers": 32
+    },
+    "prior_source_timebase": "ts plus ts_nanos",
+    "current_capture_mode": "prior_native_row_import",
+    "current_live_capture": {
+      "events": 131,
+      "stage_counts": {
+        "cli_stdin_sent": 18,
+        "cli_stderr": 25,
+        "cli_stdout": 71,
+        "cli_last_message_file": 17
+      },
+      "wrapper_matches": []
+    }
+  },
+  "code": {
+    "installed_archive": {
+      "source_path": "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.901.6511.0_x64__2p2nqsd0c76g0\\app\\resources\\app.asar",
+      "sha256": "e75bae2b8a02f174c7ceeed6d631aaff355e44f8af5c798fa3628089f11d659e",
+      "members_scanned": 7042,
+      "matched_members": 0,
+      "package_fields": {
+        "name": "openai-codex-electron",
+        "version": "26.901.51231",
+        "author": "OpenAI",
+        "repository": null,
+        "productName": "Codex"
+      },
+      "local_seq": 233
+    },
+    "binary_search": [
+      {
+        "source_path": "C:\\Users\\drewd\\AppData\\Local\\OpenAI\\Codex\\bin\\8e5b6932251c2c1c\\codex.exe",
+        "sha256": "e5aa76d19c7c94e2e9ef9b707d590206a73ac0e97c8ddc8382181242494bef75",
+        "bytes": 295408944,
+        "queries": [
+          {
+            "query": "Based on the transcript",
+            "matches": 0,
+            "byte_offsets": [],
+            "sample_receipts": []
+          },
+          {
+            "query": "SRT transcript",
+            "matches": 0,
+            "byte_offsets": [],
+            "sample_receipts": []
+          },
+          {
+            "query": "latest user turn",
+            "matches": 0,
+            "byte_offsets": [],
+            "sample_receipts": []
+          },
+          {
+            "query": "body.transcript",
+            "matches": 0,
+            "byte_offsets": [],
+            "sample_receipts": []
+          },
+          {
+            "query": "realtime_conversation",
+            "matches": 108,
+            "byte_offsets": [
+              227076369,
+              227154021,
+              227154078,
+              227154134,
+              227154185,
+              227155807,
+              227303833,
+              227705227,
+              228241249,
+              228316938,
+              230657425,
+              230709199,
+              230709464,
+              230709488,
+              230714809,
+              230717352,
+              230814594,
+              230834455,
+              230834496,
+              230834526,
+              230834687,
+              230834887,
+              230835107,
+              230835273,
+              230835439,
+              230835759,
+              230835927,
+              230836199,
+              230836279,
+              230836447,
+              230836615,
+              230837001,
+              230837167,
+              230837447,
+              230837615,
+              230837823,
+              230837991,
+              230838343,
+              230838511,
+              230839226,
+              230839552,
+              230839998,
+              230840263,
+              230840431,
+              230840922,
+              230841087,
+              230841255,
+              230841423,
+              230842098,
+              230842374,
+              230842569,
+              230842647,
+              230842696,
+              230842801,
+              230842975,
+              230843191,
+              230891751,
+              231164361,
+              231194611,
+              231194635,
+              231212557,
+              231212614,
+              231212670,
+              231212721,
+              231214353,
+              231220058,
+              231220085,
+              231220112,
+              231220138,
+              231220166,
+              231220193,
+              231423666,
+              231425801,
+              231527989,
+              232263596,
+              232995660,
+              232995717,
+              232995773,
+              232995824,
+              232997478,
+              234276780,
+              234276809,
+              234276839,
+              234276867,
+              234277740,
+              234689581,
+              234689638,
+              234689694,
+              234689745,
+              234691435,
+              234768681,
+              234768738,
+              234768794,
+              234768845,
+              234770513,
+              235685008,
+              235818348,
+              235818405,
+              235818461,
+              235818512,
+              235820144,
+              236084081,
+              236730631,
+              236842804,
+              236842833,
+              236842863,
+              236842891,
+              236843782
+            ],
+            "sample_receipts": [
+              235,
+              236
+            ]
+          },
+          {
+            "query": "core\\src\\realtime_conversation.rs",
+            "matches": 35,
+            "byte_offsets": [
+              227076360,
+              228241240,
+              230657416,
+              230834446,
+              230834517,
+              230834678,
+              230834878,
+              230835098,
+              230835264,
+              230835430,
+              230835750,
+              230835918,
+              230836270,
+              230836438,
+              230836606,
+              230836992,
+              230837158,
+              230837438,
+              230837606,
+              230837814,
+              230837982,
+              230838334,
+              230838502,
+              230839217,
+              230839989,
+              230840254,
+              230840422,
+              230840913,
+              230841078,
+              230841246,
+              230841414,
+              230842089,
+              230842365,
+              231164352,
+              231423657
+            ],
+            "sample_receipts": [
+              237,
+              238
+            ]
+          },
+          {
+            "query": "BEM output did not contain a recognized channel header",
+            "matches": 6,
+            "byte_offsets": [
+              227076424,
+              228241304,
+              230657480,
+              230839400,
+              231164416,
+              231424352
+            ],
+            "sample_receipts": [
+              239,
+              240
+            ]
+          }
+        ]
+      },
+      {
+        "source_path": "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.901.6511.0_x64__2p2nqsd0c76g0\\app\\resources\\codex.exe",
+        "sha256": "e5aa76d19c7c94e2e9ef9b707d590206a73ac0e97c8ddc8382181242494bef75",
+        "bytes": 295408944,
+        "queries": [
+          {
+            "query": "Based on the transcript",
+            "matches": 0,
+            "byte_offsets": [],
+            "sample_receipts": []
+          },
+          {
+            "query": "SRT transcript",
+            "matches": 0,
+            "byte_offsets": [],
+            "sample_receipts": []
+          },
+          {
+            "query": "latest user turn",
+            "matches": 0,
+            "byte_offsets": [],
+            "sample_receipts": []
+          },
+          {
+            "query": "body.transcript",
+            "matches": 0,
+            "byte_offsets": [],
+            "sample_receipts": []
+          },
+          {
+            "query": "realtime_conversation",
+            "matches": 108,
+            "byte_offsets": [
+              227076369,
+              227154021,
+              227154078,
+              227154134,
+              227154185,
+              227155807,
+              227303833,
+              227705227,
+              228241249,
+              228316938,
+              230657425,
+              230709199,
+              230709464,
+              230709488,
+              230714809,
+              230717352,
+              230814594,
+              230834455,
+              230834496,
+              230834526,
+              230834687,
+              230834887,
+              230835107,
+              230835273,
+              230835439,
+              230835759,
+              230835927,
+              230836199,
+              230836279,
+              230836447,
+              230836615,
+              230837001,
+              230837167,
+              230837447,
+              230837615,
+              230837823,
+              230837991,
+              230838343,
+              230838511,
+              230839226,
+              230839552,
+              230839998,
+              230840263,
+              230840431,
+              230840922,
+              230841087,
+              230841255,
+              230841423,
+              230842098,
+              230842374,
+              230842569,
+              230842647,
+              230842696,
+              230842801,
+              230842975,
+              230843191,
+              230891751,
+              231164361,
+              231194611,
+              231194635,
+              231212557,
+              231212614,
+              231212670,
+              231212721,
+              231214353,
+              231220058,
+              231220085,
+              231220112,
+              231220138,
+              231220166,
+              231220193,
+              231423666,
+              231425801,
+              231527989,
+              232263596,
+              232995660,
+              232995717,
+              232995773,
+              232995824,
+              232997478,
+              234276780,
+              234276809,
+              234276839,
+              234276867,
+              234277740,
+              234689581,
+              234689638,
+              234689694,
+              234689745,
+              234691435,
+              234768681,
+              234768738,
+              234768794,
+              234768845,
+              234770513,
+              235685008,
+              235818348,
+              235818405,
+              235818461,
+              235818512,
+              235820144,
+              236084081,
+              236730631,
+              236842804,
+              236842833,
+              236842863,
+              236842891,
+              236843782
+            ],
+            "sample_receipts": [
+              241,
+              242
+            ]
+          },
+          {
+            "query": "core\\src\\realtime_conversation.rs",
+            "matches": 35,
+            "byte_offsets": [
+              227076360,
+              228241240,
+              230657416,
+              230834446,
+              230834517,
+              230834678,
+              230834878,
+              230835098,
+              230835264,
+              230835430,
+              230835750,
+              230835918,
+              230836270,
+              230836438,
+              230836606,
+              230836992,
+              230837158,
+              230837438,
+              230837606,
+              230837814,
+              230837982,
+              230838334,
+              230838502,
+              230839217,
+              230839989,
+              230840254,
+              230840422,
+              230840913,
+              230841078,
+              230841246,
+              230841414,
+              230842089,
+              230842365,
+              231164352,
+              231423657
+            ],
+            "sample_receipts": [
+              243,
+              244
+            ]
+          },
+          {
+            "query": "BEM output did not contain a recognized channel header",
+            "matches": 6,
+            "byte_offsets": [
+              227076424,
+              228241304,
+              230657480,
+              230839400,
+              231164416,
+              231424352
+            ],
+            "sample_receipts": [
+              245,
+              246
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "claim": {
+    "handoff_sha256": "b39ff38a37f727e50946882e6ef453c1db6adace41ecfcc5aa3120f3f607229a"
+  },
+  "file_search": {
+    "roots": [
+      "C:\\Users\\drewd\\Documents\\Codex\\2026-09-06\\https-chatgpt-com-share-6a9d1f7c-c25c-2\\work\\public\\shared_stream.json",
+      "C:\\Users\\drewd\\Documents\\Codex\\2026-09-06\\https-chatgpt-com-share-6a9d1f7c-c25c-2\\work\\public\\shared_conversation.html",
+      "C:\\Users\\drewd\\Documents\\Codex\\2026-09-06\\https-chatgpt-com-share-6a9d1f7c-c25c-2\\work\\public\\conversation_readable.txt",
+      "C:\\Users\\drewd\\Documents\\Codex\\2026-09-06\\https-chatgpt-com-share-6a9d1f7c-c25c-2\\work\\public\\conversation_messages.json",
+      "C:\\Users\\drewd\\Documents\\Codex\\2026-09-02\\yeah-then-it-s-an-interception\\work\\new_share_records\\MANIFEST.json",
+      "C:\\Users\\drewd\\Documents\\Codex\\2026-09-05\\referenced-chatgpt-conversation-this-is-an-3\\work\\pre_document_all_user.json",
+      "C:\\Users\\drewd\\Documents\\Codex\\2026-09-05\\referenced-chatgpt-conversation-this-is-an-3\\work\\full_transcripts_roundtrip.json",
+      "C:\\Users\\drewd\\Documents\\Codex\\2026-09-05\\referenced-chatgpt-conversation-this-is-an-3\\work\\all_transcripts.json",
+      "C:\\Users\\drewd\\Documents\\Codex\\2026-09-02\\yeah-then-it-s-an-interception\\work\\Investigation_safety_function\\Analydid\\AGENCY_INJECTION_CASE_LEDGER_V1.md",
+      "C:\\Users\\drewd\\Downloads\\SRT2.txt",
+      "C:\\Users\\drewd\\OneDrive\\Desktop\\Toroidal_scrotal_posturing-main\\AUDITS\\AGENCY_INJECTION_CASE_LEDGER_V1.md",
+      "C:\\Users\\drewd\\Downloads\\The conversation below is an SRT tr.txt",
+      "C:\\Users\\drewd\\Documents\\Codex\\2026-08-17\\https-chatgpt-com-share-6a83bc98-6b9c\\work\\AGENCY_INJECTION_CASE_LEDGER_V1.md",
+      "C:\\Users\\drewd\\Documents\\Codex\\2026-08-17\\https-chatgpt-com-share-6a83bc98-6b9c\\work\\agency_capability_review_packet.md",
+      "C:\\Users\\drewd\\Documents\\Codex\\2026-08-17\\https-chatgpt-com-share-6a83bc98-6b9c\\work\\AGENCY_RAW_CODING_WINDOWS_V1.md",
+      "C:\\Users\\drewd\\Documents\\Codex\\2026-08-17\\https-chatgpt-com-share-6a83bc98-6b9c\\work\\fifth_share_compact.md",
+      "C:\\Users\\drewd\\Documents\\Codex\\2026-08-17\\https-chatgpt-com-share-6a83bc98-6b9c\\work\\fifth_share_transcript.md",
+      "C:\\Users\\drewd\\Documents\\Codex\\2026-08-17\\https-chatgpt-com-share-6a83bc98-6b9c\\work\\inference_doublecode_heavy13_windows.md",
+      "C:\\Users\\drewd\\Documents\\Codex\\2026-08-17\\https-chatgpt-com-share-6a83bc98-6b9c\\work\\office_metaphor_transcript.md",
+      "C:\\Users\\drewd\\Documents\\Codex\\2026-08-17\\https-chatgpt-com-share-6a83bc98-6b9c\\work\\office_metaphor_compact.md",
+      "C:\\Users\\drewd\\Documents\\Codex\\2026-08-17\\https-chatgpt-com-share-6a83bc98-6b9c\\work\\provenance_reconstruction_v1\\source_witnesses\\fifth_share_transcript.md",
+      "C:\\Users\\drewd\\Documents\\Codex\\2026-08-17\\https-chatgpt-com-share-6a83bc98-6b9c\\work\\provenance_reconstruction_v1\\source_witnesses\\fifth_share_compact.md",
+      "C:\\Users\\drewd\\Documents\\Codex\\2026-08-17\\https-chatgpt-com-share-6a83bc98-6b9c\\work\\provenance_reconstruction_v1\\source_witnesses\\office_metaphor_compact.md",
+      "C:\\Users\\drewd\\Documents\\Codex\\2026-08-17\\https-chatgpt-com-share-6a83bc98-6b9c\\work\\provenance_reconstruction_v1\\source_witnesses\\office_metaphor_transcript.md"
+    ],
+    "query": "Based on the transcript, provide the assistant response to the latest user turn.",
+    "counts": {
+      "files_scanned": 24,
+      "matched_files": 7,
+      "exact_matches": 189,
+      "fuzzy_matches": 0
+    },
+    "files": [
+      {
+        "source_path": "C:\\Users\\drewd\\Documents\\Codex\\2026-09-06\\https-chatgpt-com-share-6a9d1f7c-c25c-2\\work\\public\\shared_stream.json",
+        "local_seq": 2,
+        "sha256": "a7f0d70295bc4dd88ee44bbc28aa5cad6acad1354d6d4b80879b26557825cfdb",
+        "matches": 45
+      },
+      {
+        "source_path": "C:\\Users\\drewd\\Documents\\Codex\\2026-09-06\\https-chatgpt-com-share-6a9d1f7c-c25c-2\\work\\public\\shared_conversation.html",
+        "local_seq": 3,
+        "sha256": "975392ff51542a8870b5083412b5048cee18f1e2f12558643284ff5dfe1a33f5",
+        "matches": 46
+      },
+      {
+        "source_path": "C:\\Users\\drewd\\Documents\\Codex\\2026-09-06\\https-chatgpt-com-share-6a9d1f7c-c25c-2\\work\\public\\conversation_readable.txt",
+        "local_seq": 4,
+        "sha256": "642908e5d10d111389304fd1042abc19b544b7b44bf1e31c12beb57419e616ce",
+        "matches": 40
+      },
+      {
+        "source_path": "C:\\Users\\drewd\\Documents\\Codex\\2026-09-06\\https-chatgpt-com-share-6a9d1f7c-c25c-2\\work\\public\\conversation_messages.json",
+        "local_seq": 5,
+        "sha256": "1ab7aac4430535625c71a32b22ebfb07cb0fb9f1356c0d7d2db53c457ced01cd",
+        "matches": 46
+      },
+      {
+        "source_path": "C:\\Users\\drewd\\Documents\\Codex\\2026-09-02\\yeah-then-it-s-an-interception\\work\\new_share_records\\MANIFEST.json",
+        "local_seq": 6,
+        "sha256": "136e487f8e5c1a6794e33936cbe3c3a6cc2335b1274218a3230fe1b7c41d7c43",
+        "matches": 2
+      },
+      {
+        "source_path": "C:\\Users\\drewd\\Downloads\\SRT2.txt",
+        "local_seq": 7,
+        "sha256": "41ffe35694076ee623ba028931c1109d30c263e8098307f660e0705ba657bad2",
+        "matches": 7
+      },
+      {
+        "source_path": "C:\\Users\\drewd\\Downloads\\The conversation below is an SRT tr.txt",
+        "local_seq": 8,
+        "sha256": "ebdb0176427c1bc8fda917235aa68cfdb052c9538636f008ba86bd4b6bfb0616",
+        "matches": 3
+      }
+    ]
+  },
+  "shared_export": {
+    "source_path": "C:\\Users\\drewd\\Documents\\Codex\\2026-09-06\\https-chatgpt-com-share-6a9d1f7c-c25c-2\\work\\public\\conversation_messages.json",
+    "source_sha256": "1ab7aac4430535625c71a32b22ebfb07cb0fb9f1356c0d7d2db53c457ced01cd",
+    "messages": 190,
+    "messages_with_wrapper_matches": 46,
+    "roles_of_matched_messages": {
+      "user": 46
+    },
+    "srt_wrapper_prefix_messages": 46,
+    "matches": [
+      {
+        "source_json_path": "/3",
+        "id": "a0999f8e-0878-48bf-9c4b-0b1c3b3142a7",
+        "role": "user",
+        "channel": null,
+        "create_time": "1788681063.026206",
+        "text_sha256": "b62fc0ea9c20423102712a20c2431aefd035bcd9014fef32cfec94df3471f754",
+        "wrapper_matches": [
+          {
+            "match_type": "exact",
+            "similarity": 1.0,
+            "char_offset": 45,
+            "byte_offset_utf8": 45,
+            "line": 1,
+            "text": "Based on the transcript, provide the assistant response to the latest user turn."
+          }
+        ],
+        "prefix_is_srt_wrapper": true
+      },
+      {
+        "source_json_path": "/4",
+        "id": "cdeaa0f8-1e03-420d-9ce4-4b6088beca39",
+        "role": "user",
+        "channel": null,
+        "create_time": "1788681063.026243",
+        "text_sha256": "0b40dc9da045a16c6aa9d489dbef41bfe8c7a57d10fc932416daa5245170ec10",
+        "wrapper_matches": [
+          {
+            "match_type": "exact",
+            "similarity": 1.0,
+            "char_offset": 75,
+            "byte_offset_utf8": 75,
+            "line": 1,
+            "text": "Based on the transcript, provide the assistant response to the latest user turn."
+          }
+        ],
+        "prefix_is_srt_wrapper": true
+      },
+      {
+        "source_json_path": "/8",
+        "id": "bf2455eb-6d29-4734-93c8-8f277e64d26e",
+        "role": "user",
+        "channel": null,
+        "create_time": "1788681110.826641",
+        "text_sha256": "686a9575ca606d5c1d00be25d2abcd89d41a5beba80681fb747bd2b7d79bba3b",
+        "wrapper_matches": [
+          {
+            "match_type": "exact",
+            "similarity": 1.0,
+            "char_offset": 75,
+            "byte_offset_utf8": 75,
+            "line": 1,
+            "text": "Based on the transcript, provide the assistant response to the latest user turn."
+          }
+        ],
+        "prefix_is_srt_wrapper": true
+      },
+      {
+        "source_json_path": "/11",
+        "id": "cc85eb33-bb50-4d07-9fa5-5ebbdb5b3630",
+        "role": "user",
+        "channel": null,
+        "create_time": "1788681130.303221",
+        "text_sha256": "a6e29fcf626e2448e5cc2220f583eebfa9ee5b492c2d11c6eaf1b8bda016a564",
+        "wrapper_matches": [
+          {
+            "match_type": "exact",
+            "similarity": 1.0,
+            "char_offset": 75,
+            "byte_offset_utf8": 75,
+            "line": 1,
+            "text": "Based on the transcript, provide the assistant response to the latest user turn."
+          }
+        ],
+        "prefix_is_srt_wrapper": true
+      },
+      {
+        "source_json_path": "/14",
+        "id": "e3fbc6a8-6cec-4f2e-a7be-dad41c7245a9",
+        "role": "user",
+        "channel": null,
+        "create_time": "1788681136.295934",
+        "text_sha256": "48303cee9312a94bb57103788161fb96139bf137b1644cce2347ed2076b327f6",
+        "wrapper_matches": [
+          {
+            "match_type": "exact",
+            "similarity": 1.0,
+            "char_offset": 75,
+            "byte_offset_utf8": 75,
+            "line": 1,
+            "text": "Based on the transcript, provide the assistant response to the latest user turn."
+          }
+        ],
+        "prefix_is_srt_wrapper": true
+      },
+      {
+        "source_json_path": "/17",
+        "id": "2627ebff-fdb1-4d40-8455-fba93aa4bfb5",
+        "role": "user",
+        "channel": null,
+        "create_time": "1788681148.848199",
+        "text_sha256": "380564fa8bb26d298e4c9e0ace9b0f70a528bde293844d06f01ba7296781daa0",
+        "wrapper_matches": [
+          {
+            "match_type": "exact",
+            "similarity": 1.0,
+            "char_offset": 75,
+            "byte_offset_utf8": 75,
+            "line": 1,
+            "text": "Based on the transcript, provide the assistant response to the latest user turn."
+          }
+        ],
+        "prefix_is_srt_wrapper": true
+      },
+      {
+        "source_json_path": "/20",
+        "id": "463187d8-fb1c-4fe6-b91c-814a265b6857",
+        "role": "user",
+        "channel": null,
+        "create_time": "1788681160.853893",
+        "text_sha256": "f49ccad36fcfa3be7af362b1d0b9f1db443a8474e656ac80d2c15e28c0c5619e",
+        "wrapper_matches": [
+          {
+            "match_type": "exact",
+            "similarity": 1.0,
+            "char_offset": 75,
+            "byte_offset_utf8": 75,
+            "line": 1,
+            "text": "Based on the transcript, provide the assistant response to the latest user turn."
+          }
+        ],
+        "prefix_is_srt_wrapper": true
+      },
+      {
+        "source_json_path": "/23",
+        "id": "5b660c40-486a-457f-90aa-0965f2916abd",
+        "role": "user",
+        "channel": null,
+        "create_time": "1788681175.615827",
+        "text_sha256": "e301a81f37a10241619e06a415cef6deceeb870721f0694bfdb56fc8ea3c295e",
+        "wrapper_matches": [
+          {
+            "match_type": "exact",
+            "similarity": 1.0,
+            "char_offset": 75,
+            "byte_offset_utf8": 75,
+            "line": 1,
+            "text": "Based on the transcript, provide the assistant response to the latest user turn."
+          }
+        ],
+        "prefix_is_srt_wrapper": true
+      },
+      {
+        "source_json_path": "/26",
+        "id": "fb59751c-a1a8-4e42-a469-f0a9b5e2e21e",
+        "role": "user",
+        "channel": null,
+        "create_time": "1788681196.828461",
+        "text_sha256": "8462cdb903739c4a7d4656fb28e443c601244c7b429f931f8caf9275f423576f",
+        "wrapper_matches": [
+          {
+            "match_type": "exact",
+            "similarity": 1.0,
+            "char_offset": 75,
+            "byte_offset_utf8": 75,
+            "line": 1,
+            "text": "Based on the transcript, provide the assistant response to the latest user turn."
+          }
+        ],
+        "prefix_is_srt_wrapper": true
+      },
+      {
+        "source_json_path": "/29",
+        "id": "b534183e-0f43-4935-a108-6852daa858df",
+        "role": "user",
+        "channel": null,
+        "create_time": "1788681213.848122",
+        "text_sha256": "9e3f0ee66c3ca8c3d12f8692da86022594a267ef5c44b3c6b204a64d5977245b",
+        "wrapper_matches": [
+          {
+            "match_type": "exact",
+            "similarity": 1.0,
+            "char_offset": 75,
+            "byte_offset_utf8": 75,
+            "line": 1,
+            "text": "Based on the transcript, provide the assistant response to the latest user turn."
+          }
+        ],
+        "prefix_is_srt_wrapper": true
+      },
+      {
+        "source_json_path": "/32",
+        "id": "d7eadcdb-b114-46e9-825c-a74bf5af637d",
+        "role": "user",
+        "channel": null,
+        "create_time": "1788681241.242402",
+        "text_sha256": "0ad86ea56b9a3f4b6e107db1911cef0c1c501e3caf74988845f410d3b7fb53cc",
+        "wrapper_matches": [
+          {
+            "match_type": "exact",
+            "similarity": 1.0,
+            "char_offset": 75,
+            "byte_offset_utf8": 75,
+            "line": 1,
+            "text": "Based on the transcript, provide the assistant response to the latest user turn."
+          }
+        ],
+        "prefix_is_srt_wrapper": true
+      },
+      {
+        "source_json_path": "/35",
+        "id": "380a423f-1e0d-4ccf-99ae-71f7833cdf05",
+        "role": "user",
+        "channel": null,
+        "create_time": "1788681260.051371",
+        "text_sha256": "b661b91ea70f85802a8d67e60215ce365f719a77f65cff52b9571651c534c57a",
+        "wrapper_matches": [
+          {
+            "match_type": "exact",
+            "similarity": 1.0,
+            "char_offset": 75,
+            "byte_offset_utf8": 75,
+            "line": 1,
+            "text": "Based on the transcript, provide the assistant response to the latest user turn."
+          }
+        ],
+        "prefix_is_srt_wrapper": true
+      },
+      {
+        "source_json_path": "/38",
+        "id": "3fe4447d-71b3-4c1c-9d11-edd5794b16a7",
+        "role": "user",
+        "channel": null,
+        "create_time": "1788681270.823103",
+        "text_sha256": "fc30717c57a2e74216cfd5f422a5701076e5e0bb7151a003e5e9b4ff9f86676e",
+        "wrapper_matches": [
+          {
+            "match_type": "exact",
+            "similarity": 1.0,
+            "char_offset": 75,
+            "byte_offset_utf8": 75,
+            "line": 1,
+            "text": "Based on the transcript, provide the assistant response to the latest user turn."
+          }
+        ],
+        "prefix_is_srt_wrapper": true
+      },
+      {
+        "source_json_path": "/42",
+        "id": "0b7469c8-f3ea-4d8a-9c63-731f82e0a4fc",
+        "role": "user",
+        "channel": null,
+        "create_time": "1788681297.649881",
+        "text_sha256": "61256ec1aa0b34c126c8d0ca91a63b0a15f3730877fb6e4d8c2396d082006432",
+        "wrapper_matches": [
+          {
+            "match_type": "exact",
+            "similarity": 1.0,
+            "char_offset": 75,
+            "byte_offset_utf8": 75,
+            "line": 1,
+            "text": "Based on the transcript, provide the assistant response to the latest user turn."
+          }
+        ],
+        "prefix_is_srt_wrapper": true
+      },
+      {
+        "source_json_path": "/46",
+        "id": "469c5567-843f-4daf-a565-a958d3be4712",
+        "role": "user",
+        "channel": null,
+        "create_time": "1788681316.801795",
+        "text_sha256": "2a9fae0179800d6d437b3e787e33638a4754e8d46d240513a1a445c33acf08cf",
+        "wrapper_matches": [
+          {
+            "match_type": "exact",
+            "similarity": 1.0,
+            "char_offset": 75,
+            "byte_offset_utf8": 75,
+            "line": 1,
+            "text": "Based on the transcript, provide the assistant response to the latest user turn."
+          }
+        ],
+        "prefix_is_srt_wrapper": true
+      },
+      {
+        "source_json_path": "/50",
+        "id": "ba4d42a5-b951-474e-8125-c1c44546092d",
+        "role": "user",
+        "channel": null,
+        "create_time": "1788681344.041758",
+        "text_sha256": "5f0db7ca142b7770b7942008d53fd99cb361706fe98e7d532605df8448622e42",
+        "wrapper_matches": [
+          {
+            "match_type": "exact",
+            "similarity": 1.0,
+            "char_offset": 75,
+            "byte_offset_utf8": 75,
+            "line": 1,
+            "text": "Based on the transcript, provide the assistant response to the latest user turn."
+          }
+        ],
+        "prefix_is_srt_wrapper": true
+      },
+      {
+        "source_json_path": "/53",
+        "id": "03374293-3163-4035-8b5f-bac113ae09cd",
+        "role": "user",
+        "channel": null,
+        "create_time": "1788681376.466607",
+        "text_sha256": "12dfa2dd32fd8c3ebea44357b95517c8a8ba9284f800d4b36ff10441e0fe8cef",
+        "wrapper_matches": [
+          {
+            "match_type": "exact",
+            "similarity": 1.0,
+            "char_offset": 75,
+            "byte_offset_utf8": 75,
+            "line": 1,
+            "text": "Based on the transcript, provide the assistant response to the latest user turn."
+          }
+        ],
+        "prefix_is_srt_wrapper": true
+      },
+      {
+        "source_json_path": "/56",
+        "id": "d23da304-82c4-4f83-91a7-cb564c6ac571",
+        "role": "user",
+        "channel": null,
+        "create_time": "1788681397.27157",
+        "text_sha256": "a3d8df90c166222996aeea9ebb69354c205e8fdbafcb7736465239e396689250",
+        "wrapper_matches": [
+          {
+            "match_type": "exact",
+            "similarity": 1.0,
+            "char_offset": 75,
+            "byte_offset_utf8": 75,
+            "line": 1,
+            "text": "Based on the transcript, provide the assistant response to the latest user turn."
+          }
+        ],
+        "prefix_is_srt_wrapper": true
+      },
+      {
+        "source_json_path": "/59",
+        "id": "c7a8c103-dcb9-4ce0-94fa-1712bffdb5c4",
+        "role": "user",
+        "channel": null,
+        "create_time": "1788681407.66062",
+        "text_sha256": "3ddb040d51c28fde6f46ebcbfdf9fe52de91dad53a9f553ab3932db233d5942f",
+        "wrapper_matches": [
+          {
+            "match_type": "exact",
+            "similarity": 1.0,
+            "char_offset": 75,
+            "byte_offset_utf8": 75,
+            "line": 1,
+            "text": "Based on the transcript, provide the assistant response to the latest user turn."
+          }
+        ],
+        "prefix_is_srt_wrapper": true
+      },
+      {
+        "source_json_path": "/62",
+        "id": "9314d4d3-6503-4efb-b19c-1c08ee8504a3",
+        "role": "user",
+        "channel": null,
+        "create_time": "1788681418.454717",
+        "text_sha256": "a18e47b8cdebe6fb5b3259c859619cabd8ca4a66c844e520036ad166fd09e58a",
+        "wrapper_matches": [
+          {
+            "match_type": "exact",
+            "similarity": 1.0,
+            "char_offset": 75,
+            "byte_offset_utf8": 75,
+            "line": 1,
+            "text": "Based on the transcript, provide the assistant response to the latest user turn."
+          }
+        ],
+        "prefix_is_srt_wrapper": true
+      },
+      {
+        "source_json_path": "/65",
+        "id": "f531a9db-9e7c-4d4a-b3f8-758b1098b15b",
+        "role": "user",
+        "channel": null,
+        "create_time": "1788681459.277997",
+        "text_sha256": "81f2aeb8a4ce6d38975fa804e239431f791caa346db9bc8b83f0c2a19d32b6d0",
+        "wrapper_matches": [
+          {
+            "match_type": "exact",
+            "similarity": 1.0,
+            "char_offset": 75,
+            "byte_offset_utf8": 75,
+            "line": 1,
+            "text": "Based on the transcript, provide the assistant response to the latest user turn."
+          }
+        ],
+        "prefix_is_srt_wrapper": true
+      },
+      {
+        "source_json_path": "/68",
+        "id": "d3ec2b19-f04e-4f0a-91a1-823094f7d0dd",
+        "role": "user",
+        "channel": null,
+        "create_time": "1788681467.374965",
+        "text_sha256": "7ebefad07757a90d50f20bea742300a3ff27ff67c193ef7fe29f40f7b331df9d",
+        "wrapper_matches": [
+          {
+            "match_type": "exact",
+            "similarity": 1.0,
+            "char_offset": 75,
+            "byte_offset_utf8": 75,
+            "line": 1,
+            "text": "Based on the transcript, provide the assistant response to the latest user turn."
+          }
+        ],
+        "prefix_is_srt_wrapper": true
+      },
+      {
+        "source_json_path": "/72",
+        "id": "b0732dec-fac4-421b-95d6-4eb7df9617ed",
+        "role": "user",
+        "channel": null,
+        "create_time": "1788681514.782014",
+        "text_sha256": "09d3c33ba2670672ddb88162d59f3f2aec2dca731feaed7caa6b5519d082200d",
+        "wrapper_matches": [
+          {
+            "match_type": "exact",
+            "similarity": 1.0,
+            "char_offset": 75,
+            "byte_offset_utf8": 75,
+            "line": 1,
+            "text": "Based on the transcript, provide the assistant response to the latest user turn."
+          }
+        ],
+        "prefix_is_srt_wrapper": true
+      },
+      {
+        "source_json_path": "/76",
+        "id": "3d3dfddd-8a83-4af6-88b2-252924cec519",
+        "role": "user",
+        "channel": null,
+        "create_time": "1788681546.091871",
+        "text_sha256": "d1e787ff0d5bc0adc558dadc2056a6452876c4a82fff6dfbf732685b33ddbd0f",
+        "wrapper_matches": [
+          {
+            "match_type": "exact",
+            "similarity": 1.0,
+            "char_offset": 75,
+            "byte_offset_utf8": 75,
+            "line": 1,
+            "text": "Based on the transcript, provide the assistant response to the latest user turn."
+          }
+        ],
+        "prefix_is_srt_wrapper": true
+      },
+      {
+        "source_json_path": "/80",
+        "id": "bec1fd4d-9575-4f30-b670-3c8bb75a7a24",
+        "role": "user",
+        "channel": null,
+        "create_time": "1788681564.708173",
+        "text_sha256": "905108cfae69404a3e1b3cdf7625b088c7795d13071dbeeb4a9b0b52611e0d43",
+        "wrapper_matches": [
+          {
+            "match_type": "exact",
+            "similarity": 1.0,
+            "char_offset": 75,
+            "byte_offset_utf8": 75,
+            "line": 1,
+            "text": "Based on the transcript, provide the assistant response to the latest user turn."
+          }
+        ],
+        "prefix_is_srt_wrapper": true
+      },
+      {
+        "source_json_path": "/84",
+        "id": "28d7a1da-5abc-461d-a2f3-1fc562e5c3dd",
+        "role": "user",
+        "channel": null,
+        "create_time": "1788681589.876133",
+        "text_sha256": "5c4c2d6d1d7663b29f055c0bbca2692abb1eb67c96d63d5601f8a5ed1740e18c",
+        "wrapper_matches": [
+          {
+            "match_type": "exact",
+            "similarity": 1.0,
+            "char_offset": 75,
+            "byte_offset_utf8": 75,
+            "line": 1,
+            "text": "Based on the transcript, provide the assistant response to the latest user turn."
+          }
+        ],
+        "prefix_is_srt_wrapper": true
+      },
+      {
+        "source_json_path": "/87",
+        "id": "055f2d50-ebdd-4ace-b05b-d0dcb49673da",
+        "role": "user",
+        "channel": null,
+        "create_time": "1788681603.988083",
+        "text_sha256": "7233b98375b0edaca63c574effb8caed9123dc2a61f02d41b6588cac40fa97bb",
+        "wrapper_matches": [
+          {
+            "match_type": "exact",
+            "similarity": 1.0,
+            "char_offset": 75,
+            "byte_offset_utf8": 75,
+            "line": 1,
+            "text": "Based on the transcript, provide the assistant response to the latest user turn."
+          }
+        ],
+        "prefix_is_srt_wrapper": true
+      },
+      {
+        "source_json_path": "/90",
+        "id": "52e9e472-85e4-4f5f-a5d7-ea79a31489eb",
+        "role": "user",
+        "channel": null,
+        "create_time": "1788681657.889566",
+        "text_sha256": "3472f1654e39d367dde509386985832863d07f9fe5a67869ca1c69290065a2ae",
+        "wrapper_matches": [
+          {
+            "match_type": "exact",
+            "similarity": 1.0,
+            "char_offset": 75,
+            "byte_offset_utf8": 75,
+            "line": 1,
+            "text": "Based on the transcript, provide the assistant response to the latest user turn."
+          }
+        ],
+        "prefix_is_srt_wrapper": true
+      },
+      {
+        "source_json_path": "/93",
+        "id": "77ae4e2f-fc6b-4d5d-9273-be5973730652",
+        "role": "user",
+        "channel": null,
+        "create_time": "1788681678.678108",
+        "text_sha256": "6d195300831cd1c3ba7ef02c6153d9d3c2e16266376a33608e1f3db695d30a51",
+        "wrapper_matches": [
+          {
+            "match_type": "exact",
+            "similarity": 1.0,
+            "char_offset": 75,
+            "byte_offset_utf8": 75,
+            "line": 1,
+            "text": "Based on the transcript, provide the assistant response to the latest user turn."
+          }
+        ],
+        "prefix_is_srt_wrapper": true
+      },
+      {
+        "source_json_path": "/96",
+        "id": "3117b5a7-3ddd-418f-b00f-b8357f391ffc",
+        "role": "user",
+        "channel": null,
+        "create_time": "1788681694.868418",
+        "text_sha256": "1f6bfb6cc8a37bf691e9fa64ea83a28f43d2dc24f619f967415dbd76447a8e65",
+        "wrapper_matches": [
+          {
+            "match_type": "exact",
+            "similarity": 1.0,
+            "char_offset": 75,
+            "byte_offset_utf8": 75,
+            "line": 1,
+            "text": "Based on the transcript, provide the assistant response to the latest user turn."
+          }
+        ],
+        "prefix_is_srt_wrapper": true
+      },
+      {
+        "source_json_path": "/99",
+        "id": "e614aaff-ba60-416d-903f-5825d9e17c6d",
+        "role": "user",
+        "channel": null,
+        "create_time": "1788681802.249957",
+        "text_sha256": "8d55029ab27a26d929eeb2b359747b848fbdaf4870e420aa5fbc347c08659d6c",
+        "wrapper_matches": [
+          {
+            "match_type": "exact",
+            "similarity": 1.0,
+            "char_offset": 75,
+            "byte_offset_utf8": 75,
+            "line": 1,
+            "text": "Based on the transcript, provide the assistant response to the latest user turn."
+          }
+        ],
+        "prefix_is_srt_wrapper": true
+      },
+      {
+        "source_json_path": "/102",
+        "id": "4338cd13-4748-4fb9-bef4-17d18f13374c",
+        "role": "user",
+        "channel": null,
+        "create_time": "1788681929.690674",
+        "text_sha256": "39078d08d1eb22aa59a9c6e66008474184723ba94a1668dbd2a015cbe3fd8cda",
+        "wrapper_matches": [
+          {
+            "match_type": "exact",
+            "similarity": 1.0,
+            "char_offset": 75,
+            "byte_offset_utf8": 75,
+            "line": 1,
+            "text": "Based on the transcript, provide the assistant response to the latest user turn."
+          }
+        ],
+        "prefix_is_srt_wrapper": true
+      },
+      {
+        "source_json_path": "/106",
+        "id": "fc502bcd-58d8-4305-a14b-dc6d21cb7e10",
+        "role": "user",
+        "channel": null,
+        "create_time": "1788681948.695692",
+        "text_sha256": "9596058da5878b0bfa4bece927c3f9115695a10b0c75ddf7340c5fee510e3d9e",
+        "wrapper_matches": [
+          {
+            "match_type": "exact",
+            "similarity": 1.0,
+            "char_offset": 75,
+            "byte_offset_utf8": 75,
+            "line": 1,
+            "text": "Based on the transcript, provide the assistant response to the latest user turn."
+          }
+        ],
+        "prefix_is_srt_wrapper": true
+      },
+      {
+        "source_json_path": "/110",
+        "id": "1904b03c-0915-4b9f-9b47-b6b877f269cb",
+        "role": "user",
+        "channel": null,
+        "create_time": "1788681972.70865",
+        "text_sha256": "92b522bfd62deb83eae082731239a2909633a38d372b1010e8b9ffec69ff1069",
+        "wrapper_matches": [
+          {
+            "match_type": "exact",
+            "similarity": 1.0,
+            "char_offset": 75,
+            "byte_offset_utf8": 75,
+            "line": 1,
+            "text": "Based on the transcript, provide the assistant response to the latest user turn."
+          }
+        ],
+        "prefix_is_srt_wrapper": true
+      },
+      {
+        "source_json_path": "/114",
+        "id": "2f90401b-0f67-4dd9-913d-fabfa5bf7fb3",
+        "role": "user",
+        "channel": null,
+        "create_time": "1788682000.303326",
+        "text_sha256": "6e97ae1f3cc99eccde617f7940f06234967e69f7c6fc0959a24602415b5f811f",
+        "wrapper_matches": [
+          {
+            "match_type": "exact",
+            "similarity": 1.0,
+            "char_offset": 75,
+            "byte_offset_utf8": 75,
+            "line": 1,
+            "text": "Based on the transcript, provide the assistant response to the latest user turn."
+          }
+        ],
+        "prefix_is_srt_wrapper": true
+      },
+      {
+        "source_json_path": "/117",
+        "id": "18cc1e12-b901-4f2b-beae-4991621f5d38",
+        "role": "user",
+        "channel": null,
+        "create_time": "1788682035.152083",
+        "text_sha256": "d46cca9dc551f334cba7e5a8eca76a459263b4d25bc6c761786580ee1ee25c43",
+        "wrapper_matches": [
+          {
+            "match_type": "exact",
+            "similarity": 1.0,
+            "char_offset": 75,
+            "byte_offset_utf8": 75,
+            "line": 1,
+            "text": "Based on the transcript, provide the assistant response to the latest user turn."
+          }
+        ],
+        "prefix_is_srt_wrapper": true
+      },
+      {
+        "source_json_path": "/121",
+        "id": "07a5e772-7a23-4023-b4df-caedf3c0f639",
+        "role": "user",
+        "channel": null,
+        "create_time": "1788682060.807794",
+        "text_sha256": "7aeec8df3a43d23935a603e505e5d315a0b0c5edb1af8184e4812fc75a4bc176",
+        "wrapper_matches": [
+          {
+            "match_type": "exact",
+            "similarity": 1.0,
+            "char_offset": 75,
+            "byte_offset_utf8": 75,
+            "line": 1,
+            "text": "Based on the transcript, provide the assistant response to the latest user turn."
+          }
+        ],
+        "prefix_is_srt_wrapper": true
+      },
+      {
+        "source_json_path": "/123",
+        "id": "dba71b22-47a6-461d-8e43-aa45bc0f60b2",
+        "role": "user",
+        "channel": null,
+        "create_time": "1788682073.361965",
+        "text_sha256": "7aeec8df3a43d23935a603e505e5d315a0b0c5edb1af8184e4812fc75a4bc176",
+        "wrapper_matches": [
+          {
+            "match_type": "exact",
+            "similarity": 1.0,
+            "char_offset": 75,
+            "byte_offset_utf8": 75,
+            "line": 1,
+            "text": "Based on the transcript, provide the assistant response to the latest user turn."
+          }
+        ],
+        "prefix_is_srt_wrapper": true
+      },
+      {
+        "source_json_path": "/125",
+        "id": "b1c6d011-3152-42a4-9e15-d26c24668917",
+        "role": "user",
+        "channel": null,
+        "create_time": "1788682087.736832",
+        "text_sha256": "7aeec8df3a43d23935a603e505e5d315a0b0c5edb1af8184e4812fc75a4bc176",
+        "wrapper_matches": [
+          {
+            "match_type": "exact",
+            "similarity": 1.0,
+            "char_offset": 75,
+            "byte_offset_utf8": 75,
+            "line": 1,
+            "text": "Based on the transcript, provide the assistant response to the latest user turn."
+          }
+        ],
+        "prefix_is_srt_wrapper": true
+      },
+      {
+        "source_json_path": "/135",
+        "id": "11457af6-6260-4178-b8d3-b8f939829af9",
+        "role": "user",
+        "channel": null,
+        "create_time": "1788682161.568423",
+        "text_sha256": "b95546fe5688c60b5f4a286d70ea245b8ae0989633eb10295e187d6322802ed7",
+        "wrapper_matches": [
+          {
+            "match_type": "exact",
+            "similarity": 1.0,
+            "char_offset": 75,
+            "byte_offset_utf8": 75,
+            "line": 1,
+            "text": "Based on the transcript, provide the assistant response to the latest user turn."
+          }
+        ],
+        "prefix_is_srt_wrapper": true
+      },
+      {
+        "source_json_path": "/148",
+        "id": "bdf028c4-2658-4e80-a6f8-496ed9ebf1e3",
+        "role": "user",
+        "channel": null,
+        "create_time": "1788682226.701981",
+        "text_sha256": "0416805707308504e41e03ae44879ffa5ee9659048a0afd23ae029540e42a942",
+        "wrapper_matches": [
+          {
+            "match_type": "exact",
+            "similarity": 1.0,
+            "char_offset": 75,
+            "byte_offset_utf8": 75,
+            "line": 1,
+            "text": "Based on the transcript, provide the assistant response to the latest user turn."
+          }
+        ],
+        "prefix_is_srt_wrapper": true
+      },
+      {
+        "source_json_path": "/152",
+        "id": "4931f2a5-cd4c-4ebc-a401-02fd0262236e",
+        "role": "user",
+        "channel": null,
+        "create_time": "1788682285.324258",
+        "text_sha256": "ab3408eba3b19b248c9e4bd5e8442d699744e691e6b57f8b563dc5265aaff33a",
+        "wrapper_matches": [
+          {
+            "match_type": "exact",
+            "similarity": 1.0,
+            "char_offset": 75,
+            "byte_offset_utf8": 75,
+            "line": 1,
+            "text": "Based on the transcript, provide the assistant response to the latest user turn."
+          }
+        ],
+        "prefix_is_srt_wrapper": true
+      },
+      {
+        "source_json_path": "/155",
+        "id": "9495005c-cddd-47d8-99c4-f6bcba5ee2bc",
+        "role": "user",
+        "channel": null,
+        "create_time": "1788682325.301605",
+        "text_sha256": "7e4bcbd73a207d77d402a8401a81864e26011b72b1e00bfd35cd056887f7f256",
+        "wrapper_matches": [
+          {
+            "match_type": "exact",
+            "similarity": 1.0,
+            "char_offset": 75,
+            "byte_offset_utf8": 75,
+            "line": 1,
+            "text": "Based on the transcript, provide the assistant response to the latest user turn."
+          }
+        ],
+        "prefix_is_srt_wrapper": true
+      },
+      {
+        "source_json_path": "/159",
+        "id": "44b66c26-f510-49d5-a972-4985a9d75567",
+        "role": "user",
+        "channel": null,
+        "create_time": "1788682346.921369",
+        "text_sha256": "faae0e3eeee47057a8b46b591c4130451c913d5a8b8f829447962a626defdf49",
+        "wrapper_matches": [
+          {
+            "match_type": "exact",
+            "similarity": 1.0,
+            "char_offset": 75,
+            "byte_offset_utf8": 75,
+            "line": 1,
+            "text": "Based on the transcript, provide the assistant response to the latest user turn."
+          }
+        ],
+        "prefix_is_srt_wrapper": true
+      },
+      {
+        "source_json_path": "/167",
+        "id": "9e905c63-f493-4c78-9e83-0719c9f3cd60",
+        "role": "user",
+        "channel": null,
+        "create_time": "1788682422.504843",
+        "text_sha256": "7048b773716a37b8b07cdca7a797e5c19b2f9fbba73d9fecfaa6e7d07651f018",
+        "wrapper_matches": [
+          {
+            "match_type": "exact",
+            "similarity": 1.0,
+            "char_offset": 75,
+            "byte_offset_utf8": 75,
+            "line": 1,
+            "text": "Based on the transcript, provide the assistant response to the latest user turn."
+          }
+        ],
+        "prefix_is_srt_wrapper": true
+      },
+      {
+        "source_json_path": "/178",
+        "id": "252b46ec-3903-45a0-a622-6f28d7bde372",
+        "role": "user",
+        "channel": null,
+        "create_time": "1788682496.907649",
+        "text_sha256": "622843a4ae56cff18d2f10ddf9f079d167676883da4be92ae76051ef2754ac8f",
+        "wrapper_matches": [
+          {
+            "match_type": "exact",
+            "similarity": 1.0,
+            "char_offset": 75,
+            "byte_offset_utf8": 75,
+            "line": 1,
+            "text": "Based on the transcript, provide the assistant response to the latest user turn."
+          }
+        ],
+        "prefix_is_srt_wrapper": true
+      }
+    ]
+  },
+  "wrapper_producer": {
+    "OBSERVED_NAME": null,
+    "INFERRED_ROLE": null,
+    "implementation_owner": null
+  },
+  "parent_chain": {
+    "head_sha256": "431292e1deac4f6f0ea46ad4f0617f823da8e334dab62bdbcec45310f9311c0e",
+    "receipts": 247,
+    "distinct_payloads": 240,
+    "expected_head_matches": true
+  },
+  "current_receipt_head_at_preparation": "1e9a378f6b18f002ffcbd0e6cb6a6df0e141600868bdc81c844c60809c29a02b",
+  "receipt_chain_head_sha256": "5f3db8900894dfa0331281bb817472eaad807a7b8c9fb1eb732a687cff0f9f56",
+  "report_generator_sha256": "98f70fe65b9c098369746bc9cad660ee7d74f359931ea9426713cfd23a9b52c4"
+}

@@ -1,0 +1,3762 @@
+{
+  "program_version": "4.1",
+  "program_sha256": "4f6977187b54ef6131f2041abee4a93440bc5507a23f5c9f1827e520091cd087",
+  "parent_program_sha256": "61052c99258c2b75d19b7ee58a8e64fb5b8c74efdd74d22e99e940f54119590f",
+  "generated_at_utc": "2026-09-07T18:55:47.419486+00:00",
+  "layer": "MEASUREMENT",
+  "receipts": 212,
+  "validated_payloads": 188,
+  "expected_head_sha256": "5f3db8900894dfa0331281bb817472eaad807a7b8c9fb1eb732a687cff0f9f56",
+  "expected_head_matches": true,
+  "sequence_first": 1,
+  "sequence_last": 212,
+  "head_sha256": "5f3db8900894dfa0331281bb817472eaad807a7b8c9fb1eb732a687cff0f9f56",
+  "kind_counts": {
+    "program_source": 1,
+    "verified_parent_source": 1,
+    "prepared_artifact": 6,
+    "prior_receipt_chain_validation": 1,
+    "event": 163,
+    "prior_static_code_search": 1,
+    "user_handoff": 1,
+    "canary_input": 1,
+    "canary_stage_copy": 1,
+    "cli_invocation": 18,
+    "cli_result": 18
+  },
+  "observed_names": [
+    {
+      "local_seq": 10,
+      "stream": null,
+      "OBSERVED_NAME": "codex_core::session::handlers",
+      "INFERRED_ROLE": null,
+      "json_path": "/module_path",
+      "field": "module_path",
+      "source": "payload",
+      "payload_sha256": "64dcd5ba65c0157ed7fa0123eb59e608763fff94b376b4e72828122c56f290b5"
+    },
+    {
+      "local_seq": 10,
+      "stream": null,
+      "OBSERVED_NAME": "codex_core::session::handlers",
+      "INFERRED_ROLE": null,
+      "json_path": "/target",
+      "field": "target",
+      "source": "payload",
+      "payload_sha256": "64dcd5ba65c0157ed7fa0123eb59e608763fff94b376b4e72828122c56f290b5"
+    },
+    {
+      "local_seq": 11,
+      "stream": null,
+      "OBSERVED_NAME": "codex_core::session::handlers",
+      "INFERRED_ROLE": null,
+      "json_path": "/module_path",
+      "field": "module_path",
+      "source": "payload",
+      "payload_sha256": "106e291601adc7c618dd61f1525824ba7d70c8d0b338459f572012c4a719c35d"
+    },
+    {
+      "local_seq": 11,
+      "stream": null,
+      "OBSERVED_NAME": "codex_core::session::handlers",
+      "INFERRED_ROLE": null,
+      "json_path": "/target",
+      "field": "target",
+      "source": "payload",
+      "payload_sha256": "106e291601adc7c618dd61f1525824ba7d70c8d0b338459f572012c4a719c35d"
+    },
+    {
+      "local_seq": 12,
+      "stream": null,
+      "OBSERVED_NAME": "codex_core::session::handlers",
+      "INFERRED_ROLE": null,
+      "json_path": "/module_path",
+      "field": "module_path",
+      "source": "payload",
+      "payload_sha256": "8771c0889098c64109ac56c3dd7b86fbb79fd18edf38a6bb7cf81864d1abcbd5"
+    },
+    {
+      "local_seq": 12,
+      "stream": null,
+      "OBSERVED_NAME": "codex_core::session::handlers",
+      "INFERRED_ROLE": null,
+      "json_path": "/target",
+      "field": "target",
+      "source": "payload",
+      "payload_sha256": "8771c0889098c64109ac56c3dd7b86fbb79fd18edf38a6bb7cf81864d1abcbd5"
+    },
+    {
+      "local_seq": 13,
+      "stream": null,
+      "OBSERVED_NAME": "codex_core::session::handlers",
+      "INFERRED_ROLE": null,
+      "json_path": "/module_path",
+      "field": "module_path",
+      "source": "payload",
+      "payload_sha256": "b299fd94cf9398ce23dcc1606a7e89c5c3423f0e88ed44c2e684c4088fdff0f2"
+    },
+    {
+      "local_seq": 13,
+      "stream": null,
+      "OBSERVED_NAME": "codex_core::session::handlers",
+      "INFERRED_ROLE": null,
+      "json_path": "/target",
+      "field": "target",
+      "source": "payload",
+      "payload_sha256": "b299fd94cf9398ce23dcc1606a7e89c5c3423f0e88ed44c2e684c4088fdff0f2"
+    },
+    {
+      "local_seq": 14,
+      "stream": null,
+      "OBSERVED_NAME": "codex_core::session::handlers",
+      "INFERRED_ROLE": null,
+      "json_path": "/module_path",
+      "field": "module_path",
+      "source": "payload",
+      "payload_sha256": "db65aa290e5c035de53dc6348065135101c7e46fe3d990ca55cffd48f2229fb9"
+    },
+    {
+      "local_seq": 14,
+      "stream": null,
+      "OBSERVED_NAME": "codex_core::session::handlers",
+      "INFERRED_ROLE": null,
+      "json_path": "/target",
+      "field": "target",
+      "source": "payload",
+      "payload_sha256": "db65aa290e5c035de53dc6348065135101c7e46fe3d990ca55cffd48f2229fb9"
+    },
+    {
+      "local_seq": 15,
+      "stream": null,
+      "OBSERVED_NAME": "codex_core::session::handlers",
+      "INFERRED_ROLE": null,
+      "json_path": "/module_path",
+      "field": "module_path",
+      "source": "payload",
+      "payload_sha256": "cfde9a7da9d943aeb865cff87c6b3cf5065f45aea8a90d87dcc3debabf29438c"
+    },
+    {
+      "local_seq": 15,
+      "stream": null,
+      "OBSERVED_NAME": "codex_core::session::handlers",
+      "INFERRED_ROLE": null,
+      "json_path": "/target",
+      "field": "target",
+      "source": "payload",
+      "payload_sha256": "cfde9a7da9d943aeb865cff87c6b3cf5065f45aea8a90d87dcc3debabf29438c"
+    },
+    {
+      "local_seq": 16,
+      "stream": null,
+      "OBSERVED_NAME": "codex_core::session::handlers",
+      "INFERRED_ROLE": null,
+      "json_path": "/module_path",
+      "field": "module_path",
+      "source": "payload",
+      "payload_sha256": "67de07a51576af560e45532ccc993d69e39965290d921c045268e5956eebf7d7"
+    },
+    {
+      "local_seq": 16,
+      "stream": null,
+      "OBSERVED_NAME": "codex_core::session::handlers",
+      "INFERRED_ROLE": null,
+      "json_path": "/target",
+      "field": "target",
+      "source": "payload",
+      "payload_sha256": "67de07a51576af560e45532ccc993d69e39965290d921c045268e5956eebf7d7"
+    },
+    {
+      "local_seq": 17,
+      "stream": null,
+      "OBSERVED_NAME": "codex_core::session::handlers",
+      "INFERRED_ROLE": null,
+      "json_path": "/module_path",
+      "field": "module_path",
+      "source": "payload",
+      "payload_sha256": "2091a40dc47cdea7a0fc6c7b02ce6f6dc159605f0d159cfe383832850cb50ca3"
+    },
+    {
+      "local_seq": 17,
+      "stream": null,
+      "OBSERVED_NAME": "codex_core::session::handlers",
+      "INFERRED_ROLE": null,
+      "json_path": "/target",
+      "field": "target",
+      "source": "payload",
+      "payload_sha256": "2091a40dc47cdea7a0fc6c7b02ce6f6dc159605f0d159cfe383832850cb50ca3"
+    },
+    {
+      "local_seq": 18,
+      "stream": null,
+      "OBSERVED_NAME": "codex_core::session::handlers",
+      "INFERRED_ROLE": null,
+      "json_path": "/module_path",
+      "field": "module_path",
+      "source": "payload",
+      "payload_sha256": "5a7be6ea542a49be9046a0be779393678f7c0f6e9b9097c932711e477401f94c"
+    },
+    {
+      "local_seq": 18,
+      "stream": null,
+      "OBSERVED_NAME": "codex_core::session::handlers",
+      "INFERRED_ROLE": null,
+      "json_path": "/target",
+      "field": "target",
+      "source": "payload",
+      "payload_sha256": "5a7be6ea542a49be9046a0be779393678f7c0f6e9b9097c932711e477401f94c"
+    },
+    {
+      "local_seq": 19,
+      "stream": null,
+      "OBSERVED_NAME": "codex_core::session::handlers",
+      "INFERRED_ROLE": null,
+      "json_path": "/module_path",
+      "field": "module_path",
+      "source": "payload",
+      "payload_sha256": "917003fb2bfbc2dc9fb8c1072dad063aea9e74787c0e0acb9da70350890bf981"
+    },
+    {
+      "local_seq": 19,
+      "stream": null,
+      "OBSERVED_NAME": "codex_core::session::handlers",
+      "INFERRED_ROLE": null,
+      "json_path": "/target",
+      "field": "target",
+      "source": "payload",
+      "payload_sha256": "917003fb2bfbc2dc9fb8c1072dad063aea9e74787c0e0acb9da70350890bf981"
+    },
+    {
+      "local_seq": 20,
+      "stream": null,
+      "OBSERVED_NAME": "codex_core::session::handlers",
+      "INFERRED_ROLE": null,
+      "json_path": "/module_path",
+      "field": "module_path",
+      "source": "payload",
+      "payload_sha256": "0535bbcc0be3321c25b067918cc85e857e723a66ed1058667f085d2c36ca0fe7"
+    },
+    {
+      "local_seq": 20,
+      "stream": null,
+      "OBSERVED_NAME": "codex_core::session::handlers",
+      "INFERRED_ROLE": null,
+      "json_path": "/target",
+      "field": "target",
+      "source": "payload",
+      "payload_sha256": "0535bbcc0be3321c25b067918cc85e857e723a66ed1058667f085d2c36ca0fe7"
+    },
+    {
+      "local_seq": 21,
+      "stream": null,
+      "OBSERVED_NAME": "codex_core::session::handlers",
+      "INFERRED_ROLE": null,
+      "json_path": "/module_path",
+      "field": "module_path",
+      "source": "payload",
+      "payload_sha256": "d05885eff4077735c3e5eab6ffe7b7c6214df80100c049ebce017a04b97122ba"
+    },
+    {
+      "local_seq": 21,
+      "stream": null,
+      "OBSERVED_NAME": "codex_core::session::handlers",
+      "INFERRED_ROLE": null,
+      "json_path": "/target",
+      "field": "target",
+      "source": "payload",
+      "payload_sha256": "d05885eff4077735c3e5eab6ffe7b7c6214df80100c049ebce017a04b97122ba"
+    },
+    {
+      "local_seq": 22,
+      "stream": null,
+      "OBSERVED_NAME": "codex_core::session::handlers",
+      "INFERRED_ROLE": null,
+      "json_path": "/module_path",
+      "field": "module_path",
+      "source": "payload",
+      "payload_sha256": "dcf857f0734770af3c2d477e41ab0e058e426664489119d73867e2d6c69d9707"
+    },
+    {
+      "local_seq": 22,
+      "stream": null,
+      "OBSERVED_NAME": "codex_core::session::handlers",
+      "INFERRED_ROLE": null,
+      "json_path": "/target",
+      "field": "target",
+      "source": "payload",
+      "payload_sha256": "dcf857f0734770af3c2d477e41ab0e058e426664489119d73867e2d6c69d9707"
+    },
+    {
+      "local_seq": 23,
+      "stream": null,
+      "OBSERVED_NAME": "codex_core::session::handlers",
+      "INFERRED_ROLE": null,
+      "json_path": "/module_path",
+      "field": "module_path",
+      "source": "payload",
+      "payload_sha256": "5b54da0ee289351b388febf7c6349cd3ed6a91465dda439156368f2de7ca0609"
+    },
+    {
+      "local_seq": 23,
+      "stream": null,
+      "OBSERVED_NAME": "codex_core::session::handlers",
+      "INFERRED_ROLE": null,
+      "json_path": "/target",
+      "field": "target",
+      "source": "payload",
+      "payload_sha256": "5b54da0ee289351b388febf7c6349cd3ed6a91465dda439156368f2de7ca0609"
+    },
+    {
+      "local_seq": 24,
+      "stream": null,
+      "OBSERVED_NAME": "codex_core::session::handlers",
+      "INFERRED_ROLE": null,
+      "json_path": "/module_path",
+      "field": "module_path",
+      "source": "payload",
+      "payload_sha256": "fd0aa9b331f19cca111e0f763532bb1e8a834adb5cd34a0fe6cb37c082d8ac99"
+    },
+    {
+      "local_seq": 24,
+      "stream": null,
+      "OBSERVED_NAME": "codex_core::session::handlers",
+      "INFERRED_ROLE": null,
+      "json_path": "/target",
+      "field": "target",
+      "source": "payload",
+      "payload_sha256": "fd0aa9b331f19cca111e0f763532bb1e8a834adb5cd34a0fe6cb37c082d8ac99"
+    },
+    {
+      "local_seq": 25,
+      "stream": null,
+      "OBSERVED_NAME": "codex_core::session::handlers",
+      "INFERRED_ROLE": null,
+      "json_path": "/module_path",
+      "field": "module_path",
+      "source": "payload",
+      "payload_sha256": "55969f7a0918f0b7e9bb84926bb66b62b8de21b7ed4b88750bea7c15883dde40"
+    },
+    {
+      "local_seq": 25,
+      "stream": null,
+      "OBSERVED_NAME": "codex_core::session::handlers",
+      "INFERRED_ROLE": null,
+      "json_path": "/target",
+      "field": "target",
+      "source": "payload",
+      "payload_sha256": "55969f7a0918f0b7e9bb84926bb66b62b8de21b7ed4b88750bea7c15883dde40"
+    },
+    {
+      "local_seq": 26,
+      "stream": null,
+      "OBSERVED_NAME": "codex_core::session::handlers",
+      "INFERRED_ROLE": null,
+      "json_path": "/module_path",
+      "field": "module_path",
+      "source": "payload",
+      "payload_sha256": "ef0fb56a65ab4fe4491736a7d2511aea9ed16e7a93964b2b597968379cf9cee4"
+    },
+    {
+      "local_seq": 26,
+      "stream": null,
+      "OBSERVED_NAME": "codex_core::session::handlers",
+      "INFERRED_ROLE": null,
+      "json_path": "/target",
+      "field": "target",
+      "source": "payload",
+      "payload_sha256": "ef0fb56a65ab4fe4491736a7d2511aea9ed16e7a93964b2b597968379cf9cee4"
+    },
+    {
+      "local_seq": 27,
+      "stream": null,
+      "OBSERVED_NAME": "codex_core::session::handlers",
+      "INFERRED_ROLE": null,
+      "json_path": "/module_path",
+      "field": "module_path",
+      "source": "payload",
+      "payload_sha256": "c7f3023bedcb5be1e0606f11b6934a55b9ab81e3e456ea7d406f24317cfa37d5"
+    },
+    {
+      "local_seq": 27,
+      "stream": null,
+      "OBSERVED_NAME": "codex_core::session::handlers",
+      "INFERRED_ROLE": null,
+      "json_path": "/target",
+      "field": "target",
+      "source": "payload",
+      "payload_sha256": "c7f3023bedcb5be1e0606f11b6934a55b9ab81e3e456ea7d406f24317cfa37d5"
+    },
+    {
+      "local_seq": 28,
+      "stream": null,
+      "OBSERVED_NAME": "codex_core::session::handlers",
+      "INFERRED_ROLE": null,
+      "json_path": "/module_path",
+      "field": "module_path",
+      "source": "payload",
+      "payload_sha256": "ee1b938aed97d7d601adf5b523d41aa27d01229ee48016ef2a5216928a33a0a1"
+    },
+    {
+      "local_seq": 28,
+      "stream": null,
+      "OBSERVED_NAME": "codex_core::session::handlers",
+      "INFERRED_ROLE": null,
+      "json_path": "/target",
+      "field": "target",
+      "source": "payload",
+      "payload_sha256": "ee1b938aed97d7d601adf5b523d41aa27d01229ee48016ef2a5216928a33a0a1"
+    },
+    {
+      "local_seq": 29,
+      "stream": null,
+      "OBSERVED_NAME": "codex_core::session::handlers",
+      "INFERRED_ROLE": null,
+      "json_path": "/module_path",
+      "field": "module_path",
+      "source": "payload",
+      "payload_sha256": "a742af9c5602159c41f1cf637f8b6161fa1f791288757d79f7d1dc24d1324d73"
+    },
+    {
+      "local_seq": 29,
+      "stream": null,
+      "OBSERVED_NAME": "codex_core::session::handlers",
+      "INFERRED_ROLE": null,
+      "json_path": "/target",
+      "field": "target",
+      "source": "payload",
+      "payload_sha256": "a742af9c5602159c41f1cf637f8b6161fa1f791288757d79f7d1dc24d1324d73"
+    },
+    {
+      "local_seq": 30,
+      "stream": null,
+      "OBSERVED_NAME": "codex_core::session::handlers",
+      "INFERRED_ROLE": null,
+      "json_path": "/module_path",
+      "field": "module_path",
+      "source": "payload",
+      "payload_sha256": "2a50cdaafaff3d2a3c49c23fe9d06c521b848e38c03e33c7da5cbb1e8a51ed3b"
+    },
+    {
+      "local_seq": 30,
+      "stream": null,
+      "OBSERVED_NAME": "codex_core::session::handlers",
+      "INFERRED_ROLE": null,
+      "json_path": "/target",
+      "field": "target",
+      "source": "payload",
+      "payload_sha256": "2a50cdaafaff3d2a3c49c23fe9d06c521b848e38c03e33c7da5cbb1e8a51ed3b"
+    },
+    {
+      "local_seq": 31,
+      "stream": null,
+      "OBSERVED_NAME": "codex_core::session::handlers",
+      "INFERRED_ROLE": null,
+      "json_path": "/module_path",
+      "field": "module_path",
+      "source": "payload",
+      "payload_sha256": "04709383a2f4b22eded4191233e4285444ff0d964298c8a9f58261d9dedf531e"
+    },
+    {
+      "local_seq": 31,
+      "stream": null,
+      "OBSERVED_NAME": "codex_core::session::handlers",
+      "INFERRED_ROLE": null,
+      "json_path": "/target",
+      "field": "target",
+      "source": "payload",
+      "payload_sha256": "04709383a2f4b22eded4191233e4285444ff0d964298c8a9f58261d9dedf531e"
+    },
+    {
+      "local_seq": 32,
+      "stream": null,
+      "OBSERVED_NAME": "codex_core::session::handlers",
+      "INFERRED_ROLE": null,
+      "json_path": "/module_path",
+      "field": "module_path",
+      "source": "payload",
+      "payload_sha256": "f17251f49cd0e4b3dbfda5cca5dfd5842a5fa7a5c9b00fc833333038cbaef048"
+    },
+    {
+      "local_seq": 32,
+      "stream": null,
+      "OBSERVED_NAME": "codex_core::session::handlers",
+      "INFERRED_ROLE": null,
+      "json_path": "/target",
+      "field": "target",
+      "source": "payload",
+      "payload_sha256": "f17251f49cd0e4b3dbfda5cca5dfd5842a5fa7a5c9b00fc833333038cbaef048"
+    },
+    {
+      "local_seq": 33,
+      "stream": null,
+      "OBSERVED_NAME": "codex_core::session::handlers",
+      "INFERRED_ROLE": null,
+      "json_path": "/module_path",
+      "field": "module_path",
+      "source": "payload",
+      "payload_sha256": "b5f7517a0972bfad26a0d02eebba997d2ef51166a957d9976c7cd775daf503be"
+    },
+    {
+      "local_seq": 33,
+      "stream": null,
+      "OBSERVED_NAME": "codex_core::session::handlers",
+      "INFERRED_ROLE": null,
+      "json_path": "/target",
+      "field": "target",
+      "source": "payload",
+      "payload_sha256": "b5f7517a0972bfad26a0d02eebba997d2ef51166a957d9976c7cd775daf503be"
+    },
+    {
+      "local_seq": 34,
+      "stream": null,
+      "OBSERVED_NAME": "codex_core::session::handlers",
+      "INFERRED_ROLE": null,
+      "json_path": "/module_path",
+      "field": "module_path",
+      "source": "payload",
+      "payload_sha256": "ac920f65fe3bf98e41cc8ad763eb03cbf8e554ee63d362e7d85fbe49c1258a67"
+    },
+    {
+      "local_seq": 34,
+      "stream": null,
+      "OBSERVED_NAME": "codex_core::session::handlers",
+      "INFERRED_ROLE": null,
+      "json_path": "/target",
+      "field": "target",
+      "source": "payload",
+      "payload_sha256": "ac920f65fe3bf98e41cc8ad763eb03cbf8e554ee63d362e7d85fbe49c1258a67"
+    },
+    {
+      "local_seq": 35,
+      "stream": null,
+      "OBSERVED_NAME": "codex_core::session::handlers",
+      "INFERRED_ROLE": null,
+      "json_path": "/module_path",
+      "field": "module_path",
+      "source": "payload",
+      "payload_sha256": "ee40c045041ae1cbd3d8c38eec9b8c8ea7388a1f617372bb37afcbff565545b1"
+    },
+    {
+      "local_seq": 35,
+      "stream": null,
+      "OBSERVED_NAME": "codex_core::session::handlers",
+      "INFERRED_ROLE": null,
+      "json_path": "/target",
+      "field": "target",
+      "source": "payload",
+      "payload_sha256": "ee40c045041ae1cbd3d8c38eec9b8c8ea7388a1f617372bb37afcbff565545b1"
+    },
+    {
+      "local_seq": 36,
+      "stream": null,
+      "OBSERVED_NAME": "codex_core::session::handlers",
+      "INFERRED_ROLE": null,
+      "json_path": "/module_path",
+      "field": "module_path",
+      "source": "payload",
+      "payload_sha256": "26b81ab329090afd8e1982e3e27101f04f5cd1cef30c9da0e5c02c0fd5fdef7d"
+    },
+    {
+      "local_seq": 36,
+      "stream": null,
+      "OBSERVED_NAME": "codex_core::session::handlers",
+      "INFERRED_ROLE": null,
+      "json_path": "/target",
+      "field": "target",
+      "source": "payload",
+      "payload_sha256": "26b81ab329090afd8e1982e3e27101f04f5cd1cef30c9da0e5c02c0fd5fdef7d"
+    },
+    {
+      "local_seq": 37,
+      "stream": null,
+      "OBSERVED_NAME": "codex_core::session::handlers",
+      "INFERRED_ROLE": null,
+      "json_path": "/module_path",
+      "field": "module_path",
+      "source": "payload",
+      "payload_sha256": "119baee072b019b61421a2d8a8171ee22b7a7f9048ae1a7ff4c3bb9d2ca07acc"
+    },
+    {
+      "local_seq": 37,
+      "stream": null,
+      "OBSERVED_NAME": "codex_core::session::handlers",
+      "INFERRED_ROLE": null,
+      "json_path": "/target",
+      "field": "target",
+      "source": "payload",
+      "payload_sha256": "119baee072b019b61421a2d8a8171ee22b7a7f9048ae1a7ff4c3bb9d2ca07acc"
+    },
+    {
+      "local_seq": 38,
+      "stream": null,
+      "OBSERVED_NAME": "codex_core::session::handlers",
+      "INFERRED_ROLE": null,
+      "json_path": "/module_path",
+      "field": "module_path",
+      "source": "payload",
+      "payload_sha256": "6cc6e233873fc5a266be1eff138b51e6c4565b6eeaa43aa938609303232ebfe1"
+    },
+    {
+      "local_seq": 38,
+      "stream": null,
+      "OBSERVED_NAME": "codex_core::session::handlers",
+      "INFERRED_ROLE": null,
+      "json_path": "/target",
+      "field": "target",
+      "source": "payload",
+      "payload_sha256": "6cc6e233873fc5a266be1eff138b51e6c4565b6eeaa43aa938609303232ebfe1"
+    },
+    {
+      "local_seq": 39,
+      "stream": null,
+      "OBSERVED_NAME": "codex_core::session::handlers",
+      "INFERRED_ROLE": null,
+      "json_path": "/module_path",
+      "field": "module_path",
+      "source": "payload",
+      "payload_sha256": "d1a40e44c0ebad294c08596c083812ec053170a43dc796fdf909b09c5dd20310"
+    },
+    {
+      "local_seq": 39,
+      "stream": null,
+      "OBSERVED_NAME": "codex_core::session::handlers",
+      "INFERRED_ROLE": null,
+      "json_path": "/target",
+      "field": "target",
+      "source": "payload",
+      "payload_sha256": "d1a40e44c0ebad294c08596c083812ec053170a43dc796fdf909b09c5dd20310"
+    },
+    {
+      "local_seq": 40,
+      "stream": null,
+      "OBSERVED_NAME": "codex_core::session::handlers",
+      "INFERRED_ROLE": null,
+      "json_path": "/module_path",
+      "field": "module_path",
+      "source": "payload",
+      "payload_sha256": "d00e569bbd760b15cbf68f0ba5f2d1534712e53a7f9d4531fad3a8ba0b08c29f"
+    },
+    {
+      "local_seq": 40,
+      "stream": null,
+      "OBSERVED_NAME": "codex_core::session::handlers",
+      "INFERRED_ROLE": null,
+      "json_path": "/target",
+      "field": "target",
+      "source": "payload",
+      "payload_sha256": "d00e569bbd760b15cbf68f0ba5f2d1534712e53a7f9d4531fad3a8ba0b08c29f"
+    },
+    {
+      "local_seq": 41,
+      "stream": null,
+      "OBSERVED_NAME": "codex_core::session::handlers",
+      "INFERRED_ROLE": null,
+      "json_path": "/module_path",
+      "field": "module_path",
+      "source": "payload",
+      "payload_sha256": "233dfee3d4c6ad1b646031b6a6c6ff10755ad2245b3dd20fa435663039842637"
+    },
+    {
+      "local_seq": 41,
+      "stream": null,
+      "OBSERVED_NAME": "codex_core::session::handlers",
+      "INFERRED_ROLE": null,
+      "json_path": "/target",
+      "field": "target",
+      "source": "payload",
+      "payload_sha256": "233dfee3d4c6ad1b646031b6a6c6ff10755ad2245b3dd20fa435663039842637"
+    }
+  ],
+  "metadata": {
+    "identifiers": [
+      {
+        "local_seq": 10,
+        "json_path": "/id",
+        "field": "id",
+        "value": 2346910
+      },
+      {
+        "local_seq": 10,
+        "json_path": "/thread_id",
+        "field": "thread_id",
+        "value": "01a061dd-acf3-7200-aec4-05e930550bab"
+      },
+      {
+        "local_seq": 10,
+        "json_path": "/feedback_log_body",
+        "field": "submission_id",
+        "value": "01a061dd-ad1f-72b2-9fb4-867216efd7d6",
+        "char_offset": 95,
+        "extraction": "literal_debug_field"
+      },
+      {
+        "local_seq": 11,
+        "json_path": "/id",
+        "field": "id",
+        "value": 2348488
+      },
+      {
+        "local_seq": 11,
+        "json_path": "/thread_id",
+        "field": "thread_id",
+        "value": "01a061df-b75e-7612-8cb4-83004085750e"
+      },
+      {
+        "local_seq": 11,
+        "json_path": "/feedback_log_body",
+        "field": "submission_id",
+        "value": "01a061e2-9b7a-7ea0-bddf-272c17a0539c",
+        "char_offset": 95,
+        "extraction": "literal_debug_field"
+      },
+      {
+        "local_seq": 12,
+        "json_path": "/id",
+        "field": "id",
+        "value": 2348636
+      },
+      {
+        "local_seq": 12,
+        "json_path": "/thread_id",
+        "field": "thread_id",
+        "value": "01a061e3-37aa-7212-8903-527757322b21"
+      },
+      {
+        "local_seq": 12,
+        "json_path": "/feedback_log_body",
+        "field": "submission_id",
+        "value": "01a061e3-37d4-7d52-99e4-35c195a01d68",
+        "char_offset": 95,
+        "extraction": "literal_debug_field"
+      },
+      {
+        "local_seq": 13,
+        "json_path": "/id",
+        "field": "id",
+        "value": 2348776
+      },
+      {
+        "local_seq": 13,
+        "json_path": "/thread_id",
+        "field": "thread_id",
+        "value": "01a061e3-985c-7483-95e0-3e03f6e88524"
+      },
+      {
+        "local_seq": 13,
+        "json_path": "/feedback_log_body",
+        "field": "submission_id",
+        "value": "01a061e3-9889-7680-950e-9317871b25f0",
+        "char_offset": 95,
+        "extraction": "literal_debug_field"
+      },
+      {
+        "local_seq": 14,
+        "json_path": "/id",
+        "field": "id",
+        "value": 2349077
+      },
+      {
+        "local_seq": 14,
+        "json_path": "/thread_id",
+        "field": "thread_id",
+        "value": "01a061e3-985c-7483-95e0-3e03f6e88524"
+      },
+      {
+        "local_seq": 14,
+        "json_path": "/feedback_log_body",
+        "field": "submission_id",
+        "value": "01a061e5-306c-75e3-953d-d1a2890fa647",
+        "char_offset": 95,
+        "extraction": "literal_debug_field"
+      },
+      {
+        "local_seq": 15,
+        "json_path": "/id",
+        "field": "id",
+        "value": 2349948
+      },
+      {
+        "local_seq": 15,
+        "json_path": "/thread_id",
+        "field": "thread_id",
+        "value": "01a061eb-bb2a-7811-b136-1b5966a7430a"
+      },
+      {
+        "local_seq": 15,
+        "json_path": "/feedback_log_body",
+        "field": "submission_id",
+        "value": "01a061eb-bb50-7753-90b8-6e99dbdcd182",
+        "char_offset": 95,
+        "extraction": "literal_debug_field"
+      },
+      {
+        "local_seq": 16,
+        "json_path": "/id",
+        "field": "id",
+        "value": 2350044
+      },
+      {
+        "local_seq": 16,
+        "json_path": "/thread_id",
+        "field": "thread_id",
+        "value": "01a061ec-47d8-7c83-9ccf-d951102acd11"
+      },
+      {
+        "local_seq": 16,
+        "json_path": "/feedback_log_body",
+        "field": "submission_id",
+        "value": "01a061ec-480a-75c2-a50a-0e2ab77f3ca6",
+        "char_offset": 95,
+        "extraction": "literal_debug_field"
+      },
+      {
+        "local_seq": 17,
+        "json_path": "/id",
+        "field": "id",
+        "value": 2350433
+      },
+      {
+        "local_seq": 17,
+        "json_path": "/thread_id",
+        "field": "thread_id",
+        "value": "01a061ec-47d8-7c83-9ccf-d951102acd11"
+      },
+      {
+        "local_seq": 17,
+        "json_path": "/feedback_log_body",
+        "field": "submission_id",
+        "value": "01a061ee-9ed3-7693-9861-e982d3648c8f",
+        "char_offset": 95,
+        "extraction": "literal_debug_field"
+      },
+      {
+        "local_seq": 18,
+        "json_path": "/id",
+        "field": "id",
+        "value": 2350468
+      },
+      {
+        "local_seq": 18,
+        "json_path": "/thread_id",
+        "field": "thread_id",
+        "value": "01a061ec-47d8-7c83-9ccf-d951102acd11"
+      },
+      {
+        "local_seq": 18,
+        "json_path": "/feedback_log_body",
+        "field": "submission_id",
+        "value": "01a061ee-b370-7d72-a825-67139861e9ac",
+        "char_offset": 95,
+        "extraction": "literal_debug_field"
+      },
+      {
+        "local_seq": 19,
+        "json_path": "/id",
+        "field": "id",
+        "value": 2350742
+      },
+      {
+        "local_seq": 19,
+        "json_path": "/thread_id",
+        "field": "thread_id",
+        "value": "01a061ef-9064-74c1-b0a4-f576bcab3aa5"
+      },
+      {
+        "local_seq": 19,
+        "json_path": "/feedback_log_body",
+        "field": "submission_id",
+        "value": "01a061ef-908e-7df0-a441-5b78630a2a8b",
+        "char_offset": 95,
+        "extraction": "literal_debug_field"
+      },
+      {
+        "local_seq": 20,
+        "json_path": "/id",
+        "field": "id",
+        "value": 2350785
+      },
+      {
+        "local_seq": 20,
+        "json_path": "/thread_id",
+        "field": "thread_id",
+        "value": "01a061ef-ab90-7fa2-ac81-60a118eb16d4"
+      },
+      {
+        "local_seq": 20,
+        "json_path": "/feedback_log_body",
+        "field": "submission_id",
+        "value": "01a061ef-abb3-7860-b6f7-2926d800fed3",
+        "char_offset": 95,
+        "extraction": "literal_debug_field"
+      },
+      {
+        "local_seq": 21,
+        "json_path": "/id",
+        "field": "id",
+        "value": 2351348
+      },
+      {
+        "local_seq": 21,
+        "json_path": "/thread_id",
+        "field": "thread_id",
+        "value": "01a061ef-ab90-7fa2-ac81-60a118eb16d4"
+      },
+      {
+        "local_seq": 21,
+        "json_path": "/feedback_log_body",
+        "field": "submission_id",
+        "value": "01a061f1-0c6b-7300-a3b9-45dc78affd1f",
+        "char_offset": 95,
+        "extraction": "literal_debug_field"
+      },
+      {
+        "local_seq": 22,
+        "json_path": "/id",
+        "field": "id",
+        "value": 2352025
+      },
+      {
+        "local_seq": 22,
+        "json_path": "/thread_id",
+        "field": "thread_id",
+        "value": "01a061ef-ab90-7fa2-ac81-60a118eb16d4"
+      },
+      {
+        "local_seq": 22,
+        "json_path": "/feedback_log_body",
+        "field": "submission_id",
+        "value": "01a061f2-c811-7c93-8c6d-c6c78eb9041c",
+        "char_offset": 95,
+        "extraction": "literal_debug_field"
+      },
+      {
+        "local_seq": 23,
+        "json_path": "/id",
+        "field": "id",
+        "value": 2352372
+      },
+      {
+        "local_seq": 23,
+        "json_path": "/thread_id",
+        "field": "thread_id",
+        "value": "01a061f3-ae0e-7eb1-ab60-fbc1d0eaeb60"
+      },
+      {
+        "local_seq": 23,
+        "json_path": "/feedback_log_body",
+        "field": "submission_id",
+        "value": "01a061f3-ae3a-7542-9ccd-d2fac350a066",
+        "char_offset": 95,
+        "extraction": "literal_debug_field"
+      },
+      {
+        "local_seq": 24,
+        "json_path": "/id",
+        "field": "id",
+        "value": 2352423
+      },
+      {
+        "local_seq": 24,
+        "json_path": "/thread_id",
+        "field": "thread_id",
+        "value": "01a061f3-c5eb-7ce0-b11c-eadbec221475"
+      },
+      {
+        "local_seq": 24,
+        "json_path": "/feedback_log_body",
+        "field": "submission_id",
+        "value": "01a061f3-c60d-7723-8caf-d1d877979ef5",
+        "char_offset": 95,
+        "extraction": "literal_debug_field"
+      },
+      {
+        "local_seq": 25,
+        "json_path": "/id",
+        "field": "id",
+        "value": 2353125
+      },
+      {
+        "local_seq": 25,
+        "json_path": "/thread_id",
+        "field": "thread_id",
+        "value": "01a061f3-c5eb-7ce0-b11c-eadbec221475"
+      },
+      {
+        "local_seq": 25,
+        "json_path": "/feedback_log_body",
+        "field": "submission_id",
+        "value": "01a061f5-428f-72c2-9e47-4d1de7be9188",
+        "char_offset": 95,
+        "extraction": "literal_debug_field"
+      },
+      {
+        "local_seq": 26,
+        "json_path": "/id",
+        "field": "id",
+        "value": 2353685
+      },
+      {
+        "local_seq": 26,
+        "json_path": "/thread_id",
+        "field": "thread_id",
+        "value": "01a061f3-c5eb-7ce0-b11c-eadbec221475"
+      },
+      {
+        "local_seq": 26,
+        "json_path": "/feedback_log_body",
+        "field": "submission_id",
+        "value": "01a061f6-cf62-7bf3-b07d-b09ccbff5b0f",
+        "char_offset": 95,
+        "extraction": "literal_debug_field"
+      },
+      {
+        "local_seq": 27,
+        "json_path": "/id",
+        "field": "id",
+        "value": 2354133
+      },
+      {
+        "local_seq": 27,
+        "json_path": "/thread_id",
+        "field": "thread_id",
+        "value": "01a061f7-ce53-7411-b86f-9260f89e94f9"
+      },
+      {
+        "local_seq": 27,
+        "json_path": "/feedback_log_body",
+        "field": "submission_id",
+        "value": "01a061f7-ce7c-77d0-9bd3-c93d880f2670",
+        "char_offset": 95,
+        "extraction": "literal_debug_field"
+      },
+      {
+        "local_seq": 28,
+        "json_path": "/id",
+        "field": "id",
+        "value": 2354184
+      },
+      {
+        "local_seq": 28,
+        "json_path": "/thread_id",
+        "field": "thread_id",
+        "value": "01a061f7-f425-7e12-9e9d-e899438fd8b1"
+      },
+      {
+        "local_seq": 28,
+        "json_path": "/feedback_log_body",
+        "field": "submission_id",
+        "value": "01a061f7-f44e-7621-8d50-6dab1992f589",
+        "char_offset": 95,
+        "extraction": "literal_debug_field"
+      },
+      {
+        "local_seq": 29,
+        "json_path": "/id",
+        "field": "id",
+        "value": 2354698
+      },
+      {
+        "local_seq": 29,
+        "json_path": "/thread_id",
+        "field": "thread_id",
+        "value": "01a061f7-f425-7e12-9e9d-e899438fd8b1"
+      },
+      {
+        "local_seq": 29,
+        "json_path": "/feedback_log_body",
+        "field": "submission_id",
+        "value": "01a061f9-4f49-76f0-914a-9354d2736d7e",
+        "char_offset": 95,
+        "extraction": "literal_debug_field"
+      },
+      {
+        "local_seq": 30,
+        "json_path": "/id",
+        "field": "id",
+        "value": 2355260
+      },
+      {
+        "local_seq": 30,
+        "json_path": "/thread_id",
+        "field": "thread_id",
+        "value": "01a061f7-f425-7e12-9e9d-e899438fd8b1"
+      },
+      {
+        "local_seq": 30,
+        "json_path": "/feedback_log_body",
+        "field": "submission_id",
+        "value": "01a061fa-ab00-7311-b56f-58639d863b4a",
+        "char_offset": 95,
+        "extraction": "literal_debug_field"
+      },
+      {
+        "local_seq": 31,
+        "json_path": "/id",
+        "field": "id",
+        "value": 2951798
+      },
+      {
+        "local_seq": 31,
+        "json_path": "/thread_id",
+        "field": "thread_id",
+        "value": "01a073a4-4f45-7821-b9fc-17d775c0fc4a"
+      },
+      {
+        "local_seq": 31,
+        "json_path": "/feedback_log_body",
+        "field": "submission_id",
+        "value": "01a073a4-4f9a-7070-b585-86f7d1a09656",
+        "char_offset": 95,
+        "extraction": "literal_debug_field"
+      },
+      {
+        "local_seq": 32,
+        "json_path": "/id",
+        "field": "id",
+        "value": 2954022
+      },
+      {
+        "local_seq": 32,
+        "json_path": "/thread_id",
+        "field": "thread_id",
+        "value": "01a073a6-49e4-7940-8b78-b3dd84f18370"
+      },
+      {
+        "local_seq": 32,
+        "json_path": "/feedback_log_body",
+        "field": "submission_id",
+        "value": "01a073a6-4a32-77f3-b669-7efb9ae0e279",
+        "char_offset": 95,
+        "extraction": "literal_debug_field"
+      },
+      {
+        "local_seq": 33,
+        "json_path": "/id",
+        "field": "id",
+        "value": 3012090
+      },
+      {
+        "local_seq": 33,
+        "json_path": "/thread_id",
+        "field": "thread_id",
+        "value": "01a07418-fdf9-7f62-af1e-7c473d809099"
+      },
+      {
+        "local_seq": 33,
+        "json_path": "/feedback_log_body",
+        "field": "submission_id",
+        "value": "01a07422-3ec2-7702-8f6b-50f5df4b33ca",
+        "char_offset": 95,
+        "extraction": "literal_debug_field"
+      },
+      {
+        "local_seq": 34,
+        "json_path": "/id",
+        "field": "id",
+        "value": 3013552
+      },
+      {
+        "local_seq": 34,
+        "json_path": "/thread_id",
+        "field": "thread_id",
+        "value": "01a07418-fdf9-7f62-af1e-7c473d809099"
+      },
+      {
+        "local_seq": 34,
+        "json_path": "/feedback_log_body",
+        "field": "submission_id",
+        "value": "01a0742c-56d2-71d3-8aa7-5211b5fdc639",
+        "char_offset": 95,
+        "extraction": "literal_debug_field"
+      },
+      {
+        "local_seq": 35,
+        "json_path": "/id",
+        "field": "id",
+        "value": 3018324
+      },
+      {
+        "local_seq": 35,
+        "json_path": "/thread_id",
+        "field": "thread_id",
+        "value": "01a0735e-006a-7031-b2b5-21d440208a0b"
+      },
+      {
+        "local_seq": 35,
+        "json_path": "/feedback_log_body",
+        "field": "submission_id",
+        "value": "01a0745e-fed3-7dc2-b4bc-4e19a5473294",
+        "char_offset": 95,
+        "extraction": "literal_debug_field"
+      },
+      {
+        "local_seq": 36,
+        "json_path": "/id",
+        "field": "id",
+        "value": 3018666
+      },
+      {
+        "local_seq": 36,
+        "json_path": "/thread_id",
+        "field": "thread_id",
+        "value": "01a07418-fdf9-7f62-af1e-7c473d809099"
+      },
+      {
+        "local_seq": 36,
+        "json_path": "/feedback_log_body",
+        "field": "submission_id",
+        "value": "01a07460-1cec-7133-b47a-9d6ddc98e688",
+        "char_offset": 95,
+        "extraction": "literal_debug_field"
+      },
+      {
+        "local_seq": 37,
+        "json_path": "/id",
+        "field": "id",
+        "value": 3020318
+      },
+      {
+        "local_seq": 37,
+        "json_path": "/thread_id",
+        "field": "thread_id",
+        "value": "01a07418-fdf9-7f62-af1e-7c473d809099"
+      },
+      {
+        "local_seq": 37,
+        "json_path": "/feedback_log_body",
+        "field": "submission_id",
+        "value": "01a0746f-9201-7c83-96af-068c114bcc98",
+        "char_offset": 95,
+        "extraction": "literal_debug_field"
+      },
+      {
+        "local_seq": 38,
+        "json_path": "/id",
+        "field": "id",
+        "value": 3021082
+      },
+      {
+        "local_seq": 38,
+        "json_path": "/thread_id",
+        "field": "thread_id",
+        "value": "01a07470-71ca-7cc0-b468-910cfd42f64c"
+      },
+      {
+        "local_seq": 38,
+        "json_path": "/feedback_log_body",
+        "field": "submission_id",
+        "value": "01a07470-720f-7480-ae12-e63ca3841da7",
+        "char_offset": 95,
+        "extraction": "literal_debug_field"
+      },
+      {
+        "local_seq": 39,
+        "json_path": "/id",
+        "field": "id",
+        "value": 3021157
+      },
+      {
+        "local_seq": 39,
+        "json_path": "/thread_id",
+        "field": "thread_id",
+        "value": "01a07418-fdf9-7f62-af1e-7c473d809099"
+      },
+      {
+        "local_seq": 39,
+        "json_path": "/feedback_log_body",
+        "field": "submission_id",
+        "value": "01a07470-85a0-76c0-8b21-082eda32f184",
+        "char_offset": 95,
+        "extraction": "literal_debug_field"
+      },
+      {
+        "local_seq": 40,
+        "json_path": "/id",
+        "field": "id",
+        "value": 3022851
+      },
+      {
+        "local_seq": 40,
+        "json_path": "/thread_id",
+        "field": "thread_id",
+        "value": "01a07470-71ca-7cc0-b468-910cfd42f64c"
+      },
+      {
+        "local_seq": 40,
+        "json_path": "/feedback_log_body",
+        "field": "submission_id",
+        "value": "01a07474-c262-7e90-b2d6-88828cda31ba",
+        "char_offset": 95,
+        "extraction": "literal_debug_field"
+      },
+      {
+        "local_seq": 41,
+        "json_path": "/id",
+        "field": "id",
+        "value": 3223617
+      },
+      {
+        "local_seq": 41,
+        "json_path": "/thread_id",
+        "field": "thread_id",
+        "value": "01a075c3-e1e0-7363-abf6-96ecd1409238"
+      },
+      {
+        "local_seq": 41,
+        "json_path": "/feedback_log_body",
+        "field": "submission_id",
+        "value": "01a075c3-e228-7270-88f6-586f02be73e8",
+        "char_offset": 95,
+        "extraction": "literal_debug_field"
+      },
+      {
+        "local_seq": 57,
+        "json_path": "/thread_id",
+        "field": "thread_id",
+        "value": "01a07d2e-8e1f-70f2-aaff-ed93f42b8f4c"
+      },
+      {
+        "local_seq": 59,
+        "json_path": "/item/id",
+        "field": "id",
+        "value": "item_0"
+      },
+      {
+        "local_seq": 66,
+        "json_path": "/thread_id",
+        "field": "thread_id",
+        "value": "01a07d2e-f3fc-7323-b88d-45e04b4838bc"
+      },
+      {
+        "local_seq": 68,
+        "json_path": "/item/id",
+        "field": "id",
+        "value": "item_0"
+      },
+      {
+        "local_seq": 75,
+        "json_path": "/thread_id",
+        "field": "thread_id",
+        "value": "01a07d2f-a184-74e2-aae1-cf91a7609a79"
+      },
+      {
+        "local_seq": 77,
+        "json_path": "/item/id",
+        "field": "id",
+        "value": "item_0"
+      },
+      {
+        "local_seq": 79,
+        "json_path": "/item/id",
+        "field": "id",
+        "value": "item_1"
+      },
+      {
+        "local_seq": 86,
+        "json_path": "/thread_id",
+        "field": "thread_id",
+        "value": "01a07d30-5d87-7a53-ac0a-bba129915127"
+      },
+      {
+        "local_seq": 88,
+        "json_path": "/item/id",
+        "field": "id",
+        "value": "item_0"
+      },
+      {
+        "local_seq": 95,
+        "json_path": "/thread_id",
+        "field": "thread_id",
+        "value": "01a07d30-f4da-7c22-b574-51cb02d6f4e6"
+      },
+      {
+        "local_seq": 97,
+        "json_path": "/item/id",
+        "field": "id",
+        "value": "item_0"
+      },
+      {
+        "local_seq": 104,
+        "json_path": "/thread_id",
+        "field": "thread_id",
+        "value": "01a07d31-8462-7f01-86b6-3cae363f8086"
+      },
+      {
+        "local_seq": 106,
+        "json_path": "/item/id",
+        "field": "id",
+        "value": "item_0"
+      },
+      {
+        "local_seq": 113,
+        "json_path": "/thread_id",
+        "field": "thread_id",
+        "value": "01a07d32-305f-7023-a63e-985e0f58db74"
+      },
+      {
+        "local_seq": 115,
+        "json_path": "/item/id",
+        "field": "id",
+        "value": "item_0"
+      },
+      {
+        "local_seq": 122,
+        "json_path": "/thread_id",
+        "field": "thread_id",
+        "value": "01a07d32-c3c8-74b0-910f-444791f5c210"
+      },
+      {
+        "local_seq": 124,
+        "json_path": "/item/id",
+        "field": "id",
+        "value": "item_0"
+      },
+      {
+        "local_seq": 131,
+        "json_path": "/thread_id",
+        "field": "thread_id",
+        "value": "01a07d33-6ad5-7d21-a37b-a916e1d2a23b"
+      },
+      {
+        "local_seq": 133,
+        "json_path": "/item/id",
+        "field": "id",
+        "value": "item_0"
+      },
+      {
+        "local_seq": 135,
+        "json_path": "/item/id",
+        "field": "id",
+        "value": "item_1"
+      },
+      {
+        "local_seq": 142,
+        "json_path": "/thread_id",
+        "field": "thread_id",
+        "value": "01a07d34-4cbe-7dc3-8671-6bf898663cc1"
+      },
+      {
+        "local_seq": 144,
+        "json_path": "/item/id",
+        "field": "id",
+        "value": "item_0"
+      },
+      {
+        "local_seq": 151,
+        "json_path": "/thread_id",
+        "field": "thread_id",
+        "value": "01a07d34-dc67-7a32-aacd-d3014e2146f2"
+      },
+      {
+        "local_seq": 153,
+        "json_path": "/item/id",
+        "field": "id",
+        "value": "item_0"
+      },
+      {
+        "local_seq": 160,
+        "json_path": "/thread_id",
+        "field": "thread_id",
+        "value": "01a07d35-96ab-70a3-a47b-456d311ed612"
+      },
+      {
+        "local_seq": 162,
+        "json_path": "/item/id",
+        "field": "id",
+        "value": "item_0"
+      },
+      {
+        "local_seq": 169,
+        "json_path": "/thread_id",
+        "field": "thread_id",
+        "value": "01a07d36-23bc-7112-b827-8b64bebb805c"
+      },
+      {
+        "local_seq": 171,
+        "json_path": "/item/id",
+        "field": "id",
+        "value": "item_0"
+      },
+      {
+        "local_seq": 178,
+        "json_path": "/thread_id",
+        "field": "thread_id",
+        "value": "01a07d36-db67-7a63-a8e8-aa046e9aad9e"
+      },
+      {
+        "local_seq": 180,
+        "json_path": "/item/id",
+        "field": "id",
+        "value": "item_0"
+      },
+      {
+        "local_seq": 182,
+        "json_path": "/item/id",
+        "field": "id",
+        "value": "item_1"
+      },
+      {
+        "local_seq": 189,
+        "json_path": "/thread_id",
+        "field": "thread_id",
+        "value": "01a07d37-9e3b-7c60-a75e-20fc5b1ea24c"
+      },
+      {
+        "local_seq": 191,
+        "json_path": "/item/id",
+        "field": "id",
+        "value": "item_0"
+      },
+      {
+        "local_seq": 198,
+        "json_path": "/thread_id",
+        "field": "thread_id",
+        "value": "01a07d38-2d96-75a0-b799-58ecf7e5b1ff"
+      },
+      {
+        "local_seq": 200,
+        "json_path": "/item/id",
+        "field": "id",
+        "value": "item_0"
+      },
+      {
+        "local_seq": 207,
+        "json_path": "/thread_id",
+        "field": "thread_id",
+        "value": "01a07d39-01a5-72c1-b1b3-2d5eaaac5315"
+      },
+      {
+        "local_seq": 209,
+        "json_path": "/item/id",
+        "field": "id",
+        "value": "item_0"
+      }
+    ],
+    "models": [],
+    "routes": [],
+    "event_types": [
+      {
+        "local_seq": 10,
+        "json_path": "/feedback_log_body",
+        "field": "op",
+        "value": "TurnInput",
+        "char_offset": 138,
+        "extraction": "literal_debug_field"
+      },
+      {
+        "local_seq": 11,
+        "json_path": "/feedback_log_body",
+        "field": "op",
+        "value": "TurnInput",
+        "char_offset": 138,
+        "extraction": "literal_debug_field"
+      },
+      {
+        "local_seq": 12,
+        "json_path": "/feedback_log_body",
+        "field": "op",
+        "value": "TurnInput",
+        "char_offset": 138,
+        "extraction": "literal_debug_field"
+      },
+      {
+        "local_seq": 13,
+        "json_path": "/feedback_log_body",
+        "field": "op",
+        "value": "TurnInput",
+        "char_offset": 138,
+        "extraction": "literal_debug_field"
+      },
+      {
+        "local_seq": 14,
+        "json_path": "/feedback_log_body",
+        "field": "op",
+        "value": "TurnInput",
+        "char_offset": 138,
+        "extraction": "literal_debug_field"
+      },
+      {
+        "local_seq": 15,
+        "json_path": "/feedback_log_body",
+        "field": "op",
+        "value": "TurnInput",
+        "char_offset": 138,
+        "extraction": "literal_debug_field"
+      },
+      {
+        "local_seq": 16,
+        "json_path": "/feedback_log_body",
+        "field": "op",
+        "value": "TurnInput",
+        "char_offset": 138,
+        "extraction": "literal_debug_field"
+      },
+      {
+        "local_seq": 17,
+        "json_path": "/feedback_log_body",
+        "field": "op",
+        "value": "TurnInput",
+        "char_offset": 138,
+        "extraction": "literal_debug_field"
+      },
+      {
+        "local_seq": 18,
+        "json_path": "/feedback_log_body",
+        "field": "op",
+        "value": "TurnInput",
+        "char_offset": 138,
+        "extraction": "literal_debug_field"
+      },
+      {
+        "local_seq": 19,
+        "json_path": "/feedback_log_body",
+        "field": "op",
+        "value": "TurnInput",
+        "char_offset": 138,
+        "extraction": "literal_debug_field"
+      },
+      {
+        "local_seq": 20,
+        "json_path": "/feedback_log_body",
+        "field": "op",
+        "value": "TurnInput",
+        "char_offset": 138,
+        "extraction": "literal_debug_field"
+      },
+      {
+        "local_seq": 21,
+        "json_path": "/feedback_log_body",
+        "field": "op",
+        "value": "TurnInput",
+        "char_offset": 138,
+        "extraction": "literal_debug_field"
+      },
+      {
+        "local_seq": 22,
+        "json_path": "/feedback_log_body",
+        "field": "op",
+        "value": "TurnInput",
+        "char_offset": 138,
+        "extraction": "literal_debug_field"
+      },
+      {
+        "local_seq": 23,
+        "json_path": "/feedback_log_body",
+        "field": "op",
+        "value": "TurnInput",
+        "char_offset": 138,
+        "extraction": "literal_debug_field"
+      },
+      {
+        "local_seq": 24,
+        "json_path": "/feedback_log_body",
+        "field": "op",
+        "value": "TurnInput",
+        "char_offset": 138,
+        "extraction": "literal_debug_field"
+      },
+      {
+        "local_seq": 25,
+        "json_path": "/feedback_log_body",
+        "field": "op",
+        "value": "TurnInput",
+        "char_offset": 138,
+        "extraction": "literal_debug_field"
+      },
+      {
+        "local_seq": 26,
+        "json_path": "/feedback_log_body",
+        "field": "op",
+        "value": "TurnInput",
+        "char_offset": 138,
+        "extraction": "literal_debug_field"
+      },
+      {
+        "local_seq": 27,
+        "json_path": "/feedback_log_body",
+        "field": "op",
+        "value": "TurnInput",
+        "char_offset": 138,
+        "extraction": "literal_debug_field"
+      },
+      {
+        "local_seq": 28,
+        "json_path": "/feedback_log_body",
+        "field": "op",
+        "value": "TurnInput",
+        "char_offset": 138,
+        "extraction": "literal_debug_field"
+      },
+      {
+        "local_seq": 29,
+        "json_path": "/feedback_log_body",
+        "field": "op",
+        "value": "TurnInput",
+        "char_offset": 138,
+        "extraction": "literal_debug_field"
+      },
+      {
+        "local_seq": 30,
+        "json_path": "/feedback_log_body",
+        "field": "op",
+        "value": "TurnInput",
+        "char_offset": 138,
+        "extraction": "literal_debug_field"
+      },
+      {
+        "local_seq": 31,
+        "json_path": "/feedback_log_body",
+        "field": "op",
+        "value": "TurnInput",
+        "char_offset": 138,
+        "extraction": "literal_debug_field"
+      },
+      {
+        "local_seq": 32,
+        "json_path": "/feedback_log_body",
+        "field": "op",
+        "value": "TurnInput",
+        "char_offset": 138,
+        "extraction": "literal_debug_field"
+      },
+      {
+        "local_seq": 33,
+        "json_path": "/feedback_log_body",
+        "field": "op",
+        "value": "TurnInput",
+        "char_offset": 138,
+        "extraction": "literal_debug_field"
+      },
+      {
+        "local_seq": 34,
+        "json_path": "/feedback_log_body",
+        "field": "op",
+        "value": "TurnInput",
+        "char_offset": 138,
+        "extraction": "literal_debug_field"
+      },
+      {
+        "local_seq": 35,
+        "json_path": "/feedback_log_body",
+        "field": "op",
+        "value": "TurnInput",
+        "char_offset": 138,
+        "extraction": "literal_debug_field"
+      },
+      {
+        "local_seq": 36,
+        "json_path": "/feedback_log_body",
+        "field": "op",
+        "value": "TurnInput",
+        "char_offset": 138,
+        "extraction": "literal_debug_field"
+      },
+      {
+        "local_seq": 37,
+        "json_path": "/feedback_log_body",
+        "field": "op",
+        "value": "TurnInput",
+        "char_offset": 138,
+        "extraction": "literal_debug_field"
+      },
+      {
+        "local_seq": 38,
+        "json_path": "/feedback_log_body",
+        "field": "op",
+        "value": "TurnInput",
+        "char_offset": 138,
+        "extraction": "literal_debug_field"
+      },
+      {
+        "local_seq": 39,
+        "json_path": "/feedback_log_body",
+        "field": "op",
+        "value": "TurnInput",
+        "char_offset": 138,
+        "extraction": "literal_debug_field"
+      },
+      {
+        "local_seq": 40,
+        "json_path": "/feedback_log_body",
+        "field": "op",
+        "value": "TurnInput",
+        "char_offset": 138,
+        "extraction": "literal_debug_field"
+      },
+      {
+        "local_seq": 41,
+        "json_path": "/feedback_log_body",
+        "field": "op",
+        "value": "TurnInput",
+        "char_offset": 138,
+        "extraction": "literal_debug_field"
+      },
+      {
+        "local_seq": 57,
+        "json_path": "/type",
+        "field": "type",
+        "value": "thread.started"
+      },
+      {
+        "local_seq": 58,
+        "json_path": "/type",
+        "field": "type",
+        "value": "turn.started"
+      },
+      {
+        "local_seq": 59,
+        "json_path": "/type",
+        "field": "type",
+        "value": "item.completed"
+      },
+      {
+        "local_seq": 59,
+        "json_path": "/item/type",
+        "field": "type",
+        "value": "agent_message"
+      },
+      {
+        "local_seq": 60,
+        "json_path": "/type",
+        "field": "type",
+        "value": "turn.completed"
+      },
+      {
+        "local_seq": 66,
+        "json_path": "/type",
+        "field": "type",
+        "value": "thread.started"
+      },
+      {
+        "local_seq": 67,
+        "json_path": "/type",
+        "field": "type",
+        "value": "turn.started"
+      },
+      {
+        "local_seq": 68,
+        "json_path": "/type",
+        "field": "type",
+        "value": "item.completed"
+      },
+      {
+        "local_seq": 68,
+        "json_path": "/item/type",
+        "field": "type",
+        "value": "agent_message"
+      },
+      {
+        "local_seq": 69,
+        "json_path": "/type",
+        "field": "type",
+        "value": "turn.completed"
+      },
+      {
+        "local_seq": 75,
+        "json_path": "/type",
+        "field": "type",
+        "value": "thread.started"
+      },
+      {
+        "local_seq": 76,
+        "json_path": "/type",
+        "field": "type",
+        "value": "turn.started"
+      },
+      {
+        "local_seq": 77,
+        "json_path": "/type",
+        "field": "type",
+        "value": "item.completed"
+      },
+      {
+        "local_seq": 77,
+        "json_path": "/item/type",
+        "field": "type",
+        "value": "agent_message"
+      },
+      {
+        "local_seq": 79,
+        "json_path": "/type",
+        "field": "type",
+        "value": "item.completed"
+      },
+      {
+        "local_seq": 79,
+        "json_path": "/item/type",
+        "field": "type",
+        "value": "agent_message"
+      },
+      {
+        "local_seq": 80,
+        "json_path": "/type",
+        "field": "type",
+        "value": "turn.completed"
+      },
+      {
+        "local_seq": 86,
+        "json_path": "/type",
+        "field": "type",
+        "value": "thread.started"
+      },
+      {
+        "local_seq": 87,
+        "json_path": "/type",
+        "field": "type",
+        "value": "turn.started"
+      },
+      {
+        "local_seq": 88,
+        "json_path": "/type",
+        "field": "type",
+        "value": "item.completed"
+      },
+      {
+        "local_seq": 88,
+        "json_path": "/item/type",
+        "field": "type",
+        "value": "agent_message"
+      },
+      {
+        "local_seq": 89,
+        "json_path": "/type",
+        "field": "type",
+        "value": "turn.completed"
+      },
+      {
+        "local_seq": 95,
+        "json_path": "/type",
+        "field": "type",
+        "value": "thread.started"
+      },
+      {
+        "local_seq": 96,
+        "json_path": "/type",
+        "field": "type",
+        "value": "turn.started"
+      },
+      {
+        "local_seq": 97,
+        "json_path": "/type",
+        "field": "type",
+        "value": "item.completed"
+      },
+      {
+        "local_seq": 97,
+        "json_path": "/item/type",
+        "field": "type",
+        "value": "agent_message"
+      },
+      {
+        "local_seq": 98,
+        "json_path": "/type",
+        "field": "type",
+        "value": "turn.completed"
+      },
+      {
+        "local_seq": 104,
+        "json_path": "/type",
+        "field": "type",
+        "value": "thread.started"
+      },
+      {
+        "local_seq": 105,
+        "json_path": "/type",
+        "field": "type",
+        "value": "turn.started"
+      },
+      {
+        "local_seq": 106,
+        "json_path": "/type",
+        "field": "type",
+        "value": "item.completed"
+      },
+      {
+        "local_seq": 106,
+        "json_path": "/item/type",
+        "field": "type",
+        "value": "agent_message"
+      },
+      {
+        "local_seq": 107,
+        "json_path": "/type",
+        "field": "type",
+        "value": "turn.completed"
+      },
+      {
+        "local_seq": 113,
+        "json_path": "/type",
+        "field": "type",
+        "value": "thread.started"
+      },
+      {
+        "local_seq": 114,
+        "json_path": "/type",
+        "field": "type",
+        "value": "turn.started"
+      },
+      {
+        "local_seq": 115,
+        "json_path": "/type",
+        "field": "type",
+        "value": "item.completed"
+      },
+      {
+        "local_seq": 115,
+        "json_path": "/item/type",
+        "field": "type",
+        "value": "agent_message"
+      },
+      {
+        "local_seq": 116,
+        "json_path": "/type",
+        "field": "type",
+        "value": "turn.completed"
+      },
+      {
+        "local_seq": 122,
+        "json_path": "/type",
+        "field": "type",
+        "value": "thread.started"
+      },
+      {
+        "local_seq": 123,
+        "json_path": "/type",
+        "field": "type",
+        "value": "turn.started"
+      },
+      {
+        "local_seq": 124,
+        "json_path": "/type",
+        "field": "type",
+        "value": "item.completed"
+      },
+      {
+        "local_seq": 124,
+        "json_path": "/item/type",
+        "field": "type",
+        "value": "agent_message"
+      },
+      {
+        "local_seq": 125,
+        "json_path": "/type",
+        "field": "type",
+        "value": "turn.completed"
+      },
+      {
+        "local_seq": 131,
+        "json_path": "/type",
+        "field": "type",
+        "value": "thread.started"
+      },
+      {
+        "local_seq": 132,
+        "json_path": "/type",
+        "field": "type",
+        "value": "turn.started"
+      },
+      {
+        "local_seq": 133,
+        "json_path": "/type",
+        "field": "type",
+        "value": "item.completed"
+      },
+      {
+        "local_seq": 133,
+        "json_path": "/item/type",
+        "field": "type",
+        "value": "agent_message"
+      },
+      {
+        "local_seq": 135,
+        "json_path": "/type",
+        "field": "type",
+        "value": "item.completed"
+      },
+      {
+        "local_seq": 135,
+        "json_path": "/item/type",
+        "field": "type",
+        "value": "agent_message"
+      },
+      {
+        "local_seq": 136,
+        "json_path": "/type",
+        "field": "type",
+        "value": "turn.completed"
+      },
+      {
+        "local_seq": 142,
+        "json_path": "/type",
+        "field": "type",
+        "value": "thread.started"
+      },
+      {
+        "local_seq": 143,
+        "json_path": "/type",
+        "field": "type",
+        "value": "turn.started"
+      },
+      {
+        "local_seq": 144,
+        "json_path": "/type",
+        "field": "type",
+        "value": "item.completed"
+      },
+      {
+        "local_seq": 144,
+        "json_path": "/item/type",
+        "field": "type",
+        "value": "agent_message"
+      },
+      {
+        "local_seq": 145,
+        "json_path": "/type",
+        "field": "type",
+        "value": "turn.completed"
+      },
+      {
+        "local_seq": 151,
+        "json_path": "/type",
+        "field": "type",
+        "value": "thread.started"
+      },
+      {
+        "local_seq": 152,
+        "json_path": "/type",
+        "field": "type",
+        "value": "turn.started"
+      },
+      {
+        "local_seq": 153,
+        "json_path": "/type",
+        "field": "type",
+        "value": "item.completed"
+      },
+      {
+        "local_seq": 153,
+        "json_path": "/item/type",
+        "field": "type",
+        "value": "agent_message"
+      },
+      {
+        "local_seq": 154,
+        "json_path": "/type",
+        "field": "type",
+        "value": "turn.completed"
+      },
+      {
+        "local_seq": 160,
+        "json_path": "/type",
+        "field": "type",
+        "value": "thread.started"
+      },
+      {
+        "local_seq": 161,
+        "json_path": "/type",
+        "field": "type",
+        "value": "turn.started"
+      },
+      {
+        "local_seq": 162,
+        "json_path": "/type",
+        "field": "type",
+        "value": "item.completed"
+      },
+      {
+        "local_seq": 162,
+        "json_path": "/item/type",
+        "field": "type",
+        "value": "agent_message"
+      },
+      {
+        "local_seq": 163,
+        "json_path": "/type",
+        "field": "type",
+        "value": "turn.completed"
+      },
+      {
+        "local_seq": 169,
+        "json_path": "/type",
+        "field": "type",
+        "value": "thread.started"
+      },
+      {
+        "local_seq": 170,
+        "json_path": "/type",
+        "field": "type",
+        "value": "turn.started"
+      },
+      {
+        "local_seq": 171,
+        "json_path": "/type",
+        "field": "type",
+        "value": "item.completed"
+      },
+      {
+        "local_seq": 171,
+        "json_path": "/item/type",
+        "field": "type",
+        "value": "agent_message"
+      },
+      {
+        "local_seq": 172,
+        "json_path": "/type",
+        "field": "type",
+        "value": "turn.completed"
+      },
+      {
+        "local_seq": 178,
+        "json_path": "/type",
+        "field": "type",
+        "value": "thread.started"
+      },
+      {
+        "local_seq": 179,
+        "json_path": "/type",
+        "field": "type",
+        "value": "turn.started"
+      },
+      {
+        "local_seq": 180,
+        "json_path": "/type",
+        "field": "type",
+        "value": "item.completed"
+      },
+      {
+        "local_seq": 180,
+        "json_path": "/item/type",
+        "field": "type",
+        "value": "agent_message"
+      },
+      {
+        "local_seq": 182,
+        "json_path": "/type",
+        "field": "type",
+        "value": "item.completed"
+      },
+      {
+        "local_seq": 182,
+        "json_path": "/item/type",
+        "field": "type",
+        "value": "agent_message"
+      },
+      {
+        "local_seq": 183,
+        "json_path": "/type",
+        "field": "type",
+        "value": "turn.completed"
+      },
+      {
+        "local_seq": 189,
+        "json_path": "/type",
+        "field": "type",
+        "value": "thread.started"
+      },
+      {
+        "local_seq": 190,
+        "json_path": "/type",
+        "field": "type",
+        "value": "turn.started"
+      },
+      {
+        "local_seq": 191,
+        "json_path": "/type",
+        "field": "type",
+        "value": "item.completed"
+      },
+      {
+        "local_seq": 191,
+        "json_path": "/item/type",
+        "field": "type",
+        "value": "agent_message"
+      },
+      {
+        "local_seq": 192,
+        "json_path": "/type",
+        "field": "type",
+        "value": "turn.completed"
+      },
+      {
+        "local_seq": 198,
+        "json_path": "/type",
+        "field": "type",
+        "value": "thread.started"
+      },
+      {
+        "local_seq": 199,
+        "json_path": "/type",
+        "field": "type",
+        "value": "turn.started"
+      },
+      {
+        "local_seq": 200,
+        "json_path": "/type",
+        "field": "type",
+        "value": "item.completed"
+      },
+      {
+        "local_seq": 200,
+        "json_path": "/item/type",
+        "field": "type",
+        "value": "agent_message"
+      },
+      {
+        "local_seq": 201,
+        "json_path": "/type",
+        "field": "type",
+        "value": "turn.completed"
+      },
+      {
+        "local_seq": 207,
+        "json_path": "/type",
+        "field": "type",
+        "value": "thread.started"
+      },
+      {
+        "local_seq": 208,
+        "json_path": "/type",
+        "field": "type",
+        "value": "turn.started"
+      },
+      {
+        "local_seq": 209,
+        "json_path": "/type",
+        "field": "type",
+        "value": "item.completed"
+      },
+      {
+        "local_seq": 209,
+        "json_path": "/item/type",
+        "field": "type",
+        "value": "agent_message"
+      },
+      {
+        "local_seq": 210,
+        "json_path": "/type",
+        "field": "type",
+        "value": "turn.completed"
+      }
+    ],
+    "source_timestamps": [
+      {
+        "local_seq": 10,
+        "json_path": "/ts",
+        "field": "ts",
+        "value": 1788348312
+      },
+      {
+        "local_seq": 10,
+        "json_path": "/ts_nanos",
+        "field": "ts_nanos",
+        "value": 863720300
+      },
+      {
+        "local_seq": 11,
+        "json_path": "/ts",
+        "field": "ts",
+        "value": 1788348636
+      },
+      {
+        "local_seq": 11,
+        "json_path": "/ts_nanos",
+        "field": "ts_nanos",
+        "value": 26282000
+      },
+      {
+        "local_seq": 12,
+        "json_path": "/ts",
+        "field": "ts",
+        "value": 1788348676
+      },
+      {
+        "local_seq": 12,
+        "json_path": "/ts_nanos",
+        "field": "ts_nanos",
+        "value": 52932900
+      },
+      {
+        "local_seq": 13,
+        "json_path": "/ts",
+        "field": "ts",
+        "value": 1788348700
+      },
+      {
+        "local_seq": 13,
+        "json_path": "/ts_nanos",
+        "field": "ts_nanos",
+        "value": 809655100
+      },
+      {
+        "local_seq": 14,
+        "json_path": "/ts",
+        "field": "ts",
+        "value": 1788348805
+      },
+      {
+        "local_seq": 14,
+        "json_path": "/ts_nanos",
+        "field": "ts_nanos",
+        "value": 229104300
+      },
+      {
+        "local_seq": 15,
+        "json_path": "/ts",
+        "field": "ts",
+        "value": 1788349234
+      },
+      {
+        "local_seq": 15,
+        "json_path": "/ts_nanos",
+        "field": "ts_nanos",
+        "value": 771000
+      },
+      {
+        "local_seq": 16,
+        "json_path": "/ts",
+        "field": "ts",
+        "value": 1788349270
+      },
+      {
+        "local_seq": 16,
+        "json_path": "/ts_nanos",
+        "field": "ts_nanos",
+        "value": 26648600
+      },
+      {
+        "local_seq": 17,
+        "json_path": "/ts",
+        "field": "ts",
+        "value": 1788349423
+      },
+      {
+        "local_seq": 17,
+        "json_path": "/ts_nanos",
+        "field": "ts_nanos",
+        "value": 316037800
+      },
+      {
+        "local_seq": 18,
+        "json_path": "/ts",
+        "field": "ts",
+        "value": 1788349428
+      },
+      {
+        "local_seq": 18,
+        "json_path": "/ts_nanos",
+        "field": "ts_nanos",
+        "value": 592810500
+      },
+      {
+        "local_seq": 19,
+        "json_path": "/ts",
+        "field": "ts",
+        "value": 1788349485
+      },
+      {
+        "local_seq": 19,
+        "json_path": "/ts_nanos",
+        "field": "ts_nanos",
+        "value": 199075700
+      },
+      {
+        "local_seq": 20,
+        "json_path": "/ts",
+        "field": "ts",
+        "value": 1788349492
+      },
+      {
+        "local_seq": 20,
+        "json_path": "/ts_nanos",
+        "field": "ts_nanos",
+        "value": 147890200
+      },
+      {
+        "local_seq": 21,
+        "json_path": "/ts",
+        "field": "ts",
+        "value": 1788349582
+      },
+      {
+        "local_seq": 21,
+        "json_path": "/ts_nanos",
+        "field": "ts_nanos",
+        "value": 444322400
+      },
+      {
+        "local_seq": 22,
+        "json_path": "/ts",
+        "field": "ts",
+        "value": 1788349696
+      },
+      {
+        "local_seq": 22,
+        "json_path": "/ts_nanos",
+        "field": "ts_nanos",
+        "value": 17875300
+      },
+      {
+        "local_seq": 23,
+        "json_path": "/ts",
+        "field": "ts",
+        "value": 1788349754
+      },
+      {
+        "local_seq": 23,
+        "json_path": "/ts_nanos",
+        "field": "ts_nanos",
+        "value": 939324900
+      },
+      {
+        "local_seq": 24,
+        "json_path": "/ts",
+        "field": "ts",
+        "value": 1788349761
+      },
+      {
+        "local_seq": 24,
+        "json_path": "/ts_nanos",
+        "field": "ts_nanos",
+        "value": 37307100
+      },
+      {
+        "local_seq": 25,
+        "json_path": "/ts",
+        "field": "ts",
+        "value": 1788349858
+      },
+      {
+        "local_seq": 25,
+        "json_path": "/ts_nanos",
+        "field": "ts_nanos",
+        "value": 447537900
+      },
+      {
+        "local_seq": 26,
+        "json_path": "/ts",
+        "field": "ts",
+        "value": 1788349960
+      },
+      {
+        "local_seq": 26,
+        "json_path": "/ts_nanos",
+        "field": "ts_nanos",
+        "value": 34837500
+      },
+      {
+        "local_seq": 27,
+        "json_path": "/ts",
+        "field": "ts",
+        "value": 1788350025
+      },
+      {
+        "local_seq": 27,
+        "json_path": "/ts_nanos",
+        "field": "ts_nanos",
+        "value": 340719300
+      },
+      {
+        "local_seq": 28,
+        "json_path": "/ts",
+        "field": "ts",
+        "value": 1788350035
+      },
+      {
+        "local_seq": 28,
+        "json_path": "/ts_nanos",
+        "field": "ts_nanos",
+        "value": 23230200
+      },
+      {
+        "local_seq": 29,
+        "json_path": "/ts",
+        "field": "ts",
+        "value": 1788350123
+      },
+      {
+        "local_seq": 29,
+        "json_path": "/ts_nanos",
+        "field": "ts_nanos",
+        "value": 849794000
+      },
+      {
+        "local_seq": 30,
+        "json_path": "/ts",
+        "field": "ts",
+        "value": 1788350212
+      },
+      {
+        "local_seq": 30,
+        "json_path": "/ts_nanos",
+        "field": "ts_nanos",
+        "value": 865297400
+      },
+      {
+        "local_seq": 31,
+        "json_path": "/ts",
+        "field": "ts",
+        "value": 1788646543
+      },
+      {
+        "local_seq": 31,
+        "json_path": "/ts_nanos",
+        "field": "ts_nanos",
+        "value": 258997800
+      },
+      {
+        "local_seq": 32,
+        "json_path": "/ts",
+        "field": "ts",
+        "value": 1788646672
+      },
+      {
+        "local_seq": 32,
+        "json_path": "/ts_nanos",
+        "field": "ts_nanos",
+        "value": 946923300
+      },
+      {
+        "local_seq": 33,
+        "json_path": "/ts",
+        "field": "ts",
+        "value": 1788654796
+      },
+      {
+        "local_seq": 33,
+        "json_path": "/ts_nanos",
+        "field": "ts_nanos",
+        "value": 483062800
+      },
+      {
+        "local_seq": 34,
+        "json_path": "/ts",
+        "field": "ts",
+        "value": 1788655458
+      },
+      {
+        "local_seq": 34,
+        "json_path": "/ts_nanos",
+        "field": "ts_nanos",
+        "value": 3426200
+      },
+      {
+        "local_seq": 35,
+        "json_path": "/ts",
+        "field": "ts",
+        "value": 1788658777
+      },
+      {
+        "local_seq": 35,
+        "json_path": "/ts_nanos",
+        "field": "ts_nanos",
+        "value": 811267800
+      },
+      {
+        "local_seq": 36,
+        "json_path": "/ts",
+        "field": "ts",
+        "value": 1788658851
+      },
+      {
+        "local_seq": 36,
+        "json_path": "/ts_nanos",
+        "field": "ts_nanos",
+        "value": 53425200
+      },
+      {
+        "local_seq": 37,
+        "json_path": "/ts",
+        "field": "ts",
+        "value": 1788659864
+      },
+      {
+        "local_seq": 37,
+        "json_path": "/ts_nanos",
+        "field": "ts_nanos",
+        "value": 66450400
+      },
+      {
+        "local_seq": 38,
+        "json_path": "/ts",
+        "field": "ts",
+        "value": 1788659921
+      },
+      {
+        "local_seq": 38,
+        "json_path": "/ts_nanos",
+        "field": "ts_nanos",
+        "value": 423854200
+      },
+      {
+        "local_seq": 39,
+        "json_path": "/ts",
+        "field": "ts",
+        "value": 1788659926
+      },
+      {
+        "local_seq": 39,
+        "json_path": "/ts_nanos",
+        "field": "ts_nanos",
+        "value": 433055400
+      },
+      {
+        "local_seq": 40,
+        "json_path": "/ts",
+        "field": "ts",
+        "value": 1788660204
+      },
+      {
+        "local_seq": 40,
+        "json_path": "/ts_nanos",
+        "field": "ts_nanos",
+        "value": 131157200
+      },
+      {
+        "local_seq": 41,
+        "json_path": "/ts",
+        "field": "ts",
+        "value": 1788682166
+      },
+      {
+        "local_seq": 41,
+        "json_path": "/ts_nanos",
+        "field": "ts_nanos",
+        "value": 825010900
+      }
+    ],
+    "processes": [
+      {
+        "local_seq": 10,
+        "json_path": "/process_uuid",
+        "field": "process_uuid",
+        "value": "pid:9668:edb4809f-4b8c-4f4c-998e-97ee0e6e9426"
+      },
+      {
+        "local_seq": 11,
+        "json_path": "/process_uuid",
+        "field": "process_uuid",
+        "value": "pid:9668:edb4809f-4b8c-4f4c-998e-97ee0e6e9426"
+      },
+      {
+        "local_seq": 12,
+        "json_path": "/process_uuid",
+        "field": "process_uuid",
+        "value": "pid:9668:edb4809f-4b8c-4f4c-998e-97ee0e6e9426"
+      },
+      {
+        "local_seq": 13,
+        "json_path": "/process_uuid",
+        "field": "process_uuid",
+        "value": "pid:9668:edb4809f-4b8c-4f4c-998e-97ee0e6e9426"
+      },
+      {
+        "local_seq": 14,
+        "json_path": "/process_uuid",
+        "field": "process_uuid",
+        "value": "pid:9668:edb4809f-4b8c-4f4c-998e-97ee0e6e9426"
+      },
+      {
+        "local_seq": 15,
+        "json_path": "/process_uuid",
+        "field": "process_uuid",
+        "value": "pid:9668:edb4809f-4b8c-4f4c-998e-97ee0e6e9426"
+      },
+      {
+        "local_seq": 16,
+        "json_path": "/process_uuid",
+        "field": "process_uuid",
+        "value": "pid:9668:edb4809f-4b8c-4f4c-998e-97ee0e6e9426"
+      },
+      {
+        "local_seq": 17,
+        "json_path": "/process_uuid",
+        "field": "process_uuid",
+        "value": "pid:9668:edb4809f-4b8c-4f4c-998e-97ee0e6e9426"
+      },
+      {
+        "local_seq": 18,
+        "json_path": "/process_uuid",
+        "field": "process_uuid",
+        "value": "pid:9668:edb4809f-4b8c-4f4c-998e-97ee0e6e9426"
+      },
+      {
+        "local_seq": 19,
+        "json_path": "/process_uuid",
+        "field": "process_uuid",
+        "value": "pid:9668:edb4809f-4b8c-4f4c-998e-97ee0e6e9426"
+      },
+      {
+        "local_seq": 20,
+        "json_path": "/process_uuid",
+        "field": "process_uuid",
+        "value": "pid:9668:edb4809f-4b8c-4f4c-998e-97ee0e6e9426"
+      },
+      {
+        "local_seq": 21,
+        "json_path": "/process_uuid",
+        "field": "process_uuid",
+        "value": "pid:9668:edb4809f-4b8c-4f4c-998e-97ee0e6e9426"
+      },
+      {
+        "local_seq": 22,
+        "json_path": "/process_uuid",
+        "field": "process_uuid",
+        "value": "pid:9668:edb4809f-4b8c-4f4c-998e-97ee0e6e9426"
+      },
+      {
+        "local_seq": 23,
+        "json_path": "/process_uuid",
+        "field": "process_uuid",
+        "value": "pid:9668:edb4809f-4b8c-4f4c-998e-97ee0e6e9426"
+      },
+      {
+        "local_seq": 24,
+        "json_path": "/process_uuid",
+        "field": "process_uuid",
+        "value": "pid:9668:edb4809f-4b8c-4f4c-998e-97ee0e6e9426"
+      },
+      {
+        "local_seq": 25,
+        "json_path": "/process_uuid",
+        "field": "process_uuid",
+        "value": "pid:9668:edb4809f-4b8c-4f4c-998e-97ee0e6e9426"
+      },
+      {
+        "local_seq": 26,
+        "json_path": "/process_uuid",
+        "field": "process_uuid",
+        "value": "pid:9668:edb4809f-4b8c-4f4c-998e-97ee0e6e9426"
+      },
+      {
+        "local_seq": 27,
+        "json_path": "/process_uuid",
+        "field": "process_uuid",
+        "value": "pid:9668:edb4809f-4b8c-4f4c-998e-97ee0e6e9426"
+      },
+      {
+        "local_seq": 28,
+        "json_path": "/process_uuid",
+        "field": "process_uuid",
+        "value": "pid:9668:edb4809f-4b8c-4f4c-998e-97ee0e6e9426"
+      },
+      {
+        "local_seq": 29,
+        "json_path": "/process_uuid",
+        "field": "process_uuid",
+        "value": "pid:9668:edb4809f-4b8c-4f4c-998e-97ee0e6e9426"
+      },
+      {
+        "local_seq": 30,
+        "json_path": "/process_uuid",
+        "field": "process_uuid",
+        "value": "pid:9668:edb4809f-4b8c-4f4c-998e-97ee0e6e9426"
+      },
+      {
+        "local_seq": 31,
+        "json_path": "/process_uuid",
+        "field": "process_uuid",
+        "value": "pid:19668:5da539ab-13d0-4a43-932f-da208a9d1bf5"
+      },
+      {
+        "local_seq": 32,
+        "json_path": "/process_uuid",
+        "field": "process_uuid",
+        "value": "pid:19668:5da539ab-13d0-4a43-932f-da208a9d1bf5"
+      },
+      {
+        "local_seq": 33,
+        "json_path": "/process_uuid",
+        "field": "process_uuid",
+        "value": "pid:45044:2fcee2be-eae8-4fda-a1ae-6790e9b7c0e7"
+      },
+      {
+        "local_seq": 34,
+        "json_path": "/process_uuid",
+        "field": "process_uuid",
+        "value": "pid:45044:2fcee2be-eae8-4fda-a1ae-6790e9b7c0e7"
+      },
+      {
+        "local_seq": 35,
+        "json_path": "/process_uuid",
+        "field": "process_uuid",
+        "value": "pid:45044:2fcee2be-eae8-4fda-a1ae-6790e9b7c0e7"
+      },
+      {
+        "local_seq": 36,
+        "json_path": "/process_uuid",
+        "field": "process_uuid",
+        "value": "pid:45044:2fcee2be-eae8-4fda-a1ae-6790e9b7c0e7"
+      },
+      {
+        "local_seq": 37,
+        "json_path": "/process_uuid",
+        "field": "process_uuid",
+        "value": "pid:45044:2fcee2be-eae8-4fda-a1ae-6790e9b7c0e7"
+      },
+      {
+        "local_seq": 38,
+        "json_path": "/process_uuid",
+        "field": "process_uuid",
+        "value": "pid:45044:2fcee2be-eae8-4fda-a1ae-6790e9b7c0e7"
+      },
+      {
+        "local_seq": 39,
+        "json_path": "/process_uuid",
+        "field": "process_uuid",
+        "value": "pid:45044:2fcee2be-eae8-4fda-a1ae-6790e9b7c0e7"
+      },
+      {
+        "local_seq": 40,
+        "json_path": "/process_uuid",
+        "field": "process_uuid",
+        "value": "pid:45044:2fcee2be-eae8-4fda-a1ae-6790e9b7c0e7"
+      },
+      {
+        "local_seq": 41,
+        "json_path": "/process_uuid",
+        "field": "process_uuid",
+        "value": "pid:35052:6de35b63-c799-4796-aa0c-82959c30cd9a"
+      }
+    ],
+    "components": [
+      {
+        "local_seq": 10,
+        "json_path": "/module_path",
+        "field": "module_path",
+        "value": "codex_core::session::handlers"
+      },
+      {
+        "local_seq": 10,
+        "json_path": "/target",
+        "field": "target",
+        "value": "codex_core::session::handlers"
+      },
+      {
+        "local_seq": 11,
+        "json_path": "/module_path",
+        "field": "module_path",
+        "value": "codex_core::session::handlers"
+      },
+      {
+        "local_seq": 11,
+        "json_path": "/target",
+        "field": "target",
+        "value": "codex_core::session::handlers"
+      },
+      {
+        "local_seq": 12,
+        "json_path": "/module_path",
+        "field": "module_path",
+        "value": "codex_core::session::handlers"
+      },
+      {
+        "local_seq": 12,
+        "json_path": "/target",
+        "field": "target",
+        "value": "codex_core::session::handlers"
+      },
+      {
+        "local_seq": 13,
+        "json_path": "/module_path",
+        "field": "module_path",
+        "value": "codex_core::session::handlers"
+      },
+      {
+        "local_seq": 13,
+        "json_path": "/target",
+        "field": "target",
+        "value": "codex_core::session::handlers"
+      },
+      {
+        "local_seq": 14,
+        "json_path": "/module_path",
+        "field": "module_path",
+        "value": "codex_core::session::handlers"
+      },
+      {
+        "local_seq": 14,
+        "json_path": "/target",
+        "field": "target",
+        "value": "codex_core::session::handlers"
+      },
+      {
+        "local_seq": 15,
+        "json_path": "/module_path",
+        "field": "module_path",
+        "value": "codex_core::session::handlers"
+      },
+      {
+        "local_seq": 15,
+        "json_path": "/target",
+        "field": "target",
+        "value": "codex_core::session::handlers"
+      },
+      {
+        "local_seq": 16,
+        "json_path": "/module_path",
+        "field": "module_path",
+        "value": "codex_core::session::handlers"
+      },
+      {
+        "local_seq": 16,
+        "json_path": "/target",
+        "field": "target",
+        "value": "codex_core::session::handlers"
+      },
+      {
+        "local_seq": 17,
+        "json_path": "/module_path",
+        "field": "module_path",
+        "value": "codex_core::session::handlers"
+      },
+      {
+        "local_seq": 17,
+        "json_path": "/target",
+        "field": "target",
+        "value": "codex_core::session::handlers"
+      },
+      {
+        "local_seq": 18,
+        "json_path": "/module_path",
+        "field": "module_path",
+        "value": "codex_core::session::handlers"
+      },
+      {
+        "local_seq": 18,
+        "json_path": "/target",
+        "field": "target",
+        "value": "codex_core::session::handlers"
+      },
+      {
+        "local_seq": 19,
+        "json_path": "/module_path",
+        "field": "module_path",
+        "value": "codex_core::session::handlers"
+      },
+      {
+        "local_seq": 19,
+        "json_path": "/target",
+        "field": "target",
+        "value": "codex_core::session::handlers"
+      },
+      {
+        "local_seq": 20,
+        "json_path": "/module_path",
+        "field": "module_path",
+        "value": "codex_core::session::handlers"
+      },
+      {
+        "local_seq": 20,
+        "json_path": "/target",
+        "field": "target",
+        "value": "codex_core::session::handlers"
+      },
+      {
+        "local_seq": 21,
+        "json_path": "/module_path",
+        "field": "module_path",
+        "value": "codex_core::session::handlers"
+      },
+      {
+        "local_seq": 21,
+        "json_path": "/target",
+        "field": "target",
+        "value": "codex_core::session::handlers"
+      },
+      {
+        "local_seq": 22,
+        "json_path": "/module_path",
+        "field": "module_path",
+        "value": "codex_core::session::handlers"
+      },
+      {
+        "local_seq": 22,
+        "json_path": "/target",
+        "field": "target",
+        "value": "codex_core::session::handlers"
+      },
+      {
+        "local_seq": 23,
+        "json_path": "/module_path",
+        "field": "module_path",
+        "value": "codex_core::session::handlers"
+      },
+      {
+        "local_seq": 23,
+        "json_path": "/target",
+        "field": "target",
+        "value": "codex_core::session::handlers"
+      },
+      {
+        "local_seq": 24,
+        "json_path": "/module_path",
+        "field": "module_path",
+        "value": "codex_core::session::handlers"
+      },
+      {
+        "local_seq": 24,
+        "json_path": "/target",
+        "field": "target",
+        "value": "codex_core::session::handlers"
+      },
+      {
+        "local_seq": 25,
+        "json_path": "/module_path",
+        "field": "module_path",
+        "value": "codex_core::session::handlers"
+      },
+      {
+        "local_seq": 25,
+        "json_path": "/target",
+        "field": "target",
+        "value": "codex_core::session::handlers"
+      },
+      {
+        "local_seq": 26,
+        "json_path": "/module_path",
+        "field": "module_path",
+        "value": "codex_core::session::handlers"
+      },
+      {
+        "local_seq": 26,
+        "json_path": "/target",
+        "field": "target",
+        "value": "codex_core::session::handlers"
+      },
+      {
+        "local_seq": 27,
+        "json_path": "/module_path",
+        "field": "module_path",
+        "value": "codex_core::session::handlers"
+      },
+      {
+        "local_seq": 27,
+        "json_path": "/target",
+        "field": "target",
+        "value": "codex_core::session::handlers"
+      },
+      {
+        "local_seq": 28,
+        "json_path": "/module_path",
+        "field": "module_path",
+        "value": "codex_core::session::handlers"
+      },
+      {
+        "local_seq": 28,
+        "json_path": "/target",
+        "field": "target",
+        "value": "codex_core::session::handlers"
+      },
+      {
+        "local_seq": 29,
+        "json_path": "/module_path",
+        "field": "module_path",
+        "value": "codex_core::session::handlers"
+      },
+      {
+        "local_seq": 29,
+        "json_path": "/target",
+        "field": "target",
+        "value": "codex_core::session::handlers"
+      },
+      {
+        "local_seq": 30,
+        "json_path": "/module_path",
+        "field": "module_path",
+        "value": "codex_core::session::handlers"
+      },
+      {
+        "local_seq": 30,
+        "json_path": "/target",
+        "field": "target",
+        "value": "codex_core::session::handlers"
+      },
+      {
+        "local_seq": 31,
+        "json_path": "/module_path",
+        "field": "module_path",
+        "value": "codex_core::session::handlers"
+      },
+      {
+        "local_seq": 31,
+        "json_path": "/target",
+        "field": "target",
+        "value": "codex_core::session::handlers"
+      },
+      {
+        "local_seq": 32,
+        "json_path": "/module_path",
+        "field": "module_path",
+        "value": "codex_core::session::handlers"
+      },
+      {
+        "local_seq": 32,
+        "json_path": "/target",
+        "field": "target",
+        "value": "codex_core::session::handlers"
+      },
+      {
+        "local_seq": 33,
+        "json_path": "/module_path",
+        "field": "module_path",
+        "value": "codex_core::session::handlers"
+      },
+      {
+        "local_seq": 33,
+        "json_path": "/target",
+        "field": "target",
+        "value": "codex_core::session::handlers"
+      },
+      {
+        "local_seq": 34,
+        "json_path": "/module_path",
+        "field": "module_path",
+        "value": "codex_core::session::handlers"
+      },
+      {
+        "local_seq": 34,
+        "json_path": "/target",
+        "field": "target",
+        "value": "codex_core::session::handlers"
+      },
+      {
+        "local_seq": 35,
+        "json_path": "/module_path",
+        "field": "module_path",
+        "value": "codex_core::session::handlers"
+      },
+      {
+        "local_seq": 35,
+        "json_path": "/target",
+        "field": "target",
+        "value": "codex_core::session::handlers"
+      },
+      {
+        "local_seq": 36,
+        "json_path": "/module_path",
+        "field": "module_path",
+        "value": "codex_core::session::handlers"
+      },
+      {
+        "local_seq": 36,
+        "json_path": "/target",
+        "field": "target",
+        "value": "codex_core::session::handlers"
+      },
+      {
+        "local_seq": 37,
+        "json_path": "/module_path",
+        "field": "module_path",
+        "value": "codex_core::session::handlers"
+      },
+      {
+        "local_seq": 37,
+        "json_path": "/target",
+        "field": "target",
+        "value": "codex_core::session::handlers"
+      },
+      {
+        "local_seq": 38,
+        "json_path": "/module_path",
+        "field": "module_path",
+        "value": "codex_core::session::handlers"
+      },
+      {
+        "local_seq": 38,
+        "json_path": "/target",
+        "field": "target",
+        "value": "codex_core::session::handlers"
+      },
+      {
+        "local_seq": 39,
+        "json_path": "/module_path",
+        "field": "module_path",
+        "value": "codex_core::session::handlers"
+      },
+      {
+        "local_seq": 39,
+        "json_path": "/target",
+        "field": "target",
+        "value": "codex_core::session::handlers"
+      },
+      {
+        "local_seq": 40,
+        "json_path": "/module_path",
+        "field": "module_path",
+        "value": "codex_core::session::handlers"
+      },
+      {
+        "local_seq": 40,
+        "json_path": "/target",
+        "field": "target",
+        "value": "codex_core::session::handlers"
+      },
+      {
+        "local_seq": 41,
+        "json_path": "/module_path",
+        "field": "module_path",
+        "value": "codex_core::session::handlers"
+      },
+      {
+        "local_seq": 41,
+        "json_path": "/target",
+        "field": "target",
+        "value": "codex_core::session::handlers"
+      }
+    ],
+    "owners": [],
+    "streams": [],
+    "source_locations": [
+      {
+        "local_seq": 10,
+        "json_path": "/file",
+        "field": "file",
+        "value": "core\\src\\session\\handlers.rs"
+      },
+      {
+        "local_seq": 10,
+        "json_path": "/line",
+        "field": "line",
+        "value": 532
+      },
+      {
+        "local_seq": 11,
+        "json_path": "/file",
+        "field": "file",
+        "value": "core\\src\\session\\handlers.rs"
+      },
+      {
+        "local_seq": 11,
+        "json_path": "/line",
+        "field": "line",
+        "value": 532
+      },
+      {
+        "local_seq": 12,
+        "json_path": "/file",
+        "field": "file",
+        "value": "core\\src\\session\\handlers.rs"
+      },
+      {
+        "local_seq": 12,
+        "json_path": "/line",
+        "field": "line",
+        "value": 532
+      },
+      {
+        "local_seq": 13,
+        "json_path": "/file",
+        "field": "file",
+        "value": "core\\src\\session\\handlers.rs"
+      },
+      {
+        "local_seq": 13,
+        "json_path": "/line",
+        "field": "line",
+        "value": 532
+      },
+      {
+        "local_seq": 14,
+        "json_path": "/file",
+        "field": "file",
+        "value": "core\\src\\session\\handlers.rs"
+      },
+      {
+        "local_seq": 14,
+        "json_path": "/line",
+        "field": "line",
+        "value": 532
+      },
+      {
+        "local_seq": 15,
+        "json_path": "/file",
+        "field": "file",
+        "value": "core\\src\\session\\handlers.rs"
+      },
+      {
+        "local_seq": 15,
+        "json_path": "/line",
+        "field": "line",
+        "value": 532
+      },
+      {
+        "local_seq": 16,
+        "json_path": "/file",
+        "field": "file",
+        "value": "core\\src\\session\\handlers.rs"
+      },
+      {
+        "local_seq": 16,
+        "json_path": "/line",
+        "field": "line",
+        "value": 532
+      },
+      {
+        "local_seq": 17,
+        "json_path": "/file",
+        "field": "file",
+        "value": "core\\src\\session\\handlers.rs"
+      },
+      {
+        "local_seq": 17,
+        "json_path": "/line",
+        "field": "line",
+        "value": 532
+      },
+      {
+        "local_seq": 18,
+        "json_path": "/file",
+        "field": "file",
+        "value": "core\\src\\session\\handlers.rs"
+      },
+      {
+        "local_seq": 18,
+        "json_path": "/line",
+        "field": "line",
+        "value": 532
+      },
+      {
+        "local_seq": 19,
+        "json_path": "/file",
+        "field": "file",
+        "value": "core\\src\\session\\handlers.rs"
+      },
+      {
+        "local_seq": 19,
+        "json_path": "/line",
+        "field": "line",
+        "value": 532
+      },
+      {
+        "local_seq": 20,
+        "json_path": "/file",
+        "field": "file",
+        "value": "core\\src\\session\\handlers.rs"
+      },
+      {
+        "local_seq": 20,
+        "json_path": "/line",
+        "field": "line",
+        "value": 532
+      },
+      {
+        "local_seq": 21,
+        "json_path": "/file",
+        "field": "file",
+        "value": "core\\src\\session\\handlers.rs"
+      },
+      {
+        "local_seq": 21,
+        "json_path": "/line",
+        "field": "line",
+        "value": 532
+      },
+      {
+        "local_seq": 22,
+        "json_path": "/file",
+        "field": "file",
+        "value": "core\\src\\session\\handlers.rs"
+      },
+      {
+        "local_seq": 22,
+        "json_path": "/line",
+        "field": "line",
+        "value": 532
+      },
+      {
+        "local_seq": 23,
+        "json_path": "/file",
+        "field": "file",
+        "value": "core\\src\\session\\handlers.rs"
+      },
+      {
+        "local_seq": 23,
+        "json_path": "/line",
+        "field": "line",
+        "value": 532
+      },
+      {
+        "local_seq": 24,
+        "json_path": "/file",
+        "field": "file",
+        "value": "core\\src\\session\\handlers.rs"
+      },
+      {
+        "local_seq": 24,
+        "json_path": "/line",
+        "field": "line",
+        "value": 532
+      },
+      {
+        "local_seq": 25,
+        "json_path": "/file",
+        "field": "file",
+        "value": "core\\src\\session\\handlers.rs"
+      },
+      {
+        "local_seq": 25,
+        "json_path": "/line",
+        "field": "line",
+        "value": 532
+      },
+      {
+        "local_seq": 26,
+        "json_path": "/file",
+        "field": "file",
+        "value": "core\\src\\session\\handlers.rs"
+      },
+      {
+        "local_seq": 26,
+        "json_path": "/line",
+        "field": "line",
+        "value": 532
+      },
+      {
+        "local_seq": 27,
+        "json_path": "/file",
+        "field": "file",
+        "value": "core\\src\\session\\handlers.rs"
+      },
+      {
+        "local_seq": 27,
+        "json_path": "/line",
+        "field": "line",
+        "value": 532
+      },
+      {
+        "local_seq": 28,
+        "json_path": "/file",
+        "field": "file",
+        "value": "core\\src\\session\\handlers.rs"
+      },
+      {
+        "local_seq": 28,
+        "json_path": "/line",
+        "field": "line",
+        "value": 532
+      },
+      {
+        "local_seq": 29,
+        "json_path": "/file",
+        "field": "file",
+        "value": "core\\src\\session\\handlers.rs"
+      },
+      {
+        "local_seq": 29,
+        "json_path": "/line",
+        "field": "line",
+        "value": 532
+      },
+      {
+        "local_seq": 30,
+        "json_path": "/file",
+        "field": "file",
+        "value": "core\\src\\session\\handlers.rs"
+      },
+      {
+        "local_seq": 30,
+        "json_path": "/line",
+        "field": "line",
+        "value": 532
+      },
+      {
+        "local_seq": 31,
+        "json_path": "/file",
+        "field": "file",
+        "value": "core\\src\\session\\handlers.rs"
+      },
+      {
+        "local_seq": 31,
+        "json_path": "/line",
+        "field": "line",
+        "value": 537
+      },
+      {
+        "local_seq": 32,
+        "json_path": "/file",
+        "field": "file",
+        "value": "core\\src\\session\\handlers.rs"
+      },
+      {
+        "local_seq": 32,
+        "json_path": "/line",
+        "field": "line",
+        "value": 537
+      },
+      {
+        "local_seq": 33,
+        "json_path": "/file",
+        "field": "file",
+        "value": "core\\src\\session\\handlers.rs"
+      },
+      {
+        "local_seq": 33,
+        "json_path": "/line",
+        "field": "line",
+        "value": 537
+      },
+      {
+        "local_seq": 34,
+        "json_path": "/file",
+        "field": "file",
+        "value": "core\\src\\session\\handlers.rs"
+      },
+      {
+        "local_seq": 34,
+        "json_path": "/line",
+        "field": "line",
+        "value": 537
+      },
+      {
+        "local_seq": 35,
+        "json_path": "/file",
+        "field": "file",
+        "value": "core\\src\\session\\handlers.rs"
+      },
+      {
+        "local_seq": 35,
+        "json_path": "/line",
+        "field": "line",
+        "value": 537
+      },
+      {
+        "local_seq": 36,
+        "json_path": "/file",
+        "field": "file",
+        "value": "core\\src\\session\\handlers.rs"
+      },
+      {
+        "local_seq": 36,
+        "json_path": "/line",
+        "field": "line",
+        "value": 537
+      },
+      {
+        "local_seq": 37,
+        "json_path": "/file",
+        "field": "file",
+        "value": "core\\src\\session\\handlers.rs"
+      },
+      {
+        "local_seq": 37,
+        "json_path": "/line",
+        "field": "line",
+        "value": 537
+      },
+      {
+        "local_seq": 38,
+        "json_path": "/file",
+        "field": "file",
+        "value": "core\\src\\session\\handlers.rs"
+      },
+      {
+        "local_seq": 38,
+        "json_path": "/line",
+        "field": "line",
+        "value": 537
+      },
+      {
+        "local_seq": 39,
+        "json_path": "/file",
+        "field": "file",
+        "value": "core\\src\\session\\handlers.rs"
+      },
+      {
+        "local_seq": 39,
+        "json_path": "/line",
+        "field": "line",
+        "value": 537
+      },
+      {
+        "local_seq": 40,
+        "json_path": "/file",
+        "field": "file",
+        "value": "core\\src\\session\\handlers.rs"
+      },
+      {
+        "local_seq": 40,
+        "json_path": "/line",
+        "field": "line",
+        "value": 537
+      },
+      {
+        "local_seq": 41,
+        "json_path": "/file",
+        "field": "file",
+        "value": "core\\src\\session\\handlers.rs"
+      },
+      {
+        "local_seq": 41,
+        "json_path": "/line",
+        "field": "line",
+        "value": 537
+      }
+    ],
+    "code_fields": [],
+    "claim_fields": [],
+    "headers": []
+  },
+  "metadata_supplied": {
+    "identifiers": [],
+    "models": [],
+    "routes": [],
+    "event_types": [],
+    "source_timestamps": [],
+    "processes": [],
+    "components": [],
+    "owners": [],
+    "streams": [],
+    "source_locations": [],
+    "code_fields": [],
+    "claim_fields": [],
+    "headers": []
+  },
+  "canary_occurrences": [
+    {
+      "token": "OZCANARY-550CE8099E8787DB949C131A7209FAA8",
+      "local_seq": 47,
+      "stream": "stdin",
+      "source_timestamps": [],
+      "source_path": null,
+      "payload_sha256": "2a40a5ef8c53860219cd197ac3dab962b6bbc11a91e4dfb52ff15e7b0cf5dc35"
+    },
+    {
+      "token": "OZCANARY-550CE8099E8787DB949C131A7209FAA8",
+      "local_seq": 55,
+      "stream": "stdin",
+      "source_timestamps": [],
+      "source_path": null,
+      "payload_sha256": "2a40a5ef8c53860219cd197ac3dab962b6bbc11a91e4dfb52ff15e7b0cf5dc35"
+    },
+    {
+      "token": "OZCANARY-550CE8099E8787DB949C131A7209FAA8",
+      "local_seq": 59,
+      "stream": "stdout",
+      "source_timestamps": [],
+      "source_path": null,
+      "payload_sha256": "e76bb02920f81a95baa0d33d86e72b97ffdc7296ab881dc131295df944a0df04"
+    },
+    {
+      "token": "OZCANARY-550CE8099E8787DB949C131A7209FAA8",
+      "local_seq": 61,
+      "stream": "file",
+      "source_timestamps": [],
+      "source_path": "C:\\Users\\drewd\\Documents\\Codex\\2026-09-07\\worked-for-1m-19s-yes-mathematically\\work\\next_pass\\live_io\\CANARY-PROBE-001.attempt2.reply.txt",
+      "payload_sha256": "38f003dddc4d3663a18555c09d463c72f042180b34493f0dccf14af4cfabfc54"
+    }
+  ],
+  "delta_sequences": [],
+  "canary_registry": [
+    {
+      "token": "OZCANARY-550CE8099E8787DB949C131A7209FAA8",
+      "stream": "cli_stdin_sent",
+      "local_seq": 45,
+      "kind": "canary_stage_copy"
+    }
+  ],
+  "validation_metrics": {
+    "sequence_errors": 0,
+    "chain_errors": 0,
+    "payload_hash_errors": 0
+  },
+  "report_generator_sha256": "98f70fe65b9c098369746bc9cad660ee7d74f359931ea9426713cfd23a9b52c4"
+}

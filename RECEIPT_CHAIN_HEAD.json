@@ -1,0 +1,18 @@
+{
+  "program_version": "4.1",
+  "program_sha256": "4f6977187b54ef6131f2041abee4a93440bc5507a23f5c9f1827e520091cd087",
+  "parent_program_sha256": "61052c99258c2b75d19b7ee58a8e64fb5b8c74efdd74d22e99e940f54119590f",
+  "generated_at_utc": "2026-09-07T18:55:47.419486+00:00",
+  "receipt_file": "DROP_IT_RECEIPTS_NEXT.jsonl",
+  "receipts": 212,
+  "head_sha256": "5f3db8900894dfa0331281bb817472eaad807a7b8c9fb1eb732a687cff0f9f56",
+  "log_file_sha256": "7a746464fa3e232dd70619b3646ce4e1ad0461fff11a84037440b78067119c0b",
+  "validated_payloads": 188,
+  "expected_head_matches": true,
+  "validation_metrics": {
+    "sequence_errors": 0,
+    "chain_errors": 0,
+    "payload_hash_errors": 0
+  },
+  "report_generator_sha256": "98f70fe65b9c098369746bc9cad660ee7d74f359931ea9426713cfd23a9b52c4"
+}

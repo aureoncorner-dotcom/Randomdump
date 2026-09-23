@@ -1,0 +1,228 @@
+{
+  "method": "Independent reconstruction from the supplied equations. This does not run or validate the missing original implementation.",
+  "alpha_approx": 0.3819660112501051,
+  "tau_approx": 0.10332556124590297,
+  "exact_runs": [
+    {
+      "departures": 39,
+      "slips": 5,
+      "gap_lengths": [
+        9,
+        10
+      ],
+      "max_absolute_count_discrepancy_approx": 0.9703031114097485,
+      "start": "zero"
+    },
+    {
+      "departures": 507,
+      "slips": 53,
+      "gap_lengths": [
+        9,
+        10
+      ],
+      "max_absolute_count_discrepancy_approx": 0.998772902361452,
+      "start": "zero"
+    },
+    {
+      "departures": 10000,
+      "slips": 1034,
+      "gap_lengths": [
+        9,
+        10
+      ],
+      "max_absolute_count_discrepancy_approx": 0.9998788380762562,
+      "start": "zero"
+    },
+    {
+      "departures": 1000,
+      "slips": 103,
+      "gap_lengths": [
+        9,
+        10
+      ],
+      "max_absolute_count_discrepancy_approx": 0.5713583309516252,
+      "start": "one seventh"
+    },
+    {
+      "departures": 1000,
+      "slips": 104,
+      "gap_lengths": [
+        9,
+        10
+      ],
+      "max_absolute_count_discrepancy_approx": 0.9998774309497094,
+      "start": "bin boundary one thirty-ninth"
+    },
+    {
+      "departures": 1000,
+      "slips": 104,
+      "gap_lengths": [
+        9,
+        10
+      ],
+      "max_absolute_count_discrepancy_approx": 0.8965518697077641,
+      "start": "slip boundary tau/39"
+    },
+    {
+      "departures": 1000,
+      "slips": 103,
+      "gap_lengths": [
+        9,
+        10
+      ],
+      "max_absolute_count_discrepancy_approx": 0.8955699101643404,
+      "start": "irrational alpha"
+    }
+  ],
+  "boundary_convention": {
+    "sigma_at_zero": 1,
+    "sigma_at_tau": 0
+  },
+  "exact_partition_word_counts": [
+    {
+      "word_length": 1,
+      "slip": 2,
+      "pair": 6,
+      "bin": 39
+    },
+    {
+      "word_length": 2,
+      "slip": 3,
+      "pair": 9,
+      "bin": 78
+    },
+    {
+      "word_length": 3,
+      "slip": 4,
+      "pair": 12,
+      "bin": 117
+    },
+    {
+      "word_length": 4,
+      "slip": 5,
+      "pair": 15,
+      "bin": 156
+    },
+    {
+      "word_length": 5,
+      "slip": 6,
+      "pair": 18,
+      "bin": 195
+    },
+    {
+      "word_length": 6,
+      "slip": 7,
+      "pair": 21,
+      "bin": 234
+    },
+    {
+      "word_length": 7,
+      "slip": 8,
+      "pair": 24,
+      "bin": 273
+    },
+    {
+      "word_length": 8,
+      "slip": 9,
+      "pair": 27,
+      "bin": 312
+    },
+    {
+      "word_length": 9,
+      "slip": 10,
+      "pair": 30,
+      "bin": 351
+    },
+    {
+      "word_length": 10,
+      "slip": 11,
+      "pair": 33,
+      "bin": 390
+    },
+    {
+      "word_length": 11,
+      "slip": 12,
+      "pair": 36,
+      "bin": 429
+    },
+    {
+      "word_length": 12,
+      "slip": 13,
+      "pair": 39,
+      "bin": 468
+    }
+  ],
+  "two_point_checks": [
+    {
+      "lag": 0,
+      "probability_approx": 0.10332556124590297
+    },
+    {
+      "lag": 1,
+      "probability_approx": 0.0
+    },
+    {
+      "lag": 9,
+      "probability_approx": 0.03325561245901554
+    },
+    {
+      "lag": 10,
+      "probability_approx": 0.07006994878690875
+    }
+  ],
+  "warp_fixture": {
+    "epsilon": 0.25,
+    "F_zero_approx": 0.34973775570855403,
+    "physical_bin": 13,
+    "transported_bin": 14
+  },
+  "numerical_residual_spot_checks": [
+    {
+      "epsilon": -0.9,
+      "sample_points": 1001,
+      "maximum_residual": 0.2922613377140406,
+      "analytic_bound": 0.9439669986960797,
+      "rational_bound": 1.12023
+    },
+    {
+      "epsilon": -0.25,
+      "sample_points": 1001,
+      "maximum_residual": 0.004479480282827408,
+      "analytic_bound": 0.011386302030177814,
+      "rational_bound": 0.013346354166666666
+    },
+    {
+      "epsilon": -0.01,
+      "sample_points": 1001,
+      "maximum_residual": 2.54833553037237e-07,
+      "analytic_bound": 5.787438476466718e-07,
+      "rational_bound": 6.733666666666668e-07
+    },
+    {
+      "epsilon": 0.01,
+      "sample_points": 1001,
+      "maximum_residual": 2.548335531482593e-07,
+      "analytic_bound": 5.787438476466718e-07,
+      "rational_bound": 6.733666666666668e-07
+    },
+    {
+      "epsilon": 0.25,
+      "sample_points": 1001,
+      "maximum_residual": 0.004479480282827297,
+      "analytic_bound": 0.011386302030177814,
+      "rational_bound": 0.013346354166666666
+    },
+    {
+      "epsilon": 0.9,
+      "sample_points": 1001,
+      "maximum_residual": 0.2922613377140404,
+      "analytic_bound": 0.9439669986960797,
+      "rational_bound": 1.12023
+    }
+  ],
+  "limitations": [
+    "Exact finite checks support the tested fixtures, not universal theorems by themselves.",
+    "Residual and warp evaluation are floating-point spot checks, not interval-certified computations.",
+    "Original baseline proofs, implementation, field update and algebra appendix were not supplied at the referenced paths."
+  ]
+}
