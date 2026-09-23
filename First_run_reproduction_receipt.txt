@@ -1,0 +1,68 @@
+=== TAB: Tab 1 (t.0) ===
+TD-COS-FH-001 — L=2 Frozen-Prose Execution Receipt v0.1
+Run date: Sep 6, 2026
+Frozen source: [# Toroidal Dynamics v0.1](https://docs.google.com/document/d/1ZMFcH3AV574iMI8qREeOcLS3NPb7rchNnyB1juHnYeM/edit)
+Later comparison record: [# Tiny-system validation v0.1](https://docs.google.com/document/d/1J43udMgUlfGXuMMdkCGw_Ef5vaZbYd9SasTzcQ1isEo/edit)
+
+Disposition
+INVARIANTS PASS · EIGHT-SECTOR COVERAGE PASS · MIXING EVIDENCE FAVORABLE BUT INCOMPLETE · PRODUCTION NOT AUTHORIZED · PHYSICAL Q2 NOT RUN.
+
+Execution
+Kernel: TD-COS-FH-001; cosine weights; fixed-reference Z000; J=1, t=1/2, h6=0.
+Geometry: 2×2×2 periodic torus with V=8, E=24, P=24 and B=71 microticks per sweep.
+Eight chains: q=000 through 111; proposal seeds 64000–64007; acceptance seeds 74000–74007.
+Per chain: 2,000 warmup sweeps and 10,000 retained sweeps; first retained microtick 142,071; last 852,000.
+Completed: 6,816,000 microticks; 80,000 retained measurements; no thinning.
+Outcomes: 1,107,368 accepted nonidentity updates; 4,939,515 rejected nonidentity proposals; 769,117 identity updates.
+
+Invariant evidence
+Status: PASS. The sampler executed 1,187,464 online checks with zero failures.
+Integer-current conservation: div I=0.
+Mod-two membrane constraint: I mod 2 + boundary(M) + Gamma(q)=0.
+All transverse cuts agree on signed winding for each axis.
+Sector parity agrees with signed winding: q_alpha=W_alpha mod 2.
+Cached N_M equals binary membrane occupancy.
+All 123 proposal descriptors preserve the constraints and their tested inverses restore the state.
+Every Metropolis comparison resolved at K=16 with one 64-bit prefix; no precision refinement was needed.
+
+Coverage
+Every chain visited all eight q sectors after warmup at event level and at retained-sweep resolution. Positive and negative signed winding occurred on every axis. Observed winding ranges: x=[−6,+6], y=[−6,+6], z=[−5,+6]. Maximum observed |I_link|=5; this was not a cutoff.
+q=000: 10,549 retained states (13.1862%).
+q=001: 10,195 retained states (12.7438%).
+q=010: 10,110 retained states (12.6375%).
+q=011: 9,662 retained states (12.0775%).
+q=100: 10,138 retained states (12.6725%).
+q=101: 9,882 retained states (12.3525%).
+q=110: 9,868 retained states (12.3350%).
+q=111: 9,596 retained states (11.9950%).
+
+Mixing evidence
+x parity: odd fraction 0.4916875; rank-normalized split R-hat 1.0000772; rank bulk ESS 29,471; 16,682 raw 0→1→0 trips.
+y parity: odd fraction 0.4904500; rank-normalized split R-hat 0.9999984; rank bulk ESS 30,620; 16,959 raw 0→1→0 trips.
+z parity: odd fraction 0.4935500; rank-normalized split R-hat 1.0001487; rank bulk ESS 29,468; 16,835 raw 0→1→0 trips.
+Membrane occupancy: rank-normalized split R-hat 1.0002471; rank bulk ESS 29,432.
+Retained-sweep q residence: median 1 sweep, 95th percentile 4 sweeps, maximum 12 sweeps.
+The numerical R-hat and ESS components are favorable. The full mixing gate is not established: these round trips are raw rather than decorrelated/effective, and the separately labelled all-zero-start control was not run.
+
+Preserved deterministic mismatch
+The later Drive companion already records an L=2 execution. Both records agree exactly on 6,046,883 nonidentity proposals, but they do not agree bit-for-bit: this run accepted 1,107,368 nonidentity updates versus 1,108,720 in the companion (difference −1,352). The largest retained sector-probability point difference is 0.2688 percentage points.
+The source Doc names DYNAMICS.json as machine-readable authority, but its native structure contains only literal unlinked relative-path text and Drive has no retrievable file with that exact name. This run is therefore labeled FROZEN_PROSE_PROFILE_WITH_UNRECOVERED_MACHINE_AUTHORITY. The mismatch is preserved, not harmonized.
+
+Authorization boundary
+This is a reproducible L=2 pre-production engineering run. It does not validate warmup, authorize larger-lattice production, establish a physical timescale, or support confinement, deconfinement, or physical Q2.
+Before production consideration
+Recover the authoritative DYNAMICS.json or adopt a dated replacement amendment.
+Resolve the deterministic replay mismatch against the preserved companion.
+Run the separately labelled all-zero-start control.
+Establish effective—not merely raw—sector round trips.
+Execute the larger-lattice validation gates under a new frozen profile.
+
+Artifacts
+TD_COS_FH_001_L2_run_results.json — complete aggregate and per-chain receipt.
+TD_COS_FH_001_L2_samples.npz — 80,000 retained measurements and state digests.
+TD_COS_FH_001_L2_verification.json — independent 16/16 structural verification PASS.
+TD_COS_FH_001_L2_companion_comparison.json — exact preserved comparison.
+TD_COS_FH_001_L2_FIRST_RUN_PACKET_v0.1.zip — complete executable packet.
+
+CC0 1.0 Universal. No production authorization. No physical Q2 result.
+

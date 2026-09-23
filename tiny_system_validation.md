@@ -1,0 +1,110 @@
+# Tiny-system validation v0.1
+CC0 - NO RIGHTSRESERVED
+**Result: PASS for the frozen L=2 implementation checks, using a separately planned follow-up reference cohort.** All eight sector probabilities satisfy the declared equivalence rule; exact conditional consistency, conservation, signed winding, sector coverage, and the dual mixing screen pass. This is a numerical implementation validation at one engineering point. Physical Q2 remains **NOT_RUN**.
+
+The primary reference run was **UNRESOLVED**: its rarest holonomy appeared 50 times, below the declared minimum of 100. Its results remain intact. Before further reference sampling, a separate fixed-length plan specified fresh seeds and four times as many retained sweeps. That cohort observed the rarest holonomy 181 times and passed. Targets, dual samples, tolerances, and coverage thresholds were unchanged; reference cohorts were not pooled or selected for the better estimate.
+
+## Model and run profile
+
+The frozen kernel is `TD-COS-FH-001`, with dimensionless $J=1$, $t=\tanh\kappa=1/2$, $\kappa=\tfrac12\log3$, and $h_6=0$. The periodic $2\times2\times2$ cellulation has 8 vertices, 24 stored positive bonds, and 24 plaquettes. Distinct length-two periodic bonds are retained even where their endpoint pairs coincide.
+
+The dual state is signed integer link current $I$, binary membrane $M$, and three-bit sector $q$. Its positive fixed-reference target is
+
+$$
+\pi(I,M,q)\propto 2^{-|M|}\prod_\ell I_{|I_\ell|}(1),\qquad
+\operatorname{div}I=0,\quad I\bmod2+\partial M+\Gamma q=0.
+$$
+
+Currents have no cutoff and sectors have no artificial bias. The seven move-family weights are $(8,8,24,24,1,3,3)$ for identity, cube, coupled plaquette, even plaquette, closed sheet, even cycle, and unit sector cycle. Each sweep contains 71 attempted updates, including identities and rejections. Detailed definitions are preserved in [the frozen dynamics](baseline/TOROIDAL_DYNAMICS_v0.1.md).
+
+| Cohort | Chains | Warmup per chain | Retained per chain | Total retained |
+|---|---:|---:|---:|---:|
+| Dual | 8 | 2,000 sweeps | 10,000 | 80,000 |
+| Primary direct reference | 8 | 4,000 sweeps | 20,000 | 160,000 |
+| Follow-up direct reference | 8 | 4,000 sweeps | 80,000 | 640,000 |
+
+Dual chain $c$ begins in sector $q=c$, with $M=0$ and $I=\Gamma q$. Proposal seeds are 64000–64007 and acceptance seeds 74000–74007. Primary direct seeds are 86000–86007; follow-up seeds are 96000–96007. The dual observation clock runs from attempted update 142,071 through 852,000 per chain. These are Monte Carlo clocks, without a physical-time calibration.
+
+## Independent probability reference
+
+The independent sampler works in the original rotor/gauge representation, with angles $\theta_v$ and gauge links $\sigma_\ell=\pm1$:
+
+$$
+\pi_{\rm full}(\theta,\sigma)\propto
+\exp\!\left[\sum_{\ell=(v,w)}\sigma_\ell\cos(\theta_v-\theta_w)
++\kappa\sum_p\prod_{\ell\in p}\sigma_\ell\right].
+$$
+
+It constructs bonds and plaquettes independently from binary vertex coordinates. Each sweep proposes angle increments uniformly on $[-\pi,\pi)$ at all eight sites, then attempts all 24 gauge-link flips in fixed order. Local acceptance exponents are tested against full-action differences. Every retained state has its plaquette products recomputed. This reference uses ordinary floating trigonometric and Metropolis arithmetic; it is independent Monte Carlo, not exhaustive integration.
+
+Let $H_h$ count the three reference-loop holonomy bits in the full direct ensemble. The normalized Fourier relation is
+
+$$
+\widehat p(q)=\frac{\sum_{h\in\{0,1\}^3}(-1)^{h\cdot q}H_h}{8H_{000}}.
+$$
+
+This follows from $Z_h=\sum_q(-1)^{h\cdot q}A_q$, where $A_q$ is the dual sector weight and $Z_{000}=\sum_qA_q$. Direct holonomy $h$ and dual sector $q$ are different observables; their raw frequencies must not be equated.
+
+| Dual sector | Sampled dual probability | Follow-up reference | Difference (percentage points) | Five-SE difference interval (percentage points) |
+|---|---:|---:|---:|---:|
+| 000 | 12.9262% | 13.2032% | -0.2769 | [-1.0173, +0.4634] |
+| 001 | 12.6500% | 12.6863% | -0.0363 | [-1.1123, +1.0397] |
+| 010 | 12.6312% | 12.7067% | -0.0755 | [-0.6479, +0.4969] |
+| 011 | 12.3462% | 12.2726% | +0.0736 | [-0.7548, +0.9021] |
+| 100 | 12.5688% | 12.6927% | -0.1240 | [-1.0163, +0.7683] |
+| 101 | 12.2037% | 12.2596% | -0.0559 | [-1.1164, +1.0047] |
+| 110 | 12.5100% | 12.2795% | +0.2305 | [-0.3213, +0.7823] |
+| 111 | 12.1638% | 11.8993% | +0.2645 | [-0.1903, +0.7192] |
+
+The largest absolute probability difference is **0.2769 percentage points**. The frozen rule requires $|\widehat p_{\rm dual}-\widehat p_{\rm ref}|+5\,SE_{\rm combined}\le0.04$ for every sector: an equivalence margin of four percentage points. All eight pass; the furthest interval endpoint is 1.1164 percentage points from zero. The observed point differences alone do not establish precision of 0.28 percentage points.
+
+Dual errors use eight independent chain means. Direct ratio errors use a delete-one-chain jackknife; combined errors are added in quadrature. Five-SE intervals are approximate conservative screening intervals, not an exact simultaneous finite-sample confidence theorem.
+
+## Exact conditional calculations
+
+Two analytic checks supplement the independent global comparison. They integrate over conditional state spaces on the sampled backgrounds; they are not a second exact solution of the full partition function.
+
+**Membranes.** Independently assembled link/face incidence over $\mathbb F_2$ has rank 14 and nullity 10. At fixed $I,q$, every permitted membrane is $M_0+C$, with $C$ in a 1,024-element kernel. Enumerating all offsets gives an exact rational conditional mean:
+
+$$
+\mathbb E[|M|\mid I,q]=
+\frac{\sum_C |M_0+C|\,2^{24-|M_0+C|}}{\sum_C2^{24-|M_0+C|}}.
+$$
+
+**Reference cycles.** On this L=2 lattice, each reference cycle contains two bonds. For currents $a,b$, condition on $M$ and all off-cycle currents and set $d=b-a$, $c=W-a$. Allowed cycle currents are $(m,m+d)$, with weight $I_m(1)I_{m+d}(1)$. The generating functions give
+
+$$
+\sum_{m\in\mathbb Z}I_m(J)I_{m+d}(J)=I_d(2J),\qquad
+\sum_{m\in\mathbb Z}(-1)^mI_m(J)I_{m+d}(J)=\delta_{d0}.
+$$
+
+Consequently the conditional probability of odd winding is $1/2$ for $d\ne0$, and $[1-(-1)^c/I_0(2)]/2$ for $d=0$. The conditional signed mean is $\mathbb E[W\mid\mathrm{rest}]=c-d/2$. The three reference cycles are edge-disjoint, so their conditional probabilities multiply to give all eight sector probabilities. The first identity follows by multiplying the Bessel generating series; the alternating identity follows from cancellation of opposite exponents. Symmetry under $m\mapsto-d-m$ gives the signed mean. See [NIST's generating function](https://dlmf.nist.gov/10.35.E1).
+
+The inverse $I_0(2)$ uses rational upper/lower bounds from the positive series through order 24. The membrane expectations are exact rational sums; residual aggregation uses floating arithmetic. Each observed quantity is paired with its own conditional expectation. All 12 residual checks—eight sector indicators, three signed windings, and membrane occupancy—satisfy $|\bar r|\le5SE(\bar r)+10^{-10}$. This is a consistency criterion, not an equivalence bound. Full residuals and certified Bessel interval endpoints are in [the comparison data](FOLLOWUP_COMPARISON_RESULTS.json).
+
+## Conservation, signed winding, and movement
+
+- **6,816,000 attempted dual updates** were replayed, including rejected and identity moves; **1,108,720** nonidentity updates were accepted.
+- Incremental checks found zero conservation or membrane-constraint failures. All 80,000 retained states also passed the original geometry validator, with integer conservation, parity constraint, equal cut sums, and $q_a=W_a\bmod2$.
+- All 123 move descriptors passed independent geometry checks, including their signed winding changes. Every dual acceptance decision was replayed from the global before/after current histogram: **6,046,883** nonidentity weight signatures.
+- Replay matched proposal and acceptance random streams, every retained sample, and all 96 post-initial state/RNG checkpoints. Initial states are reconstructed from the frozen definition.
+- Positive and negative windings were observed on every axis. Across the replayed trajectories, signed winding reached values from **−6 to +6** and the largest absolute link current was 6; these are observations, not imposed bounds.
+- After warmup, raw $0\to1\to0$ parity round trips totaled **16,775, 16,950, 16,766** on x, y, z. Every chain visited all eight sectors. These raw counts are not decorrelated or effective round trips.
+
+The largest classical split $\widehat R$ for the three parity axes and membrane occupancy is **1.0002210**, below the declared 1.05 screen. Batch-means ESS estimates are supplied as supplementary diagnostics. Neither diagnostic is the production protocol's rank-normalized mixing certification.
+
+## Numerical acceptance and preserved evidence
+
+Dual acceptance uses rational enclosures of positive Bessel series. With $a_k=a_{k-1}/[4k(n+k)]$, the omitted tail after $K$ is bounded above by $a_K\rho/(1-\rho)$, where $\rho=1/[4(K+1)(n+K+1)]$. The initial order is 16. Uniform random values are resolved by 64-bit prefixes; an ambiguous comparison extends the same prefix and the series enclosure. No arbitrary floating acceptance threshold or current truncation is used. 0 comparisons required refinement in these runs. The expansion is the standard [modified Bessel series](https://dlmf.nist.gov/10.25.E2).
+
+The [primary plan](VALIDATION_PLAN.json) and [follow-up plan](FOLLOWUP_PLAN.json) are preserved with hashes. The storage amendment was recorded before sampling: per-event descriptors, outcomes, and complete acceptance prefixes plus periodic state/RNG checkpoints provide a lossless reconstruction of all states. Per-event state hashes are reconstructable; only checkpoint hashes are stored explicitly. [EVENT_FORMAT.md](EVENT_FORMAT.md) describes the encoding.
+
+The [primary result](COMPARISON_RESULTS.json) remains UNRESOLVED, and `records/primary/` preserves its original code and analysis. Its holonomy counts were `[151483,2533,2642,204,2645,235,208,50]`. The separate follow-up counts are `[605914,10690,10202,822,10529,834,828,181]`. The release includes both cohorts and all dual event traces. Hashes establish file identity, not an externally attested registration date or independent human audit.
+
+## What this establishes and what comes next
+
+This packet supports the correctness of the tested L=2 sampler's constraints, signed topology bookkeeping, and sector sampling at $J=1,t=1/2,h_6=0$, within the stated numerical and statistical checks. Seven implementation tests additionally exercise the move geometry, acceptance boundaries, direct-action ratios, membrane cosets, and cycle identities.
+
+It does not provide an exact global partition calculation, prove finite-run convergence, validate other couplings or larger lattices, or establish confinement/deconfinement or physical Q2. Earlier `NOT_RUN` fields in the byte-preserved baseline describe that historical release; this packet records the new tiny-system execution separately.
+
+The next useful stage is to generalize the independent reference and weighted checks to L=3, then evaluate production mixing and finite-size behavior under a separately frozen protocol. The L=2 two-bond cycle formulas must be generalized before that extension.

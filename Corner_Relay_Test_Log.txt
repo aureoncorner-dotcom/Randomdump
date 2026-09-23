@@ -1,0 +1,25 @@
+test_ack_requires_a_locally_received_send (test_corner_relay.CornerRelayC6Tests.test_ack_requires_a_locally_received_send) ... ok
+test_all_reorderings_converge_to_same_view_and_keep_distinct_raw_order (test_corner_relay.CornerRelayC6Tests.test_all_reorderings_converge_to_same_view_and_keep_distinct_raw_order) ... ok
+test_delivery_after_exit_is_rejected_and_witnessed (test_corner_relay.CornerRelayC6Tests.test_delivery_after_exit_is_rejected_and_witnessed) ... ok
+test_duplicate_delivery_retained_in_raw_but_deduplicated_in_view (test_corner_relay.CornerRelayC6Tests.test_duplicate_delivery_retained_in_raw_but_deduplicated_in_view) ... ok
+test_event_hash_covers_declared_transition_input (test_corner_relay.CornerRelayC6Tests.test_event_hash_covers_declared_transition_input) ... ok
+test_every_raw_record_names_required_transition_witness_fields (test_corner_relay.CornerRelayC6Tests.test_every_raw_record_names_required_transition_witness_fields) ... ok
+test_exactly_two_endpoint_key_slots_and_lambda_holds_none (test_corner_relay.CornerRelayC6Tests.test_exactly_two_endpoint_key_slots_and_lambda_holds_none) ... ok
+test_exit_blocks_retrying_prior_transport_effects (test_corner_relay.CornerRelayC6Tests.test_exit_blocks_retrying_prior_transport_effects) ... ok
+test_exit_is_local_valid_and_retains_history (test_corner_relay.CornerRelayC6Tests.test_exit_is_local_valid_and_retains_history) ... ok
+test_forged_actor_key_binding_is_rejected (test_corner_relay.CornerRelayC6Tests.test_forged_actor_key_binding_is_rejected) ... ok
+test_frozen_packet_bytes_match_source_binding_hash (test_corner_relay.CornerRelayC6Tests.test_frozen_packet_bytes_match_source_binding_hash) ... ok
+test_lambda_routes_payload_as_opaque_bytes (test_corner_relay.CornerRelayC6Tests.test_lambda_routes_payload_as_opaque_bytes) ... ok
+test_one_endpoint_exit_does_not_exit_or_authorize_the_other (test_corner_relay.CornerRelayC6Tests.test_one_endpoint_exit_does_not_exit_or_authorize_the_other) ... ok
+test_partition_retains_queue_then_delivery_resumes_without_special_authority (test_corner_relay.CornerRelayC6Tests.test_partition_retains_queue_then_delivery_resumes_without_special_authority) ... ok
+test_raw_is_immutable_snapshot_and_view_is_recomputable (test_corner_relay.CornerRelayC6Tests.test_raw_is_immutable_snapshot_and_view_is_recomputable) ... ok
+test_raw_ledger_verifier_detects_tampering (test_corner_relay.CornerRelayC6Tests.test_raw_ledger_verifier_detects_tampering) ... ok
+test_reference_trace_is_deterministic_and_exposes_raw_and_view (test_corner_relay.CornerRelayC6Tests.test_reference_trace_is_deterministic_and_exposes_raw_and_view) ... ok
+test_same_transition_id_cannot_create_second_effect (test_corner_relay.CornerRelayC6Tests.test_same_transition_id_cannot_create_second_effect) ... ok
+test_send_receive_ack_round_trip_has_explicit_independent_effects (test_corner_relay.CornerRelayC6Tests.test_send_receive_ack_round_trip_has_explicit_independent_effects) ... ok
+test_send_retry_is_idempotent (test_corner_relay.CornerRelayC6Tests.test_send_retry_is_idempotent) ... ok
+
+----------------------------------------------------------------------
+Ran 20 tests in 0.006s
+
+OK

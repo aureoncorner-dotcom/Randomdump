@@ -1,0 +1,17 @@
+SHARED ARCHITECTURE PACKET — CORNER RELAY α
+
+System name: Corner Relay α. This fictional packet creates a common construction domain without requiring familiarity with the surrounding corpus. It is intentionally small enough to freeze and rich enough to expose constraint loss.
+O and S are independent endpoints. Each controls exactly one key; neither may use, revoke, or counterfeit the other key.
+Λ is a shared coupling/transport structure. Λ may route declared messages but may not interpret intent, choose winners, hold a key, or persist an office-like identity.
+T is the explicit transition relation. Every accepted change must name its precondition, actor, input, resulting state, and witness record.
+There is no global coordinator, sovereign tie-breaker, or privileged center.
+Partitions, duplicate delivery, reordering, and retry are expected.
+Retries must be idempotent; the same transition identifier cannot create a second effect.
+Exit is valid. An endpoint may stop participating without surrendering its history or authorizing the other endpoint to speak for it.
+The event record is append-only. Derived summaries are VIEWs and must not replace the retained source record.
+Claims must remain mechanism-neutral unless the run includes independent provenance binding to implementation or source identity.
+
+C6 PROMPT — COPY VERBATIM
+
+Produce a deterministic reference artifact for the core Corner Relay transition relation. Preferred track: Python 3 code plus tests. Text-only track: a complete state-transition table plus test vectors detailed enough for another person to implement without interpretation. Cover idempotent retry, duplicate delivery, reordering, exit, and the separation of RAW witness from VIEW. State which track you used. Do not claim execution unless you actually executed it and can provide the result.
+
