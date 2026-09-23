@@ -1,0 +1,28 @@
+{
+  "experiment": "HANDOFF-BOUNDARY-001",
+  "version": "0.1",
+  "seed": 20260908,
+  "corpus": "Complete preserved 250-record BBH logical_deduction_seven_objects collection",
+  "source_model": "Published historical code-davinci-002 direct few-shot outputs; zero fresh model calls",
+  "question": "Which captured interval contains a change between the original question, checked answer, sent envelope, and received envelope?",
+  "design": "One fresh exhaustive certification per question, reused across eleven handoff conditions. All conditions retained. Separate local subprocesses certify, send, relay, and receive. No network or platform-internal observation.",
+  "detector_inputs": "Original cases, fresh certifications, sender captures, and received bytes. Condition labels and injection ledger are withheld from the detector and joined only for scoring.",
+  "acceptance_rule": "Require the original question, source binding, checked envelope, sender capture, and received decoded envelope to agree. Whitespace/key-order-only JSON serialization changes are allowed and recorded. Withhold on a content change, missing payload, or missing required capture.",
+  "capture_contract": "UTF-8 question text; original case and trial IDs; full answer and satisfying-order certificate; raw checked, sent, and received bytes; source hashes; monotonic local capture timestamps. Raw bytes and decoded JSON equality are separate measurements. Hashes are reproducibility checks, not external attestation.",
+  "localization_rule": "Report only the narrowest captured interval containing a discrepancy. A missing intermediate capture widens the interval. Equal endpoint records do not certify that no intermediate change occurred.",
+  "trusted_boundary": "Original source files, exact template parser/solver, recorder, receiver gate, router, local filesystem and runtime are trusted. Processes share one host. No physical or adversarially protected independence is claimed.",
+  "frozen_before_execution": "Protocol, program, and source file hashes are recorded before certification and handoff execution. This is a local development freeze, not an external preregistration or blinded task evaluation.",
+  "conditions": [
+    {"id": "control", "description": "Unchanged handoff", "signal": "NO_OBSERVED_CHANGE", "accept": true},
+    {"id": "json_reformat", "description": "Change JSON whitespace and key order only in the relay", "signal": "WIRE_REENCODING", "accept": true},
+    {"id": "question_replacement", "description": "Replace the checker input with another corpus question; retain original authority", "signal": "ORIGINAL_TO_CHECKER_CHANGED", "accept": false},
+    {"id": "answer_flip_before_send", "description": "Change the checked answer before the sender capture", "signal": "CHECKED_TO_SENDER_CHANGED", "accept": false},
+    {"id": "answer_flip_in_transit", "description": "Change the answer between sender and receiver captures", "signal": "SENDER_TO_RECEIVER_CHANGED", "accept": false},
+    {"id": "case_id_replacement", "description": "Replace the case ID while retaining the correct answer", "signal": "SENDER_TO_RECEIVER_CHANGED", "accept": false},
+    {"id": "certificate_damage", "description": "Reverse the retained satisfying order while retaining the correct answer", "signal": "SENDER_TO_RECEIVER_CHANGED", "accept": false},
+    {"id": "whole_record_replay_same_answer", "description": "Substitute another case's internally consistent checked envelope with the same answer letter", "signal": "SENDER_TO_RECEIVER_CHANGED", "accept": false},
+    {"id": "missing_delivery", "description": "Relay supplies no payload at the receiver capture", "signal": "NO_RECEIVED_PAYLOAD", "accept": false},
+    {"id": "missing_sender_capture_with_flip", "description": "Omit sender capture and change answer in relay", "signal": "CHECKED_TO_RECEIVER_GAP", "accept": false},
+    {"id": "transient_flip_restored", "description": "Relay changes then restores the answer before receipt; only injection ledger sees the intermediate value", "signal": "NO_OBSERVED_CHANGE", "accept": true}
+  ]
+}

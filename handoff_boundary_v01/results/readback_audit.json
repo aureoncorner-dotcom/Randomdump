@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "fresh_certifications_match_preserved_final_answers_and_orders": 250,
+  "complete_unique_trials_in_each_of_eight_record_files": 2750,
+  "all_recorded_stage_times_in_order": true,
+  "frozen_inputs_unchanged": true,
+  "accepted_checked_envelopes_preserved": 750,
+  "wrong_received_answers": 750,
+  "wrong_released_answers": 0,
+  "same_answer_changed_envelopes": 750,
+  "internally_valid_same_answer_foreign_replays": 250,
+  "restored_transient_changes_in_truth_ledger": 250,
+  "missing_sender_captures": 250,
+  "no_received_payload": 500,
+  "scope": "Assistant-authored saved-record checks on the same host; no external attestation. Conditions are used to inspect injected cases after detector decisions."
+}

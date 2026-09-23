@@ -1,0 +1,115 @@
+=== TAB: Tab 1 (t.0) ===
+Prospective replacement amendment
+TD-COS-FH-001 • Version 0.1 • Dated 8 September 2026 (UTC) • CC0-1.0
+Disposition: new replay target defined; historical accepted-update discrepancy UNRESOLVED; production NOT_AUTHORIZED; physical Q2 NOT_RUN. No new sampling or replay is reported by this amendment.
+Operative scope
+For future replay work, designate the recovered reproduction sampler under the new profile TD-COS-FH-001-L2-REPLAY-REPLACEMENT-20260908, bound to DYNAMICS_REPLACEMENT_v0.1.json and the accompanying event/checkpoint contract. This designation is prospective only. It does not replace, correct, merge or redate either historical execution record.
+The original machine-readable DYNAMICS.json and companion executable evidence remain unrecovered in the cited investigation. This supports proceeding with a replacement definition using the available sampler; it does not establish permanent loss or that those files never existed. If recovered later, preserve them and reopen the historical event-level comparison separately.
+Historical discrepancy retained
+Quantity
+Reproduction
+Companion
+Attempted updates
+6,816,000
+6,816,000
+Identity updates
+769,117
+769,117
+Nonidentity proposals
+6,046,883
+6,046,883
+Accepted nonidentity
+1,107,368
+1,108,720
+Rejected nonidentity
+4,939,515
+4,938,163
+Retained measurements
+80,000
+80,000
+
+Accepted difference = reproduction − companion = −1,352. The companion rejected count is derived from proposals minus acceptances. Preserve all eight sector-count differences and the maximum 0.26875 percentage-point difference in the original comparison JSON. Equal totals, statistical proximity, invariant passes and eventual replay success do not explain this deterministic mismatch.
+Executable and configuration binding
+Exact source designation
+Designated executable: sampler/td_cos_fh_001_sampler.py, 47,134 bytes. The source is copied unchanged from TD_COS_FH_001_L2_FIRST_RUN_PACKET_v0.1.zip.
+Sampler SHA-256: 262f60cf72e41481428c45cb921aee99c1c6178d39f67ed7071252001f180c2b
+New configuration: DYNAMICS_REPLACEMENT_v0.1.json. It is the machine-readable contract for this replacement profile only; the original DYNAMICS_PROSE_RECONSTRUCTION.json remains explicitly non-authoritative.
+Configuration SHA-256: 803484491f4c9d8702d97e0c15eab8cbd7f4940b8f16058f7c15ac9be5e1e275
+Frozen computational target
+Setting
+Value
+Model / ensemble
+Cosine Bessel weights; fixed-reference Z000
+Couplings / lattice
+J=1, t=1/2, h6=0; periodic 2×2×2
+Stored cells / sweep
+V=8, E=24, P=24; 71 attempted microticks
+Initialization
+Eight chains c=0..7: q=c, M=0, I=Gamma(q)
+Seeds
+Proposal 64000+c; acceptance 74000+c
+Schedule per chain
+2,000 warmup + 10,000 retained sweeps
+Observation addresses
+142,071 through 852,000, every 71 ticks
+Reference software
+CPython 3.12.13; NumPy 2.3.5; SciPy 1.17.0
+
+One retained row follows each complete retained sweep. Rejections and identities advance the attempted clock; repeated states stay in the record. There is no thinning, current cutoff, forced equal sector weight, new seed cohort or physical-time calibration. Full build/platform details are preserved in the JSON; version strings alone are not a runtime-image hash.
+Configuration is not loaded by the old CLI
+Source inspection shows that --dynamics hashes a file for provenance; it does not load or enforce its settings. A future adapter must verify the JSON against the exact source and invocation, bind a new receipt to this profile and halt on conflicts. Do not merely pass the replacement JSON to the old CLI and treat its hardcoded historical receipt labels as adoption evidence.
+Transition and evidence requirements
+Conventions carried forward
+Vertices are lexicographic (x,y,z), then positive axes x,y,z for edges and xy,xz,yz for faces. Distinct periodic length-two bonds remain distinct. Reference cycles begin at the origin. Encode q=qx+2qy+4qz, store the explicit xyz tuple, and label the printed three-bit integer as qz qy qx. Signed winding is the common flux through parallel cuts.
+The ordered family weights are (8,8,24,24,1,3,3): identity, cube, coupled plaquette, even plaquette, closed sheet, even reference cycle and unit sector cycle. Use the original descriptor order and changes. Family choice precedes parameters; signed face moves draw face then sign, cycles axis then sign, and sheets axis then cut.
+Use separate random.Random streams and getrandbits only. Uniform integers use bit rejection with width=(n−1).bit_length(); n=1 consumes no draw. A zero sign bit means −1. Rational Bessel bounds start at K=16; unresolved comparisons add 16 terms and append 64 bits to the same prefix. Proven acceptance probability one consumes no acceptance bits when established before drawing. No change to acceptance RNG consumption is justified by the aggregate discrepancy.
+Inspectable, lossless evidence
+The accompanying EVENT_CHECKPOINT_REQUIREMENTS.md fixes a new JSONL contract: one row for every completed attempt, exact descriptor probability and proposed changes, outcome, before/after state digests and observables, both RNG digests, rational acceptance bounds, complete random prefix and signed winding change. Initial full states plus accepted changes reconstruct every state. Missing evidence is never treated as equality.
+Use full restart checkpoints at completed ticks 0, 512, 142,000, 142,071 and every 1,000th retained sweep through the final state: 14 per chain, 112 total. Save complete I/M/q, both RNG states, clocks and receipt bookkeeping. Rebuild cumulative digests from exact preserved prefixes rather than trying to recover a hash object from its digest.
+The new canonical state digest is SHA-256 of exact JSON, with current values stored as decimal strings. Keep legacy BLAKE2b-128 and RNG encodings distinctly labelled for historical comparisons. This is an evidence-format definition, not a transition-rule patch. Serialization or precision failures interrupt the run; they cannot become hidden rejections, truncated currents or completed microticks.
+The historical production prerequisite to resolve the mismatch is not waived. Any future proposal to proceed while that issue remains open requires a separately dated, explicit decision with its rationale and remaining limits; this amendment does not make that decision.
+Conformance and status boundary
+What must be checked before a replay pass
+Validate the bindings, schema and separately hashed recorder; recording must preserve states, decisions and both RNG streams. Check all eight preserved 512-event prefixes, state/RNG digests at 142,000 and first retained samples at 142,071. These are bounded checks.
+Full conformance then requires all 6,816,000 ordered events, 80,000 retained rows and declared checkpoints; fresh-process restart must reproduce the uninterrupted suffix exactly. Compare computational receipt fields and preserved reproduction samples separately from new timestamps, paths and profile metadata. Report the first differing event per chain, distinguishing an evidence-field difference from a state/decision difference. Aggregate totals are secondary checks.
+The recovered tracer records only 512 events per chain. Its comparator supports the historical diagnostic schema, not this new envelope. Full recording, configuration enforcement and the new-schema adapter are requirements awaiting implementation and validation; this amendment does not certify their availability.
+Statuses preserved and newly scoped
+Item
+Disposition
+Historical −1,352 cause / first divergence
+UNRESOLVED
+Original machine-readable authority
+UNRECOVERED
+Companion implementation checks
+Source-reported PASS, within original scope
+Companion primary reference cohort
+UNRESOLVED; follow-up remains separate
+Reproduction bounded prefix evidence
+Preserved historical PASS
+Replacement definition
+DEFINED; full replay NOT_RUN
+Sampler transition-rule patch
+NONE
+Production authorization
+NOT_AUTHORIZED
+Physical Q2
+NOT_RUN
+
+All-zero-start controls, effective round trips and larger-lattice production gates remain separate and unexecuted here. Existing L=2 cohorts and the separate L=3 lineage retain their identities and statuses; replacement replay supplies none of their missing evidence.
+Provenance and handoff
+Preservation and verification performed here
+Both original ZIP packets are included byte-for-byte in preserved/. The first-run packet retains its original reconstruction, executable, receipt, samples, comparison and manifest. The investigation packet retains its reports, sidecar, comparator, checkpoints and companion/dynamics snapshots. Neither source Drive document was edited.
+This preparation verified all nine entries in the reproduction manifest and all 29 entries in the investigation manifest against their recorded byte sizes and SHA-256 values. The designated sampler hash matches the investigation. These are file-integrity checks, not a fresh replay or independent validation of the companion’s claims.
+Fresh readable snapshots of the four Drive records are included with observed modification timestamps and hashes in SOURCE_BINDINGS.json. They preserve the retrieved text, not the original native document serialization or full revision history. Dates here are UTC; source document times, artifact creation times and execution times remain distinct. Hashes identify bytes, not an externally attested registration date.
+Source records
+Deterministic mismatch investigation (Drive title v0; body v0.1)
+Unresolved finding and prospective-amendment path; modified 8 September 2026.
+Toroidal Dynamics v0.1
+Prose kernel and unrecovered historical authority; modified 6 September 2026.
+Tiny-system validation v0.1 — companion
+Companion’s 1,108,720 acceptances and reference cohorts; modified 6 September 2026.
+L=2 First-Run Reproduction Receipt v0.1
+Later reproduction’s 1,107,368 acceptances and limits; modified 6 September 2026.
+Package contents
+The readable amendment, new machine-readable configuration, event/checkpoint requirements, source bindings, immutable source packets and copied sampler form one reviewable package. MANIFEST.json binds the new files. Future results must cite this profile and hashes in a separate execution receipt; preserve this amendment as the definition that preceded them.
+

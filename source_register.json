@@ -1,0 +1,59 @@
+{
+  "date_utc": "2026-09-08",
+  "sources": [
+    {
+      "id": "PROJECT_V3",
+      "title": "V3Nitrogen Reservoirs in Fulgurites",
+      "url": "https://docs.google.com/document/d/19UXgEfRGmEViaM1YhdOStyhdTQL_-RuxikNX7F6YL4s/edit",
+      "modified_time": "2026-09-06T19:03:24.281Z",
+      "revision_id": "ANLCKQkL8fd7kBINFlguQu5X7F2AjT72xaa5-XfAZwnpPfssJapygB6Viy_IJDFa5L18r5pI1g3Qze2crMPXL3Gr7PoPkb_cV5l3IItyfE0",
+      "local_snapshot": "sources/protocol_source.txt",
+      "snapshot_kind": "Readable text export normalized to LF; not native document bytes",
+      "use": "Current project protocol, including §§6.4,6.8,7,11."
+    },
+    {
+      "id": "HISTORICAL_HANDOFF",
+      "title": "Nitrogen Reservoirs in Fulgurites - One-Page Lab Handoff",
+      "url": "https://docs.google.com/document/d/1u62TCMYSH-lGHl5czubH2mLv08upuZEyaBwiN7Qg-4M/edit",
+      "modified_time": "2026-08-16T05:13:45.627Z",
+      "local_snapshot": "sources/historical_handoff_source.txt",
+      "use": "Historical reference. Current V3 governs this new package; existing documents were not edited."
+    },
+    {
+      "id": "NAVARRO_2007",
+      "title": "Paleoecology reconstruction from trapped gases in a fulgurite from the late Pleistocene of the Libyan Desert",
+      "doi": "10.1130/G23246A.1",
+      "url": "https://doi.org/10.1130/G23246A.1",
+      "publisher_url": "https://pubs.geoscienceworld.org/geology/article/35/2/171-174/129817",
+      "usgs_url": "https://pubs.usgs.gov/publication/70032181",
+      "crossref_url": "https://api.crossref.org/works/10.1130/G23246A.1",
+      "status": "Bibliographic identity verified. Primary full text and raw measurements not recovered. Indexed abstract accessed through OpenAlex; no abstract values used as calculation inputs.",
+      "use": "Archive precedent reported in PROJECT_V3; full methods remain to be recovered."
+    },
+    {
+      "id": "HESS_2021",
+      "title": "Lightning strikes as a major facilitator of prebiotic phosphorus reduction on early Earth",
+      "authors": [
+        "Benjamin L. Hess",
+        "Sandra Piazolo",
+        "Jason Harvey"
+      ],
+      "doi": "10.1038/s41467-021-21849-2",
+      "url": "https://www.nature.com/articles/s41467-021-21849-2",
+      "license": "CC BY 4.0",
+      "status": "Primary article text retrieved and inspected directly.",
+      "use": "Summary arithmetic replay from Results: Formation conditions of the fulgurite. Inputs 0.246, 0.11, 0.16 wt% P2O5. Independent phase identification reported in paper; not reanalyzed here."
+    }
+  ],
+  "search_scope": {
+    "drive": [
+      "Fulgurite, document metadata, topn 50; 16 returned",
+      "Fulgurite with CSV/ZIP/native-Sheets MIME filter; 0 returned"
+    ],
+    "library": [
+      "Fulgurite title query; 20 returned",
+      "fulgurite gas measurements raw GC-MS; fulgurite sealed vesicle results, top_k 8"
+    ],
+    "result": "No raw gas dataset located in these focused searches. This is not an exhaustive corpus-absence finding."
+  }
+}

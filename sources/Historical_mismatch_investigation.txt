@@ -1,0 +1,87 @@
+=== TAB: Tab 1 (t.0) ===
+# TD-COS-FH-001 — deterministic mismatch investigation v0.1
+
+**Finding:** the recovered reproduction executable matches its own preserved evidence through the first retained sample in all eight chains. The companion's executable and event trace were not recovered. The first cross-run divergence and the cause of the −1,352 accepted-update difference therefore remain **UNRESOLVED**. No transition-rule correction is supported by this investigation.
+
+**Narrowest evidence-backed fix:** restore the companion's machine-readable evidence and add a separate, inspectable event/checkpoint sidecar. This packet supplies that sidecar for the reproduction prefix and a comparator. It does not replace either historical record or adopt a new dynamics authority.
+
+## Preserved discrepancy
+
+| Quantity | Reproduction | Preserved companion |
+|---|---:|---:|
+| Attempted microticks | 6,816,000 | 6,816,000 |
+| Identity updates | 769,117 | 769,117 |
+| Nonidentity proposals | 6,046,883 | 6,046,883 |
+| Accepted nonidentity updates | 1,107,368 | 1,108,720 |
+| Rejected nonidentity proposals | 4,939,515 | 4,938,163 |
+| Retained measurements | 80,000 | 80,000 |
+| Acceptance refinements reported | 0 | 0 |
+
+The companion rejected count is derived from proposals minus acceptances. The accepted difference is −1,352. The largest preserved sector-probability difference is 0.26875 percentage points. Both original counts and all eight sector-count differences remain unchanged in the source comparison JSON.
+
+Equal totals do not establish an equal ordered proposal stream, equal states, or equal acceptance RNG consumption. A state-dependent acceptance stream can diverge while the separate, state-independent proposal stream continues unchanged. This is a mechanism to inspect, not a diagnosed cause. Statistical proximity and invariant passes cannot resolve deterministic identity.
+
+## Evidence recovered and missing
+
+Recovered: the complete `TD_COS_FH_001_L2_FIRST_RUN_PACKET_v0.1.zip`, including the reproduction sampler, reconstruction JSON, results, retained samples, verifier, report renderer, manifest, comparison and receipt. All nine manifest entries match their recorded SHA-256 and size. Source sampler SHA-256: `262f60cf72e41481428c45cb921aee99c1c6178d39f67ed7071252001f180c2b`.
+
+The full [Tiny-system validation v0.1 companion](https://docs.google.com/document/d/1J43udMgUlfGXuMMdkCGw_Ef5vaZbYd9SasTzcQ1isEo/edit) was retrieved. Its native structure exposes no actionable hyperlinks for the named artifact references. It reports per-event descriptors, outcomes and complete acceptance prefixes, all dual traces, and 96 post-initial state/RNG checkpoints. It also reports a successful replay against its own evidence. Those companion replay results remain source-reported here.
+
+Not recovered: the companion executable, its dual event files, checkpoint files, `EVENT_FORMAT.md`, plans/comparison data, or the authoritative `DYNAMICS.json`. Focused Library title/content searches, exact-name Drive searches, and GitHub code searches for the kernel ID and `FOLLOWUP_COMPARISON_RESULTS` did not retrieve them. This describes access in this investigation; it does not establish that the files never existed or are absent everywhere.
+
+The [dynamics specification](https://docs.google.com/document/d/1ZMFcH3AV574iMI8qREeOcLS3NPb7rchNnyB1juHnYeM/edit) is available as prose. `DYNAMICS_PROSE_RECONSTRUCTION.json` remains explicitly non-authoritative. The [first-run receipt](https://docs.google.com/document/d/1R6V-Sa6ga1uSEgFLSidUQQBPeqAWF8RTCy8Zn6ICyUc/edit) remains a separate later execution.
+
+## Bounded execution results
+
+Eight original chains, original seeds 64000+c and 74000+c, original initialization and proposal/acceptance methods were replayed through microtick **142,071** each: a unique replay span of **1,136,568 attempted updates**, approximately one sixth of the original full execution. This includes warmup and exactly the first retained observation per chain. It creates no new independent sampling cohort.
+
+During diagnostic packaging, the streamed trace output was incomplete. The same replay span was repeated once while investigating that output failure; both executions produced identical passing checkpoint/sample comparisons. A final 512-event-per-chain pass regenerated the sidecar using one completed file write, and verified all 4,096 rows. Total attempted updates executed in this investigation, counting these repeated diagnostics, were **2,277,232**. The failed trace files were discarded; this was a diagnostic-output failure, not evidence of a sampler trajectory mismatch.
+
+All eight chains pass all eight comparisons:
+
+- At microtick 142,000: preserved full-state digest, proposal RNG digest and acceptance RNG digest.
+- At microtick 142,071: preserved state digest, q, signed W, membrane occupancy and sum of squared currents.
+
+The original 16-check structural verifier and 123-descriptor contract self-test pass. The first **512 events of each chain** were recorded in detail: **4,096 events** with complete before/after I, M, q, changed cells, descriptors, outcomes, random-prefix evidence and RNG digests. For all **3,607 nonidentity events** in those prefixes, the local acceptance signature matches an independently assembled global current-histogram signature, and the decision remains certified at Bessel order K=32. This tighter calculation reuses the preserved oracle's enclosure routine; it is not a fully independent numerical implementation. All 4,096 detailed states pass the full invariant validator. The original runner also checks every accepted update throughout each replayed prefix.
+
+These results establish reproduction consistency on the tested prefixes. They do not establish the untested remainder of either trajectory, a companion match, or mathematical correctness beyond the stated checks.
+
+## Concrete comparison targets
+
+1. **Acceptance RNG consumption.** `AcceptanceOracle.decide` accepts without a draw when the ratio is identically one or its lower bound reaches one. A concrete early witness is chain 7, microtick 5: an even reference-cycle move has zero membrane delta and a fully cancelled Bessel signature; acceptance consumes zero bits and leaves the acceptance RNG digest unchanged. Chain 0 first encounters a proven no-draw acceptance at microtick 53. These are observed reproduction events, **not identified companion divergences**. Compare the companion at these addresses once recovered; do not add or remove random draws just to obtain its aggregate count.
+2. **State and descriptor conventions.** The recovered code orders vertices lexicographically, edges by base then axis, faces by base then `(xy,xz,yz)`. It sets `q = qx + 2*qy + 4*qz`; the printed three-bit integer is therefore `qz qy qx`. The sidecar records both integer q and the explicit xyz tuple. The companion's executable bit convention remains unknown. Merely relabelling q cannot change the number of accepted updates; a different initialization or interpretation of q requires an event-level comparison.
+3. **Acceptance evidence versus decisions.** Compare before-state, descriptor and proposal RNG first, then weight signature, bounds, prefix length/value, acceptance RNG and outcome. An evidence-field discrepancy can precede a state discrepancy. Matching a final counter cannot substitute for locating that first event.
+
+No precision refinements were reported in either historical run, and the tested reproduction prefix decisions remain valid with tighter bounds. There is no demonstrated acceptance-threshold defect to patch. Other unseen companion differences cannot be ruled out.
+
+## The repair supplied here
+
+The original reproduction stores cumulative event digests and state/RNG digests at checkpoints, rather than an inspectable per-event file or complete serialized restart states. Hashes verify identity when a candidate state is available; they do not recover the missing state or random prefix.
+
+The additive tracer supplies:
+
+- A contiguous 512-event prefix for each reproduction chain, with full before/after states and acceptance evidence.
+- Complete I/M/q and serialized proposal/acceptance RNG states at microticks 0, 512, 142,000 and 142,071 for each chain.
+- A runnable bounded regeneration script and a comparator that reports the first differing event per chain. Missing fields, unequal lengths and unaligned addresses are explicitly reported.
+- Unmodified recovered source files, original hashes, fresh diagnostic results and a snapshot of the companion report.
+
+The comparator is tested on identical actual prefixes and clearly labelled synthetic differences. It has **not** been run against the unavailable companion stream. Its input schema requires both sides to be normalized to the same cell, bit, hash and RNG encodings; an adapter from `EVENT_FORMAT.md` must be written only after that format is recovered. Expand a prefix only if comparison exhausts the available 512 events without a divergence.
+
+The next needed evidence is the companion's original sampler plus event format and initial trace/checkpoint data, with the original machine-readable configuration and hash binding. If its configuration is irrecoverable, a dated replacement amendment would define a new replay target; it would not retroactively resolve this mismatch. Make a sampler change only after a concrete differing event is explained and checked against the declared kernel.
+
+## Status carried forward
+
+| Item | Status after this investigation |
+|---|---|
+| Original invariant and eight-sector evidence | Preserved |
+| Reproduction prefix versus its own saved evidence | PASS in all eight chains |
+| First reproduction/companion divergence | UNRESOLVED: companion executable/trace unavailable |
+| Cause of −1,352 accepted updates | UNRESOLVED |
+| Transition-rule patch | None justified or applied |
+| Machine-readable authority | Unrecovered; reconstruction remains non-authoritative |
+| All-zero-start control, effective trips, larger-lattice gates | Not executed by this investigation |
+| Production authorization | NOT_AUTHORIZED |
+| Physical Q2 | NOT_RUN |
+
+CC0 1.0 Universal. Original records are preserved separately.
+

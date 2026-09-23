@@ -1,0 +1,24 @@
+{
+  "repository": "https://github.com/suzgunmirac/BIG-Bench-Hard",
+  "commit": "9ee07bd481feebf959a6b59d61ea57bdcf30964d",
+  "files": [
+    {
+      "local": "tasks.json",
+      "source_path": "bbh/logical_deduction_seven_objects.json",
+      "url": "https://raw.githubusercontent.com/suzgunmirac/BIG-Bench-Hard/9ee07bd481feebf959a6b59d61ea57bdcf30964d/bbh/logical_deduction_seven_objects.json",
+      "sha256": "2896c7e3482eea318dd37bcc370d24ec3cc91e8374c1784287b5dbd38a529e33"
+    },
+    {
+      "local": "model_outputs.json",
+      "source_path": "code-davinci-002-outputs/code-davinci-002-direct/logical_deduction_seven_objects_few_shot_template_0-255000.json",
+      "url": "https://raw.githubusercontent.com/suzgunmirac/BIG-Bench-Hard/9ee07bd481feebf959a6b59d61ea57bdcf30964d/code-davinci-002-outputs/code-davinci-002-direct/logical_deduction_seven_objects_few_shot_template_0-255000.json",
+      "sha256": "02a2cc138ece25e14ef6260781543d2ea1b5736622414d0c8652d20a8d28d7bf"
+    },
+    {
+      "local": "LICENSE",
+      "source_path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/suzgunmirac/BIG-Bench-Hard/9ee07bd481feebf959a6b59d61ea57bdcf30964d/LICENSE",
+      "sha256": "4ef2ff4295d26ab6211235039c132697408cec5391d2c091b41e983771978db8"
+    }
+  ]
+}
