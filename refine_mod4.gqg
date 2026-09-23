@@ -1,0 +1,20 @@
+# Finer witness splits classes of the coarser quotient.
+category Set
+
+source Z
+
+witness mod4 on Z {
+    observation Omega4 : Z -> Z4
+}
+
+witness mod2 on Z {
+    observation Omega2 : Z -> Z2
+}
+
+equivalence R4 := kernel_pair(Omega4)
+equivalence R2 := kernel_pair(Omega2)
+
+quotient Q4 := Z / R4
+quotient Q2 := Z / R2
+
+refine split of Q4 onto Q2

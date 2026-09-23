@@ -1,304 +1,323 @@
-"""Pure geometry primitives for the Prime Axis simulation.
+"""Partition geometry for a finite carrier.
 
-All phases are measured in *cycles*, with one full turn equal to ``1.0``.  The
-model declares the cyclic quotient of order ``q`` by the equivalence relation
-
-``x ~ y  iff  x - y = k/q (mod 1), for some integer k``.
-
-Accordingly, the return residual is
-
-``d_q(x, y) = circular_distance(q*x, q*y) / q``.
-
-This is an exact declaration of the simulated geometry; it is not a claim that
-primality, a quotient order, or the generated phases measure a physical system.
-The implementation uses finite IEEE-754 binary floats and rejects non-finite
-inputs.  Discrete opportunity indexes remain separate from timestamps.
+The picture is the partition, the refinement map, and the split fibers
+of N_W(π). No shape is claimed beyond the discrete set of the carrier.
 """
 
 from __future__ import annotations
 
-import math
-from collections.abc import Callable, Hashable, Iterable
 from dataclasses import dataclass
-from typing import TypeVar
-
-from .model import ClosureStatus, GeometrySnapshot, MAX_EXACT_QUOTIENT_ORDER
-
-
-StateT = TypeVar("StateT")
+from html import escape
+from typing import Any
+import textwrap
+from finite import FiniteError, value_key
 
 
-@dataclass(frozen=True, slots=True)
-class DescentWitness:
-    """Finite-domain counterexample to a quotient update law."""
-
-    first_index: int
-    second_index: int
-    current_label: Hashable
-    first_next_label: Hashable
-    second_next_label: Hashable
+def _lab(x: Any) -> str:
+    if isinstance(x,tuple):
+        return '(' + ', '.join(_lab(v) for v in x) + ')'
+    return str(x)
 
 
-@dataclass(frozen=True, slots=True)
-class DescentReport:
-    """Result of checking quotient descent on one declared finite domain."""
-
-    status: ClosureStatus
-    domain_size: int
-    quotient_class_count: int
-    witness: DescentWitness | None = None
+def _cell(members: list[Any], width: int | None = None) -> str:
+    body = " ".join(_lab(m) for m in members)
+    inner = f" {body} "
+    if width:
+        inner = inner.center(width)
+    return "[" + inner + "]"
 
 
-def _finite(name: str, value: object) -> float:
-    if isinstance(value, bool) or not isinstance(value, (int, float)):
-        raise TypeError(f"{name} must be a real number")
-    try:
-        result = float(value)
-    except OverflowError as exc:
-        raise ValueError(f"{name} must be finite") from exc
-    if not math.isfinite(result):
-        raise ValueError(f"{name} must be finite")
-    return result
+@dataclass
+class Partition:
+    name: str
+    fibers: dict[Any, list[Any]]  # label -> members, stable order
+
+    def __post_init__(self):
+        seen = set()
+        for label,members in self.fibers.items():
+            value_key(label)
+            if not members:
+                raise FiniteError('partition classes must be nonempty')
+            for member in members:
+                key = value_key(member)
+                if key in seen:
+                    raise FiniteError('each carrier element must occur in exactly one partition class')
+                seen.add(key)
+
+    @property
+    def labels(self) -> list[Any]:
+        return list(self.fibers.keys())
+
+    def class_of(self, x: Any) -> Any:
+        for lab, mem in self.fibers.items():
+            if x in mem:
+                return lab
+        raise KeyError(x)
+
+    def width_hint(self) -> int:
+        if not self.fibers:
+            return 3
+        return max(len(" ".join(_lab(m) for m in mem)) + 2 for mem in self.fibers.values())
 
 
-def _quotient_order(value: object) -> int:
-    if isinstance(value, bool) or not isinstance(value, int):
-        raise TypeError("quotient_order must be an integer")
-    if value < 1:
-        raise ValueError("quotient_order must be >= 1")
-    if value > MAX_EXACT_QUOTIENT_ORDER:
-        raise ValueError(f"quotient_order must be <= {MAX_EXACT_QUOTIENT_ORDER}")
-    return value
+def from_fiber_dict(name: str, raw: dict[Any, list[Any]]) -> Partition:
+    return Partition(name=name, fibers=dict(raw))
 
 
-def _integer(name: str, value: object) -> int:
-    if isinstance(value, bool) or not isinstance(value, int):
-        raise TypeError(f"{name} must be an integer")
-    return value
+def compare(fine: Partition, coarse: Partition) -> str:
+    """finer / coarser / equal / incomparable — set-level on the same carrier."""
+    if {value_key(x) for members in fine.fibers.values() for x in members} != {value_key(x) for members in coarse.fibers.values() for x in members}:
+        raise FiniteError('partition comparison requires the same carrier')
+    fine_pairs = _pairs(fine)
+    coarse_pairs = _pairs(coarse)
+    f_in_c = fine_pairs <= coarse_pairs
+    c_in_f = coarse_pairs <= fine_pairs
+    if f_in_c and c_in_f:
+        return "equal"
+    if f_in_c:
+        return "finer"  # fine equivalence is finer, so Q_fine ↠ Q_coarse
+    if c_in_f:
+        return "coarser"
+    return "incomparable"
 
 
-def _modulus(value: object) -> int:
-    modulus = _integer("modulus", value)
-    if modulus < 1:
-        raise ValueError("modulus must be >= 1")
-    return modulus
+def _pairs(p: Partition) -> set[tuple[Any, Any]]:
+    out: set[tuple[Any, Any]] = set()
+    for mem in p.fibers.values():
+        for i, a in enumerate(mem):
+            for b in mem[i + 1 :]:
+                out.add(frozenset((value_key(a), value_key(b))))
+    return out
 
 
-def normalize_phase(phase: float) -> float:
-    """Normalize a finite phase in cycles into the half-open interval [0, 1)."""
-
-    normalized = _finite("phase", phase) % 1.0
-    # Canonicalize negative zero so JSON output and hashes remain stable.
-    return 0.0 if normalized == 0.0 else normalized
-
-
-def circular_distance(left_phase: float, right_phase: float) -> float:
-    """Return the shortest circular distance in cycles, always in [0, 0.5]."""
-
-    left = normalize_phase(left_phase)
-    right = normalize_phase(right_phase)
-    direct = abs(left - right)
-    distance = min(direct, 1.0 - direct)
-    return 0.0 if distance == 0.0 else distance
-
-
-def quotient_label(quotient_order: int) -> str:
-    """Return the stable ASCII label for the cyclic order used by the model."""
-
-    order = _quotient_order(quotient_order)
-    return f"C_{order}"
+def join(a: Partition, b: Partition, name: str) -> Partition:
+    """Common refinement: same class iff same class in both."""
+    compare(a,b)
+    buckets: dict[tuple[Any, Any], list[Any]] = {}
+    order: list[tuple[Any, Any]] = []
+    seen_elems: list[Any] = []
+    for mem in a.fibers.values():
+        seen_elems.extend(mem)
+    for x in seen_elems:
+        key = (a.class_of(x), b.class_of(x))
+        if key not in buckets:
+            buckets[key] = []
+            order.append(key)
+        buckets[key].append(x)
+    return Partition(name=name, fibers={k: buckets[k] for k in order})
 
 
-def cocycle_increment(start_state: int, end_state: int, modulus: int) -> int:
-    """Return the exact oriented increment in the additive group ``Z/modulus``."""
-
-    order = _modulus(modulus)
-    start = _integer("start_state", start_state)
-    end = _integer("end_state", end_state)
-    return (end - start) % order
-
-
-def compose_cocycle(first_increment: int, second_increment: int, modulus: int) -> int:
-    """Compose two exact modular increments.
-
-    For states ``a, b, c`` this implements the cocycle law
-    ``inc(a,b) + inc(b,c) == inc(a,c) (mod modulus)``.
-    """
-
-    order = _modulus(modulus)
-    first = _integer("first_increment", first_increment)
-    second = _integer("second_increment", second_increment)
-    return (first + second) % order
+def split_map(fine: Partition, coarse: Partition) -> dict[Any, list[Any]]:
+    """coarse label -> fine labels that sit over it."""
+    out: dict[Any, list[Any]] = {lab: [] for lab in coarse.labels}
+    for flab, fmem in fine.fibers.items():
+        if not fmem:
+            continue
+        clab = coarse.class_of(fmem[0])
+        out.setdefault(clab, []).append(flab)
+    return out
 
 
-def accumulate_cocycle(initial_state: int, increments: Iterable[int], modulus: int) -> int:
-    """Apply an iterable of modular increments and return the exact final state."""
-
-    order = _modulus(modulus)
-    state = _integer("initial_state", initial_state) % order
-    try:
-        iterator = iter(increments)
-    except TypeError as exc:
-        raise TypeError("increments must be an iterable of integers") from exc
-    for index, increment in enumerate(iterator):
-        state = (state + _integer(f"increments[{index}]", increment)) % order
-    return state
+def ascii_partition(p: Partition, title: str | None = None) -> str:
+    title = title or p.name
+    cells = []
+    for lab, mem in p.fibers.items():
+        cells.append(f"{_cell(mem)}:{_lab(lab)}")
+    return f"{title:12} " + "  ".join(cells)
 
 
-def analyze_quotient_descent(
-    domain: Iterable[StateT],
-    quotient: Callable[[StateT], Hashable],
-    update: Callable[[StateT], StateT],
-    *,
-    max_states: int = 100_000,
-) -> DescentReport:
-    """Check whether an update descends on one explicitly enumerated domain.
-
-    The condition is ``q(x) == q(y) -> q(T(x)) == q(T(y))``. ``CLOSED`` means
-    it holds for every supplied representative, not for any larger unstated
-    domain. ``FAILED`` includes the first deterministic counterexample, and an
-    empty domain is ``UNRESOLVED``.
-    """
-
-    if not callable(quotient) or not callable(update):
-        raise TypeError("quotient and update must be callable")
-    if isinstance(max_states, bool) or not isinstance(max_states, int):
-        raise TypeError("max_states must be an integer")
-    if max_states < 1:
-        raise ValueError("max_states must be >= 1")
-    try:
-        iterator = iter(domain)
-    except TypeError as exc:
-        raise TypeError("domain must be iterable") from exc
-
-    class_updates: dict[Hashable, tuple[Hashable, int]] = {}
-    domain_size = 0
-    for index, state in enumerate(iterator):
-        if index >= max_states:
-            raise ValueError(f"domain exceeds max_states={max_states}")
-        current_label = quotient(state)
-        next_label = quotient(update(state))
-        try:
-            hash(current_label)
-            hash(next_label)
-        except TypeError as exc:
-            raise TypeError("quotient labels must be hashable") from exc
-        previous = class_updates.get(current_label)
-        if previous is not None and previous[0] != next_label:
-            return DescentReport(
-                status=ClosureStatus.FAILED,
-                domain_size=index + 1,
-                quotient_class_count=len(class_updates),
-                witness=DescentWitness(
-                    first_index=previous[1],
-                    second_index=index,
-                    current_label=current_label,
-                    first_next_label=previous[0],
-                    second_next_label=next_label,
-                ),
-            )
-        class_updates.setdefault(current_label, (next_label, index))
-        domain_size += 1
-
-    if domain_size == 0:
-        return DescentReport(
-            status=ClosureStatus.UNRESOLVED,
-            domain_size=0,
-            quotient_class_count=0,
-        )
-    return DescentReport(
-        status=ClosureStatus.CLOSED,
-        domain_size=domain_size,
-        quotient_class_count=len(class_updates),
-    )
+def ascii_refinement(fine: Partition, coarse: Partition) -> str:
+    rel = compare(fine, coarse)
+    lines = [f"refinement  {fine.name}  vs  {coarse.name}   [{rel}]"]
+    if rel == "incomparable":
+        lines.append("  (no arrow: neither equivalence contains the other)")
+        lines.append("  " + ascii_partition(fine))
+        lines.append("  " + ascii_partition(coarse))
+        return "\n".join(lines)
+    if rel == "coarser":
+        fine, coarse = coarse, fine
+        lines.append("  (displayed with the finer partition on top)")
+    sm = split_map(fine, coarse)
+    # top: fine cells grouped under each coarse class
+    top_groups = []
+    bot_cells = []
+    guides = []
+    for clab, flabs in sm.items():
+        fine_cells = [_cell(fine.fibers[f]) for f in flabs]
+        group = " ".join(fine_cells)
+        top_groups.append(group)
+        bot_cells.append(_cell(coarse.fibers[clab]))
+        pad = max(len(group), len(bot_cells[-1]))
+        guides.append("|" + "-" * max(1, pad - 2) + "|")
+    lines.append("  fine   " + "   ".join(top_groups))
+    lines.append("         " + "   ".join(guides))
+    lines.append("  coarse " + "   ".join(bot_cells))
+    lines.append(f"  Q_{fine.name} -->> Q_{coarse.name}")
+    return "\n".join(line for line in lines if line is not None)
 
 
-# Explicit aliases make the arithmetic domain obvious at call sites.
-modular_cocycle_increment = cocycle_increment
-accumulate_modular_cocycle = accumulate_cocycle
+def ascii_locus(pi: Partition, w: Partition) -> str:
+    """Highlight π-classes that split under W."""
+    lines = [f"locus  N_{w.name}(π={pi.name})"]
+    split_count = 0
+    for q, mem in pi.fibers.items():
+        wlabs = []
+        for x in mem:
+            wl = w.class_of(x)
+            if wl not in wlabs:
+                wlabs.append(wl)
+        if len(wlabs) > 1:
+            split_count += 1
+            parts = []
+            for wl in wlabs:
+                piece = [x for x in mem if w.class_of(x) == wl]
+                parts.append(_cell(piece) + f":W={_lab(wl)}")
+            lines.append(f"  SPLIT  π={_lab(q)}  " + " ⊕ ".join(parts))
+        else:
+            lines.append(f"  clean  π={_lab(q)}  {_cell(mem)}")
+    if split_count:
+        lines.append(f"  N nonempty: {split_count} of {len(pi.fibers)} labels split")
+    else:
+        lines.append("  N empty on this carrier  [TESTED_ONLY]")
+    return "\n".join(lines)
 
 
-def return_residual(
-    expected_phase: float,
-    observed_phase: float,
-    quotient_order: int = 1,
-) -> float:
-    """Measure return error after identifying rotations by ``1 / q`` cycles."""
-
-    order = _quotient_order(quotient_order)
-    expected = normalize_phase(expected_phase)
-    observed = normalize_phase(observed_phase)
-    residual = circular_distance(expected * order, observed * order) / order
-    return 0.0 if residual == 0.0 else residual
+def ascii_descent_break(pi: Partition, sample: str) -> str:
+    return f"descent break  through {pi.name}\n  {sample}"
 
 
-def evaluate_closure(
-    residual: float,
-    tolerance: float,
-    evidence_complete: bool = True,
-) -> ClosureStatus:
-    """Classify a residual using an explicit tolerance and evidence state."""
-
-    measured = _finite("residual", residual)
-    threshold = _finite("tolerance", tolerance)
-    if not 0.0 <= measured <= 0.5:
-        raise ValueError("residual must be in [0, 0.5]")
-    if not 0.0 <= threshold <= 0.5:
-        raise ValueError("tolerance must be in [0, 0.5]")
-    if not isinstance(evidence_complete, bool):
-        raise TypeError("evidence_complete must be a bool")
-    if not evidence_complete:
-        return ClosureStatus.UNRESOLVED
-    return ClosureStatus.CLOSED if measured <= threshold else ClosureStatus.FAILED
-
-
-def make_geometry_snapshot(
-    *,
-    opportunity_index: int,
-    expected_phase: float,
-    observed_phase: float,
-    quotient_order: int = 1,
-    tolerance: float = 0.01,
-    evidence_complete: bool = True,
-) -> GeometrySnapshot:
-    """Normalize evidence, calculate its quotient residual, and type the result."""
-
-    if isinstance(opportunity_index, bool) or not isinstance(opportunity_index, int):
-        raise TypeError("opportunity_index must be an integer")
-    if opportunity_index < 0:
-        raise ValueError("opportunity_index must be >= 0")
-    order = _quotient_order(quotient_order)
-    expected = normalize_phase(expected_phase)
-    observed = normalize_phase(observed_phase)
-    residual = return_residual(expected, observed, order)
-    threshold = _finite("tolerance", tolerance)
-    status = evaluate_closure(residual, threshold, evidence_complete)
-    return GeometrySnapshot(
-        opportunity_index=opportunity_index,
-        quotient_order=order,
-        quotient_label=quotient_label(order),
-        expected_phase=expected,
-        observed_phase=observed,
-        residual=residual,
-        tolerance=threshold,
-        closure_status=status,
-    )
+def atlas(partitions: list[Partition], refinements: list[tuple[str, str]], loci: list[tuple[str, str]]) -> str:
+    by = {p.name: p for p in partitions}
+    lines = ["-- partition atlas --"]
+    for p in partitions:
+        lines.append(ascii_partition(p))
+    if len(partitions) >= 2:
+        a, b = partitions[0], partitions[1]
+        j = join(a, b, f"{a.name}∧{b.name}")
+        lines.append(ascii_partition(j, title="join"))
+        if not refinements:
+            lines.append("")
+            lines.append(ascii_refinement(a, b))
+    for fname, cname in refinements:
+        if fname in by and cname in by:
+            lines.append("")
+            lines.append(ascii_refinement(by[fname], by[cname]))
+    for wname, pname in loci:
+        if wname in by and pname in by:
+            lines.append("")
+            lines.append(ascii_locus(by[pname], by[wname]))
+    return "\n".join(lines)
 
 
-__all__ = [
-    "MAX_EXACT_QUOTIENT_ORDER",
-    "DescentReport",
-    "DescentWitness",
-    "accumulate_cocycle",
-    "accumulate_modular_cocycle",
-    "circular_distance",
-    "analyze_quotient_descent",
-    "cocycle_increment",
-    "compose_cocycle",
-    "evaluate_closure",
-    "make_geometry_snapshot",
-    "normalize_phase",
-    "modular_cocycle_increment",
-    "quotient_label",
-    "return_residual",
+# ---------------------------------------------------------------------------
+# SVG
+# ---------------------------------------------------------------------------
+
+PALETTE = [
+    "#1d4e89",
+    "#7b2d26",
+    "#2f6f4e",
+    "#8a5a00",
+    "#4b3f72",
+    "#0b6e6e",
+    "#9a3b6a",
+    "#3d5a40",
 ]
+
+
+def _color(i: int) -> str:
+    return PALETTE[i % len(PALETTE)]
+
+
+def svg_atlas(partitions, loci=None, title='Finite partition atlas', refinements=None):
+    """Responsive discrete atlas. Red marks accumulate all supplied locus witnesses."""
+    loci, refinements = loci or [], refinements or []
+    by = {p.name:p for p in partitions}
+    split = {}
+    for wname,pname in loci:
+        if wname not in by or pname not in by: continue
+        witness,pi = by[wname],by[pname]
+        compare(witness,pi)
+        for label,members in pi.fibers.items():
+            if len({value_key(witness.class_of(x)) for x in members})>1:
+                split.setdefault(pname,{}).setdefault(value_key(label),[]).append(wname)
+    shown = list(partitions)
+    if len(partitions)>=2:
+        common = join(partitions[0],partitions[1],f'joint({partitions[0].name}, {partitions[1].name})')
+        if not any(compare(common,p)=='equal' for p in partitions):
+            shown.append(common)
+    width,left,cell_w,gap = 1180,254,208,14
+    columns = 4
+    fragments = []
+    def text(x,y,content,size=13,color='#24364b',weight='normal'):
+        fragments.append(f'<text x="{x}" y="{y}" font-size="{size}" fill="{color}" font-weight="{weight}">{escape(str(content))}</text>')
+    def wrapped(content,chars):
+        return textwrap.wrap(str(content),width=chars,break_long_words=True,break_on_hyphens=False) or ['']
+    y = 38
+    for line in wrapped(title,95):
+        text(26,y,line,21,weight='bold'); y += 26
+    text(26,y+1,'Finite declared carrier · partitions and verified maps · no continuous shape is inferred',12,'#52657a')
+    text(26,y+23,'Red classes split under the witness names shown. Joint rows retain both observations.',12,'#52657a')
+    y += 52
+    positions = []
+    for partition in shown:
+        start = y
+        labels = list(partition.fibers.items())
+        name_lines = wrapped(partition.name,27)
+        for j,line in enumerate(name_lines): text(26,start+22+j*17,line,13,weight='bold')
+        text(26,start+26+len(name_lines)*17,f'{len(labels)} attained classes',11,'#52657a')
+        if not labels:
+            text(left,y+22,'Empty partition'); y += 55
+        for offset in range(0,len(labels),columns):
+            cells = []
+            for lab,mem in labels[offset:offset+columns]:
+                names = split.get(partition.name,{}).get(value_key(lab),[])
+                member_lines = wrapped('  '.join(_lab(x) for x in mem),25)
+                label_lines = wrapped(('SPLIT ' if names else 'label ') + _lab(lab),25)
+                witness_lines = wrapped('by '+', '.join(names),25) if names else []
+                cells.append((lab,names,member_lines,label_lines,witness_lines))
+            height = max(66+16*(len(m)+len(l)+len(w)-2) for _,_,m,l,w in cells)
+            for index,(lab,names,members,label_lines,witness_lines) in enumerate(cells):
+                x = left+index*(cell_w+gap)
+                stroke,fill = ('#bb3e32','#fff0eb') if names else ('#99afc2','#f0f6fa')
+                fragments.append(f'<rect x="{x}" y="{y}" width="{cell_w}" height="{height}" rx="9" fill="{fill}" stroke="{stroke}" stroke-width="{2 if names else 1}"/>')
+                ty = y+22
+                for line in members: text(x+12,ty,line,12); ty += 16
+                ty += 5
+                for line in label_lines: text(x+12,ty,line,11,stroke if names else '#35556b','bold'); ty += 16
+                for line in witness_lines: text(x+12,ty,line,10,stroke); ty += 16
+                positions.append((x,y,cell_w,height))
+            y += height+12
+        y = max(y,start+65+len(name_lines)*17)+14
+        fragments.append(f'<line x1="26" x2="1150" y1="{y}" y2="{y}" stroke="#dbe4eb"/>')
+        y += 20
+    relations = list(refinements)
+    if not relations and len(partitions)>=2:
+        first,second = partitions[:2]
+        if compare(first,second)=='coarser': first,second = second,first
+        relations = [(first.name,second.name)]
+    for fname,cname in relations:
+        if fname not in by or cname not in by: continue
+        fine,coarse = by[fname],by[cname]
+        relation = compare(fine,coarse)
+        text(26,y+2,'Requested refinement' if refinements else 'Partition comparison',12,'#52657a')
+        y += 26
+        if relation not in {'finer','equal'}:
+            for line in wrapped(f'{fname} -> {cname}: {relation}; no quotient map in this direction.',105):
+                text(26,y,line,13,'#bb3e32'); y += 18
+        else:
+            left_lines,right_lines = wrapped(f'Q({fname})',42),wrapped(f'Q({cname})',49)
+            for j,line in enumerate(left_lines): text(26,y+18*j,line,14,weight='bold')
+            for j,line in enumerate(right_lines): text(730,y+18*j,line,14,weight='bold')
+            fragments.append(f'<line x1="430" y1="{y-5}" x2="690" y2="{y-5}" stroke="#326b83" stroke-width="2" marker-end="url(#arrow)"/>')
+            y += max(len(left_lines),len(right_lines))*18+10
+            assignments = '; '.join(f'{_lab(lab)} -> {_lab(coarse.class_of(mem[0]))}' for lab,mem in fine.fibers.items())
+            for line in wrapped('Class map: '+assignments,120): text(26,y,line,11,'#52657a'); y += 17
+        y += 24
+    height = y+18
+    head = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}" role="img" font-family="Segoe UI, Arial, sans-serif">',
+            f'<title>{escape(title)}</title>',
+            '<desc>Exact partitions on the declared finite carrier. Red cells are split by the listed witnesses. Arrows show checked finite quotient maps only.</desc>',
+            '<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#326b83"/></marker></defs>',
+            '<rect width="100%" height="100%" fill="#ffffff"/>']
+    return '\n'.join(head+fragments+['</svg>'])

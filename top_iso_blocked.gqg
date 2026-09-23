@@ -1,0 +1,18 @@
+# Same sentence in Top is not free first-iso.
+category Top
+
+source P
+
+witness W on P {
+    observation Omega_W : P -> Y
+}
+
+equivalence R_W := kernel_pair(Omega_W)
+
+quotient Q_W := P / R_W
+
+image I_W := image(Omega_W)
+
+assert canonical_iso {
+    Q_W ~= I_W
+}

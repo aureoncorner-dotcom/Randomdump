@@ -1,0 +1,16 @@
+# Exact two-operator fixture from corrected v2.2 E1.
+# spectral.py records the analytic family and squared-spectrum reindexing.
+category Set
+source Operators
+carrier Operators { elements A_quarter A_three_quarters }
+witness unsigned_spectrum on Operators {
+ observation SquaredSpectrum : Operators -> SpectrumFamily
+ eval x |-> "Z_plus_quarter_squared"
+}
+witness signed_asymmetry on Operators {
+ observation Eta : Operators -> Rational
+ eval x |-> rat(1,2) if x == "A_quarter" else rat(-1,2)
+}
+joint SignedRepair := SquaredSpectrum Eta
+locus Eta through SquaredSpectrum { search }
+locus Eta through SignedRepair { search }

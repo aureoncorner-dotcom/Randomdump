@@ -1,0 +1,19 @@
+# Same ambient. floor(n/2) does not descend: 0 ~ 2 but floor(0)=0 ≠ 1=floor(2).
+category Set
+
+source Z
+
+witness mod2 on Z {
+    observation Omega2 : Z -> Z2
+}
+
+equivalence R2 := kernel_pair(Omega2)
+
+quotient Q2 := Z / R2
+
+operation floor_half : Z -> Z
+
+descend floor_half through Q2 {
+    require n R2 m => floor_half(n) R2 floor_half(m)
+    status fails
+}

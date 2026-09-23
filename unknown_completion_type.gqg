@@ -1,0 +1,5 @@
+category Set
+source P
+completion C of P {
+ type MadeUp
+}

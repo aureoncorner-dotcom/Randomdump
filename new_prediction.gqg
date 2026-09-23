@@ -1,0 +1,23 @@
+# Current equality, next-output failure, and the exact joint repair.
+category Set
+source Episode
+carrier Episode { elements 0 1 2 3 }
+witness service on Episode {
+ observation Current : Episode -> Answer
+ eval x |-> x // 2
+}
+operation U : Episode -> Episode {
+ 0 -> 2
+ 1 -> 0
+ 2 -> 2
+ 3 -> 3
+}
+compose Next := Current after U
+joint Repaired := Current Next
+equivalence R_current := kernel_pair(Current)
+equivalence R_repaired := kernel_pair(Repaired)
+quotient Q_current := Episode / R_current
+quotient Q_repaired := Episode / R_repaired
+refine retain_next of Q_repaired onto Q_current
+locus Next through Current { search }
+locus Next through Repaired { search }

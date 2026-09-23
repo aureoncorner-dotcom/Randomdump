@@ -1,81 +1,43 @@
-# TOROIDAL historical replay recovery — v0.1
+# GQG Rune 0.3 — finite geometry and explicit evidence
 
-Anonymous · 8 September 2026 · CC0-1.0
+An improved Python version of `gqg_rune_v01.zip`, aligned with the user-confirmed Geometry exports from the evening of September 11, 2026. Tested with Python 3.12.14. Runtime and tests use only the Python standard library; no additional Python packages or network connection are required.
 
-**Complete versioned verifier: RECOVERED. Historical accepted-event discrepancy: UNRESOLVED. Full comparison with the original companion: BLOCKED by missing authority.**
+Extract this ZIP, open a terminal in the extracted `gqg_rune_v03` directory, and run:
 
-The recovery changes one finding in the current maintenance list: the complete all-orders verifier already exists in the complete earlier Markdown artifact and on a versioned GitHub branch. Its exact source and output hashes match the hashes declared in the truncated Drive note. A fresh execution here reproduces the original output bytes. This is recovery and reproduction of supplementary arithmetic; it supplies none of the companion sampler's missing event evidence.
+```text
+python demo.py
+python verify.py
+```
 
-The original reproduction and mismatch-investigation ZIPs are preserved byte for byte. All nine first-run manifest entries and all 29 investigation manifest entries match their recorded SHA-256 and byte sizes. The investigation's ten preserved reproduction files also match the original first-run archive.
+The demo writes readable reports, SVG diagrams, and exact result data into `out/`. Open an SVG in a browser to inspect the geometry. Pre-generated examples are included.
 
-## What is recovered
+Compile one or more source files:
 
-| Material | Evidence now available | Limit |
-|---|---|---|
-| All-orders verifier | Complete 25,675-byte Markdown note; 4,850-byte verify.py; original output; immutable GitHub commit and blob bindings | Finite supporting arithmetic, not a sampler replay or formal proof |
-| Reproduction execution | Exact sampler, prose-reconstruction configuration, per-chain/aggregate receipts, 80,000 compact retained measurements, structural verifier and manifest | It produced 1,107,368 acceptances; its configuration remains explicitly non-authoritative |
-| Reproduction event evidence | 512 detailed events per chain, 4,096 total; comparator and bounded tracer | Only a contiguous prefix, not all 6,816,000 attempts |
-| Reproduction checkpoints | 32 full state/RNG snapshots at 0, 512, 142,000 and 142,071; 88 original digest checkpoints in the first-run receipt | Full snapshots and digest-only records are different evidence |
-| Companion account | Current complete readable L2 validation document, reporting 1,108,720 acceptances and replay against its own evidence | Original executable, configuration, event/sample files and 96 post-initial checkpoint records remain unrecovered |
+```text
+python compiler.py examples/new_prediction.gqg
+python compiler.py examples/new_spectral_eta.gqg --json
+python compiler.py examples/new_spectral_flow.gqg --svg-dir out
+```
 
-The [versioned verifier](https://github.com/MailanPatternMonkey-ai/Gettin-Started/blob/e8623fa88a6e049e17e7564222356a6675d6b29d/corpus/mathematics/TD-COS-FH-001/verify.py) is pinned to commit e8623fa88a6e049e17e7564222356a6675d6b29d. Its SHA-256 is 96c2d72c9e1e0de55e86392cc1f2546633d4a076f5f580e7408990aa13166e8f. The original and fresh output SHA-256 is 25ea6e583f75ac5dafcd88761e1f4499d91fbe20f273613db5f682a00c9eb48a.
+`REJECT` returns exit code 1. A successfully located or explicitly declared counterexample is `FINDING`, distinct from an invalid program. Add `--fail-on-finding` to return 1 for those findings too. Every file is handled separately, so a rejected input does not stop the remaining batch. SVGs are written only when `--svg-dir` is supplied; names include a short input-path hash to avoid collisions.
 
-Three different verifiers must remain distinct: the recovered all-orders arithmetic verifier, the reproduction's 16-check structural receipt verifier, and the still-unrecovered companion replay/validation executable. Recovery of either of the first two does not recover the third.
+The example `new_prediction.gqg` shows two states with the same current output and different next outputs. Its joint observation repairs the next-output distinction. The spectral examples use the exact operator/path families documented in `GEOMETRY_REVIEW.md`; they are not numerical approximations to arbitrary spectra.
 
-## Historical quantities stay fixed
+What changed:
 
-| Quantity | Reproduction | Original companion account |
-|---|---:|---:|
-| Attempted microticks | 6,816,000 | 6,816,000 |
-| Identity updates | 769,117 | 769,117 |
-| Nonidentity proposals | 6,046,883 | 6,046,883 |
-| Accepted nonidentity updates | 1,107,368 | 1,108,720 |
-| Rejected nonidentity proposals | 4,939,515 | 4,938,163 |
-| Retained measurements | 80,000 | 80,000 |
+- Validate categories, source domains, names, equivalences, quotient/image pairings, operation arity, complete tables, and closure of endomorphisms.
+- Report missing certificates as rejections; keep supplied proof declarations conditional and identified as unverified.
+- Handle formula failures as diagnostics, preserve typed table keys in JSON, and keep the AST hash stable before and after checking.
+- Add `joint` observations and explicit `compose B after U` observations.
+- Compute finite witness factors, all inclusion-minimal repairs in a declared coordinate menu, and coarsest autonomous refinements of finite deterministic models.
+- Compute exact rational next-label laws, strong lumpability, and finite-horizon joint-output loss for a supplied finite Markov kernel.
+- Include the corrected eta/spectral-flow examples and signed/modular toroidal cut-flux helpers.
+- Accumulate every locus witness in the SVG, wrap long content, show only valid quotient arrows, and omit redundant automatic joint rows.
 
-Accepted difference, reproduction minus companion: **−1,352**. Companion rejections are derived as proposals minus acceptances. The original comparison JSON preserves all eight sector-count differences and the maximum 0.26875 percentage-point difference. Equal proposal totals, close probabilities, invariants passing, a prefix match or a recovered verifier do not explain the differing trajectories.
+The 16 original examples are retained. Some intentionally produce `REJECT` or `FINDING`. The 22 cases from the previous review are regression fixtures under `tests/cases/`; their expected behavior is checked automatically. `VERIFICATION.json` records the test run and exact-case counts.
 
-## Still missing
+`LANGUAGE.md` documents source syntax, `API.md` documents the Python interface, and `GEOMETRY_REVIEW.md` explains the source corrections and scope. `SOURCE_MANIFEST.json` records the reviewed source inventory with hashes and duplicate groups. These documents replace the original v0.1/v0.2 package notes.
 
-The core recovery target is H1–H6 in MISSING_AUTHORITY_REGISTER.csv:
+Finite calculations concern the complete supplied finite model. An empty search remains `tested_only` for compatibility and supplies no result for a larger source. This package does not replay the service corpus, prove the toroidal all-orders theorem, construct a general analytic completion, or turn a spectral truncation into an exact eta invariant. Prime products remain feature counts; the canonical AST owns meaning.
 
-- Original DYNAMICS.json and evidence binding it to the companion execution.
-- Original companion sampler, event writer, replay verifier, dependencies/build and invocation.
-- Original EVENT_FORMAT.md and pre-sampling storage amendment.
-- Original ordered dual event streams and 80,000 retained rows.
-- Original initial-state evidence and all 96 reported post-initial state/RNG checkpoints.
-- Original execution manifest, per-chain receipts and replay results connecting those artifacts to the 1,108,720 total.
-
-The original L2 plans/comparison data and reference cohorts are also unrecovered, but they are supporting targets outside the smallest first-event investigation. The original all-orders review/specification snapshot bytes have not been matched to their declared historical hashes; fresh snapshots do not stand in for them.
-
-## Narrowest next recovery
-
-First obtain the original authority/encoding/manifest binding and eight authenticated 512-event companion prefixes with initial states and both RNG streams. Compare them with the existing reproduction sidecar. Check the warmup boundary at 142,000 and first retained observation at 142,071 where source evidence permits. If the prefixes agree, extend the same historical comparison; do not change seeds or accept a final-counter match as a diagnosis.
-
-RECOVERY_REQUIREMENTS.md specifies the exact intake, comparison order and full-run completion requirements. No request has been sent to anyone. No new companion files or historical fields have been manufactured.
-
-## Searches and limits
-
-Current searches covered Drive/Docs, ChatGPT Library, Gmail, GitHub and Slack. Nine visible GitHub branches were inspected through eight distinct commit trees; default-branch code search was not treated as exhaustive. The complete verifier was found on a separate branch. The L3 extension and follow-up archives contain copies of the reproduction lineage; their event streams and checkpoints belong to L3. The consolidated archive contains source snapshots. None supplied the original L2 companion authority.
-
-Targeted Gmail and Slack searches supplied no original companion artifacts. Earlier Drive revisions inspected for the proof and companion were empty creation revisions. GitHub releases were empty; the tags endpoint was unavailable through the connection, so tag-only/deleted history is outside the verified search coverage. These are bounded non-recovery findings, not proof that files never existed or are absent from every account, archive, revision or device. The user's local 1109 machine was not searched.
-
-Fresh work here comprised file/hash checks, archive inventories, original verifier execution, and the existing 16-check reproduction receipt/sample verification. The earlier investigation's replay through microtick 142,071 remains preserved source evidence. No sampler trajectory was rerun here, and no actual companion stream was compared.
-
-## Package map
-
-| Path | Purpose |
-|---|---|
-| preserved/ | Two original ZIP packets, unchanged |
-| verifier/ | Complete earlier note, exact original verifier and original output |
-| sources/ | Current readable source snapshots, including all returned master tabs |
-| fallback_reference/ | Readable prospective amendment, expressly excluded from historical authority |
-| MISSING_AUTHORITY_REGISTER.csv | Core and supporting gaps with exact recovery conditions |
-| RECOVERY_REQUIREMENTS.md | Smallest intake and subsequent comparison procedure |
-| SOURCE_INDEX.json / SEARCH_RECORD.json | Source identities, revisions, hashes, search coverage and limits |
-| checks/ | Fresh bounded checks and searched-archive inventories |
-| MANIFEST.json / SHA256SUMS.txt / verify_package.py | Portable file-integrity verification |
-
-Hashes identify the packaged bytes. Readable native-document snapshots are derived text, not original Google Docs serialization. Current retrieval, source modification and historical execution times remain distinct. The outer package manifest does not replace either original manifest.
-
-**Production NOT_AUTHORIZED. Physical Q2 NOT_RUN. Historical discrepancy UNRESOLVED.** The prospective replacement amendment remains a separately dated fallback and has not been adopted or executed by this recovery. Source documents and repository files were not edited.
+Original package license: CC0. This revision is provided under the same dedication; see `LICENSE.txt`.

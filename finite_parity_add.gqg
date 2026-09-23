@@ -1,0 +1,34 @@
+# Finite Z/6. Addition preserves parity — exhaustive on this carrier only.
+category Set
+
+source Z6
+
+carrier Z6 {
+    elements 0 1 2 3 4 5
+}
+
+witness mod2 on Z6 {
+    observation Omega2 : Z6 -> Z2
+    eval x |-> x % 2
+}
+
+equivalence R2 := kernel_pair(Omega2)
+
+quotient Q2 := Z6 / R2
+
+image I2 := image(Omega2)
+
+assert canonical_iso {
+    Q2 ~= I2
+}
+
+operation add : Z6 x Z6 -> Z6 {
+    eval x y |-> (x + y) % 6
+}
+
+descend add through Q2 {
+    search
+}
+
+pair even 0 2 under R2
+pair odd 1 5 under R2

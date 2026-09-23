@@ -1,0 +1,25 @@
+# mod 4 refines mod 2 on Z/8. Reversal is a separate program.
+category Set
+
+source Z8
+
+carrier Z8 {
+    elements 0 1 2 3 4 5 6 7
+}
+
+witness mod4 on Z8 {
+    observation Omega4 : Z8 -> Z4
+    eval x |-> x % 4
+}
+
+witness mod2 on Z8 {
+    observation Omega2 : Z8 -> Z2
+    eval x |-> x % 2
+}
+
+equivalence R4 := kernel_pair(Omega4)
+equivalence R2 := kernel_pair(Omega2)
+quotient Q4 := Z8 / R4
+quotient Q2 := Z8 / R2
+
+refine split of Q4 onto Q2

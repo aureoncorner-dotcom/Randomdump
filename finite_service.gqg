@@ -1,0 +1,32 @@
+# Two eligible episodes share (O,A) and split on compliance.
+# Table-valued observations. No backend attribution.
+category Set
+
+source E
+
+carrier E {
+    elements e1 e2 e3
+}
+
+witness service on E {
+    observation pi_DS : E -> OA
+    e1 -> OA
+    e2 -> OA
+    e3 -> OB
+}
+
+witness compliance on E {
+    observation C : E -> Two
+    e1 -> complied
+    e2 -> violated
+    e3 -> complied
+}
+
+equivalence R_DS := kernel_pair(pi_DS)
+quotient Q_DS := E / R_DS
+
+locus C through pi_DS {
+    search
+}
+
+pair same_answer e1 e2 under R_DS

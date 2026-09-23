@@ -1,0 +1,24 @@
+# Direct-service quotient does not carry historical compliance.
+# This is a typed non-descent, not a platform attribution.
+category Set
+
+source E_eligible
+
+witness service on E_eligible {
+    observation pi_DS : E_eligible -> O_x_A
+}
+
+witness compliance on E_eligible {
+    observation C : E_eligible -> Two
+}
+
+equivalence R_DS := kernel_pair(pi_DS)
+
+quotient Q_DS := E_eligible / R_DS
+
+operation compliance_read : E_eligible -> Two
+
+descend compliance_read through Q_DS {
+    require E1 R_DS E2 => compliance_read(E1) R_DS compliance_read(E2)
+    status fails
+}

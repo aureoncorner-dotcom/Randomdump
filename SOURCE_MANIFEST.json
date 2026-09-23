@@ -1,0 +1,250 @@
+{
+  "source_directory": "Downloads",
+  "selection": "matching geometry family names modified on or after 2026-09-11; user confirmed these exports",
+  "scope": "source inventory and focused review of current definitions and corrections; not an independent proof audit of every historical claim",
+  "files": [
+    {
+      "file": "# Geometry Master (1).txt",
+      "bytes": 42914,
+      "modified_local": "2026-09-11T22:35:48.156231",
+      "sha256": "c6a746af862697826aff3336da62a53fadc972ded673cb7bbda34e8eebc79551",
+      "role": "source text"
+    },
+    {
+      "file": "# Geometry Master (2).txt",
+      "bytes": 42914,
+      "modified_local": "2026-09-11T22:38:01.609046",
+      "sha256": "c6a746af862697826aff3336da62a53fadc972ded673cb7bbda34e8eebc79551",
+      "role": "source text"
+    },
+    {
+      "file": "# Geometry Master.txt",
+      "bytes": 40138,
+      "modified_local": "2026-09-11T19:47:58.209905",
+      "sha256": "f304bd68d9332e55749fb5e12568a154f4c5f9df0bec2aac16decd132ecbd013",
+      "role": "source text"
+    },
+    {
+      "file": "# THE HIDDEN QUOTIENT — CORE, WITNESS, AND STRIKE (1).txt",
+      "bytes": 59069,
+      "modified_local": "2026-09-11T22:39:09.112514",
+      "sha256": "b1367bdb6b99da8f89e7f851869bae0ff6eb18f9757167581f63b04fda18e323",
+      "role": "source text"
+    },
+    {
+      "file": "# THE HIDDEN QUOTIENT — CORE, WITNESS, AND STRIKE.txt",
+      "bytes": 59069,
+      "modified_local": "2026-09-11T22:38:22.554406",
+      "sha256": "b1367bdb6b99da8f89e7f851869bae0ff6eb18f9757167581f63b04fda18e323",
+      "role": "source text"
+    },
+    {
+      "file": "# Thermodynamic Coordination + Reflex Geometry · v3.txt",
+      "bytes": 17625,
+      "modified_local": "2026-09-11T22:39:17.327572",
+      "sha256": "9232734017f09199c534628fbf42cb027a2842cf0cbc53de343a4a8b932bdbb4",
+      "role": "source text"
+    },
+    {
+      "file": "build_geometry_v21.py",
+      "bytes": 32201,
+      "modified_local": "2026-09-11T21:50:41.396958",
+      "sha256": "817d552f482eda5bc9b865f099581990406ec92e99613e7c735455f1d6a0e9fc",
+      "role": "implementation/illustration reference, not executed"
+    },
+    {
+      "file": "build_typed_defects.py",
+      "bytes": 11902,
+      "modified_local": "2026-09-11T21:50:51.604890",
+      "sha256": "45c5954c9b18057c470a87d37cbbb5956bccaa922d447cff3eb51550689e8a71",
+      "role": "implementation/illustration reference, not executed"
+    },
+    {
+      "file": "Defect calculus applied to toroidal sectors (1).txt",
+      "bytes": 12152,
+      "modified_local": "2026-09-11T22:37:02.311697",
+      "sha256": "0af4033237be8976e74407d5d258f259a4f5fdb15a67c6a0ef2ee0c2252b4bbd",
+      "role": "source text"
+    },
+    {
+      "file": "Defect calculus applied to toroidal sectors.txt",
+      "bytes": 12152,
+      "modified_local": "2026-09-11T22:36:49.389395",
+      "sha256": "0af4033237be8976e74407d5d258f259a4f5fdb15a67c6a0ef2ee0c2252b4bbd",
+      "role": "source text"
+    },
+    {
+      "file": "DIRECT SERVICE GEOMETRY (1).txt",
+      "bytes": 11413,
+      "modified_local": "2026-09-11T22:38:37.901124",
+      "sha256": "c6676fe1cb836917cb168336cafeca36edea05f3f6c7723e29af778267848e53",
+      "role": "source text"
+    },
+    {
+      "file": "DIRECT SERVICE GEOMETRY (2).txt",
+      "bytes": 11413,
+      "modified_local": "2026-09-11T22:38:46.268322",
+      "sha256": "c6676fe1cb836917cb168336cafeca36edea05f3f6c7723e29af778267848e53",
+      "role": "source text"
+    },
+    {
+      "file": "DIRECT SERVICE GEOMETRY.txt",
+      "bytes": 11413,
+      "modified_local": "2026-09-11T22:36:18.269778",
+      "sha256": "c6676fe1cb836917cb168336cafeca36edea05f3f6c7723e29af778267848e53",
+      "role": "source text"
+    },
+    {
+      "file": "GEOMETRY + GQG — Working Master.txt",
+      "bytes": 12016,
+      "modified_local": "2026-09-11T19:48:23.148729",
+      "sha256": "2ba8daa82061762025db1751d03dfffeef1c67b9253d428d803ab9f669844c76",
+      "role": "source text"
+    },
+    {
+      "file": "GEOMETRY — Upgrade v2.2grok (1).txt",
+      "bytes": 17183,
+      "modified_local": "2026-09-11T22:38:30.449645",
+      "sha256": "a423a21105092d96ccaa9bf7d031f6967d66925bf1fd5618fe165eed1b2cb42d",
+      "role": "source text"
+    },
+    {
+      "file": "GEOMETRY — Upgrade v2.2grok.txt",
+      "bytes": 17183,
+      "modified_local": "2026-09-11T22:35:59.324992",
+      "sha256": "a423a21105092d96ccaa9bf7d031f6967d66925bf1fd5618fe165eed1b2cb42d",
+      "role": "source text"
+    },
+    {
+      "file": "GEOMETRY — Working Master v2.1 (1).txt",
+      "bytes": 20485,
+      "modified_local": "2026-09-11T22:37:18.290946",
+      "sha256": "22eea82e6e4cf802880d12216a41eb402b9f9c2c7094b5288601248474fb4cb4",
+      "role": "source text"
+    },
+    {
+      "file": "GEOMETRY — Working Master v2.1.txt",
+      "bytes": 20485,
+      "modified_local": "2026-09-11T22:35:27.807371",
+      "sha256": "22eea82e6e4cf802880d12216a41eb402b9f9c2c7094b5288601248474fb4cb4",
+      "role": "source text"
+    },
+    {
+      "file": "GEOMETRY_Toroidal_Sectors_Defect_v0.1.md",
+      "bytes": 12424,
+      "modified_local": "2026-09-11T21:51:02.911580",
+      "sha256": "ca8e20c4bfdcadefba70888a0c561383a77d8c5cc5b2bcd6379fa010c9477ec2",
+      "role": "source text"
+    },
+    {
+      "file": "GEOMETRY_Typed_Defects_v0.2 (1).md",
+      "bytes": 11438,
+      "modified_local": "2026-09-11T21:51:28.992825",
+      "sha256": "a3094062cd83f38d7c7c97184f630cb69207bde9b3000bd9378dfa160bca9afd",
+      "role": "source text"
+    },
+    {
+      "file": "GEOMETRY_Typed_Defects_v0.2.md",
+      "bytes": 11438,
+      "modified_local": "2026-09-11T19:58:07.597290",
+      "sha256": "a3094062cd83f38d7c7c97184f630cb69207bde9b3000bd9378dfa160bca9afd",
+      "role": "source text"
+    },
+    {
+      "file": "GEOMETRY_Working_Master_v2.1.md",
+      "bytes": 20900,
+      "modified_local": "2026-09-11T21:52:36.978769",
+      "sha256": "c3d849a62272f9dbdf01cf36b88d3d9854713ee723570d4ea9933e227bab8f08",
+      "role": "source text"
+    },
+    {
+      "file": "GQG card.txt",
+      "bytes": 43976,
+      "modified_local": "2026-09-11T22:38:56.273960",
+      "sha256": "81d8e827b560d6baf4d3bb324ee44551ec7ed7f62ad74aa89c80f09bb11def3a",
+      "role": "source text"
+    },
+    {
+      "file": "GQG_0.12_Unified_Return_Residual_Closure.md.txt",
+      "bytes": 78808,
+      "modified_local": "2026-09-11T22:39:49.331824",
+      "sha256": "f0e1ee398eb9c5dcb8206b11a4072356529690b0b6352a15f891ac517124d90b",
+      "role": "source text"
+    },
+    {
+      "file": "gqg_rune_v01.zip",
+      "bytes": 49486,
+      "modified_local": "2026-09-11T23:29:35.433033",
+      "sha256": "ca3a069134e0c31651f03d05e363e8bcf40d44a8c628d638672f5c6b765cf30e",
+      "role": "original compiler"
+    },
+    {
+      "file": "New geometry .txt",
+      "bytes": 43196,
+      "modified_local": "2026-09-11T19:48:39.633322",
+      "sha256": "c9a51eb8d96b4ca19701f7078b9028c1c474860ab30569d8709c030bc217b6c5",
+      "role": "source text"
+    },
+    {
+      "file": "python prime (1).py",
+      "bytes": 7211,
+      "modified_local": "2026-09-11T20:11:51.747203",
+      "sha256": "bfe6bd7621352b10c64065644bb56e437cd3f1e15ec87c82f7e24e8175919962",
+      "role": "implementation/illustration reference, not executed"
+    },
+    {
+      "file": "Python prime (1).txt",
+      "bytes": 7494,
+      "modified_local": "2026-09-11T23:03:40.074369",
+      "sha256": "62a73ed424b9b90263d87b3baa49e35e23136b277229c6d6324c8a21e3eecd44",
+      "role": "implementation/illustration reference, not executed"
+    },
+    {
+      "file": "THE_HIDDEN_QUOTIENT_CORE_WITNESS_STRIKE_v1.7_Qualified_RN_Witness_Restoration.md.txt",
+      "bytes": 112800,
+      "modified_local": "2026-09-11T22:39:36.811694",
+      "sha256": "93693654420c43395fec5bea31709d3088bc8431488deb956e35b03e3fce4821",
+      "role": "source text"
+    },
+    {
+      "file": "TOROIDAL — Working Master.txt",
+      "bytes": 19486,
+      "modified_local": "2026-09-11T22:41:43.892672",
+      "sha256": "dd30a2d496adc096b6a781ebbc52c9a02e6b1eb8a19290d83831163c3c117da7",
+      "role": "source text"
+    }
+  ],
+  "byte_identical_groups": [
+    [
+      "# Geometry Master (1).txt",
+      "# Geometry Master (2).txt"
+    ],
+    [
+      "# THE HIDDEN QUOTIENT — CORE, WITNESS, AND STRIKE (1).txt",
+      "# THE HIDDEN QUOTIENT — CORE, WITNESS, AND STRIKE.txt"
+    ],
+    [
+      "Defect calculus applied to toroidal sectors (1).txt",
+      "Defect calculus applied to toroidal sectors.txt"
+    ],
+    [
+      "DIRECT SERVICE GEOMETRY (1).txt",
+      "DIRECT SERVICE GEOMETRY (2).txt",
+      "DIRECT SERVICE GEOMETRY.txt"
+    ],
+    [
+      "GEOMETRY — Upgrade v2.2grok (1).txt",
+      "GEOMETRY — Upgrade v2.2grok.txt"
+    ],
+    [
+      "GEOMETRY — Working Master v2.1 (1).txt",
+      "GEOMETRY — Working Master v2.1.txt"
+    ],
+    [
+      "GEOMETRY_Typed_Defects_v0.2 (1).md",
+      "GEOMETRY_Typed_Defects_v0.2.md"
+    ]
+  ],
+  "file_count": 30,
+  "unique_contents": 22
+}

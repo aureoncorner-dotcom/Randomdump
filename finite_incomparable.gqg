@@ -1,0 +1,26 @@
+# mod 2 and mod 3 on Z/6: incomparable partitions.
+# Their join is the discrete partition.
+category Set
+
+source Z6
+
+carrier Z6 {
+    elements 0 1 2 3 4 5
+}
+
+witness mod2 on Z6 {
+    observation Omega2 : Z6 -> Z2
+    eval x |-> x % 2
+}
+
+witness mod3 on Z6 {
+    observation Omega3 : Z6 -> Z3
+    eval x |-> x % 3
+}
+
+equivalence R2 := kernel_pair(Omega2)
+equivalence R3 := kernel_pair(Omega3)
+quotient Q2 := Z6 / R2
+quotient Q3 := Z6 / R3
+
+refine guess of Q2 onto Q3

@@ -1,0 +1,18 @@
+# Declared pair that is not actually related.
+category Set
+
+source Z6
+
+carrier Z6 {
+    elements 0 1 2 3 4 5
+}
+
+witness mod2 on Z6 {
+    observation Omega2 : Z6 -> Z2
+    eval x |-> x % 2
+}
+
+equivalence R2 := kernel_pair(Omega2)
+quotient Q2 := Z6 / R2
+
+pair nope 0 1 under R2

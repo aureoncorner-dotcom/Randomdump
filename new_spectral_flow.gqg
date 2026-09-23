@@ -1,0 +1,14 @@
+# Exact affine path fixture from corrected v2.2 E2; paths are source points.
+category Set
+source Paths
+carrier Paths { elements constant crossing }
+witness endpoints on Paths {
+ observation EndpointSpectra : Paths -> SpectralPair
+ eval x |-> ("Z_plus_half", "Z_plus_half")
+}
+witness oriented_crossings on Paths {
+ observation SpectralFlow : Paths -> Integer
+ constant -> 0
+ crossing -> 1
+}
+locus SpectralFlow through EndpointSpectra { search }

@@ -1,0 +1,6 @@
+category Set
+source P
+witness W on P {
+ observation Omega : P -> Y
+}
+kernel K := alg_ker(Omega)
