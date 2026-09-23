@@ -1,0 +1,412 @@
+﻿ChatGPT / Codex local history check
+Generated: 2026-09-09T19:13:11.7941848-04:00
+
+========== RUNNING RIGHT NOW ==========
+
+========== WINDOWS APP PACKAGES ==========
+
+
+Name            : OpenAI.ChatGPT-Desktop
+Version         : 1.2026.190.0
+PackageFullName : OpenAI.ChatGPT-Desktop_1.2026.190.0_x64__2p2nqsd0c76g0
+InstallLocation : C:\Program Files\WindowsApps\OpenAI.ChatGPT-Desktop_1.2026.190.0_x64__2p2nqsd0c76g0
+
+Name            : OpenAI.Codex
+Version         : 26.903.8094.0
+PackageFullName : OpenAI.Codex_26.903.8094.0_x64__2p2nqsd0c76g0
+InstallLocation : C:\Program Files\WindowsApps\OpenAI.Codex_26.903.8094.0_x64__2p2nqsd0c76g0
+
+
+
+
+
+========== CURRENT PACKAGE FOLDER DATES ==========
+
+
+FullName      : C:\Program Files\WindowsApps\OpenAI.ChatGPT-Desktop_1.2026.190.0_x64__2p2nqsd0c76g0
+CreationTime  : 7/10/2026 12:22:47 PM
+LastWriteTime : 7/10/2026 12:22:48 PM
+
+
+
+
+
+
+FullName      : C:\Program Files\WindowsApps\OpenAI.Codex_26.903.8094.0_x64__2p2nqsd0c76g0
+CreationTime  : 9/9/2026 10:49:12 AM
+LastWriteTime : 9/9/2026 10:49:24 AM
+
+
+
+
+
+========== INSTALLED PROGRAM REGISTRY ==========
+
+
+========== WINDOWS PREFETCH ==========
+
+
+========== APP INSTALL / UPDATE EVENT HISTORY ==========
+
+
+TimeCreated : 8/28/2026 6:28:53 PM
+Id          : 679
+Message     : OnDemandRegisterPackageList Microsoft.OneDriveSync_26150.804.11.0_neutral__8wekyb3d8bbwe 
+              OpenAI.Codex_26.818.4152.0_x64__2p2nqsd0c76g0 .
+
+TimeCreated : 8/28/2026 6:28:53 PM
+Id          : 10002
+Message     : Creating Resiliency File C:\ProgramData\Microsoft\Windows\AppRepository\39841764-8f1b-49c3-9104-84061f61d
+              59b_S-1-5-21-3007081834-2892764066-1249449609-1001_4.rslc for Register Operation on Package 
+              OpenAI.Codex_26.818.4152.0_x64__2p2nqsd0c76g0.
+
+TimeCreated : 8/28/2026 6:28:53 PM
+Id          : 607
+Message     : Deployment Register operation on package OpenAI.Codex_26.818.4152.0_x64__2p2nqsd0c76g0 has been 
+              de-queued and is running for user SID S-1-5-21-3007081834-2892764066-1249449609-1001.
+
+TimeCreated : 8/28/2026 6:28:53 PM
+Id          : 854
+Message     : Successfully added the following uri(s) to be processed:  C:\Program 
+              Files\WindowsApps\OpenAI.Codex_26.818.4152.0_x64__2p2nqsd0c76g0\AppxManifest.xml.
+
+TimeCreated : 8/28/2026 6:28:53 PM
+Id          : 855
+Message     : Finished resolving action lists. DeploymentRequest action lists: addPackageList: 
+              OpenAI.Codex_26.818.4152.0_x64__2p2nqsd0c76g0.
+
+TimeCreated : 8/28/2026 6:28:53 PM
+Id          : 617
+Message     : Successfully updated the status for package OpenAI.Codex_26.818.4152.0_x64__2p2nqsd0c76g0 and user 
+              S-1-5-21-3007081834-2892764066-1249449609-1001 (Clear=0x0, Set=0x20).
+
+TimeCreated : 8/28/2026 6:28:53 PM
+Id          : 617
+Message     : Successfully updated the status for package OpenAI.Codex_26.818.4152.0_x64__2p2nqsd0c76g0 and user 
+              S-1-5-21-3007081834-2892764066-1249449609-1001 (Clear=0x0, Set=0x820).
+
+TimeCreated : 8/28/2026 6:28:53 PM
+Id          : 5507
+Message     : OpenAI.Codex_26.818.4152.0_x64__2p2nqsd0c76g0 : C:\Program Files\WindowsApps\OpenAI.Codex_26.818.4152.0_x
+              64__2p2nqsd0c76g0\microsoft.system.package.metadata\S-1-5-21-3007081834-2892764066-1249449609-1001-Merged
+              Resources-*.pri : No user-specific merged files found
+
+TimeCreated : 8/28/2026 6:28:53 PM
+Id          : 5507
+Message     : OpenAI.Codex_26.818.4152.0_x64__2p2nqsd0c76g0 : C:\Program Files\WindowsApps\OpenAI.Codex_26.818.4152.0_x
+              64__2p2nqsd0c76g0\microsoft.system.package.metadata\Resources.????????.pri : No shared merged files found
+
+TimeCreated : 8/28/2026 6:28:53 PM
+Id          : 5507
+Message     : OpenAI.Codex_26.818.4152.0_x64__2p2nqsd0c76g0 : C:\Program Files\WindowsApps\OpenAI.Codex_26.818.4152.0_x
+              64__2p2nqsd0c76g0\microsoft.system.package.metadata\S-1-5-21-3007081834-2892764066-1249449609-1001-Merged
+              Resources-*.pri : No user-specific merged files found
+
+TimeCreated : 8/28/2026 6:28:53 PM
+Id          : 5507
+Message     : OpenAI.Codex_26.818.4152.0_x64__2p2nqsd0c76g0 : C:\Program Files\WindowsApps\OpenAI.Codex_26.818.4152.0_x
+              64__2p2nqsd0c76g0\microsoft.system.package.metadata\Resources.????????.pri : No shared merged files found
+
+TimeCreated : 8/28/2026 6:28:53 PM
+Id          : 617
+Message     : Successfully updated the status for package OpenAI.Codex_26.818.4152.0_x64__2p2nqsd0c76g0 and user 
+              S-1-5-21-3007081834-2892764066-1249449609-1001 (Clear=0x20, Set=0x0).
+
+TimeCreated : 8/28/2026 6:28:53 PM
+Id          : 617
+Message     : Successfully updated the status for package OpenAI.Codex_26.818.4152.0_x64__2p2nqsd0c76g0 and user 
+              S-1-5-21-3007081834-2892764066-1249449609-1001 (Clear=0x20, Set=0x0).
+
+TimeCreated : 8/28/2026 6:28:53 PM
+Id          : 617
+Message     : Successfully updated the status for package OpenAI.Codex_26.818.4152.0_x64__2p2nqsd0c76g0 and user 
+              S-1-5-21-3007081834-2892764066-1249449609-1001 (Clear=0x10000C00, Set=0x0).
+
+TimeCreated : 8/28/2026 6:28:53 PM
+Id          : 617
+Message     : Successfully updated the status for package OpenAI.Codex_26.818.4152.0_x64__2p2nqsd0c76g0 and user 
+              S-1-5-21-3007081834-2892764066-1249449609-1001 (Clear=0x300, Set=0x0).
+
+TimeCreated : 8/28/2026 6:28:53 PM
+Id          : 400
+Message     : Deployment Register operation with target volume C: on Package 
+              OpenAI.Codex_26.818.4152.0_x64__2p2nqsd0c76g0 from:  (AppxManifest.xml)  finished successfully.
+
+TimeCreated : 8/28/2026 6:28:53 PM
+Id          : 613
+Message     : Performance summary of Deployment Register operation on Package 
+              OpenAI.Codex_26.818.4152.0_x64__2p2nqsd0c76g0: 
+              Overall time: 219 ms (Active time: 219 ms)
+              Enqueue cost: 16 ms
+              Dequeue delay: 0 ms
+              Bundle processing cost: 0 ms
+              Indexing cost: 0 ms
+              Resolve dependency cost: 0 ms
+              Check approval cost: 0 ms
+              Evaluation cost: 15 ms
+              Hardlinking evaluation cost: 0 ms
+              Stage required cost: 0 ms
+              Flushing and closing files cost: 0 ms
+              Gap: 16 ms
+              Machine register cost: 0 ms
+              Stage user data cost: 0 ms
+              Registration cost: 94 ms
+              Repository commit transaction cost: 15 ms
+              Gap: 47 ms
+              Data flush cost: 0 ms
+              Post DeStage repository commit transaction cost: 16 ms
+              Remaining cost: 0 ms
+              
+
+TimeCreated : 8/28/2026 6:28:53 PM
+Id          : 821
+Message     : During-logon registration of package OpenAI.Codex_26.818.4152.0_x64__2p2nqsd0c76g0 for user 
+              S-1-5-21-3007081834-2892764066-1249449609-1001 finished with result: 0x0; updating registry...
+
+TimeCreated : 8/28/2026 6:28:53 PM
+Id          : 822
+Message     : Updating registry for package OpenAI.Codex_26.818.4152.0_x64__2p2nqsd0c76g0 completed with result: 0x0.
+
+TimeCreated : 8/30/2026 6:01:09 AM
+Id          : 10002
+Message     : Creating Resiliency File 
+              C:\ProgramData\Microsoft\Windows\AppRepository\d3f5528f-88e6-4815-b44e-6a4255a62648_S-1-5-18_10.rslc for 
+              Stage Operation on Package OpenAI.Codex_26.825.6671.0_x64__2p2nqsd0c76g0.
+
+TimeCreated : 8/30/2026 6:01:09 AM
+Id          : 607
+Message     : Deployment Stage operation on package OpenAI.Codex_26.825.6671.0_x64__2p2nqsd0c76g0 has been de-queued 
+              and is running for user SID S-1-5-18.
+
+TimeCreated : 8/30/2026 6:01:09 AM
+Id          : 574
+Message     : Preferred package version for package family is changing. Current preferred version is: 
+              OpenAI.Codex_26.818.4152.0_x64__2p2nqsd0c76g0. New preferred version will be: 
+              OpenAI.Codex_26.825.6671.0_x64__2p2nqsd0c76g0.
+
+TimeCreated : 8/30/2026 6:01:33 AM
+Id          : 8100
+Message     : Starting validation and setting the Trust Label on package OpenAI.Codex_26.825.6671.0_x64__2p2nqsd0c76g0 
+              with flags 0x9.
+
+TimeCreated : 8/30/2026 6:01:33 AM
+Id          : 8106
+Message     : Package OpenAI.Codex_26.825.6671.0_x64__2p2nqsd0c76g0 has Trust Label already. Flags: 0x9
+
+TimeCreated : 8/30/2026 6:01:33 AM
+Id          : 8101
+Message     : Finished validation and setting the Trust Label on package OpenAI.Codex_26.825.6671.0_x64__2p2nqsd0c76g0 
+              with flags 0x9.
+
+TimeCreated : 8/30/2026 6:01:33 AM
+Id          : 617
+Message     : Successfully updated the status for package OpenAI.Codex_26.825.6671.0_x64__2p2nqsd0c76g0 and user 
+              S-1-5-18 (Clear=0x10000C00, Set=0x0).
+
+TimeCreated : 8/30/2026 6:01:33 AM
+Id          : 400
+Message     : Deployment Stage operation with target volume C: on Package 
+              OpenAI.Codex_26.825.6671.0_x64__2p2nqsd0c76g0 from:  (9dc2b287f11ea8c993a578598651288f00db9962)  
+              finished successfully.
+
+TimeCreated : 8/30/2026 6:01:33 AM
+Id          : 613
+Message     : Performance summary of Deployment Stage operation on Package 
+              OpenAI.Codex_26.825.6671.0_x64__2p2nqsd0c76g0: 
+              Overall time: 26718 ms (Active time: 26718 ms)
+              Enqueue cost: 2234 ms
+              Dequeue delay: 0 ms
+              Bundle processing cost: 0 ms
+              Indexing cost: 125 ms
+              Resolve dependency cost: 0 ms
+              Check approval cost: 0 ms
+              Evaluation cost: 6062 ms
+              Hardlinking evaluation cost: 109 ms
+              Stage required cost: 18079 ms
+              Flushing and closing files cost: 32 ms
+              Gap: 15 ms
+              Machine register cost: 78 ms
+              Stage user data cost: 0 ms
+              Registration cost: 0 ms
+              Repository commit transaction cost: 94 ms
+              Gap: 16 ms
+              Data flush cost: 0 ms
+              Post DeStage repository commit transaction cost: 15 ms
+              Remaining cost: 0 ms
+              
+
+TimeCreated : 8/30/2026 6:01:33 AM
+Id          : 603
+Message     : Started deployment RegisterByPackageFamilyName operation on a package with main parameter 
+              OpenAI.Codex_2p2nqsd0c76g0 and Options RegisterHighestVersion,FailIfNeedsRemediation,LowPriorityRequest 
+              and SkipDeploymentOperationRpcCallerIsAdminCheck. See http://go.microsoft.com/fwlink/?LinkId=235160 for 
+              help diagnosing app deployment issues.
+
+TimeCreated : 8/30/2026 6:01:33 AM
+Id          : 10002
+Message     : Creating Resiliency File C:\ProgramData\Microsoft\Windows\AppRepository\d3f5528f-88e6-4815-b44e-6a4255a62
+              648_S-1-5-21-3007081834-2892764066-1249449609-1001_12.rslc for Register Operation on Package 
+              OpenAI.Codex_26.825.6671.0_x64__2p2nqsd0c76g0.
+
+TimeCreated : 8/30/2026 6:01:33 AM
+Id          : 607
+Message     : Deployment Register operation on package OpenAI.Codex_26.825.6671.0_x64__2p2nqsd0c76g0 has been 
+              de-queued and is running for user SID S-1-5-21-3007081834-2892764066-1249449609-1001.
+
+TimeCreated : 8/30/2026 6:01:33 AM
+Id          : 854
+Message     : Successfully added the following uri(s) to be processed:  C:\Program 
+              Files\WindowsApps\OpenAI.Codex_26.825.6671.0_x64__2p2nqsd0c76g0\AppxManifest.xml.
+
+TimeCreated : 8/30/2026 6:01:33 AM
+Id          : 855
+Message     : Finished resolving action lists. DeploymentRequest action lists: updateList: 
+              OpenAI.Codex_26.818.4152.0_x64__2p2nqsd0c76g0 is updating to 
+              OpenAI.Codex_26.825.6671.0_x64__2p2nqsd0c76g0.
+
+TimeCreated : 8/30/2026 6:01:34 AM
+Id          : 617
+Message     : Successfully updated the status for package OpenAI.Codex_26.818.4152.0_x64__2p2nqsd0c76g0 and user 
+              S-1-5-21-3007081834-2892764066-1249449609-1001 (Clear=0x0, Set=0x20).
+
+TimeCreated : 8/30/2026 6:01:34 AM
+Id          : 617
+Message     : Successfully updated the status for package OpenAI.Codex_26.825.6671.0_x64__2p2nqsd0c76g0 and user 
+              S-1-5-21-3007081834-2892764066-1249449609-1001 (Clear=0x0, Set=0x20).
+
+TimeCreated : 8/30/2026 6:01:34 AM
+Id          : 617
+Message     : Successfully updated the status for package OpenAI.Codex_26.825.6671.0_x64__2p2nqsd0c76g0 and user 
+              S-1-5-21-3007081834-2892764066-1249449609-1001 (Clear=0x0, Set=0x20).
+
+TimeCreated : 8/30/2026 6:01:34 AM
+Id          : 617
+Message     : Successfully updated the status for package OpenAI.Codex_26.818.4152.0_x64__2p2nqsd0c76g0 and user 
+              S-1-5-21-3007081834-2892764066-1249449609-1001 (Clear=0xFFFFFFFF, Set=0x0).
+
+TimeCreated : 8/30/2026 6:01:34 AM
+Id          : 5507
+Message     : OpenAI.Codex_26.825.6671.0_x64__2p2nqsd0c76g0 : C:\Program Files\WindowsApps\OpenAI.Codex_26.825.6671.0_x
+              64__2p2nqsd0c76g0\microsoft.system.package.metadata\S-1-5-21-3007081834-2892764066-1249449609-1001-Merged
+              Resources-*.pri : No user-specific merged files found
+
+TimeCreated : 8/30/2026 6:01:34 AM
+Id          : 5507
+Message     : OpenAI.Codex_26.825.6671.0_x64__2p2nqsd0c76g0 : C:\Program Files\WindowsApps\OpenAI.Codex_26.825.6671.0_x
+              64__2p2nqsd0c76g0\microsoft.system.package.metadata\Resources.????????.pri : No shared merged files found
+
+TimeCreated : 8/30/2026 6:01:34 AM
+Id          : 5507
+Message     : OpenAI.Codex_26.825.6671.0_x64__2p2nqsd0c76g0 : C:\Program Files\WindowsApps\OpenAI.Codex_26.825.6671.0_x
+              64__2p2nqsd0c76g0\microsoft.system.package.metadata\S-1-5-21-3007081834-2892764066-1249449609-1001-Merged
+              Resources-*.pri : No user-specific merged files found
+
+TimeCreated : 8/30/2026 6:01:34 AM
+Id          : 5507
+Message     : OpenAI.Codex_26.825.6671.0_x64__2p2nqsd0c76g0 : C:\Program Files\WindowsApps\OpenAI.Codex_26.825.6671.0_x
+              64__2p2nqsd0c76g0\microsoft.system.package.metadata\Resources.????????.pri : No shared merged files found
+
+TimeCreated : 8/30/2026 6:01:34 AM
+Id          : 617
+Message     : Successfully updated the status for package OpenAI.Codex_26.825.6671.0_x64__2p2nqsd0c76g0 and user 
+              S-1-5-21-3007081834-2892764066-1249449609-1001 (Clear=0x20, Set=0x0).
+
+TimeCreated : 8/30/2026 6:01:34 AM
+Id          : 617
+Message     : Successfully updated the status for package OpenAI.Codex_26.825.6671.0_x64__2p2nqsd0c76g0 and user 
+              S-1-5-21-3007081834-2892764066-1249449609-1001 (Clear=0x20, Set=0x0).
+
+TimeCreated : 8/30/2026 6:01:34 AM
+Id          : 617
+Message     : Successfully updated the status for package OpenAI.Codex_26.825.6671.0_x64__2p2nqsd0c76g0 and user 
+              S-1-5-21-3007081834-2892764066-1249449609-1001 (Clear=0x10000C00, Set=0x0).
+
+TimeCreated : 8/30/2026 6:01:34 AM
+Id          : 617
+Message     : Successfully updated the status for package OpenAI.Codex_26.825.6671.0_x64__2p2nqsd0c76g0 and user 
+              S-1-5-21-3007081834-2892764066-1249449609-1001 (Clear=0x300, Set=0x0).
+
+TimeCreated : 8/30/2026 6:01:34 AM
+Id          : 400
+Message     : Deployment Register operation with target volume C: on Package 
+              OpenAI.Codex_26.825.6671.0_x64__2p2nqsd0c76g0 from:  (AppxManifest.xml)  finished successfully.
+
+TimeCreated : 8/30/2026 6:01:34 AM
+Id          : 472
+Message     : Moving package folder \\?\C:\Program Files\WindowsApps\OpenAI.Codex_26.818.4152.0_x64__2p2nqsd0c76g0 to 
+              \\?\C:\Program Files\WindowsApps\Deleted\OpenAI.Codex_26.818.4152.0_x64__2p2nqsd0c76g0994f2749-bf36-4628-
+              ad8f-63f55722eb00. Result: 0x0.
+
+TimeCreated : 8/30/2026 6:01:34 AM
+Id          : 613
+Message     : Performance summary of Deployment Register operation on Package 
+              OpenAI.Codex_26.825.6671.0_x64__2p2nqsd0c76g0: 
+              Overall time: 328 ms (Active time: 328 ms)
+              Enqueue cost: 16 ms
+              Dequeue delay: 0 ms
+              Bundle processing cost: 0 ms
+              Indexing cost: 0 ms
+              Resolve dependency cost: 0 ms
+              Gap: 16 ms
+              Check approval cost: 0 ms
+              Evaluation cost: 0 ms
+              Hardlinking evaluation cost: 0 ms
+              Stage required cost: 0 ms
+              Flushing and closing files cost: 0 ms
+              Gap: 15 ms
+              Machine register cost: 0 ms
+              Stage user data cost: 0 ms
+              Registration cost: 94 ms
+              Gap: 62 ms
+              Repository commit transaction cost: 79 ms
+              Gap: 31 ms
+              Data flush cost: 0 ms
+              Post DeStage repository commit transaction cost: 15 ms
+              Remaining cost: 0 ms
+              
+
+TimeCreated : 9/1/2026 10:13:56 AM
+Id          : 603
+Message     : Started deployment Remove operation on a package with main parameter 
+              OpenAI.Codex_26.825.6671.0_x64__2p2nqsd0c76g0 and Options 0 and 0. See 
+              http://go.microsoft.com/fwlink/?LinkId=235160 for help diagnosing app deployment issues.
+
+TimeCreated : 9/1/2026 10:13:56 AM
+Id          : 10002
+Message     : Creating Resiliency File 
+              C:\ProgramData\Microsoft\Windows\AppRepository\d15fb2f7-81cd-4f14-b053-5f978b0cc6e5_S-1-5-18_1.rslc for 
+              Remove Operation on Package OpenAI.Codex_26.825.6671.0_x64__2p2nqsd0c76g0.
+
+
+
+
+
+========== RUNNING RIGHT NOW - RETRY ==========
+
+Name                           PID StartTime           Path                                                                         
+----                           --- ---------           ----                                                                         
+ChatGPT                       8436 9/9/2026 4:41:12 PM C:\Program Files\WindowsApps\OpenAI.Codex_26.903.8094.0_x64__2p2nqsd0c76g0...
+ChatGPT                       9816 9/9/2026 6:46:24 PM C:\Program Files\WindowsApps\OpenAI.Codex_26.903.8094.0_x64__2p2nqsd0c76g0...
+ChatGPT                      16980 9/9/2026 4:41:22 PM C:\Program Files\WindowsApps\OpenAI.Codex_26.903.8094.0_x64__2p2nqsd0c76g0...
+ChatGPT                      22888 9/9/2026 4:41:12 PM C:\Program Files\WindowsApps\OpenAI.Codex_26.903.8094.0_x64__2p2nqsd0c76g0...
+ChatGPT                      28020 9/9/2026 4:41:08 PM C:\Program Files\WindowsApps\OpenAI.Codex_26.903.8094.0_x64__2p2nqsd0c76g0...
+ChatGPT                      28556 9/9/2026 4:41:08 PM C:\Program Files\WindowsApps\OpenAI.Codex_26.903.8094.0_x64__2p2nqsd0c76g0...
+ChatGPT                      28728 9/9/2026 4:41:08 PM C:\Program Files\WindowsApps\OpenAI.Codex_26.903.8094.0_x64__2p2nqsd0c76g0...
+ChatGPT                      29352 9/9/2026 4:41:07 PM C:\Program Files\WindowsApps\OpenAI.Codex_26.903.8094.0_x64__2p2nqsd0c76g0...
+ChatGPT                      29380 9/9/2026 4:41:07 PM C:\Program Files\WindowsApps\OpenAI.Codex_26.903.8094.0_x64__2p2nqsd0c76g0...
+ChatGPT                      38440 9/9/2026 6:08:29 PM C:\Program Files\WindowsApps\OpenAI.Codex_26.903.8094.0_x64__2p2nqsd0c76g0...
+ChatGPT Classic               6440 9/9/2026 6:58:47 PM C:\Program Files\WindowsApps\OpenAI.ChatGPT-Desktop_1.2026.190.0_x64__2p2n...
+ChatGPT Classic              20000 9/9/2026 6:58:47 PM C:\Program Files\WindowsApps\OpenAI.ChatGPT-Desktop_1.2026.190.0_x64__2p2n...
+ChatGPT Classic              26836 9/9/2026 6:58:48 PM C:\Program Files\WindowsApps\OpenAI.ChatGPT-Desktop_1.2026.190.0_x64__2p2n...
+ChatGPT Classic              31472 9/9/2026 6:58:47 PM C:\Program Files\WindowsApps\OpenAI.ChatGPT-Desktop_1.2026.190.0_x64__2p2n...
+ChatGPT Classic              34980 9/9/2026 6:58:47 PM C:\Program Files\WindowsApps\OpenAI.ChatGPT-Desktop_1.2026.190.0_x64__2p2n...
+codex                         4840 9/9/2026 4:41:13 PM C:\Users\drewd\AppData\Local\OpenAI\Codex\bin\fd4c151a749f3ab4\codex.exe     
+codex                        12044 9/9/2026 6:08:19 PM C:\Users\drewd\AppData\Local\OpenAI\Codex\bin\fd4c151a749f3ab4\codex.exe     
+codex                        16304 9/9/2026 6:08:20 PM C:\Users\drewd\AppData\Local\OpenAI\Codex\bin\fd4c151a749f3ab4\codex.exe     
+codex                        36340 9/9/2026 6:08:19 PM C:\Users\drewd\AppData\Local\OpenAI\Codex\bin\fd4c151a749f3ab4\codex.exe     
+codex-code-mode-host          9004 9/9/2026 4:51:55 PM C:\Users\drewd\AppData\Local\OpenAI\Codex\bin\fd4c151a749f3ab4\codex-code-...
+codex-command-runner-0.153.4 20840 9/9/2026 6:08:19 PM C:\Users\drewd\.codex\.sandbox-bin\codex-command-runner-0.153.4.exe          
+codex-command-runner-0.153.4 37488 9/9/2026 6:08:19 PM C:\Users\drewd\.codex\.sandbox-bin\codex-command-runner-0.153.4.exe          
+
+
+

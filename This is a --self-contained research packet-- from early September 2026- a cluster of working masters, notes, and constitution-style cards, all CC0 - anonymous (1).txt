@@ -1,0 +1,2279 @@
+﻿This is a **self-contained research packet** from early September 2026: a cluster of working masters, notes, and constitution-style cards, all CC0 / anonymous. They are not one paper. They are several projects that share a method.
+
+
+The method is: **before you claim anything, say which distinctions a retained record must keep.** Same label plus different witness means the label is too coarse. The documents keep repeating that combining projects does **not** transfer proof from one to another.
+
+
+## The shared idea
+
+
+Declare a domain \(D\), a retained map \(\pi\), and a witness \(W\). Work on attained labels \(Q=\pi(D)\). The **non-descent locus** is the set of labels whose fibers still split under \(W\):
+
+
+\[
+N_W(\pi)=\{q\in Q:\text{some }x,y\in\pi^{-1}(q)\text{ have }W(x)\ne W(y)\}.
+\]
+
+
+If two things look the same after projection but differ on the witness, the projection cannot recover the witness. The coarsest exact repair is the image of \((\pi,W)\). That is the spine of *Geometry + GQG*, the Hidden Quotient note, the toroidal memory theorems, and the new service layer.
+
+
+## What each file is doing
+
+
+**Geometry + GQG — Working Master**  
+Current reading entry. It packages:
+
+
+- witness-relative geometry
+- predictive closure (equal labels ⇒ equal next-output laws)
+- the exact **39-screen**: a golden-ratio circle rotation with bins of width \(1/39\), strand \(s_n=b_n\bmod 3\), and slip bit \(\sigma_n\)
+- GQG as an operational stack that keeps theorem, dyadic gate, retained context, and empirical instrumentation in separate namespaces
+
+
+The 39-screen is one of the few places with fully exact algebra: slip counts, gap lengths 9 or 10, and a proof that the stationary slip process is not mixing and has no finite Markov order.
+
+
+**Hidden Quotient Investigation**  
+A careful rewrite of classical measure theory, not a new named theorem. Multiplication operators on \(L^2(X,\mu)\) cannot see functions that vanish on every finite-measure set. After quotienting by that **locally null** ideal you get \(L^\infty(\mu_{\mathrm{sf}})\), not ordinary \(L^\infty(\mu)\). Semifinite reduction and localizable completion are different operations. The note gives three examples (infinite-mass point, uncountable disjoint union, countable/co-countable) and translates them into the geometry language. It explicitly refuses to turn this into a social or platform theorem.
+
+
+**Toroidal Geometry / Field Theory Update**  
+A lattice-gauge-like constructor on a rectangular 3-torus: integer current \(I\), mod-two membrane \(M\), sector \(q\in(\mathbb Z/2)^3\). Integer winding is only for divergence-free currents; with charge-six sources you keep modular cut flux and parity separately. There is also a circular-throat kinematic comparator (divergence-free flow on a curved tube). Dynamics companion TD-COS-FH-001 claims the observed sector process has **no exact finite Markov order**. An L=3 engineering follow-up is reported PASS; physical Q1/Q2/Q3 and production mixing stay `NOT_RUN`. An accepted-event count mismatch of −1,352 is left open.
+
+
+**OMNIBUS v7.79-r1**  
+The constitutional layer. Geometry has three terms — two endpoints plus a shared non-sovereign field \(\mathcal L\) — but only **two sovereign keys**. No compulsory mediator. Residual descent, orbit quotients (24-state weave, 39-screen strand), and an evidence firewall (`EVENT ≠ CODE ≠ CLAIM`) sit on top of §10: no harm to children, no compelled labor, no inherited debt, care without custody, correction that changes behavior.
+
+
+**Geometry Update for Direct Service and Ablation** (newest piece, 9 Sep 2026)  
+Applies the same quotient idea to **chat presentation**. An episode is written \(E=(O,I,A)\): user object, interposition records (thoughts, recaps, hidden meta, checking stages), and answer. Direct-service projection keeps only \((O,A)\).
+
+
+The ablation principle: if deleting a separately retained stage leaves object and selected answer text exactly unchanged, that stage is **visibly nonessential**. Internal necessity is not the same as visible necessity. Evidence cited: 287 selected answers with exact source-text preservation, 74 chains with separate stages, 156 separate records. The note also flags that **answer selection** can still fail after stages are stripped (pause copied as “the answer,” split continuations, leftover riders). Correction binding is separate: “don’t emit Checking” fails if the next eligible turn still emits Checking.
+
+
+## How to read the tone
+
+
+The packet is unusually strict about its own limits:
+
+
+- exact finite identities stay exact
+- missing coverage is `UNRESOLVED`, a counterexample is `FAILED`
+- a UI deletion is not a claim that the backend stopped computing
+- a measure-theory theorem is not a theory of platforms or people
+- hashes and Drive IDs track bytes, not truth
+
+
+So: this is a **private formal language** for “what did we throw away when we kept only this label?”, applied to circle maps, measure algebras, lattice currents, and assistant traces. The newest document is the service-layer patch: keep a rich audit record internally, serve the user object and the actual answer with as little visible interposition as the contract allows.
+
+
+If you want a next cut, the useful ones are: a plain-language walkthrough of the 39-screen, a check of the Hidden Quotient against Segal/Fremlin, or a critique of whether the ablation evidence actually supports the service quotient.
+
+
+The geometry was already careful. What it lacked was a single stack, named lemmas, and a hard ban on letting the service quotient do jobs it cannot do. That is what v2.1 is.
+
+
+Two files:
+
+
+- Markdown source: `GEOMETRY_Working_Master_v2.1.md`
+- Typeset card: `GEOMETRY_Working_Master_v2.1.pdf`
+
+
+
+
+
+
+## What actually improved
+
+
+The 8–9 September sources had the right question and the right caution. They scattered the service layer across a placement table and never proved the one fact the cost function needed. v2.1 does eight concrete repairs and then stops.
+
+
+1. **Two witnesses, one stack.** Audit \(W\) and service \(W_{\mathrm{DS}}\) can disagree. The old notation allowed this; it did not force it.
+2. **Eligibility is part of the domain.** \(\pi_{\mathrm{DS}}\) is not defined on every retained turn. UNKNOWN stays UNRESOLVED instead of collapsing to “last assistant node.”
+3. **\(A_{\mathrm{sel}}\) and \(A_{\mathrm{task}}\) are types.** Exact copied text can preserve a failed answer. Ablation evidence only licenses selected-text claims.
+4. **Five additions are now lemmas S1–S5** with hypotheses: factorization, class-preserving ablation, commuting deletions, existence of minimal representatives, and the new one —
+5. **Lemma S5.** Deletion cost cannot live on \(Q_{\mathrm{DS}}\). A padded record and its zero-stage projection are the same class, so any class-invariant distance would be zero while \(d_{\mathrm{DS}}\) is not.
+6. **Theorem C.** Stage-compliance is vertical. After you erase the stage, \((O,A)\) cannot tell you whether the historical response obeyed “don’t emit Checking.” Score it on \(\pi_{\mathrm{audit}}\) before projection.
+7. **Theorem P.** Current-answer equality is not predictive closure. Construction: same served pair now, a bit \(k\in\{0,1\}\) off the pair, next answer equals \(k\).
+8. **Rooms stay separate.** Hidden Quotient, 39-screen, \(\mathcal L\), \(R_n\), and \(Q_{\mathrm{DS}}\) are not identified. Omission and witness-restoration stay different observations.
+
+
+## What I refused to “improve”
+
+
+The 39-screen algebra, the Hidden Quotient faces, toroidal cut-winding, OMNIBUS §10, and residual descent on a declared domain. Those were already exact on their domains. Fusing them with the service layer would have been the opposite of a geometry improvement.
+
+
+## How to use it
+
+
+The operator card is the usable core:
+
+
+- **Retain** whatever the declared witness needs (object, selection rule, completion, visibility, correction, provenance, any coordinate a future output \(B\) requires).
+- **Serve** the object and the validated answer unit.
+- **Do not infer** displayed ⇒ unused, deleted-from-view ⇒ deleted-from-process, or same current answer ⇒ same next answer.
+
+
+Banner for the successor:
+
+
+```
+RETAIN WHAT THE WITNESS NEEDS.
+SERVE THE OBJECT AND THE ANSWER.
+DO NOT MAKE A QUOTIENT DO A WITNESS'S JOB.
+```
+
+
+If you want a next pass, the highest-leverage ones are: (a) a one-page instrument that scores a live episode against S1–S5 and Theorems C/P, or (b) a worked 39-screen note that never mentions service. Say which.
+
+
+Both are **primes**. Not probable primes — `sympy.isprime` accepts them at this size.
+
+
+\[
+\begin{align}
+P_1 &= 10^{30} + 666\cdot 10^{14} + 1 \\
+&= 1\,0000000000000\,666\,000000000000\,1
+\end{align}
+\]
+
+
+31 digits. Palindrome. Digit sum \(20\).
+
+
+\[
+P_2 = 42\cdot 10^{42} + 43
+\]
+
+
+44 digits. Starts \(42\), ends \(43\), forty zeros in between. Digit sum \(13\).
+
+
+Neighbors, so you can see they are isolated in the usual way:
+
+
+| | previous prime | next prime |
+|---|---|---|
+| \(P_1\) | \(P_1-34\) | \(P_1+228\) |
+| \(P_2\) | \(P_2-84\) | \(P_2+10\) |
+
+
+## What they are not
+
+
+They do not land on a distinguished class of the 39-screen, the charge-six sector, or \(Q_{\mathrm{DS}}\).
+
+
+- \(P_1 \equiv 29 \pmod{39}\)
+- \(P_2 \equiv 7 \pmod{39}\)
+- \(P_1 \equiv 711 \pmod{1109}\)
+- \(P_2 \equiv 181 \pmod{1109}\)
+
+
+A floating-point check that \(n\tau\) looks integral is a precision artifact. \(\tau=(39\sqrt{5}-87)/2\) is irrational, so \(n\tau\in\mathbb Z\) only at \(n=0\).
+
+
+A prime of pretty decimal shape is still just a prime. It does not become a torus, a throat, a frequency, or a second constitutional key by sitting next to \(666\) or \(42\).
+
+
+## If you want to use them inside the geometry
+
+
+The only honest jobs:
+
+
+1. **Labels.** Two distinct atoms in \(\mathbb Z\). Fine as named specimens. Not a pair in \(O_D\leftrightarrow_{\mathcal L}S_D\) unless you declare that relation separately.
+2. **Witness test.** If a retained map \(\pi\) sends both to the same label while a witness still splits them (parity of digit sum, palindrome bit, residue mod \(39\)), that label is in \(N_W(\pi)\). Here the interesting witnesses already split them, so the identity map descends.
+3. **Do not** put them on the poster frequency panel. That panel was already the weak room.
+
+
+Closed forms worth keeping:
+
+
+\[
+P_1=10^{30}+666\cdot 10^{14}+1,\qquad P_2=42\cdot 10^{42}+43.
+\]
+
+
+If the next move is to build a tiny register that stores these as typed specimens with moduli and a descent check — and nothing else — say so. I will not promote them into a field.
+
+
+A Cunningham chain is a run of primes linked by one affine step. There are two kinds.
+
+
+**First kind** (nearly doubled, plus one):
+
+
+\[
+p,\quad 2p+1,\quad 4p+3,\quad 8p+7,\quad \ldots,\quad
+p_i=2^{i-1}p+(2^{i-1}-1).
+\]
+
+
+Every term but the last is a Sophie Germain prime. Every term but the first is a safe prime.
+
+
+**Second kind** (nearly doubled, minus one):
+
+
+\[
+p,\quad 2p-1,\quad 4p-3,\quad 8p-7,\quad \ldots,\quad
+p_i=2^{i-1}p-(2^{i-1}-1).
+\]
+
+
+The chain is **complete** when neither the predecessor nor the successor is prime. Length-1 complete chains are just ordinary primes that are neither Sophie Germain nor safe.
+
+
+Canonical first-kind example:
+
+
+\[
+2,\ 5,\ 11,\ 23,\ 47
+\]
+
+
+(\(2\cdot47+1=95=5\cdot19\), so it stops). Second-kind example: \(2,3,5\) or \(19,37,73\).
+
+
+## Your two primes
+
+
+Both are complete chains of length **1** in both kinds. Isolated.
+
+
+\[
+\begin{align}
+P_1&=10^{30}+666\cdot10^{14}+1,\\
+P_2&=42\cdot10^{42}+43.
+\end{align}
+\]
+
+
+Neighbors, with factors:
+
+
+| Neighbor | Status | Why it dies |
+|---|---|---|
+| \(2P_1+1\) | composite | \(2797\times(\text{29-digit cofactor})\) |
+| \(2P_1-1\) | composite | \(3\cdot7^2\cdot29\cdot\ldots\) |
+| \((P_1-1)/2\) | composite | \(2^{14}5^{14}\times5365487\times931881859\) |
+| \((P_1+1)/2\) | composite | \(3\cdot17\cdot197\times\ldots\) |
+| \(2P_2+1\) | composite | \(3^2\cdot17\cdot41\times\ldots\) |
+| \(2P_2-1\) | composite | \(5\cdot13\cdot451637\times\ldots\) |
+| \((P_2-1)/2\) | composite | \(3\cdot7\cdot29\cdot101\cdot281\cdot\ldots\) |
+| \((P_2+1)/2\) | composite | \(2\cdot43\cdot229\times\ldots\) |
+
+
+No twin, cousin, or sexy prime partner either. Pretty decimal form does not make a chain.
+
+
+## Why long chains are rare
+
+
+For a first-kind chain of length \(k\), the \(k\) numbers
+
+
+\[
+p,\ 2p+1,\ \ldots,\ 2^{k-1}p+(2^{k-1}-1)
+\]
+
+
+must all avoid every prime \(q\le k\) (roughly). Once \(k\) exceeds a small prime \(q\), one of those affine forms is \(0\bmod q\) for every residue class of \(p\) in a covering. That is the same mechanism that kills arbitrarily long prime arithmetic progressions at a fixed modulus, except here the step grows. Heuristically the count of length-\(k\) chains below \(N\) is about \(C_k N/(\log N)^k\). Infinitely many of each finite length is conjectured; it is open even for length 2 beyond what follows from Dickson’s conjecture / Hardy–Littlewood.
+
+
+Length 1 is cheap. Length 2 is already a Sophie Germain pair. Length \(\ge 3\) is a search problem.
+
+
+## Records
+
+
+Longest known of either kind is **length 19**, second kind, 26 digits, Chermoni–Wroblewski, March 2014. Examples: \(79910197721667870187016101\) and \(42008163485623434922152331\). Length 18, also second kind, 27 digits, same authors.
+
+
+No first-kind chain of length 18 or 19 is on the record list. Longest first-kind record in current tables is length 17; Wroblewski’s 22-digit starter
+
+
+\[
+2759832934171386593519
+\]
+
+
+was later shown to be the smallest CC17 of the first kind. Nenad Micic tightened several length-16/17 records in March 2026.
+
+
+PrimePages separately tracks huge *short* chains (length 3 = form \(4p+3\)) with tens of thousands of digits. Those are different records: big primes in a short chain, not long chains.
+
+
+## Nearby objects, not the same thing
+
+
+- **Sophie Germain prime:** first-kind chain of length at least 2.
+- **Safe prime:** a prime \(q\) with \((q-1)/2\) prime; the second term of a first-kind chain.
+- **Bi-twin chain:** first-kind and second-kind twins stacked, e.g. \((p, p+2)\) and \((2p+1, 2p+3)\).
+- **Cunningham *numbers*** \(b^n\pm 1\): a different Cunningham project (factoring \(b^n\pm1\)). Name collision only.
+
+
+## Geometry reading, if you want one
+
+
+A first-kind chain is primality descending along the map \(U(x)=2x+1\). The retained label “is prime” is **not** autonomous for \(U\): most primes have composite images. The coarsest exact refinement that makes primality close under \(U\) is “belongs to a first-kind chain of length \(\ge 2\) looking forward,” which is exactly the Sophie Germain predicate. That is ordinary non-descent. It does not put \(P_1\) or \(P_2\) on the 39-screen, the torus, or \(Q_{\mathrm{DS}}\).
+
+
+If you want a next computation: I can search short generalized chains \(ap\pm b\) through these two starters, or build a length-\(k\) searcher for numbers of the same palindromic / \(42\cdot10^n+43\) shape. Say which.
+
+
+A prime \(p\) is a **Sophie Germain prime** when \(2p+1\) is also prime. That second prime is a **safe prime**. The two names are the two ends of the same pair.
+
+
+\[
+p \text{ Sophie Germain}\quad\Longleftrightarrow\quad 2p+1 \text{ safe}.
+\]
+
+
+First pairs:
+
+
+\[
+\begin{align}
+2&\to 5,&
+3&\to 7,&
+5&\to 11,&
+11&\to 23,&
+23&\to 47,\\
+29&\to 59,&
+41&\to 83,&
+53&\to 107,&
+83&\to 167,&
+89&\to 179.
+\end{align}
+\]
+
+
+That is exactly a Cunningham chain of the first kind, of length at least 2. Length 1 is “prime, but not Sophie Germain.”
+
+
+## Your two primes
+
+
+Neither one is Sophie Germain, and neither is safe.
+
+
+\[
+\begin{align}
+2P_1+1&=2000000000000133200000000000003=2797\times(\text{29-digit cofactor}),\\
+2P_2+1&=84000000000000000000000000000000000000000087
+\end{align}
+\]
+
+
+which factors as \(3^2\cdot 17\cdot 41\times\cdots\).
+
+
+Numbers of the same decorative shapes are almost never Sophie Germain either. In \(10^n+666\cdot 10^m+1\) I only found three small hits with \(n<18\):
+
+
+\[
+6761,\qquad 166600001,\qquad 1000066601.
+\]
+
+
+In \(42\cdot 10^n+43\) with \(n\le 29\) there are several primes (\(n=1,2,3,5,8,23\)) and **no** Sophie Germain prime. \(P_2\) itself (\(n=42\)) is prime and not Sophie Germain.
+
+
+## Modular filter
+
+
+Every Sophie Germain prime except \(2\) and \(3\) is \(5\bmod 6\). Reason: an odd prime is \(1\) or \(5\bmod 6\). If \(p\equiv 1\bmod 6\) then \(2p+1\equiv 3\bmod 6\), hence divisible by \(3\) and larger than \(3\). So the map \(p\mapsto 2p+1\) kills the \(1\bmod 6\) class immediately. That is a one-line covering, not a deep law.
+
+
+## What is proved, what is not
+
+
+**Proved**
+
+
+- Germain, ~1825: if \(p\) is an odd Sophie Germain prime, the first case of Fermat’s Last Theorem holds for exponent \(p\) (no solutions with \(p\nmid xyz\)). That is why the class has her name. Wiles later made the special case obsolete as a route to FLT; the class stayed.
+- Euler–Lagrange: if \(p>3\) is Sophie Germain and \(p\equiv 3\pmod 4\), then the safe prime \(2p+1\) divides the Mersenne number \(M_p=2^p-1\). So those Mersenne numbers are composite. Example: \(p=11\equiv 3\pmod 4\), \(2p+1=23\), and \(23\mid 2^{11}-1=2047=23\cdot 89\).
+
+
+**Not proved**
+
+
+- Infinitely many Sophie Germain primes. Same status as twin primes: a special case of Dickson’s conjecture / Hardy–Littlewood.
+
+
+**Heuristic that actually fits the counts**
+
+
+\[
+\pi_{\mathrm{SG}}(x)\;\sim\; 2C_2\frac{x}{(\log x)^2},
+\qquad C_2\approx 0.6601618
+\]
+
+
+(the twin-prime constant). The extra \(2\) is the local factor at \(2\) coming from \(2p+1\) instead of \(p+2\). The table is uncomfortably good:
+
+
+| \(N\) | actual SG | estimate |
+|---|---|---|
+| \(10^3\) | 37 | 39 |
+| \(10^5\) | 1171 | 1166 |
+| \(10^7\) | 56032 | 56128 |
+| \(10^9\) | 3308859 | 3307888 |
+| \(10^{10}\) | 26569515 | 26568824 |
+
+
+Among primes the density still goes to \(0\):
+
+
+\[
+\frac{\pi_{\mathrm{SG}}(x)}{\pi(x)}\;\sim\;\frac{2C_2}{\log x}.
+\]
+
+
+Computed: \(15.5\%\) of primes \(\le 10^4\) are Sophie Germain; \(12.2\%\) of primes \(\le 10^5\). Most primes are not.
+
+
+Brun’s sieve already gives the matching *upper* bound \(O\bigl(x/(\log x)^2\bigr)\). A matching lower bound is open.
+
+
+## Safe primes and cryptography
+
+
+A safe prime \(q=2p+1\) makes \((\mathbb Z/q\mathbb Z)^\times\) have a subgroup of prime order \(p\). Diffie–Hellman and related discrete-log protocols use that so Pohlig–Hellman cannot split the order into small factors. “Safe” here means safe against that attack, not safe in any other sense. Generating a 2048-bit safe prime is slower than generating an ordinary prime; protocols often use standardized safe primes instead of hunting new ones.
+
+
+The largest known Sophie Germain prime is still
+
+
+\[
+2618163402417\cdot 2^{1290000}-1
+\]
+
+
+(388,342 digits, Brown / PrimeGrid, February 2016). Its partner \(2p+1\) is the matching record safe prime. Smaller but still huge specimens keep appearing on the PrimePages top-20; none has beaten that digit count.
+
+
+## Longer Germain chains
+
+
+Iterating \(p\mapsto 2p+1\) is the first-kind Cunningham chain again. Among the first 5,000 Sophie Germain primes the length counts were roughly:
+
+
+| chain length | count |
+|---|---|
+| 2 | 4199 |
+| 3 | 686 |
+| 4 | 92 |
+| 5 | 19 |
+| 6 | 4 |
+
+
+Examples of length \(\ge 5\) starters: \(2\), \(179\), \(89\). Length 19 exists in the second kind; first kind tops out at 17 in the record tables. Each extra step multiplies the heuristic by another \(1/\log x\).
+
+
+## Geometry, if you insist
+
+
+Sophie Germain is the statement that primality is retained under the presentation map \(U(x)=2x+1\). For a generic prime it is not: \(U(P_1)\) and \(U(P_2)\) both split. The exact refinement of “is prime” that makes \(U\) descend is “is Sophie Germain.” That is all. It does not place these numbers on the 39-screen, the torus, or a frequency list.
+
+
+If you want a next concrete pass: search Sophie Germain primes of the palindromic shape \(10^n + k\cdot 10^m + 1\) for other middle blocks besides \(666\), or generate a safe-prime pair at a size you actually need.
+
+
+A **safe prime** is a prime \(p=2q+1\) with \(q\) also prime. In crypto, \(q\) is the Sophie Germain prime and \(p\) is the modulus. The name is narrow: it means the multiplicative group \((\mathbb Z/p\mathbb Z)^\times\) has almost no small subgroups. It does not mean “safe against every attack.”
+
+
+## Why the group shape matters
+
+
+\((\mathbb Z/p\mathbb Z)^\times\) is cyclic of order \(p-1\). Subgroup orders are the divisors of \(p-1\).
+
+
+If \(p=2q+1\) is safe, those orders are only
+
+
+\[
+1,\quad 2,\quad q,\quad 2q=p-1.
+\]
+
+
+So the group has one trivial subgroup, one order-2 subgroup \(\{1,-1\}\), one huge prime-order subgroup of size \(q\), and the full group. There is nowhere small to hide.
+
+
+Two textbook attacks care about that.
+
+
+**Pohlig–Hellman.** Discrete log in a group of order \(n\) reduces to discrete logs in the prime-power factors of \(n\). If \(p-1\) is a product of small primes, the discrete-log problem in \((\mathbb Z/p\mathbb Z)^\times\) falls apart. A safe prime makes the only odd prime factor of the order as large as \((p-1)/2\), so Pohlig–Hellman does not get a shortcut. You still have to solve a discrete log of size about \(p\).
+
+
+**Small-subgroup confinement.** In Diffie–Hellman, one party sends \(g^a\). If an attacker substitutes an element of tiny order, the other party’s resulting shared secret lies in that tiny subgroup and leaks bits of the private exponent. With a safe prime the only tiny orders are \(1\) and \(2\). Checking that the received value is not \(0,1,\) or \(p-1 \pmod p\) is enough. With a general prime you must also check that the value has the intended large prime order, which is an extra exponentiation.
+
+
+That is the whole algebraic reason. Safe primes do **not** help against the number-field sieve, which is the actual record-setting attack on finite-field discrete log. NFS cost depends on the size of \(p\), not on whether \((p-1)/2\) is prime.
+
+
+## How protocols actually use them
+
+
+**Finite-field Diffie–Hellman** (classic DH, IKE MODP, TLS `ffdhe`, SSH group exchange) usually takes a safe prime \(p\) and generator \(g=2\). Then \(g\) has order \(q=(p-1)/2\), not order \(p-1\). Working in the index-2 subgroup means the Legendre symbol of \(g^a\) does not leak the least bit of \(a\). RFC 3526 (IKE MODP 1536–8192) and RFC 7919 (TLS 1.3 `ffdhe2048` through `ffdhe8192`) are safe-prime groups constructed that way. TLS 1.3 dropped custom groups and only allows those named ones. NIST SP 800-56A Rev. 3 lists approved safe-prime groups for finite-field key agreement.
+
+
+**DSA / Schnorr signatures** usually do *not* use a safe prime. They use a Schnorr group: \(p=rq+1\) with \(q\) only 256 bits or so and \(p\) 2048 bits or so. Signatures are two numbers of size \(q\), so a safe prime would make every signature a kilobyte. DH has no such compression, so the extra bits in \(q\) are cheaper than they look, and a small generator \(g=2\) is available. That is why “safe prime for DH, Schnorr group for DSA” became the default split.
+
+
+**SRP, some PAKE designs, and older IPsec** follow the DH convention: safe prime, check the obvious small values.
+
+
+FIPS 186-5 retired DSA for new signatures. Finite-field DH is still standardized, but new designs mostly moved to elliptic curves (X25519, P-256, P-384), where the analogue of “safe prime” is “prime-order curve, cofactor 1 or a tiny checked cofactor.”
+
+
+## What “safe” does not buy you
+
+
+A 768-bit safe prime is still a 768-bit field. NFS precomputation on a **fixed** popular modulus is the real operational failure mode. The 2015 Logjam work showed that a small set of 512- and 1024-bit standardized groups sat under a huge fraction of HTTPS, IPsec, and SSH. Once the number-field sieve precomputation for that one \(p\) is done, individual logs are relatively cheap. Safe-ness of \(p\) does not change that. Size and uniqueness do. Current operational floor is **2048-bit** finite-field groups; 3072 or 4096 if you want margin. 512-bit DH is treated as broken; 1024-bit is treated as nation-state plausible.
+
+
+The 2019 record discrete log was taken modulo the first safe prime above RSA-240:
+
+
+\[
+p=\text{RSA-240}+49204\qquad(795\text{ bits}).
+\]
+
+
+Same team, same software (CADO-NFS), about 3100 core-years for the log versus about 900 for the factorization. A safe prime of that size is an academic target, not a protocol parameter.
+
+
+## Safe prime ≠ RSA “strong prime”
+
+
+RSA literature uses **strong prime** for a different checklist: large prime factors of \(p-1\) and \(p+1\), sometimes of \(p-1\)'s factors, to blunt old Pollard \(p-1\), Williams \(p+1\), and some cycling attacks on the modulus. A safe prime is automatically strong in the \(p-1\) direction, but RSA does not want \(p\) itself public and does not need \(p=2q+1\). Do not mix the two checklists.
+
+
+## Generation
+
+
+To make a \(b\)-bit safe prime you search odd candidates \(q\) of \(b-1\) bits until both \(q\) and \(2q+1\) pass a primality test. Expected trials scale like \((\ln q)^2\), so 2048-bit safe primes are slower to find than ordinary 2048-bit primes but routine. Protocols almost never generate a fresh one per connection; they use a named group with published primality proofs (Red Hat ships Prüfer certificates for the RFC 7919 primes). Generating your own 2048-bit safe prime is fine for an isolated system. Publishing a new global group that millions of servers share recreates the Logjam setup.
+
+
+Nothing-up-my-sleeve constructions (bits of \(\pi\) in the Oakley / RFC 3526 primes) exist so the modulus is not accused of being planted with a secret trapdoor polynomial for SNFS. That is a separate hygiene rule from being safe.
+
+
+## Status in 2026
+
+
+| Use | Safe prime? | Current practice |
+|---|---|---|
+| TLS 1.3 finite-field DH | Yes, named RFC 7919 groups only | Allowed; ECDHE preferred |
+| IKE / IPsec MODP | Yes, RFC 3526 | Still common at 2048+ |
+| SSH | Mix of moduli file and ECDH | Prefer curve25519 |
+| DSA signatures | No; Schnorr subgroup | DSA withdrawn for new sigs (FIPS 186-5) |
+| New designs | Rare | ECC or post-quantum KEM |
+
+
+Safe primes remain the correct conservative choice **if** you are still doing finite-field DH. They are not a substitute for bit length, for not sharing one modulus with the whole internet, or for moving to elliptic curves / Kyber when the protocol allows it.
+
+
+## Your two primes
+
+
+\(P_1\) and \(P_2\) are ordinary primes, not safe, not Sophie Germain, and the wrong shape for a DH modulus anyway. A decorative decimal form is the opposite of what you want in a group: it looks structured, which is what SNFS likes. Do not use them as crypto parameters.
+
+
+If you want a next concrete artifact: a short parameter card that states the checks a DH implementation must run on a safe-prime group (\(p\) prime, \(q=(p-1)/2\) prime, \(g^{(p-1)/2}\equiv -1\pmod p\) or order-\(q\) check, reject \(0,\pm 1\)), with no generation recipe beyond “use RFC 7919.”
+
+
+Pohlig–Hellman computes a discrete logarithm when the group order is smooth. It does not invent a new hard problem; it reduces one discrete log in \(G\) to several discrete logs in the prime-order subgroups of \(G\), then glues the answers with the Chinese Remainder Theorem. If those prime factors are small, the pieces are easy. If one factor is huge, that piece is essentially the original problem.
+
+
+## The problem
+
+
+Let \(G=\langle g\rangle\) be cyclic of order \(n\), written multiplicatively. Given \(h\in G\), find the unique \(x\bmod n\) with
+
+
+\[
+g^x=h.
+\]
+
+
+Write
+
+
+\[
+n=\prod_i p_i^{e_i}.
+\]
+
+
+The algorithm finds each residue \(x\bmod p_i^{e_i}\) and reconstructs \(x\bmod n\).
+
+
+## Step 1 — split by CRT
+
+
+For a fixed prime power \(p^e\| n\) set
+
+
+\[
+\gamma=g^{n/p^e},\qquad \beta=h^{n/p^e}.
+\]
+
+
+Then \(\gamma\) has order \(p^e\), and
+
+
+\[
+\beta=\gamma^{x\bmod p^e}.
+\]
+
+
+So it is enough to solve a discrete log in the subgroup of order \(p^e\). Do this for every prime power and combine.
+
+
+## Step 2 — digits in base \(p\)
+
+
+Now work in a group of order \(p^e\). Write the unknown as
+
+
+\[
+x=x_0+x_1 p+x_2 p^2+\cdots+x_{e-1}p^{e-1},\qquad 0\le x_j<p.
+\]
+
+
+The digits come off one at a time.
+
+
+Let \(\gamma_0=\gamma^{p^{e-1}}\). This element has order \(p\). Then
+
+
+\[
+\beta^{p^{e-1}}=\gamma_0^{x_0},
+\]
+
+
+so \(x_0\) is a discrete log in a group of order \(p\). For small \(p\) that is a search of length \(p\) (or baby-step giant-step in \(O(\sqrt p)\)).
+
+
+Peel:
+
+
+\[
+\beta\leftarrow \beta\cdot\gamma^{-x_0},\qquad x\leftarrow x-x_0.
+\]
+
+
+The new target is divisible by \(p\). Repeat for \(x_1\) using order-\(p\) elements \(\gamma^{p^{e-2}}\) against \(\beta^{p^{e-2}}\), and so on, until all \(e\) digits are known.
+
+
+Each prime-power slot therefore costs about \(e\) discrete logs of size \(p\), not one discrete log of size \(p^e\).
+
+
+## Worked example
+
+
+Group \((\mathbb Z/19\mathbb Z)^\times\), generator \(g=2\), order \(n=18=2\cdot 3^2\). Target \(h=13\). Brute force says \(2^5\equiv 13\pmod{19}\), so \(x=5\). Pohlig–Hellman should recover that without listing the whole group.
+
+
+**Modulo 2.**  
+\(\gamma=g^{9}=2^9\equiv -1\), \(\beta=13^9\equiv -1\).  
+\((-1)^{x}\equiv -1\), so \(x\equiv 1\pmod 2\).
+
+
+**Modulo 9.**  
+Work in the order-9 subgroup:
+
+
+\[
+\gamma=g^{2}=4,\qquad \beta=h^{2}=13^{2}\equiv 17\pmod{19}.
+\]
+
+
+Write \(x=x_0+3x_1\) with \(x_0,x_1\in\{0,1,2\}\).
+
+
+Order-3 element: \(4^3\equiv 7\). Then
+
+
+\[
+17^3\equiv 11\pmod{19},\qquad 7^{x_0}\equiv 11.
+\]
+
+
+\(7^2=49\equiv 11\), so \(x_0=2\).
+
+
+Update: \(\beta\leftarrow 17\cdot 4^{-2}\equiv 7\pmod{19}\). Now
+
+
+\[
+7^{x_1}\equiv 7\implies x_1=1.
+\]
+
+
+Hence \(x\equiv 2+3\cdot 1=5\pmod 9\).
+
+
+**CRT.** \(x\equiv 1\pmod 2\) and \(x\equiv 5\pmod 9\) give \(x\equiv 5\pmod{18}\).
+
+
+## Complexity
+
+
+If the largest prime factor of \(n\) is \(p_{\max}\), and you solve the order-\(p\) logs by baby-step giant-step,
+
+
+\[
+T=O\Bigl(\sum_i e_i(\sqrt{p_i}+\log n)\Bigr)
+\]
+
+
+group operations, plus cheap CRTs. The \(\sqrt{p_{\max}}\) term dominates. That is why “\(n\) is \(B\)-smooth” is the condition that makes Pohlig–Hellman practical: every \(p_i\le B\).
+
+
+If \(n=2q\) with \(q\) prime (safe-prime case), the algorithm reduces to one discrete log of size \(q\approx n/2\). You have saved a single bit. You have not broken the group.
+
+
+## What it is and is not
+
+
+It is a reduction. The hard kernel is always a discrete log in a prime-order subgroup. Pollard rho or baby-step giant-step then finish that kernel. The number-field sieve is a different algorithm: it attacks the *field* \(\mathbb F_p\), not the smoothness of \(p-1\). A 2048-bit safe prime kills Pohlig–Hellman and leaves NFS untouched.
+
+
+It is also the reason DSA uses a 256-bit prime \(q\) dividing \(p-1\): signatures live in the order-\(q\) subgroup, so Pohlig–Hellman cannot drop below that \(q\). Choosing \(q\) 160 bits with a 1024-bit \(p\) was the old FIPS 186 matching of “PH-security = NFS-security.” That pairing is obsolete; the field size had to grow.
+
+
+Same reduction works in any cyclic group — elliptic-curve subgroups included — whenever the order is smooth. Prime-order curves exist specifically so this algorithm has nothing to split.
+
+
+No further “how to run this against a live modulus” is useful or needed: for any group whose order you do not already know to be smooth, the first problem is factoring that order, and for a safe prime that factoring is trivial and the remaining log is not.
+
+
+The elliptic-curve discrete logarithm problem is the same question as before, in a different group. That change of group is the whole subject.
+
+
+## The problem
+
+
+Let \(E\) be an elliptic curve over a finite field \(\mathbb F_q\), and let \(P\in E(\mathbb F_q)\) have prime order \(n\). Given \(Q\) in the subgroup \(\langle P\rangle\), find the integer \(k\bmod n\) such that
+
+
+\[
+Q=[k]P.
+\]
+
+
+Addition is the chord-and-tangent group law. The forward map \(k\mapsto [k]P\) is cheap (double-and-add, about \(\log n\) additions). The inverse is ECDLP.
+
+
+Protocols hide \(k\): ECDH sends \([k]P\); ECDSA/EdDSA public keys are \([k]P\); secp256k1 Bitcoin keys are the same object.
+
+
+Hasse’s bound says \(\#E(\mathbb F_q)=q+1-t\) with \(|t|\le 2\sqrt q\). So a 256-bit field gives a group of about 256 bits. Choose the curve so that \(n=\#E(\mathbb F_q)\) (or a cofactor-\(1\) or cofactor-\(8\) subgroup) is prime, and Pohlig–Hellman has nothing to split — the same reason a safe prime was used in \(\mathbb F_p^\times\).
+
+
+## Generic algorithms still work
+
+
+ECDLP is a discrete log in a cyclic group, so every generic algorithm transfers.
+
+
+- **Pohlig–Hellman**, exactly as in the last note, if \(n\) is smooth. Prime-order curves exist to kill this.
+- **Baby-step giant-step:** \(O(\sqrt n)\) time and memory.
+- **Pollard rho** (and the parallel distinguished-point version): expected \(\sqrt{\pi n/2}\) group operations, small memory. The negation map \(P\mapsto -P\) cuts that by \(\sqrt 2\). An efficiently computable endomorphism (GLV on secp256k1, because \(j=0\)) cuts another small constant. That is the best general classical attack.
+
+
+For a 256-bit prime-order curve, rho is about \(2^{128}\) additions. That is the “128-bit security” slogan. It is not an NFS-style subexponential.
+
+
+Records for *unrestricted* prime-field ECDLP sit around **112–113 bits**, set with parallel rho (PlayStation 3 cluster in 2009; later FPGA work on binary/Koblitz curves of similar size). Restricted-interval searches on secp256k1-shaped curves have been pushed a little higher as calibration challenges. Nothing in that range threatens P-256, secp256k1, or Curve25519.
+
+
+## Why index calculus does not simply move over
+
+
+In \(\mathbb F_p^\times\), NFS / index calculus wins because integers factor and the field has a notion of “small.” Points on \(E\) do not factor. Attempts to force an index calculus (Semaev summation polynomials, Diem, Gaudry-style Weil restriction on extension fields) exist and do bite **some** curves — especially over \(\mathbb F_{p^n}\) with composite \(n\), or genus-\(>1\) Jacobians. On a prime-field curve of cryptographic size they have not beaten rho. That single fact is why a 256-bit curve is treated as matching a 3072-bit finite-field group.
+
+
+## Curve-specific breaks
+
+
+These are not generic. They fire when the curve was chosen badly. Standards exist so they never fire.
+
+
+**Singular curve.** Discriminant \(4a^3+27b^2=0\). The “group” degenerates to \(\mathbb F_q\) or \(\mathbb F_q^\times\) and the log becomes a field discrete log or an ordinary division. Not a curve.
+
+
+**Anomalous / Smart.** \(\#E(\mathbb F_p)=p\) (trace of Frobenius \(t=1\)). Lift the curve to the \(p\)-adics; the formal group is isomorphic to \(\widehat{\mathbb G}_a\), and the log becomes a division in \(\mathbb Q_p\). Polynomial time. Check \(\#E\neq p\).
+
+
+**MOV / Frey–Rück.** A pairing (Weil or Tate) is a bilinear map
+
+
+\[
+e:E[n]\times E[n]\to\mu_n\subset\mathbb F_{q^k}^\times.
+\]
+
+
+If the embedding degree \(k\) — the smallest \(k\) with \(n\mid q^k-1\) — is tiny, ECDLP transfers to a field discrete log in \(\mathbb F_{q^k}\) and NFS applies. Supersingular curves have \(k\le 6\). Ordinary cryptographic curves are chosen with \(k\) on the order of \(n\), so \(\mathbb F_{q^k}\) is unusable. Pairing-friendly curves (BN, BLS) *want* small \(k\) for pairing-based crypto; they must then take a much larger field so that \(\mathbb F_{q^k}\) itself is NFS-hard. Do not use a pairing-friendly curve as if it were P-256.
+
+
+**Weil descent / GHS.** Curves over \(\mathbb F_{2^n}\) or \(\mathbb F_{p^n}\) with composite \(n\) can be pushed into a higher-genus Jacobian over a subfield, where index calculus is cheaper. Avoid binary extension fields with composite degree. FIPS 186-5 deprecated binary curves.
+
+
+**Small cofactor / invalid point / twist.** If you do not check that a received point lies on the intended curve and in the intended subgroup, an attacker can send a point of small order or a point on the quadratic twist. That is the elliptic analogue of the small-subgroup confinement that safe primes were invented to stop. Twist-secure curves (Curve25519, Ed25519) make the twist’s order also near-prime, so a Montgomery ladder with no \(y\)-coordinate still lands in a hard group. cofactor-\(8\) on Curve25519 is handled by clamping or cofactor clearing, not by hoping.
+
+
+## Parameter hygiene, in one list
+
+
+A curve used as a drop-in “safe prime analogue” should have:
+
+
+- prime field, large characteristic
+- group order \(n\) prime, or tiny cofactor (\(4\) or \(8\)) with explicit clearing
+- twist order also near-prime
+- embedding degree huge
+- not anomalous, not singular, not supersingular
+- CM discriminant large enough that extra endomorphisms are not a surprise (or, if they exist as on secp256k1, accounted for in the rho estimate)
+- complete or otherwise exception-free addition formulas, constant-time scalar multiplication
+
+
+That is the SafeCurves checklist in compressed form. P-256 fails some implementation items (non-complete formulas, historically messy validation). Curve25519 / Ed25519 were designed to pass them. secp256k1 is prime-order, not MOV-weak, and has an extra endomorphism that speeds *both* legitimate scalar mul and rho by a small constant; it is still in the \(2^{128}\) ballpark.
+
+
+## Security sizes
+
+
+| Object | Best classical attack | Rough security |
+|---|---|---|
+| 2048-bit safe prime DH | NFS on \(\mathbb F_p\) | ~112 bits |
+| 3072-bit safe prime DH | NFS | ~128 bits |
+| 224-bit prime-order curve | Pollard rho | ~112 bits |
+| 256-bit prime-order curve | Pollard rho | ~128 bits |
+| 384-bit prime-order curve | Pollard rho | ~192 bits |
+| secp256k1 / P-256 / X25519 | rho + small constants | ~128 bits |
+
+
+The table is why ECC replaced finite-field DH in new designs: same claimed security, far smaller keys and signatures.
+
+
+## Quantum
+
+
+Shor’s algorithm solves ECDLP in polynomial time in any finite abelian group, curves included. A cryptographically relevant quantum computer breaks secp256k1, P-256, and Curve25519 the same way it breaks a safe-prime DH group — by period finding on the hidden scalar. Resource estimates are smaller for ECC than for RSA of comparable classical security, which is one reason migration timelines treat ECC and RSA as the same bucket and point at ML-KEM / ML-DSA / SLH-DSA instead. No such machine exists today; Pollard rho remains the operational bound.
+
+
+## Tie-back
+
+
+Safe primes made \(p-1=2q\) so Pohlig–Hellman could not split \(\mathbb F_p^\times\). Prime-order curves make \(n\) prime so Pohlig–Hellman cannot split \(E(\mathbb F_q)\). The remaining hardness is different: NFS on a field versus rho on a group with no useful factorisation. That is the entire practical advantage of elliptic curves, and also why “is this a safe prime?” is the wrong question to ask about secp256k1. Ask whether \(n\) is prime, whether the embedding degree is huge, and whether the implementation rejects points that are not on the curve.
+
+
+Weil restriction is a change of base field, not a pairing and not Pohlig–Hellman. It takes a one-dimensional object over a big field and rewrites it as a higher-dimensional object over a small field. Sometimes the new object has a discrete log that is easier than the original ECDLP. Sometimes it is worse. The whole subject is knowing which case you are in.
+
+
+## Restriction of scalars
+
+
+Let \(K/k\) be a degree-\(n\) extension of finite fields, say \(K=\mathbb F_{q^n}\) and \(k=\mathbb F_q\). An elliptic curve \(E/K\) is given by one equation in two variables over \(K\). Choose a \(k\)-basis \(\{1,\theta,\ldots,\theta^{n-1}\}\) of \(K\) and write every coefficient and every coordinate as an \(n\)-tuple over \(k\):
+
+
+\[
+x=\sum_{i=0}^{n-1}x_i\theta^i,\qquad
+y=\sum_{i=0}^{n-1}y_i\theta^i.
+\]
+
+
+Substitute into the Weierstrass equation and expand. Linear independence of the basis splits that one \(K\)-equation into \(n\) equations over \(k\), in \(2n\) variables. The resulting variety
+
+
+\[
+W=\mathrm{Res}_{K/k}(E)
+\]
+
+
+is an abelian variety of dimension \(n\) over \(k\), the **Weil restriction** of \(E\). On points,
+
+
+\[
+W(k)\;\cong\;E(K)
+\]
+
+
+as groups. So the ECDLP on \(E(K)\) is literally the discrete log on \(W(k)\). Nothing has been solved; the same group has been rewritten over the small field. Frey suggested this as an attack surface because discrete log on higher-dimensional abelian varieties is sometimes easier than on elliptic curves.
+
+
+The problem is that \(W\) itself is the wrong shape for existing algorithms. You need a **curve** \(C/k\) sitting inside \(W\) whose Jacobian \(J_C\) receives the original subgroup via an explicit homomorphism, and whose genus is in the Goldilocks zone: large enough that \(J_C(k)\) can hold the subgroup, small enough that index calculus on \(J_C\) beats Pollard rho on \(E(K)\).
+
+
+## The GHS construction
+
+
+Gaudry–Hess–Smart made that curve explicit in characteristic 2. Start with an Artin–Schreier model
+
+
+\[
+E:\; y^2+xy=x^3+ax^2+b
+\]
+
+
+over \(K=\mathbb F_{q^n}\). The Galois conjugates of the function field of \(E\) generate a larger function field over \(k\). The corresponding curve \(C/k\) is hyperelliptic (in the original GHS range) of genus
+
+
+\[
+g=2^{m}-1\quad\text{or}\quad 2^{m-1}-1,
+\]
+
+
+where \(m\) is the dimension of a certain \(\mathbb F_2\)-vector space built from the Galois orbit of \(\sqrt b\). There is then a homomorphism
+
+
+\[
+\phi:E(K)\longrightarrow J_C(k)
+\]
+
+
+that is injective on the large prime-order subgroup under mild trace conditions on \(a\) and \(b\). ECDLP on \(E(K)\) becomes HCDLP on \(J_C(k)\).
+
+
+Index calculus on a hyperelliptic Jacobian of genus \(g\) over \(\mathbb F_q\) costs, very roughly,
+
+
+\[
+\tilde O\bigl(q^{2-2/(g+1)}\bigr)
+\]
+
+
+in the Gaudry / Enge–Gaudry regime for small fixed \(g\), and gets worse as \(g\) grows. Compare that to Pollard rho on \(E(K)\), which costs \(O(q^{n/2})\). GHS wins only when \(g\) is moderate and \(n\) is composite, so that \(q\) is much smaller than \(q^{n/2}\).
+
+
+Two failure modes are immediate:
+
+
+- **Genus too small.** Then \(\#J_C(k)\) cannot contain the cryptographic subgroup, and \(\phi\) loses the instance.
+- **Genus too large.** Then index calculus on \(J_C\) is slower than rho on \(E\). For \(n\) prime the only proper subfield is \(\mathbb F_2\), and GHS produces genus around \(2^{n}-1\), which is unusable. That is why GHS fails for every cryptographically interesting curve over \(\mathbb F_{2^n}\) with \(n\) prime in \([160,600]\).
+
+
+Composite \(n\) is the dangerous case. Then there is an intermediate field, \(m=n/\ell\) can be small, and \(g\) can land in the usable range. Analyses by Menezes–Qu, Maurer–Menezes–Teske, and others flagged specific composite extensions — \(\mathbb F_{2^{155}}\), \(\mathbb F_{2^{176}}\), \(\mathbb F_{2^{208}}\), and several ANSI X9.62 examples — where a positive-density subset of curves is weaker than rho. Degree divisible by 4 is particularly unpleasant. Hess later generalized GHS from Artin–Schreier to a broader class of covers and, with Galbraith–Smart, extended the set of weak curves by walking isogenies: if \(E\) itself is GHS-resistant but an isogenous \(E'\) is not, map the log across the isogeny and attack \(E'\). That almost squared the number of weak curves over some composite fields.
+
+
+## The picture, not the original GHS
+
+
+A later and separate thread uses Weil restriction on **Semaev summation polynomials** rather than on the curve. You write the ECDLP as a system of polynomial equations over \(K\), restrict scalars to \(k\), and try to Gröbner-basis the descended system. Claims of subexponential ECDLP in small characteristic grew out of that. Those claims depend on heuristics (first-fall degree, last-fall degree) that later work treated with suspicion; Huang–Kosters–Yeo produced examples where the first-fall assumption fails. Treat “quasi-polynomial ECDLP in char 2” as un-settled, not as a theorem. The geometric GHS cover attack is on firmer ground. It just does not apply to the curves anyone still deploys.
+
+
+## When it cannot start
+
+
+Weil restriction needs a proper subfield.
+
+
+- **Prime field \(\mathbb F_p\).** The only subfield is \(\mathbb F_p\). \(\mathrm{Res}_{p/p}(E)=E\). There is nothing to descend to. P-256, secp256k1, Curve25519 are immune to GHS for this stupid reason, not because of a subtle genus computation.
+- **Prime extension degree.** \(\mathbb F_{2^{163}}\), \(\mathbb F_{2^{233}}\), \(\mathbb F_{2^{283}}\) have no intermediate field. GHS either produces a tiny Jacobian over \(\mathbb F_2\) or a monster genus. Neither helps. (Binary curves have other problems — FIPS 186-5 deprecated them — but GHS is not the reason.)
+- **Odd characteristic with prime degree** is likewise uninteresting for classical GHS. There are odd-char analogues and cover attacks under extra isogeny hypotheses; they are a classification problem, not a generic break.
+
+
+## Relation to the earlier attacks
+
+
+| Attack | What it uses | Killed by |
+|---|---|---|
+| Pohlig–Hellman | smooth group order | prime order \(n\) |
+| MOV / Frey–Rück | small embedding degree | huge \(k\) |
+| Smart | \(\#E=p\) | check the order |
+| Weil restriction / GHS | extension field with composite degree | prime field, or prime extension degree |
+| Pollard rho | nothing structural | only \(\sqrt n\) |
+
+
+A safe prime was the finite-field way to kill Pohlig–Hellman. A prime field is the elliptic-curve way to kill Weil restriction. They are different covering arguments: one about the factorization of \(n\), one about the factorization of the extension degree of the coefficient field.
+
+
+The operational conclusion has been stable since the early 2000s: do not put a cryptographic elliptic curve on \(\mathbb F_{q^n}\) with \(n\) composite. Prime fields make the question disappear. That is why modern curves never have to list “GHS-resistant” as a selling point. They never entered the ring.
+
+
+Semaev polynomials are the algebraic stand-in for “these points add to zero on \(E\).” That one sentence is why they exist. Everything after is an attempt to turn that identity into an index calculus for ECDLP.
+
+
+## Definition
+
+
+Let \(E\) be an elliptic curve over a field \(K\), written in Weierstrass form. For each integer \(m\ge 2\) there is a polynomial
+
+
+\[
+S_m(X_1,\ldots,X_m)\in K[X_1,\ldots,X_m],
+\]
+
+
+unique up to scalar, with the property:
+
+
+\[
+S_m\bigl(x(P_1),\ldots,x(P_m)\bigr)=0
+\]
+
+
+if and only if there are signs \(\varepsilon_i\in\{\pm 1\}\) such that
+
+
+\[
+\varepsilon_1 P_1+\cdots+\varepsilon_m P_m=\mathcal O
+\]
+
+
+on \(E\), for points \(P_i\neq\mathcal O\). Only \(x\)-coordinates appear. The \(y\)-coordinates, and the signs, have been eliminated.
+
+
+They are built recursively by resultants.
+
+
+\[
+\begin{align}
+S_2&=X_1-X_2,\\[0.4em]
+S_3&=(X_1-X_2)^2 X_3^2
+-2\bigl((X_1+X_2)(X_1 X_2+a_4)+2a_6\bigr)X_3\\
+&\quad+(X_1 X_2-a_4)^2-4a_6(X_1+X_2)
+\end{align}
+\]
+
+
+in characteristic not \(2\) or \(3\), for \(y^2=x^3+a_4 x+a_6\). Characteristic \(2\) has a different \(S_3\), built from \(y^2+xy=x^3+ax^2+b\). For \(m\ge 4\),
+
+
+\[
+S_m=\mathrm{Res}_Y\bigl(S_{m-1}(X_1,\ldots,X_{m-2},Y),\; S_3(X_{m-1},X_m,Y)\bigr).
+\]
+
+
+Each \(S_m\) is symmetric and irreducible. The degree in each variable is \(2^{m-2}\). Total degree is \((m-1)2^{m-2}\). That exponential degree is the tax. \(S_3\) is small. \(S_6\) is already huge. \(S_8\) is not something you write down by hand.
+
+
+\(S_3=0\) is the condition that three \(x\)-coordinates come from points that are collinear in the chord-and-tangent sense (up to signs). Higher \(S_m\) chain that relation.
+
+
+## The point decomposition problem
+
+
+Index calculus on \(E(\mathbb F_{q^n})\) needs relations. Fix a factor base of points whose \(x\)-coordinates lie in a small \(k\)-vector subspace \(V\subset\mathbb F_{q^n}\), \(\dim_k V=\ell\):
+
+
+\[
+\mathcal F=\bigl\{P\in E(\mathbb F_{q^n}):x(P)\in V\bigr\}.
+\]
+
+
+A random combination \(R=aP+bQ\) of the ECDLP instance is a relation if
+
+
+\[
+R=P_1+\cdots+P_m\qquad\text{for some }P_i\in\mathcal F.
+\]
+
+
+That identity holds (up to signs) exactly when
+
+
+\[
+S_{m+1}\bigl(x(P_1),\ldots,x(P_m),x(R)\bigr)=0
+\]
+
+
+and each \(x(P_i)\) lies in \(V\). Finding such \(x_i\in V\) is the **point decomposition problem** (PDP). Semaev reduced PDP to finding zeros of one polynomial. Gaudry and Diem independently turned that into a working index-calculus outline over extension fields.
+
+
+A relation is expected with probability about \(q^{\ell m}/(m!\, q^n)\). You choose \(\ell\) and \(m\) so that this is not negligible and so that \(\#\mathcal F\approx q^\ell\) is large enough for linear algebra later. Typical balanced choices take \(m\approx n\) and \(\ell=1\), or \(m\) a bit smaller than \(n\).
+
+
+## Weil descent of the polynomial, not of the curve
+
+
+This is the fork from GHS.
+
+
+GHS restricts the *curve* and looks for a subvariety that is itself a curve. Here you keep \(E\) and restrict the *equation* \(S_{m+1}=0\).
+
+
+Write each unknown \(x_i\in V\) on an \(\mathbb F_q\)-basis of \(V\). One equation over \(\mathbb F_{q^n}\) becomes \(n\) equations over \(\mathbb F_q\), plus the field equations \(X_j^q-X_j=0\) if you work in the full field. The resulting system is what a Gröbner engine (F4/F5) is asked to solve. Each successful zero is a decomposition; collect enough of them; sparse linear algebra over \(\mathbb Z/n\mathbb Z\) yields the discrete log.
+
+
+The cost is therefore
+
+
+\[
+\underbrace{\text{number of trials}}_{\approx m!\,q^{n-\ell m}}
+\times
+\underbrace{\text{cost of one Gröbner basis}}_{\text{depends on }D_{\mathrm{reg}}}
++
+\text{linear algebra}.
+\]
+
+
+The unknown is \(D_{\mathrm{reg}}\), the degree of regularity of that descended system.
+
+
+## The first-fall controversy
+
+
+Petit–Quisquater argued that the system coming from \(S_{m+1}\) has **first fall degree** at most \(m^2+1\): the smallest degree at which a non-trivial degree drop appears in the Macaulay / F5 complex. They then assumed
+
+
+\[
+D_{\mathrm{reg}}=D_{\mathrm{first\ fall}}+o(1),
+\]
+
+
+which is true for many multivariate-crypto systems and is *not* a theorem for Semaev systems. Under that assumption the Gröbner step is polynomial in \(n\) for fixed \(m\), and with \(m\) growing slowly you get a claimed subexponential ECDLP in small characteristic.
+
+
+Later work cut both ways.
+
+
+- Kousidis–Wiemers proved a first fall already at degree \(m^2-m+1\), so the Petit–Quisquater upper bound was not sharp. That would make the *claimed* runtime better, if the heuristic held.
+- Huang–Kosters–Yeo introduced last-fall degree and produced Semaev-descended systems where the first-fall heuristic is implausible. Small-\(n\) experiments also show \(D_{\mathrm{reg}}\) sitting above the first-fall value often enough that “\(+o(1)\)” is not free.
+
+
+So: the polynomials are real, the reduction of PDP to a polynomial system is a theorem, the subexponential ECDLP claim is a heuristic about Gröbner regularity that has not been promoted to a theorem and has taken visible damage. For prime-field curves of cryptographic size the Gröbner systems are not even the right shape — there is no small subfield to descend into — and the method does not start.
+
+
+## Degrees, in one place
+
+
+| \(m\) | \(\deg_{X_i} S_m\) | role |
+|---|---|---|
+| 2 | 1 | \(X_1=X_2\), opposite points |
+| 3 | 2 | three points sum to \(\mathcal O\) |
+| 4 | 4 | four-point relation |
+| 5 | 8 | already unpleasant |
+| 6 | 16 | typical “ambitious” decomposition |
+
+
+Each extra point in the factor-base sum doubles the per-variable degree. That is why practical experiments stop around \(m=3,4,5\) and small \(n\), and why symmetrizing by \(2\)-torsion (or using a different map \(E\to\mathbb P^1\)) became a cottage industry: you want the same relation with a smaller polynomial.
+
+
+## What this is not
+
+
+- It is not GHS. GHS produces a hyperelliptic Jacobian over a subfield. Semaev produces a multivariate system over a subfield. Same Weil-restriction reflex, different object.
+- It is not a generic attack on P-256 or secp256k1. Those are prime-field curves. Restriction of scalars has nowhere to go.
+- It is not a replacement for Pollard rho on the curves that matter. Rho remains the operational bound.
+- It is not “polynomials that generate the ideal of the group law.” The group law still needs \(y\). Semaev eliminated \(y\) on purpose, at the cost of signs and of exponential degree.
+
+
+Semaev’s contribution was to write the addition law as a single symmetric equation in the \(x\)-line. Index calculus on elliptic curves is the project of solving that equation often enough, cheaply enough, over a factor base that is both structured and large. The equation is settled. The cheaply-enough part is not.
+
+
+GHS is a five-step reduction. It does not solve ECDLP by itself. It moves the instance from an elliptic curve over a big field onto a hyperelliptic Jacobian over a small field, and then you run whatever index calculus you have for that Jacobian.
+
+
+## Setting
+
+
+Characteristic 2. Let \(k=\mathbb F_q\) with \(q=2^\ell\), and let \(K=\mathbb F_{q^n}\) be a degree-\(n\) extension, \(n>1\). The interesting case is \(n\) composite, so \(K/k\) has intermediate fields. Take an ordinary elliptic curve in Artin–Schreier form
+
+
+\[
+E/K:\qquad y^2+xy=x^3+ax^2+b,\qquad b\neq 0.
+\]
+
+
+Write \(\#E(K)=\ell_0\cdot h\) with \(\ell_0\) a large prime and \(h\) a tiny cofactor. The instance is: given \(P,Q\in E(K)\) of order \(\ell_0\), find \(k\) with \(Q=[k]P\).
+
+
+Pollard rho on this group costs about \(q^{n/2}\). GHS tries to replace that with a discrete log in \(J_C(k)\) for a hyperelliptic curve \(C/k\) of moderate genus.
+
+
+## Step 1 — Artin–Schreier picture
+
+
+Over a field of characteristic 2 the function field \(K(E)/K(x)\) is the Artin–Schreier extension
+
+
+\[
+y^2+y=f(x)
+\]
+
+
+after the usual change of variables that completes the square in \(y\). The Artin–Schreier operator is \(\wp(t)=t^2+t\). Two such equations \(y^2+y=f\) and \(y^2+y=g\) define the same extension iff \(f-g\) lies in \(\wp\bigl(K(x)\bigr)\). So the extension class of \(E\) is a point in the \(\mathbb F_2\)-vector space
+
+
+\[
+K(x)\big/\wp\bigl(K(x)\bigr).
+\]
+
+
+Galois \(\mathrm{Gal}(K/k)=\langle\sigma\rangle\cong\mathbb Z/n\mathbb Z\) acts on that space. The subspace \(U\) generated by the class of \(f\) as an \(\mathbb F_2[\sigma]\)-module is finite-dimensional. Its dimension
+
+
+\[
+m=\dim_{\mathbb F_2}U
+\]
+
+
+is the one integer that decides whether GHS is worth running. In the original papers this is packaged as \(m(b)\), computed from the Galois orbit of \(\sqrt b\). Possible values of \(m\) are tightly constrained: \(U\) is an \(\mathbb F_2[\mathbb Z/n\mathbb Z]\)-module, so
+
+
+\[
+m=\kappa\,\varphi_2(n)\quad\text{or}\quad m=\kappa\,\varphi_2(n)+1
+\]
+
+
+for a small integer \(\kappa\), where \(\varphi_2(n)\) is the number of odd prime factors of \(n\) counted in the usual 2-power way. You cannot get an arbitrary genus.
+
+
+## Step 2 — build the cover \(C\)
+
+
+Adjoin *all* Galois conjugates of the Artin–Schreier generator at once. The compositum
+
+
+\[
+F=K(x)\bigl(\wp^{-1}(\sigma^i f):0\le i<n\bigr)
+\]
+
+
+is a function field over \(K\). Under the trace conditions
+
+
+\[
+n\text{ odd},\qquad\text{or}\qquad m(b)=n,\qquad\text{or}\qquad \mathrm{Tr}_{K/\mathbb F_2}(a)=0,
+\]
+
+
+the Frobenius \(\sigma\) of \(K/k\) extends to \(F\), so \(F\) descends to a function field over \(k\). Let \(C/k\) be the corresponding curve. In the original GHS range \(C\) is hyperelliptic of genus
+
+
+\[
+g=2^m-1\qquad\text{or}\qquad g=2^{m-1}-1.
+\]
+
+
+That is the whole geometric content: one elliptic curve over \(K\) produces one hyperelliptic curve over \(k\), whose genus is an exponential of the module-rank \(m\), not of \(n\). If \(m\) is 2, 3, or 4 you have genus 3, 7, 15, or 31 — possibly usable. If \(m\) is 16 you have genus \(2^{16}-1\) and you stop.
+
+
+Hess later replaced “this particular Artin–Schreier generator” by an arbitrary Artin–Schreier extension (generalized GHS). The same three questions remain: does Frobenius extend, what is the genus, does the log survive the map.
+
+
+## Step 3 — move the instance: conorm, then norm
+
+
+You now have two maps of Jacobians.
+
+
+- **Conorm** \(\mathrm{Con}_{C/E}:J_E(K)\to J_C(K)\) comes from the cover \(C_K\to E\).
+- **Norm** \(N_{C/C_0}:J_C(K)\to J_C(k)\) is the norm of the constant-field extension \(K/k\).
+
+
+Their composite
+
+
+\[
+\phi=N\circ\mathrm{Con}:E(K)\;\longrightarrow\; J_C(k)
+\]
+
+
+is a group homomorphism. Under the trace conditions above, the large prime \(\ell_0\) does **not** divide \(\#\ker\phi\). So \(\phi(P)\) and \(\phi(Q)\) still generate a cyclic group of order \(\ell_0\) inside \(J_C(k)\), and
+
+
+\[
+Q=[k]P\quad\Longleftrightarrow\quad\phi(Q)=[k]\,\phi(P).
+\]
+
+
+That is the only property you need. You do not need \(\phi\) to be injective on all of \(E(K)\). You need it injective on the cryptographic subgroup. Hess proved that for the generalized construction. If \(\ell_0\) did land in the kernel the reduction would be worthless, and that is a check you actually run: compute \(\phi(P)\) and confirm it has order \(\ell_0\).
+
+
+## Step 4 — solve HCDLP on \(J_C(k)\)
+
+
+Now you have an ordinary discrete log in the Jacobian of a hyperelliptic curve of genus \(g\) over \(\mathbb F_q\). For small fixed \(g\) the Enge–Gaudry / Gaudry index calculus costs roughly
+
+
+\[
+\tilde O\bigl(q^{2-2/(g+1)}\bigr)
+\]
+
+
+field operations, with a factor-base of smoothness bound about \(q^{1/(g+1)}\). Compare to rho on the original curve, \(O(q^{n/2})\). GHS is a win only when
+
+
+\[
+2-\frac{2}{g+1}\;<\;\frac n2
+\]
+
+
+by enough margin to pay for building \(C\) and evaluating \(\phi\). That is why genus 3 or 4 over a field with \(q\approx 2^{40}\) can beat rho on \(E(\mathbb F_{2^{160}})\), and why genus \(2^{16}\) over \(\mathbb F_2\) cannot.
+
+
+If \(g\) is large you never start step 4. If \(g\) is so small that \(\#J_C(k)\) cannot be divisible by \(\ell_0\), step 3 already failed.
+
+
+## Step 5 — the isogeny extension
+
+
+Many curves over a given \(K\) have \(m(b)\) too large. Galbraith–Hess–Smart observed that an isogeny \(\psi:E\to E'\) defined over \(K\) transports the log:
+
+
+\[
+Q=[k]P\quad\Longleftrightarrow\quad\psi(Q)=[k]\,\psi(P).
+\]
+
+
+If \(E'\) has a small \(m(b')\), run GHS on \(E'\) instead. Finding such an \(E'\) is a search in the isogeny class (low-degree isogenies, or a random walk in the graph). This does not create new weak fields. It enlarges the set of weak *curves* inside a field that was already composite. Over \(\mathbb F_{2^{155}}\) it roughly doubled the density of GHS-vulnerable curves. Fields \(\mathbb F_{q^7}\) were singled out as structurally weaker than their bit length suggests, because 7-isogenies plus a small module-rank are common.
+
+
+## The decision procedure
+
+
+For a concrete \(E/K\):
+
+
+1. Confirm \(K/k\) has composite degree. If \(n\) is prime, stop. If the field is prime, stop.
+2. Compute \(m(b)\) (or the generalized module-rank). Read off \(g\).
+3. If \(g\) is outside \(\approx[2,8]\) for your \(q\), stop. Optionally search an isogenous \(E'\) with smaller \(m\).
+4. Check the trace conditions so that Frobenius extends.
+5. Build \(C\), evaluate \(\phi(P)\), check that \(\mathrm{ord}\,\phi(P)=\ell_0\).
+6. Run index calculus on \(J_C(k)\).
+
+
+Menezes–Qu showed that for every prime \(n\in[160,600]\) this procedure dies at step 2 or 3 for every cryptographically interesting \(E/\mathbb F_{2^n}\). Composite \(n\) in that range is the only regime where it sometimes continues to step 6. That is the entire operational content of “avoid binary curves over composite extensions.”
+
+
+## What GHS is not
+
+
+It is not MOV. No pairing, no embedding degree.  
+It is not Semaev. Semaev restricts a *polynomial* and Gröbner-bases it; GHS restricts a *curve* and finds a subcover.  
+It is not a generic algorithm. Prime fields make step 1 impossible.  
+It is not a proof that binary ECC is dead. Prime-degree binary fields survive GHS; they were later deprecated for other reasons (Weil descent of summation polynomials in small characteristic, implementation hazards, FIPS 186-5).
+
+
+The method’s lasting contribution is the dictionary
+
+
+\[
+m(b)\;\longmapsto\; g(C)\;\longmapsto\;\text{index-calculus cost over }k,
+\]
+
+
+plus the theorem that the cryptographic prime usually survives \(\phi\). Once you have that dictionary, most curves over most fields evaluate to “do not bother,” which is the correct answer for every curve that is still in use.
+
+
+A previous pass defined the polynomials and put them in the index-calculus pipeline. This pass is the algebra: where \(S_3\) comes from, why the degree doubles, and what the resultant actually produces.
+
+
+## \(S_2\) and \(S_3\) from the group law
+
+
+Two finite points sum to \(\mathcal O\) iff they are negatives of each other iff they share an \(x\)-coordinate:
+
+
+\[
+S_2(X_1,X_2)=X_1-X_2.
+\]
+
+
+Three finite points \(P,Q,R\) sum to \(\mathcal O\) iff \(R=-(P+Q)\) iff \(x(R)=x(P+Q)\). On
+
+
+\[
+y^2=x^3+Ax+B
+\]
+
+
+the sum formula is
+
+
+\[
+x(P+Q)=\lambda^2-x(P)-x(Q),\qquad
+\lambda=\frac{y(Q)-y(P)}{x(Q)-x(P)}
+\]
+
+
+(and the tangent rule when \(P=Q\)). Clearing the denominator and eliminating the two \(y\)-coordinates with \(y^2=x^3+Ax+B\) produces a quadratic in \(x(R)\). That quadratic is \(S_3\):
+
+
+\[
+\begin{aligned}
+S_3(X_1,X_2,X_3)
+&=(X_1-X_2)^2 X_3^2
+-2\bigl((X_1+X_2)(X_1 X_2+A)+2B\bigr)X_3\\
+&\quad+(X_1 X_2-A)^2-4B(X_1+X_2).
+\end{aligned}
+\]
+
+
+It is degree 2 in each variable, total degree 4, and symmetric. The two roots in \(X_3\) are \(x(P+Q)\) and \(x(P-Q)\). Signs have been quotiented out: \(S_3\) cannot tell \(P+Q+R=\mathcal O\) from \(P+Q-R=\mathcal O\). That is the price of dropping \(y\).
+
+
+On the tiny curve \(y^2=x^3+2x+2\) over \(\mathbb F_{13}\) (14 affine points) the identity holds on the nose: for every pair of affine points \(P,Q\) with \(P+Q\neq\mathcal O\),
+
+
+\[
+S_3\bigl(x(P),x(Q),x(P+Q)\bigr)=0
+\]
+
+
+in \(\mathbb F_{13}\). Expanding on that curve:
+
+
+\[
+S_3=X_1^2 X_2^2-2X_1^2 X_2 X_3+X_1^2 X_3^2-2X_1 X_2^2 X_3-\cdots+4.
+\]
+
+
+Same vanishing, specific coefficients.
+
+
+## Higher \(S_m\) are resultants of \(S_3\)
+
+
+Four points sum to \(\mathcal O\) iff there is an intermediate \(x\)-coordinate \(Y\) such that three of them sum with that intermediate and the remaining two sum with it. Hence
+
+
+\[
+S_m=\mathrm{Res}_Y\bigl(S_{m-1}(X_1,\ldots,X_{m-2},Y),\; S_3(X_{m-1},X_m,Y)\bigr).
+\]
+
+
+The raw resultant is usually a *multiple* of the irreducible Semaev polynomial. It carries extra factors along the diagonals \(X_i=X_j\) (repeated points, points cancelled in pairs) and a content coming from the leading coefficients of the two inputs. The **irreducible** \(S_m\) that Semaev isolates satisfies
+
+
+\[
+\deg_{X_i}S_m=2^{m-2},\qquad
+\deg S_m=(m-1)2^{m-2}.
+\]
+
+
+A raw \(\mathrm{Res}(S_3,S_3)\) in four variables already has hundreds of terms and degree 8 in one variable; after stripping content you are supposed to land at degree \(4=2^{4-2}\). That gap is why people do not expand \(S_6\) by hand and why later work symmetrizes on \(2\)-torsion or pushes the relation through a different map \(E\to\mathbb P^1\): same vanishing locus, fewer terms.
+
+
+Degree doubling has a geometric source. Each new point is glued on by an \(S_3\), which is quadratic in the glue variable. Resultant against a polynomial already of degree \(2^{m-3}\) in that variable multiplies degrees by 2.
+
+
+## What \(S_m=0\) does *not* say
+
+
+- It does not name the signs. A zero of \(S_m\) means \(\sum\varepsilon_i P_i=\mathcal O\) for some \(\varepsilon\in\{\pm 1\}^m\), not necessarily all \(+\).
+- It does not force the points to be distinct. The diagonal locus is in the zero set and is usually factored off before index calculus.
+- It does not live on the curve in \((x,y)\). It lives on the \(x\)-line. Recovering a point from an \(x\)-coordinate still costs a square root, and you must choose a sign.
+- It is not a division polynomial. Division polynomials cut out \(n\)-torsion. Semaev polynomials cut out linear dependence among *several* unknown points. Elliptic nets package both families; one theorem says an index calculus written with nets is the same attack as one written with \(S_m\).
+
+
+## The factor-base equation, again, as a polynomial
+
+
+Pick a subspace \(V\subset\mathbb F_{q^n}\) of dimension \(\ell\) and a random \(R=aP+bQ\). A decomposition \(R=P_1+\cdots+P_m\) with \(x(P_i)\in V\) is a zero of
+
+
+\[
+S_{m+1}(X_1,\ldots,X_m,x(R))=0,\qquad X_i\in V.
+\]
+
+
+Weil-restricting that single equation from \(\mathbb F_{q^n}\) to \(\mathbb F_q\) produces \(n\) equations in \(\ell m\) variables over \(\mathbb F_q\). That system is what F4/F5 is asked to solve. The exponential degree of \(S_{m+1}\) becomes the degree of regularity of the descended system, which is why the first-fall heuristic appeared and why it is still not a theorem.
+
+
+## A working mental picture
+
+
+Think of \(S_3\) as the elimination ideal of the addition law onto the \(x\)-line. Think of \(S_m\) as that same elimination, iterated. The group law is a rational map
+
+
+\[
+E\times E\dashrightarrow E.
+\]
+
+
+Project each factor to \(\mathbb P^1\) by \(x\), and eliminate. The result is one equation on \((\mathbb P^1)^m\). That equation *is* \(S_m\), up to the diagonal junk the resultant leaves behind.
+
+
+For prime-field curves there is no small \(V\) worth using and no subfield to descend into, so the picture stays a picture. For extension-field curves the picture becomes a Gröbner system. That is the entire difference between “Semaev polynomials exist” and “Semaev polynomials attack ECDLP.” The polynomials exist over every \(K\). The attack needs \(K/k\) to be a genuine extension.
+
+
+Elliptic nets and Semaev polynomials are two presentations of the same addition law. One keeps the \(y\)-coordinates and a recurrence. The other eliminates \(y\) and keeps a single equation on the \(x\)-line. Saito–Yokoyama–Kobayashi–Yamamoto made that dictionary explicit: an index calculus written with nets is the same attack as one written with \(S_m\).
+
+
+## Rank one: division polynomials
+
+
+Fix \(E\) and one point \(P\). The division polynomials \(\psi_n\in K(E)\) satisfy
+
+
+\[
+[n]P=\mathcal O\qquad\Longleftrightarrow\qquad\psi_n(P)=0
+\]
+
+
+(for \(P\) not \(2\)-torsion in the even case, with the usual caveats). Evaluated at a rational point they produce a Ward **elliptic divisibility sequence**
+
+
+\[
+W_n=\psi_n(P),
+\]
+
+
+which obeys the nonlinear recurrence
+
+
+\[
+W_{m+n}W_{m-n}W_r^2
+=W_{m+r}W_{m-r}W_n^2
+-W_{n+r}W_{n-r}W_m^2.
+\]
+
+
+That is the rank-one net. It sees multiples of a single point. It does not see a sum of several unknown points, which is what index calculus needs.
+
+
+## Higher rank: elliptic nets
+
+
+Stange’s definition: a map \(W:A\to R\) from a free abelian group \(A\) of rank \(n\) into a ring, satisfying the same shape of recurrence in several indices at once. The geometric source is \(n\) points \(P_1,\ldots,P_n\in E\). The associated **net polynomials** \(\Psi_v\), \(v=(v_1,\ldots,v_n)\in\mathbb Z^n\), are rational functions on \(E^n\) with
+
+
+\[
+\Psi_v(P_1,\ldots,P_n)=0
+\qquad\Longleftrightarrow\qquad
+[v_1]P_1+\cdots+[v_n]P_n=\mathcal O
+\]
+
+
+(again away from some degenerate loci). Over \(\mathbb C\) they are ratios of Weierstrass \(\sigma\)-functions
+
+
+\[
+\Psi_v(z)
+=\frac{\sigma(v_1 z_1+\cdots+v_n z_n)}
+{\prod_i\sigma(z_i)^{2v_i^2-\sum_j v_i v_j}
+\prod_{i<j}\sigma(z_i+z_j)^{v_i v_j}}.
+\]
+
+
+On a Weierstrass model they become rational functions of the \(x_i,y_i\). Special cases:
+
+
+- rank 1: \(\Psi_{(n)}=\psi_n\), ordinary division polynomials
+- rank 2, index \((1,-1)\): \(\Psi_{(1,-1)}=x_2-x_1\), which is \(S_2\)
+- rank 3, index \((1,1,1)\): \(\Psi_{(1,1,1)}\) is (up to the denominator \(\prod_{i<j}(x_i-x_j)\)) the signed area
+
+
+\[
+y_1(x_2-x_3)+y_2(x_3-x_1)+y_3(x_1-x_2)
+\]
+
+
+which vanishes iff \(P_1,P_2,P_3\) are linearly dependent over \(\mathbb Z\) with coefficients \(\pm 1\) — i.e. iff they sum to \(\mathcal O\) after signs. That is \(S_3\), before \(y\) is eliminated.
+
+
+So a net polynomial is a *signed, \(y\)-aware* summation relation. A Semaev polynomial is that same relation after forgetting signs and \(y\).
+
+
+## The precise link
+
+
+Let \(L=K(x_1,y_1,\ldots,x_n,y_n)\) be the function field of \(E^n\), and let \(K=K(x_1,\ldots,x_n)\) be the subfield of \(x\)-coordinates only. For the index \(v=(1,1,\ldots,1)\),
+
+
+\[
+N_{L/K}\bigl(\Psi_v\bigr)
+\;=\;
+S_n\bigl(x(P_1),\ldots,x(P_n)\bigr)
+\]
+
+
+up to a unit in \(K\) and up to the usual diagonal factors. Taking the norm is exactly elimination of the \(y_i\): each \(y_i\) satisfies a quadratic, the Galois action of \(L/K\) flips signs, and the norm of “\(\sum P_i=\mathcal O\)” becomes “\(\sum\varepsilon_i P_i=\mathcal O\) for some signs,” which is the defining property of \(S_n\).
+
+
+That is the whole connection.
+
+
+- Vanishing of \(\Psi_{(1,\ldots,1)}\) = a specific signed sum is \(\mathcal O\).
+- Vanishing of \(S_n\) = some signed sum is \(\mathcal O\).
+- \(S_n\) is the norm of \(\Psi_{(1,\ldots,1)}\).
+
+
+Computing the irreducible polynomial of \(\Psi_v\) over \(K\) is another way to manufacture \(S_n\), as an alternative to the resultant recursion \(S_m=\mathrm{Res}(S_{m-1},S_3)\). Both procedures eliminate the same intermediate coordinates.
+
+
+## Why anyone bothered
+
+
+A decomposition test in index calculus asks: do there exist factor-base points \(P_1,\ldots,P_m\) with \(P_1+\cdots+P_m=R\)? Two decision procedures:
+
+
+1. Evaluate \(S_{m+1}(x_1,\ldots,x_m,x(R))\) after restricting \(x_i\) to the factor-base subspace.
+2. Evaluate a net polynomial \(\Psi_v\) at \((P_1,\ldots,P_m,-R)\) and ask whether it is zero.
+
+
+Saito et al. showed these accept exactly the same tuples once you pass to \(x\)-coordinates, so the relation-collection phase is the same attack. The net language is more convenient if you want to keep \(y\), use the recurrence to compute values without expanding a huge polynomial, or treat several different index vectors (not just \((1,\ldots,1)\)). The Semaev language is more convenient if you want a single equation on \(\mathbb P^1\) and a Gröbner basis after Weil descent.
+
+
+They are not two attacks. They are two coordinate systems on one attack.
+
+
+## Where they come apart
+
+
+Nets still see torsion and scalar multiples: \(\Psi_{(n,0,\ldots,0)}=\psi_n(P_1)\). Semaev polynomials do not; they only see unweighted sums up to sign. If you needed \([2]P_1+P_2+P_3=\mathcal O\), a net answers with \(\Psi_{(2,1,1)}\). Producing the matching Semaev-style equation means writing a new polynomial whose zeros are \(x([2]P_1),x(P_2),x(P_3)\), which is \(S_3(x([2]P_1),x(P_2),x(P_3))\) composed with the double formula — messier, and no longer the standard \(S_m\).
+
+
+Nets also give a recurrence for free. You can compute \(W(v)\) from nearby values the way you compute \(\psi_n(P)\) from nearby division polynomials, without building \(S_8\) as a million-term resultant. That is useful for evaluation. It does not remove the Gröbner bottleneck after descent: once you have eliminated \(y\), you are back in Semaev’s ring.
+
+
+## Short dictionary
+
+
+| | Division / EDS | Elliptic net | Semaev \(S_m\) |
+|---|---|---|---|
+| Input | one point | \(n\) points | \(n\) \(x\)-coordinates |
+| Vanishes when | \([n]P=\mathcal O\) | \(\sum v_i P_i=\mathcal O\) | \(\sum\varepsilon_i P_i=\mathcal O\) |
+| Knows signs / \(y\) | yes | yes | no |
+| Typical tool | Schoof, pairings | pairings, integer sequences | index calculus PDP |
+| Relation | rank-1 net | general | norm of \(\Psi_{(1,\ldots,1)}\) |
+
+
+GHS still sits off to the side. It changes the curve. Nets and Semaev stay on the original curve and rewrite the addition law.
+
+
+Index calculus is a pattern, not one algorithm. Collect multiplicative (or additive) relations among a factor base, linear-algebra the discrete logs of the base, then express the target in the base. The pattern applies wherever you have a notion of smoothness. The applications split cleanly by what “smooth” means.
+
+
+## The skeleton
+
+
+1. Choose a factor base \(\mathcal B=\{p_1,\ldots,p_B\}\).
+2. Produce relations \(\prod p_i^{e_i}=1\) (or \(\sum e_i P_i=\mathcal O\)) until you have more independent relations than unknowns.
+3. Solve the sparse integer matrix for \(\log p_i\).
+4. Write the target as a product/sum involving the factor base and read off its log.
+
+
+Every variant below is a choice of \(\mathcal B\) and a choice of how to find a relation.
+
+
+## Finite fields — the original and still the strongest application
+
+
+**\(\mathbb F_p^\times\), \(p\) large.** Smoothness is integer smoothness. The number-field sieve for discrete logs is the grown-up version of Adleman’s index calculus. Complexity \(L_p(1/3,(64/9)^{1/3})\approx L_p(1/3,1.923)\). Record: 795-bit safe prime (RSA-240 \(+49204\)), Boudot–Gaudry–Guillevic–Heninger–Thomé–Zimmermann, 2019. This is why finite-field DH is specified at 2048–4096 bits and why a 1024-bit standardized group was treated as a Logjam target.
+
+
+**\(\mathbb F_{p^n}^\times\), \(p\) small, \(n\) large.** Smoothness is polynomial smoothness. Function-field sieve, then Joux, then the quasi-polynomial algorithms of 2013 (Barbulescu–Gaudry–Joux–Thomé and cousins). Small-characteristic finite-field DLP at cryptographic size is considered broken. This killed pairing implementations that mapped into \(\mathbb F_{2^{4n}}\) or \(\mathbb F_{3^{6n}}\) of only a few thousand bits.
+
+
+**Medium characteristic / towers.** Tower NFS (TNFS) and special TNFS attack the fields that pairing-friendly curves actually produce: \(\mathbb F_{p^k}\) with \(k=6,12,18\). That is a direct application to pairing crypto. Security estimates for BN-254 and similar curves had to be revised upward after TNFS matured; many deployed pairing curves were resized or abandoned.
+
+
+MOV / Frey–Rück are not index calculus on the curve. They are a reduction *to* finite-field DLP, after which index calculus finishes the job. A pairing-friendly curve is only as hard as \(\mathbb F_{q^k}^\times\).
+
+
+## Jacobians of curves
+
+
+**Hyperelliptic, large genus.** A reduced divisor is smooth if its Mumford polynomial factors into low-degree primes. Adleman–DeMarrais–Huang gave \(L(1/2)\); Enge–Gaudry–Thomé reached \(L(1/3)\). Application: do not use genus \(\ge 4\) for cryptography. Genus 3 is already in the zone where index calculus competes with rho once constants are taken seriously.
+
+
+**Hyperelliptic, small genus.** Gaudry’s algorithm with a factor base of degree-1 places, plus Thériault large primes, plus sieving. Complexity about \(O(q^{2-2/(g+1)})\). For genus 2 this is \(O(q^{4/3})\), still worse than rho’s \(O(q)\) on a group of size \(q^2\), so genus-2 crypto survives. For genus 3 it is \(O(q^{3/2})\) against a group of size \(q^3\), which is the same exponent as rho up to constants and sometimes better. Application: genus 2 is acceptable; genus 3 needs extra bits; genus \(\ge 4\) is out.
+
+
+**Non-hyperelliptic \(C_{a,b}\) and plane curves.** Diem’s relation search uses linear systems of divisors instead of Mumford smoothness. Same skeleton, different harvesting. Used to attack some Picard groups that people briefly proposed as alternatives to ECC.
+
+
+**GHS application.** GHS is not index calculus. It is a reduction *to* HCDLP. Once \(\phi:E(K)\to J_C(k)\) is built, you run the hyperelliptic index calculus above. That is the only reason GHS is an attack rather than a curiosity.
+
+
+## Elliptic curves over extension fields
+
+
+This is the Semaev / Gaudry / Diem line from the last few notes.
+
+
+Factor base: points whose \(x\)-coordinates lie in a subspace \(V\subset\mathbb F_{q^n}\). Relations: \(R=P_1+\cdots+P_m\), detected by \(S_{m+1}=0\) or by a net polynomial. Harvesting is a Gröbner basis after Weil descent of that equation. For fixed extension degree \(n\ge 3\) the cost is \(O(q^{2})\) up to constants, which beats rho’s \(O(q^{n/2})\) as soon as \(n\ge 5\), and is already interesting at \(n=3,4\). Diem also has a subexponential regime when \(n\) grows with \(\log q\).
+
+
+Applications that actually landed:
+
+
+- Curves over \(\mathbb F_{q^n}\) with small composite \(n\) (including some old binary-field proposals and some trace-zero varieties \(T_n\subset\mathrm{Res}(E)\)).
+- Subfield / Koblitz curves \(E/\mathbb F_q\) used in \(E(\mathbb F_{q^n})\): Galois-invariant factor bases shrink the base by a factor of \(n\) and speed relation search. NIST’s binary Koblitz curves were deprecated with this family of ideas in the background.
+- Oracle-assisted and static-DH variants, which need fewer relations than a full DLP. Joux–Vitse solved such a problem in \(E(\mathbb F_{2^{155}})\).
+
+
+Non-application: prime-field curves of 256 bits. There is no subfield, no useful \(V\), and the Gröbner systems do not materialize. Rho remains king.
+
+
+## Other abelian varieties and tori
+
+
+Gaudry’s “index calculus for abelian varieties” treats a relation as a polynomial system on the variety itself. Instantiated on:
+
+
+- Weil restrictions of small-genus hyperelliptic curves (Nagao),
+- algebraic tori (Granger–Vercauteren),
+- trace-zero varieties of elliptic curves (Gorla–Massierer), feasible for \(n=3\) and \(q\) up to ~30 bits in experiments.
+
+
+These are real algorithms on niche groups that occasionally appear in compact-representation or pairing constructions. They are not a threat to P-256.
+
+
+## What the applications forced in protocol design
+
+
+| Group people wanted | Index calculus said | Design change |
+|---|---|---|
+| 1024-bit \(\mathbb F_p^\times\) | NFS is real | move to 2048+ or ECDH |
+| \(\mathbb F_{2^n}^\times\) at “1024-bit” | FFS / quasi-poly | abandon small-char pairings |
+| BN-254 pairing | TNFS on \(\mathbb F_{p^{12}}\) | larger curves or drop the pairing |
+| genus \(\ge 4\) HECC | Enge–Gaudry | do not standardize |
+| binary ECC over composite \(n\) | GHS + Semaev | prime degree or drop binary |
+| prime-field ECC 256-bit | no purchase | keep; migrate later for quantum |
+
+
+Index calculus did not kill elliptic curves. It killed the groups in which “smoothness” is cheap: multiplicative groups of medium-size fields, high-genus Jacobians, and elliptic curves whose coefficient field has a subfield.
+
+
+## Constructive uses, briefly
+
+
+The same engine runs in the other direction.
+
+
+- Class-group computations and tabulation of number fields use index calculus in \(\mathrm{Cl}_K\).
+- Point-counting cousins (Schoof–Elkies–Atkin) use division polynomials, not index calculus, but sit in the same algebraic neighbourhood.
+- Some pairing implementations *choose* embedding degrees so that \(\mathbb F_{q^k}\) is just large enough that index calculus on the field matches rho on the curve. That matching *is* an application: you size the field against the attack.
+
+
+## The constraint that never went away
+
+
+Index calculus needs a factor base whose elements combine with a notion of size, degree, or subspace membership. Finite fields have integers and polynomials. High-genus curves have places of small degree. Extension-field elliptic curves have \(x\)-coordinates in a subspace. A prime-field elliptic curve of prime order has none of those. That is why the method’s successful applications are exactly the groups that look like rings with a Euclidean function, and why secp256k1 is not on the list.
+
+
+The number field sieve is index calculus in two number fields that share a root modulo the integer you care about. That one sentence determines the whole pipeline. Everything else is making the norms small enough to be smooth, and then linear algebra.
+
+
+Write
+
+
+\[
+L_N(\alpha,c)=\exp\bigl(c\,(\log N)^\alpha(\log\log N)^{1-\alpha}+o(1)\bigr).
+\]
+
+
+Quadratic sieve is \(L_N(1/2,1)\). NFS is \(L_N(1/3,(64/9)^{1/3})\) with \((64/9)^{1/3}\approx 1.923\). That drop from \(1/2\) to \(1/3\) in the exponent is the reason 768-bit and 795-bit jobs are possible and 2048-bit finite-field DH is still specified.
+
+
+## Setup
+
+
+You want either to factor \(N\), or to compute a discrete log in \(\mathbb F_p^\times\) (or \(\mathbb F_{p^n}^\times\)). Choose two irreducible polynomials \(f,g\in\mathbb Z[x]\) of coprime content, with a common root \(m\) modulo \(N\) (or modulo \(p\)):
+
+
+\[
+f(m)\equiv g(m)\equiv 0\pmod{N}.
+\]
+
+
+Let \(\alpha\) be a root of \(f\) and \(\beta\) a root of \(g\). You now have two number fields \(K=\mathbb Q(\alpha)\) and \(L=\mathbb Q(\beta)\), and a ring homomorphism from each order into \(\mathbb Z/N\mathbb Z\) sending \(\alpha,\beta\mapsto m\).
+
+
+A pair of coprime integers \((a,b)\) is a **relation** if both norms
+
+
+\[
+F(a,b)=b^{\deg f}f(a/b),\qquad
+G(a,b)=b^{\deg g}g(a/b)
+\]
+
+
+are \(B\)-smooth. Then \(a-b\alpha\) factors into small prime ideals of \(K\), and \(a-b\beta\) factors into small prime ideals of \(L\), and both map to the same \(a-bm\in\mathbb Z/N\mathbb Z\). That is the analogue of “smooth integer on both sides” from classical index calculus.
+
+
+## Stage 1 — polynomial selection
+
+
+This stage does not factor anything. It chooses \(f,g\) so that the norms \(F(a,b),G(a,b)\) are as small as possible, as often as possible, in the rectangle you will sieve.
+
+
+The base construction is base-\(m\): write \(N=\sum a_i m^i\) and set \(f=\sum a_i x^i\), \(g=x-m\). Modern GNFS uses two nonlinear polynomials (Kleinjung and descendants), with a skewness parameter so the sieve region is a long rectangle rather than a square, plus Murphy-\(\alpha\) to score root properties modulo small primes. For the special number field sieve (SNFS) the number already looks like a polynomial evaluated at a small integer — Fermat numbers, \(b^n\pm 1\), the Cunningham project — and one polynomial comes free with tiny coefficients. SNFS complexity drops to \(L_N(1/3,(32/9)^{1/3})\approx L_N(1/3,1.526)\). That is why a “pretty” decimal modulus is the opposite of what you want in a DH group.
+
+
+Degree is chosen near
+
+
+\[
+d\sim\Bigl(\frac{3\log N}{\log\log N}\Bigr)^{1/3}.
+\]
+
+
+For 768–1024-bit \(N\) that is degree 5 or 6.
+
+
+## Stage 2 — sieving
+
+
+Walk pairs \((a,b)\) in a region of area about \(L_N(1/3,1.923)\). For each small prime ideal \(\mathfrak p\) on either side, mark the lattice of \((a,b)\) where \(\mathfrak p\) divides the corresponding principal ideal. After the sieve, pairs whose remaining cofactor is under a threshold are factored completely. Survivors are relations.
+
+
+In practice this is **lattice sieving** (Pollard / Franke–Kleinjung): for each special-\(q\), sieve a short lattice of pairs divisible by that \(q\). Line sieving is the older cousin. This stage dominates wall-clock time and is embarrassingly parallel, which is why RSA-768 and RSA-240 were distributed jobs.
+
+
+## Stage 3 — filtering
+
+
+Raw relations are redundant. Duplicate removal, singleton removal, and clique removal (Cavallar, Bouvier) shrink the matrix by a large factor and produce a smaller, still sparse matrix over the factor-base primes plus a few large-prime columns. Filtering is the difference between a matrix that fits in a cluster and one that does not.
+
+
+## Stage 4 — linear algebra
+
+
+**Factoring.** The matrix is over \(\mathbb F_2\). A dependency among rows is a set \(S\) of pairs such that
+
+
+\[
+\prod_{(a,b)\in S}(a-bm)
+\]
+
+
+is a square in \(\mathbb Z\), and
+
+
+\[
+\prod_{(a,b)\in S}(a-b\alpha)
+\]
+
+
+is a square in \(K\). Block Wiedemann (or block Lanczos) finds those dependencies. This is the other expensive stage; it needs a tightly coupled cluster, not a loose grid.
+
+
+**Discrete logs.** The matrix is over \(\mathbb Z/\ell\mathbb Z\), where \(\ell\) is the large prime factor of \(p-1\) (for a safe prime, \(\ell=(p-1)/2\)). Columns are prime ideals on both sides, plus a few extra columns for **Schirokauer maps**. Those maps are \(q\)-adic logarithms that kill the unit group: without them, a relation that is a unit times an ideal product would look like an empty factorization and the linear system would be inconsistent. The kernel of the matrix is a vector of *virtual logarithms* of the factor-base ideals.
+
+
+Same block-Wiedemann code path, different coefficient ring. On the 795-bit DLP record the linear algebra was about 700 core-years versus 100 for the matching factorization, because the matrix is over a large prime rather than over \(\mathbb F_2\).
+
+
+## Stage 5 — the last mile
+
+
+**Factoring: square root.** From a dependency you get an algebraic square and a rational square that are congruent modulo \(N\). Compute square roots in \(K\) (Montgomery’s method, or Nguyen’s) and in \(\mathbb Z\), map both into \(\mathbb Z/N\mathbb Z\), and take
+
+
+\[
+\gcd\bigl(x-y,\,N\bigr).
+\]
+
+
+With good luck that is a nontrivial factor. If not, take another dependency.
+
+
+**Discrete logs: individual logarithm.** The linear algebra only knows logs of factor-base ideals. A target \(h\in\mathbb F_p^\times\) is first written, by a descent / special-\(q\) sieving step, as a product of medium-size ideals whose virtual logs are then themselves descended until everything is in the factor base. Output is \(\log h\bmod\ell\). For a safe prime you still have to reconstruct the bit in the order-2 subgroup separately, which is a single Legendre symbol. CADO-NFS prints logs modulo \(\ell\); you rescale so that your chosen generator has log 1.
+
+
+## SNFS versus GNFS versus TNFS
+
+
+| Flavour | When | Extra structure | \(c\) in \(L(1/3,c)\) |
+|---|---|---|---|
+| SNFS | \(N=P(m)\) for a tiny polynomial \(P\) | one polynomial given | \(\approx 1.526\) |
+| GNFS | arbitrary \(N\) or prime \(p\) | both polynomials searched | \(\approx 1.923\) |
+| multiple-polynomial NFS | Coppersmith variant | several \(g\)’s | slightly smaller \(c\), rarely used |
+| TNFS / STNFS | \(\mathbb F_{p^k}\), pairings | sieve in a tower | depends on \(k\); beat GNFS on pairing fields |
+
+
+TNFS is NFS with the base ring itself a number field. It is the reason BN-254-style pairing curves lost their claimed security margin.
+
+
+## Why safe primes do not help
+
+
+NFS attacks the field \(\mathbb F_p\), not the smoothness of \(p-1\). A safe prime \(p=2q+1\) makes Pohlig–Hellman useless and makes the DLP matrix live modulo a huge \(q\), which makes linear algebra *more* expensive, not less. It does not change sieving. The 2019 record was taken modulo a safe prime on purpose, to answer “does safeness save you from NFS?” It does not.
+
+
+## What the constants mean in practice
+
+
+Heuristic cost of GNFS on an \(n\)-bit integer is about
+
+
+\[
+\exp\bigl(1.923\,(n\ln 2)^{1/3}(\ln(n\ln 2))^{2/3}\bigr)
+\]
+
+
+field (or integer) operations, hiding the \(o(1)\) that still moves records. Rough operational reading:
+
+
+- 512-bit: broken for years
+- 768-bit: factored (RSA-768, 2009); DLP done (2016)
+- 795-bit: factored and DLP done together (RSA-240 / DLP-240, 2019), DLP ~3× the factoring cost
+- 1024-bit: not publicly done; treated as nation-state plausible for a *fixed* popular group (Logjam)
+- 2048-bit: current floor for finite-field DH
+- 3072–4096-bit: margin against the \(o(1)\) coming down
+
+
+CADO-NFS is the open implementation of this entire pipeline. The records above were run with it or with its ancestors.
+
+
+## Relation to everything earlier in this thread
+
+
+Pohlig–Hellman splits a smooth group order. NFS ignores the group order and factors norms in a number field. GHS / Semaev try to manufacture a smoothness notion on a curve. NFS already has one, because \(\mathbb Z\) and \(\mathbb Z[\alpha]\) have prime factorizations. That is why finite-field DLP is subexponential and prime-field ECDLP is not: the sieve has a ring to land in.
+
+
+A relation in NFS-DL is an equality of *ideals*, not of field elements. Units are invisible to ideal factorization, so the linear system over the prime ideals is under-determined by exactly the unit rank. Schirokauer maps are the extra linear forms that see those units.
+
+
+## The obstruction
+
+
+Take a relation pair \((a,b)\). On the algebraic side
+
+
+\[
+(a-b\alpha)=\prod_{\mathfrak p}\mathfrak p^{v_{\mathfrak p}(a-b\alpha)}
+\]
+
+
+as ideals of \(\mathcal O_K\). Two different elements can generate the same principal ideal: if \(u\) is a unit, \(u(a-b\alpha)\) has the same valuations as \(a-b\alpha\). In the factoring NFS you only need a *square*, and you work modulo \(2\), so units of square class can be absorbed. In the discrete-log NFS you need an equality of field elements modulo \(\ell\), the large prime dividing \(p-1\). Ideal valuations alone do not give that. You are missing \(\operatorname{rank}(\mathcal O_K^\times)\) degrees of freedom.
+
+
+Dirichlet’s unit theorem says that rank is \(r=r_1+r_2-1\). Those \(r\) missing characters are what the maps supply.
+
+
+## What a Schirokauer map is
+
+
+Let \(\ell\) be the prime modulo which logs live (for a safe prime, \(\ell=(p-1)/2\)). Assume \(\ell\) does not ramify in \(K\). Write \(K_\ell\) for the elements of \(K^\times\) whose norms are coprime to \(\ell\). A Schirokauer map is a group homomorphism
+
+
+\[
+\Lambda:K_\ell\big/(K_\ell)^\ell \longrightarrow (\mathbb Z/\ell\mathbb Z)^r
+\]
+
+
+that is **surjective on units**. Additivity \(\Lambda(\gamma_1\gamma_2)=\Lambda(\gamma_1)+\Lambda(\gamma_2)\) is required so that \(\Lambda\) can sit in a linear equation next to the valuations. Surjectivity on units is required so that the extra columns actually span the missing space.
+
+
+Any such \(\Lambda\) works in principle. Schirokauer’s explicit choice is a truncated \(\ell\)-adic logarithm, which is cheap to evaluate and does not require computing a basis of \(\mathcal O_K^\times\).
+
+
+## The explicit construction
+
+
+Let \(\mathfrak q_i\) be the primes of \(K\) above \(\ell\), with residue degrees \(m_i\). Set
+
+
+\[
+\varepsilon=\operatorname{lcm}_i(\ell^{m_i}-1).
+\]
+
+
+For \(\gamma\in K_\ell\) the element \(\gamma^\varepsilon\) is \(1\) modulo every \(\mathfrak q_i\), so
+
+
+\[
+\gamma^\varepsilon=1+\ell\cdot L(\gamma)+O(\ell^2)
+\]
+
+
+in the \(\ell\)-adic completion (computed by expanding in the power basis \(1,\alpha,\ldots,\alpha^{d-1}\) modulo \(\ell^2\)). \(L(\gamma)\) is a polynomial of degree less than \(d=\deg f\). Keep the top \(r\) coefficients. That \(r\)-tuple is \(\Lambda(\gamma)\).
+
+
+In code this is a matrix power: multiplication-by-\(\gamma\) on \(\mathcal O_K/\ell^2\mathcal O_K\), raised to \(\varepsilon\), minus the identity, divided by \(\ell\). No units are ever written down. Leopoldt’s conjecture is the usual justification that this \(\Lambda\) is surjective on the local units; it is treated as a working hypothesis and has not failed in the computations that matter.
+
+
+## How they enter the matrix
+
+
+Each relation \(\phi=a-b\alpha\) contributes one row:
+
+
+\[
+\sum_{\mathfrak p}v_{\mathfrak p}(\phi)\cdot\log_{\mathrm{virt}}\mathfrak p
+\;+\;
+\sum_{j=1}^{r}\Lambda_j(\phi)\cdot\log_{\mathrm{virt}}(\mathrm{SM}_j)
+\;\equiv\;
+\log\rho(\phi)
+\pmod{\ell}.
+\]
+
+
+The first sum is the ordinary ideal factorization. The second sum is \(r\) extra unknowns, the **virtual logarithms of the Schirokauer coordinates**. \(\rho\) is the reduction map \(K\to\mathbb F_p\). The same is done on the other number field, with its own unit rank.
+
+
+After sieving and filtering, the matrix therefore has
+
+
+\[
+\#\{\text{prime ideals on both sides}\}+r_K+r_L
+\]
+
+
+columns. The extra \(r_K+r_L\) columns are dense compared to the valuation columns (almost every relation has a nonzero Schirokauer image), which is why they are described as “not free” in linear algebra. They are still only a handful of columns — \(r\) is \(O(\deg f)\), typically \(2\) through \(6\) — so they do not change the asymptotic, they just fatten the matrix a little.
+
+
+A solution vector of this matrix is a family of virtual logarithms: numbers \(\log_{\mathrm{virt}}\mathfrak p\in\mathbb Z/\ell\mathbb Z\) and \(\log_{\mathrm{virt}}(\mathrm{SM}_j)\) such that every harvested relation is consistent. They are called virtual because they are defined only up to the kernel of \(\Lambda\) and only as a linear functional on the relation lattice, not as logs of chosen generators of the ideals. For the individual-logarithm descent that is enough. You never need \(\gamma_{\mathfrak p}\) with \(\Lambda(\gamma_{\mathfrak p})=0\) written explicitly, although that is one way to phrase the definition.
+
+
+## Why factoring NFS does not use them
+
+
+Factoring asks for a square. Working modulo \(2\), a unit that is already a square in \(K\otimes\mathbb R\) (signs at the real places, plus the character that detects squares in the étale algebra) can be tracked with a few **quadratic characters** — Adleman’s character columns, or just the sign of the norm. You do not need an \(\ell\)-adic logarithm. Schirokauer maps are a discrete-log invention. Early NFS-DL tried to use explicit fundamental units instead; that dies as soon as the unit group is hard to compute, which is immediately. The maps replace “find \(\mathcal O_K^\times\)” by “evaluate a local log.”
+
+
+## Things that go wrong
+
+
+- If \(\ell\) ramifies in \(K\), the construction above is invalid. Polynomial selection simply avoids that \(\ell\).
+- If Leopoldt fails for this field at this \(\ell\), \(\Lambda\) might miss a unit and the matrix would have a spurious kernel vector. This has not been observed in record computations.
+- Some polynomial-selection methods (conjugation, for fields \(\mathbb F_{p^n}\)) produce fields with visible units, and then you can skip the maps and use those units directly. That is an optimization, not a different theory.
+- The maps depend on the choice of generator of the local units and on the power basis. Different implementations differ by an invertible linear change of the extra columns. Virtual logs change with them; ratios of logs of actual field elements do not.
+
+
+## One-line picture
+
+
+Valuations see the ideal class of a relation. Schirokauer maps see the unit part. Together they see the element, modulo \(\ell\)-th powers. That is the missing piece that lets a kernel vector of the NFS-DL matrix be interpreted as a discrete logarithm in \(\mathbb F_p^\times\).
+
+
+A virtual logarithm is a coefficient in a linear combination that *would* be a discrete log if you had chosen generators. The linear algebra never chooses those generators. It only finds coefficients that make every sieved relation consistent.
+
+
+## The mismatch
+
+
+A relation \((a,b)\) gives two factorizations of the same field element, one in each number field, after reduction modulo \(p\):
+
+
+\[
+\rho_f(a-b\alpha)\;=\;\rho_g(a-b\beta)\;\in\mathbb F_p^\times.
+\]
+
+
+On the left, \(a-b\alpha\) is determined by
+
+
+- its valuations \(v_{\mathfrak p}(a-b\alpha)\) at the factor-base ideals of \(K\),
+- its image under the Schirokauer maps \(\Lambda_K\).
+
+
+Those data determine \(a-b\alpha\) only modulo \(\ell\)-th powers and modulo the choice of generators of the ideals. Taking discrete logs in \(\mathbb F_p^\times\) of both sides would require named generators \(\gamma_{\mathfrak p}\) with \((\gamma_{\mathfrak p})=\mathfrak p^h\) and \(\Lambda(\gamma_{\mathfrak p})=0\). Finding those \(\gamma_{\mathfrak p}\) is as hard as the original problem. So you do not find them.
+
+
+## Definition, two ways
+
+
+**With implicit generators.** Suppose you *had* chosen, for each factor-base ideal \(\mathfrak q\), an element \(\gamma_{\mathfrak q}\) generating \(\mathfrak q^h\) with \(\Lambda(\gamma_{\mathfrak q})=0\). Then
+
+
+\[
+\log_{\mathrm{virt}}\mathfrak q
+\;\stackrel{\text{def}}{=}\;
+h^{-1}\log\rho(\gamma_{\mathfrak q})\pmod{\ell}.
+\]
+
+
+The virtual log of a Schirokauer coordinate is the same formula applied to a unit. This is a real discrete log of a real field element. You just never compute \(\gamma_{\mathfrak q}\).
+
+
+**Without generators, as a linear functional.** Collect the valuations and Schirokauer values of every relation into a matrix \(A=(M\mid S)\). A right-kernel vector \(\lambda\) satisfies \(A\lambda=0\). The coordinate of \(\lambda\) on the column of \(\mathfrak q\) *is* \(\log_{\mathrm{virt}}\mathfrak q\). The coordinate on the \(j\)-th Schirokauer column is \(\log_{\mathrm{virt}}(\mathrm{SM}_j)\). Thomé’s slogan: the virtual logarithm of a symbol \(e\) (an ideal, or a character) is the coefficient \(\lambda_e\) that sits next to \(e\) so the two sides of every relation match.
+
+
+The two definitions agree when a choice of generators exists. The second one is what CADO-NFS computes.
+
+
+## What the kernel vector is allowed to do
+
+
+The system is homogeneous, so \(\lambda\) is only determined up to scalar. That scalar is the choice of generator of the order-\(\ell\) subgroup of \(\mathbb F_p^\times\). Rescaling so that \(\log_{\mathrm{virt}}\) of your favourite generator is \(1\) fixes it.
+
+
+There is a whole vector space of “correct” virtual-log vectors: any two differ by a functional that vanishes on every relation. After enough relations the space is one-dimensional over \(\mathbb F_\ell\), which is exactly “logs modulo the choice of base.”
+
+
+Virtual logs of ideals on the two sides are *not* independent. A rational prime that splits in both fields appears on both sides, and reduction to \(\mathbb F_p\) identifies them. Filtering and the kernel take care of that bookkeeping.
+
+
+## How they become an actual logarithm
+
+
+The individual-logarithm stage writes the target \(h\in\mathbb F_p^\times\) as
+
+
+\[
+h\;\equiv\;
+\prod_{\mathfrak p}\rho(\gamma_{\mathfrak p})^{e_{\mathfrak p}}
+\cdot
+\text{(Schirokauer correction)}
+\pmod{p},
+\]
+
+
+except it never writes \(\gamma_{\mathfrak p}\). It writes the *valuations and Schirokauer images* of a descent element that reduces to \(h\), then plugs in the virtual logs:
+
+
+\[
+\log h
+\;\equiv\;
+\sum_{\mathfrak p}e_{\mathfrak p}\,\log_{\mathrm{virt}}\mathfrak p
+\;+\;
+\sum_j\Lambda_j\,\log_{\mathrm{virt}}(\mathrm{SM}_j)
+\pmod{\ell}.
+\]
+
+
+If the descent element is not factor-base-smooth, you special-\(q\) sieve it into medium ideals, take *their* virtual logs by a smaller descent, and recurse. The base case is “this ideal was a column of \(A\).” That is the only moment a virtual log is used as if it were a log.
+
+
+For a safe prime \(p=2q+1\) the output is \(\log h\bmod q\). The missing bit in the order-2 subgroup is the Legendre symbol, computed separately.
+
+
+## Why the name
+
+
+They are virtual because:
+
+
+- they are attached to *ideals and characters*, not to chosen field elements
+- they are defined only modulo \(\ell\), and only as a class in the dual of the relation lattice
+- they change if you change the Schirokauer maps by an invertible linear substitution (the individual logs of actual field elements do not)
+- they make sense even when the class number is divisible by \(\ell\), which is the case that blocks the “pick a generator of \(\mathfrak q^h\)” story
+
+
+They become ordinary discrete logarithms only in linear combination, and only of elements that you have expressed in the factor base.
+
+
+## Relation to everything nearby
+
+
+| Object | Lives on | What it records |
+|---|---|---|
+| valuation \(v_{\mathfrak p}\) | an ideal | how many times \(\mathfrak p\) divides a relation |
+| Schirokauer map \(\Lambda_j\) | units | the unit part of a relation |
+| virtual log \(\log_{\mathrm{virt}}\mathfrak p\) | a column of \(A\) | the coefficient that makes valuations sum to a log |
+| virtual log \(\log_{\mathrm{virt}}(\mathrm{SM}_j)\) | a column of \(A\) | the coefficient that makes unit characters sum to a log |
+| \(\log h\bmod\ell\) | \(\mathbb F_p^\times\) | a linear combination of the above after descent |
+
+
+Factoring NFS has no virtual logarithms. It looks for a left kernel over \(\mathbb F_2\) (a dependency among relations that is a square). NFS-DL looks for a right kernel over \(\mathbb F_\ell\) (a weighting of columns that is a log). That swap of kernel side is the whole difference between “factor \(N\)” and “compute \(\log h\).”
+
+
+Schirokauer maps are the characters that see units. Ideal valuations do not. NFS-DL needs both.
+
+
+## Why valuations are not enough
+
+
+A sieved element \(\phi=a-b\alpha\in K\) has an ideal factorization
+
+
+\[
+(\phi)=\prod_{\mathfrak p}\mathfrak p^{v_{\mathfrak p}(\phi)}.
+\]
+
+
+If \(u\) is a unit, \(u\phi\) has the same valuations and is a different field element. After reduction to \(\mathbb F_p^\times\), those two elements generally have different discrete logs modulo \(\ell\). A linear system whose only columns are the \(v_{\mathfrak p}\) therefore cannot be the discrete-log system: it identifies things that are not equal.
+
+
+Dirichlet’s unit theorem says you are missing
+
+
+\[
+r=r_1+r_2-1
+\]
+
+
+degrees of freedom, the rank of \(\mathcal O_K^\times\). You need \(r\) extra homomorphisms
+
+
+\[
+\Lambda:K^\times \longrightarrow(\mathbb Z/\ell\mathbb Z)^r
+\]
+
+
+that are trivial on \(\ell\)-th powers, nontrivial on units, and cheap to evaluate. Those homomorphisms are the Schirokauer maps. With them, two elements that agree on every \(v_{\mathfrak p}\) *and* on \(\Lambda\) differ by an \(\ell\)-th power, which is invisible modulo \(\ell\).
+
+
+## The construction
+
+
+Let \(\ell\) be the prime you compute logs modulo (for a safe prime, \(\ell=(p-1)/2\)). Assume \(\ell\) does not ramify in \(K\). Let \(\mathfrak q_i\mid\ell\) have residue degrees \(m_i\), and set
+
+
+\[
+\varepsilon=\operatorname{lcm}_i(\ell^{m_i}-1).
+\]
+
+
+Then \(\gamma^\varepsilon\equiv 1\pmod{\mathfrak q_i}\) for every \(\gamma\) of norm coprime to \(\ell\). Expand in the \(\ell\)-adics:
+
+
+\[
+\gamma^\varepsilon=1+\ell\,L(\gamma)+O(\ell^2).
+\]
+
+
+\(L(\gamma)\) is an element of \((\mathcal O_K/\ell\mathcal O_K)\), written on the power basis \(1,\alpha,\dots,\alpha^{d-1}\) as a polynomial of degree \(<d\). Keep the top \(r\) coefficients. That \(r\)-tuple is \(\Lambda(\gamma)\).
+
+
+In a machine this is one matrix power modulo \(\ell^2\): the companion matrix of multiplication-by-\(\gamma\), raised to \(\varepsilon\), minus \(I\), divide by \(\ell\), read \(r\) coordinates. You never compute a fundamental unit.
+
+
+The two properties you need are:
+
+
+- \(\Lambda(\gamma_1\gamma_2)=\Lambda(\gamma_1)+\Lambda(\gamma_2)\) — so \(\Lambda\) belongs in a linear equation
+- \(\Lambda\) restricted to \(\mathcal O_K^\times\) is onto \((\mathbb Z/\ell\mathbb Z)^r\) — so the extra columns span the missing space
+
+
+The second is the content of Leopoldt’s conjecture at this \(\ell\), and is treated as a working hypothesis. Record computations have not hit a counterexample.
+
+
+## Where they sit in the matrix
+
+
+Each relation becomes one row
+
+
+\[
+\sum_{\mathfrak p}v_{\mathfrak p}(\phi)\,\log_{\mathrm{virt}}\mathfrak p
++\sum_{j=1}^{r}\Lambda_j(\phi)\,\log_{\mathrm{virt}}(\mathrm{SM}_j)
+\equiv\log\rho(\phi)\pmod{\ell}.
+\]
+
+
+The first sum is the usual sparse valuation block \(M\). The second sum is a small dense block \(S\) with \(r\) columns. The matrix is \((M\mid S)\). A right-kernel vector is a family of virtual logarithms for the ideals *and* for the Schirokauer coordinates.
+
+
+\(r\) is small — typically \(2\) to \(6\), the unit rank of a degree-\(5\) or \(6\) field — so \(S\) does not change the asymptotic cost. It does make those few columns dense, which block Wiedemann has to live with.
+
+
+Do this on both number fields. Each field contributes its own \(r\).
+
+
+## What they are not
+
+
+They are not quadratic characters. Adleman’s characters detect squares and belong to factoring NFS, which works modulo \(2\). Schirokauer maps detect \(\ell\)-th powers and belong to discrete-log NFS.
+
+
+They are not a basis of \(\mathcal O_K^\times\). Early NFS-DL tried to write units down. That does not scale. The maps replace “compute the unit group” by “evaluate a local logarithm.”
+
+
+They are not unique. Another power basis, another local generator, another choice of which \(r\) coefficients to keep, all change \(\Lambda\) by an invertible linear map. Virtual logs of the Schirokauer columns change with it. Discrete logs of actual elements of \(\mathbb F_p^\times\) do not.
+
+
+They fail if \(\ell\) ramifies in \(K\). Polynomial selection just forbids that.
+
+
+## The picture in one line
+
+
+Valuations cut out the ideal class of a relation. Schirokauer maps cut out the unit. Together they cut out the element, modulo \(\ell\)-th powers. That is what lets a kernel vector of \((M\mid S)\) be read as a discrete logarithm.
