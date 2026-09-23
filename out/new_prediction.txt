@@ -1,0 +1,46 @@
+=== GQG Rune v0.3  FINDING ===
+CAT=Set  SRC=Episode
+AST_SHA256=131fc466b8f800e07f28200e1b15e7cb7dc91711415c9f0d72c4f352ec440cc9
+feature_signature=16217973347565990  counts={'CAT': 1, 'SRC': 1, 'CAR': 1, 'WIT': 1, 'OBS': 3, 'OP': 1, 'EQV': 2, 'QUO': 2, 'REF': 1, 'LOC': 2}
+
+ambient CAT[Set]
+source SRC[Episode]
+  OBS[Current] Episode -> Answer
+  OBS[Next] Episode -> Derived derived from ['Current', 'U']
+  OBS[Repaired] Episode -> Product derived from ['Current', 'Next']
+  QUO[Q_current] = Episode/R_current [established]
+  QUO[Q_repaired] = Episode/R_repaired [established]
+  REF[Q_repaired -> Q_current] [tested_only]
+
+-- diagnostics: 1 error / 0 warning / 5 note --
+[note   ] N610  Computed 2 fibers of `Current` on 4 declared elements.
+[note   ] N610  Computed 2 fibers of `Next` on 4 declared elements.
+[note   ] N610  Computed 3 fibers of `Repaired` on 4 declared elements.
+[error  ] E621  Locus `N_Next_Current` has 1 split labels on this carrier.  |  0, 1 share label 0
+[note   ] N621  `N_Next_Repaired` is empty on this carrier; no larger-domain claim.
+[note   ] N000  Finite model calculations and declarations do not certify external empirical or infinite-domain claims.
+
+-- finite carrier --
+carrier Episode = [0, 1, 2, 3]
+-- partition atlas --
+Current      [ 0 1 ]:0  [ 2 3 ]:1
+Next         [ 0 2 3 ]:1  [ 1 ]:0
+Repaired     [ 0 ]:(0, 1)  [ 1 ]:(0, 0)  [ 2 3 ]:(1, 1)
+join         [ 0 ]:(0, 1)  [ 1 ]:(0, 0)  [ 2 3 ]:(1, 1)
+
+refinement  Repaired  vs  Current   [finer]
+  fine   [ 0 ] [ 1 ]   [ 2 3 ]
+         |---------|   |-----|
+  coarse [ 0 1 ]   [ 2 3 ]
+  Q_Repaired -->> Q_Current
+
+locus  N_Next(π=Current)
+  SPLIT  π=0  [ 0 ]:W=1 ⊕ [ 1 ]:W=0
+  clean  π=1  [ 2 3 ]
+  N nonempty: 1 of 2 labels split
+
+locus  N_Next(π=Repaired)
+  clean  π=(0, 1)  [ 0 ]
+  clean  π=(0, 0)  [ 1 ]
+  clean  π=(1, 1)  [ 2 3 ]
+  N empty on this carrier  [TESTED_ONLY]

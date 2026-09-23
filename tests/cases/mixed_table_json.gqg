@@ -1,0 +1,12 @@
+category Set
+source P
+carrier P {
+ elements 0 alpha
+}
+witness W on P {
+ observation Omega : P -> Y
+ 0 -> 0
+ alpha -> 0
+}
+equivalence R := kernel_pair(Omega)
+quotient Q := P / R

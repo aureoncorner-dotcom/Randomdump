@@ -1,0 +1,29 @@
+category Set
+source P
+carrier P {
+ elements 0 1 2 3
+}
+witness PiWitness on P {
+ observation Pi : P -> Y
+ eval x |-> x % 2
+}
+witness A on P {
+ observation OA : P -> Y
+ 0 -> 0
+ 1 -> 0
+ 2 -> 1
+ 3 -> 0
+}
+witness B on P {
+ observation OB : P -> Y
+ 0 -> 0
+ 1 -> 0
+ 2 -> 0
+ 3 -> 1
+}
+locus OA through Pi {
+ search
+}
+locus OB through Pi {
+ search
+}

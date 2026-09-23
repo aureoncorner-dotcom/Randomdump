@@ -1,0 +1,26 @@
+# floor(n/2) on Z/6. Checker must find 0 ~ 2 and 0 ≁ 1 after the map.
+category Set
+
+source Z6
+
+carrier Z6 {
+    elements 0 1 2 3 4 5
+}
+
+witness mod2 on Z6 {
+    observation Omega2 : Z6 -> Z2
+    eval x |-> x % 2
+}
+
+equivalence R2 := kernel_pair(Omega2)
+quotient Q2 := Z6 / R2
+
+operation floor_half : Z6 -> Z6 {
+    eval x |-> x // 2
+}
+
+descend floor_half through Q2 {
+    search
+}
+
+pair collide 0 2 under R2

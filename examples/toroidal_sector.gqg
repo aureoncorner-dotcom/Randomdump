@@ -1,0 +1,28 @@
+# Static sector vs signed winding. Not the all-orders theorem.
+# q = parity ∘ W, so Q_q is coarser than a winding quotient.
+category Set
+
+source D_divfree
+
+witness winding on D_divfree {
+    observation W : D_divfree -> Z3
+}
+
+witness sector on D_divfree {
+    observation q : D_divfree -> Z2_3
+}
+
+equivalence R_W := kernel_pair(W)
+equivalence R_q := kernel_pair(q)
+
+quotient Q_W := D_divfree / R_W
+quotient Q_q := D_divfree / R_q
+
+refine parity of Q_W onto Q_q
+
+operation next_sector_law : D_divfree -> Dist_Q_q
+
+descend next_sector_law through Q_q {
+    require X R_q Y => next_sector_law(X) R_q next_sector_law(Y)
+    status fails
+}

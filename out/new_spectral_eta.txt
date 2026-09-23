@@ -1,0 +1,42 @@
+=== GQG Rune v0.3  FINDING ===
+CAT=Set  SRC=Operators
+AST_SHA256=5f620e4680bf7dfbf8b586ff692b24e83d35172441a703de5f072e71aae0e04e
+feature_signature=4659775050  counts={'CAT': 1, 'SRC': 1, 'CAR': 1, 'WIT': 2, 'OBS': 3, 'LOC': 2}
+
+ambient CAT[Set]
+source SRC[Operators]
+  OBS[SquaredSpectrum] Operators -> SpectrumFamily
+  OBS[Eta] Operators -> Rational
+  OBS[SignedRepair] Operators -> Product derived from ['SquaredSpectrum', 'Eta']
+
+-- diagnostics: 1 error / 0 warning / 5 note --
+[note   ] N610  Computed 1 fibers of `SquaredSpectrum` on 2 declared elements.
+[note   ] N610  Computed 2 fibers of `Eta` on 2 declared elements.
+[note   ] N610  Computed 2 fibers of `SignedRepair` on 2 declared elements.
+[error  ] E621  Locus `N_Eta_SquaredSpectrum` has 1 split labels on this carrier.  |  'A_quarter', 'A_three_quarters' share label 'Z_plus_quarter_squared'
+[note   ] N621  `N_Eta_SignedRepair` is empty on this carrier; no larger-domain claim.
+[note   ] N000  Finite model calculations and declarations do not certify external empirical or infinite-domain claims.
+
+-- finite carrier --
+carrier Operators = ['A_quarter', 'A_three_quarters']
+-- partition atlas --
+SquaredSpectrum [ A_quarter A_three_quarters ]:Z_plus_quarter_squared
+Eta          [ A_quarter ]:1/2  [ A_three_quarters ]:-1/2
+SignedRepair [ A_quarter ]:(Z_plus_quarter_squared, 1/2)  [ A_three_quarters ]:(Z_plus_quarter_squared, -1/2)
+join         [ A_quarter ]:(Z_plus_quarter_squared, 1/2)  [ A_three_quarters ]:(Z_plus_quarter_squared, -1/2)
+
+refinement  SquaredSpectrum  vs  Eta   [coarser]
+  (displayed with the finer partition on top)
+  fine   [ A_quarter ] [ A_three_quarters ]
+         |--------------------------------|
+  coarse [ A_quarter A_three_quarters ]
+  Q_Eta -->> Q_SquaredSpectrum
+
+locus  N_Eta(π=SquaredSpectrum)
+  SPLIT  π=Z_plus_quarter_squared  [ A_quarter ]:W=1/2 ⊕ [ A_three_quarters ]:W=-1/2
+  N nonempty: 1 of 1 labels split
+
+locus  N_Eta(π=SignedRepair)
+  clean  π=(Z_plus_quarter_squared, 1/2)  [ A_quarter ]
+  clean  π=(Z_plus_quarter_squared, -1/2)  [ A_three_quarters ]
+  N empty on this carrier  [TESTED_ONLY]

@@ -1,0 +1,709 @@
+{
+  "$map": [
+    [
+      "autonomous_refinement",
+      {
+        "$map": [
+          [
+            "classes",
+            {
+              "$map": [
+                [
+                  0,
+                  [
+                    0
+                  ]
+                ],
+                [
+                  1,
+                  [
+                    1
+                  ]
+                ],
+                [
+                  2,
+                  [
+                    2,
+                    3
+                  ]
+                ]
+              ]
+            }
+          ],
+          [
+            "rounds",
+            2
+          ],
+          [
+            "transition",
+            {
+              "$map": [
+                [
+                  "counterexamples",
+                  {
+                    "$map": []
+                  }
+                ],
+                [
+                  "factor",
+                  {
+                    "$map": [
+                      [
+                        0,
+                        2
+                      ],
+                      [
+                        1,
+                        0
+                      ],
+                      [
+                        2,
+                        2
+                      ]
+                    ]
+                  }
+                ],
+                [
+                  "scope",
+                  {
+                    "$map": [
+                      [
+                        "carrier",
+                        "P"
+                      ],
+                      [
+                        "larger_domain",
+                        "unresolved"
+                      ],
+                      [
+                        "size",
+                        4
+                      ]
+                    ]
+                  }
+                ],
+                [
+                  "status",
+                  "tested_only"
+                ]
+              ]
+            }
+          ]
+        ]
+      }
+    ],
+    [
+      "compiler",
+      {
+        "$map": [
+          [
+            "new_prediction",
+            "=== GQG Rune v0.3  FINDING ==="
+          ],
+          [
+            "new_spectral_eta",
+            "=== GQG Rune v0.3  FINDING ==="
+          ],
+          [
+            "new_spectral_flow",
+            "=== GQG Rune v0.3  FINDING ==="
+          ]
+        ]
+      }
+    ],
+    [
+      "finite_horizon_loss",
+      [
+        {
+          "$map": [
+            [
+              "fibers",
+              {
+                "$map": [
+                  [
+                    0,
+                    {
+                      "$map": [
+                        [
+                          "diameter",
+                          {
+                            "$rational": [
+                              1,
+                              4
+                            ]
+                          }
+                        ],
+                        [
+                          "minimax_lower_bound",
+                          {
+                            "$rational": [
+                              1,
+                              8
+                            ]
+                          }
+                        ],
+                        [
+                          "pair",
+                          {
+                            "$tuple": [
+                              0,
+                              1
+                            ]
+                          }
+                        ]
+                      ]
+                    }
+                  ],
+                  [
+                    1,
+                    {
+                      "$map": [
+                        [
+                          "diameter",
+                          {
+                            "$rational": [
+                              0,
+                              1
+                            ]
+                          }
+                        ],
+                        [
+                          "minimax_lower_bound",
+                          {
+                            "$rational": [
+                              0,
+                              1
+                            ]
+                          }
+                        ],
+                        [
+                          "pair",
+                          null
+                        ]
+                      ]
+                    }
+                  ]
+                ]
+              }
+            ],
+            [
+              "horizon",
+              1
+            ],
+            [
+              "scope",
+              "exact supplied finite kernel; not the toroidal unbounded kernel"
+            ]
+          ]
+        },
+        {
+          "$map": [
+            [
+              "fibers",
+              {
+                "$map": [
+                  [
+                    0,
+                    {
+                      "$map": [
+                        [
+                          "diameter",
+                          {
+                            "$rational": [
+                              1,
+                              4
+                            ]
+                          }
+                        ],
+                        [
+                          "minimax_lower_bound",
+                          {
+                            "$rational": [
+                              1,
+                              8
+                            ]
+                          }
+                        ],
+                        [
+                          "pair",
+                          {
+                            "$tuple": [
+                              0,
+                              1
+                            ]
+                          }
+                        ]
+                      ]
+                    }
+                  ],
+                  [
+                    1,
+                    {
+                      "$map": [
+                        [
+                          "diameter",
+                          {
+                            "$rational": [
+                              0,
+                              1
+                            ]
+                          }
+                        ],
+                        [
+                          "minimax_lower_bound",
+                          {
+                            "$rational": [
+                              0,
+                              1
+                            ]
+                          }
+                        ],
+                        [
+                          "pair",
+                          null
+                        ]
+                      ]
+                    }
+                  ]
+                ]
+              }
+            ],
+            [
+              "horizon",
+              2
+            ],
+            [
+              "scope",
+              "exact supplied finite kernel; not the toroidal unbounded kernel"
+            ]
+          ]
+        },
+        {
+          "$map": [
+            [
+              "fibers",
+              {
+                "$map": [
+                  [
+                    0,
+                    {
+                      "$map": [
+                        [
+                          "diameter",
+                          {
+                            "$rational": [
+                              1,
+                              4
+                            ]
+                          }
+                        ],
+                        [
+                          "minimax_lower_bound",
+                          {
+                            "$rational": [
+                              1,
+                              8
+                            ]
+                          }
+                        ],
+                        [
+                          "pair",
+                          {
+                            "$tuple": [
+                              0,
+                              1
+                            ]
+                          }
+                        ]
+                      ]
+                    }
+                  ],
+                  [
+                    1,
+                    {
+                      "$map": [
+                        [
+                          "diameter",
+                          {
+                            "$rational": [
+                              0,
+                              1
+                            ]
+                          }
+                        ],
+                        [
+                          "minimax_lower_bound",
+                          {
+                            "$rational": [
+                              0,
+                              1
+                            ]
+                          }
+                        ],
+                        [
+                          "pair",
+                          null
+                        ]
+                      ]
+                    }
+                  ]
+                ]
+              }
+            ],
+            [
+              "horizon",
+              3
+            ],
+            [
+              "scope",
+              "exact supplied finite kernel; not the toroidal unbounded kernel"
+            ]
+          ]
+        }
+      ]
+    ],
+    [
+      "minimal_attachments",
+      [
+        {
+          "$tuple": [
+            "identity"
+          ]
+        },
+        {
+          "$tuple": [
+            "bit0",
+            "bit1"
+          ]
+        }
+      ]
+    ],
+    [
+      "representation_gap",
+      {
+        "$map": [
+          [
+            "injective_on_carrier",
+            true
+          ],
+          [
+            "missing_objects",
+            [
+              4
+            ]
+          ],
+          [
+            "scope",
+            "declared finite representation image"
+          ]
+        ]
+      }
+    ],
+    [
+      "residual_closure",
+      {
+        "$map": [
+          [
+            "counterexamples",
+            {
+              "$map": [
+                [
+                  0,
+                  [
+                    {
+                      "$tuple": [
+                        {
+                          "$tuple": [
+                            0,
+                            0
+                          ]
+                        },
+                        {
+                          "$tuple": [
+                            2,
+                            2
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "$tuple": [
+                        {
+                          "$tuple": [
+                            1,
+                            1
+                          ]
+                        },
+                        {
+                          "$tuple": [
+                            2,
+                            2
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                ],
+                [
+                  1,
+                  [
+                    {
+                      "$tuple": [
+                        {
+                          "$tuple": [
+                            0,
+                            1
+                          ]
+                        },
+                        {
+                          "$tuple": [
+                            1,
+                            2
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                ]
+              ]
+            }
+          ],
+          [
+            "factor",
+            null
+          ],
+          [
+            "scope",
+            {
+              "$map": [
+                [
+                  "carrier",
+                  "state_pairs"
+                ],
+                [
+                  "larger_domain",
+                  "unresolved"
+                ],
+                [
+                  "size",
+                  9
+                ]
+              ]
+            }
+          ],
+          [
+            "status",
+            "counterexample"
+          ]
+        ]
+      }
+    ],
+    [
+      "scope",
+      "declared finite models and the stated exact spectral family; no empirical replay or toroidal all-orders proof"
+    ],
+    [
+      "spectral",
+      {
+        "$map": [
+          [
+            "E1",
+            {
+              "$map": [
+                [
+                  "equal_squared_spectra",
+                  true
+                ],
+                [
+                  "eta",
+                  [
+                    {
+                      "$rational": [
+                        1,
+                        2
+                      ]
+                    },
+                    {
+                      "$rational": [
+                        -1,
+                        2
+                      ]
+                    }
+                  ]
+                ],
+                [
+                  "eta_separation",
+                  {
+                    "$rational": [
+                      1,
+                      1
+                    ]
+                  }
+                ],
+                [
+                  "parameters",
+                  [
+                    {
+                      "$rational": [
+                        1,
+                        4
+                      ]
+                    },
+                    {
+                      "$rational": [
+                        3,
+                        4
+                      ]
+                    }
+                  ]
+                ],
+                [
+                  "reason",
+                  "bijection n -> -n-1 negates eigenvalues before squaring"
+                ],
+                [
+                  "reduced_eta_real",
+                  [
+                    {
+                      "$rational": [
+                        1,
+                        4
+                      ]
+                    },
+                    {
+                      "$rational": [
+                        -1,
+                        4
+                      ]
+                    }
+                  ]
+                ]
+              ]
+            }
+          ],
+          [
+            "E2",
+            {
+              "$map": [
+                [
+                  "ordered_endpoint_spectral_labels",
+                  [
+                    [
+                      {
+                        "$rational": [
+                          1,
+                          2
+                        ]
+                      },
+                      {
+                        "$rational": [
+                          1,
+                          2
+                        ]
+                      }
+                    ],
+                    [
+                      {
+                        "$rational": [
+                          1,
+                          2
+                        ]
+                      },
+                      {
+                        "$rational": [
+                          1,
+                          2
+                        ]
+                      }
+                    ]
+                  ]
+                ],
+                [
+                  "reason",
+                  "constant path versus one upward n=0 crossing at t=1/2"
+                ],
+                [
+                  "spectral_flow",
+                  [
+                    0,
+                    1
+                  ]
+                ]
+              ]
+            }
+          ],
+          [
+            "scope",
+            "the declared periodic circle operator and affine path examples only"
+          ]
+        ]
+      }
+    ],
+    [
+      "strong_lumpability",
+      {
+        "$map": [
+          [
+            "counterexamples",
+            {
+              "$map": [
+                [
+                  0,
+                  [
+                    {
+                      "$tuple": [
+                        0,
+                        1
+                      ]
+                    }
+                  ]
+                ]
+              ]
+            }
+          ],
+          [
+            "factor",
+            null
+          ],
+          [
+            "interpretation",
+            "universal finite-state next-label law test; not an observed-history Markov-order test"
+          ],
+          [
+            "scope",
+            {
+              "$map": [
+                [
+                  "carrier",
+                  "finite_model"
+                ],
+                [
+                  "larger_domain",
+                  "unresolved"
+                ],
+                [
+                  "size",
+                  3
+                ]
+              ]
+            }
+          ],
+          [
+            "status",
+            "counterexample"
+          ]
+        ]
+      }
+    ],
+    [
+      "toroidal_signed_fixture",
+      {
+        "$tuple": [
+          -1,
+          2,
+          3
+        ]
+      }
+    ]
+  ]
+}

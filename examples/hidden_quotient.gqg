@@ -1,0 +1,23 @@
+# Multiplication representation. Algebraic kernel is legal in CStar.
+# Completion is separately typed (localizable / Dedekind of the measure algebra).
+category CStar
+
+source B_X
+
+witness multiplication on B_X {
+    observation M : B_X -> B_L2
+}
+
+kernel K := alg_ker(M)
+
+quotient Linf_sf := B_X / K
+
+image Mbar := image(M)
+
+assert first_iso {
+    Linf_sf ~= Mbar
+}
+
+completion Linf_loc of Linf_sf {
+    type strictly_localizable
+}

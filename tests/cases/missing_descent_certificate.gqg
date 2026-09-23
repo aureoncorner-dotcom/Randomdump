@@ -1,0 +1,11 @@
+category Set
+source P
+witness W on P {
+ observation Omega : P -> Y
+}
+equivalence R := kernel_pair(Omega)
+quotient Q := P / R
+operation f : P -> P
+descend f through Q {
+ require x R y => f(x) R f(y)
+}

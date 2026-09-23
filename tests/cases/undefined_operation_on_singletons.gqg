@@ -1,0 +1,17 @@
+category Set
+source P
+carrier P {
+ elements 0 1
+}
+witness W on P {
+ observation Omega : P -> Y
+ eval x |-> x
+}
+equivalence R := kernel_pair(Omega)
+quotient Q := P / R
+operation f : P -> P {
+ 0 -> 0
+}
+descend f through Q {
+ search
+}

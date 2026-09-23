@@ -1,0 +1,20 @@
+{
+  "python": "3.12.14",
+  "tests": 29,
+  "success": true,
+  "failures": 0,
+  "errors": 0,
+  "exact_case_counts": {
+    "unary_descent": 3984,
+    "binary_descent": 33,
+    "refinement": 255,
+    "locus": 255,
+    "locus_product": 125,
+    "restriction": 175,
+    "witness_coarsening": 60,
+    "observation_refinement": 60,
+    "autonomous_refinement_models": 144,
+    "toroidal_fixtures": 432
+  },
+  "scope": "finite model regression checks; no external empirical replay or unbounded-domain theorem verification"
+}

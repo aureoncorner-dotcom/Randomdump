@@ -1,0 +1,25 @@
+# Parity witness on Z. Addition descends; the checker accepts DSC as proved.
+category Set
+
+source Z
+
+witness mod2 on Z {
+    observation Omega2 : Z -> Z2
+}
+
+equivalence R2 := kernel_pair(Omega2)
+
+quotient Q2 := Z / R2
+
+image I2 := image(Omega2)
+
+assert canonical_iso {
+    Q2 ~= I2
+}
+
+operation add : Z x Z -> Z
+
+descend add through Q2 {
+    require n R2 n' and m R2 m' => add(n,m) R2 add(n',m')
+    status proved
+}

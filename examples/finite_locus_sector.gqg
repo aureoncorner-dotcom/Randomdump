@@ -1,0 +1,34 @@
+# Tiny source-free toy: q is parity of winding. N_W(q) is nonempty.
+# This is not TD-COS-FH-001 and not a physical sector sample.
+category Set
+
+source D4
+
+carrier D4 {
+    elements 0 1 2 3
+}
+
+witness winding on D4 {
+    observation W : D4 -> Z
+    eval x |-> x
+}
+
+witness sector on D4 {
+    observation q : D4 -> Z2
+    eval x |-> x % 2
+}
+
+equivalence R_W := kernel_pair(W)
+equivalence R_q := kernel_pair(q)
+quotient Q_W := D4 / R_W
+quotient Q_q := D4 / R_q
+
+refine parity of Q_W onto Q_q
+
+locus W through q {
+    search
+}
+
+locus q through W {
+    search
+}

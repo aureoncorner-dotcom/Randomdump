@@ -1,0 +1,12 @@
+# Illegal: algebraic kernel rune in Set.
+category Set
+
+source P
+
+witness W on P {
+    observation Omega : P -> Y
+}
+
+kernel K := alg_ker(Omega)
+
+quotient Q := P / K
