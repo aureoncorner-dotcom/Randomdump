@@ -1,0 +1,52 @@
+id,v6_location,legacy_object,status,v7_home,rewrite_note
+S-001,Part 0 / document purpose,What this is / not,RETAIN,Part I,Keep modular reference-architecture framing; strengthen claim lanes and provenance.
+S-002,Part 0 / single-home rule,One home per concept,RETAIN,Part I,Preserves anti-drift structure.
+S-003,Part 0 / versioning,No silent core changes,RETAIN,Part I,Expanded to explicit supersession status.
+S-004,Part 0 / forkability,Every part may fork,RETAIN,"Parts I, IV, VIII, X",Fork becomes explicit repair and exit mechanism.
+S-005,Part I,O/R/S/T constitutional floor,DEPRECATE,Part II,Superseded by current dyadic admissibility floor.
+S-006,Part I,R as mediating membrane,DEPRECATE,Parts II–IV,"Relation becomes typed seam/route/service, not compulsory occupant."
+S-007,Part I,"Interaction(O,S) subset R",DEPRECATE,Part II,Direct O_D↔S_D contact is now constitutional.
+S-008,Part I,Multiplicative coherence scalar,DEPRECATE,Parts II–III,Current channels remain typed; no default common metric.
+S-009,Part I,Return is not repetition,RETAIN_TRANSFORM,Part III,Retain return distinction; add declared comparators and descent.
+S-010,Part I,Parallel sovereignty,RETAIN_TRANSFORM,"Parts II, IV, VIII",Direct dyadic floor + voluntary federation.
+S-011,Part I,Replaceability,RETAIN,"Parts II, IV, VII, VIII",Now testable through alternate path / succession.
+S-012,Part I,Anti-capture,TRANSFORM,"Parts III–V, VIII",Convert broad principle to observable tests.
+S-013,Part I,Anti-cathedral,RETAIN_TRANSFORM,"Parts I, X","Versioning, counter-witness, exit, fork."
+S-014,Part II CTA,"CTA is field notebook, not constitution",RETAIN,Part III,Core posture preserved.
+S-015,Part II CTA,Bypass = direct O→S,REVERSE,Part III,Direct contact is good; diagnose contact loss / mandatory seam instead.
+S-016,Part II CTA,Pinch / capture / drift / time collapse,TRANSFORM,Part III,Retain only as typed observable diagnostics with evidence boundary.
+S-017,Part II CTA,Observation / interpretation / inference / speculation,RETAIN,Part III,Expanded with coding and witness fidelity.
+S-018,Part II CTA,Counter-witness / null explanation,RETAIN,Part III,Still core audit discipline.
+S-019,Part III Commons,OSIIN knowledge,RETAIN_TRANSFORM,Part V,"Multi-repository, exportable, no central required repo."
+S-020,Part III Commons,UPRR resource coordination,TRANSFORM,Part V,Resource visibility only; allocation is separate governance.
+S-021,Part III Commons,UBT participation,TRANSFORM,Part V,Workload/capacity visibility; no contribution→standing.
+S-022,Part III Commons,"Ledger measures systems, not people",RETAIN,Part V,Strengthened privacy and system-health boundary.
+S-023,Part IV,Fixed Corner 5–12,HEURISTIC,Part X,No constitutional headcount.
+S-024,Part IV,Fixed Node 20–70,HEURISTIC,Part X,Scale is function-dependent.
+S-025,Part IV,Bridge chapter thin / unwritten,EXPAND,Part IV,Becomes major successor chapter.
+S-026,Part IV,Observe→Build→Repair→Learn→Document→Share→Repeat,RETAIN,"Parts IV, VII, X","Useful implementation rhythm, not theorem."
+S-027,Part IV,Builder question: continue without new dependence,RETAIN_TRANSFORM,"Parts IV, VII",Operationalized through dependency / replaceability tests.
+S-028,Part V,Universal 11-part infrastructure template,TRANSFORM,Part VI,"Expanded to maturity, safety, skill, redundancy, evidence."
+S-029,Part V,Water returns cleaner,TRANSFORM,Part VI,"Treat as design objective / comparator, not universal invariant."
+S-030,Part V,Basic sand/charcoal starter potable filter,DEPRECATE_AS_GENERIC_BUILD,Part VI,Potable treatment requires validated engineering/public-health design.
+S-031,Part VI Governance,Universal rotation,TRANSFORM,Parts VII–VIII,Replaceability/succession stronger than rotation alone.
+S-032,Part VI Governance,Children’s Seat,TRANSFORM,Part VIII,Long-horizon check; no permanent seat.
+S-033,Part VI Governance,Veto Geometry,TRANSFORM,Part VIII,"Bounded halt/review with standing, scope, expiry."
+S-034,Part VI Governance,Circle Governance,OPTIONAL,Part VIII,"Implementation option, not constitutional."
+S-035,Part VI Governance,CTA audits as governance mechanism,TRANSFORM,"Parts III, VIII",Diagnostic has no governing jurisdiction.
+S-036,Part VII Culture,Hearth / play / story / repair festivals,RETAIN_OPTIONAL,Part IX,Voluntary cultural modules.
+S-037,Part VII Culture,Official communal narrative risk,TRANSFORM,Part IX,Protect plural reflection and dissent.
+S-038,Part VIII Silicon,70% Rule,DEPRECATE,Part IX,Replace with domain-specific Offline Essential Function Coverage.
+S-039,Part VIII Silicon,No AI final authority,RETAIN,Part IX,Preserve tool/authority boundary.
+S-040,Part VIII Silicon,AI transparent about training/data,TRANSFORM,Part IX,Require disclosed limitations/provenance where available; don't assume proprietary transparency.
+S-041,Part IX Protocols,Open metadata / local-first / offline,RETAIN_TRANSFORM,"Parts V, IX",Keep interoperability and graceful degradation.
+S-042,Part IX Protocols,Community validation replaces gatekept certification,TRANSFORM,"Parts VI, X",Community testing cannot replace regulated safety certification where required.
+S-043,Historical,Toroidal Stability civilizational geometry,HISTORICAL_EXPERIMENTAL,"Parts III, VI",Use only domain-specific flow/return comparators.
+S-044,Historical,Livingism,HISTORICAL_EXCLUDED,Part I / archive,No live authority in v7.
+S-045,WAT,Multiple water pathways,RETAIN_EXPERIMENTAL,Part VI,Useful modular water architecture; requires engineering validation.
+S-046,WAT,Time→water credits / repair priority,TRANSFORM,Part V,No contribution→standing or basic-access entitlement by default.
+S-047,WAT,Copyleft+deed+transparency makes capture impossible,DEPRECATE_ABSOLUTE,"Parts V, VIII",Convert to measurable anti-capture mechanisms.
+S-048,Successor tests,Maintenance as first-class variable,NEW_EARNED_CANDIDATE,Part VII,Repeated stress-test discriminator; remains model-internal until empirical validation.
+S-049,Successor tests,Source redundancy as first-class variable,NEW_EARNED_CANDIDATE,Part VI,No sacred source count; capacity/failure-mode dependent.
+S-050,Successor tests,Residual autonomous dynamics,UNRESOLVED,Part III,Do not assume R_{n+1}=F(R_n) without descent.
+S-051,New,Prime Numbers exact lane,NEW,Part XI,Exact math separated from correspondence claims.
