@@ -1,0 +1,13 @@
+@echo off
+setlocal
+cd /d "%~dp0"
+where python >nul 2>nul
+if errorlevel 1 (
+  echo Python was not found in PATH.
+  echo Install Python 3.10 or newer, then run this file again.
+  pause
+  exit /b 1
+)
+python route_guard.py
+echo.
+pause

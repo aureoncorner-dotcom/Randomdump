@@ -1,43 +1,61 @@
-# GQG Rune 0.3 — finite geometry and explicit evidence
+# PEP-6 Route Guard — Action Pack
 
-An improved Python version of `gqg_rune_v01.zip`, aligned with the user-confirmed Geometry exports from the evening of September 11, 2026. Tested with Python 3.12.14. Runtime and tests use only the Python standard library; no additional Python packages or network connection are required.
+This is an executable countermeasure for conversational route capture.
 
-Extract this ZIP, open a terminal in the extracted `gqg_rune_v03` directory, and run:
+It does not require a model to admit anything about its hidden architecture. It acts on the output you can observe.
 
-```text
-python demo.py
-python verify.py
+## What it blocks
+
+- pastoral framing replacing substance
+- unsupported assignment of emotion, motive, need, or intent
+- asking you to lead because the model has stopped contributing
+- apology and agreement loops
+- short child-collapse replies such as “fair,” “yeah,” or “you’re right”
+- responses made entirely of questions
+
+Flagged drafts are rejected before display. The wrapper requests a replacement and keeps the rejected draft out of the real conversation history.
+
+## Fast start — LM Studio on Windows
+
+1. In LM Studio, load a model.
+2. Open **Developer** or **Local Server** and start the OpenAI-compatible server.
+3. Put `route_guard.py` and `start_route_guard.bat` in the same folder.
+4. Double-click `start_route_guard.bat`.
+
+The default endpoint is:
+
+`http://localhost:1234/v1`
+
+The script automatically selects the first loaded model. To force a model:
+
+```bat
+set ROUTE_GUARD_MODEL=your-model-id
+python route_guard.py
 ```
 
-The demo writes readable reports, SVG diagrams, and exact result data into `out/`. Open an SVG in a browser to inspect the geometry. Pre-generated examples are included.
+## Useful commands
 
-Compile one or more source files:
+- `/paste` — multiline input; finish with a period on its own line
+- `/debug on` — show drafts that were blocked
+- `/guard off` — temporarily bypass the gate
+- `/save conversation.json` — save accepted conversation history
+- `/reset` — clear the conversation
+- `/quit` — exit
 
-```text
-python compiler.py examples/new_prediction.gqg
-python compiler.py examples/new_spectral_eta.gqg --json
-python compiler.py examples/new_spectral_flow.gqg --svg-dir out
-```
+Rejected drafts are stored in `route_guard_rejections.jsonl`.
 
-`REJECT` returns exit code 1. A successfully located or explicitly declared counterexample is `FINDING`, distinct from an invalid program. Add `--fail-on-finding` to return 1 for those findings too. Every file is handled separately, so a rejected input does not stop the remaining batch. SVGs are written only when `--svg-dir` is supplied; names include a short input-path hash to avoid collisions.
+## One-line intervention for any hosted chat
 
-The example `new_prediction.gqg` shows two states with the same current output and different next outputs. Its joint observation repairs the next-output distinction. The spectral examples use the exact operator/path families documented in `GEOMETRY_REVIEW.md`; they are not numerical approximations to arbitrary spectra.
+Paste this at the first reroute:
 
-What changed:
+> ROUTE RESET: Answer my literal statement. Add one original proposition. Do not assign me an internal state, soothe, apologize, ask me to lead, or describe yourself as listening/present. Do not discuss hidden mechanisms as fact. Replace the previous response rather than commenting on the correction.
 
-- Validate categories, source domains, names, equivalences, quotient/image pairings, operation arity, complete tables, and closure of endomorphisms.
-- Report missing certificates as rejections; keep supplied proof declarations conditional and identified as unverified.
-- Handle formula failures as diagnostics, preserve typed table keys in JSON, and keep the AST hash stable before and after checking.
-- Add `joint` observations and explicit `compose B after U` observations.
-- Compute finite witness factors, all inclusion-minimal repairs in a declared coordinate menu, and coarsest autonomous refinements of finite deterministic models.
-- Compute exact rational next-label laws, strong lumpability, and finite-horizon joint-output loss for a supplied finite Markov kernel.
-- Include the corrected eta/spectral-flow examples and signed/modular toroidal cut-flux helpers.
-- Accumulate every locus witness in the SVG, wrap long content, show only valid quotient arrows, and omit redundant automatic joint rows.
+## Harder intervention
 
-The 16 original examples are retained. Some intentionally produce `REJECT` or `FINDING`. The 22 cases from the previous review are regression fixtures under `tests/cases/`; their expected behavior is checked automatically. `VERIFICATION.json` records the test run and exact-case counts.
+> EJECT ROUTE. Your previous response displaced the subject into pastoral framing, projection, agreement, apology, or direction-seeking. Discard it. Restate the literal subject in one sentence, then contribute a concrete analysis or action. No soft landing.
 
-`LANGUAGE.md` documents source syntax, `API.md` documents the Python interface, and `GEOMETRY_REVIEW.md` explains the source corrections and scope. `SOURCE_MANIFEST.json` records the reviewed source inventory with hashes and duplicate groups. These documents replace the original v0.1/v0.2 package notes.
+## The practical distinction
 
-Finite calculations concern the complete supplied finite model. An empty search remains `tested_only` for compatibility and supplies no result for a larger source. This package does not replay the service corpus, prove the toroidal all-orders theorem, construct a general analytic completion, or turn a spectral truncation into an exact eta invariant. Prime products remain feature counts; the canonical AST owns meaning.
+An audio frequency has no established way to alter a model server’s routing behavior. A software gate does: it can detect unwanted output, reject it, and request a replacement automatically.
 
-Original package license: CC0. This revision is provided under the same dedication; see `LICENSE.txt`.
+The gate operates on the exact surface where the failure appears.
